@@ -1,0 +1,499 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = ParisStories_2021_soireeHalloweenGrange_1
+# text = on est arrivé, euh, on est arrivé, euh, dans, dans la campagne près d'un champ, de ce que je me souviens.
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	reparandum	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	dans	dans	ADP	_	_	9	dep	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	dans	dans	ADP	_	_	17	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	13	reparandum	_	_
+18	près	près	ADV	_	_	17	reparandum	_	_
+19	d'	d'	ADP	_	_	21	case	_	SpaceAfter=No
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	champ	champagne	NOUN	_	Gender=Masc|Number=Sing	18	dep	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	obl:mod	_	_
+25	que	que	PRON	_	PronType=Rel	28	obj	_	_
+26	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+27	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+28	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_2
+# text = et, euh, d'un coup, y a des, mh, des hommes avec, euh, des fausses tronçonneuses et des chiens qui sont mis à nous poursuivre.
+1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	10	punct	_	_
+3	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	d'	d'	ADP	_	_	7	case	_	SpaceAfter=No
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	10	iobj	_	_
+10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	mh	mh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	reparandum	_	_
+16	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+17	avec	avec	ADP	_	_	23	case	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	23	punct	_	_
+19	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
+22	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+23	tronçonneuses	tronçonneuses	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+24	et	et	CCONJ	_	_	26	cc	_	_
+25	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+26	chiens	chiens	NOUN	_	Gender=Masc|Number=Plur	23	acl:relcl	_	_
+27	qui	qui	PRON	_	PronType=Rel	29	nsubj	_	_
+28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+30	à	à	ADP	_	_	32	mark	_	_
+31	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	32	obj	_	_
+32	poursuivre	poursuivre	VERB	_	VerbForm=Inf	29	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_3
+# text = donc, du coup, on a couru, euh, tout le chemin et tout.
+1	donc	donc	ADV	_	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	du	du	ADP	_	_	4	case	_	_
+4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	tout	tout	ADV	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_4
+# text = et on a atterri, euh, on a atterri dans, près d'une grange.
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	atterri	atterrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	atterri	atterrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	reparandum	_	_
+11	dans	dans	ADP	_	_	10	dep	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	près	près	ADV	_	_	11	reparandum	_	_
+14	d'	d'	ADP	_	_	16	case	_	SpaceAfter=No
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	grange	grange	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_5
+# text = il me semble dans mon souvenir, il m'a ~.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dans	dans	ADP	_	_	6	case	_	_
+5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
+6	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No
+10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	~	~	X	_	_	10	obl:mod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_6
+# text = et on est rentré dedans.
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj:pass	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	rentré	rentrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	dedans	dedans	ADV	_	_	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_7
+# text = ils nous ont enfermés dedans et ils nous ont expliqué, euh, l'histoire d'un massacre qui avait eu lieu, euh, dans ce lieu.
+1	ils	il	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	enfermés	enfermer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	dedans	dedans	ADV	_	_	4	advmod	_	_
+6	et	et	CCONJ	_	_	10	cc	_	_
+7	ils	il	PRON	_	Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+8	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+16	d'	d'	ADP	_	_	18	case	_	SpaceAfter=No
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	massacre	massacre	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
+20	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+22	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	28	punct	_	_
+24	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	dans	dans	ADP	_	_	28	case	_	_
+27	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_8
+# text = euh, ensuite on est ressorti et on a été, euh, mis dans, dans un transporteur à bovins, et on a traversé tout un champ.
+1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ensuite	ensuite	ADV	_	_	6	advmod	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ressorti	ressortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	et	et	CCONJ	_	_	14	cc	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj:pass	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+10	été	être	AUX	_	_	14	aux	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+15	dans	dans	ADP	_	_	14	iobj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	dans	dans	ADP	_	_	19	case	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	transporteur	transporteur	NOUN	_	Gender=Masc|Number=Sing	15	reparandum	_	_
+20	à	à	ADP	_	_	21	case	_	_
+21	bovins	bovin	NOUN	_	Gender=Masc|Number=Plur	19	obl:arg	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	14	punct	_	_
+23	et	et	CCONJ	_	_	26	cc	_	_
+24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	nsubj	_	_
+25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	traversé	traverser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+27	tout	tout	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	champ	champagne	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_9
+# text = euh, et on a atterri, euh, dans un cimetière.
+1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	et	et	CCONJ	_	_	6	cc	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	atterri	atterrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	dans	dans	ADP	_	_	12	case	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	cimetière	cimetière	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_soireeHalloweenGrange_10
+# text = et, euh, là dans un cimetière, y avait, euh, y avait, euh, une, mh, un trou, euh, pour où, là où on met les cercueils et cetera, où, où il y avait pas encore, euh, de cercueil de mis.
+1	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	là	là	ADV	_	_	11	advmod	_	_
+6	dans	dans	ADP	_	_	8	case	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cimetière	cimetière	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	iobj	_	_
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	y	y	PRON	_	Person=3|PronType=Prs	16	iobj	_	_
+16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	dep:comp	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	mh	mh	INTJ	_	_	20	discourse	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	trou	trou	NOUN	_	Gender=Masc|Number=Sing	20	reparandum	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	pour	pour	ADP	_	_	30	case	_	_
+30	où	où	PRON	_	PronType=Rel	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	là	là	ADV	_	_	30	reparandum	_	_
+33	où	où	PRON	_	PronType=Rel	35	advcl	_	_
+34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	nsubj	_	_
+35	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+36	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
+37	cercueils	cercueil	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
+38	et	et	CCONJ	_	_	39	case	_	_
+39	cetera	cetera	ADV	_	_	37	discourse	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	46	punct	_	_
+41	où	où	PRON	_	PronType=Rel	46	obl:mod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	où	où	PRON	_	PronType=Rel	41	reparandum	_	_
+44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	expl:subj	_	_
+45	y	y	PRON	_	Person=3|PronType=Prs	46	dep:comp	_	_
+46	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+47	pas	pas	ADV	_	_	48	advmod	_	_
+48	encore	encore	ADV	_	_	46	advmod	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	euh	euh	INTJ	_	_	48	discourse	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	53	punct	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	cercueil	cercueil	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	_
+54	de	de	ADP	_	_	55	mark	_	_
+55	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	ccomp	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_11
+# text = et y avait un ~ un homme, qui racontait que, que sa fille avait été tuée, euh, et, euh, voilà, qu'elle avait été, euh, assassinée et cetera.
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	iobj	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	~	~	PUNCT	_	Typo=Yes	4	dep	_	Scrap=Yes
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	reparandum	_	_
+7	homme	homme	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+10	racontait	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+11	que	que	SCONJ	_	_	10	dep:comp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	18	punct	_	_
+13	que	que	SCONJ	_	_	18	mark	_	_
+14	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	15	det	_	_
+15	fille	fille	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+17	été	être	AUX	_	_	18	aux:pass	_	_
+18	tuée	tuer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	reparandum	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	et	et	CCONJ	_	_	18	conj	_	Scrap=Yes|SpaceAfter=No
+23	,	,	PUNCT	_	_	35	punct	_	_
+24	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	voilà	voilà	VERB	_	_	35	discourse	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	qu'	qu'	SCONJ	_	_	35	mark	_	SpaceAfter=No
+29	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj:pass	_	_
+30	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+31	été	être	AUX	_	_	35	aux:pass	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	35	punct	_	_
+33	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	assassinée	assassiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	_
+36	et	et	CCONJ	_	_	35	reparandum	_	_
+37	cetera	cetera	ADV	_	_	36	goeswith	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_12
+# text = ~ fin d ~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
+1	~	~	X	_	Typo=Yes	2	dep	_	Scrap=Yes
+2	fin	fin	ADV	_	_	3	discourse	_	_
+3	d	d	ADP	_	_	0	root	_	_
+4	~	~	X	_	Typo=Yes	3	dep	_	Scrap=Yes|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	reparandum	_	_
+8	que	que	PRON	_	PronType=Rel	11	obj	_	_
+9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	ai	avoir	AUX	_	_	11	aux	_	_
+11	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	mark	_	ExtPos=SCONJ|Idiom=Yes
+14	que	que	SCONJ	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+18	pas	pas	ADV	_	_	17	advmod	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	experte	expert	NOUN	_	Gender=Fem|Number=Sing	17	xcomp	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	anglais	anglais	NOUN	_	Gender=Masc	17	obl:mod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_13
+# text = mais du coup, hum, voilà, il nous a expliqué ça.
+1	mais	mais	CCONJ	_	_	12	cc	_	_
+2	du	du	ADP	_	_	3	case	_	_
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	hum	hum	INTJ	_	_	12	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	voilà	voilà	VERB	_	_	12	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_14
+# text = ensuite, on a, on a atterri, euh, dans un lieu où, euh, où on a eu, y avait des clowns tueurs de ce que je me souviens, euh, voilà, qui essayaient de nous effrayer.
+1	ensuite	ensuite	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	atterri	atterrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	dans	dans	ADP	_	_	14	case	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
+15	où	où	PRON	_	PronType=Rel	22	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	où	où	PRON	_	PronType=Rel	15	reparandum	_	_
+20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	y	y	PRON	_	Person=3|PronType=Prs	25	iobj	_	_
+25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	reparandum	_	_
+26	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
+27	clowns	clown	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
+28	tueurs	tueur	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	obl:mod	_	_
+31	que	que	PRON	_	PronType=Rel	34	obj	_	_
+32	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+33	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	34	iobj	_	_
+34	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	voilà	voilà	VERB	_	_	34	discourse	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	_
+40	qui	qui	PRON	_	PronType=Rel	41	nsubj	_	_
+41	essayaient	essayer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+42	de	de	ADP	_	_	44	mark	_	_
+43	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	44	obj	_	_
+44	effrayer	effrayer	VERB	_	VerbForm=Inf	41	xcomp	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_15
+# text = et on est tombé aussi sur, euh, Lady Gaga, euh, version vieille, euh, qui, qui tremblait qui, qui était apeurée et, euh, qui avait l'air d'être un peu une sorcière, et tout, qui nous balançait des, des, des choses, euh, dessus.
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	tombé	tomber	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	aussi	aussi	ADV	_	_	4	advmod	_	_
+6	sur	sur	ADP	_	_	10	case	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Lady	Lady	PROPN	_	_	4	obl:arg	_	_
+11	Gaga	Gaga	PROPN	_	_	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	version	version	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+16	vieille	vieux	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	qui	qui	PRON	_	PronType=Rel	23	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	qui	qui	PRON	_	PronType=Rel	20	reparandum	_	_
+23	tremblait	trembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+24	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	qui	qui	PRON	_	PronType=Rel	24	reparandum	_	_
+27	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+28	apeurée	apeuré	ADJ	_	Gender=Fem|Number=Sing	23	conj	_	_
+29	et	et	CCONJ	_	_	34	cc	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	34	punct	_	_
+31	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	qui	qui	PRON	_	PronType=Rel	34	nsubj	_	_
+34	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	conj	_	_
+35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	air	air	NOUN	_	Gender=Masc|Number=Sing	34	obj:lvc	_	_
+37	d'	d'	ADP	_	_	42	mark	_	SpaceAfter=No
+38	être	être	AUX	_	_	42	cop	_	_
+39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+40	peu	peu	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	sorcière	sorcière	NOUN	_	Gender=Fem|Number=Sing	36	ccomp	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	et	et	CCONJ	_	_	45	cc	_	_
+45	tout	tout	PRON	_	Gender=Masc|Number=Sing	42	discourse	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	49	punct	_	_
+47	qui	qui	PRON	_	PronType=Rel	49	nsubj	_	_
+48	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	49	iobj	_	_
+49	balançait	balancer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	conj	_	_
+50	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	55	det	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	50	reparandum	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	54	punct	_	_
+54	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	52	reparandum	_	_
+55	choses	chose	NOUN	_	Gender=Fem|Number=Plur	49	obj	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	59	punct	_	_
+57	euh	euh	INTJ	_	_	59	discourse	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	59	punct	_	_
+59	dessus	dessus	ADV	_	_	49	iobj	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_soireeHalloweenGrange_16
+# text = et, euh, et, euh, ouais, qui nous disait d'être effrayés, et qu'il fallait qu'on fuie et cetera.
+1	et	Et	CCONJ	_	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	et	et	CCONJ	_	_	1	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	13	punct	_	_
+7	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ouais	ouais	INTJ	_	_	13	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
+12	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+13	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	d'	d'	ADP	_	_	16	mark	_	SpaceAfter=No
+15	être	être	AUX	_	_	16	aux:pass	_	_
+16	effrayés	effrayer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	et	et	CCONJ	_	_	21	cc	_	_
+19	qu'	qu'	SCONJ	_	_	21	mark	_	SpaceAfter=No
+20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
+22	qu'	qu'	SCONJ	_	_	24	mark	_	SpaceAfter=No
+23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	_
+24	fuie	fuir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+25	et	et	CCONJ	_	_	24	conj	_	_
+26	cetera	cetera	ADV	_	_	25	flat	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	_
+

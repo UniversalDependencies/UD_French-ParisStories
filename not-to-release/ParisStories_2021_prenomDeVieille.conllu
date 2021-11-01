@@ -1,0 +1,833 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = ParisStories_2021_prenomDeVieille_1
+# text = donc, euh, ce que je voulais te raconter c'est, le, euh, la fois où, où j'ai rencontré ma meilleure copine actuelle, qui s'appelle Cynthia.
+1	donc	donc	ADV	_	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	dislocated	_	_
+6	que	que	PRON	_	PronType=Rel	10	obj	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	voulais	vouloir	VERB	_	_	5	acl:relcl	_	_
+9	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	10	iobj	_	_
+10	raconter	raconter	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	_
+19	fois	fois	NOUN	_	Gender=Fem	12	conj	_	_
+20	où	où	PRON	_	PronType=Rel	25	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	où	où	PRON	_	PronType=Rel	20	reparandum	_	_
+23	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	SpaceAfter=No
+24	ai	avoir	AUX	_	_	25	aux	_	_
+25	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+26	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	28	det	_	_
+27	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+28	copine	copine	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+29	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	qui	qui	PRON	_	PronType=Rel	33	nsubj	_	_
+32	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	33	dep:comp	_	SpaceAfter=No
+33	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+34	Cynthia	Cynthia	PROPN	_	_	33	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_2
+# text = donc j'étais en seconde, j'entrais en seconde, euh, au lycée, dans un nouveau lycée.
+1	donc	donc	ADV	_	_	5	advmod	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	en	en	ADP	_	_	5	case	_	_
+5	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+8	entrais	entrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	reparandum	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	au	au	ADP	_	_	15	case	_	_
+15	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	dans	dans	ADP	_	_	20	case	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	15	reparandum	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_3
+# text = et j'étais avec ma maman, on était dans la salle d'attente, euh, du secrétariat, on attendait de, notre tour, pour, euh, pour s'inscrire, pour, euh, rendre les papiers.
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	avec	avec	ADP	_	_	6	case	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
+6	maman	maman	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+10	dans	dans	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	salle	salle	NOUN	_	Gender=Fem|Number=Sing	3	reparandum	_	_
+13	d'	d'	ADP	_	_	14	case	_	SpaceAfter=No
+14	attente	attente	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	du	du	ADP	_	_	19	case	_	_
+19	secrétariat	secrétariat	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	12	punct	_	_
+21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
+22	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+23	de	de	ADP	_	_	22	dep	_	Scrap=Yes|SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	26	det	_	_
+26	tour	tour	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	pour	pour	ADP	_	_	26	dep	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	34	punct	_	_
+30	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	pour	pour	ADP	_	_	34	mark	_	_
+33	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	34	obj	_	SpaceAfter=No
+34	inscrire	inscrire	VERB	_	VerbForm=Inf	28	reparandum	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	40	punct	_	_
+36	pour	pour	ADP	_	_	40	mark	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	40	punct	_	_
+38	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	rendre	rendre	VERB	_	VerbForm=Inf	34	reparandum	_	_
+41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+42	papiers	papiers	NOUN	_	Gender=Masc|Number=Plur	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_4
+# text = et, dans cette même salle d'attente, il y avait donc, euh, cette fille, Cynthia, avec sa mère et son petit frère.
+1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	12	punct	_	_
+3	dans	dans	ADP	_	_	6	case	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	même	même	ADJ	_	Number=Sing	6	amod	_	_
+6	salle	salle	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
+7	d'	d'	ADP	_	_	8	case	_	SpaceAfter=No
+8	attente	attente	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	dep:comp	_	_
+11	y	y	PRON	_	Person=3|PronType=Prs	12	iobj	_	_
+12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	donc	donc	ADV	_	_	12	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	fille	fille	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	Cynthia	Cynthia	PROPN	_	_	18	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	avec	avec	ADP	_	_	24	case	_	_
+23	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	24	det	_	_
+24	mère	mère	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+25	et	et	CCONJ	_	_	28	cc	_	_
+26	son	son	DET	_	Gender=Masc|Number=Sing	28	det	_	_
+27	petit	petit	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+28	frère	frère	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_5
+# text = je m'en souviens très bien parce que son petit frère, euh, il était dans la poussette.
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	dep:comp	_	SpaceAfter=No
+3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	_
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	très	très	ADV	_	_	6	advmod	_	_
+6	bien	bien	ADV	_	_	4	advmod	_	_
+7	parce	parce	SCONJ	_	_	19	mark	_	ExtPos=SCONJ|Idiom=Yes
+8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes
+9	son	son	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	frère	frère	NOUN	_	Gender=Masc|Number=Sing	19	dislocated	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+17	dans	dans	ADP	_	_	19	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	poussette	poussette	NOUN	_	Gender=Fem|Number=Sing	4	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_6
+# text = c'était un bébé.
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_7
+# text = et il pleurait.
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	pleurait	pleurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_8
+# macrosyntax = et personne [ mh ouais ] n'aime les bébés, qui pleurent, entendre les bébés pleurer, euh, euh, que ce soit dans l'avion, euh, dans la salle d'attente du docteur.
+# speaker = L1
+# text = et personne n'aime les bébés, qui pleurent, entendre les bébés pleurer, euh, euh, que ce soit dans l'avion, euh, dans la salle d'attente du docteur.
+1	et	et	CCONJ	_	_	2	cc	_	_
+2	personne	personne	PRON	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	n'	n'	ADV	_	_	4	advmod	_	SpaceAfter=No
+4	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	bébés	bébés	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+9	pleurent	pleurer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	entendre	entendre	VERB	_	VerbForm=Inf	6	reparandum	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	bébés	bébés	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14	pleurer	pleurer	VERB	_	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	25	punct	_	_
+16	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	que	que	SCONJ	_	_	25	mark	_	_
+21	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	nsubj	_	_
+22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	dans	dans	ADP	_	_	25	case	_	_
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	avion	avion	NOUN	_	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	31	punct	_	_
+27	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	dans	dans	ADP	_	_	31	case	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	salle	salle	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
+32	d'	d'	ADP	_	_	33	case	_	SpaceAfter=No
+33	attente	attente	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	du	du	ADP	_	_	35	case	_	_
+35	docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_9
+# macrosyntax = et personne [ mh ouais ] n'aime les bébés, qui pleurent, entendre les bébés pleurer, euh, euh, que ce soit dans l'avion, euh, dans la salle d'attente du docteur.
+# speaker = L2
+# text = mh ouais.
+1	mh	mh	INTJ	_	_	2	discourse	_	_
+2	ouais	ouais	INTJ	_	_	0	root	_	AttachTo=2@ParisStories_2021_prenomDeVieille_8|Rel=discourse|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_10
+# speaker = L2
+# text = je suis d'accord.
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	d'	d'	ADP	_	_	4	case	_	SpaceAfter=No
+4	accord	accord	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_11
+# text = et, euh, j'attendais, donc, mon tour.
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+6	attendais	attendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	donc	donc	ADV	_	_	6	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
+11	tour	tour	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_12
+# text = on est passé.
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_13
+# macrosyntax = euh, je suis allée tout de suite, euh, après en cours, et, en fait, je me souviens que j'avais raté, euh, les trois premiers jours de la rentrée parce que j'avais pas, j'avais pas trouvé de lycée, j'avais déménagé [ ouais ] et [ ouais ] il fallait m'affecter au lycée du quartier.
+# text = euh, je suis allée tout de suite, euh, après en cours, et, en fait, je me souviens que j'avais raté, euh, les trois premiers jours de la rentrée parce que j'avais pas, j'avais pas trouvé de lycée, j'avais déménagé et il fallait m'affecter au lycée du quartier.
+1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	tout	tout	ADV	_	_	8	advmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	suite	suite	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	après	après	ADV	_	_	5	advmod	_	_
+13	en	en	ADP	_	_	14	case	_	_
+14	cours	cours	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	23	punct	_	_
+16	et	et	CCONJ	_	_	23	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	discourse	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	23	dep:comp	_	_
+23	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+24	que	que	SCONJ	_	_	27	mark	_	_
+25	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	SpaceAfter=No
+26	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	ccomp	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	34	punct	_	_
+29	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+32	trois	trois	NUM	_	_	33	nummod	_	_
+33	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
+34	jours	jours	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	rentrée	rentrée	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+38	parce	parce	SCONJ	_	_	27	dep	_	_
+39	que	que	SCONJ	_	_	41	mark	_	_
+40	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	41	nsubj	_	SpaceAfter=No
+41	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	38	dep	_	_
+42	pas	pas	ADV	_	_	41	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	47	punct	_	_
+44	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	47	nsubj	_	SpaceAfter=No
+45	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	47	aux	_	_
+46	pas	pas	ADV	_	_	47	advmod	_	_
+47	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	reparandum	_	_
+48	de	de	DET	_	_	49	det	_	_
+49	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	47	obj	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	53	punct	_	_
+51	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	53	nsubj	_	SpaceAfter=No
+52	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	53	aux	_	_
+53	déménagé	déménager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	conj	_	_
+54	et	et	CCONJ	_	_	56	cc	_	_
+55	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
+56	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	47	conj	_	_
+57	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	58	obj	_	SpaceAfter=No
+58	affecter	affecter	VERB	_	VerbForm=Inf	56	ccomp	_	_
+59	au	au	ADP	_	_	60	case	_	_
+60	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	58	obl:arg	_	_
+61	du	du	ADP	_	_	62	case	_	_
+62	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	5	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_13bis
+# speaker = L2
+# macrosyntax = euh, je suis allée tout de suite, euh, après en cours, et, en fait, je me souviens que j'avais raté, euh, les trois premiers jours de la rentrée parce que j'avais pas, j'avais pas trouvé de lycée, j'avais déménagé [ ouais ] et [ ouais ] il fallait m'affecter au lycée du quartier.
+# text = ouais, ouais.
+1	ouais	ouais	INTJ	_	_	0	root	_	AttachTo=52@ParisStories_2021_prenomDeVieille_13|Rel=discourse|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	ouais	ouais	INTJ	_	_	1	reparandum	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_14
+# text = donc j'avais raté déjà trop de cours, donc j'y suis allée, tout de suite après.
+1	donc	donc	ADV	_	_	4	discourse	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	déjà	déjà	ADV	_	_	4	advmod	_	_
+6	trop	trop	ADV	_	_	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	cours	cours	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	donc	donc	ADV	_	_	14	cc	_	_
+11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+12	y	y	PRON	_	Person=3|PronType=Prs	14	obj	_	_
+13	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	tout	tout	ADV	_	_	18	advmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	suite	suite	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
+19	après	après	ADV	_	_	14	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_15
+# text = donc j'étais la nouvelle, euh.
+1	donc	donc	ADV	_	_	5	discourse	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_15bis
+# text = tout le monde me posait des questions.
+1	tout	tout	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	monde	monde	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	posait	poser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
+7	questions	question	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_16
+# text = ah, tu es, tu t'appelles comment?
+1	ah	ah	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+7	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	obj	_	SpaceAfter=No
+8	appelles	appeller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
+9	comment	comment	ADV	_	_	8	obj	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	4	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_17
+# text = tu viens d'où?
+1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	viens	venir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	d'	d'	ADP	_	_	4	case	_	SpaceAfter=No
+4	où	où	ADV	_	_	2	obl:arg	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_18
+# text = etcetera.
+1	etcetera	etcetera	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_prenomDeVieille_19
+# text = et, euh, donc, voilà, je me suis fait des amis, tout de suite.
+1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	12	punct	_	_
+3	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	donc	donc	ADV	_	_	12	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	voilà	voilà	VERB	_	_	12	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj:pass	_	_
+10	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	amis	ami	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	tout	tout	ADV	_	_	18	advmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	suite	suite	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_20
+# text = et euh la journée se passe, ça se passe très bien.
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	euh	euh	INTJ	_	_	6	discourse	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	journée	journée	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	dep	_	_
+6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+9	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	dep	_	_
+10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
+11	très	très	ADV	_	_	12	advmod	_	_
+12	bien	bien	ADV	_	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_21
+# text = et le lendemain, je retourne en classe.
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	classe	classe	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_22
+# text = donc, euh, j'avais mon emploi du temps et tout ça.
+1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+6	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
+8	emploi	emploi	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	du	du	ADP	_	_	10	case	_	_
+10	temps	temps	NOUN	_	Gender=Masc	8	nmod	_	_
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_23
+# text = je retourne en classe.
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	retourne	retourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	classe	classe	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_24
+# text = et devant la salle, je me souviens, on avait physique et devant la salle, je vois cette fille, que j'avais vue hier.
+1	et	et	CCONJ	_	_	19	cc	_	_
+2	devant	devant	ADP	_	_	4	case	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	salle	salle	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis:parenth	_	_
+12	physique	physique	NOUN	_	Number=Sing	11	obj	_	_
+13	et	et	CCONJ	_	_	16	cc	_	_
+14	devant	devant	ADP	_	_	16	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	salle	salle	NOUN	_	Gender=Fem|Number=Sing	4	reparandum	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	fille	fille	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	que	que	PRON	_	PronType=Rel	26	obj	_	_
+24	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
+25	avais	avoir	AUX	_	_	26	aux	_	_
+26	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+27	hier	hier	ADV	_	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_25
+# text = et je lui ai demandé, du coup, si c'était bien elle, que j'avais vue, si c'était bien elle, dont le petit frère nous cassait les oreilles, elle m'a dit que oui.
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	ai	avoir	AUX	_	_	5	aux	_	_
+5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	du	du	ADP	_	_	8	case	_	_
+8	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	si	si	SCONJ	_	_	14	mark	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	bien	bien	ADV	_	_	14	advmod	_	_
+14	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	que	que	PRON	_	PronType=Rel	19	obj	_	_
+17	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
+18	avais	avoir	AUX	_	_	19	aux	_	_
+19	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl:cleft	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	si	si	SCONJ	_	_	23	mark	_	_
+22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	SpaceAfter=No
+23	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
+24	bien	bien	ADV	_	_	23	advmod	_	_
+25	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	xcomp	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	32	punct	_	_
+27	dont	dont	PRON	_	PronType=Rel	30	nmod	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	petit	petit	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	frère	frère	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
+31	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	32	iobj	_	_
+32	cassait	casser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	ccomp	_	_
+33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
+34	oreilles	oreille	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	5	punct	_	_
+36	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+37	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	39	iobj	_	SpaceAfter=No
+38	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+39	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+40	que	que	SCONJ	_	_	39	dep:comp	_	_
+41	oui	oui	ADV	_	_	40	discourse	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_26
+# text = et de là on a fait connaissance.
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	là	là	ADV	_	_	6	advmod	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	connaissance	connaissance	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_27
+# text = et elle m'a dit qu'elle s'appelait Cynthia, et là je l'ai regardée.
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	qu'	qu'	SCONJ	_	_	9	mark	_	SpaceAfter=No
+7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	dep	_	SpaceAfter=No
+9	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+10	Cynthia	Cynthia	PROPN	_	_	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	17	punct	_	_
+12	et	et	CCONJ	_	_	17	cc	_	_
+13	là	là	ADV	_	_	17	advmod	_	_
+14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+16	ai	avoir	AUX	_	_	17	aux	_	_
+17	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_28
+# text = et je lui ai dit c'est un peu un prénom de vieille!
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	ai	avoir	AUX	_	_	5	aux	_	_
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	Reported=Yes
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	ExtPos=ADV|Idiom=Yes
+9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	vieille	vieux	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_29
+# text = du coup, elle s'est vraiment vexée.
+1	du	du	ADP	_	_	2	case	_	_
+2	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+7	vraiment	vraiment	ADV	_	_	8	advmod	_	_
+8	vexée	vexer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_30
+# text = donc on n'a pas été amies tout de suite.
+1	donc	donc	ADV	_	_	7	advmod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
+3	n'	n'	ADV	_	_	7	advmod	_	SpaceAfter=No
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	pas	pas	ADV	_	_	7	advmod	_	_
+6	été	être	AUX	_	_	7	cop	_	_
+7	amies	amie	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+8	tout	tout	ADV	_	_	10	advmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_31
+# text = elle, euh, restait avec une autre fille.
+1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	avec	avec	ADP	_	_	9	case	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	autre	autre	ADJ	_	Number=Sing	9	amod	_	_
+9	fille	fille	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_32
+# text = moi, je restais avec d'autres personnes dans la classe et cetera.
+1	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	restais	rester	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	avec	avec	ADP	_	_	8	case	_	_
+6	d'	d'	ADP	_	_	8	case	_	SpaceAfter=No
+7	autres	autre	ADJ	_	Number=Plur	8	amod	_	_
+8	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
+9	dans	dans	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	classe	classe	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
+12	et	et	CCONJ	_	_	11	conj	_	_
+13	cetera	cetera	ADV	_	_	12	goeswith	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_33
+# text = et puis, en fait, euh, finalement, ben, on s'est rapprochées.
+1	et	et	CCONJ	_	_	16	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	16	punct	_	_
+4	en	en	ADP	_	_	16	discourse	_	ExtPos=ADV|Idiom=Yes
+5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	InIdiom=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	finalement	finalement	ADV	_	_	16	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ben	ben	INTJ	_	_	16	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj:pass	_	_
+14	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_34
+# text = et puis on est devenues amies, même si ça partait sur une mauvaise note.
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|Idiom=Yes
+2	puis	puis	ADV	_	_	1	fixed	_	InIdiom=Yes
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	amies	amie	NOUN	_	Gender=Masc|Number=Plur	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	même	même	ADV	_	_	11	mark	_	ExtPos=SCONJ|Idiom=Yes
+9	si	si	SCONJ	_	_	8	fixed	_	InIdiom=Yes
+10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+11	partait	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+12	sur	sur	ADP	_	_	15	case	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	note	note	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_35
+# text = et, à l'heure actuelle, on est toujours, euh, copines, et je pense toujours qu'elle a un prénom de vieille.
+1	et	et	CCONJ	_	_	14	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	14	punct	_	_
+3	à	à	ADP	_	_	5	case	_	_
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	heure	heure	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	_
+6	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+10	toujours	toujours	ADV	_	_	14	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	copines	copine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	et	et	CCONJ	_	_	18	cc	_	_
+17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+19	toujours	toujours	ADV	_	_	18	advmod	_	_
+20	qu'	qu'	SCONJ	_	_	22	mark	_	SpaceAfter=No
+21	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	vieille	vieux	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_36
+# speaker = L2
+# text = ça fait combien de temps déjà?
+1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	combien	combien	ADV	_	_	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	temps	temps	NOUN	_	Gender=Masc	3	dep	_	_
+6	déjà	déjà	ADV	_	_	2	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_37
+# text = ça fait sept ans.
+1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sept	sept	NUM	_	Number=Plur	4	nummod	_	_
+4	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_38
+# text = c'était en deux mille douze.
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	deux	deux	NUM	_	Number=Plur	2	obl:mod	_	_
+5	mille	mille	NUM	_	_	4	nmod	_	_
+6	douze	douze	NUM	_	Number=Plur	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_39
+# text = donc ça remonte un peu.
+1	donc	donc	ADV	_	_	3	advmod	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+3	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	advmod	_	ExtPos=ADV|Idiom=Yes
+5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	InIdiom=Yes|SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_40
+# text = et euh, comme quoi, en fait, la rencontre ne détermine pas la façon dont l'amitié va se passer et, euh, et la relation que tu vas avoir avec une personne, en fait.
+1	et	et	CCONJ	_	_	13	cc	_	_
+2	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	comme	comme	ADP	_	_	5	case	_	_
+5	quoi	quoi	PRON	_	Person=3|PronType=Ind	13	obl:mod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	en	en	ADP	_	_	13	discourse	_	ExtPos=ADV|Idiom=Yes
+8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes|SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	ne	ne	ADV	_	_	13	advmod	_	_
+13	détermine	déterminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	pas	pas	ADV	_	_	13	advmod	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	façon	façon	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+17	dont	dont	PRON	_	PronType=Rel	22	obj	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	22	dep	_	_
+22	passer	passer	VERB	_	VerbForm=Inf	20	ccomp	_	_
+23	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	29	punct	_	_
+25	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	et	et	CCONJ	_	_	29	cc	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	relation	relation	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+30	que	que	PRON	_	PronType=Rel	33	obj	_	_
+31	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	32	nsubj	_	_
+32	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+33	avoir	avoir	VERB	_	VerbForm=Inf	32	ccomp	_	_
+34	avec	avec	ADP	_	_	36	case	_	_
+35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	personne	personne	NOUN	_	Gender=Fem|Number=Sing	33	obl:mod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	en	en	ADP	_	_	32	discourse	_	ExtPos=ADV|Idiom=Yes
+39	fait	fait	NOUN	_	Gender=Masc|Number=Sing	38	fixed	_	InIdiom=Yes|SpaceAfter=No
+40	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ParisStories_2021_prenomDeVieille_41
+# text = voilà, c'est tout.
+1	voilà	voilà	VERB	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	tout	tout	PRON	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+

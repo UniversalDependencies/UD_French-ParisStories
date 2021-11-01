@@ -1,0 +1,832 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = ParisStories_2021_pireSoireeHorrible_1
+# speaker = L2
+# text = mais euh, quand tu l'as rencontré XXX, c'était comment?
+1	mais	mais	CCONJ	_	_	13	cc	_	_
+2	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	13	punct	_	_
+4	quand	quand	SCONJ	_	_	8	mark	_	_
+5	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
+9	XXX	XXX	PROPN	_	_	8	dislocated	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+13	comment	comment	ADV	_	_	0	root	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_2
+# speaker = L2
+# text = c'était un peu tendu?
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	peu	peu	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+5	tendu	tendu	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_3
+# speaker = L2
+# text = ou ça allait?
+1	ou	ou	CCONJ	_	_	3	cc	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+3	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_4
+# text = ah, t'imagines même pas.
+1	ah	ah	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	SpaceAfter=No
+4	imagines	imaginer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	même	même	ADV	_	_	6	advmod	_	_
+6	pas	pas	ADV	_	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_5
+# text = pire que tendu.
+1	pire	pire	ADV	_	_	0	root	_	_
+2	que	que	SCONJ	_	_	3	mark	_	_
+3	tendu	tendu	ADJ	_	Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_6
+# text = horrible.
+1	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_7
+# text = en gros, euh, ça faisait des, des semaines et des semaines qu'on tannait ma mère pour pas le rencontrer parce que, euh, aucune envie qu'il vienne vivre chez nous et tout, hein.
+1	en	en	ADP	_	_	2	case	_	_
+2	gros	gros	ADJ	_	Gender=Masc	7	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+7	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	reparandum	_	_
+11	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+12	et	et	CCONJ	_	_	13	cc	_	_
+13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+14	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+15	qu'	qu'	SCONJ	_	_	17	mark	_	SpaceAfter=No
+16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	_
+17	tannait	tanner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl:cleft	_	_
+18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	19	det	_	_
+19	mère	mère	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	pour	pour	ADP	_	_	23	mark	_	_
+21	pas	pas	ADV	_	_	23	advmod	_	_
+22	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+23	rencontrer	rencontrer	VERB	_	VerbForm=Inf	17	advcl	_	_
+24	parce	parce	SCONJ	_	_	30	case	_	ExtPos=SCONJ|Idiom=Yes
+25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes|SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	aucune	aucune	PRON	_	Gender=Fem|Number=Sing	30	nmod	_	_
+30	envie	envie	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+31	qu'	qu'	SCONJ	_	_	33	mark	_	SpaceAfter=No
+32	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+33	vienne	venir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
+34	vivre	vivre	VERB	_	VerbForm=Inf	33	xcomp	_	_
+35	chez	chez	ADP	_	_	36	case	_	_
+36	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	34	obl:arg	_	_
+37	et	et	CCONJ	_	_	38	cc	_	_
+38	tout	tout	ADV	_	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	hein	hein	INTJ	_	_	30	discourse	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_8
+# text = horrible.
+1	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_9
+# text = et, euh, et au bout d'un moment on a craqué parce que, bah, elle est, elle forçait, elle forçait, puis, elle était plus jamais à la maison et tout.
+1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	et	et	CCONJ	_	_	1	reparandum	_	_
+6	au	au	ADP	_	_	7	case	_	_
+7	bout	bout	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+8	d'	d'	ADP	_	_	10	case	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	moment	moment	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	craqué	craquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	parce	parce	SCONJ	_	_	20	mark	_	ExtPos=SCONJ|Idiom=Yes
+15	que	que	SCONJ	_	_	14	fixed	_	InIdiom=Yes|SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	bah	bah	INTJ	_	_	20	discourse	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+23	forçait	forcer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	reparandum	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	forçait	forcer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	36	punct	_	_
+28	puis	puis	CCONJ	_	_	36	cc	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	36	punct	_	_
+30	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+31	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
+32	plus	plus	ADV	_	_	33	advmod	_	_
+33	jamais	jamais	ADV	_	_	36	advmod	_	_
+34	à	à	ADP	_	_	36	case	_	_
+35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	maison	maison	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+37	et	et	CCONJ	_	_	38	cc	_	_
+38	tout	tout	ADV	_	_	36	discourse	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	13	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_10
+# text = pour mes petits frères, c'était pas cool.
+1	pour	pour	ADP	_	_	4	case	_	_
+2	mes	son	DET	_	Number[psor]=Plur|Person[psor]=1|PronType=Prs	4	det	_	_
+3	petits	petit	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+4	frères	frères	NOUN	_	Gender=Masc|Number=Plur	9	obl:mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	pas	pas	ADV	_	_	9	advmod	_	_
+9	cool	cool	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_11
+# speaker = L2
+# text = ouais, puis t'avais pas trop le choix.
+1	ouais	ouais	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	puis	puis	CCONJ	_	_	5	cc	_	_
+4	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+5	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	pas	pas	ADV	_	_	7	advmod	_	_
+7	trop	trop	ADV	_	_	5	advmod	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	choix	choix	NOUN	_	Gender=Masc	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_12
+# text = bah non, il y avait pas trop le choix, quoi.
+1	bah	bah	INTJ	_	_	6	discourse	_	_
+2	non	non	INTJ	_	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
+6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	pas	pas	ADV	_	_	8	advmod	_	_
+8	trop	trop	ADV	_	_	6	advmod	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	choix	choix	NOUN	_	Gender=Masc	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	quoi	quoi	INTJ	_	_	6	discourse	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_13
+# text = et puis en soi, c'est son mec.
+1	et	et	CCONJ	_	_	9	cc	_	_
+2	puis	puis	ADV	_	_	9	cc	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	soi	soi	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl:mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	det	_	_
+9	mec	mec	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_14
+# text = il y a pas le choix, quoi.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pas	pas	ADV	_	_	3	advmod	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	choix	choix	NOUN	_	Gender=Masc	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	quoi	quoi	INTJ	_	_	6	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_15
+# text = donc, ils ont organisé une soirée un samedi soir, mais le pire samedi soir de toute ma vie.
+1	donc	donc	ADV	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	soirée	soirée	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+10	soir	soir	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	mais	mais	CCONJ	_	_	15	cc	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	pire	pire	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+16	soir	soir	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+17	de	de	ADP	_	_	20	case	_	_
+18	toute	tout	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+19	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	20	det	_	_
+20	vie	vie	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_16
+# text = en gros, ils se sont dit trop cool, on va aller faire une activité tous ensemble.
+1	en	en	ADP	_	_	2	case	_	_
+2	gros	gros	ADJ	_	Gender=Masc	7	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj:pass	_	_
+5	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	trop	trop	ADV	_	_	9	advmod	_	_
+9	cool	cool	ADJ	_	Number=Sing	7	obj	_	Reported=Yes|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	appos	_	_
+13	aller	aller	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	faire	faire	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	activité	activité	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	tous	tout	PRON	_	Gender=Masc|Number=Plur	18	obl:mod	_	_
+18	ensemble	ensemble	ADV	_	_	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_17
+# text = donc, on est parti faire du bowling.
+1	donc	donc	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	du	du	DET	_	_	8	det	_	_
+8	bowling	bowling	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_18
+# text = horrible!
+1	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_19
+# text = mais franchement horrible!
+1	mais	mais	CCONJ	_	_	3	cc	_	_
+2	franchement	franchement	ADV	_	_	3	advmod	_	_
+3	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_20
+# text = un traumatisme, cette soirée.
+1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	cette	cette	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	soirée	soirée	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_21
+# text = du coup, je l'ai rencontré pour la première fois, genre, il est venu nous chercher en voiture.
+1	du	du	ADP	_	_	2	case	_	_
+2	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	pour	pour	ADP	_	_	11	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	première	premier	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	genre	genre	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	venu	venir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	dislocated	_	_
+18	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	19	obj	_	_
+19	chercher	chercher	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	en	en	ADP	_	_	21	case	_	_
+21	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_22
+# text = la, la première discussion qu'on a eue, c'est il critiquait les notes scolaires de mon frère.
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	reparandum	_	_
+4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	nmod	_	_
+5	discussion	discussion	NOUN	_	Gender=Fem|Number=Sing	14	dislocated	_	_
+6	qu'	qu'	PRON	_	PronType=Rel	9	obj	_	SpaceAfter=No
+7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	eue	avoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	critiquait	critiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	notes	note	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+17	scolaires	scolaire	ADJ	_	Number=Plur	16	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	20	det	_	_
+20	frère	frère	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	14	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_23
+# text = donc, je me suis dit ok.
+1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj:pass	_	_
+4	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	ok	ok	INTJ	_	_	6	obj	_	Reported=Yes|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_24
+# text = bonne ambiance.
+1	bonne	bonne	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	ambiance	ambiance	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_25
+# text = ça commence bien.
+1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bien	bien	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_26
+# text = donc mon frère, il y a un des deux était déjà braqué.
+1	donc	donc	ADV	_	_	3	cc	_	_
+2	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
+3	frère	frère	NOUN	_	Gender=Masc|Number=Sing	7	dislocated	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	dep:comp	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
+9	des	des	ADP	_	_	10	case	_	_
+10	deux	deux	NUM	_	_	8	nmod	_	_
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+12	déjà	déjà	ADV	_	_	13	advmod	_	_
+13	braqué	braquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	reparandum	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_27
+# text = ensuite, on débarque au bowling.
+1	ensuite	ensuite	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
+4	débarque	débarquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	au	au	ADP	_	_	6	case	_	_
+6	bowling	bowling	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_28
+# text = hyper compétition.
+1	hyper	hyper	ADV	_	_	2	advmod	_	_
+2	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# status = done
+# sent_id = ParisStories_2021_pireSoireeHorrible_29
+# text = ce qui fait que s'il était pas premier, il était à se plaindre à…
+1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	que	que	SCONJ	_	_	15	mark	_	_
+5	s'	s'	SCONJ	_	_	9	mark	_	SpaceAfter=No
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	pas	pas	ADV	_	_	9	advmod	_	_
+9	premier	premier	ADJ	_	Gender=Masc|Number=Sing	15	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+13	à	à	ADP	_	_	15	mark	_	_
+14	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
+15	plaindre	plaindre	VERB	_	VerbForm=Inf	3	ccomp	_	_
+16	à	à	ADP	_	_	15	reparandum	_	SpaceAfter=No
+17	…	…	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_30
+# text = ah, et moi, je me, j'étais là, mon dieu mais c'est quoi ce gars.
+1	ah	ah	INTJ	_	_	11	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	et	et	CCONJ	_	_	11	cc	_	_
+4	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dislocated	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dep	_	Scrap=Yes|SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	reparandum	_	SpaceAfter=No
+10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	cop	_	_
+11	là	là	ADV	_	_	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	14	det	_	_
+14	dieu	dieu	INTJ	_	_	18	discourse	_	_
+15	mais	mais	CCONJ	_	_	18	cc	_	_
+16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	quoi	quoi	PRON	_	Person=3|PronType=Int	11	parataxis	_	_
+19	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	gars	gars	NOUN	_	Gender=Masc	18	dislocated	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_31
+# text = mais, horrible.
+1	mais	mais	CCONJ	_	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_32
+# text = après, pendant tout le bowling, ils ont pas arrêté de s'asseoir l'un sur l'autre et tout.
+1	après	après	ADV	_	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pendant	pendant	ADP	_	_	6	case	_	_
+4	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bowling	bowling	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	pas	pas	ADV	_	_	11	advmod	_	_
+11	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	de	de	ADP	_	_	14	mark	_	_
+13	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	dep	_	SpaceAfter=No
+14	asseoir	asseoir	VERB	_	VerbForm=Inf	11	xcomp	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	_
+17	sur	sur	ADP	_	_	19	case	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	autre	autre	PRON	_	Number=Sing	16	nmod	_	_
+20	et	et	CCONJ	_	_	21	cc	_	_
+21	tout	tout	ADV	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_33
+# text = sachant que j'avais jamais vu ma mère avec quelqu'un d'autre que mon père.
+1	sachant	savoir	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+2	que	que	SCONJ	_	_	6	mark	_	_
+3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+4	avais	avoir	AUX	_	_	6	aux	_	_
+5	jamais	jamais	ADV	_	_	6	advmod	_	_
+6	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
+8	mère	mère	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	avec	avec	ADP	_	_	11	case	_	_
+10	quelqu'	quelqu'	DET	_	Number=Sing	11	det	_	SpaceAfter=No
+11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	obl:mod	_	_
+12	d'	d'	ADP	_	_	13	case	_	SpaceAfter=No
+13	autre	autre	ADJ	_	Number=Sing	11	nmod	_	_
+14	que	que	SCONJ	_	_	16	case	_	_
+15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	16	det	_	_
+16	père	père	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_34
+# text = donc, horrible!
+1	donc	donc	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_35
+# text = donc, nous, nous, tous les trois, on était hyper gênés.
+1	donc	donc	ADV	_	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	14	dislocated	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	3	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	trois	trois	NUM	_	Number=Plur	5	reparandum	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj:pass	_	_
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	hyper	hyper	ADV	_	_	14	advmod	_	_
+14	gênés	gênés	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_36
+# text = pire soirée de ma vie!
+1	pire	pire	ADJ	_	Number=Sing	2	amod	_	_
+2	soirée	soirée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
+5	vie	vie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_37
+# text = au final, le bowling se passe.
+1	au	au	ADP	_	_	2	case	_	_
+2	final	final	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bowling	bowling	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	dep:comp	_	_
+7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_38
+# text = mais c'était très long.
+1	mais	mais	CCONJ	_	_	5	cc	_	_
+2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	très	très	ADV	_	_	5	advmod	_	_
+5	long	long	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_39
+# text = il voulait faire une deuxième partie.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	voulait	vouloir	VERB	_	_	0	root	_	_
+3	faire	faire	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	deuxième	deuxième	ADJ	_	Number=Sing	6	amod	_	_
+6	partie	partie	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_40
+# text = heureusement, pas de deuxième partie.
+1	heureusement	heureusement	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	pas	pas	CCONJ	_	_	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	deuxième	deuxième	ADJ	_	Number=Sing	6	amod	_	_
+6	partie	partie	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_41
+# text = le, le supplice s'est arrêté là.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	reparandum	_	_
+4	supplice	supplice	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	dep:comp	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	là	là	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_42
+# text = et ensuite, il a, ma mère l'a invité à manger, euh, chez nous.
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	ensuite	ensuite	ADV	_	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
+8	mère	mère	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	invité	inviter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	reparandum	_	_
+12	à	à	ADP	_	_	13	mark	_	_
+13	manger	manger	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	chez	chez	ADP	_	_	18	case	_	_
+18	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	13	obl:mod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_43
+# text = mais, horrible!
+1	mais	mais	CCONJ	_	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_44
+# speaker = L2
+# text = et donc tout ça, c'était combien de temps après la séparation de tes parents?
+1	et	et	CCONJ	_	_	8	cc	_	_
+2	donc	donc	ADV	_	_	8	advmod	_	_
+3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	dislocated	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	combien	combien	ADV	_	_	0	root	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	temps	temps	NOUN	_	Gender=Masc	8	obl:mod	_	_
+11	après	après	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	séparation	séparation	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	tes	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|PronType=Prs	16	det	_	_
+16	parents	parent	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_45
+# text = bah, c'était, euh, six mois après, à peu près.
+1	bah	bah	INTJ	_	_	10	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	10	punct	_	_
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	six	six	NUM	_	Number=Plur	9	nummod	_	_
+9	mois	mois	NOUN	_	Gender=Masc	10	obl:mod	_	_
+10	après	après	ADV	_	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	à	à	ADP	_	_	13	case	_	_
+13	peu	peu	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+14	près	près	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_46
+# speaker = L2
+# text = ah oui, donc, euh, ouais, chaud.
+1	ah	ah	INTJ	_	_	10	discourse	_	_
+2	oui	oui	INTJ	_	_	10	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	donc	donc	ADV	_	_	10	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ouais	ouais	INTJ	_	_	10	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_47
+# text = mais, horrible!
+1	mais	mais	CCONJ	_	_	3	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	horrible	horrible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_48
+# text = ce qui fait qu'il a débarqué dans la maison, dans la maison familiale, où j'ai vécu avec mes deux parents ensemble et tout.
+1	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
+4	qu'	qu'	SCONJ	_	_	7	mark	_	SpaceAfter=No
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	débarqué	débarquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	dans	dans	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	maison	maison	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	dans	dans	ADP	_	_	14	case	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	maison	maison	NOUN	_	Gender=Fem|Number=Sing	10	reparandum	_	_
+15	familiale	familiale	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	où	où	PRON	_	PronType=Rel	20	advcl	_	_
+18	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+19	ai	avoir	AUX	_	_	20	aux	_	_
+20	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+21	avec	avec	ADP	_	_	24	case	_	_
+22	mes	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	24	det	_	_
+23	deux	deux	NUM	_	Number=Plur	24	nummod	_	_
+24	parents	parent	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
+25	ensemble	ensemble	ADV	_	_	24	advmod	_	_
+26	et	et	CCONJ	_	_	27	cc	_	_
+27	tout	tout	ADV	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_49
+# text = et là, on a cru, j'ai cru, on était chez lui!
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	là	là	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
+9	ai	avoir	AUX	_	_	10	aux	_	_
+10	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	reparandum	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
+13	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+14	chez	chez	ADP	_	_	15	case	_	_
+15	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl:arg	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_50
+# text = il se levait.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	dep:comp	_	_
+3	levait	lever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_51
+# text = il, euh, préparait la bouffe, euh.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	préparait	préparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	bouffe	bouffe	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_52
+# text = il arrivait avec, euh, avec les assiettes.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	arrivait	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	avec	avec	ADP	_	_	2	dep	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	avec	avec	ADP	_	_	9	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	assiettes	assiette	NOUN	_	Gender=Fem|Number=Plur	3	reparandum	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_53
+# text = il allait chercher, euh, l'eau au frig~, enfin.
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	chercher	chercher	VERB	_	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	eau	eau	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+9	au	au	ADP	_	_	10	case	_	_
+10	frig~	frigo	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	enfin	enfin	ADV	_	_	2	discourse	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_54
+# text = mais, mais genre nous, on était invité chez lui.
+1	mais	mais	CCONJ	_	_	9	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mais	mais	CCONJ	_	_	1	reparandum	_	_
+4	genre	genre	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	_
+5	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	9	dislocated	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj:pass	_	_
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
+9	invité	inviter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	chez	chez	ADP	_	_	11	case	_	_
+11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl:arg	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_55
+# text = donc hyper gênant.
+1	donc	donc	ADV	_	_	3	advmod	_	_
+2	hyper	hyper	ADV	_	_	3	advmod	_	_
+3	gênant	gênant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_56
+# text = aucune discussion.
+1	aucune	aucun	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+2	discussion	discussion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2021_pireSoireeHorrible_57
+# speaker = L2
+# text = et t'en as parlé?
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
+3	en	en	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
+4	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
