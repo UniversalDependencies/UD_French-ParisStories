@@ -34,6 +34,37 @@ The file `fr_parisstories-ud-test.conllu` contains the following data:
 
 The file `fr_parisstories-ud-train.conllu` contains the following data:
 
+  * `ParisStories_2019_concoursEquitation.conllu`
+  * `ParisStories_2019_experienceFac.conllu`
+  * `ParisStories_2019_histoireDeBanlieue.conllu`
+  * `ParisStories_2019_journeeTournage.conllu`
+  * `ParisStories_2019_mauriceAventure.conllu`
+  * `ParisStories_2019_mercrediSoir.conllu`
+  * `ParisStories_2019_patisserieFine.conllu`
+  * `ParisStories_2019_peripleCrous.conllu`
+  * `ParisStories_2019_stagePrimaire.conllu`
+  * `ParisStories_2019_voyageEcosse.conllu`
+  * `ParisStories_2020_aideAuxEnfants.conllu`
+  * `ParisStories_2020_alarmeTrain.conllu`
+  * `ParisStories_2020_anecdoteMetro.conllu`
+  * `ParisStories_2020_descenteCanoe.conllu`
+  * `ParisStories_2020_dragQueen.conllu`
+  * `ParisStories_2020_galereNice.conllu`
+  * `ParisStories_2020_histoireOurs.conllu`
+  * `ParisStories_2020_maisonAbondonnee.conllu`
+  * `ParisStories_2020_requinReunion.conllu`
+  * `ParisStories_2020_sangDEncre.conllu`
+  * `ParisStories_2021_discussionSansAbris.conllu`
+  * `ParisStories_2021_maintenantJeSais.conllu`
+  * `ParisStories_2021_neesLeMemeMois.conllu`
+  * `ParisStories_2021_nouveauxEleves.conllu`
+  * `ParisStories_2021_nouvelleCollegue.conllu`
+  * `ParisStories_2021_pireSoireeHorrible.conllu`
+  * `ParisStories_2021_pluieEtMamie.conllu`
+  * `ParisStories_2021_prenomDeVieille.conllu`
+  * `ParisStories_2021_rencontreAngelaMerkel.conllu`
+  * `ParisStories_2021_rencontreMourinho.conllu`
+
 
 
 # Acknowledgments
