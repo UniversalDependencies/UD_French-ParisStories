@@ -18436,7 +18436,7 @@
 
 # status = done
 # sent_id = ParisStories_2021_maintenantJeSais_18
-# text = et au moment où mon regard, euh, a traversé le tien, c'était quelque chose de très très très particulier: de l' étonnement, de la fascination, ouais, c'est vraiment le mot qui convient, de la fascination.
+# text = et au moment où mon regard, euh, a traversé le tien, c'était quelque chose de très très très particulier: de l'étonnement, de la fascination, ouais, c'est vraiment le mot qui convient, de la fascination.
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	au	au	ADP	_	_	3	case	_	_
 3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
@@ -18561,7 +18561,7 @@
 26	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	27	det	_	_
 27	vies	vie	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
 28	allaient	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
-29	être	être	VERB	_	_	28	aux	_	_
+29	être	être	VERB	_	_	28	xcomp	_	_
 30	complètement	complètement	ADV	_	_	31	advmod	_	_
 31	atypiques	atypique	ADJ	_	Number=Plur	29	xcomp	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
@@ -19089,7 +19089,7 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_20
 # macrosyntax = on s'entendait très bien, jusqu'à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, [ pourquoi ] ni pourquoi, ni comment on s'est reparlé.
 # speaker = L1
-# text = on s'entendait très bien, jusqu' à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, ni pourquoi, ni comment on s'est reparlé.
+# text = on s'entendait très bien, jusqu'à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, ni pourquoi, ni comment on s'est reparlé.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	dep	_	SpaceAfter=No
 3	entendait	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -19438,7 +19438,7 @@
 8	peu	peu	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 9	basiques	basique	ADJ	_	Number=Plur	6	amod	_	SpaceAfter=No
 10	:	:	PUNCT	_	_	15	punct	_	_
-11	euh	euh	INTJ	_	_	16	discourse	_	_
+11	euh	euh	INTJ	_	_	15	discourse	_	_
 12	comment	comment	ADV	_	_	15	advmod	_	_
 13	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 14	t'	se	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
@@ -23439,7 +23439,7 @@
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_18
-# text = et, euh, Angela Merkel, ben, euh, s'est adressée à nous, en français, et était, nous a dit qu'elle était très contente, euh, de, euh, de maintenir, euh, qu'on maintienne, euh, le lien franco - allemand, l'amitié franco - allemande.
+# text = et, euh, Angela Merkel, ben, euh, s'est adressée à nous, en français, et était, nous a dit qu'elle était très contente, euh, de, euh, de maintenir, euh, qu'on maintienne, euh, le lien franco-allemand, l'amitié franco-allemande.
 1	et	et	CCONJ	_	_	14	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -23491,14 +23491,14 @@
 49	,	,	PUNCT	_	_	48	punct	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	lien	lien	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	_
-52	franco	franco	ADJ	_	Gender=Masc|Number=Sing	51	amod	_	_
-53	-	-	PUNCT	_	_	54	punct	_	_
+52	franco	franco	ADJ	_	Gender=Masc|Number=Sing	51	amod	_	SpaceAfter=No
+53	-	-	PUNCT	_	_	54	punct	_	SpaceAfter=No
 54	allemand	allemand	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	57	punct	_	_
 56	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
 57	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	51	reparandum	_	_
 58	franco	franco	ADJ	_	Gender=Fem|Number=Sing	57	amod	_	SpaceAfter=No
-59	-	-	PUNCT	_	_	60	punct	_	_
+59	-	-	PUNCT	_	_	60	punct	_	SpaceAfter=No
 60	allemande	allemande	ADJ	_	Gender=Fem|Number=Sing	58	amod	_	SpaceAfter=No
 61	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -24299,7 +24299,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_42
 # text = euh, ensuite, qu'est - ce qu'on a fait?
-1	euh	euh	INTJ	_	_	5	discourse	_	_
+1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	12	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_

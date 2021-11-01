@@ -251,7 +251,7 @@
 
 # status = done
 # sent_id = ParisStories_2021_maintenantJeSais_18
-# text = et au moment où mon regard, euh, a traversé le tien, c'était quelque chose de très très très particulier: de l' étonnement, de la fascination, ouais, c'est vraiment le mot qui convient, de la fascination.
+# text = et au moment où mon regard, euh, a traversé le tien, c'était quelque chose de très très très particulier: de l'étonnement, de la fascination, ouais, c'est vraiment le mot qui convient, de la fascination.
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	au	au	ADP	_	_	3	case	_	_
 3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
@@ -376,7 +376,7 @@
 26	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	27	det	_	_
 27	vies	vie	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
 28	allaient	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
-29	être	être	VERB	_	_	28	aux	_	_
+29	être	être	VERB	_	_	28	xcomp	_	_
 30	complètement	complètement	ADV	_	_	31	advmod	_	_
 31	atypiques	atypique	ADJ	_	Number=Plur	29	xcomp	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
