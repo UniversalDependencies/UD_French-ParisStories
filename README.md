@@ -1,6 +1,6 @@
 # Summary
 
-Paris Stories is a corpus of oral French collected and transcribed by Linguistics students from Paris 3 (Sorbonne Nouvelle) and corrected by students from the Plurital Master's Degree of Computational Linguistics ( Inalco, Paris 10 Nanterre, Paris 3 Sorbonne Nouvelle) between 2017 and 2021.
+Paris Stories is a corpus of oral French collected and transcribed by Linguistics students from Sorbonne Nouvelle and corrected by students from the Plurital Master's Degree of Computational Linguistics ( Inalco, Paris Nanterre, Sorbonne Nouvelle) between 2017 and 2021.
 It contains monologues and dialogues from speakers living in the Parisian region.
 
 
