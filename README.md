@@ -9,41 +9,59 @@ It contains monologues and dialogues from speakers living in the Parisian region
 For an assignment, students had to record a friend or a relative sharing an anecdote about a given theme (meaningful encounters, vacations, interesting stories..).
 The corpus was created for the study of contemporary spoken French and to train a syntactic parser for spoken French.
 All data has been morpho-syntactically annotated following the SUD (Surface Syntactic Universal Dependencies) guidelines.
+
 See SUD Guidelines : https://surfacesyntacticud.github.io/guidelines/u/
+
 The Treebank can be found here : http://match.grew.fr/?corpus=SUD_French-ParisStories@latest
+
 The recordings can be downloaded via the url given in the '# sound_url' metadata.
 
 ## Description
 
 -- Paris Stories 2019 --
+
 Creation Year : 2017
+
 Annotation Year : 2019
+
 Size :
 - 19 samples
 - 13951 tokens
 - 709 sentences
 - app. 1 hour of recordings
+
+
 Topics : travels, funny/unusual stories
 
 -- Paris Stories 2020 --
+
 Creation Year : 2018
+
 Annotation Year : 2020
+
 Size :
 - 16 samples
 - 9064 tokens
 - 553 sentences
 - app. 30 min of recordings
+
+
 Topics : vacation stories, funny/unusual stories
 
 
 -- Paris Stories 2021 --
+
 Creation Year : 2020
+
 Annotation Year : 2021
+
 Size :
 - 14 samples
 - 7825 tokens
 - 499 sentences
 - app. 45 minutes of recordings
+
+
 Topics : first encounters, funny/unusual stories
 
 ## Development
