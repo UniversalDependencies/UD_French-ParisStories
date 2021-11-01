@@ -111,7 +111,10 @@ The file `fr_parisstories-ud-train.conllu` contains the following data:
 Annotation : Sylvain Kahane, Bruno Guillaume, Mariam Nakhlé, Vanessa Gaudray-Bouju, Menel Mahamdi
 
 Annotation tools development : Kim Gerdes, Marine Courtin, Gaël Guibon
+
 Conversion and handling of data validation : Bruno Guillaume
+
+Direction of data collection : Cédric Gendrot, Kim Gerdes, Marine Courtin
 
 We would like to thank all the students who participated in this project.
 
