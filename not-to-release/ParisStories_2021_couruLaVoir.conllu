@@ -1,6 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_couruLaVoir_1
 # text = euh, je l'ai rencontrée, oh ça fait super super longtemps.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -18,6 +19,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_2
 # text = on était en CM1.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	en	en	ADP	_	_	4	case	_	_
@@ -26,6 +28,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_3
 # text = enfin, à vrai dire on se connaissait depuis la grande section de maternelle parce qu'on, on a grandi dans le même quartier, et dans le même immeuble.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	enfin	enfin	ADV	_	_	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	à	à	ADP	_	_	5	mark	_	_
@@ -61,6 +64,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_4
 # text = mais, pour, euh, je ne sais quelle raison, on n'a jamais vraiment traîné ensemble quand on était petites.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	mais	mais	CCONJ	_	_	18	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	18	punct	_	_
 3	pour	pour	ADP	_	_	9	mark	_	SpaceAfter=No
@@ -88,6 +92,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_5
 # text = on n'était jamais dans la même classe.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	n'	n'	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -100,6 +105,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_6
 # text = on n'était pas.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	n'	n'	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -108,6 +114,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_7
 # text = enfin voilà c'était, il y avait, on peut dire qu'il y avait deux groupes.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	enfin	enfin	ADV	_	_	4	discourse	_	_
 2	voilà	voilà	VERB	_	_	4	discourse	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
@@ -130,19 +137,20 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_8
 # text = et on était à chaque fois dans les, dans les deux groupes différents, dans les deux classes différentes.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	chaque	chaque	DET	_	Number=Sing|PronType=Ind	6	det	_	_
 6	fois	fois	NOUN	_	Gender=Fem	3	obl:mod	_	_
-7	dans	dans	ADP	_	_	3	iobj	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	conj	_	Scrap=Yes|SpaceAfter=No
+7	dans	dans	ADP	_	_	8	case	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	obl:arg	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	dans	dans	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 12	deux	deux	NUM	_	Number=Plur	13	nummod	_	_
-13	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	7	reparandum	_	_
+13	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	8	reparandum	_	_
 14	différents	différents	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	dans	dans	ADP	_	_	19	case	_	_
@@ -153,27 +161,28 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_9
-# text = donc euh, on n'a vraim ~, on n'a jamais vraiment intéragi.
+# text = donc euh, on n'a vraim~, on n'a jamais vraiment intéragi.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	donc	donc	ADV	_	_	6	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 5	n'	n'	ADV	_	_	6	advmod	_	SpaceAfter=No
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	vraim	vraim	ADV	_	_	6	advmod	_	_
-8	~	~	X	_	_	7	goeswith	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	15	punct	_	_
-10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	_
-11	n'	n'	ADV	_	_	15	advmod	_	SpaceAfter=No
-12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
-13	jamais	jamais	ADV	_	_	15	advmod	_	_
-14	vraiment	vraiment	ADV	_	_	15	advmod	_	_
-15	intéragi	intéragir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	reparandum	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	6	punct	_	_
+7	vraim~	vraiment	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	14	punct	_	_
+9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
+10	n'	n'	ADV	_	_	14	advmod	_	SpaceAfter=No
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	jamais	jamais	ADV	_	_	14	advmod	_	_
+13	vraiment	vraiment	ADV	_	_	14	advmod	_	_
+14	intéragi	intéragir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	reparandum	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_10
 # text = et euh, donc euh, on s'est vraiment euh, euh mises à parler ensemble, quand on était en CM1 parce que il y avait, euh, je sais plus, il y avait eu un truc bizarre, euh.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -223,6 +232,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_11
 # text = pl~ ~, plein d'enfants de nos classes respectives, nos amis, étaient tombés malades.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	pl~	pl~	X	_	_	16	nsubj	_	_
 2	~	~	X	_	Typo=Yes	1	dep	_	Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -245,6 +255,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_12
 # text = il y avait eu une sorte d'épidémie de, de rhume ou de grippe, je sais plus.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
@@ -269,6 +280,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_13
 # text = et je me rappelle, on était au milieu de la cour, et je l'ai vue de loin.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	_
@@ -294,6 +306,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_14
 # text = on était toutes les deux toutes seules, parce que nos meilleures amies de, de, respectives étaient pas là.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 3	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
@@ -320,6 +333,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_15
 # text = donc, euh, je me suis dit tiens, bon, bah, je vais aller lui parler, parce qu'elle a l'air aussi seule que moi, euh, en ce moment.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	donc	donc	ADV	_	_	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -361,6 +375,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_16
 # text = et euh, et je sais pas pourtant c'est bizarre.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -377,6 +392,7 @@
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_16bis
 # text = je m'en rappelle très bien parce que, c'est vraiment pas le genre de chose que j'aurais fait à l'époque, euh, d'aller parler comme ça à quelqu'un que je ne connaissais pas, ou, genre, juste de vue.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	je	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	_
@@ -430,6 +446,7 @@
 # sent_id = ParisStories_2021_couruLaVoir_17
 # speaker = L2
 # text = donc, euh, donc, tu lui as parlé, euh, tu lui as parlé comme ça euh, pour, pour que vous soyez amies, c'est ça?
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	donc	donc	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -466,6 +483,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_18
 # text = euh, ouais, enfin je, on, c'était XXX, ça faisait un peu comme dans les films, à vrai dire.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ouais	ouais	INTJ	_	_	11	discourse	_	SpaceAfter=No
@@ -494,7 +512,8 @@
 26	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_19
-# text = c'était marrant je l'ai vue de d~ ~, toute de, de l'autre côté de la cour carrément.
+# text = c'était marrant je l'ai vue de d~, toute de, de l'autre côté de la cour carrément.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 3	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	7	discourse	_	_
@@ -503,24 +522,24 @@
 6	ai	avoir	AUX	_	_	7	aux	_	_
 7	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	de	de	ADP	_	_	7	dep	_	_
-9	d~	de	ADP	_	_	8	reparandum	_	_
-10	~	~	X	_	_	9	goeswith	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
-12	toute	tout	ADJ	_	Gender=Fem|Number=Sing	13	advcl	_	_
-13	de	de	ADP	_	_	9	reparandum	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	18	punct	_	_
-15	de	de	ADP	_	_	18	case	_	_
-16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-17	autre	autre	ADJ	_	Number=Sing	18	amod	_	_
-18	côté	côté	NOUN	_	Gender=Masc|Number=Sing	13	reparandum	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	cour	cour	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-22	carrément	carrément	ADV	_	_	18	advmod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	7	punct	_	_
+9	d~	de	ADP	_	_	8	reparandum	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	toute	tout	ADJ	_	Gender=Fem|Number=Sing	12	advcl	_	_
+12	de	de	ADP	_	_	8	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	autre	autre	ADJ	_	Number=Sing	17	amod	_	_
+17	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	cour	cour	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	carrément	carrément	ADV	_	_	17	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_20
 # text = on était super loin.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	super	super	ADV	_	_	4	advmod	_	_
@@ -529,6 +548,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_21
 # text = et, euh, j'ai, je me rappelle, on, j'ai, presque couru pour aller la voir, genre euh, genre, pour lui demander est - ce que ce, ça, te dirait qu'on traine ensemble, qu'on parle et tout vu qu'on est toutes les deux toutes seules en ce moment?
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -596,6 +616,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_22
 # text = et euh, elle a fait ok.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -607,6 +628,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_23
 # text = et puis après euh, j~ ~, on a commencé à parler.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	puis	puis	ADV	_	_	11	advmod	_	_
 3	après	après	ADV	_	_	11	advmod	_	_
@@ -624,6 +646,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_24
 # text = je sais même plus de quoi on avait parlé exactement.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	même	même	ADV	_	_	4	advmod	_	_
@@ -638,6 +661,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_25
 # text = mais on n'a jamais arrêté.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	mais	mais	CCONJ	_	_	6	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 3	n'	n'	ADV	_	_	6	advmod	_	SpaceAfter=No
@@ -648,6 +672,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_26
 # text = on s'est vues.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj:pass	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -656,6 +681,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_27
 # text = on n'était pas dans la même classe.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 2	n'	n'	ADV	_	_	8	advmod	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
@@ -668,6 +694,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_28
 # text = donc, après on a dû, euh, se dire au revoir, pour retourner euh, en cours quand la récréation était finie.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	après	après	ADV	_	_	6	advmod	_	_
@@ -697,6 +724,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_29
 # text = mais après on a continué à parler de plus en plus.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	mais	mais	CCONJ	_	_	5	cc	_	_
 2	après	après	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
@@ -712,6 +740,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_30
 # text = et ça a continué.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -720,6 +749,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_31
 # text = on s'est vues à la cour d'après.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj:pass	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -733,6 +763,7 @@
 
 # sent_id = ParisStories_2021_couruLaVoir_32
 # text = on s'est vu, euh, après les sorties.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj:pass	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
