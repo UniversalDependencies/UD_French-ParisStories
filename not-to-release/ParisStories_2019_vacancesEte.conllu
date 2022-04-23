@@ -539,11 +539,11 @@
 18	,	,	PUNCT	_	_	26	punct	_	_
 19	bref	bref	INTJ	_	_	26	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
-21	très	très	ADV	_	_	22	advmod	_	_
-22	très	très	ADV	_	_	23	advmod	_	_
-23	très	très	ADV	_	_	24	advmod	_	_
-24	très	très	ADV	_	_	25	advmod	_	_
-25	très	très	ADV	_	_	26	advmod	_	_
+21	très	très	ADV	_	_	26	advmod	_	_
+22	très	très	ADV	_	_	21	conj	_	_
+23	très	très	ADV	_	_	21	conj	_	_
+24	très	très	ADV	_	_	21	conj	_	_
+25	très	très	ADV	_	_	21	conj	_	_
 26	sympa	sympa	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 

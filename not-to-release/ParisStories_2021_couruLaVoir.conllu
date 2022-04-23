@@ -580,7 +580,7 @@
 29	pour	pour	ADP	_	_	31	mark	_	_
 30	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
 31	demander	demander	VERB	_	VerbForm=Inf	20	advcl	_	_
-32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	Reported=Yes
 33	-	-	PUNCT	_	_	34	punct	_	_
 34	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	41	nsubj	_	_
 35	que	que	SCONJ	_	_	41	mark	_	_
@@ -589,7 +589,7 @@
 38	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	36	reparandum	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	36	punct	_	_
 40	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	41	iobj	_	_
-41	dirait	dire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis	_	_
+41	dirait	dire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
 42	qu'	qu'	SCONJ	_	_	44	mark	_	SpaceAfter=No
 43	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	44	nsubj	_	_
 44	traine	trainer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	ccomp	_	_
@@ -598,8 +598,8 @@
 47	qu'	qu'	SCONJ	_	_	49	mark	_	SpaceAfter=No
 48	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	49	nsubj	_	_
 49	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	reparandum	_	_
-50	et	et	CCONJ	_	_	51	cc	_	_
-51	tout	tout	ADV	_	Gender=Masc|Number=Sing	49	conj	_	_
+50	et	et	CCONJ	_	_	51	cc	_	ExtPos=ADV|InIdiom=Yes
+51	tout	tout	ADV	_	Gender=Masc|Number=Sing	49	conj	_	Idiom=Yes
 52	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	advcl	_	_
 53	qu'	qu'	SCONJ	_	_	60	mark	_	SpaceAfter=No
 54	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	60	nsubj	_	_

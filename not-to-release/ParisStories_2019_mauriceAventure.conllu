@@ -245,7 +245,7 @@
 44	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	10	punct	_	_
 
-# text = donc on avait choisi choisi un jour tous ensemble et cetera.
+# text = donc on avait choisi choisi un jour tous ensemble etc.
 # sent_id = ParisStories_2019_mauriceAventure_13
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
@@ -257,9 +257,8 @@
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	9	obl:mod	_	_
 9	ensemble	ensemble	ADV	_	_	5	advmod	_	_
-10	et	et	CCONJ	_	_	11	cc	_	_
-11	cetera	cetera	ADV	_	_	4	conj	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	4	punct	_	_
+10	etc	etc	ADV	_	_	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = et donc on est parti euh là-bas.
 # sent_id = ParisStories_2019_mauriceAventure_14
@@ -384,7 +383,7 @@
 12	ensemble	ensemble	ADV	_	_	8	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = comme ça on pouvait vraiment faire une activité vraiment tous ensemble et cetera.
+# text = comme ça on pouvait vraiment faire une activité vraiment tous ensemble etc.
 # sent_id = ParisStories_2019_mauriceAventure_21
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	comme	comme	ADP	_	_	2	case	_	_
@@ -398,9 +397,8 @@
 9	vraiment	vraiment	ADV	_	_	11	advmod	_	_
 10	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	11	obl:mod	_	_
 11	ensemble	ensemble	ADV	_	_	6	advmod	_	_
-12	et	et	CCONJ	_	_	13	cc	_	_
-13	cetera	cetera	ADV	_	_	6	conj	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	4	punct	_	_
+12	etc	etc	ADV	_	_	6	conj	_	SpaceAfter=No|wordform=cetera
+13	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = donc on a pris le quad.
 # sent_id = ParisStories_2019_mauriceAventure_22

@@ -201,14 +201,16 @@
 # sent_id = ParisStories_2021_adoptionMouts_13
 # text = et du coup personne voulait la prendre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
-1	et	et	CCONJ	_	_	5	cc	_	_
-2	du	du	ADP	_	_	3	case	_	_
-3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	_
-4	personne	personne	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	5	nsubj	_	_
-5	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-7	prendre	prendre	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	5	punct	_	_
+1	et	et	CCONJ	_	_	6	cc	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	wordform=du
+3	le	le	DET	_	_	4	det	_	_
+4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	_
+5	personne	personne	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	6	nsubj	_	_
+6	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	prendre	prendre	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_adoptionMouts_14
@@ -346,24 +348,26 @@
 # sent_id = ParisStories_2021_adoptionMouts_21
 # text = du coup, on a dit, bah, voilà, quoi, c'est notre chien!
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
-1	du	du	ADP	_	_	2	case	_	_
-2	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	17	punct	_	_
-8	bah	bah	INTJ	_	_	17	discourse	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
-10	voilà	voilà	VERB	_	_	17	discourse	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
-12	quoi	quoi	INTJ	_	_	17	discourse	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
-14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	Reported=Yes
-16	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	17	det	_	_
-17	chien	chien	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	SpaceAfter=No
-18	!	!	PUNCT	_	_	6	punct	_	_
+1-2	du	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	wordform=du
+2	le	le	DET	_	_	3	det	_	_
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	18	punct	_	_
+9	bah	bah	INTJ	_	_	18	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	voilà	voilà	VERB	_	_	18	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	quoi	quoi	INTJ	_	_	18	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	Reported=Yes
+17	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	18	det	_	_
+18	chien	chien	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_22
 # text = et pour le prénom on avait déjà décidé.
@@ -385,11 +389,13 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	année	année	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-5	des	des	ADP	_	_	6	case	_	_
-6	M	M	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
-8	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+5-6	des	_	_	_	_	_	_	_	_
+5	de	des	ADP	_	_	7	case	_	wordform=des
+6	les	les	DET	_	_	7	det	_	_
+7	M	M	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_24
 # text = et, moi, mon surnom, depuis que je suis toute petite, que mon papa me donnait, c'était Mouts.
@@ -459,7 +465,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	ouais	ouais	INTJ	_	_	3	parataxis	_	SpaceAfter=No
+4	ouais	ouais	INTJ	_	_	3	obj	_	Reported=Yes|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_28
@@ -603,7 +609,7 @@
 3	pas	pas	ADV	_	_	2	advmod	_	_
 4	marcher	marcher	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	discourse	_	SpaceAfter=No
+6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	conj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_39

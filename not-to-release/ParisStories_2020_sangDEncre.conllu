@@ -845,7 +845,7 @@
 21	qui	qui	PRON	_	PronType=Rel	23	nsubj	_	_
 22	se	se	PRON	_	Person=3|PronType=Prs	23	dep:comp	_	_
 23	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
-24	tout	tout	ADV	_	_	26	advmod	_	_
+24	tout	tout	ADJ	_	_	26	amod	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	sang	sang	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
@@ -1002,7 +1002,7 @@
 36-37	du	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	35	advmod	_	ExtPos=ADV|Idiom=Yes
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	fixed	_	InIdiom=Yes
-38	tout	tout	ADV	_	_	36	fixed	_	InIdiom=Yes
+38	tout	tout	NOUN	_	_	36	fixed	_	InIdiom=Yes
 39	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	35	reparandum	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	39	reparandum	_	SpaceAfter=No
@@ -1186,7 +1186,7 @@
 23	faire	faire	VERB	_	VerbForm=Inf	21	acl	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	retour	retour	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
-26	etc	etc	ADV	_	_	25	discourse	_	SpaceAfter=No
+26	etc	etc	ADV	_	_	25	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_sangDEncre_49
@@ -1234,8 +1234,8 @@
 32	réparer	réparer	VERB	_	VerbForm=Inf	30	acl	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	avion	avion	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
-35	et	et	CCONJ	_	_	36	cc	_	_
-36	tout	tout	ADV	_	_	21	conj	_	SpaceAfter=No
+35	et	et	CCONJ	_	_	36	cc	_	ExtPos=ADV|InIdiom=Yes
+36	tout	tout	ADV	_	_	21	conj	_	Idiom=Yes|SpaceAfter=No
 37	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_sangDEncre_51

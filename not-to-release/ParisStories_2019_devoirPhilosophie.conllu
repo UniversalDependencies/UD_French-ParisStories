@@ -791,7 +791,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	femme	femme	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	etc	etc	INTJ	_	_	13	discourse	_	SpaceAfter=No
+18	etc	etc	ADV	_	_	3	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_devoirPhilosophie_32
@@ -836,7 +836,7 @@
 12	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
-15	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+15	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	Reported=Yes
 16	quand	quand	SCONJ	_	_	15	advmod	_	ExtPos=ADV|Idiom=Yes
 17	même	même	ADV	_	_	16	fixed	_	InIdiom=Yes
 18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	19	det	_	_

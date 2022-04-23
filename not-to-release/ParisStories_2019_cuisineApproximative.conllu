@@ -31,7 +31,7 @@
 16	très	très	ADV	_	_	18	advmod	_	_
 17	très	très	ADV	_	_	16	discourse	_	_
 18	carrées	carré	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
-19	etc	etc	ADV	_	_	9	discourse	_	SpaceAfter=No
+19	etc	etc	ADV	_	_	9	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_3
@@ -57,8 +57,8 @@
 18	regarder	regarder	VERB	_	VerbForm=Inf	13	reparandum	_	_
 19	en	en	ADP	_	_	20	case	_	_
 20	gros	gros	ADJ	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
-21	et	et	CCONJ	_	_	22	cc	_	_
-22	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	conj	_	SpaceAfter=No
+21	et	et	CCONJ	_	_	22	cc	_	ExtPos=ADV|InIdiom=Yes
+22	tout	tout	ADV	_	_	18	conj	_	Idiom=Yes|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	donc	donc	ADV	_	_	27	cc	_	_
 25	souvent	souvent	ADV	_	_	27	advmod	_	_
@@ -241,7 +241,7 @@
 12	,	,	PUNCT	_	_	21	punct	_	_
 13	alors	alors	ADV	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
 14	que	que	SCONJ	_	_	13	fixed	_	InIdiom=Yes
-15	tout	tout	ADV	_	_	17	advmod	_	_
+15	tout	tout	ADJ	_	_	17	amod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	reste	reste	NOUN	_	Gender=Masc|Number=Sing	21	dislocated	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	SpaceAfter=No
@@ -441,8 +441,8 @@
 10	bien	bien	ADV	_	_	8	advmod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	saveurs	saveur	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
-13	et	et	CCONJ	_	_	14	cc	_	_
-14	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	conj	_	SpaceAfter=No
+13	et	et	CCONJ	_	_	14	cc	_	ExtPos=ADV|InIdiom=Yes
+14	tout	tout	ADV	_	_	12	conj	_	Idiom=Yes|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_17
@@ -574,7 +574,7 @@
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	œufs	œuf	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
-6	etc	etc	X	_	_	5	appos	_	SpaceAfter=No
+6	etc	etc	ADV	_	_	5	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	advmod	_	ExtPos=ADV|Idiom=Yes
@@ -600,8 +600,8 @@
 5	fr~	fr~	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	5	reparandum	_	_
-8	et	et	CCONJ	_	_	9	cc	_	_
-9	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	conj	_	SpaceAfter=No
+8	et	et	CCONJ	_	_	9	cc	_	ExtPos=ADV|InIdiom=Yes
+9	tout	tout	ADV	_	_	7	conj	_	Idiom=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	21	punct	_	_
 11	et	et	CCONJ	_	_	21	cc	_	_
 12	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -666,8 +666,8 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 11	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
 12	proportions	proportion	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
-13	et	et	CCONJ	_	_	14	cc	_	_
-14	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	conj	_	SpaceAfter=No
+13	et	et	CCONJ	_	_	14	cc	_	ExtPos=ADV|InIdiom=Yes
+14	tout	tout	ADV	_	_	6	conj	_	Idiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	18	obj	_	_
@@ -794,7 +794,7 @@
 15	mère	mère	NOUN	_	Gender=Fem|Number=Sing	9	reparandum	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	que	que	SCONJ	_	_	21	mark	_	_
-18	toute	tout	DET	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	20	det	_	_
+18	toute	tout	ADJ	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	20	amod	_	_
 19	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	20	det	_	_
 20	famille	famille	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
 21	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_

@@ -72,23 +72,25 @@
 # sent_id = ParisStories_2021_soireeHalloweenGrange_3
 # text = donc, du coup, on a couru, euh, tout le chemin et tout.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
-1	donc	donc	ADV	_	_	8	advmod	_	SpaceAfter=No
+1	donc	donc	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	du	du	ADP	_	_	4	case	_	_
-4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
-6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	14	punct	_	_
-10	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
-12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
-15	et	et	CCONJ	_	_	16	cc	_	_
-16	tout	tout	ADV	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	wordform=du
+4	le	le	DET	_	_	5	det	_	_
+5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	tout	tout	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	chemin	chemin	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+16	et	et	CCONJ	_	_	17	cc	_	ExtPos=ADV|InIdiom=Yes
+17	tout	tout	ADV	_	Gender=Masc|Number=Sing	15	conj	_	Idiom=Yes|SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_4
 # text = et on a atterri, euh, on a atterri dans, près d'une grange.
@@ -223,7 +225,7 @@
 
 # status = done
 # sent_id = ParisStories_2021_soireeHalloweenGrange_10
-# text = et, euh, là dans un cimetière, y avait, euh, y avait, euh, une, mh, un trou, euh, pour où, là où on met les cercueils et cetera, où, où il y avait pas encore, euh, de cercueil de mis.
+# text = et, euh, là dans un cimetière, y avait, euh, y avait, euh, une, mh, un trou, euh, pour où, là où on met les cercueils etc, où, où il y avait pas encore, euh, de cercueil de mis.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -262,28 +264,27 @@
 35	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
 36	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
 37	cercueils	cercueil	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
-38	et	et	CCONJ	_	_	39	case	_	_
-39	cetera	cetera	ADV	_	_	37	discourse	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	46	punct	_	_
-41	où	où	PRON	_	PronType=Rel	46	obl:mod	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	43	punct	_	_
-43	où	où	PRON	_	PronType=Rel	41	reparandum	_	_
-44	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	expl:subj	_	_
-45	y	y	PRON	_	Person=3|PronType=Prs	46	xcomp	_	_
-46	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
-47	pas	pas	ADV	_	_	48	advmod	_	_
-48	encore	encore	ADV	_	_	46	advmod	_	SpaceAfter=No
-49	,	,	PUNCT	_	_	50	punct	_	_
-50	euh	euh	INTJ	_	_	48	discourse	_	SpaceAfter=No
-51	,	,	PUNCT	_	_	53	punct	_	_
-52	de	de	ADP	_	_	53	case	_	_
-53	cercueil	cercueil	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	_
-54	de	de	ADP	_	_	55	mark	_	_
-55	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	46	ccomp	_	SpaceAfter=No
-56	.	.	PUNCT	_	_	11	punct	_	_
+38	etc	etc	ADV	_	_	37	conj	_	SpaceAfter=No|wordform=et
+39	,	,	PUNCT	_	_	45	punct	_	_
+40	où	où	PRON	_	PronType=Rel	45	obl:mod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	où	où	PRON	_	PronType=Rel	40	reparandum	_	_
+43	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	expl:subj	_	_
+44	y	y	PRON	_	Person=3|PronType=Prs	45	xcomp	_	_
+45	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+46	pas	pas	ADV	_	_	47	advmod	_	_
+47	encore	encore	ADV	_	_	45	advmod	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	49	punct	_	_
+49	euh	euh	INTJ	_	_	47	discourse	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	52	punct	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	cercueil	cercueil	NOUN	_	Gender=Masc|Number=Sing	45	obj	_	_
+53	de	de	ADP	_	_	54	mark	_	_
+54	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	ccomp	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_11
-# text = et y avait un, un homme, qui racontait que, que sa fille avait été tuée, euh, et, euh, voilà, qu'elle avait été, euh, assassinée et cetera.
+# text = et y avait un, un homme, qui racontait que, que sa fille avait été tuée, euh, et, euh, voilà, qu'elle avait été, euh, assassinée etc.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	iobj	_	_
@@ -320,9 +321,8 @@
 33	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	assassinée	assassiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	_
-36	et	et	CCONJ	_	_	35	reparandum	_	_
-37	cetera	cetera	ADV	_	_	36	goeswith	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	3	punct	_	_
+36	etc	etc	ADV	_	_	35	conj	_	SpaceAfter=No|wordform=et
+37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_12
 # text = ~ fin d ~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
@@ -354,20 +354,22 @@
 # sent_id = ParisStories_2021_soireeHalloweenGrange_13
 # text = mais du coup, hum, voilà, il nous a expliqué ça.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
-1	mais	mais	CCONJ	_	_	12	cc	_	_
-2	du	du	ADP	_	_	3	case	_	_
-3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	hum	hum	INTJ	_	_	12	discourse	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
-7	voilà	voilà	VERB	_	_	12	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-10	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obj	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	12	punct	_	_
+1	mais	mais	CCONJ	_	_	13	cc	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	wordform=du
+3	le	le	DET	_	_	4	det	_	_
+4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	hum	hum	INTJ	_	_	13	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	voilà	voilà	VERB	_	_	13	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_14
 # text = ensuite, on a, on a atterri, euh, dans un lieu où, euh, où on a eu, y avait des clowns tueurs de ce que je me souviens, euh, voilà, qui essayaient de nous effrayer.
@@ -464,8 +466,8 @@
 41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	sorcière	sorcière	NOUN	_	Gender=Fem|Number=Sing	36	ccomp	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	45	punct	_	_
-44	et	et	CCONJ	_	_	45	cc	_	_
-45	tout	tout	PRON	_	Gender=Masc|Number=Sing	42	discourse	_	SpaceAfter=No
+44	et	et	CCONJ	_	_	45	cc	_	ExtPos=ADV|InIdiom=Yes
+45	tout	tout	ADV	_	Gender=Masc|Number=Sing	42	conj	_	Idiom=Yes|SpaceAfter=No
 46	,	,	PUNCT	_	_	49	punct	_	_
 47	qui	qui	PRON	_	PronType=Rel	49	nsubj	_	_
 48	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	49	iobj	_	_
@@ -483,7 +485,7 @@
 60	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_16
-# text = et, euh, et, euh, ouais, qui nous disait d'être effrayés, et qu'il fallait qu'on fuie et cetera.
+# text = et, euh, et, euh, ouais, qui nous disait d'être effrayés, et qu'il fallait qu'on fuie etc.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	et	Et	CCONJ	_	_	13	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
@@ -509,7 +511,6 @@
 22	qu'	qu'	SCONJ	_	_	24	mark	_	SpaceAfter=No
 23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	_
 24	fuie	fuir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
-25	et	et	CCONJ	_	_	24	conj	_	_
-26	cetera	cetera	ADV	_	_	25	flat	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	13	punct	_	_
+25	etc	etc	ADV	_	_	24	conj	_	SpaceAfter=No|wordform=et
+26	.	.	PUNCT	_	_	13	punct	_	_
 

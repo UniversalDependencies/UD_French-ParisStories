@@ -64,8 +64,8 @@
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
-14	vraiment	vraiment	ADV	_	_	15	advmod	_	_
-15	vraiment	vraiment	ADV	_	_	16	advmod	_	_
+14	vraiment	vraiment	ADV	_	_	16	advmod	_	_
+15	vraiment	vraiment	ADV	_	_	14	conj	_	_
 16	cool	cool	ADJ	_	Gender=Masc|Number=Sing	10	reparandum	_	_
 17	parce	parce	SCONJ	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
 18	que	que	SCONJ	_	_	17	fixed	_	InIdiom=Yes
@@ -221,7 +221,7 @@
 30	quarante	quarante	NUM	_	Number=Plur	28	obl:mod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	tout	tout	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
-33	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	discourse	_	SpaceAfter=No
+33	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	conj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = et euh, donc ça déjà c'était payé quarante euros, juste pour aller essayer, ça a duré, euh, trente minutes.
@@ -394,7 +394,7 @@
 29	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
 30	fauteuils	fauteuil	NOUN	_	Gender=Masc|Number=Plur	27	appos	_	_
 31	tout	tout	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
-32	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	appos	_	SpaceAfter=No
+32	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = on était vraiment directement dans l'ambiance quoi.
@@ -493,8 +493,8 @@
 26	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
 27	connaissance	connaissance	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	tout	tout	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	dep	_	_
-30	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	appos	_	SpaceAfter=No
+29	tout	tout	ADJ	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	amod	_	_
+30	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = Et euh, et euh, du coup c'était marrant, pendant vraiment toute la matinée on a retourné cette scène, euh, je sais pas combien de fois.

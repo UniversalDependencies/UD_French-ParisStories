@@ -16,8 +16,8 @@
 12	sac	sac	NOUN	_	Gender=Masc|Number=Sing	8	reparandum	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	couchage	couchage	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-15	et	et	CCONJ	_	_	16	cc	_	_
-16	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	conj	_	SpaceAfter=No
+15	et	et	CCONJ	_	_	16	cc	_	ExtPos=ADV|InIdiom=Yes
+16	tout	tout	ADV	_	_	2	conj	_	Idiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_histoireOurs_2
@@ -127,8 +127,8 @@
 20	de	de	ADP	_	_	21	mark	_	_
 21	gratter	gratter	VERB	_	VerbForm=Inf	18	conj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
-23	et	et	CCONJ	_	_	24	cc	_	_
-24	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	conj	_	SpaceAfter=No
+23	et	et	CCONJ	_	_	24	cc	_	ExtPos=ADV|InIdiom=Yes
+24	tout	tout	ADV	_	_	21	conj	_	Idiom=Yes|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	sur	sur	ADP	_	_	27	dep:comp	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	dep	_	SpaceAfter=No
@@ -445,7 +445,7 @@
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_histoireOurs_19
-# text = on s'est dit : pourquoi nous, on a rien fait, etcetera.
+# text = on s'est dit : pourquoi nous, on a rien fait, etc.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/fcc3063b3729ad37451e6d8b81a9989fbf382c71
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	dep:comp	_	SpaceAfter=No
@@ -460,7 +460,7 @@
 11	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	12	obl:mod	_	_
 12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	etcetera	etcetera	ADV	_	_	12	advmod	_	SpaceAfter=No
+14	etc	etc	ADV	_	_	12	conj	_	SpaceAfter=No|wordform=etcetera
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_histoireOurs_20
