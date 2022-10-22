@@ -2,12 +2,12 @@
 # sent_id = ParisStories_2019_vacancesEte_1
 # text = oui donc je vais te raconter mes vacances d'été.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	oui	oui	INTJ	_	_	4	discourse	_	_
+1	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ
 2	donc	donc	ADV	_	_	4	discourse	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
-6	raconter	raconter	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	raconter	raconter	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
 8	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
@@ -17,7 +17,7 @@
 # sent_id = ParisStories_2019_vacancesEte_2
 # text = donc euh cet été j'étais en vacances euh bah pendant pas mal longtemps quand même,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	donc	donc	ADV	_	_	8	discourse	_	_
+1	donc	donc	ADV	_	_	8	advmod	_	_
 2	euh	euh	INTJ	_	_	8	discourse	_	_
 3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	été	été	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
@@ -29,14 +29,14 @@
 10	bah	bah	INTJ	_	_	14	discourse	_	_
 11	pendant	pendant	ADP	_	_	14	case	_	_
 12	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	ExtPos=ADV|Idiom=Yes
-13	mal	mal	ADV	_	_	12	fixed	_	InIdiom=Yes
+13	mal	mal	ADV	_	Gender=Masc|Number=Sing	12	fixed	_	InIdiom=Yes
 14	longtemps	longtemps	ADV	_	_	8	advmod	_	_
 15	quand	quand	SCONJ	_	_	14	advmod	_	ExtPos=ADV|Idiom=Yes
 16	même	même	ADV	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_3
-# text = euh j'étais en vacances dès le mois de mai en quelque sorte même si j'ai travaillé euh en mai et en juin en temps que baby sitter.
+# text = euh j'étais en vacances dès le mois de mai en quelque sorte même si j'ai travaillé euh en mai et en juin en tant que baby sitter.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
@@ -45,7 +45,7 @@
 5	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 6	dès	dès	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mois	mois	NOUN	_	Gender=Masc	5	obl:mod	_	_
+8	mois	mois	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	mai	mai	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	en	en	ADP	_	_	13	case	_	_
@@ -54,7 +54,7 @@
 14	même	même	ADV	_	_	5	advmod	_	_
 15	si	si	SCONJ	_	_	14	dep	_	_
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
-17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
 19	euh	euh	INTJ	_	_	21	discourse	_	_
 20	en	en	ADP	_	_	21	case	_	_
@@ -62,11 +62,11 @@
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	juin	juin	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
-25	en	en	ADP	_	_	26	case	_	_
-26	temps	temps	NOUN	_	Gender=Masc	18	obl:mod	_	_
-27	que	que	SCONJ	_	_	29	case	_	_
+25	en	en	ADP	_	_	29	case	_	ExtPos=ADP|Idiom=Yes
+26	tant	tant	ADV	_	_	25	fixed	_	InIdiom=Yes
+27	que	que	SCONJ	_	_	25	fixed	_	InIdiom=Yes
 28	baby	baby	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-29	sitter	sitter	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	sitter	sitter	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_4
@@ -80,7 +80,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	restée	rester	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	chez	chez	ADP	_	_	12	case	_	_
 12	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obl:mod	_	_
@@ -94,24 +94,24 @@
 # text = j'ai fait enfin j'ai vu mes amies, j'ai fait des pique-niques, je suis allée à la Japan Expo, euh j'ai je suis allée dans un spa qu'on m'avait offert enfin bref voilà, très sympa.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
-2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	enfin	enfin	ADV	_	_	7	discourse	_	_
+4	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
-6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	reparandum	_	_
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
 9	amies	ami	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
-12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	appos	_	_
+12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	pique-niques	pique-nique	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
-18	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	appos	_	_
+18	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
+19	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 20	à	à	ADP	_	_	23	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	Japan	Japan	PROPN	_	_	23	nmod	_	_
@@ -119,9 +119,9 @@
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	euh	euh	INTJ	_	_	27	discourse	_	_
 26	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	SpaceAfter=No
-27	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	appos	_	_
+27	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
 28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
-29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux:tense	_	_
 30	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	reparandum	_	_
 31	dans	dans	ADP	_	_	33	case	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -129,14 +129,14 @@
 34	qu'	que	PRON	_	PronType=Rel	38	obj	_	SpaceAfter=No
 35	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	nsubj	_	_
 36	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	38	iobj	_	SpaceAfter=No
-37	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux	_	_
+37	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux:tense	_	_
 38	offert	offrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
-39	enfin	enfin	ADV	_	_	3	discourse	_	_
+39	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
 40	bref	bref	INTJ	_	_	3	discourse	_	_
-41	voilà	voilà	VERB	_	_	3	discourse	_	SpaceAfter=No
+41	voilà	voilà	VERB	_	_	3	discourse	_	ExtPos=INTJ|SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	très	très	ADV	_	_	44	advmod	_	_
-44	sympa	sympa	INTJ	_	_	3	discourse	_	SpaceAfter=No
+44	sympa	sympa	ADJ	_	_	3	discourse	_	ExtPos=INTJ|SpaceAfter=No
 45	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_6
@@ -152,7 +152,7 @@
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
-11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	partie	partir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	reparandum	_	_
 13	euh	euh	INTJ	_	_	17	discourse	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	_
@@ -175,7 +175,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	donc	donc	ADV	_	_	5	discourse	_	_
-3	voilà	voilà	VERB	_	_	5	discourse	_	_
+3	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 5	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -189,17 +189,17 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	visité	visiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Île	île	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Ré	Ré	PROPN	_	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	voilà	voilà	VERB	_	_	14	discourse	_	SpaceAfter=No
+10	voilà	voilà	VERB	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
-13	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 14	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -214,7 +214,7 @@
 3	beau	beau	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -242,7 +242,7 @@
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	photographe	photographe	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	enfin	enfin	ADV	_	_	14	discourse	_	_
+10	enfin	enfin	ADV	_	_	14	discourse	_	ExtPos=INTJ
 11	bon	bon	INTJ	_	_	14	discourse	_	_
 12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 13	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
@@ -260,7 +260,7 @@
 3	et	et	CCONJ	_	_	1	reparandum	_	_
 4	pendant	pendant	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	mois	mois	NOUN	_	Gender=Masc	10	obl:mod	_	_
+6	mois	mois	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -280,7 +280,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	donc	donc	ADV	_	_	5	cc	_	_
-3	voilà	voilà	VERB	_	_	5	discourse	_	_
+3	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 5	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
@@ -310,9 +310,9 @@
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_14
-# text = donc il avait une exposition de photo et donc on a ramené ses photos, on a fait l'exposition, on a vu de la famille fin bref, voilà donc très sympa.
+# text = donc il avait une exposition de photo et donc on a ramené ses photos, on a fait l'exposition, on a vu de la famille enfin bref, voilà donc très sympa.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	donc	donc	ADV	_	_	3	discourse	_	_
+1	donc	donc	ADV	_	_	3	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -322,27 +322,27 @@
 8	et	et	CCONJ	_	_	12	cc	_	_
 9	donc	donc	ADV	_	_	12	cc	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 13	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	14	det	_	_
 14	photos	photo	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	_
-17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	appos	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	exposition	exposition	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	_
-23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
 24	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	appos	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	famille	famille	NOUN	_	Gender=Fem|Number=Sing	24	obl:arg	_	_
-28	fin	fin	INTJ	_	_	34	discourse	_	_
+25	de	de	ADP	_	_	27	det	_	ExtPos=DET|Idiom=Yes
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	fixed	_	InIdiom=Yes
+27	famille	famille	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+28	enfin	enfin	ADV	_	_	34	discourse	_	ExtPos=INTJ|wordform=fin
 29	bref	bref	INTJ	_	_	34	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	voilà	voilà	VERB	_	_	34	discourse	_	_
+31	voilà	voilà	VERB	_	_	34	discourse	_	ExtPos=INTJ
 32	donc	donc	ADV	_	_	34	cc	_	_
 33	très	très	ADV	_	_	34	advmod	_	_
 34	sympa	sympa	ADJ	_	Number=Sing	3	conj	_	SpaceAfter=No
@@ -352,7 +352,7 @@
 # text = on est allé à Rochefort aussi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	Rochefort	Rochefort	PROPN	_	_	3	obl:arg	_	_
@@ -378,7 +378,7 @@
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	16	det	_	_
 16	parents	parent	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
-17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	restés	rester	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
 19	là-bas	là-bas	ADV	_	_	18	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
@@ -387,7 +387,7 @@
 # text = euh voilà et donc à le retour de à Paris je suis allée à le concert de Coldplay à le Stade de France, euh voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	13	discourse	_	_
-2	voilà	voilà	VERB	_	_	13	discourse	_	_
+2	voilà	voilà	VERB	_	_	13	discourse	_	ExtPos=INTJ
 3	et	et	CCONJ	_	_	13	cc	_	_
 4	donc	donc	ADV	_	_	13	cc	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -397,7 +397,7 @@
 9	à	à	ADP	_	_	10	case	_	_
 10	Paris	Paris	PROPN	_	_	8	reparandum	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -411,14 +411,14 @@
 23	France	France	PROPN	_	_	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	euh	euh	INTJ	_	_	13	discourse	_	_
-26	voilà	voilà	VERB	_	_	13	discourse	_	SpaceAfter=No
+26	voilà	voilà	VERB	_	_	13	discourse	_	ExtPos=INTJ|SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_18
 # text = voilà quoi c'était un concert euh avec une amie, euh donc c'était, c'était génial, c'était un de mes plus beaux concerts !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	voilà	voilà	VERB	_	_	6	discourse	_	_
-2	quoi	quoi	INTJ	_	_	1	obj	_	_
+1	voilà	voilà	VERB	_	_	6	discourse	_	ExtPos=INTJ
+2	quoi	quoi	INTJ	_	_	6	discourse	_	ExtPos=INTJ
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -448,14 +448,14 @@
 29	!	!	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_19
-# text = voila et euh ensuite je suis restée euh, euh quelques jours à Paris et je suis repartie le vingt-deux juillet à Biscarrosse, avec mon copain.
+# text = voilà et euh ensuite je suis restée euh, euh quelques jours à Paris et je suis repartie le vingt-deux juillet à Biscarrosse, avec mon copain.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	voila	voila	INTJ	_	_	7	discourse	_	_
+1	voilà	voila	VERB	_	_	7	discourse	_	ExtPos=INTJ
 2	et	et	CCONJ	_	_	7	cc	_	_
 3	euh	euh	INTJ	_	_	7	discourse	_	_
 4	ensuite	ensuite	ADV	_	_	7	advmod	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	restée	rester	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -480,9 +480,9 @@
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_20
-# text = donc Biscarrosse c'est euh pas très loin d'Arcachon, de Bordeaux, fin voilà.
+# text = donc Biscarrosse c'est euh pas très loin d'Arcachon, de Bordeaux, enfin voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	donc	donc	ADV	_	_	4	discourse	_	_
+1	donc	donc	ADV	_	_	4	advmod	_	_
 2	Biscarrosse	Biscarrosse	PROPN	_	_	4	dislocated	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -496,8 +496,8 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	Bordeaux	Bordeaux	PROPN	_	_	10	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	fin	fin	ADV	_	_	4	discourse	_	_
-16	voilà	voilà	VERB	_	_	4	discourse	_	SpaceAfter=No
+15	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ|wordform=fin
+16	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_21
@@ -507,7 +507,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	donc	donc	ADV	_	_	6	discourse	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	partie	partir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
 8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	9	det	_	_
@@ -550,13 +550,13 @@
 # sent_id = ParisStories_2019_vacancesEte_23
 # text = euh qu'est-ce qu'on a fait bah,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	euh	euh	INTJ	_	_	3	obj	_	_
+1	euh	euh	INTJ	_	_	3	discourse	_	_
 2	qu'	que	PRON	_	Person=3|PronType=Int	3	xcomp	_	SpaceAfter=No
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	expl:subj	_	_
 5	qu'	que	SCONJ	_	_	8	dep:comp	_	SpaceAfter=No
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl:cleft	_	_
 9	bah	bah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
@@ -566,7 +566,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -580,14 +580,14 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	voilà	voilà	VERB	_	_	6	discourse	_	SpaceAfter=No
+3	voilà	voilà	VERB	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	_
 7	ni	ni	CCONJ	_	_	8	cc	_	_
 8	bien	bien	ADV	_	_	6	xcomp	_	_
 9	ni	ni	CCONJ	_	_	10	cc	_	_
-10	nul	nul	ADV	_	_	8	conj	_	SpaceAfter=No
+10	nul	nul	ADV	_	PronType=Neg	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_26
@@ -595,38 +595,38 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	appos	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	vélo	vélo	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	_
-18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	appos	_	_
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
+19	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	lac	lac	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	nsubj	_	_
-25	retournait	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	appos	_	_
+25	retournait	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	casino	casino	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_27
-# text = fin bref voilà des vacances d'été pas mal quoi, à la plage.
+# text = enfin bref voilà des vacances d'été pas mal quoi, à la plage.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	fin	fin	ADV	_	_	3	discourse	_	_
+1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ|wordform=fin
 2	bref	bref	INTJ	_	_	3	discourse	_	_
 3	voilà	voilà	VERB	_	_	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
@@ -634,7 +634,7 @@
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	été	été	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	ExtPos=ADV|Idiom=Yes
-9	mal	mal	ADV	_	_	8	fixed	_	InIdiom=Yes
+9	mal	mal	ADV	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 10	quoi	quoi	INTJ	_	_	14	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	à	à	ADP	_	_	14	case	_	_
@@ -655,7 +655,7 @@
 8	euh	euh	INTJ	_	_	10	discourse	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	xcomp	_	SpaceAfter=No
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	xcomp	_	Scrap=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 14	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	reparandum	_	_
@@ -689,7 +689,7 @@
 # sent_id = ParisStories_2019_vacancesEte_30
 # text = donc j'suis j'étais animatrice, euh dans une colo euh d'adolescents,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	donc	donc	ADV	_	_	3	cc	_	_
+1	donc	donc	ADV	_	_	3	advmod	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 3	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
@@ -706,9 +706,9 @@
 15	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_31
-# text = donc c'était une colonie c'était une colonie euh, vers Agen specialisée pour euh, enfin spécialisée non, fin le thème c'était euh euh les best sellers de l'été, colo écrivains.
+# text = donc c'était une colonie c'était une colonie euh, vers Agen specialisée pour euh, enfin spécialisée non, enfin le thème c'était euh euh les best sellers de l'été, colo écrivains.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	donc	donc	ADV	_	_	3	cc	_	_
+1	donc	donc	ADV	_	_	3	advmod	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -725,11 +725,11 @@
 15	pour	pour	ADP	_	_	14	dep	_	_
 16	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	enfin	enfin	ADV	_	_	19	discourse	_	_
+18	enfin	enfin	ADV	_	_	19	discourse	_	ExtPos=INTJ
 19	spécialisée	specialiser	ADJ	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	_
-20	non	non	ADV	_	Polarity=Neg	26	discourse	_	SpaceAfter=No
+20	non	non	ADV	_	Polarity=Neg	26	discourse	_	ExtPos=INTJ|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
-22	fin	fin	ADV	_	_	26	discourse	_	_
+22	enfin	enfin	ADV	_	_	26	discourse	_	ExtPos=INTJ|wordform=fin
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	thème	thème	NOUN	_	Gender=Masc|Number=Sing	26	dislocated	_	_
 25	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	SpaceAfter=No
@@ -750,12 +750,12 @@
 # sent_id = ParisStories_2019_vacancesEte_32
 # text = donc oui c'est un peu bizarre mais c'était des colos à projets.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	donc	donc	ADV	_	_	4	cc	_	_
-2	oui	oui	ADV	_	_	4	discourse	_	_
+1	donc	donc	ADV	_	_	4	advmod	_	_
+2	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	ExtPos=ADV|Idiom=Yes
-6	peu	peu	NOUN	_	_	5	fixed	_	InIdiom=Yes
+6	peu	peu	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
 7	bizarre	bizarre	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
 8	mais	mais	CCONJ	_	_	10	cc	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
@@ -767,12 +767,12 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_33
-# text = en gros il y avait colo manga euh colo euh colo jeux olympiques, colo bande-dessinée, colo dessin, oui j'l'ai déjà dit.
+# text = en gros il y avait colo manga euh colo euh colo jeux olympiques, colo bande-dessinée, colo dessin, oui je l'ai déjà dit.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	en	en	ADV	_	_	5	advmod	_	_
-2	gros	gros	ADJ	_	Gender=Masc	1	obj	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	obl:mod	_	_
+1	en	en	ADP	_	_	2	case	_	_
+2	gros	gros	ADJ	_	Gender=Masc	5	discourse	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	colo	colo	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 7	manga	manga	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -789,10 +789,10 @@
 18	colo	colo	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
 19	dessin	dessin	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	26	punct	_	_
-21	oui	oui	ADV	_	_	26	discourse	_	_
-22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
+21	oui	oui	ADV	_	_	26	discourse	_	ExtPos=INTJ
+22	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
 23	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
-24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
 25	déjà	déjà	ADV	_	_	26	advmod	_	_
 26	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	discourse	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
@@ -801,7 +801,7 @@
 # text = on est allé à la plage,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -812,7 +812,7 @@
 # text = on est allé à le casino, beaucoup, parce que on aime bien ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -820,7 +820,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	beaucoup	beaucoup	ADV	_	_	3	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
-10	parce	parce	SCONJ	_	_	13	mark	_	ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	_	13	mark	_	ExtPos=SCONJ|Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
 13	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_

@@ -28,7 +28,7 @@
 4	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
-7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	4	conj	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	pizza	pizza	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
@@ -63,7 +63,7 @@
 8	b~	b~	X	_	_	5	reparandum	_	_
 9	beaucoup	beaucoup	ADV	_	_	8	reparandum	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	points	point	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
+11	points	point	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 12	positifs	positif	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 13	pour	pour	ADP	_	_	14	case	_	_
 14	celui-là	celui-là	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nmod	_	SpaceAfter=No
@@ -81,14 +81,14 @@
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 8	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	d'	d'	ADP	_	_	10	mark	_	SpaceAfter=No
-10	aller	aller	VERB	_	VerbForm=Inf	8	ccomp	_	_
+10	aller	aller	VERB	_	VerbForm=Inf	8	ccomp	_	Subject=NoRaising
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	CROUS	CROUS	PROPN	_	_	10	obl:arg	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	Jussieu	Jussieu	PROPN	_	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	27	punct	_	_
-17	parce	parce	SCONJ	_	_	27	mark	_	ExtPos=SCONJ|Idiom=Yes
+17	parce	parce	ADV	_	_	27	mark	_	ExtPos=SCONJ|Idiom=Yes
 18	que	que	SCONJ	_	_	17	fixed	_	InIdiom=Yes
 19	Thomas	Thomas	PROPN	_	_	21	nsubj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	advmod	_	SpaceAfter=No
@@ -100,7 +100,7 @@
 26	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	nsubj	_	_
 27	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 28	pas	pas	ADV	_	Polarity=Neg	27	advmod	_	_
-29	aller	aller	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	aller	aller	VERB	_	VerbForm=Inf	27	xcomp	_	Subject=SubjRaising
 30	plus	plus	ADV	_	_	31	advmod	_	_
 31	loin	loin	ADV	_	_	29	advmod	_	_
 32	pour	pour	ADP	_	_	34	case	_	_
@@ -116,8 +116,8 @@
 3	prochainement	prochainement	ADV	_	_	5	advmod	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	_
-7	tous	tout	ADJ	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	8	amod	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
+7	tous	tout	ADJ	_	Gender=Masc|Number=Plur|PronType=Ind	8	amod	_	_
 8	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	6	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Paris	Paris	PROPN	_	_	8	nmod	_	_
@@ -128,7 +128,7 @@
 # text = c'est c'est dans les plans.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
@@ -161,7 +161,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	Jussieu	Jussieu	PROPN	_	_	8	obl:arg	_	SpaceAfter=No
@@ -183,13 +183,13 @@
 11	donc	donc	ADV	_	_	13	cc	_	_
 12	déjà	déjà	ADV	_	_	13	advmod	_	_
 13	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	conj	_	_
-14	trouver	trouver	VERB	_	VerbForm=Inf	13	xcomp	_	_
+14	trouver	trouver	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_11
-# text = euh donc en fait je crois qu'on a perdu genre à le moins dix minutes à faire le tour de le bâtiment pour avoir une entrée, parce qu'avec Vigipirate tout ça y'a plus que une entrée d'ouverte comme partout.
+# text = euh donc en fait je crois qu'on a perdu genre à le moins dix minutes à faire le tour de le bâtiment pour avoir une entrée, parce qu'avec Vigipirate tout ça il y a plus que une entrée d'ouverte comme partout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	donc	donc	ADV	_	_	6	discourse	_	_
@@ -199,43 +199,44 @@
 6	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
-9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
-11	genre	genre	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	_
+11	genre	genre	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	ExtPos=INTJ
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	_	10	obl:mod	_	_
 15	dix	dix	NUM	_	Number=Plur	16	nummod	_	_
 16	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
 17	à	à	ADP	_	_	18	mark	_	_
-18	faire	faire	VERB	_	VerbForm=Inf	16	acl	_	_
+18	faire	faire	VERB	_	VerbForm=Inf	16	acl	_	Subject=SubjRaising
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	tour	tour	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	pour	pour	ADP	_	_	25	mark	_	_
-25	avoir	avoir	VERB	_	VerbForm=Inf	18	advcl	_	_
+25	avoir	avoir	VERB	_	VerbForm=Inf	18	advcl	_	Subject=NoRaising
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	36	punct	_	_
-29	parce	parce	SCONJ	_	_	36	mark	_	ExtPos=SCONJ|Idiom=Yes
+28	,	,	PUNCT	_	_	37	punct	_	_
+29	parce	parce	ADV	_	_	37	mark	_	ExtPos=SCONJ|Idiom=Yes
 30	qu'	que	SCONJ	_	_	29	fixed	_	InIdiom=Yes|SpaceAfter=No
 31	avec	avec	ADP	_	_	32	case	_	_
-32	Vigipirate	Vigipirate	PROPN	_	_	36	obl:mod	_	_
+32	Vigipirate	Vigipirate	PROPN	_	_	37	obl:mod	_	_
 33	tout	tout	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 34	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	conj	_	_
-35	y'	y	PRON	_	Person=3|PronType=Prs	36	obl:mod	_	SpaceAfter=No
-36	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
-37	plus	plus	ADV	_	_	40	advmod	_	_
-38	que	que	SCONJ	_	_	40	case	_	_
-39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
-41	d'	de	ADP	_	_	42	mark	_	SpaceAfter=No
-42	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
-43	comme	comme	ADP	_	_	44	case	_	_
-44	partout	partout	ADV	_	_	36	advmod	_	SpaceAfter=No
-45	.	.	PUNCT	_	_	6	punct	_	_
+35	il	_	PRON	_	_	37	expl:subj	_	_
+36	y	y	PRON	_	Person=3|PronType=Prs	37	expl	_	_
+37	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+38	plus	plus	ADV	_	_	41	advmod	_	_
+39	que	que	SCONJ	_	_	41	case	_	_
+40	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+42	d'	de	ADP	_	_	43	mark	_	SpaceAfter=No
+43	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	41	acl	_	_
+44	comme	comme	ADP	_	_	45	case	_	_
+45	partout	partout	ADV	_	_	37	advmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_12
 # text = ce qui est assez chiant.
@@ -254,7 +255,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	tout	tout	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -263,7 +264,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	_
 13	pour	pour	ADP	_	_	14	mark	_	_
-14	arriver	arriver	VERB	_	VerbForm=Inf	6	advcl	_	_
+14	arriver	arriver	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising
 15	à	à	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	SpaceAfter=No
@@ -273,7 +274,7 @@
 # text = ils ont fouillé nos sacs,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	fouillé	fouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	5	det	_	_
 5	sacs	sac	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
@@ -285,7 +286,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	après	après	ADV	_	_	5	advmod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	qu'	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
@@ -301,8 +302,8 @@
 # text = et il y avait pas de panneaux indiquant le CROUS.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	obl:mod	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
@@ -331,12 +332,12 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-5	s'	se	PRON	_	Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	s'	se	PRON	_	Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	juste	juste	ADV	_	_	8	advmod	_	_
-8	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
+8	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	à	à	ADP	_	_	10	mark	_	_
-10	marcher	marcher	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	marcher	marcher	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 11	là	là	ADV	_	_	10	advmod	_	_
 12	où	où	ADV	_	_	11	advmod	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -347,9 +348,9 @@
 18	mode	mode	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	InIdiom=Yes
 19	bon	bon	INTJ	_	_	21	discourse	_	_
 20	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
-21	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+21	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	Reported=Yes
 22	bien	bien	ADV	_	_	23	advmod	_	_
-23	aller	aller	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	aller	aller	VERB	_	VerbForm=Inf	21	xcomp	_	Subject=SubjRaising
 24	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	25	det	_	_
 25	part	part	NOUN	_	Gender=Fem|Number=Sing	23	iobj	_	_
 26	hein	hein	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -370,13 +371,13 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	moment	moment	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
-13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 14	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	quand	quand	SCONJ	_	_	14	advmod	_	ExtPos=ADV|Idiom=Yes
 16	même	même	ADV	_	_	15	fixed	_	InIdiom=Yes
 17	qu'	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-19	y	y	PRON	_	Person=3|PronType=Prs	20	obl:mod	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	20	expl	_	_
 20	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	panneau	panneau	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
@@ -393,16 +394,16 @@
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 4	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	6	obl:mod	_	_
-6	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	pour	pour	ADP	_	_	8	case	_	_
 8	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_21
-# text = et t'avais quand même un couteau et une fourchette de dessinés à côté, euh, ce qui du coup indiquait un CROUS.
+# text = et tu avais quand même un couteau et une fourchette de dessinés à côté, euh, ce qui du coup indiquait un CROUS.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	quand	quand	SCONJ	_	_	3	advmod	_	ExtPos=ADV|Idiom=Yes
 5	même	même	ADV	_	_	4	fixed	_	InIdiom=Yes
@@ -440,7 +441,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 7	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	9	mark	_	_
-9	marcher	marcher	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	marcher	marcher	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 10	,	,	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_23
@@ -450,11 +451,11 @@
 2	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Cuvier	Cuvier	PROPN	_	_	4	dislocated	_	_
 4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	Reported=Yes
-5	prendre	prendre	VERB	_	VerbForm=Inf	4	xcomp	_	_
+5	prendre	prendre	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	dep:comp	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	reparandum	_	_
-9	prendre	prendre	VERB	_	VerbForm=Inf	8	xcomp	_	_
+9	prendre	prendre	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	rond	rond	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	quarante-sept	quarante-sept	NUM	_	Number=Plur	11	nmod	_	SpaceAfter=No
@@ -534,7 +535,7 @@
 4	assez	assez	ADV	_	_	5	advmod	_	_
 5	futuriste	futuriste	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	enfin	enfin	ADV	_	_	5	discourse	_	SpaceAfter=No
+7	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_30
@@ -582,7 +583,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_34
-# text = et là en fait à le bout de le couloir t'as juste une porte qui te ramène dehors.
+# text = et là en fait à le bout de le couloir tu as juste une porte qui te ramène dehors.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	là	là	ADV	_	_	12	advmod	_	_
@@ -594,7 +595,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	couloir	couloir	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
 12	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	juste	juste	ADV	_	_	12	advmod	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -606,7 +607,7 @@
 20	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_35
-# text = euh de le coup on était un peu perdu, mais vu qu'y avait un gars on a juste suivi le gars,
+# text = euh de le coup on était un peu perdu, mais vu qu'il y avait un gars on a juste suivi le gars,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	euh	euh	INTJ	_	_	9	discourse	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -615,23 +616,24 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	ExtPos=ADV|Idiom=Yes
-8	peu	peu	NOUN	_	_	7	fixed	_	InIdiom=Yes
+8	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes
 9	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	21	punct	_	_
-11	mais	mais	CCONJ	_	_	21	cc	_	_
-12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
-13	qu'	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
-14	y	y	PRON	_	Person=3|PronType=Prs	15	obl:mod	_	_
-15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
-16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	gars	gars	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
-19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-20	juste	juste	ADV	_	_	21	advmod	_	_
-21	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	gars	gars	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	9	punct	_	_
+10	,	,	PUNCT	_	_	22	punct	_	_
+11	mais	mais	CCONJ	_	_	22	cc	_	_
+12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+13	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
+14	il	il	PRON	_	_	16	expl:subj	_	_
+15	y	y	PRON	_	Person=3|PronType=Prs	16	expl	_	_
+16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
+17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	gars	gars	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
+21	juste	juste	ADV	_	_	22	advmod	_	_
+22	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	gars	gars	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_36
 # text = et, euh, là on a trouvé le CROUS.
@@ -642,7 +644,7 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	là	là	ADV	_	_	8	advmod	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	CROUS	CROUS	PROPN	_	_	8	obj	_	SpaceAfter=No
@@ -722,7 +724,7 @@
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -732,7 +734,7 @@
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	heure	heure	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	à	à	ADP	_	_	16	mark	_	_
-16	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	_
+16	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	tour	tour	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
 19	de	de	ADP	_	_	21	case	_	_
@@ -740,14 +742,14 @@
 21	fac	fac	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	à	à	ADP	_	_	25	mark	_	_
-24	se	se	PRON	_	Person=3|PronType=Prs	25	obj	_	_
-25	promener	promener	VERB	_	VerbForm=Inf	16	conj	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs	25	expl	_	_
+25	promener	promener	VERB	_	VerbForm=Inf	16	conj	_	Subject=SubjRaising
 26	dans	dans	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	fac	fac	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	pour	pour	ADP	_	_	31	mark	_	_
-31	trouver	trouver	VERB	_	VerbForm=Inf	25	advcl	_	_
+31	trouver	trouver	VERB	_	VerbForm=Inf	25	advcl	_	Subject=NoRaising
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	CROUS	CROUS	PROPN	_	_	31	obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	40	punct	_	_
@@ -755,8 +757,8 @@
 36	que	que	SCONJ	_	_	40	mark	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	CROUS	CROUS	PROPN	_	_	40	nsubj	_	_
-39	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
-40	fermé	fermer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
+39	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+40	fermé	fermé	ADJ	_	Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	dislocated	_	_
 43	qui	qui	PRON	_	PronType=Rel	46	nsubj	_	_
@@ -766,45 +768,47 @@
 47	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_41
-# text = moi, j'étais contente parce qu'y avait un y'avait un escalator dans la fac, alors moi j'ai pris l'escalator dans la fac, parce que c'était un petit kiffe.
+# text = moi, j'étais contente parce qu'il y avait un il y avait un escalator dans la fac, alors moi j'ai pris l'escalator dans la fac, parce que c'était un petit kiffe.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	dislocated	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
 5	contente	content	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-6	parce	parce	SCONJ	_	_	9	mark	_	ExtPos=SCONJ|Idiom=Yes
+6	parce	parce	ADV	_	_	10	mark	_	ExtPos=SCONJ|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
-8	y	y	PRON	_	Person=3|PronType=Prs	9	obl:mod	_	_
-9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	dep:comp	_	_
-11	y'	y	PRON	_	Person=3|PronType=Prs	12	obl:mod	_	SpaceAfter=No
-12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	reparandum	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	escalator	escalator	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
-15	dans	dans	ADV	_	_	12	advmod	_	_
-16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	fac	fac	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	23	punct	_	_
-19	alors	alors	ADV	_	_	23	cc	_	_
-20	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	23	dislocated	_	_
-21	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	SpaceAfter=No
-22	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
-23	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	5	conj	_	_
-24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	escalator	escalator	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
-26	dans	dans	ADV	_	_	23	advmod	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	fac	fac	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	36	punct	_	_
-30	parce	parce	SCONJ	_	_	36	mark	_	ExtPos=SCONJ|Idiom=Yes
-31	que	que	SCONJ	_	_	30	fixed	_	InIdiom=Yes
-32	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	36	nsubj	_	SpaceAfter=No
-33	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
-34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-35	petit	petit	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
-36	kiffe	kiffe	NOUN	_	Gender=Masc|Number=Sing	23	advcl	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	5	punct	_	_
+8	il	il	PRON	_	_	10	expl:subj	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	10	expl	_	_
+10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	dep:comp	_	_
+12	il	_	PRON	_	_	14	expl:subj	_	_
+13	y	y	PRON	_	Person=3|PronType=Prs	14	expl	_	_
+14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	reparandum	_	_
+15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	escalator	escalator	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	dans	dans	ADV	_	_	14	advmod	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	fac	fac	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	alors	alors	ADV	_	_	25	cc	_	_
+22	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	25	dislocated	_	_
+23	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	SpaceAfter=No
+24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
+25	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	5	conj	_	_
+26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	escalator	escalator	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	dans	dans	ADV	_	_	25	advmod	_	_
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fac	fac	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	38	punct	_	_
+32	parce	parce	ADV	_	_	38	mark	_	ExtPos=SCONJ|Idiom=Yes
+33	que	que	SCONJ	_	_	32	fixed	_	InIdiom=Yes
+34	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	nsubj	_	SpaceAfter=No
+35	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
+36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	petit	petit	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+38	kiffe	kiffe	NOUN	_	Gender=Masc|Number=Sing	25	advcl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_42
 # text = euh voilà.
@@ -816,7 +820,7 @@
 # sent_id = ParisStories_2019_peripleCrous_43
 # text = donc, après, avec Re~ euh Thomas, on a décidé d'aller au CROUS de Censier, parce que c'est chouette.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
-1	donc	donc	ADV	_	_	10	discourse	_	SpaceAfter=No
+1	donc	donc	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	après	après	ADV	_	_	10	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -826,10 +830,10 @@
 8	Thomas	Thomas	PROPN	_	_	6	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 13	d'	d'	ADP	_	_	14	mark	_	SpaceAfter=No
-14	aller	aller	VERB	_	VerbForm=Inf	12	ccomp	_	_
+14	aller	aller	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -837,8 +841,8 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	Censier	Censier	PROPN	_	_	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	25	punct	_	_
-21	parce	parce	SCONJ	_	_	25	mark	_	_
-22	que	que	SCONJ	_	_	25	dep	_	_
+21	parce	parce	ADV	_	_	25	mark	_	ExtPos=SCONJ|Idiom=Yes
+22	que	que	SCONJ	_	_	21	fixed	_	InIdiom=Yes
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	chouette	chouette	ADJ	_	Number=Sing	12	advcl	_	SpaceAfter=No
@@ -861,7 +865,7 @@
 # sent_id = ParisStories_2019_peripleCrous_45
 # text = donc là, on arrive,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
-1	donc	donc	ADV	_	_	5	discourse	_	_
+1	donc	donc	ADV	_	_	5	advmod	_	_
 2	là	là	ADV	_	_	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
@@ -869,7 +873,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_46
-# text = bon, c'était une demi-grève, donc il y'avait un étage de fermé mais l'autre était ouvert.
+# text = bon, c'était une demi-grève, donc il y avait un étage de fermé mais l'autre était ouvert.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	bon	bon	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -879,8 +883,8 @@
 6	demi-grève	demi-grève	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	donc	donc	ADV	_	_	11	cc	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-10	y'	y	PRON	_	Person=3|PronType=Prs	11	obl:mod	_	SpaceAfter=No
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	étage	étage	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
@@ -896,7 +900,7 @@
 # sent_id = ParisStories_2019_peripleCrous_47
 # text = donc là, on arrive, on fait la queue, et là, les gens qui se plaignent, tout ça, bon bref, la France.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
-1	donc	donc	ADV	_	_	5	discourse	_	_
+1	donc	donc	ADV	_	_	5	advmod	_	_
 2	là	là	ADV	_	_	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
@@ -913,13 +917,13 @@
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	gens	gens	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
-18	se	se	PRON	_	Person=3|PronType=Prs	19	obj	_	_
+18	se	se	PRON	_	Person=3|PronType=Prs	19	expl	_	_
 19	plaignent	plaindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	tout	tout	ADJ	_	_	22	amod	_	_
 22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	bon	bon	ADP	_	_	5	discourse	_	_
+24	bon	bon	INTJ	_	_	5	discourse	_	_
 25	bref	bref	INTJ	_	_	5	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -934,13 +938,13 @@
 3	là	là	ADV	_	_	7	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs	7	obj	_	_
+6	se	le	PRON	_	Person=3|PronType=Prs	7	obj	_	_
 7	sépare	séparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	7	obl:mod	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	deux	deux	NUM	_	Number=Plur	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
-12	parce	parce	SCONJ	_	_	16	mark	_	ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	_	16	mark	_	ExtPos=SCONJ|Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes
 14	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	16	dislocated	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
@@ -963,7 +967,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 7	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	dans	dans	ADP	_	_	11	case	_	_

@@ -1,11 +1,11 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_neesLeMemeMois_1
 # text = donc du coup, euh, le thème d'aujourd'hui c'est le jour où je l'ai rencontrée.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
-1	donc	donc	ADV	_	_	15	cc	_	_
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
+1	donc	donc	ADV	_	_	15	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	wordform=du
-3	le	le	DET	_	_	4	det	_	_
+3	le	le	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	15	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
@@ -21,24 +21,24 @@
 16	où	où	PRON	_	PronType=Rel	20	advcl	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
-19	ai	avoir	AUX	_	_	20	aux	_	_
+19	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
 20	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_2
 # text = et euh du coup j'ai décidé de parler de ma rencontre avec Maud, ma voisine.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	8	cc	_	_
 2	euh	euh	INTJ	_	_	8	discourse	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	wordform=du
-4	le	le	DET	_	_	5	det	_	_
+4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
-7	ai	avoir	AUX	_	_	8	aux	_	_
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	de	de	ADP	_	_	10	mark	_	_
-10	parler	parler	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	parler	parler	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 11	de	de	ADP	_	_	13	case	_	_
 12	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	13	det	_	_
 13	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
@@ -53,17 +53,17 @@
 # macrosyntax = [ ah ] du coup, euh, bah avec Maud on s'est rencontrée en deux mille dix, parce que, moi, du coup, je suis arrivée dans ma maison en février deux mille dix.
 # speaker = L2
 # text = ah.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	ah	ah	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = ParisStories_2021_neesLeMemeMois_3bis_0
+# sent_id = ParisStories_2021_neesLeMemeMois_3bis
 # macrosyntax = [ ah ] du coup, euh, bah avec Maud on s'est rencontrées en deux mille dix, parce que, moi, du coup, je suis arrivée dans ma maison en février deux mille dix.
 # text = du coup, euh, bah avec Maud on s'est rencontrées en deux mille dix, parce que, moi, du coup, je suis arrivée dans ma maison en février deux mille dix.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	_	3	det	_	_
+2	le	le	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
@@ -72,101 +72,55 @@
 8	avec	avec	ADP	_	_	9	case	_	_
 9	Maud	Maud	PROPN	_	_	13	obl:arg	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj:pass	_	_
-11	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	obj	_	SpaceAfter=No
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	s'	le	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	obj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	deux	deux	NUM	_	Number=Plur	13	obl:mod	_	_
-16	mille	mille	NUM	_	_	15	nmod	_	_
-17	dix	dix	NUM	_	Number=Plur	16	nmod	_	SpaceAfter=No
+16	mille	mille	NUM	_	_	15	flat	_	_
+17	dix	dix	NUM	_	Number=Plur	15	flat	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	30	punct	_	_
-19	parce	parce	SCONJ	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
+19	parce	parce	ADV	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
 21	,	,	PUNCT	_	_	30	punct	_	_
 22	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	30	dislocated	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	wordform=du
-25	le	le	DET	_	_	26	det	_	_
+25	le	le	DET	_	Gender=Masc|Number=Sing	26	det	_	_
 26	coup	coup	NOUN	_	Gender=Masc|Number=Sing	30	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	30	nsubj:pass	_	_
-29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
-30	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing	13	advcl	_	_
+29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux:tense	_	_
+30	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 31	dans	dans	ADP	_	_	33	case	_	_
 32	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	33	det	_	_
 33	maison	maison	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
 34	en	en	ADP	_	_	35	case	_	_
 35	février	février	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	_
 36	deux	deux	NUM	_	Number=Plur	35	nmod	_	_
-37	mille	mille	NUM	_	_	36	nmod	_	_
-38	dix	dix	NUM	_	Number=Plur	37	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	13	punct	_	_
-
-# sent_id = ParisStories_2021_neesLeMemeMois_3bis_1
-# macrosyntax = [ ah ] du coup, euh, bah avec Maud on s'est rencontrées en deux mille dix, parce que, moi, du coup, je suis arrivée dans ma maison en février deux mille dix.
-# text = du coup, euh, bah avec Maud on s'est rencontrées en deux mille dix, parce que, moi, du coup, je suis arrivée dans ma maison en février deux mille dix.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
-1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	_	3	det	_	_
-3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	_
-7	bah	bah	INTJ	_	_	13	discourse	_	_
-8	avec	avec	ADP	_	_	9	case	_	_
-9	Maud	Maud	PROPN	_	_	13	obl:arg	_	_
-10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj:pass	_	_
-11	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	obj	_	SpaceAfter=No
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	rencontrées	rencontrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-14	en	en	ADP	_	_	15	case	_	_
-15	deux	deux	NUM	_	Number=Plur	13	obl:mod	_	_
-16	mille	mille	NUM	_	_	15	nmod	_	_
-17	dix	dix	NUM	_	Number=Plur	16	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	30	punct	_	_
-19	parce	parce	SCONJ	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
-20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
-21	,	,	PUNCT	_	_	30	punct	_	_
-22	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	30	dislocated	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
-24-25	du	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	wordform=du
-25	le	le	DET	_	_	26	det	_	_
-26	coup	coup	NOUN	_	Gender=Masc|Number=Sing	30	discourse	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	26	punct	_	_
-28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	30	nsubj:pass	_	_
-29	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
-30	arrivée	arriver	VERB	_	Gender=Fem|Number=Sing	13	advcl	_	_
-31	dans	dans	ADP	_	_	33	case	_	_
-32	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	33	det	_	_
-33	maison	maison	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
-34	en	en	ADP	_	_	35	case	_	_
-35	février	février	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	_
-36	deux	deux	NUM	_	Number=Plur	35	nmod	_	_
-37	mille	mille	NUM	_	_	36	nmod	_	_
-38	dix	dix	NUM	_	Number=Plur	37	nmod	_	SpaceAfter=No
+37	mille	mille	NUM	_	_	36	flat	_	_
+38	dix	dix	NUM	_	Number=Plur	36	flat	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_4
 # text = euh, j'ai rencontré Maud euh, mai deux mille dix du coup, où elle faisait euh, une visite de sa maison.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
-4	ai	avoir	AUX	_	_	5	aux	_	_
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	Maud	Maud	PROPN	_	_	5	obj	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	mai	mai	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 10	deux	deux	NUM	_	Number=Plur	9	nmod	_	_
-11	mille	mille	NUM	_	_	10	nmod	_	_
-12	dix	dix	NUM	_	Number=Plur	11	nmod	_	_
+11	mille	mille	NUM	_	_	10	flat	_	_
+12	dix	dix	NUM	_	Number=Plur	10	flat	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	wordform=du
-14	le	le	DET	_	_	15	det	_	_
+14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	où	où	PRON	_	PronType=Rel	19	advcl	_	_
@@ -182,8 +136,8 @@
 27	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_5
-# text = et nous, comme on habite à côté d'une carrière de, euh, de saut d'obstacles de cheval heu, bah, nous, on était là-bas, parce que y avait un concours avec mon autre voisine qui s'appelle Laurine.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# text = et nous, comme on habite à côté d'une carrière de, euh, de saut d'obstacles de cheval heu, bah, nous, on était là-bas, parce que il y avait un concours avec mon autre voisine qui s'appelle Laurine.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	30	cc	_	_
 2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	30	dislocated	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -215,32 +169,33 @@
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
 30	là-bas	là-bas	ADV	_	_	0	root	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	_
-32	parce	parce	SCONJ	_	_	35	mark	_	ExtPos=SCONJ|Idiom=Yes
+32	parce	parce	ADV	_	_	36	mark	_	ExtPos=SCONJ|Idiom=Yes
 33	que	que	SCONJ	_	_	32	fixed	_	InIdiom=Yes
-34	y	y	PRON	_	Person=3|PronType=Prs	35	iobj	_	_
-35	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
-36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	concours	concours	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
-38	avec	avec	ADP	_	_	41	case	_	_
-39	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	41	det	_	_
-40	autre	autre	ADJ	_	Number=Sing	41	amod	_	_
-41	voisine	voisine	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
-42	qui	qui	PRON	_	PronType=Rel	44	nsubj	_	_
-43	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	44	dep:comp	_	SpaceAfter=No
-44	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
-45	Laurine	Laurine	PROPN	_	_	44	obj	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	30	punct	_	_
+34	il	il	PRON	_	_	36	expl:subj	_	_
+35	y	y	PRON	_	Person=3|PronType=Prs	36	expl	_	_
+36	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
+37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	concours	concours	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
+39	avec	avec	ADP	_	_	42	case	_	_
+40	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	42	det	_	_
+41	autre	autre	ADJ	_	Number=Sing	42	amod	_	_
+42	voisine	voisine	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+43	qui	qui	PRON	_	PronType=Rel	45	nsubj	_	_
+44	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	45	expl:pv	_	SpaceAfter=No
+45	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+46	Laurine	Laurine	PROPN	_	_	45	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	30	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_6
 # text = et heu, et du coup, bah, on était en train de regarder les concours, et euh, on a vu une petite tête se ramener.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	14	cc	_	_
-2	heu	heu	INTJ	_	_	14	discourse	_	SpaceAfter=No
+2	heu	heu	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	14	cc	_	_
+4	et	et	CCONJ	_	_	1	reparandum	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	wordform=du
-6	le	le	DET	_	_	7	det	_	_
+6	le	le	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	bah	bah	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -250,7 +205,7 @@
 13	en	en	ADP	_	_	14	case	_	_
 14	train	train	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 15	de	de	ADP	_	_	16	mark	_	_
-16	regarder	regarder	VERB	_	VerbForm=Inf	14	acl	_	_
+16	regarder	regarder	VERB	_	VerbForm=Inf	14	acl	_	Subject=SubjRaising
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	concours	concours	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
@@ -258,54 +213,54 @@
 21	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	nsubj	_	_
-24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 25	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	petite	petit	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 28	tête	tête	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
-29	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	30	obj	_	_
-30	ramener	ramener	VERB	_	VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+29	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	30	expl:pv	_	_
+30	ramener	ramener	VERB	_	VerbForm=Inf	25	xcomp	_	SpaceAfter=No|Subject=ObjRaising
 31	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_7
 # speaker = L2
 # text = parce que je cherchais de la compagnie.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
-1	parce	parce	SCONJ	_	_	4	mark	_	AttachTo=23@ParisStories_2021_neesLeMemeMois_6|ExtPos=SCONJ|Idiom=Yes|Rel=mod
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
+1	parce	parce	ADV	_	_	4	mark	_	AttachTo=23@ParisStories_2021_neesLeMemeMois_6|ExtPos=SCONJ|Idiom=Yes|Rel=mod
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	cherchais	chercher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	SpaceAfter=No
+5	de	de	ADP	_	_	7	det	_	ExtPos=DET|Idiom=Yes
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	fixed	_	InIdiom=Yes
+7	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_8
 # speaker = L1
 # text = voilà.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	voilà	voilà	ADV	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_9
 # text = et elle nous a demandé de rester avec nous, euh, de passer l'après-midi avec nous.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	de	ADP	_	_	7	mark	_	_
-7	rester	rester	VERB	_	VerbForm=Inf	5	ccomp	_	_
+7	rester	rester	VERB	_	VerbForm=Inf	5	ccomp	_	Subject=NoRaising
 8	avec	avec	ADP	_	_	9	case	_	_
 9	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	de	de	ADP	_	_	14	mark	_	_
-14	passer	passer	VERB	_	VerbForm=Inf	5	conj	_	_
+14	passer	passer	VERB	_	VerbForm=Inf	7	conj	_	Subject=NoRaising
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	après-midi	après-midi	NOUN	_	Number=Sing	14	obj	_	_
+16	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 17	avec	avec	ADP	_	_	18	case	_	_
 18	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obl:mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
@@ -313,13 +268,13 @@
 # status = done
 # sent_id = ParisStories_2021_neesLeMemeMois_10
 # text = donc on a passé l'après-midi toutes les trois.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
-1	donc	donc	CCONJ	_	_	4	discourse	_	_
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
+1	donc	donc	ADV	_	_	4	advmod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
-6	après-midi	après-midi	NOUN	_	Number=Sing	4	obj	_	_
+6	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	trois	trois	NUM	_	_	4	obl:mod	_	SpaceAfter=No
@@ -327,8 +282,8 @@
 
 # status = done
 # sent_id = ParisStories_2021_neesLeMemeMois_11
-# text = et, euh, après, bah, avec Maud on est devenues très proches.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# text = et, euh, après, bah, avec Maud on est devenue très proches.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	13	punct	_	_
 3	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -340,8 +295,8 @@
 9	avec	avec	ADP	_	_	10	case	_	_
 10	Maud	Maud	PROPN	_	_	15	obl:arg	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	très	très	ADV	_	_	15	advmod	_	_
 15	proches	proche	ADJ	_	Number=Plur	13	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
@@ -349,9 +304,9 @@
 # status = done
 # sent_id = ParisStories_2021_neesLeMemeMois_12
 # text = on est devenues meilleures amies.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 5	amies	amie	NOUN	_	Gender=Fem|Number=Plur	3	xcomp	_	SpaceAfter=No
@@ -359,28 +314,28 @@
 
 # sent_id = ParisStories_2021_neesLeMemeMois_13
 # text = et, du coup, on passait notre temps ensemble!
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	8	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	8	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	wordform=du
-4	le	le	DET	_	_	5	det	_	_
+4	le	le	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 8	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	10	det	_	_
-10	temps	temps	NOUN	_	Gender=Masc	8	obj	_	_
+10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	ensemble	ensemble	ADV	_	_	8	advmod	_	SpaceAfter=No
 12	!	!	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_14
 # speaker = L2
 # text = nos parents en avaient marre.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	2	det	_	_
 2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	en	en	PRON	_	Person=3|PronType=Prs	5	nmod	_	_
+3	en	en	PRON	_	Person=3|PronType=Prs	5	dep:comp	_	_
 4	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	marre	marre	ADV	_	_	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -388,7 +343,7 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_15
 # speaker = L1
 # text = voilà.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -396,12 +351,12 @@
 # macrosyntax = j'étais toutes les après-midi chez elle avec mon frère, où on, [ on goûtait ] on goûtait, où on vidait son frigo, ses placards.
 # speaker = L1
 # text = j'étais toutes les après-midi chez elle avec mon frère, où on, on goûtait, où on vidait son frigo, ses placards.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	cop	_	_
 3	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	après-midi	après-midi	NOUN	_	Number=Sing	7	obl:mod	_	_
+5	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 6	chez	chez	ADP	_	_	7	case	_	_
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 8	avec	avec	ADP	_	_	10	case	_	_
@@ -428,27 +383,26 @@
 # macrosyntax = j'étais toutes les après-midi chez elle avec mon frère, où on, [ on goûtait ] on goutait, où on vidait son frigo, ses placards.
 # speaker = L2
 # text = on goûtait.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	goûtait	goûter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_16|Rel=mod@relcl|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_17
-# text = qu'est - ce qu'on faisait?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# text = qu'est -ce qu'on faisait?
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	qu'	qu'	PRON	_	Person=3|PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	-	-	PUNCT	_	_	4	punct	_	_
-4	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	nsubj	_	_
-5	qu'	qu'	SCONJ	_	_	7	dep:comp	_	SpaceAfter=No
-6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-7	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl:cleft	_	SpaceAfter=No
-8	?	?	PUNCT	_	_	1	punct	_	_
+3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	nsubj	_	wordform=ce
+4	qu'	qu'	SCONJ	_	_	6	dep:comp	_	SpaceAfter=No
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
+6	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl:cleft	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_18
 # speaker = L2
 # text = on faisait des shootings photos.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
@@ -459,7 +413,7 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_19
 # speaker = L1
 # text = on faisait des shootings photos, euh, voilà.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
@@ -468,16 +422,16 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	voilà	voilà	VERB	_	_	5	discourse	_	SpaceAfter=No
+9	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_20
 # macrosyntax = on s'entendait très bien, jusqu'à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, [ pourquoi ] ni pourquoi, ni comment on s'est reparlé.
 # speaker = L1
 # text = on s'entendait très bien, jusqu'à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, ni pourquoi, ni comment on s'est reparlé.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	dep	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
 3	entendait	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	bien	bien	ADV	_	_	3	advmod	_	SpaceAfter=No
@@ -490,7 +444,7 @@
 12	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj:pass	_	_
-15	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	dep	_	SpaceAfter=No
+15	s'	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	iobj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 17	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -498,44 +452,46 @@
 20	,	,	PUNCT	_	_	24	punct	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	dep	_	_
+23	se	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	24	iobj	_	_
 24	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
 25	plus	plus	ADV	_	_	24	advmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	ni	ni	CCONJ	_	_	30	cc	_	_
-30	pourquoi	pourquoi	ADV	_	_	24	obj	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	37	punct	_	_
-32	ni	ni	CCONJ	_	_	37	cc	_	_
-33	comment	comment	ADV	_	_	37	advmod	_	_
+30	pourquoi	pourquoi	ADV	_	_	37	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	ni	ni	CCONJ	_	_	33	cc	_	_
+33	comment	comment	ADV	_	_	30	conj	_	_
 34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	37	nsubj:pass	_	_
-35	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	37	dep:comp	_	SpaceAfter=No
+35	s'	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	37	iobj	_	SpaceAfter=No
 36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
-37	reparlé	reparler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	SpaceAfter=No
+37	reparlé	reparler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	ccomp	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_20bis
 # macrosyntax = on s'entendait très bien, jusqu' à un moment où euh, on s'est pris la tête, et on se rappelle plus, euh, [ pourquoi ] ni pourquoi, ni comment on s'est reparlé.
 # speaker = L2
 # text = pourquoi.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	pourquoi	pourquoi	ADV	_	_	0	root	_	AttachTo=24@ParisStories_2021_neesLeMemeMois_20|Rel=comp:obj|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_21
 # speaker = L2
 # text = arrivée au collège.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	au	au	ADP	_	_	3	case	_	_
-3	collège	collège	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	_
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	4	case	_	wordform=au
+3	le	le	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+4	collège	collège	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_22
 # speaker = L2
 # text = on avait douze ans donc euh.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	douze	douze	NUM	_	Number=Plur	4	nummod	_	_
@@ -546,13 +502,13 @@
 
 # sent_id = ParisStories_2021_neesLeMemeMois_23
 # text = ouais voilà, ça doit faire euh, ça fait neuf ans qu'on se connaît.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	ouais	ouais	INTJ	_	_	5	discourse	_	_
-2	voilà	voilà	VERB	_	_	5	discourse	_	SpaceAfter=No
+2	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	faire	faire	VERB	_	VerbForm=Inf	5	ccomp	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
@@ -561,61 +517,57 @@
 12	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
 13	qu'	qu'	SCONJ	_	_	16	mark	_	SpaceAfter=No
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
-15	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+15	se	le	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_24
 # text = donc, bon, c'était il y a longtemps.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bon	bon	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	dep:comp	_	_
-8	y	y	PRON	_	Person=3|PronType=Prs	9	iobj	_	_
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-10	longtemps	longtemps	ADV	_	_	9	advmod	_	SpaceAfter=No
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dep	_	ExtPos=ADP|Idiom=Yes
+8	y	y	PRON	_	Person=3|PronType=Prs	7	fixed	_	InIdiom=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	InIdiom=Yes
+10	longtemps	longtemps	ADV	_	_	7	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_25
 # speaker = L2
-# text = on a, euh, bientôt vingt, et, euh, bientôt vingt - et - un.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# text = on a, euh, bientôt vingt, et, euh, bientôt vingt-et-un.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	bientôt	bientôt	ADV	_	_	7	advmod	_	_
-7	vingt	vingt	NUM	_	Number=Plur	2	obl:mod	_	SpaceAfter=No
+7	vingt	vingt	NUM	_	Number=Plur	2	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	7	punct	_	_
+9	et	et	CCONJ	_	_	7	dep	_	Scrap=Yes|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	7	punct	_	_
+12	,	,	PUNCT	_	_	14	punct	_	_
 13	bientôt	bientôt	ADV	_	_	14	advmod	_	_
-14	vingt	vingt	NUM	_	Number=Plur	7	nmod	_	_
-15	-	-	PUNCT	_	_	16	punct	_	_
-16	et	et	CCONJ	_	_	18	dep	_	_
-17	-	-	PUNCT	_	_	16	punct	_	_
-18	un	un	NUM	_	_	14	reparandum	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	2	punct	_	_
+14	vingt-et-un	vingt-et-un	NUM	_	Number=Plur	7	reparandum	_	SpaceAfter=No|wordform=vingt
+15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_26
 # macrosyntax = du coup euh, voilà en mars [ parce qu'on est nées le même mois en plus! ]
 # speaker = L1
 # text = du coup euh, voilà en mars.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	_	3	det	_	_
+2	le	le	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	voilà	voilà	VERB	_	_	8	discourse	_	_
+6	voilà	voilà	VERB	_	_	8	discourse	_	ExtPos=INTJ
 7	en	en	ADP	_	_	8	case	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_25|Rel=mod
 8	mars	mars	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	Typo=Yes	8	punct	_	_
@@ -624,15 +576,15 @@
 # macrosyntax = du coup euh, voilà en mars [ parce qu'on est nées le même mois en plus! ]
 # speaker = L2
 # text = parce qu'on est nées le même mois en plus!
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	parce	parce	SCONJ	_	_	5	mark	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_25|ExtPos=SCONJ|Idiom=Yes|Rel=mod
 2	qu'	qu'	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	même	même	ADJ	_	Number=Sing	8	amod	_	_
-8	mois	mois	NOUN	_	Gender=Masc	5	obl:mod	_	_
+8	mois	mois	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 9	en	en	ADP	_	_	8	discourse	_	_
 10	plus	plus	ADV	_	_	9	dep	_	SpaceAfter=No
 11	!	!	PUNCT	_	_	5	punct	_	_
@@ -640,7 +592,7 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_27
 # speaker = L1
 # text = et euh, voilà!
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -649,7 +601,7 @@
 
 # sent_id = ParisStories_2021_neesLeMemeMois_28
 # text = après, ah, si, après, on a fait du cheval ensemble aux Césardières.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	après	après	ADV	_	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ah	ah	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -659,34 +611,38 @@
 7	après	après	ADV	_	_	11	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	wordform=du
-13	le	le	DET	_	_	14	det	_	_
+13	le	le	DET	_	Gender=Masc|Number=Sing	14	det	_	_
 14	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
 15	ensemble	ensemble	ADV	_	_	11	advmod	_	_
-16	aux	aux	ADP	_	_	17	case	_	_
-17	Césardières	Césardières	PROPN	_	_	11	obl:mod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	11	punct	_	_
+16-17	aux	_	_	_	_	_	_	_	_
+16	à	aux	ADP	_	_	18	case	_	wordform=aux
+17	les	les	DET	_	_	18	det	_	_
+18	Césardières	Césardières	PROPN	_	_	11	obl:mod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_neesLeMemeMois_29
 # text = et on s'est retrouvé au club du O'Takey, euh, après.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516eb
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj:pass	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	dep	_	SpaceAfter=No
+3	s'	le	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	obj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	au	au	ADP	_	_	7	case	_	_
-7	club	club	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
-8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	wordform=du
-9	le	le	DET	_	_	10	det	_	_
-10	O'Takey	O'Takey	PROPN	_	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
-14	après	après	ADV	_	_	5	advmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+6-7	au	_	_	_	_	_	_	_	_
+6	à	à	ADP	_	_	8	case	_	wordform=au
+7	le	le	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+8	club	club	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	wordform=du
+10	le	le	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+11	O'Takey	O'Takey	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	après	après	ADV	_	_	5	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
 

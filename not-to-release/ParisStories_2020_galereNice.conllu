@@ -2,7 +2,7 @@
 # sent_id = ParisStories_2020_galereNice_1
 # text = donc euh j'étais avec ma meilleure amie à Nice.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	donc	donc	ADV	_	_	4	discourse	_	_
+1	donc	donc	ADV	_	_	4	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21,7 +21,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	iobj	_	_
 3	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	pour	pour	ADP	_	_	5	mark	_	_
-5	passer	passer	VERB	_	VerbForm=Inf	3	advcl	_	_
+5	passer	passer	VERB	_	VerbForm=Inf	3	advcl	_	Subject=NoRaising
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	concours	concours	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
@@ -61,14 +61,14 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	6	mark	_	_
-6	partir	partir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	partir	partir	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	quelques	quelque	DET	_	Number=Plur|PronType=Ind	8	det	_	_
 8	jours	jour	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
 9	avant	avant	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	concours	concours	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	pour	pour	ADP	_	_	13	mark	_	_
-13	voir	voir	VERB	_	VerbForm=Inf	6	advcl	_	_
+13	voir	voir	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	amis	ami	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
 16	qu'	que	PRON	_	PronType=Rel	18	obj	_	SpaceAfter=No
@@ -90,30 +90,30 @@
 # sent_id = ParisStories_2020_galereNice_7
 # text = euh, tout se passait bien.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
-4	se	se	PRON	_	Person=3|PronType=Prs	5	dep:comp	_	_
-5	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	bien	bien	ADV	_	_	5	advmod	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+5	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	fixed	_	InIdiom=Yes
+6	bien	bien	ADV	_	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_8
 # text = on a pu visiter.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	visiter	visiter	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+4	visiter	visiter	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_9
 # text = on a pu sortir.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	sortir	sortir	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+4	sortir	sortir	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_10
@@ -180,10 +180,10 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	euh	euh	INTJ	_	_	13	discourse	_	_
 17	:	:	PUNCT	_	_	13	punct	_	_
-18	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
-19	se	se	PRON	_	Person=3|PronType=Prs	20	dep:comp	_	_
-20	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	Reported=Yes
-21	bien	bien	ADV	_	_	20	advmod	_	SpaceAfter=No
+18	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	_
+19	se	se	PRON	_	Person=3|PronType=Prs	13	ccomp	_	ExtPos=VERB|Idiom=Yes
+20	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	InIdiom=Yes|Reported=Yes
+21	bien	bien	ADV	_	_	19	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_14
@@ -230,15 +230,15 @@
 # text = mais il ne faut jamais dire ça avant d'être rentré chez soi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	mais	mais	CCONJ	_	_	4	cc	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 3	ne	ne	ADV	_	_	4	advmod	_	_
 4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	jamais	jamais	ADV	_	_	4	advmod	_	_
-6	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	_
+5	jamais	jamais	ADV	_	PronType=Neg	4	advmod	_	_
+6	dire	dire	VERB	_	VerbForm=Inf	4	ccomp	_	Subject=NoRaising
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obj	_	_
 8	avant	avant	ADV	_	_	6	advmod	_	_
 9	d'	de	ADP	_	_	11	mark	_	SpaceAfter=No
-10	être	être	AUX	_	VerbForm=Inf	11	aux	_	_
+10	être	être	AUX	_	VerbForm=Inf	11	aux:tense	_	Subject=NoRaising
 11	rentré	rentrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
 12	chez	chez	ADP	_	_	13	case	_	_
 13	soi	soi	PRON	_	Number=Sing|Person=3|PronType=Prs	11	obl:mod	_	SpaceAfter=No
@@ -252,7 +252,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
-6	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	pourquoi	pourquoi	ADV	_	_	6	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -299,8 +299,8 @@
 8	fac	fac	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Nice	Nice	PROPN	_	_	8	nmod	_	_
-11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-12	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
+12	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
 13	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -313,7 +313,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	être	être	VERB	_	VerbForm=Inf	6	xcomp	_	_
+7	être	être	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 8	à	à	ADP	_	_	10	case	_	_
 9	vingt-deux	vingt-deux	NUM	_	Number=Plur	10	nummod	_	_
 10	heures	heure	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	SpaceAfter=No
@@ -325,26 +325,26 @@
 # sent_id = ParisStories_2020_galereNice_22
 # text = euh, du coup on se dit : bon bah tranquille tranquille on a le temps euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
-6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs	8	dep:comp	_	_
-8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
+7	se	lui	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	InIdiom=Yes
 9	:	:	PUNCT	_	_	15	punct	_	_
 10	bon	bon	INTJ	_	_	15	discourse	_	_
 11	bah	bah	INTJ	_	_	15	discourse	_	_
 12	tranquille	tranquille	ADJ	_	Number=Sing	15	advcl	_	_
 13	tranquille	tranquille	ADJ	_	Number=Sing	12	conj	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	_
-15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	Reported=Yes
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	Reported=Yes
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-18	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	8	punct	_	_
+18	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_23
 # text = tout va bien.
@@ -359,17 +359,17 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	aller	aller	VERB	_	VerbForm=Inf	2	xcomp	_	_
-4	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	_
+3	aller	aller	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
+4	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	4	obj	_	Scrap=Yes
 7	euh	euh	INTJ	_	_	8	discourse	_	_
-8	prendre	prendre	VERB	_	VerbForm=Inf	4	reparandum	_	_
+8	prendre	prendre	VERB	_	VerbForm=Inf	4	reparandum	_	Subject=SubjRaising
 9	à	à	ADP	_	_	10	mark	_	_
-10	manger	manger	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	manger	manger	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
-13	faire	faire	VERB	_	VerbForm=Inf	8	conj	_	_
+13	faire	faire	VERB	_	VerbForm=Inf	8	conj	_	Subject=SubjRaising
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
@@ -379,7 +379,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	si	si	SCONJ	_	_	4	mark	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
 4	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -392,24 +392,24 @@
 # sent_id = ParisStories_2020_galereNice_27
 # text = euh, du coup, on se dirige tranquillement, euh, vers le centre-ville.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	SpaceAfter=No
+5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	dep:comp	_	_
-9	dirige	diriger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	tranquillement	tranquillement	ADV	_	_	9	advmod	_	SpaceAfter=No
+7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+9	dirige	diriger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	InIdiom=Yes
+10	tranquillement	tranquillement	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	vers	vers	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	_
+16	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_28
 # text = on fait les boutiques.
@@ -437,30 +437,30 @@
 # sent_id = ParisStories_2020_galereNice_30
 # text = et vers je sais plus trop quelle heure, on se dit : faudrait quand même, euh, aller vers l'aéroport.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	et	et	CCONJ	_	_	12	cc	_	_
+1	et	et	CCONJ	_	_	11	cc	_	_
 2	vers	vers	ADP	_	_	4	mark	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 5	plus	plus	ADV	_	_	6	advmod	_	_
 6	trop	trop	ADV	_	_	4	advmod	_	_
 7	quelle	quel	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	heure	heure	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
-10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
-11	se	se	PRON	_	Person=3|PronType=Prs	12	dep:comp	_	_
-12	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
+11	se	lui	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+12	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	InIdiom=Yes
 13	:	:	PUNCT	_	_	14	punct	_	_
-14	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	Reported=Yes
+14	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	Reported=Yes
 15	quand	quand	SCONJ	_	_	14	advmod	_	ExtPos=ADV|Idiom=Yes
 16	même	même	ADV	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	aller	aller	VERB	_	VerbForm=Inf	14	xcomp	_	_
+20	aller	aller	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
 21	vers	vers	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	aéroport	aéroport	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	12	punct	_	_
+24	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_31
 # text = donc on va prendre le bus qui est censé nous emmener à l'aéroport.
@@ -468,14 +468,14 @@
 1	donc	donc	ADV	_	_	3	advmod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	_
+4	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	bus	bus	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	censé	censé	ADJ	_	Gender=Masc|Number=Sing	6	acl:relcl	_	_
 10	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	11	obj	_	_
-11	emmener	emmener	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	emmener	emmener	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
 12	à	à	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	aéroport	aéroport	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
@@ -539,14 +539,14 @@
 10	-là	là	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
-13	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 14	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-15	savoir	savoir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+15	savoir	savoir	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
 16	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	_
 18	y	y	PRON	_	Person=3|PronType=Prs	19	iobj	_	_
 19	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
-20	jamais	jamais	ADV	_	_	19	advmod	_	_
+20	jamais	jamais	ADV	_	PronType=Neg	19	advmod	_	_
 21	avec	avec	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	bus	bus	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	SpaceAfter=No
@@ -571,7 +571,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Anglais	Anglais	PROPN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	voilà	voilà	VERB	_	_	7	discourse	_	SpaceAfter=No
+16	voilà	voilà	VERB	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_38
@@ -579,16 +579,16 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	là	là	ADV	_	_	5	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-3	n'	ne	ADV	_	_	5	advmod	_	SpaceAfter=No
-4	y	y	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
+3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	qu'	que	ADV	_	_	5	advmod	_	SpaceAfter=No
+6	qu'	que	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	seule	seul	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	route	route	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 10	pour	pour	ADP	_	_	12	mark	_	_
 11	y	y	PRON	_	Person=3|PronType=Prs	12	iobj	_	_
-12	aller	aller	VERB	_	VerbForm=Inf	9	acl	_	SpaceAfter=No
+12	aller	aller	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No|Subject=NoRaising
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_39
@@ -610,7 +610,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	et	et	CCONJ	_	_	2	cc	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	savoir	savoir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+3	savoir	savoir	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 4	que	que	SCONJ	_	_	15	mark	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	bouchons	bouchon	NOUN	_	Gender=Masc|Number=Plur	15	dislocated	_	_
@@ -638,7 +638,7 @@
 # sent_id = ParisStories_2020_galereNice_42
 # text = donc là, vraiment, un monde de dingue.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	donc	donc	ADV	_	_	7	cc	_	_
+1	donc	donc	ADV	_	_	7	advmod	_	_
 2	là	là	ADV	_	_	7	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	vraiment	vraiment	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -674,14 +674,14 @@
 # text = il avance plus.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	avance	avancer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	avance	avancer	VERB	_	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plus	plus	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_46
 # text = enfin, donc, là, on prend notre mal en patience.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	enfin	enfin	ADV	_	_	8	discourse	_	SpaceAfter=No
+1	enfin	enfin	ADV	_	_	8	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	donc	donc	ADV	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_

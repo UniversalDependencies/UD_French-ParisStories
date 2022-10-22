@@ -5,7 +5,7 @@
 1	alors	alors	ADV	_	_	5	discourse	_	_
 2	hier	hier	ADV	_	_	5	advmod	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
-4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	cours	cours	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
@@ -19,13 +19,13 @@
 15	habitude	habitude	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
-18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
 19	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	5	conj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	bus	bus	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 22	pour	pour	ADP	_	_	23	mark	_	_
-23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	19	advcl	_	_
-24	rentrer	rentrer	VERB	_	VerbForm=Inf	23	xcomp	_	_
+23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	19	advcl	_	Subject=NoRaising
+24	rentrer	rentrer	VERB	_	VerbForm=Inf	23	xcomp	_	Subject=SubjRaising
 25	chez	chez	ADP	_	_	26	case	_	_
 26	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	24	obl:mod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
@@ -36,7 +36,7 @@
 1	alors	alors	ADV	_	_	5	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	bus	bus	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-4	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 5	dépose	déposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	19	punct	_	_
 7	et	et	CCONJ	_	_	19	cc	_	_
@@ -49,8 +49,8 @@
 14	dans	dans	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	rue	rue	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
-17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-18	y	y	PRON	_	Person=3|PronType=Prs	19	obl:mod	_	_
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
+18	y	y	PRON	_	Person=3|PronType=Prs	19	expl	_	_
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	très	très	ADV	_	_	22	advmod	_	_
@@ -96,7 +96,7 @@
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dislocated	_	_
 3	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 4	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	intriguée	intriguer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
@@ -139,7 +139,7 @@
 # sent_id = ParisStories_2019_patisserieFine_6
 # text = donc par curiosité, et pas forcément pour manger parce que j'avais déjà prévu ce que j'allais me préparer pour le dîner, je suis rentrée pour voir euh vraiment ce qu'ils proposaient.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
-1	donc	donc	ADV	_	_	28	cc	_	_
+1	donc	donc	ADV	_	_	28	advmod	_	_
 2	par	par	ADP	_	_	3	case	_	_
 3	curiosité	curiosité	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
@@ -147,19 +147,19 @@
 6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 7	forcément	forcément	ADV	_	_	9	advmod	_	_
 8	pour	pour	ADP	_	_	9	mark	_	_
-9	manger	manger	VERB	_	VerbForm=Inf	3	conj	_	_
-10	parce	parce	SCONJ	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+9	manger	manger	VERB	_	VerbForm=Inf	3	conj	_	Subject=NoRaising
+10	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
-13	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+13	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux:tense	_	_
 14	déjà	déjà	ADV	_	_	15	advmod	_	_
 15	prévu	prévoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
 16	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	obj	_	_
 17	que	que	PRON	_	PronType=Rel	21	obj	_	_
 18	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	allais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
-20	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
-21	préparer	préparer	VERB	_	VerbForm=Inf	19	ccomp	_	_
+20	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	21	expl	_	_
+21	préparer	préparer	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=SubjRaising
 22	pour	pour	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	SpaceAfter=No
@@ -168,7 +168,7 @@
 27	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
 28	rentrée	rentrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 29	pour	pour	ADP	_	_	30	mark	_	_
-30	voir	voir	VERB	_	VerbForm=Inf	28	advcl	_	_
+30	voir	voir	VERB	_	VerbForm=Inf	28	advcl	_	Subject=NoRaising
 31	euh	euh	INTJ	_	_	33	discourse	_	_
 32	vraiment	vraiment	ADV	_	_	33	advmod	_	_
 33	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	obj	_	_
@@ -195,9 +195,9 @@
 13	demandant	demander	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	_
 14	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	_
 15	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
-16	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	18	dep:comp	_	_
+16	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
 17	ferait	faire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
-18	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	17	xcomp	_	SpaceAfter=No
+18	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	17	obj:lvc	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_8
@@ -216,13 +216,13 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	but	but	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 13	de	de	ADP	_	_	14	mark	_	_
-14	consommer	consommer	VERB	_	VerbForm=Inf	12	acl	_	SpaceAfter=No
+14	consommer	consommer	VERB	_	VerbForm=Inf	12	acl	_	SpaceAfter=No|Subject=SubjRaising
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	mais	mais	CCONJ	_	_	19	cc	_	_
 17	vraiment	vraiment	ADV	_	_	19	advmod	_	_
 18	par	par	ADP	_	_	19	case	_	_
 19	curiosité	curiosité	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
-20	parce	parce	SCONJ	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
+20	parce	parce	ADV	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
 21	que	que	SCONJ	_	_	20	fixed	_	InIdiom=Yes
 22	de	de	ADP	_	_	24	case	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -259,7 +259,7 @@
 20	aussi	aussi	ADV	_	_	19	advmod	_	_
 21	de	de	ADP	_	_	23	mark	_	_
 22	quoi	quoi	PRON	_	Person=3|PronType=Ind	23	obj	_	_
-23	manger	manger	VERB	_	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+23	manger	manger	VERB	_	VerbForm=Inf	19	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_10
@@ -283,10 +283,10 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	de	ADP	_	_	7	mark	_	_
-7	goûter	goûter	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	goûter	goûter	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	frite	frite	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
@@ -307,7 +307,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	goûté	goûter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	frites	frite	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
@@ -327,7 +327,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	advmod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	insisté	insister	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	encore	encore	ADV	_	_	8	advmod	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -336,15 +336,15 @@
 10	que	que	SCONJ	_	_	12	mark	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 12	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
-13	rester	rester	VERB	_	VerbForm=Inf	12	xcomp	_	_
-14	manger	manger	VERB	_	VerbForm=Inf	13	xcomp	_	_
+13	rester	rester	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
+14	manger	manger	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
 15	donc	donc	ADV	_	_	18	cc	_	_
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
-17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	cédé	céder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 19	et	et	CCONJ	_	_	22	cc	_	_
 20	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
-21	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 22	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	5	punct	_	_
 
@@ -354,14 +354,14 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	_	SpaceAfter=No
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	orientée	orienté	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	vers	vers	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	caisse	caisse	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
-10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	5	advcl	_	_
-11	passer	passer	VERB	_	VerbForm=Inf	10	xcomp	_	_
+10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	5	advcl	_	Subject=NoRaising
+11	passer	passer	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	commande	commande	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -389,7 +389,7 @@
 8	commande	commande	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
-11	demande	demander	VERB	_	VerbForm=Inf	0	root	_	_
+11	demande	demander	VERB	_	VerbForm=Fin	0	root	_	_
 12	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obj	_	_
 13	que	que	PRON	_	PronType=Rel	15	obj	_	_
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
@@ -399,7 +399,7 @@
 18	que	que	PRON	_	PronType=Rel	21	obj	_	_
 19	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 20	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
-21	manger	manger	VERB	_	VerbForm=Inf	20	ccomp	_	SpaceAfter=No
+21	manger	manger	VERB	_	VerbForm=Inf	20	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 22	,	,	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_19
@@ -408,15 +408,15 @@
 1	là	là	ADV	_	_	5	advmod	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
-4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	de	ADP	_	_	8	mark	_	_
 7	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
-8	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	suggestion	suggestion	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
-12	parce	parce	SCONJ	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	advcl	_	_
@@ -447,7 +447,7 @@
 16	si	si	SCONJ	_	_	19	mark	_	_
 17	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	_
 18	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	19	obj	_	_
-19	tente	tenter	VERB	_	VerbForm=Inf	14	ccomp	_	_
+19	tente	tenter	VERB	_	VerbForm=Fin	14	ccomp	_	_
 20	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	dislocated	_	_
 21	qu'	que	PRON	_	PronType=Rel	23	obj	_	SpaceAfter=No
 22	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
@@ -465,7 +465,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
 3	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	oui	oui	ADV	_	_	6	discourse	_	_
+4	oui	oui	ADV	_	_	3	obj	_	Reported=Yes
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	Reported=Yes
 7	bien	bien	ADV	_	_	6	advmod	_	SpaceAfter=No
@@ -506,7 +506,7 @@
 30	mais	mais	CCONJ	_	_	33	cc	_	_
 31	sans	sans	ADP	_	_	33	mark	_	_
 32	vraiment	vraiment	ADV	_	_	33	advmod	_	_
-33	être	être	VERB	_	VerbForm=Inf	29	conj	_	_
+33	être	être	VERB	_	VerbForm=Inf	29	conj	_	Subject=NoRaising
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	kebab	kebab	NOUN	_	Gender=Masc|Number=Sing	33	xcomp	_	_
 36	et	et	CCONJ	_	_	41	cc	_	_
@@ -535,13 +535,13 @@
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
 4	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
-6	qu'	que	PRON	_	PronType=Rel	9	obj	_	SpaceAfter=No
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
-8	y	y	PRON	_	Person=3|PronType=Prs	9	dep:comp	_	_
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
-10	à	à	ADP	_	_	5	dep	_	_
-11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
-12	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+6	qu'	que	PRON	_	PronType=Rel	8	obj	_	SpaceAfter=No
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+8	y	y	PRON	_	Person=3|PronType=Prs	5	acl:relcl	_	ExtPos=VERB|Idiom=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	InIdiom=Yes
+10	à	à	ADP	_	_	12	case	_	_
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	intérieur	intérieur	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_24
@@ -563,7 +563,7 @@
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 15	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 16	à	à	ADP	_	_	17	mark	_	_
-17	dire	dire	VERB	_	VerbForm=Inf	15	ccomp	_	_
+17	dire	dire	VERB	_	VerbForm=Inf	15	ccomp	_	Subject=NoRaising
 18	de	de	ADP	_	_	20	case	_	_
 19	euh	euh	INTJ	_	_	20	discourse	_	_
 20	tomate	tomate	ADJ	_	Gender=Fem|Number=Sing	17	obl:arg	_	SpaceAfter=No
@@ -576,7 +576,7 @@
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
 29	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
-30	choisir	choisir	VERB	_	VerbForm=Inf	29	xcomp	_	_
+30	choisir	choisir	VERB	_	VerbForm=Inf	29	xcomp	_	Subject=SubjRaising
 31	entre	entre	ADP	_	_	32	case	_	_
 32	poulet	poulet	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	_
 33	ou	ou	CCONJ	_	_	34	cc	_	_
@@ -586,9 +586,9 @@
 # sent_id = ParisStories_2019_patisserieFine_25
 # text = donc j'ai choisi poulet.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
-1	donc	donc	ADV	_	_	4	cc	_	_
+1	donc	donc	ADV	_	_	4	advmod	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	poulet	poulet	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -598,7 +598,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	là	là	ADV	_	_	4	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	balancé	balancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	6	det	_	_
 6	commande	commande	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
@@ -609,11 +609,11 @@
 11	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	12	obj	_	SpaceAfter=No
 12	invite	inviter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 13	à	à	ADP	_	_	14	mark	_	_
-14	aller	aller	VERB	_	VerbForm=Inf	12	advcl	_	_
-15	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	16	obj	_	SpaceAfter=No
-16	installer	installer	VERB	_	VerbForm=Inf	14	xcomp	_	_
+14	aller	aller	VERB	_	VerbForm=Inf	12	advcl	_	Subject=SubjRaising
+15	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	16	obj	_	SpaceAfter=No
+16	installer	installer	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
 17	en	en	ADP	_	_	18	mark	_	_
-18	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	_
+18	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	Subject=Raising
 19	que	que	SCONJ	_	_	23	mark	_	_
 20	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	21	det	_	_
 21	commande	commande	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -626,7 +626,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	alors	alors	ADV	_	_	4	discourse	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-3	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+3	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
 4	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 
@@ -708,8 +708,8 @@
 # text = comment ça se fait ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	comment	comment	ADV	_	_	4	advmod	_	_
-2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
-3	se	se	PRON	_	Person=3|PronType=Prs	4	dep:comp	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	_
+3	se	se	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 5	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -767,8 +767,8 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	peau	peau	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-19	y	y	PRON	_	Person=3|PronType=Prs	20	obl:mod	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	20	expl	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	antillais	antillais	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
@@ -793,7 +793,7 @@
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
 7	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Reported=Yes
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
-9	antillais	antillais	NOUN	_	Gender=Masc	7	dislocated	_	_
+9	antillais	antillais	NOUN	_	Gender=Masc|Number=Plur	7	dislocated	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 11	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 12	clairs	clair	ADJ	_	Gender=Masc|Number=Plur	11	xcomp	_	_
@@ -812,7 +812,7 @@
 6	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
-9	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	11	det	_	_
 11	sœur	sœur	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
@@ -821,8 +821,8 @@
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	plus	plus	ADV	_	_	17	advmod	_	_
 17	claire	clair	ADJ	_	Gender=Fem|Number=Sing	11	acl:relcl	_	_
-18	que	que	SCONJ	_	_	22	dep	_	_
-19	qui	qui	PRON	_	PronType=Rel	18	reparandum	_	_
+18	que	que	ADV	_	_	16	advmod	_	Scrap=Yes
+19	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 21	plus	plus	ADV	_	_	22	advmod	_	_
 22	claire	clair	ADJ	_	Gender=Fem|Number=Sing	15	reparandum	_	_
@@ -846,7 +846,7 @@
 6	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
 8	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	9	obj	_	_
-9	croire	croire	VERB	_	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+9	croire	croire	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_39

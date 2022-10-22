@@ -11,9 +11,9 @@
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
 8	où	où	PRON	_	PronType=Rel	11	advcl	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
-10	ai	avoir	AUX	_	_	11	aux	_	_
+10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
-12	XXX	XXX	PROPN	_	_	11	obj	_	SpaceAfter=No
+12	XXX	XXX	X	_	_	11	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
@@ -28,15 +28,15 @@
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
-5	avais	avoir	AUX	_	_	6	aux	_	_
+5	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux:tense	_	_
 6	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	_
 9	mille	mille	NUM	_	_	10	nummod	_	_
 10	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 11	à	à	ADP	_	_	13	mark	_	_
-12	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	13	obj	_	_
-13	préparer	préparer	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+12	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+13	préparer	préparer	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_3
@@ -45,33 +45,35 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
-4	avais	avoir	AUX	_	_	5	aux	_	_
+4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
 5	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	plus	plus	ADV	_	_	5	dep	_	_
-10	du	du	ADP	_	_	9	dep:comp	_	Scrap=Yes|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	plus	plus	ADV	_	_	9	reparandum	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	deux	deux	NUM	_	Number=Plur	15	nummod	_	_
-15	heures	heure	NOUN	_	Gender=Fem|Number=Plur	12	dep	_	_
-16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
-17	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	5	punct	_	_
+9	plus	plus	ADV	_	_	5	obj	_	_
+10-11	du	_	_	_	_	_	_	_	SpaceAfter=No
+10	de	de	ADP	_	_	9	dep:comp	_	Scrap=Yes
+11	le	le	DET	_	Gender=Masc|Number=Sing	10	dep	_	Scrap=Yes
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	plus	plus	ADV	_	_	9	reparandum	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	deux	deux	NUM	_	Number=Plur	16	nummod	_	_
+16	heures	heure	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_4
 # text = et en fait je lui avais donné rendez-vous à une euh, à quinze heure.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	en	en	PRON	_	Person=3|PronType=Prs	7	discourse	_	_
-3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+2	en	en	ADP	_	_	3	case	_	_
+3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 5	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
-6	avais	avoir	AUX	_	_	7	aux	_	_
+6	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux:tense	_	_
 7	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	rendez-vous	rendez-vous	NOUN	_	Gender=Masc	7	obj	_	_
+8	rendez-vous	rendez-vous	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	obl:mod	_	Scrap=Yes
 11	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
@@ -101,46 +103,46 @@
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj:caus	_	_
-3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
-4	ai	avoir	AUX	_	_	6	aux	_	_
+3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj:agent	_	SpaceAfter=No
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:caus	_	_
-6	patienter	patienter	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	patienter	patienter	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|Subject=ObjRaising
 7	,	,	PUNCT	_	_	16	punct	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-9	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
+9	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
 10	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	discourse	_	_
 11	à	à	ADP	_	_	12	case	_	_
 12	peu	peu	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 13	près	près	ADV	_	_	12	advmod	_	_
 14	quarante	quarante	NUM	_	Number=Plur	16	nummod	_	_
-15	cinq	cinq	NUM	_	Number=Plur	14	nmod	_	_
+15	cinq	cinq	NUM	_	Number=Plur	14	flat	_	_
 16	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	tout	tout	ADV	_	_	19	advmod	_	_
 19	seul	seul	ADJ	_	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	en	en	ADP	_	_	22	case	_	_
-22	bas	bas	NOUN	_	Gender=Masc	6	obl:mod	_	_
+22	bas	bas	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	pluie	pluie	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = ParisStories_2021_pluieEtMamie_7_0
+# sent_id = ParisStories_2021_pluieEtMamie_7
 # text = et euh, une fois prête, euh, du coup, bah, je descends, avec Mamie, parce que Mamie allait autre part et, moi, j'allais, euh, du coup rejoindre XXX.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	et	et	CCONJ	_	_	17	cc	_	_
 2	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	fois	fois	NOUN	_	Gender=Fem	17	obl:mod	_	_
+5	fois	fois	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 6	prête	prête	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	wordform=du
-11	le	le	DET	_	_	12	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	bah	bah	INTJ	_	_	17	discourse	_	SpaceAfter=No
@@ -151,7 +153,7 @@
 19	avec	avec	ADP	_	_	20	case	_	_
 20	Mamie	Mamie	PROPN	_	_	17	obl:mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
-22	parce	parce	SCONJ	_	_	25	mark	_	ExtPos=SCONJ|Idiom=Yes
+22	parce	parce	ADV	_	_	25	mark	_	ExtPos=SCONJ|Idiom=Yes
 23	que	que	SCONJ	_	_	22	fixed	_	InIdiom=Yes
 24	Mamie	Mamie	PROPN	_	_	25	nsubj	_	_
 25	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
@@ -168,61 +170,13 @@
 36	,	,	PUNCT	_	_	35	punct	_	_
 37-38	du	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	wordform=du
-38	le	le	DET	_	_	39	det	_	_
+38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	coup	coup	NOUN	_	Gender=Masc|Number=Sing	40	discourse	_	_
-40	rejoindre	rejoindre	VERB	_	VerbForm=Inf	33	ccomp	_	_
-41	XXX	X	X	_	_	40	obj	_	SpaceAfter=No
+40	rejoindre	rejoindre	VERB	_	VerbForm=Inf	33	xcomp	_	Subject=SubjRaising
+41	XXX	XXX	X	_	_	40	obj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	17	punct	_	_
 
-# sent_id = ParisStories_2021_pluieEtMamie_7_1
-# text = et euh, une fois prête, euh, du coup, bah, je descends, avec Mamie, parce que Mamie allait autre part et, moi, j'allais, euh, du coup rejoindre XXX.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
-1	et	et	CCONJ	_	_	17	cc	_	_
-2	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
-4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	fois	fois	NOUN	_	Gender=Fem	17	obl:mod	_	_
-6	prête	prête	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	5	punct	_	_
-10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	wordform=du
-11	le	le	DET	_	_	12	det	_	_
-12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
-14	bah	bah	INTJ	_	_	17	discourse	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
-16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
-17	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
-19	avec	avec	ADP	_	_	20	case	_	_
-20	Mamie	Mamie	PROPN	_	_	17	obl:mod	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	25	punct	_	_
-22	parce	parce	SCONJ	_	_	25	mark	_	ExtPos=SCONJ|Idiom=Yes
-23	que	que	SCONJ	_	_	22	fixed	_	InIdiom=Yes
-24	Mamie	Mamie	PROPN	_	_	25	nsubj	_	_
-25	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
-26	autre	autre	ADJ	_	Number=Sing	27	amod	_	_
-27	part	part	NOUN	_	Gender=Fem|Number=Sing	25	iobj	_	_
-28	et	et	CCONJ	_	_	33	cc	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	33	punct	_	_
-30	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	33	dislocated	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	_
-32	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	SpaceAfter=No
-33	allais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	25	conj	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	40	punct	_	_
-35	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	35	punct	_	_
-37-38	du	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	39	case	_	wordform=du
-38	le	le	DET	_	_	39	det	_	_
-39	coup	coup	NOUN	_	Gender=Masc|Number=Sing	40	discourse	_	_
-40	rejoindre	rejoindre	VERB	_	VerbForm=Inf	33	ccomp	_	_
-41	XXX	X	X	_	_	40	obj	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	17	punct	_	_
-
-# sent_id = ParisStories_2021_pluieEtMamie_8_0
+# sent_id = ParisStories_2021_pluieEtMamie_8
 # text = et, euh, du coup, bah, le, le, le, la, la première fois que je l'ai vu, du coup, j'étais avec toi, Mamie.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	et	et	CCONJ	_	_	35	cc	_	SpaceAfter=No
@@ -231,7 +185,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	wordform=du
-6	le	le	DET	_	_	7	det	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	35	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	bah	bah	INTJ	_	_	35	discourse	_	SpaceAfter=No
@@ -246,66 +200,22 @@
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	reparandum	_	_
 20	première	premier	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-21	fois	fois	NOUN	_	Gender=Fem	35	dislocated	_	_
+21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	35	dislocated	_	_
 22	que	que	SCONJ	_	_	26	mark	_	_
 23	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
 24	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
-25	ai	avoir	AUX	_	_	26	aux	_	_
+25	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
 26	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	21	punct	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	wordform=du
-29	le	le	DET	_	_	30	det	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	coup	coup	NOUN	_	Gender=Masc|Number=Sing	35	discourse	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	_
 32	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	35	nsubj	_	SpaceAfter=No
 33	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	35	cop	_	_
 34	avec	avec	ADP	_	_	35	case	_	_
-35	toi	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	37	punct	_	_
-37	Mamie	Mamie	PROPN	_	_	35	vocative	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	35	punct	_	_
-
-# sent_id = ParisStories_2021_pluieEtMamie_8_1
-# text = et, euh, du coup, bah, le, le, le, la, la première fois que je l'ai vu, du coup, j'étais avec toi, Mamie.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
-1	et	et	CCONJ	_	_	35	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	35	punct	_	_
-3	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	wordform=du
-6	le	le	DET	_	_	7	det	_	_
-7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	35	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	bah	bah	INTJ	_	_	35	discourse	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	reparandum	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	reparandum	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	reparandum	_	_
-20	première	premier	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-21	fois	fois	NOUN	_	Gender=Fem	35	dislocated	_	_
-22	que	que	SCONJ	_	_	26	mark	_	_
-23	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
-24	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
-25	ai	avoir	AUX	_	_	26	aux	_	_
-26	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	21	punct	_	_
-28-29	du	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	wordform=du
-29	le	le	DET	_	_	30	det	_	_
-30	coup	coup	NOUN	_	Gender=Masc|Number=Sing	35	discourse	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	_
-32	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	35	nsubj	_	SpaceAfter=No
-33	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	35	cop	_	_
-34	avec	avec	ADP	_	_	35	case	_	_
-35	toi	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+35	toi	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	Mamie	Mamie	PROPN	_	_	35	vocative	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	35	punct	_	_
@@ -344,13 +254,13 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	reparandum	_	_
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 8	tout	tout	ADV	_	_	9	advmod	_	_
-9	mouillé	mouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+9	mouillé	mouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	reparandum	_	_
 10	à	à	ADP	_	_	11	case	_	_
-11	cause	cause	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
+11	cause	cause	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	pluie	pluie	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	SpaceAfter=No
@@ -361,7 +271,7 @@
 # text = tu te rappelles pas, il avait un peu les cheveux courts.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+2	te	le	PRON	_	Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 3	rappelles	rappeller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -391,13 +301,13 @@
 # sent_id = ParisStories_2021_pluieEtMamie_13
 # text = non, non, non, non, il avait les cheveux plus courts.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
-1	non	non	INTJ	_	_	10	discourse	_	SpaceAfter=No
+1	non	non	ADV	_	_	10	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	non	non	INTJ	_	_	1	conj	_	SpaceAfter=No
+3	non	non	ADV	_	_	1	conj	_	ExtPos=INTJ|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	non	non	INTJ	_	_	1	conj	_	SpaceAfter=No
+5	non	non	ADV	_	_	1	conj	_	ExtPos=INTJ|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	non	non	INTJ	_	_	1	conj	_	SpaceAfter=No
+7	non	non	ADV	_	_	1	conj	_	ExtPos=INTJ|SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -431,7 +341,7 @@
 6	rouge	rouge	ADJ	_	Number=Sing	0	root	_	_
 7	là	là	ADV	_	_	6	discourse	_	_
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
-9	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	10	obj	_	_
+9	te	le	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	10	obj	_	_
 10	rappelles	rappeller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	discourse	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -445,7 +355,7 @@
 5	que	que	PRON	_	PronType=Rel	9	obj	_	_
 6	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 7	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	iobj	_	SpaceAfter=No
-8	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 10	qu'	qu'	SCONJ	_	_	12	mark	_	SpaceAfter=No
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
@@ -463,15 +373,15 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-5	fois	fois	NOUN	_	Gender=Fem	17	obl:mod	_	_
+5	fois	fois	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 6	que	que	SCONJ	_	_	10	mark	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
-9	ai	avoir	AUX	_	_	10	aux	_	_
+9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	wordform=du
-12	le	le	DET	_	_	13	det	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	coup	coup	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	bah	bah	INTJ	_	_	17	discourse	_	_
@@ -482,7 +392,7 @@
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	reparandum	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
-23	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+23	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux:tense	_	_
 24	habillé	habiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	reparandum	_	_
 25	avec	avec	ADP	_	_	27	case	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -518,7 +428,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	wordform=du
-5	le	le	DET	_	_	6	det	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -527,9 +437,9 @@
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	16	punct	_	_
-15	et	et	CCONJ	_	_	16	cc	_	ExtPos=ADV|InIdiom=Yes
-16	tout	tout	ADV	_	Gender=Masc|Number=Sing	13	conj	_	Idiom=Yes|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	et	et	CCONJ	_	_	13	conj	_	ExtPos=ADV|Idiom=Yes
+16	tout	tout	ADV	_	Gender=Masc|Number=Sing	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_20
@@ -571,7 +481,7 @@
 4	part	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = ParisStories_2021_pluieEtMamie_24_0
+# sent_id = ParisStories_2021_pluieEtMamie_24
 # text = donc, on commence à marcher en direction du bus, du XXX.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	donc	donc	ADV	_	_	4	advmod	_	SpaceAfter=No
@@ -579,40 +489,18 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	6	mark	_	_
-6	marcher	marcher	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	marcher	marcher	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	en	en	ADP	_	_	8	case	_	_
 8	direction	direction	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	wordform=du
-10	le	le	DET	_	_	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	bus	bus	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	wordform=du
-14	le	le	DET	_	_	15	det	_	_
-15	XXX	XXX	NOUN	_	_	11	reparandum	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = ParisStories_2021_pluieEtMamie_24_1
-# text = donc, on commence à marcher en direction du bus, du XXX.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
-1	donc	donc	ADV	_	_	4	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-4	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	à	à	ADP	_	_	6	mark	_	_
-6	marcher	marcher	VERB	_	VerbForm=Inf	4	xcomp	_	_
-7	en	en	ADP	_	_	8	case	_	_
-8	direction	direction	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
-9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	wordform=du
-10	le	le	DET	_	_	11	det	_	_
-11	bus	bus	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	15	punct	_	_
-13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	15	case	_	wordform=du
-14	le	le	DET	_	_	15	det	_	_
-15	XXX	XXX	NOUN	_	_	11	reparandum	_	SpaceAfter=No
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	XXX	XXX	X	_	_	11	reparandum	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_25
@@ -647,14 +535,14 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	après	après	ADV	_	_	7	advmod	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+6	se	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	iobj	_	_
 7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	tiens	tiens	INTJ	_	_	10	discourse	_	_
+8	tiens	tenir	INTJ	_	_	10	discourse	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	Reported=Yes
-11	aller	aller	VERB	_	VerbForm=Inf	10	xcomp	_	_
+11	aller	aller	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	à	à	ADP	_	_	13	case	_	_
-13	XXX	XXX	PROPN	_	_	11	obl:mod	_	SpaceAfter=No
+13	XXX	XXX	X	_	_	11	obl:mod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_27
@@ -662,7 +550,7 @@
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	_	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -680,10 +568,10 @@
 1	et	et	CCONJ	_	_	8	cc	_	_
 2	pendant	pendant	ADP	_	_	4	case	_	_
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
-4	temps	temps	NOUN	_	Gender=Masc	8	obl:mod	_	SpaceAfter=No
+4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	iobj	_	_
+7	se	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	iobj	_	_
 8	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -691,7 +579,7 @@
 # text = on se raconte euh des choses, euh, des choses euh, de notre vie, euh.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	iobj	_	_
+2	se	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	iobj	_	_
 3	raconte	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
@@ -723,14 +611,14 @@
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	_	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	après	après	ADP	_	_	7	dep	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	XXX	XXX	PROPN	_	_	7	obl:arg	_	SpaceAfter=No
+9	XXX	XXX	X	_	_	7	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_32
@@ -740,32 +628,32 @@
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	manger	manger	VERB	_	VerbForm=Inf	2	ccomp	_	_
+5	manger	manger	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 6	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_33
 # text = c'était des bokits, il me semble.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
-4	bokits	bokits	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	bokits	bokits	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	_
-8	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	discourse	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+7	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_34
 # text = on a été manger à la XXX.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	été	être	AUX	_	_	0	root	_	_
-4	manger	manger	VERB	_	VerbForm=Inf	3	dep:comp	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	manger	manger	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	à	à	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	XXX	XXX	PROPN	_	_	4	obl:mod	_	SpaceAfter=No
+7	XXX	XXX	X	_	_	4	obl:mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
