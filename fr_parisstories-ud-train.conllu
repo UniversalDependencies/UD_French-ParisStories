@@ -18701,7 +18701,7 @@
 26	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	27	det	_	_
 27	vies	vie	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
 28	allaient	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
-29	être	être	VERB	_	VerbForm=Inf	28	ccomp	_	Subject=Raising
+29	être	être	VERB	_	VerbForm=Inf	28	xcomp	_	Subject=Raising
 30	complètement	complètement	ADV	_	_	31	advmod	_	_
 31	atypiques	atypique	ADJ	_	Number=Plur	29	xcomp	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
@@ -24118,7 +24118,7 @@
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	de	de	ADP	_	_	7	dep:comp	_	SpaceAfter=No|Subject=Raising
+9	de	de	ADP	_	_	7	dep:comp	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	de	de	ADP	_	_	13	mark	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -24422,15 +24422,15 @@
 11	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	bon	bon	INTJ	_	_	11	discourse	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	16	punct	_	_
-15	à	à	ADP	_	_	17	case	_	_
-16	part	part	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
-17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	à	à	ADP	_	_	16	case	_	_
+16	part	part	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	obl:mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	où	où	PRON	_	PronType=Rel	22	advcl	_	_
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-22	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+22	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
 23	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 24	petite	petit	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 25	blague	blague	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
@@ -25053,7 +25053,7 @@
 71	etc	etc	ADV	_	_	70	conj	_	SpaceAfter=No|wordform=et
 72	.	.	PUNCT	_	_	14	punct	_	_
 
-# sent_id = PS_2022_5_gîteEnMontagne__1
+# sent_id = ParisStories_2022_5_gîteEnMontagne__1
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = honnêtement, je pense que, le mieux ce serait euh, de louer un gîte, un grand gîte euh, en montagne euh, essentiellement euh.
@@ -25087,7 +25087,7 @@
 28	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=8139|AlignEnd=8519|SpaceAfter=No
 29	.	.	PUNCT	_	_	4	punct	_	AlignBegin=8519|AlignEnd=8519
 
-# sent_id = PS_2022_5_gîteEnMontagne__2
+# sent_id = ParisStories_2022_5_gîteEnMontagne__2
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = c'est l'idée première.
@@ -25098,7 +25098,7 @@
 5	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	AlignBegin=10043|AlignEnd=10424|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=10424|AlignEnd=10424
 
-# sent_id = PS_2022_5_gîteEnMontagne__3
+# sent_id = ParisStories_2022_5_gîteEnMontagne__3
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = au calme.
@@ -25108,7 +25108,7 @@
 3	calme	calme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=11708|AlignEnd=12059|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=12059|AlignEnd=12059
 
-# sent_id = PS_2022_5_gîteEnMontagne__4
+# sent_id = ParisStories_2022_5_gîteEnMontagne__4
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = euh, où il y ait beaucoup beaucoup euh, de nature autour.
@@ -25127,7 +25127,7 @@
 13	autour	autour	ADV	_	_	6	advmod	_	AlignBegin=17284|AlignEnd=17696|SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	AlignBegin=17696|AlignEnd=17696
 
-# sent_id = PS_2022_5_gîteEnMontagne__5
+# sent_id = ParisStories_2022_5_gîteEnMontagne__5
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = on puisse aller marcher, aller prendre l'air quand on veut, sans avoir une limite d'un kilomètre.
@@ -25153,7 +25153,7 @@
 20	kilomètre	kilomètre	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	AlignBegin=23011|AlignEnd=23259|SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	AlignBegin=23259|AlignEnd=23259
 
-# sent_id = PS_2022_5_gîteEnMontagne__6
+# sent_id = ParisStories_2022_5_gîteEnMontagne__6
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = euh, pouvoir euh, se faire des batailles de boules de neige, euh.
@@ -25174,7 +25174,7 @@
 15	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=27925|AlignEnd=28223|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	AlignBegin=28223|AlignEnd=28223
 
-# sent_id = PS_2022_5_gîteEnMontagne__7
+# sent_id = ParisStories_2022_5_gîteEnMontagne__7
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = profiter vraiment de l'instant.
@@ -25185,7 +25185,7 @@
 5	instant	instant	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	AlignBegin=30507|AlignEnd=31043|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	AlignBegin=31043|AlignEnd=31043
 
-# sent_id = PS_2022_5_gîteEnMontagne__8
+# sent_id = ParisStories_2022_5_gîteEnMontagne__8
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = et, ouais, pour moi ça serait vraiment le rêve, parce que je pense qu'à rester enfermés comme ça pendant, pendant des jours euh, on finit par euh, perdre toute notion euh, de temps et d'espace.
@@ -25235,7 +25235,7 @@
 44	espace	espace	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	AlignBegin=43998|AlignEnd=44336|SpaceAfter=No
 45	.	.	PUNCT	_	_	11	punct	_	AlignBegin=44336|AlignEnd=44336
 
-# sent_id = PS_2022_5_gîteEnMontagne__9
+# sent_id = ParisStories_2022_5_gîteEnMontagne__9
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = et où ça en montagne ?
@@ -25246,7 +25246,7 @@
 5	montagne	montagne	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	AlignBegin=47152|AlignEnd=47387
 6	?	?	PUNCT	_	_	2	punct	_	AlignBegin=47387|AlignEnd=47387
 
-# sent_id = PS_2022_5_gîteEnMontagne__10
+# sent_id = ParisStories_2022_5_gîteEnMontagne__10
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = plutôt dans les Alpes, dans les Vosges ?
@@ -25260,7 +25260,7 @@
 8	Vosges	Vosges	PROPN	_	_	4	appos	_	AlignBegin=48892|AlignEnd=49143
 9	?	?	PUNCT	_	_	4	punct	_	AlignBegin=49143|AlignEnd=49143
 
-# sent_id = PS_2022_5_gîteEnMontagne__11
+# sent_id = ParisStories_2022_5_gîteEnMontagne__11
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = ah, non euh, on parle de montagne, hein !
@@ -25277,7 +25277,7 @@
 11	hein	hein	INTJ	_	_	9	discourse	_	AlignBegin=51281|AlignEnd=51485
 12	!	!	PUNCT	_	_	7	punct	_	AlignBegin=51485|AlignEnd=51485
 
-# sent_id = PS_2022_5_gîteEnMontagne__12
+# sent_id = ParisStories_2022_5_gîteEnMontagne__12
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = hein, les Vosges euh, c'est pas une montagne !
@@ -25294,7 +25294,7 @@
 11	montagne	montagne	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=54941|AlignEnd=55302
 12	!	!	PUNCT	_	_	11	punct	_	AlignBegin=55302|AlignEnd=55302
 
-# sent_id = PS_2022_5_gîteEnMontagne__13
+# sent_id = ParisStories_2022_5_gîteEnMontagne__13
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = non, euh la montagne euh : les Alpes euh, mh, les Pyrénées, ou euh, mh, moi, j'en sais rien, Tignes.
@@ -25329,7 +25329,7 @@
 29	Tignes	Tignes	PROPN	_	_	15	appos	_	AlignBegin=67091|AlignEnd=67512|SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	AlignBegin=67512|AlignEnd=67512
 
-# sent_id = PS_2022_5_gîteEnMontagne__14
+# sent_id = ParisStories_2022_5_gîteEnMontagne__14
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = comme quand on avait été à Tignes il y a deux ans.
@@ -25347,7 +25347,7 @@
 12	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	obl:mod	_	AlignBegin=69739|AlignEnd=69898|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	AlignBegin=69898|AlignEnd=69898
 
-# sent_id = PS_2022_5_gîteEnMontagne__15
+# sent_id = ParisStories_2022_5_gîteEnMontagne__15
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = c'est euh, c'est beau.
@@ -25360,7 +25360,7 @@
 7	beau	beau	ADJ	_	_	2	reparandum	_	AlignBegin=72528|AlignEnd=72784|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=72784|AlignEnd=72784
 
-# sent_id = PS_2022_5_gîteEnMontagne__16
+# sent_id = ParisStories_2022_5_gîteEnMontagne__16
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = et euh, c'est dépaysant au possible.
@@ -25376,7 +25376,7 @@
 9	possible	possible	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	AlignBegin=74525|AlignEnd=74832|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=74832|AlignEnd=74832
 
-# sent_id = PS_2022_5_gîteEnMontagne__17
+# sent_id = ParisStories_2022_5_gîteEnMontagne__17
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = et euh, franchement euh, je crois que je me rappellerai toujours euh, d'être montée à trois mille, c'est ça trois mille mètres, et euh, et de voir le, les glaciers avec les moraines euh, effectivement euh, juste en face.
@@ -25432,7 +25432,7 @@
 50	face	face	NOUN	_	Gender=Fem|Number=Sing	35	obl:mod	_	AlignBegin=87987|AlignEnd=88338|SpaceAfter=No
 51	.	.	PUNCT	_	_	8	punct	_	AlignBegin=88338|AlignEnd=88338
 
-# sent_id = PS_2022_5_gîteEnMontagne__18
+# sent_id = ParisStories_2022_5_gîteEnMontagne__18
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = c'était euh, c'était juste euh, magique, quoi.
@@ -25450,7 +25450,7 @@
 12	quoi	quoi	INTJ	_	_	10	discourse	_	AlignBegin=91230|AlignEnd=91495|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=91495|AlignEnd=91495
 
-# sent_id = PS_2022_5_gîteEnMontagne__19
+# sent_id = ParisStories_2022_5_gîteEnMontagne__19
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = c'était lunaire.
@@ -25459,7 +25459,7 @@
 3	lunaire	lunaire	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=92048|AlignEnd=92325|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=92325|AlignEnd=92325
 
-# sent_id = PS_2022_5_gîteEnMontagne__20
+# sent_id = ParisStories_2022_5_gîteEnMontagne__20
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = bon, à trois mille mètres, c'était pas top pour tout le monde, hein, je te rappelle.
@@ -25486,7 +25486,7 @@
 21	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	AlignBegin=96006|AlignEnd=96174|SpaceAfter=No
 22	.	.	PUNCT	_	_	11	punct	_	AlignBegin=96174|AlignEnd=96174
 
-# sent_id = PS_2022_5_gîteEnMontagne__21
+# sent_id = ParisStories_2022_5_gîteEnMontagne__21
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = mais pourquoi pas.
@@ -25495,7 +25495,7 @@
 3	pas	pas	ADV	_	_	2	advmod	_	AlignBegin=97055|AlignEnd=97495|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=97495|AlignEnd=97495
 
-# sent_id = PS_2022_5_gîteEnMontagne__22
+# sent_id = ParisStories_2022_5_gîteEnMontagne__22
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = c'était par contre une bonne aventure de partir à Tignes pendant au moins une semaine.
@@ -25519,7 +25519,7 @@
 17	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	AlignBegin=101570|AlignEnd=101810|SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	AlignBegin=101810|AlignEnd=101810
 
-# sent_id = PS_2022_5_gîteEnMontagne__23
+# sent_id = ParisStories_2022_5_gîteEnMontagne__23
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = l'idée, c'était de faire du ski et de s'amuser.
@@ -25538,7 +25538,7 @@
 13	amuser	amuser	VERB	_	VerbForm=Inf	7	conj	_	AlignBegin=105334|AlignEnd=105616|SpaceAfter=No|Subject=NoRaising
 14	.	.	PUNCT	_	_	5	punct	_	AlignBegin=105616|AlignEnd=105616
 
-# sent_id = PS_2022_5_gîteEnMontagne__24
+# sent_id = ParisStories_2022_5_gîteEnMontagne__24
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = mais au-delà de ça euh, en famille euh, tu as pas des idées, de repas de famille, euh ?
@@ -25566,7 +25566,7 @@
 22	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=111112|AlignEnd=111385
 23	?	?	PUNCT	_	_	12	punct	_	AlignBegin=111385|AlignEnd=111385
 
-# sent_id = PS_2022_5_gîteEnMontagne__25
+# sent_id = ParisStories_2022_5_gîteEnMontagne__25
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = et si tu as des idées de repas de famille euh, qu'est-ce que tu aimerais qu'on fasse à manger euh ?
@@ -25596,7 +25596,7 @@
 24	euh	euh	INTJ	_	_	21	discourse	_	AlignBegin=114682|AlignEnd=114840
 25	?	?	PUNCT	_	_	13	punct	_	AlignBegin=114840|AlignEnd=114840
 
-# sent_id = PS_2022_5_gîteEnMontagne__26
+# sent_id = ParisStories_2022_5_gîteEnMontagne__26
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L2
 # text = ou est-ce que tu voudrais qu'on fasse quelque chose, justement, d'un petit peu exceptionnel cette année ?
@@ -25613,17 +25613,17 @@
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	AlignBegin=116540|AlignEnd=116789|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=116789|AlignEnd=116789
 13	justement	justement	ADV	_	_	11	advmod	_	AlignBegin=116789|AlignEnd=117038|SpaceAfter=No
-14	,	,	PUNCT	_	_	18	punct	_	AlignBegin=117038|AlignEnd=117038
-15	d'	de	ADP	_	_	19	case	_	AlignBegin=117038|AlignEnd=117287|SpaceAfter=No
-16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=117287|AlignEnd=117536
-17	petit	petit	ADJ	_	_	18	amod	_	AlignBegin=117536|AlignEnd=117785
-18	peu	peu	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	AlignBegin=117785|AlignEnd=118034
-19	exceptionnel	exceptionnel	ADJ	_	_	18	dep:comp	_	AlignBegin=118034|AlignEnd=118283
+14	,	,	PUNCT	_	_	19	punct	_	AlignBegin=117038|AlignEnd=117038
+15	d'	de	ADP	_	_	18	case	_	AlignBegin=117038|AlignEnd=117287|SpaceAfter=No
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=117287|AlignEnd=117536
+17	petit	petit	ADJ	_	_	19	amod	_	AlignBegin=117536|AlignEnd=117785
+18	peu	peu	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	AlignBegin=117785|AlignEnd=118034
+19	exceptionnel	exceptionnel	ADJ	_	_	11	dep	_	AlignBegin=118034|AlignEnd=118283
 20	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	AlignBegin=118283|AlignEnd=118532
 21	année	année	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	AlignBegin=118532|AlignEnd=118781
 22	?	?	PUNCT	_	_	6	punct	_	AlignBegin=118781|AlignEnd=118781
 
-# sent_id = PS_2022_5_gîteEnMontagne__27
+# sent_id = ParisStories_2022_5_gîteEnMontagne__27
 # sound_url = PS_2022_5_gîteEnMontagne.mp3
 # speaker = L1
 # text = bah, je me suis toujours dit que euh, faire un vrai repas de Noël euh, comme euh, comme nos grands-parents avec euh, la dinde aux marrons, euh, les dix repas, les les dix plats euh, pendant le repas où, où euh, tu as l'impression que tu vas exploser tellement il y a à manger, ça serait génial, parce que je pense que, que depuis que les enfants sont nés, on a pas euh, on a pas eu trop cette tradition.
@@ -25634,10 +25634,10 @@
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=121138|AlignEnd=121364
 6	toujours	toujours	ADV	_	_	7	advmod	_	AlignBegin=121364|AlignEnd=121589
 7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=121589|AlignEnd=121814
-8	que	que	SCONJ	_	_	71	mark	_	AlignBegin=121814|AlignEnd=122039
+8	que	que	SCONJ	_	_	11	mark	_	AlignBegin=121814|AlignEnd=122039
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=122039|AlignEnd=122264|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=122264|AlignEnd=122264
-11	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	AlignBegin=122264|AlignEnd=122542|Subject=SubjRaising
+11	faire	faire	VERB	_	VerbForm=Inf	71	xcomp	_	AlignBegin=122264|AlignEnd=122542|Subject=SubjRaising
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=122542|AlignEnd=122819
 13	vrai	vrai	ADJ	_	_	14	amod	_	AlignBegin=122819|AlignEnd=123097
 14	repas	repas	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	AlignBegin=123097|AlignEnd=123375
@@ -25695,15 +25695,15 @@
 65	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	advcl	_	AlignBegin=138420|AlignEnd=138706
 66	à	à	ADP	_	_	67	mark	_	AlignBegin=138706|AlignEnd=138706
 67	manger	manger	VERB	_	VerbForm=Inf	65	xcomp	_	AlignBegin=138706|AlignEnd=138993|SpaceAfter=No|Subject=SubjRaising
-68	,	,	PUNCT	_	_	11	punct	_	AlignBegin=138993|AlignEnd=138993
-69	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=139554|AlignEnd=139974
+68	,	,	PUNCT	_	_	71	punct	_	AlignBegin=138993|AlignEnd=138993
+69	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	71	nsubj	_	AlignBegin=139554|AlignEnd=139974
 70	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	cop	_	AlignBegin=139974|AlignEnd=140395
-71	génial	génial	ADJ	_	_	11	ccomp	_	AlignBegin=140395|AlignEnd=140815|SpaceAfter=No
+71	génial	génial	ADJ	_	_	7	ccomp	_	AlignBegin=140395|AlignEnd=140815|SpaceAfter=No
 72	,	,	PUNCT	_	_	76	punct	_	AlignBegin=140815|AlignEnd=140815
 73	parce	parce	ADV	_	_	76	mark	_	AlignBegin=141008|AlignEnd=141284|ExtPos=SCONJ|Idiom=Yes
 74	que	que	SCONJ	_	_	73	fixed	_	AlignBegin=141284|AlignEnd=141560|InIdiom=Yes
 75	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	76	nsubj	_	AlignBegin=141560|AlignEnd=141837
-76	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	AlignBegin=141837|AlignEnd=142113
+76	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	71	advcl	_	AlignBegin=141837|AlignEnd=142113
 77	que	que	SCONJ	_	_	76	dep:comp	_	AlignBegin=142113|AlignEnd=142389|SpaceAfter=No
 78	,	,	PUNCT	_	_	77	punct	_	AlignBegin=142389|AlignEnd=142389
 79	que	que	SCONJ	_	_	88	mark	_	AlignBegin=143566|AlignEnd=143824
@@ -25728,7 +25728,7 @@
 98	tradition	tradition	NOUN	_	Gender=Fem|Number=Sing	95	obj	_	AlignBegin=148108|AlignEnd=148328|SpaceAfter=No
 99	.	.	PUNCT	_	_	7	punct	_	AlignBegin=148328|AlignEnd=148328
 
-# sent_id = PS_2022_16_hamacTahiti__1
+# sent_id = ParisStories_2022_16_hamacTahiti__1
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ok, c'est quoi le plus, le souvenir, le premier souvenir, le plus clair que tu as en tête, de nous deux ?
@@ -25761,7 +25761,7 @@
 27	deux	deux	NUM	_	_	26	nmod	_	AlignBegin=8011|AlignEnd=8305
 28	?	?	PUNCT	_	_	5	punct	_	AlignBegin=8305|AlignEnd=8305
 
-# sent_id = PS_2022_16_hamacTahiti__2
+# sent_id = ParisStories_2022_16_hamacTahiti__2
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = le souvenir ?
@@ -25769,7 +25769,7 @@
 2	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=9780|AlignEnd=10599
 3	?	?	PUNCT	_	_	2	punct	_	AlignBegin=10599|AlignEnd=10599
 
-# sent_id = PS_2022_16_hamacTahiti__3
+# sent_id = ParisStories_2022_16_hamacTahiti__3
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ton premier souvenir de nous en fait.
@@ -25782,7 +25782,7 @@
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	discourse	_	AlignBegin=11162|AlignEnd=11382|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=11382|AlignEnd=11382
 
-# sent_id = PS_2022_16_hamacTahiti__4
+# sent_id = ParisStories_2022_16_hamacTahiti__4
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = le premier souvenir de nous le plus clair que j'ai, euh, je pense que c'est en Algérie.
@@ -25809,7 +25809,7 @@
 21	Algérie	Algérie	PROPN	_	_	16	ccomp	_	AlignBegin=17443|AlignEnd=17741|SpaceAfter=No
 22	.	.	PUNCT	_	_	16	punct	_	AlignBegin=17741|AlignEnd=17741
 
-# sent_id = PS_2022_16_hamacTahiti__5
+# sent_id = ParisStories_2022_16_hamacTahiti__5
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = je crois que c'est en Algérie.
@@ -25822,7 +25822,7 @@
 7	Algérie	Algérie	PROPN	_	_	5	xcomp	_	AlignBegin=19529|AlignEnd=19827|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=19827|AlignEnd=19827
 
-# sent_id = PS_2022_16_hamacTahiti__6
+# sent_id = ParisStories_2022_16_hamacTahiti__6
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = et je sais pas, si tu te souviens.
@@ -25837,7 +25837,7 @@
 9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	AlignBegin=21436|AlignEnd=21666|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=21666|AlignEnd=21666
 
-# sent_id = PS_2022_16_hamacTahiti__7
+# sent_id = ParisStories_2022_16_hamacTahiti__7
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = on était sur la place.
@@ -25848,7 +25848,7 @@
 5	place	place	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=22586|AlignEnd=22816|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=22816|AlignEnd=22816
 
-# sent_id = PS_2022_16_hamacTahiti__8
+# sent_id = ParisStories_2022_16_hamacTahiti__8
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = et, euh, et on courait.
@@ -25861,7 +25861,7 @@
 7	courait	courer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24209|AlignEnd=24558|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=24558|AlignEnd=24558
 
-# sent_id = PS_2022_16_hamacTahiti__9
+# sent_id = ParisStories_2022_16_hamacTahiti__9
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = on jouait, comme des …
@@ -25872,7 +25872,7 @@
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	dep	_	AlignBegin=25603|AlignEnd=25951
 6	…	…	PUNCT	_	_	2	punct	_	AlignBegin=25951|AlignEnd=25951
 
-# sent_id = PS_2022_16_hamacTahiti__10
+# sent_id = ParisStories_2022_16_hamacTahiti__10
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = à Alger ou à Tebessa ?
@@ -25883,7 +25883,7 @@
 5	Tebessa	Tebessa	PROPN	_	_	2	conj	_	AlignBegin=25359|AlignEnd=25902
 6	?	?	PUNCT	_	_	2	punct	_	AlignBegin=25902|AlignEnd=25902
 
-# sent_id = PS_2022_16_hamacTahiti__11
+# sent_id = ParisStories_2022_16_hamacTahiti__11
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = à Alger, à Alger sur la grande place, avec la tour là comme ça.
@@ -25905,7 +25905,7 @@
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	obl:mod	_	AlignBegin=29612|AlignEnd=29906|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=29906|AlignEnd=29906
 
-# sent_id = PS_2022_16_hamacTahiti__12
+# sent_id = ParisStories_2022_16_hamacTahiti__12
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = à Alger.
@@ -25913,21 +25913,21 @@
 2	Alger	Alger	PROPN	_	_	0	root	_	AlignBegin=26546|AlignEnd=26888|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=26888|AlignEnd=26888
 
-# sent_id = PS_2022_16_hamacTahiti__13
+# sent_id = ParisStories_2022_16_hamacTahiti__13
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=29048|AlignEnd=29485|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=29485|AlignEnd=29485
 
-# sent_id = PS_2022_16_hamacTahiti__14
+# sent_id = ParisStories_2022_16_hamacTahiti__14
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=29894|AlignEnd=30290|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=30290|AlignEnd=30290
 
-# sent_id = PS_2022_16_hamacTahiti__15
+# sent_id = ParisStories_2022_16_hamacTahiti__15
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = Sabrina était là, il me semble.
@@ -25940,7 +25940,7 @@
 7	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	discourse	_	AlignBegin=31592|AlignEnd=31892|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=31892|AlignEnd=31892
 
-# sent_id = PS_2022_16_hamacTahiti__16
+# sent_id = ParisStories_2022_16_hamacTahiti__16
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ok, donc c~…
@@ -25949,7 +25949,7 @@
 3	donc	donc	ADV	_	_	1	reparandum	_	AlignBegin=32414|AlignEnd=32776
 4	c~…	c~…	X	_	_	1	reparandum	_	AlignBegin=32776|AlignEnd=33139
 
-# sent_id = PS_2022_16_hamacTahiti__17
+# sent_id = ParisStories_2022_16_hamacTahiti__17
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = c'était il y a très, très, bah oui, euh …
@@ -25968,7 +25968,7 @@
 13	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=35173|AlignEnd=35386
 14	…	…	PUNCT	_	_	2	punct	_	AlignBegin=35386|AlignEnd=35386
 
-# sent_id = PS_2022_16_hamacTahiti__18
+# sent_id = ParisStories_2022_16_hamacTahiti__18
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = premier souvenir.
@@ -25976,7 +25976,7 @@
 2	souvenir	souvenir	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=35554|AlignEnd=35722|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=35722|AlignEnd=35722
 
-# sent_id = PS_2022_16_hamacTahiti__19
+# sent_id = ParisStories_2022_16_hamacTahiti__19
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = en même temps, Morgane, on se connaît depuis au moins vingt-deux ans maintenant.
@@ -25999,7 +25999,7 @@
 16	maintenant	maintenant	ADV	_	_	15	advmod	_	AlignBegin=37974|AlignEnd=38189|SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	AlignBegin=38189|AlignEnd=38189
 
-# sent_id = PS_2022_16_hamacTahiti__20
+# sent_id = ParisStories_2022_16_hamacTahiti__20
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = donc, euh, ouais, ça, c'est un souvenir très, très clair que j'ai.
@@ -26024,7 +26024,7 @@
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	AlignBegin=42746|AlignEnd=42955|SpaceAfter=No
 20	.	.	PUNCT	_	_	12	punct	_	AlignBegin=42955|AlignEnd=42955
 
-# sent_id = PS_2022_16_hamacTahiti__21
+# sent_id = ParisStories_2022_16_hamacTahiti__21
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = on était en train de jouer, euh, sur cette grande place.
@@ -26043,7 +26043,7 @@
 13	place	place	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	AlignBegin=45913|AlignEnd=46320|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	AlignBegin=46320|AlignEnd=46320
 
-# sent_id = PS_2022_16_hamacTahiti__22
+# sent_id = ParisStories_2022_16_hamacTahiti__22
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = il faisait chaud.
@@ -26052,7 +26052,7 @@
 3	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	AlignBegin=47132|AlignEnd=47538|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=47538|AlignEnd=47538
 
-# sent_id = PS_2022_16_hamacTahiti__23
+# sent_id = ParisStories_2022_16_hamacTahiti__23
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = euh, il, il, dans mes souvenirs, il n'y avait personne.
@@ -26073,7 +26073,7 @@
 15	personne	personne	PRON	_	_	14	obj	_	AlignBegin=50935|AlignEnd=51275|SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	AlignBegin=51275|AlignEnd=51275
 
-# sent_id = PS_2022_16_hamacTahiti__24
+# sent_id = ParisStories_2022_16_hamacTahiti__24
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = enfin, c'était comme si, euh, il n'y avait personne à part nous et, euh …
@@ -26099,7 +26099,7 @@
 20	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=54654|AlignEnd=54895
 21	…	…	PUNCT	_	_	4	punct	_	AlignBegin=54895|AlignEnd=54895
 
-# sent_id = PS_2022_16_hamacTahiti__25
+# sent_id = ParisStories_2022_16_hamacTahiti__25
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = c'est quoi ton souvenir à toi ?
@@ -26112,7 +26112,7 @@
 7	toi	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nmod	_	AlignBegin=58653|AlignEnd=58953
 8	?	?	PUNCT	_	_	2	punct	_	AlignBegin=58953|AlignEnd=58953
 
-# sent_id = PS_2022_16_hamacTahiti__26
+# sent_id = ParisStories_2022_16_hamacTahiti__26
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = c'est drôle.
@@ -26121,7 +26121,7 @@
 3	drôle	drôle	ADJ	_	_	0	root	_	AlignBegin=56517|AlignEnd=57267|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=57267|AlignEnd=57267
 
-# sent_id = PS_2022_16_hamacTahiti__27
+# sent_id = ParisStories_2022_16_hamacTahiti__27
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = euh, je sais pas, parce que j'ai peur que mes souvenirs les plus jeunes soient des, des, euh, des créations de, de photos que j'ai vues, de nous.
@@ -26164,7 +26164,7 @@
 37	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	34	obl:mod	_	AlignBegin=75189|AlignEnd=75581|SpaceAfter=No
 38	.	.	PUNCT	_	_	4	punct	_	AlignBegin=75581|AlignEnd=75581
 
-# sent_id = PS_2022_16_hamacTahiti__28
+# sent_id = ParisStories_2022_16_hamacTahiti__28
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = et du coup, j'aurais dit Tahiti.
@@ -26180,14 +26180,14 @@
 9	Tahiti	Tahiti	PROPN	_	_	8	obj	_	AlignBegin=77933|AlignEnd=78325|SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	AlignBegin=78325|AlignEnd=78325
 
-# sent_id = PS_2022_16_hamacTahiti__29
+# sent_id = ParisStories_2022_16_hamacTahiti__29
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = .
 # statut = à supprimer 
 1	.	.	PUNCT	_	_	0	root	_	AlignBegin=78325|AlignEnd=78325
 
-# sent_id = PS_2022_16_hamacTahiti__30
+# sent_id = ParisStories_2022_16_hamacTahiti__30
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = ah, c'est possible.
@@ -26198,21 +26198,21 @@
 5	possible	possible	ADJ	_	_	0	root	_	AlignBegin=75271|AlignEnd=75650|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=75650|AlignEnd=75650
 
-# sent_id = PS_2022_16_hamacTahiti__31
+# sent_id = ParisStories_2022_16_hamacTahiti__31
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = oui.
 1	oui	oui	ADV	_	_	0	root	_	AlignBegin=75650|AlignEnd=77055|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=77055|AlignEnd=77055
 
-# sent_id = PS_2022_16_hamacTahiti__32
+# sent_id = ParisStories_2022_16_hamacTahiti__32
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=78236|AlignEnd=79416|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=79416|AlignEnd=79416
 
-# sent_id = PS_2022_16_hamacTahiti__33
+# sent_id = ParisStories_2022_16_hamacTahiti__33
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = mais vu que j'ai, on énormément de photos et de vidéos de ce voyage, j'ai peur que ce ne soit pas v~, enfin, réel, quoi.
@@ -26250,7 +26250,7 @@
 32	quoi	quoi	INTJ	_	_	30	discourse	_	AlignBegin=86219|AlignEnd=86680|SpaceAfter=No
 33	.	.	PUNCT	_	_	19	punct	_	AlignBegin=86680|AlignEnd=86680
 
-# sent_id = PS_2022_16_hamacTahiti__34
+# sent_id = ParisStories_2022_16_hamacTahiti__34
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = ouais, ok, que ce soit un souvenir construit, euh.
@@ -26268,7 +26268,7 @@
 12	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=89277|AlignEnd=89598|SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	AlignBegin=89598|AlignEnd=89598
 
-# sent_id = PS_2022_16_hamacTahiti__35
+# sent_id = ParisStories_2022_16_hamacTahiti__35
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ouais, plutôt construit.
@@ -26278,7 +26278,7 @@
 4	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=89764|AlignEnd=90209|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=90209|AlignEnd=90209
 
-# sent_id = PS_2022_16_hamacTahiti__36
+# sent_id = ParisStories_2022_16_hamacTahiti__36
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = mais, euh, du coup, ce serait ça.
@@ -26296,7 +26296,7 @@
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=92874|AlignEnd=93318|SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	AlignBegin=93318|AlignEnd=93318
 
-# sent_id = PS_2022_16_hamacTahiti__37
+# sent_id = ParisStories_2022_16_hamacTahiti__37
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = et ce serait, euh, moi qui suis dans le, le hamac et toi qui m'aides à essayer de sortir.
@@ -26325,7 +26325,7 @@
 23	sortir	sortir	VERB	_	VerbForm=Inf	21	xcomp	_	AlignBegin=103370|AlignEnd=103734|SpaceAfter=No|Subject=ObjRaising
 24	.	.	PUNCT	_	_	3	punct	_	AlignBegin=103734|AlignEnd=103734
 
-# sent_id = PS_2022_16_hamacTahiti__38
+# sent_id = ParisStories_2022_16_hamacTahiti__38
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = tu n'étais pas loin, en tous cas, moi j'ai galéré.
@@ -26345,7 +26345,7 @@
 14	galéré	galérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	AlignBegin=106137|AlignEnd=106355|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	AlignBegin=106355|AlignEnd=106355
 
-# sent_id = PS_2022_16_hamacTahiti__39
+# sent_id = ParisStories_2022_16_hamacTahiti__39
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = et je vous voyais tous.
@@ -26356,7 +26356,7 @@
 5	tous	tout	PRON	_	_	4	obl:mod	_	AlignBegin=107229|AlignEnd=107447|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=107447|AlignEnd=107447
 
-# sent_id = PS_2022_16_hamacTahiti__40
+# sent_id = ParisStories_2022_16_hamacTahiti__40
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = et vous me regardiez.
@@ -26366,7 +26366,7 @@
 4	regardiez	regarder	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=108103|AlignEnd=108321|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=108321|AlignEnd=108321
 
-# sent_id = PS_2022_16_hamacTahiti__41
+# sent_id = ParisStories_2022_16_hamacTahiti__41
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = et je galérais à sortir de ce putain de hamac.
@@ -26382,7 +26382,7 @@
 10	hamac	hamac	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	AlignBegin=111082|AlignEnd=111427|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=111427|AlignEnd=111427
 
-# sent_id = PS_2022_16_hamacTahiti__42
+# sent_id = ParisStories_2022_16_hamacTahiti__42
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = et tu étais pas loin.
@@ -26393,14 +26393,14 @@
 5	loin	loin	ADV	_	_	3	advmod	_	AlignBegin=112807|AlignEnd=113152|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=113152|AlignEnd=113152
 
-# sent_id = PS_2022_16_hamacTahiti__43
+# sent_id = ParisStories_2022_16_hamacTahiti__43
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = ok.
 1	ok	ok	INTJ	_	_	0	root	_	AlignBegin=113117|AlignEnd=114168|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=114168|AlignEnd=114168
 
-# sent_id = PS_2022_16_hamacTahiti__44
+# sent_id = ParisStories_2022_16_hamacTahiti__44
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = tu étais pas loin.
@@ -26410,7 +26410,7 @@
 4	loin	loin	ADV	_	_	2	advmod	_	AlignBegin=113887|AlignEnd=114133|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=114133|AlignEnd=114133
 
-# sent_id = PS_2022_16_hamacTahiti__45
+# sent_id = ParisStories_2022_16_hamacTahiti__45
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = mais du coup, c'est un truc assez vieux, ouais.
@@ -26430,7 +26430,7 @@
 13	ouais	ouais	INTJ	_	_	9	discourse	_	AlignBegin=116339|AlignEnd=116584|SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	AlignBegin=116584|AlignEnd=116584
 
-# sent_id = PS_2022_16_hamacTahiti__46
+# sent_id = ParisStories_2022_16_hamacTahiti__46
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = quand même.
@@ -26438,14 +26438,14 @@
 2	même	même	ADV	_	_	1	dep	_	AlignBegin=117687|AlignEnd=118054|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=118054|AlignEnd=118054
 
-# sent_id = PS_2022_16_hamacTahiti__47
+# sent_id = ParisStories_2022_16_hamacTahiti__47
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=118054|AlignEnd=118825|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=118825|AlignEnd=118825
 
-# sent_id = PS_2022_16_hamacTahiti__48
+# sent_id = ParisStories_2022_16_hamacTahiti__48
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = c'est pas du tout le même.
@@ -26460,7 +26460,7 @@
 8	même	même	ADJ	_	_	0	root	_	AlignBegin=120104|AlignEnd=120303|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=120303|AlignEnd=120303
 
-# sent_id = PS_2022_16_hamacTahiti__49
+# sent_id = ParisStories_2022_16_hamacTahiti__49
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = c'est pas du tout le même, parce que, pour le coup, euh, j'ai l'impression que, euh, la scène du hamac, on était quand même très très très très jeunes.
@@ -26509,14 +26509,14 @@
 41	jeunes	jeune	ADJ	_	_	22	ccomp	_	AlignBegin=127552|AlignEnd=127811|SpaceAfter=No
 42	.	.	PUNCT	_	_	2	punct	_	AlignBegin=127811|AlignEnd=127811
 
-# sent_id = PS_2022_16_hamacTahiti__50
+# sent_id = ParisStories_2022_16_hamacTahiti__50
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=127437|AlignEnd=127997|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=127997|AlignEnd=127997
 
-# sent_id = PS_2022_16_hamacTahiti__51
+# sent_id = ParisStories_2022_16_hamacTahiti__51
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L2
 # text = alors qu'en Algérie, on était déjà plus âgées.
@@ -26532,7 +26532,7 @@
 10	âgées	âgé	ADJ	_	_	1	ccomp	_	AlignBegin=129775|AlignEnd=130021|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	AlignBegin=130021|AlignEnd=130021
 
-# sent_id = PS_2022_16_hamacTahiti__52
+# sent_id = ParisStories_2022_16_hamacTahiti__52
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = ouais, ouais.
@@ -26541,7 +26541,7 @@
 3	ouais	ouais	INTJ	_	_	1	conj	_	AlignBegin=130083|AlignEnd=130363|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=130363|AlignEnd=130363
 
-# sent_id = PS_2022_16_hamacTahiti__53
+# sent_id = ParisStories_2022_16_hamacTahiti__53
 # sound_url = PS_2022_16_hamacTahiti.mp3
 # speaker = L1
 # text = c'est pour ça que je me demande si ce n'est pas, euh, si ce n'est pas une, euh, une création.
@@ -26574,7 +26574,7 @@
 27	création	création	NOUN	_	Gender=Fem|Number=Sing	9	reparandum	_	AlignBegin=135097|AlignEnd=135312|SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	AlignBegin=135312|AlignEnd=135312
 
-# sent_id = PS_2022_18_mocheMaisMignonne__1
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__1
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = le jour où j'ai rencontré ma petite soeur, euh, bah, déjà, ça faisait longtemps que je l'attendais, plus que neuf mois quand même, parce que je l'avais demandée avant.
@@ -26618,7 +26618,7 @@
 38	avant	avant	ADV	_	_	37	advmod	_	AlignBegin=7701|AlignEnd=7861|SpaceAfter=No
 39	.	.	PUNCT	_	_	18	punct	_	AlignBegin=7861|AlignEnd=7861
 
-# sent_id = PS_2022_18_mocheMaisMignonne__2
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__2
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = donc, je suis pas allée voir, la voir le jour même, parce qu'elle est née euh, je crois qu'elle est née le soir.
@@ -26653,7 +26653,7 @@
 29	soir	soir	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	AlignBegin=12742|AlignEnd=12882|SpaceAfter=No
 30	.	.	PUNCT	_	_	6	punct	_	AlignBegin=12882|AlignEnd=12882
 
-# sent_id = PS_2022_18_mocheMaisMignonne__3
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__3
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = ouais, elle est née le soir, euh, tard.
@@ -26670,7 +26670,7 @@
 11	tard	tard	ADV	_	_	5	advmod	_	AlignBegin=14306|AlignEnd=14509|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	AlignBegin=14509|AlignEnd=14509
 
-# sent_id = PS_2022_18_mocheMaisMignonne__4
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__4
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = du coup moi, ce soir-là, j'étais chez mon oncle et ma tante.
@@ -26694,7 +26694,7 @@
 17	tante	tante	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	AlignBegin=17590|AlignEnd=17847|SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	AlignBegin=17847|AlignEnd=17847
 
-# sent_id = PS_2022_18_mocheMaisMignonne__5
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__5
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = il y avait mes cousins avec moi.
@@ -26707,7 +26707,7 @@
 7	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obl:mod	_	AlignBegin=19626|AlignEnd=19923|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=19923|AlignEnd=19923
 
-# sent_id = PS_2022_18_mocheMaisMignonne__6
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__6
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et on était, euh, tous euh autour du téléphone.
@@ -26726,7 +26726,7 @@
 12	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	AlignBegin=22397|AlignEnd=22784|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=22784|AlignEnd=22784
 
-# sent_id = PS_2022_18_mocheMaisMignonne__7
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__7
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je me souviens, j'étais sur les genoux de ma tante.
@@ -26744,7 +26744,7 @@
 12	tante	tante	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	AlignBegin=24366|AlignEnd=24524|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=24524|AlignEnd=24524
 
-# sent_id = PS_2022_18_mocheMaisMignonne__8
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__8
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et euh, il y a le téléphone qui a sonné.
@@ -26761,7 +26761,7 @@
 11	sonné	sonner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	AlignBegin=26998|AlignEnd=27273|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=27273|AlignEnd=27273
 
-# sent_id = PS_2022_18_mocheMaisMignonne__9
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__9
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = on nous a dit qu'elle était née.
@@ -26775,7 +26775,7 @@
 8	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	AlignBegin=28549|AlignEnd=28731|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=28731|AlignEnd=28731
 
-# sent_id = PS_2022_18_mocheMaisMignonne__10
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__10
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et vu qu'on avait tous, pff …
@@ -26789,7 +26789,7 @@
 8	pff	pff	INTJ	_	_	6	discourse	_	AlignBegin=30667|AlignEnd=30990
 9	…	…	PUNCT	_	_	2	punct	_	AlignBegin=30990|AlignEnd=30990
 
-# sent_id = PS_2022_18_mocheMaisMignonne__11
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__11
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = j'avais sept ans, je crois.
@@ -26802,7 +26802,7 @@
 7	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	AlignBegin=32182|AlignEnd=32420|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=32420|AlignEnd=32420
 
-# sent_id = PS_2022_18_mocheMaisMignonne__12
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__12
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mon cousin, il devait avoir huit ans, mon autre petit cousin, quatre.
@@ -26823,7 +26823,7 @@
 15	quatre	quatre	NUM	_	Number=Plur	13	nmod	_	AlignBegin=35293|AlignEnd=35646|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	AlignBegin=35646|AlignEnd=35646
 
-# sent_id = PS_2022_18_mocheMaisMignonne__13
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__13
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = du coup, bah, on est tous allé se coucher.
@@ -26842,7 +26842,7 @@
 12	coucher	coucher	VERB	_	VerbForm=Inf	10	xcomp	_	AlignBegin=37067|AlignEnd=37245|SpaceAfter=No|Subject=SubjRaising
 13	.	.	PUNCT	_	_	10	punct	_	AlignBegin=37245|AlignEnd=37245
 
-# sent_id = PS_2022_18_mocheMaisMignonne__14
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__14
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et après, donc le lendemain, on est allé la voir à l'hôpital.
@@ -26863,7 +26863,7 @@
 15	hôpital	hôpital	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	AlignBegin=40140|AlignEnd=40331|SpaceAfter=No
 16	.	.	PUNCT	_	_	10	punct	_	AlignBegin=40331|AlignEnd=40331
 
-# sent_id = PS_2022_18_mocheMaisMignonne__15
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__15
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je me souviens pas vraiment du jour.
@@ -26878,7 +26878,7 @@
 8	jour	jour	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	AlignBegin=42014|AlignEnd=42295|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42295|AlignEnd=42295
 
-# sent_id = PS_2022_18_mocheMaisMignonne__16
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__16
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je me souviens juste que, euh, elle était vraiment moche, mais genre très très moche.
@@ -26902,7 +26902,7 @@
 18	moche	moche	ADJ	_	Number=Sing	12	conj	_	AlignBegin=46465|AlignEnd=46699|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	AlignBegin=46699|AlignEnd=46699
 
-# sent_id = PS_2022_18_mocheMaisMignonne__17
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__17
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = bon, les bébés, quand ils naissent, ils sont moches.
@@ -26920,7 +26920,7 @@
 12	moches	moche	ADJ	_	_	0	root	_	AlignBegin=48421|AlignEnd=48662|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	AlignBegin=48662|AlignEnd=48662
 
-# sent_id = PS_2022_18_mocheMaisMignonne__18
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__18
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais, euh, elle était toute rouge.
@@ -26934,7 +26934,7 @@
 8	rouge	rouge	ADJ	_	_	0	root	_	AlignBegin=50274|AlignEnd=50570|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=50570|AlignEnd=50570
 
-# sent_id = PS_2022_18_mocheMaisMignonne__19
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__19
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = elle était toute flétrie.
@@ -26944,7 +26944,7 @@
 4	flétrie	flétrir	ADJ	_	_	0	root	_	AlignBegin=51832|AlignEnd=52253|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52253|AlignEnd=52253
 
-# sent_id = PS_2022_18_mocheMaisMignonne__20
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__20
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = elle, euh, elle était pas belle.
@@ -26958,7 +26958,7 @@
 8	belle	beau	ADJ	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=53219|AlignEnd=53413|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=53413|AlignEnd=53413
 
-# sent_id = PS_2022_18_mocheMaisMignonne__21
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__21
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = puis, elle avait plein de cheveux.
@@ -26971,7 +26971,7 @@
 7	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	AlignBegin=54379|AlignEnd=54572|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=54572|AlignEnd=54572
 
-# sent_id = PS_2022_18_mocheMaisMignonne__22
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__22
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = c'était bizarre.
@@ -26980,7 +26980,7 @@
 3	bizarre	bizarre	ADJ	_	_	0	root	_	AlignBegin=55281|AlignEnd=55635|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=55635|AlignEnd=55635
 
-# sent_id = PS_2022_18_mocheMaisMignonne__23
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__23
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = elle était dans son, tu sais, c'est pas des landaus, c'est les trucs dans les hôpitaux là, je crois que c'est en verre.
@@ -27016,7 +27016,7 @@
 30	verre	verre	NOUN	_	Gender=Masc|Number=Sing	25	ccomp	_	AlignBegin=60200|AlignEnd=60376|SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	AlignBegin=60376|AlignEnd=60376
 
-# sent_id = PS_2022_18_mocheMaisMignonne__24
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__24
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je sais plus comment ça s'appelle.
@@ -27029,7 +27029,7 @@
 7	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	AlignBegin=61362|AlignEnd=61526|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=61526|AlignEnd=61526
 
-# sent_id = PS_2022_18_mocheMaisMignonne__25
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__25
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = c'est pas les couveuses là.
@@ -27041,7 +27041,7 @@
 6	là	là	ADV	_	_	5	discourse	_	AlignBegin=62461|AlignEnd=62648|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=62648|AlignEnd=62648
 
-# sent_id = PS_2022_18_mocheMaisMignonne__26
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__26
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais ils les mettent dedans.
@@ -27052,7 +27052,7 @@
 5	dedans	dedans	ADV	_	_	4	iobj	_	AlignBegin=63478|AlignEnd=63686|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=63686|AlignEnd=63686
 
-# sent_id = PS_2022_18_mocheMaisMignonne__27
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__27
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = elle était dedans avec ses, avec ses cheveux, là, qui sortaient de partout, et avec ses petites peluches.
@@ -27080,7 +27080,7 @@
 22	peluches	peluche	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	AlignBegin=67517|AlignEnd=67781|SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	AlignBegin=67781|AlignEnd=67781
 
-# sent_id = PS_2022_18_mocheMaisMignonne__28
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__28
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et je l'ai prise dans mes bras.
@@ -27094,7 +27094,7 @@
 8	bras	bras	NOUN	_	Gender=Masc|Number=Plur	5	obl:mod	_	AlignBegin=69229|AlignEnd=69436|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=69436|AlignEnd=69436
 
-# sent_id = PS_2022_18_mocheMaisMignonne__29
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__29
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = j'avoue, elle était mignonne quand même.
@@ -27108,7 +27108,7 @@
 8	même	même	ADV	_	_	7	dep	_	AlignBegin=70543|AlignEnd=70727|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=70727|AlignEnd=70727
 
-# sent_id = PS_2022_18_mocheMaisMignonne__30
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__30
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais, elle était pas très belle.
@@ -27121,7 +27121,7 @@
 7	belle	belle	ADJ	_	_	0	root	_	AlignBegin=71615|AlignEnd=71793|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=71793|AlignEnd=71793
 
-# sent_id = PS_2022_18_mocheMaisMignonne__31
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__31
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais, elle était mignonne.
@@ -27132,7 +27132,7 @@
 5	mignonne	mignonne	ADJ	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=72340|AlignEnd=72522|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=72522|AlignEnd=72522
 
-# sent_id = PS_2022_18_mocheMaisMignonne__32
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__32
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et voilà, j'étais contente, parce que c'était ma petite soeur.
@@ -27152,7 +27152,7 @@
 14	soeur	soeur	NOUN	_	Gender=Fem|Number=Sing	6	advcl	_	AlignBegin=74903|AlignEnd=75075|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	AlignBegin=75075|AlignEnd=75075
 
-# sent_id = PS_2022_18_mocheMaisMignonne__33
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__33
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je la rencontrais pour la première fois.
@@ -27165,7 +27165,7 @@
 7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	AlignBegin=77407|AlignEnd=77796|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=77796|AlignEnd=77796
 
-# sent_id = PS_2022_18_mocheMaisMignonne__34
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__34
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je me souviens que dans l'hôpital, c'était, on était du coup, il y avait mon père, ma mère et moi.
@@ -27199,7 +27199,7 @@
 27	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	22	conj	_	AlignBegin=82886|AlignEnd=83265|SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	AlignBegin=83265|AlignEnd=83265
 
-# sent_id = PS_2022_18_mocheMaisMignonne__35
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__35
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais du coup, il y avait aussi mon oncle et ma tante, vu qu'ils m'avaient emmenée, vu que j'avais dormi chez eux la veille.
@@ -27237,7 +27237,7 @@
 31	veille	veille	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	AlignBegin=87388|AlignEnd=87556|SpaceAfter=No
 32	.	.	PUNCT	_	_	8	punct	_	AlignBegin=87556|AlignEnd=87556
 
-# sent_id = PS_2022_18_mocheMaisMignonne__36
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__36
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et je me souviens que les garçons, ils avaient fait une course de chariot.
@@ -27258,7 +27258,7 @@
 15	chariot	chariot	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	AlignBegin=90108|AlignEnd=90334|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	AlignBegin=90334|AlignEnd=90334
 
-# sent_id = PS_2022_18_mocheMaisMignonne__37
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__37
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = enfin, je crois ils avaient pris un, un chariot vide ou, je sais pas, tu sais, le truc là où on met les bébés.
@@ -27293,7 +27293,7 @@
 29	bébés	bébé	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	AlignBegin=94457|AlignEnd=94586|SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	AlignBegin=94586|AlignEnd=94586
 
-# sent_id = PS_2022_18_mocheMaisMignonne__38
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__38
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = et ils avaient courru avec, dans le couloir.
@@ -27308,7 +27308,7 @@
 9	couloir	couloir	NOUN	_	Gender=Masc|Number=Sing	5	reparandum	_	AlignBegin=96100|AlignEnd=96365|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=96365|AlignEnd=96365
 
-# sent_id = PS_2022_18_mocheMaisMignonne__39
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__39
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je sais pas s'ils s'étaient fait engueuler ou …
@@ -27324,7 +27324,7 @@
 10	ou	ou	CCONJ	_	_	9	cc	_	AlignBegin=98062|AlignEnd=98251
 11	…	…	PUNCT	_	_	2	punct	_	AlignBegin=98251|AlignEnd=98251
 
-# sent_id = PS_2022_18_mocheMaisMignonne__40
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__40
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais ouais, ils avaient foutu un peu le bazar.
@@ -27340,7 +27340,7 @@
 10	bazar	bazar	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	AlignBegin=100226|AlignEnd=100432|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=100432|AlignEnd=100432
 
-# sent_id = PS_2022_18_mocheMaisMignonne__41
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__41
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je me souviens, j'étais jalouse aussi, parce que mon cousin, donc qui a mon âge, il a pris ma sœur dans ses bras.
@@ -27374,7 +27374,7 @@
 28	bras	bras	NOUN	_	Gender=Masc|Number=Plur	23	obl:arg	_	AlignBegin=105789|AlignEnd=105964|SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	AlignBegin=105964|AlignEnd=105964
 
-# sent_id = PS_2022_18_mocheMaisMignonne__42
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__42
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = toute façon, j'étais trop jalouse après, quand quelqu'un, euh, même quand il y a quelqu'un qui voulait lui donner le biberon ou …
@@ -27407,7 +27407,7 @@
 27	ou	ou	CCONJ	_	_	19	cc	_	AlignBegin=110227|AlignEnd=110508
 28	…	…	PUNCT	_	_	7	punct	_	AlignBegin=110508|AlignEnd=110508
 
-# sent_id = PS_2022_18_mocheMaisMignonne__43
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__43
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = mais je crois que je m'en souviens à moitié, avec les photos, parce que, ça fait longtemps.
@@ -27434,7 +27434,7 @@
 21	longtemps	longtemps	ADV	_	_	20	advmod	_	AlignBegin=113667|AlignEnd=113818|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	AlignBegin=113818|AlignEnd=113818
 
-# sent_id = PS_2022_18_mocheMaisMignonne__44
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__44
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = donc, les, la moitié des souvenirs que j'ai, c'est parce que je vois les photos et, du coup, je sais ce qui s'est passé.
@@ -27476,7 +27476,7 @@
 34	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	AlignBegin=117905|AlignEnd=118054|SpaceAfter=No
 35	.	.	PUNCT	_	_	19	punct	_	AlignBegin=118054|AlignEnd=118054
 
-# sent_id = PS_2022_18_mocheMaisMignonne__45
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__45
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = bah, après, je sais plus trop.
@@ -27490,7 +27490,7 @@
 8	trop	trop	ADV	_	_	6	advmod	_	AlignBegin=119012|AlignEnd=119204|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=119204|AlignEnd=119204
 
-# sent_id = PS_2022_18_mocheMaisMignonne__46
+# sent_id = ParisStories_2022_18_mocheMaisMignonne__46
 # sound_url = PS_2022_18_mocheMaisMignonne.mp3
 # speaker = 0
 # text = je sais qu'on l'a ramenée à la maison.
@@ -27506,7 +27506,7 @@
 10	maison	maison	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	AlignBegin=120420|AlignEnd=120572|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=120572|AlignEnd=120572
 
-# sent_id = PS_2022_15_onEnParleAPersonne__1
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__1
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = parce que, je me souviens, que tu étais sorti, un peu avant moi, genre, peut-être dix minutes, ou, une demi-heure, je sais plus.
@@ -27543,7 +27543,7 @@
 31	plus	plus	ADV	_	_	30	advmod	_	AlignBegin=6015|AlignEnd=6281|SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	AlignBegin=6281|AlignEnd=6281
 
-# sent_id = PS_2022_15_onEnParleAPersonne__2
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__2
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = enfin, je sais que tu étais sorti avant moi.
@@ -27559,7 +27559,7 @@
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obl:mod	_	AlignBegin=8537|AlignEnd=8819|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=8819|AlignEnd=8819
 
-# sent_id = PS_2022_15_onEnParleAPersonne__3
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__3
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et je sais que je t'ai vu à la porte, euh, sur le côté à droite.
@@ -27584,7 +27584,7 @@
 19	droite	droite	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	AlignBegin=12057|AlignEnd=12361|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	AlignBegin=12361|AlignEnd=12361
 
-# sent_id = PS_2022_15_onEnParleAPersonne__4
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__4
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = je sais, que tu m'attendais là.
@@ -27598,7 +27598,7 @@
 8	là	là	ADV	_	_	7	advmod	_	AlignBegin=13600|AlignEnd=13806|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13806|AlignEnd=13806
 
-# sent_id = PS_2022_15_onEnParleAPersonne__5
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__5
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et j'ai fais exprès de sortir par devant, pour faire genre que je t'avais pas vu, en mode je te cherche et tout.
@@ -27631,7 +27631,7 @@
 27	tout	tout	ADV	_	_	25	conj	_	AlignBegin=17983|AlignEnd=18140|SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	AlignBegin=18140|AlignEnd=18140
 
-# sent_id = PS_2022_15_onEnParleAPersonne__6
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__6
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = je me souviens d'avoir fait un truc con comme ça, je sais pas pourquoi.
@@ -27653,7 +27653,7 @@
 16	pourquoi	pourquoi	ADV	_	_	14	obj	_	AlignBegin=22212|AlignEnd=22481|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	AlignBegin=22481|AlignEnd=22481
 
-# sent_id = PS_2022_15_onEnParleAPersonne__7
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__7
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = juste parce que j'avais peur d'aller juste droit vers toi, en fait.
@@ -27674,7 +27674,7 @@
 15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	AlignBegin=27187|AlignEnd=27796|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	AlignBegin=27796|AlignEnd=27796
 
-# sent_id = PS_2022_15_onEnParleAPersonne__8
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__8
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et on a parlé bouquin.
@@ -27685,14 +27685,14 @@
 5	bouquin	bouquin	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=28666|AlignEnd=28884|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=28884|AlignEnd=28884
 
-# sent_id = PS_2022_15_onEnParleAPersonne__9
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__9
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=28882|AlignEnd=29690|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=29690|AlignEnd=29690
 
-# sent_id = PS_2022_15_onEnParleAPersonne__10
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__10
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = on a parlé Eragon, les Chevaliers d'Émeraude.
@@ -27707,14 +27707,14 @@
 9	Émeraude	Émeraude	PROPN	_	_	7	nmod	_	AlignBegin=31595|AlignEnd=31867|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=31867|AlignEnd=31867
 
-# sent_id = PS_2022_15_onEnParleAPersonne__11
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__11
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=31867|AlignEnd=32604|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=32604|AlignEnd=32604
 
-# sent_id = PS_2022_15_onEnParleAPersonne__12
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__12
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = c'était quoi ce mot ?
@@ -27725,7 +27725,7 @@
 5	mot	mot	NOUN	_	Gender=Masc|Number=Sing	3	dislocated	_	AlignBegin=33335|AlignEnd=33518
 6	?	?	PUNCT	_	_	3	punct	_	AlignBegin=33518|AlignEnd=33518
 
-# sent_id = PS_2022_15_onEnParleAPersonne__13
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__13
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = les chmeliers, les Chevaliers d'Émeraude.
@@ -27738,7 +27738,7 @@
 7	Émeraude	Émeraude	PROPN	_	_	5	nmod	_	AlignBegin=36451|AlignEnd=36818|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=36818|AlignEnd=36818
 
-# sent_id = PS_2022_15_onEnParleAPersonne__14
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__14
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = on a parlé de, euh, on a pas parlé d'Overwatch, à ce moment-là.
@@ -27762,7 +27762,7 @@
 18	-là	là	ADV	_	_	17	advmod	_	AlignBegin=40341|AlignEnd=40552|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	AlignBegin=40552|AlignEnd=40552
 
-# sent_id = PS_2022_15_onEnParleAPersonne__15
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__15
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = on a parlé, on a parlé, musique ?
@@ -27777,7 +27777,7 @@
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	AlignBegin=41992|AlignEnd=42194
 10	?	?	PUNCT	_	_	3	punct	_	AlignBegin=42194|AlignEnd=42194
 
-# sent_id = PS_2022_15_onEnParleAPersonne__16
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__16
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = ou, c'est moi qui …
@@ -27789,7 +27789,7 @@
 6	qui	qui	PRON	_	_	5	advcl:cleft	_	AlignBegin=43000|AlignEnd=43202
 7	…	…	PUNCT	_	_	5	punct	_	AlignBegin=43202|AlignEnd=43202
 
-# sent_id = PS_2022_15_onEnParleAPersonne__17
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__17
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = non, non, non, pas de musique, ce jour-là.
@@ -27808,7 +27808,7 @@
 13	-là	là	ADV	_	_	12	advmod	_	AlignBegin=44770|AlignEnd=44966|SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	AlignBegin=44966|AlignEnd=44966
 
-# sent_id = PS_2022_15_onEnParleAPersonne__18
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__18
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = ah oui, je sais, j~ …
@@ -27821,7 +27821,7 @@
 7	j~	j~	PRON	_	_	5	reparandum	_	AlignBegin=46679|AlignEnd=47107
 8	…	…	PUNCT	_	_	5	punct	_	AlignBegin=47107|AlignEnd=47107
 
-# sent_id = PS_2022_15_onEnParleAPersonne__19
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__19
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = je me souviens que euh, je m'étais préparée, genre, peut-être cinq heures à l'avance au moins.
@@ -27850,7 +27850,7 @@
 22	moins	moins	ADV	_	_	16	nmod	_	AlignBegin=53798|AlignEnd=54192|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	AlignBegin=54192|AlignEnd=54192
 
-# sent_id = PS_2022_15_onEnParleAPersonne__20
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__20
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et j'avais fais exprès de rentrer le plus vite possible.
@@ -27867,7 +27867,7 @@
 11	possible	possible	ADJ	_	_	10	amod	_	AlignBegin=56986|AlignEnd=57230|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	AlignBegin=57230|AlignEnd=57230
 
-# sent_id = PS_2022_15_onEnParleAPersonne__21
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__21
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et, j'avais déjà tout préparé, le matin.
@@ -27883,7 +27883,7 @@
 10	matin	matin	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	AlignBegin=58975|AlignEnd=59224|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	AlignBegin=59224|AlignEnd=59224
 
-# sent_id = PS_2022_15_onEnParleAPersonne__22
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__22
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = j'étais déjà, j'avais déjà, mh, je m'étais déjà maquillée.
@@ -27904,14 +27904,14 @@
 15	maquillée	maquiller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	reparandum	_	AlignBegin=63710|AlignEnd=63993|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	AlignBegin=63993|AlignEnd=63993
 
-# sent_id = PS_2022_15_onEnParleAPersonne__23
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__23
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = han !
 1	han	han	INTJ	_	_	0	root	_	AlignBegin=59716|AlignEnd=59979
 2	!	!	PUNCT	_	_	1	punct	_	AlignBegin=59979|AlignEnd=59979
 
-# sent_id = PS_2022_15_onEnParleAPersonne__24
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__24
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = j'ai repris une douche dès que je suis rentrée, en mode vite vite vite.
@@ -27933,7 +27933,7 @@
 16	vite	vite	ADV	_	_	14	conj	_	AlignBegin=66464|AlignEnd=66717|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	AlignBegin=66717|AlignEnd=66717
 
-# sent_id = PS_2022_15_onEnParleAPersonne__25
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__25
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et je me souviens que j'étais montée au grenier, parce que toutes mes affaires étaient au grenier à ce moment-là, quand j'étais chez ma grand-mère.
@@ -27973,7 +27973,7 @@
 32	grand-mère	grand-mère	NOUN	_	Gender=Fem|Number=Sing	29	obl:arg	_	AlignBegin=72191|AlignEnd=72464|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	AlignBegin=72464|AlignEnd=72464
 
-# sent_id = PS_2022_15_onEnParleAPersonne__26
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__26
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et j'étais montée au grenier.
@@ -27987,7 +27987,7 @@
 7	grenier	grenier	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=73394|AlignEnd=73580|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=73580|AlignEnd=73580
 
-# sent_id = PS_2022_15_onEnParleAPersonne__27
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__27
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et j'ai défait tous les sacs, mais genre, tous mes sacs de déménagement.
@@ -28009,7 +28009,7 @@
 16	déménagement	déménagement	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	AlignBegin=77957|AlignEnd=78284|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	AlignBegin=78284|AlignEnd=78284
 
-# sent_id = PS_2022_15_onEnParleAPersonne__28
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__28
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et j'ai essayé quatorze millions de tenues.
@@ -28023,7 +28023,7 @@
 8	tenues	tenue	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	AlignBegin=80290|AlignEnd=80576|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=80576|AlignEnd=80576
 
-# sent_id = PS_2022_15_onEnParleAPersonne__29
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__29
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et, et, ma sœur elle était là bah, il est bien, ce pantalon.
@@ -28046,7 +28046,7 @@
 17	pantalon	pantalon	NOUN	_	Gender=Masc|Number=Sing	14	dislocated	_	AlignBegin=82575|AlignEnd=82837|SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	AlignBegin=82837|AlignEnd=82837
 
-# sent_id = PS_2022_15_onEnParleAPersonne__30
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__30
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = mais, il est bien, celui-là aussi.
@@ -28061,14 +28061,14 @@
 9	aussi	aussi	ADV	_	_	5	advmod	_	AlignBegin=83696|AlignEnd=83839|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=83839|AlignEnd=83839|wordform=."
 
-# sent_id = PS_2022_15_onEnParleAPersonne__31
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__31
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = .
 # statut = à supprimer 
 1	.	.	PUNCT	_	_	0	root	_	AlignBegin=83839|AlignEnd=83839
 
-# sent_id = PS_2022_15_onEnParleAPersonne__32
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__32
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et au final je me suis retrouvée avec le d~ …
@@ -28086,7 +28086,7 @@
 11	d~	d~	NOUN	_	_	8	obl:arg	_	AlignBegin=86601|AlignEnd=86749
 12	…	…	PUNCT	_	_	8	punct	_	AlignBegin=86749|AlignEnd=86749
 
-# sent_id = PS_2022_15_onEnParleAPersonne__33
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__33
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = en fait, let-shirt vert que j'ai mis, c'est juste parce que, si je partais pas maintenant, j'étais en retard, hein.
@@ -28121,7 +28121,7 @@
 29	hein	hein	INTJ	_	_	27	discourse	_	AlignBegin=92339|AlignEnd=92560|SpaceAfter=No
 30	.	.	PUNCT	_	_	13	punct	_	AlignBegin=92560|AlignEnd=92560
 
-# sent_id = PS_2022_15_onEnParleAPersonne__34
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__34
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et j~, j'étais pas arrêtée dessus.
@@ -28135,7 +28135,7 @@
 8	dessus	dessus	ADV	_	_	7	advmod	_	AlignBegin=94200|AlignEnd=94473|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	AlignBegin=94473|AlignEnd=94473
 
-# sent_id = PS_2022_15_onEnParleAPersonne__35
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__35
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = j'étais en mode ok, j'y vais.
@@ -28150,7 +28150,7 @@
 9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	AlignBegin=95711|AlignEnd=95888|Reported=Yes|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=95888|AlignEnd=95888
 
-# sent_id = PS_2022_15_onEnParleAPersonne__36
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__36
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = ça va.
@@ -28158,7 +28158,7 @@
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96894|AlignEnd=97097|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=97097|AlignEnd=97097
 
-# sent_id = PS_2022_15_onEnParleAPersonne__37
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__37
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = c'est pas trop moche, j'y vais.
@@ -28173,7 +28173,7 @@
 9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	AlignBegin=98516|AlignEnd=98719|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=98719|AlignEnd=98719
 
-# sent_id = PS_2022_15_onEnParleAPersonne__38
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__38
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = je me souviens, j'ai fait en sorte de parler de toi.
@@ -28192,7 +28192,7 @@
 13	toi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	obl:arg	_	AlignBegin=102380|AlignEnd=102640|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	AlignBegin=102640|AlignEnd=102640
 
-# sent_id = PS_2022_15_onEnParleAPersonne__39
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__39
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = s~, sauf que, du coup, ça va pas du tout avec le on en parle à personne, hein qu'on disait au début.
@@ -28231,7 +28231,7 @@
 30	début	début	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	AlignBegin=107458|AlignEnd=107728|SpaceAfter=No
 31	.	.	PUNCT	_	_	1	punct	_	AlignBegin=107728|AlignEnd=107728
 
-# sent_id = PS_2022_15_onEnParleAPersonne__40
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__40
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = mais j'avoue quand tu m'as dit euh …
@@ -28246,7 +28246,7 @@
 9	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=110471|AlignEnd=110632
 10	…	…	PUNCT	_	_	3	punct	_	AlignBegin=110632|AlignEnd=110632
 
-# sent_id = PS_2022_15_onEnParleAPersonne__41
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__41
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = tu m'as dit ?
@@ -28256,7 +28256,7 @@
 4	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=110949|AlignEnd=111055
 5	?	?	PUNCT	_	_	4	punct	_	AlignBegin=111055|AlignEnd=111055
 
-# sent_id = PS_2022_15_onEnParleAPersonne__42
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__42
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = mh, on, je sais plus comment, on avait décidé qu'on disait pas encore tout de suite.
@@ -28282,7 +28282,7 @@
 20	suite	suite	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	AlignBegin=114784|AlignEnd=115041|SpaceAfter=No
 21	.	.	PUNCT	_	_	12	punct	_	AlignBegin=115041|AlignEnd=115041
 
-# sent_id = PS_2022_15_onEnParleAPersonne__43
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__43
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = franchement, je savais déjà que je l'avais déjà dit à quelqu'un.
@@ -28301,7 +28301,7 @@
 13	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	obl:arg	_	AlignBegin=119679|AlignEnd=120143|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	AlignBegin=120143|AlignEnd=120143
 
-# sent_id = PS_2022_15_onEnParleAPersonne__44
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__44
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = mais euh tu sais que moi, je suis arrivée en courant, hein ?
@@ -28321,14 +28321,14 @@
 14	hein	hein	INTJ	_	_	10	discourse	_	AlignBegin=123631|AlignEnd=123923
 15	?	?	PUNCT	_	_	4	punct	_	AlignBegin=123923|AlignEnd=123923
 
-# sent_id = PS_2022_15_onEnParleAPersonne__45
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__45
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=123580|AlignEnd=123816|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=123816|AlignEnd=123816
 
-# sent_id = PS_2022_15_onEnParleAPersonne__46
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__46
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = genre, j'étais au bout de la rue.
@@ -28345,7 +28345,7 @@
 10	rue	rue	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	AlignBegin=125138|AlignEnd=125312|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=125312|AlignEnd=125312
 
-# sent_id = PS_2022_15_onEnParleAPersonne__47
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__47
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = et dès que je me suis dit on est pas loin de la mairie, il va me voir, j'ai ralenti.
@@ -28374,7 +28374,7 @@
 23	ralenti	ralentre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=128754|AlignEnd=129036|SpaceAfter=No
 24	.	.	PUNCT	_	_	23	punct	_	AlignBegin=129036|AlignEnd=129036
 
-# sent_id = PS_2022_15_onEnParleAPersonne__48
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__48
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = je me suis mise à marcher direct.
@@ -28387,7 +28387,7 @@
 7	direct	direct	ADV	_	_	6	advmod	_	AlignBegin=130442|AlignEnd=130723|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=130723|AlignEnd=130723
 
-# sent_id = PS_2022_15_onEnParleAPersonne__49
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__49
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = on a choisi le premier bar, mais genre, vraiment.
@@ -28404,7 +28404,7 @@
 11	vraiment	vraiment	ADV	_	_	3	advmod	_	AlignBegin=132888|AlignEnd=133251|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=133251|AlignEnd=133251
 
-# sent_id = PS_2022_15_onEnParleAPersonne__50
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__50
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = on arrive dans le village.
@@ -28415,14 +28415,14 @@
 5	village	village	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	AlignBegin=134173|AlignEnd=134403|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	AlignBegin=134403|AlignEnd=134403
 
-# sent_id = PS_2022_15_onEnParleAPersonne__51
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__51
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=133269|AlignEnd=133458|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=133458|AlignEnd=133458
 
-# sent_id = PS_2022_15_onEnParleAPersonne__52
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__52
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = tu me fais bon, tu veux aller où ?
@@ -28437,14 +28437,14 @@
 9	où	où	ADV	_	_	8	obj	_	AlignBegin=135486|AlignEnd=135641
 10	?	?	PUNCT	_	_	7	punct	_	AlignBegin=135641|AlignEnd=135641
 
-# sent_id = PS_2022_15_onEnParleAPersonne__53
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__53
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = .
 # statut = à supprimer 
 1	.	.	PUNCT	_	_	0	root	_	AlignBegin=135641|AlignEnd=135641
 
-# sent_id = PS_2022_15_onEnParleAPersonne__54
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__54
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = il y a genre une place.
@@ -28456,7 +28456,7 @@
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	AlignBegin=136900|AlignEnd=137152|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=137152|AlignEnd=137152
 
-# sent_id = PS_2022_15_onEnParleAPersonne__55
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__55
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = on a fait le premier, à droite, là.
@@ -28472,7 +28472,7 @@
 10	là	là	ADV	_	_	8	conj	_	AlignBegin=138524|AlignEnd=138753|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=138753|AlignEnd=138753
 
-# sent_id = PS_2022_15_onEnParleAPersonne__56
+# sent_id = ParisStories_2022_15_onEnParleAPersonne__56
 # sound_url = PS_2022_15_onEnParleAPersonne.mp3
 # speaker = L1
 # text = ouais.

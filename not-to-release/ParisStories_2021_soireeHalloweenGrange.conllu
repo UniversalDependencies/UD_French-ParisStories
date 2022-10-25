@@ -504,7 +504,7 @@
 13	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	d'	d'	ADP	_	_	16	mark	_	SpaceAfter=No
 15	être	être	AUX	_	VerbForm=Inf	16	aux:pass	_	Subject=Raising
-16	effrayés	effrayer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	ccomp	_	SpaceAfter=No
+16	effrayés	effrayer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	et	et	CCONJ	_	_	21	cc	_	_
 19	qu'	qu'	SCONJ	_	_	21	mark	_	SpaceAfter=No

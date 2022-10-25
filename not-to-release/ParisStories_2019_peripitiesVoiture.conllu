@@ -112,7 +112,7 @@
 6	trois	trois	NUM	_	Number=Plur	8	nummod	_	_
 7	mille	mille	NUM	_	Number=Plur	6	flat	_	_
 8	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
-9	à	à	ADP	_	_	10	mark	_	Subject=SubjRaising
+9	à	à	ADP	_	_	10	mark	_	_
 10	faire	faire	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
