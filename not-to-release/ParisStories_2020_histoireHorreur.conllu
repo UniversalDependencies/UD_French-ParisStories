@@ -43,11 +43,11 @@
 15	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	20	case	_	_
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	reparandum	_	_
 18-19	du	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	reparandum	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	reparandum	_	_
-20	tournage	tournage	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	de	de	ADP	_	_	15	dep	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tournage	tournage	NOUN	_	Gender=Masc|Number=Sing	18	reparandum	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_3
@@ -104,8 +104,8 @@
 1	et	et	CCONJ	_	_	17	cc	_	_
 2	en	en	ADP	_	_	17	discourse	_	ExtPos=ADV|Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	reparandum	_	SpaceAfter=No
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	_
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	17	dislocated	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
@@ -140,10 +140,10 @@
 36-37	aux	_	_	_	_	_	_	_	_
 36	à	à	ADP	_	_	34	iobj	_	Scrap=Yes
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	dep	_	Scrap=Yes
-38	dans	dans	ADP	_	_	34	dep	_	_
+38	dans	dans	ADP	_	_	41	reparandum	_	_
 39	dans	dans	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
-41	jardins	jardin	NOUN	_	Gender=Masc|Number=Plur	38	reparandum	_	SpaceAfter=No
+41	jardins	jardin	NOUN	_	Gender=Masc|Number=Plur	34	obl:mod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_7
@@ -260,22 +260,22 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 4	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
 5	il	il	PRON	_	_	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	reparandum	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	plein	plein	ADV	_	_	7	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
-12	de	de	ADP	_	_	10	dep	_	_
-13	des	un	DET	_	Number=Plur	12	reparandum	_	_
+12	de	de	ADP	_	_	13	reparandum	_	_
+13	des	un	DET	_	Number=Plur	15	reparandum	_	_
 14	de	de	ADP	_	_	15	case	_	_
-15	films	films	NOUN	_	Gender=Masc|Number=Plur	13	reparandum	_	_
+15	films	films	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	apparaissaient	apparaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	3	punct	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_14
 # text = non.
@@ -292,11 +292,11 @@
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	zom~	zom~	NOUN	_	_	4	obj	_	_
+7	zom~	zom~	NOUN	_	_	11	reparandum	_	_
 8	enfin	enfin	ADV	_	_	11	discourse	_	ExtPos=INTJ
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	possible	possible	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-11	zombie	zombie	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
+11	zombie	zombie	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_16
@@ -356,8 +356,8 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	_
-6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	reparandum	_	_
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	reparandum	_	_
+7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 8	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	en	en	ADP	_	_	8	xcomp	_	ExtPos=ADJ|Idiom=Yes
 10	train	train	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes
@@ -419,8 +419,8 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	scène	scène	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14	avec	avec	ADP	_	_	17	case	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	reparandum	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	reparandum	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	phares	phare	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -441,12 +441,12 @@
 # sent_id = ParisStories_2020_histoireHorreur_24
 # text = et euh et genre mon mes cousins étaient restés à l'arrière de la voiture.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
-1	et	et	CCONJ	_	_	9	cc	_	_
-2	euh	euh	INTJ	_	_	3	discourse	_	_
-3	et	et	CCONJ	_	_	1	reparandum	_	_
+1	et	et	CCONJ	_	_	3	reparandum	_	_
+2	euh	euh	INTJ	_	_	9	discourse	_	_
+3	et	et	CCONJ	_	_	9	cc	_	_
 4	genre	genre	NOUN	_	_	7	discourse	_	ExtPos=INTJ
-5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
-6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	reparandum	_	_
+5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	reparandum	_	_
+6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
 7	cousins	cousin	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
 9	restés	rester	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -557,14 +557,14 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
 4	illuminé	illuminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	juste	juste	ADV	_	_	4	advmod	_	_
-6	par	par	ADP	_	_	8	case	_	_
+6	par	par	ADP	_	_	13	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	fai~	fai~	NOUN	_	_	4	obl:arg	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	reparandum	_	_
+8	fai~	fai~	NOUN	_	_	13	reparandum	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	reparandum	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	reparandum	_	_
 11	ah	ah	INTJ	_	_	12	discourse	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	reparandum	_	_
-13	phares	phare	NOUN	_	Gender=Masc|Number=Plur	8	reparandum	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	phares	phare	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	_
 14	rouges	rouge	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No

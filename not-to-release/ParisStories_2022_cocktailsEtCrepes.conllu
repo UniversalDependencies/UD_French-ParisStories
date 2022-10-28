@@ -20,14 +20,14 @@
 2	à	à	ADP	_	_	3	case	_	AlignBegin=3203|AlignEnd=3203
 3	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	1	obl:arg	_	AlignBegin=3203|AlignEnd=3455|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=3455|AlignEnd=3455
-5	qui	qui	PRON	_	_	14	nsubj	_	AlignBegin=3455|AlignEnd=3707|SpaceAfter=No
+5	qui	qui	PRON	_	_	12	reparandum	_	AlignBegin=3455|AlignEnd=3707|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=3707|AlignEnd=3707
 7	bah	bah	INTJ	_	_	5	discourse	_	AlignBegin=3707|AlignEnd=3959|SpaceAfter=No
-8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=3959|AlignEnd=3959
+8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=3959|AlignEnd=3959
 9	en	en	ADP	_	_	10	case	_	AlignBegin=3959|AlignEnd=4211
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	AlignBegin=4211|AlignEnd=4463|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=4463|AlignEnd=4463
-12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	reparandum	_	AlignBegin=4463|AlignEnd=4714|SpaceAfter=No
+12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=4463|AlignEnd=4714|SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	AlignBegin=4714|AlignEnd=4966
 14	adoré	adorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	AlignBegin=4966|AlignEnd=5218
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	AlignBegin=5218|AlignEnd=5470
@@ -92,9 +92,9 @@
 # sound_url = PS_2022_13_CocktailsEtCrêpes.mp3
 # speaker = 0
 # text = et, et je crois, qu'avec le recul maintenant, euh, si j'aurais dû le faire, moi aussi, euh, je pense que j'aurais été incapable de monter.
-1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=14195|AlignEnd=14463|SpaceAfter=No
+1	et	et	CCONJ	_	_	3	reparandum	_	AlignBegin=14195|AlignEnd=14463|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=14463|AlignEnd=14463
-3	et	et	CCONJ	_	_	1	reparandum	_	AlignBegin=14463|AlignEnd=14730
+3	et	et	CCONJ	_	_	5	cc	_	AlignBegin=14463|AlignEnd=14730
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=14730|AlignEnd=14998
 5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14998|AlignEnd=15265|SpaceAfter=No
 6	,	,	PUNCT	_	_	28	punct	_	AlignBegin=15265|AlignEnd=15265
@@ -175,9 +175,9 @@
 # sound_url = PS_2022_13_CocktailsEtCrêpes.mp3
 # speaker = 0
 # text = et, et voilà.
-1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=28599|AlignEnd=28844|SpaceAfter=No
+1	et	et	CCONJ	_	_	3	reparandum	_	AlignBegin=28599|AlignEnd=28844|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=28844|AlignEnd=28844
-3	et	et	CCONJ	_	_	1	reparandum	_	AlignBegin=28844|AlignEnd=29088
+3	et	et	CCONJ	_	_	4	cc	_	AlignBegin=28844|AlignEnd=29088
 4	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=29088|AlignEnd=29333|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=29333|AlignEnd=29333
 
@@ -192,7 +192,7 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	AlignBegin=29823|AlignEnd=30067|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=30067|AlignEnd=30067
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=30067|AlignEnd=30312|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30312|AlignEnd=30557|SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	reparandum	_	AlignBegin=30312|AlignEnd=30557|SpaceAfter=No
 8	,	,	PUNCT	_	_	18	punct	_	AlignBegin=30557|AlignEnd=30557
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	AlignBegin=30557|AlignEnd=30802|SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	AlignBegin=30802|AlignEnd=31046
@@ -203,8 +203,8 @@
 15	,	,	PUNCT	_	_	18	punct	_	AlignBegin=31781|AlignEnd=31781
 16	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	18	det	_	AlignBegin=31781|AlignEnd=32025
 17	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	AlignBegin=32025|AlignEnd=32270
-18	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	7	reparandum	_	AlignBegin=32270|AlignEnd=32515|SpaceAfter=No
-19	.	.	PUNCT	_	_	7	punct	_	AlignBegin=32515|AlignEnd=32515
+18	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=32270|AlignEnd=32515|SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	AlignBegin=32515|AlignEnd=32515
 
 # sent_id = ParisStories_2022_13_CocktailsEtCrêpes__10
 # sound_url = PS_2022_13_CocktailsEtCrêpes.mp3
@@ -342,9 +342,9 @@
 27	d'	de	ADP	_	_	28	case	_	AlignBegin=53292|AlignEnd=53638|SpaceAfter=No
 28	orange	orange	NOUN	_	Number=Sing	26	nmod	_	AlignBegin=53638|AlignEnd=53985|Genedr=Masc
 29	avec	avec	ADP	_	_	34	case	_	AlignBegin=53985|AlignEnd=54332
-30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	AlignBegin=54332|AlignEnd=54679|SpaceAfter=No
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	reparandum	_	AlignBegin=54332|AlignEnd=54679|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=54679|AlignEnd=54679
-32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	reparandum	_	AlignBegin=54679|AlignEnd=55026
+32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	AlignBegin=54679|AlignEnd=55026
 33	autre	autre	ADJ	_	_	34	amod	_	AlignBegin=55026|AlignEnd=55372
 34	jus	jus	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	AlignBegin=55372|AlignEnd=55719|SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	AlignBegin=55719|AlignEnd=55719
@@ -554,7 +554,7 @@
 11	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	AlignBegin=84433|AlignEnd=84620|SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	AlignBegin=84620|AlignEnd=84620
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	AlignBegin=84620|AlignEnd=84808|SpaceAfter=No
-14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=84808|AlignEnd=84995
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	reparandum	_	AlignBegin=84808|AlignEnd=84995
 15	quand	quand	SCONJ	_	_	18	mark	_	AlignBegin=84995|AlignEnd=85182
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=85182|AlignEnd=85369|SpaceAfter=No
 17	y	y	PRON	_	_	18	iobj	_	AlignBegin=85369|AlignEnd=85556
@@ -562,7 +562,7 @@
 19	,	,	PUNCT	_	_	22	punct	_	AlignBegin=85743|AlignEnd=85743
 20	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	AlignBegin=85743|AlignEnd=85931|SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	AlignBegin=85931|AlignEnd=86118
-22	grâce	grâce	NOUN	_	_	14	reparandum	_	AlignBegin=86118|AlignEnd=86305
+22	grâce	grâce	NOUN	_	_	0	root	_	AlignBegin=86118|AlignEnd=86305
 23	à	à	ADP	_	_	24	case	_	AlignBegin=86305|AlignEnd=86305
 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl:arg	_	AlignBegin=86305|AlignEnd=86492|SpaceAfter=No
 25	,	,	PUNCT	_	_	29	punct	_	AlignBegin=86492|AlignEnd=86492
@@ -587,7 +587,7 @@
 44	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	46	det	_	AlignBegin=88966|AlignEnd=89129
 45	fameuses	fameux	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	AlignBegin=89129|AlignEnd=89293
 46	crêpes	crêpe	NOUN	_	Gender=Fem|Number=Plur	42	conj	_	AlignBegin=89293|AlignEnd=89456|SpaceAfter=No
-47	.	.	PUNCT	_	_	14	punct	_	AlignBegin=89456|AlignEnd=89456
+47	.	.	PUNCT	_	_	22	punct	_	AlignBegin=89456|AlignEnd=89456
 
 # sent_id = ParisStories_2022_13_CocktailsEtCrêpes__25
 # sound_url = PS_2022_13_CocktailsEtCrêpes.mp3
@@ -628,15 +628,15 @@
 # speaker = 0
 # text = c'était, euh, c'était un délice.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=94292|AlignEnd=94510|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=94510|AlignEnd=94728|SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	reparandum	_	AlignBegin=94510|AlignEnd=94728|SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	AlignBegin=94728|AlignEnd=94728
 4	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=94728|AlignEnd=94946|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=94946|AlignEnd=94946
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=94946|AlignEnd=95164|SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	AlignBegin=95164|AlignEnd=95382
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=95382|AlignEnd=95600
-9	délice	délice	NOUN	_	Gender=Masc|Number=Sing	2	reparandum	_	AlignBegin=95600|AlignEnd=95818|SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	AlignBegin=95818|AlignEnd=95818
+9	délice	délice	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=95600|AlignEnd=95818|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=95818|AlignEnd=95818
 
 # sent_id = ParisStories_2022_13_CocktailsEtCrêpes__28
 # sound_url = PS_2022_13_CocktailsEtCrêpes.mp3
@@ -651,18 +651,18 @@
 7	quand	quand	SCONJ	_	_	10	mark	_	AlignBegin=97197|AlignEnd=97370
 8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=97370|AlignEnd=97544|SpaceAfter=No
 9	y	y	PRON	_	_	10	iobj	_	AlignBegin=97544|AlignEnd=97717
-10	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	advcl	_	AlignBegin=97717|AlignEnd=97890|SpaceAfter=No
+10	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	reparandum	_	AlignBegin=97717|AlignEnd=97890|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	AlignBegin=97890|AlignEnd=97890
 12	à	à	ADP	_	_	15	case	_	AlignBegin=98120|AlignEnd=98120
 13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	AlignBegin=98120|AlignEnd=98368
 14	fameux	fameux	ADJ	_	_	15	amod	_	AlignBegin=98368|AlignEnd=98616
-15	cocktail	cocktail	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	AlignBegin=98616|AlignEnd=98864
+15	cocktail	cocktail	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	AlignBegin=98616|AlignEnd=98864
 16	qu'	que	PRON	_	PronType=Rel	20	obj	_	AlignBegin=98864|AlignEnd=99112|SpaceAfter=No
 17	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=99112|AlignEnd=99361
 18	m'	le	PRON	_	_	20	iobj	_	AlignBegin=99361|AlignEnd=99609|SpaceAfter=No
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	AlignBegin=99609|AlignEnd=99857
 20	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	AlignBegin=99857|AlignEnd=100105|SpaceAfter=No
-21	,	,	PUNCT	_	_	10	punct	_	AlignBegin=100105|AlignEnd=100105
+21	,	,	PUNCT	_	_	15	punct	_	AlignBegin=100105|AlignEnd=100105
 22	bah	bah	INTJ	_	_	25	discourse	_	AlignBegin=100105|AlignEnd=100353|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=100353|AlignEnd=100353
 24	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=100353|AlignEnd=100487

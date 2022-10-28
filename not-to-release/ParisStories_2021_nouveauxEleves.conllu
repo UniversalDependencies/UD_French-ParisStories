@@ -64,14 +64,14 @@
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	réels	réels	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 15	nouveaux	nouveau	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	23	punct	_	_
-17	à	à	ADP	_	_	23	mark	_	_
+16	,	,	PUNCT	_	_	31	punct	_	_
+17	à	à	ADP	_	_	31	case	_	_
 18	vraiment	vraiment	ADV	_	_	23	advmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	18	punct	_	_
 22	ne	ne	ADV	_	_	23	advmod	_	_
-23	connaître	connaître	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+23	connaître	connaître	VERB	_	VerbForm=Inf	31	reparandum	_	SpaceAfter=No|Subject=SubjRaising
 24	,	,	PUNCT	_	_	31	punct	_	_
 25	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
@@ -79,7 +79,7 @@
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	professeurs	professeur	NOUN	_	Gender=Masc|Number=Plur	23	reparandum	_	SpaceAfter=No
+31	professeurs	professeur	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	ni	ni	CCONJ	_	_	34	cc	_	_
 34	élèves	élèves	NOUN	_	Number=Plur	31	conj	_	SpaceAfter=No
@@ -249,11 +249,11 @@
 21	pas	pas	ADV	_	_	20	advmod	_	_
 22	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	tout	tout	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
-24	de	de	ADP	_	_	20	iobj	_	SpaceAfter=No
+24	de	de	ADP	_	_	28	reparandum	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	région	région	NOUN	_	Gender=Fem|Number=Sing	24	reparandum	_	_
+28	région	région	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	_
 29	parisienne	parisien	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	34	punct	_	_
 31	qu'	qu'	SCONJ	_	_	34	mark	_	SpaceAfter=No
@@ -289,22 +289,22 @@
 61	Rhônes	Rhônes	PROPN	_	_	56	nmod	_	_
 62	-Alpes	Alpes	PROPN	_	_	61	flat:name	_	_
 63	euh	euh	INTJ	_	_	62	discourse	_	_
-64	quelques	quelque	DET	_	Number=Plur	48	obl:mod	_	Scrap=Yes
+64	quelques	quelque	DET	_	Number=Plur	67	reparandum	_	_
 65	euh	euh	INTJ	_	_	64	discourse	_	SpaceAfter=No
 66	,	,	PUNCT	_	_	67	punct	_	_
-67	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	64	reparandum	_	ExtPos=ADP|Idiom=Yes
+67	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	79	reparandum	_	ExtPos=ADP|Idiom=Yes
 68	y	y	PRON	_	Person=3|PronType=Prs	67	fixed	_	InIdiom=Yes
 69	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	fixed	_	InIdiom=Yes|SpaceAfter=No
 70	,	,	PUNCT	_	_	79	punct	_	_
 71	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	79	case	_	ExtPos=ADP|Idiom=Yes
 72	y	y	PRON	_	Person=3|PronType=Prs	71	fixed	_	InIdiom=Yes
-73	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	fixed	_	InIdiom=Yes
+73	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	fixed	_	InIdiom=Yes|Scrap=Yes
 74	même	même	ADV	_	_	75	advmod	_	_
 75	pas	pas	ADV	_	_	79	advmod	_	_
 76	euh	euh	INTJ	_	_	79	discourse	_	SpaceAfter=No
 77	,	,	PUNCT	_	_	76	punct	_	_
 78	quelques	quelque	DET	_	Number=Plur	79	det	_	_
-79	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	67	reparandum	_	SpaceAfter=No
+79	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	48	obl:mod	_	SpaceAfter=No
 80	.	.	PUNCT	_	_	6	punct	_	_
 
 # status = done
@@ -378,12 +378,12 @@
 19	sert	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	Reported=Yes
 20	à	à	ADP	_	_	21	case	_	_
 21	rien	rien	PRON	_	Number=Sing|PronType=Neg	19	obl:arg	_	_
-22	que	que	SCONJ	_	_	21	dep	_	SpaceAfter=No
+22	que	que	SCONJ	_	_	27	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	que	que	SCONJ	_	_	27	mark	_	_
 25	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 26	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	27	iobj	_	_
-27	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	reparandum	_	_
+27	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	dep	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	nom	nom	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -431,18 +431,18 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	pas	pas	ADV	_	_	11	advmod	_	_
-11	possible	possible	ADJ	_	Number=Sing	6	reparandum	_	SpaceAfter=No
+11	possible	possible	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 14	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 15	pas	pas	ADV	_	_	14	advmod	_	_
 16	connaître	connaître	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No|Subject=SubjRaising
-17	.	.	PUNCT	_	_	6	punct	_	_
+17	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_nouveauxEleves_19
 # text = donc je lui dis oui peut-être, mais, bon, euh, c'est pas grave, euh, c'est juste comme ça, juste pour savoir.
@@ -536,9 +536,9 @@
 2	à	à	ADP	_	_	4	case	_	wordform=au
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	début	début	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	reparandum	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 9	pas	pas	ADV	_	_	10	advmod	_	_
 10	trop	trop	ADV	_	_	11	advmod	_	_
@@ -650,9 +650,9 @@
 12	,	,	PUNCT	_	_	28	punct	_	_
 13	si	si	SCONJ	_	_	19	mark	_	_
 14	vraiment	vraiment	ADV	_	_	19	advmod	_	_
-15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
+15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	reparandum	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	reparandum	_	_
+17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 18	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	19	iobj	_	_
 19	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_

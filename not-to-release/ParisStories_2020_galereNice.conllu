@@ -147,9 +147,9 @@
 # sent_id = ParisStories_2020_galereNice_12
 # text = on, on fait notre petite vie à Nice tout tranquillement.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	SpaceAfter=No
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	reparandum	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Part	0	root	_	_
 5	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	7	det	_	_
 6	petite	petit	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
@@ -360,11 +360,11 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aller	aller	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
-4	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
+4	prendre	prendre	VERB	_	VerbForm=Inf	8	reparandum	_	Subject=SubjRaising
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	4	obj	_	Scrap=Yes
 7	euh	euh	INTJ	_	_	8	discourse	_	_
-8	prendre	prendre	VERB	_	VerbForm=Inf	4	reparandum	_	Subject=SubjRaising
+8	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 9	à	à	ADP	_	_	10	mark	_	_
 10	manger	manger	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	13	punct	_	_
@@ -423,8 +423,8 @@
 # sent_id = ParisStories_2020_galereNice_29
 # text = on on achète notre petit goûter, tout ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
-2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	reparandum	_	_
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	reparandum	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	achète	acheter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	6	det	_	_
 5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_

@@ -14,9 +14,9 @@
 10	à	à	ADP	_	_	13	advmod	_	ExtPos=ADV|Idiom=Yes
 11	peu	peu	ADV	_	_	10	fixed	_	InIdiom=Yes
 12	près	près	ADV	_	_	10	fixed	_	InIdiom=Yes
-13	huit	huit	NUM	_	Number=Plur	16	nummod	_	SpaceAfter=No
+13	huit	huit	NUM	_	Number=Plur	15	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	dix	dix	NUM	_	Number=Plur	13	reparandum	_	_
+15	dix	dix	NUM	_	Number=Plur	16	nummod	_	_
 16	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -101,7 +101,7 @@
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	soit	être	CCONJ	_	_	6	cc	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	horaires	horaire	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	horaires	horaire	NOUN	_	Gender=Masc|Number=Plur	15	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -111,7 +111,7 @@
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	deux	deux	NUM	_	Number=Plur	15	nummod	_	_
-15	heures	heure	NOUN	_	Gender=Fem|Number=Plur	6	reparandum	_	SpaceAfter=No
+15	heures	heure	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	quatre	quatre	NUM	_	Number=Plur	18	nummod	_	_
 18	heures	heure	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	_
@@ -239,17 +239,17 @@
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	bah	bah	INTJ	_	_	6	discourse	_	_
-6	non	non	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+6	non	non	ADV	_	_	8	reparandum	_	ExtPos=INTJ|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	pas	pas	ADV	_	_	6	reparandum	_	_
+8	pas	pas	ADV	_	_	13	reparandum	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	advmod	_	ExtPos=ADV|Idiom=Yes
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	InIdiom=Yes
 11	tout	tout	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	que	que	ADV	_	_	8	reparandum	_	ExtPos=ADV|Idiom=Yes
+13	que	que	ADV	_	_	0	root	_	ExtPos=ADV|Idiom=Yes
 14	dalle	dalle	NOUN	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
-15	.	.	PUNCT	_	_	6	punct	_	_
+15	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_14
 # text = donc le lendemain matin, donc on était prêt.
@@ -345,7 +345,7 @@
 16	s'	se	PRON	_	Person=3|PronType=Prs	18	expl	_	SpaceAfter=No
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	échoué	échouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
-19	sur	sur	ADP	_	_	18	iobj	_	SpaceAfter=No
+19	sur	sur	ADP	_	_	28	reparandum	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	28	punct	_	_
 21	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
@@ -354,7 +354,7 @@
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	rivage	rivage	NOUN	_	Gender=Masc|Number=Sing	19	reparandum	_	SpaceAfter=No
+28	rivage	rivage	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_19
@@ -591,11 +591,11 @@
 # sent_id = ParisStories_2020_descenteCanoe_32
 # text = ensuite, euh après, il s'est passé quoi ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
-1	ensuite	ensuite	ADV	_	_	9	advmod	_	SpaceAfter=No
+1	ensuite	ensuite	ADV	_	_	4	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	euh	euh	INTJ	_	_	4	discourse	_	_
-4	après	après	ADV	_	_	1	reparandum	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	1	punct	_	_
+4	après	après	ADV	_	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
@@ -608,12 +608,12 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	reparandum	_	_
+8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	que	que	SCONJ	_	_	13	mark	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
@@ -621,7 +621,7 @@
 13	début	début	NOUN	_	Gender=Masc|Number=Sing	8	ccomp	_	_
 14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	3	punct	_	_
+16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_34
 # text = et, euh, en fait, tu vois, il y avait plein de rapides.
@@ -704,12 +704,12 @@
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
 11	éjecter	éjecter	VERB	_	VerbForm=Inf	0	root	_	Subject=SubjRaising
 12-13	du	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	11	dep	_	_
+12	de	de	ADP	_	_	16	reparandum	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	dep	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	canoë	canoë	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	SpaceAfter=No
+16	canoë	canoë	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_38
@@ -718,7 +718,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	père	père	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes|Scrap=Yes|SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	12	reparandum	_	ExtPos=VERB|Idiom=Yes|Scrap=Yes|SpaceAfter=No
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	fixed	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -726,11 +726,11 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
 11	vraiment	vraiment	ADV	_	_	12	advmod	_	_
-12	loin	loin	ADV	_	_	4	reparandum	_	_
+12	loin	loin	ADV	_	_	0	root	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	barque	barque	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
+16	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2020_descenteCanoe_39
 # text = et à chaque fois, pour essayer de rejoindre ma mère, il devait, euh, entre guillemets, euh, marcher sur les cailloux,
@@ -840,9 +840,9 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	échangé	échanger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	de	de	ADP	_	_	3	iobj	_	_
+4	de	de	ADP	_	_	6	reparandum	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	binôme	binôme	NOUN	_	Gender=Masc|Number=Sing	4	reparandum	_	SpaceAfter=No
+6	binôme	binôme	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 9	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	11	obj	_	_

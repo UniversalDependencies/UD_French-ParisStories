@@ -199,24 +199,24 @@
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
-5	super	super	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	super	super	ADJ	_	Gender=Masc|Number=Sing	9	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-9	génial	génial	ADJ	_	Gender=Masc|Number=Sing	4	reparandum	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	_
+9	génial	génial	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_17
 # text = j'ai j'ai redécouvert mon cheval.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
-2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	redécouvert	redécouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	reparandum	_	_
+5	redécouvert	redécouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	7	det	_	_
 7	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	2	punct	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_18
 # text = donc du coup, on s'est qualifié assez facilement pour ces championnats.
@@ -375,9 +375,9 @@
 1	parce	parce	ADV	_	_	11	mark	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	déjà	déjà	ADV	_	_	11	discourse	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	SpaceAfter=No
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	reparandum	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	reparandum	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	musiques	musique	NOUN	_	Gender=Fem|Number=Plur	11	dislocated	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
@@ -459,12 +459,12 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	droit	droit	NOUN	_	Gender=Masc|Number=Sing	4	obj:lvc	_	_
 8	d'	de	ADP	_	_	9	mark	_	SpaceAfter=No
-9	avoir	avoir	VERB	_	VerbForm=Inf	7	acl	_	SpaceAfter=No|Subject=SubjRaising
+9	avoir	avoir	VERB	_	VerbForm=Inf	14	reparandum	_	SpaceAfter=No|Subject=SubjRaising
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	de	de	ADP	_	_	14	mark	_	_
-14	prendre	prendre	VERB	_	VerbForm=Inf	9	reparandum	_	Subject=SubjRaising
+14	prendre	prendre	VERB	_	VerbForm=Inf	7	acl	_	Subject=SubjRaising
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	musique	musique	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17	et	et	CCONJ	_	_	20	cc	_	_
@@ -481,9 +481,9 @@
 28	ta	son	DET	_	Gender=Fem|Number=Sing	29	det	_	_
 29	truc	truc	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	34	punct	_	_
-31	ta	son	DET	_	Gender=Fem|Number=Sing	34	det	_	SpaceAfter=No
+31	ta	son	DET	_	Gender=Fem|Number=Sing	33	reparandum	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	ta	son	DET	_	Gender=Fem|Number=Sing	31	reparandum	_	_
+33	ta	son	DET	_	Gender=Fem|Number=Sing	34	det	_	_
 34	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	29	appos	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	nsubj	_	SpaceAfter=No
@@ -621,33 +621,33 @@
 # text = donc moi en fait, moi je crois ce que j'avais fait, j'avait acheté un, il y avait un genre de, c'est un chapeau en mousse de pirate qu'on lui a collé sur la tête.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	donc	donc	ADV	_	_	8	advmod	_	_
-2	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
+2	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	reparandum	_	_
 3	en	en	ADP	_	_	4	case	_	_
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	2	reparandum	_	_
+6	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ce	ce	PRON	_	_	8	obj	_	_
 10	que	que	PRON	_	_	13	obj	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
 12	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	aux:tense	_	_
-13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
 16	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux:tense	_	_
-17	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	reparandum	_	_
+17	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	reparandum	_	_
 18	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	expl:subj	_	_
 21	y	y	PRON	_	Person=3|PronType=Prs	22	expl	_	_
-22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	reparandum	_	_
+22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	reparandum	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	genre	genre	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	de	de	ADP	_	_	24	dep	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	SpaceAfter=No
-28	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	reparandum	_	_
+28	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	28	xcomp	_	_
 31	en	en	ADP	_	_	32	case	_	_
@@ -671,15 +671,15 @@
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
 4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	plein	plein	ADV	_	_	4	obj	_	SpaceAfter=No
+5	plein	plein	ADV	_	_	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	plein	plein	ADV	_	_	5	reparandum	_	SpaceAfter=No
+7	plein	plein	ADV	_	_	9	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	plein	plein	ADV	_	_	7	reparandum	_	SpaceAfter=No
+9	plein	plein	ADV	_	_	11	reparandum	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	plein	plein	ADV	_	_	9	reparandum	_	SpaceAfter=No
+11	plein	plein	ADV	_	_	13	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	plein	plein	ADV	_	_	11	reparandum	_	_
+13	plein	plein	ADV	_	_	4	obj	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	petites	petit	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 16	nattes	natte	NOUN	_	Gender=Fem|Number=Plur	13	obl:arg	_	_
@@ -728,19 +728,19 @@
 # sent_id = ParisStories_2019_concoursEquitation_42
 # text = on l'avait, euh, re~, recouvert de tissu doré.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
-3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	7	punct	_	_
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
+2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	re~	re~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	re~	re~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	reparandum	_	_
+9	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
 12	doré	doré	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	7	punct	_	_
+13	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_43
 # text = on avait collé des petites perles pour que ça fasse un peu, euh, coffre précieux.
@@ -790,8 +790,8 @@
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	immense	immense	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-7	ju~	ju~	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-8	jupe	jupe	NOUN	_	Gender=Fem|Number=Sing	7	reparandum	_	_
+7	ju~	ju~	NOUN	_	Gender=Fem|Number=Sing	8	reparandum	_	_
+8	jupe	jupe	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 9	sur	sur	ADP	_	_	10	case	_	_
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
@@ -813,41 +813,41 @@
 5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
 7	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	6	obj	_	_
-8	de	de	ADP	_	_	10	case	_	_
+8	de	de	ADP	_	_	26	case	_	_
 9	petits	petit	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
-10	ornements	ornement	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	_
+10	ornements	ornement	NOUN	_	Gender=Masc|Number=Plur	17	reparandum	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
-17	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	10	reparandum	_	SpaceAfter=No
+17	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	20	reparandum	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
-20	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	17	reparandum	_	_
+20	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	26	reparandum	_	_
 21	qui	qui	PRON	_	_	22	nsubj	_	_
 22	brillent	briller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
 25	petits	petit	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
-26	brillants	brillant	ADJ	_	Gender=Masc|Number=Plur	20	reparandum	_	SpaceAfter=No
+26	brillants	brillant	ADJ	_	Gender=Masc|Number=Plur	7	obl:arg	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_47
 # text = j'étais tout en, tout en noir par contre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
+1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	cop	_	_
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	4	advcl	_	_
-4	en	en	ADP	_	_	0	root	_	SpaceAfter=No
+4	en	en	ADP	_	_	8	reparandum	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	tout	tout	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 7	en	en	ADP	_	_	8	case	_	_
-8	noir	noir	NOUN	_	Gender=Masc|Number=Sing	4	reparandum	_	_
+8	noir	noir	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	par	par	ADP	_	_	10	case	_	_
-10	contre	contre	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	_
+10	contre	contre	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_48
 # text = j'avais acheté un costume de pirate pour le haut.
@@ -887,17 +887,17 @@
 # text = et le, bah, le petit, petit, euh, blazer coupé pirate.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	et	et	CCONJ	_	_	13	cc	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	bah	bah	INTJ	_	_	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	reparandum	_	_
-7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
+9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	7	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	blazer	blazer	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	coupé	coupé	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	pirate	pirate	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No

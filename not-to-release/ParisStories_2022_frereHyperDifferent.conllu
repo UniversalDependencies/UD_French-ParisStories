@@ -84,12 +84,12 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=10291|AlignEnd=10474
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=10474|AlignEnd=10656
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=10656|AlignEnd=10839
-8	quand	quand	SCONJ	_	_	13	mark	_	AlignBegin=10839|AlignEnd=11022|SpaceAfter=No
-9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=11022|AlignEnd=11022
+8	quand	quand	SCONJ	_	_	23	case	_	AlignBegin=10839|AlignEnd=11022|SpaceAfter=No
+9	,	,	PUNCT	_	_	23	punct	_	AlignBegin=11022|AlignEnd=11022
 10	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	dislocated	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11204|AlignEnd=11204
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
-13	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	advcl	_	AlignBegin=11387|AlignEnd=11570|SpaceAfter=No
+13	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	23	reparandum	_	AlignBegin=11387|AlignEnd=11570|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	AlignBegin=11570|AlignEnd=11570
 15	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=11570|AlignEnd=11752|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=11752|AlignEnd=11752
@@ -99,7 +99,7 @@
 20	demi	demi	ADJ	_	Gender=Masc|Number=Sing	18	conj	_	AlignBegin=12300|AlignEnd=12483|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	AlignBegin=12483|AlignEnd=12483
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=12483|AlignEnd=12665
-23	truc	truc	NOUN	_	Gender=Masc|Number=Sing	13	reparandum	_	AlignBegin=12665|AlignEnd=12848
+23	truc	truc	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	AlignBegin=12665|AlignEnd=12848
 24	comme	comme	ADP	_	_	25	case	_	AlignBegin=12848|AlignEnd=13030
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nmod	_	AlignBegin=13030|AlignEnd=13213|SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	AlignBegin=13213|AlignEnd=13213
@@ -342,9 +342,9 @@
 4	si	si	SCONJ	_	_	12	mark	_	AlignBegin=47954|AlignEnd=48126
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=48126|AlignEnd=48299|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=48299|AlignEnd=48472
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=48472|AlignEnd=48645|SpaceAfter=No
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	reparandum	_	AlignBegin=48472|AlignEnd=48645|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=48645|AlignEnd=48645
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	AlignBegin=48645|AlignEnd=48818
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=48645|AlignEnd=48818
 10	très	très	ADV	_	_	11	advmod	_	AlignBegin=48818|AlignEnd=48991
 11	bon	bon	ADJ	_	_	12	amod	_	AlignBegin=48991|AlignEnd=49164
 12	début	début	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	AlignBegin=49164|AlignEnd=49337
@@ -455,24 +455,24 @@
 12	tous	tout	ADJ	_	_	14	amod	_	AlignBegin=62735|AlignEnd=62956
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=62956|AlignEnd=63178
 14	deux	deux	NUM	_	_	11	obl:mod	_	AlignBegin=63178|AlignEnd=63399
-15	avec	avec	ADP	_	_	19	case	_	AlignBegin=63399|AlignEnd=63621|SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	AlignBegin=63621|AlignEnd=63621
+15	avec	avec	ADP	_	_	21	case	_	AlignBegin=63399|AlignEnd=63621|SpaceAfter=No
+16	,	,	PUNCT	_	_	21	punct	_	AlignBegin=63621|AlignEnd=63621
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=63621|AlignEnd=63842|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=63842|AlignEnd=63842
-19	moi	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	obl:mod	_	AlignBegin=63842|AlignEnd=64017
+19	moi	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	reparandum	_	AlignBegin=63842|AlignEnd=64017
 20	avec	avec	ADP	_	_	21	case	_	AlignBegin=64017|AlignEnd=64192
-21	lui	lui	PRON	_	_	19	reparandum	_	AlignBegin=64192|AlignEnd=64367
+21	lui	lui	PRON	_	_	11	obl:mod	_	AlignBegin=64192|AlignEnd=64367
 22	dans	dans	ADP	_	_	24	case	_	AlignBegin=64367|AlignEnd=64542
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	AlignBegin=64542|AlignEnd=64717
 24	bras	bras	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	AlignBegin=64717|AlignEnd=64892|SpaceAfter=No
-25	,	,	PUNCT	_	_	27	punct	_	AlignBegin=64892|AlignEnd=64892
+25	,	,	PUNCT	_	_	32	punct	_	AlignBegin=64892|AlignEnd=64892
 26	comme	comme	ADP	_	_	27	case	_	AlignBegin=64892|AlignEnd=65067
-27	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obl:mod	_	AlignBegin=65067|AlignEnd=65242|SpaceAfter=No
+27	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	reparandum	_	AlignBegin=65067|AlignEnd=65242|SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	AlignBegin=65242|AlignEnd=65242
 29	comme	comme	ADP	_	_	32	case	_	AlignBegin=65242|AlignEnd=65417
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	AlignBegin=65417|AlignEnd=65592
 31	petit	petit	ADJ	_	_	32	amod	_	AlignBegin=65592|AlignEnd=65767
-32	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	27	reparandum	_	AlignBegin=65767|AlignEnd=65942|SpaceAfter=No
+32	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	AlignBegin=65767|AlignEnd=65942|SpaceAfter=No
 33	.	.	PUNCT	_	_	2	punct	_	AlignBegin=65942|AlignEnd=65942
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__24
@@ -530,15 +530,15 @@
 # speaker = L2
 # text = ça fait, ça, ça change, hein ?
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=73424|AlignEnd=73639
-2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73639|AlignEnd=73854|SpaceAfter=No
+2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	AlignBegin=73639|AlignEnd=73854|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	AlignBegin=73854|AlignEnd=73854
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	AlignBegin=73854|AlignEnd=74069|SpaceAfter=No
+4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	reparandum	_	AlignBegin=73854|AlignEnd=74069|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=74069|AlignEnd=74069
-6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	reparandum	_	AlignBegin=74069|AlignEnd=74283
-7	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	AlignBegin=74283|AlignEnd=74498|SpaceAfter=No
+6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	AlignBegin=74069|AlignEnd=74283
+7	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74283|AlignEnd=74498|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=74498|AlignEnd=74498
 9	hein	hein	INTJ	_	_	7	discourse	_	AlignBegin=74498|AlignEnd=74713
-10	?	?	PUNCT	_	_	2	punct	_	AlignBegin=74713|AlignEnd=74713
+10	?	?	PUNCT	_	_	7	punct	_	AlignBegin=74713|AlignEnd=74713
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__29
 # sound_url = PS_2022_10_frèreHyperDifférent.mp3
@@ -553,11 +553,11 @@
 # text = c'est un, un, un sacré bonhomme.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=77571|AlignEnd=77830|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=77830|AlignEnd=78088
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=78088|AlignEnd=78347|SpaceAfter=No
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	AlignBegin=78088|AlignEnd=78347|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=78347|AlignEnd=78347
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	reparandum	_	AlignBegin=78347|AlignEnd=78606|SpaceAfter=No
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	AlignBegin=78347|AlignEnd=78606|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=78606|AlignEnd=78606
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	AlignBegin=78606|AlignEnd=78865
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=78606|AlignEnd=78865
 8	sacré	sacré	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	AlignBegin=78865|AlignEnd=79123
 9	bonhomme	bonhomme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=79123|AlignEnd=79382|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=79382|AlignEnd=79382
@@ -578,11 +578,11 @@
 10	-là	là	ADV	_	_	9	advmod	_	AlignBegin=82373|AlignEnd=82732|SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	AlignBegin=82732|AlignEnd=82732
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	AlignBegin=82732|AlignEnd=83090
-13	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=83090|AlignEnd=83449
+13	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	reparandum	_	AlignBegin=83090|AlignEnd=83449
 14	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=83449|AlignEnd=83808|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=83808|AlignEnd=83808
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	AlignBegin=83808|AlignEnd=84016
-17	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	reparandum	_	AlignBegin=84016|AlignEnd=84223
+17	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=84016|AlignEnd=84223
 18	dans	dans	ADP	_	_	20	case	_	AlignBegin=84223|AlignEnd=84431
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	AlignBegin=84431|AlignEnd=84639
 20	Bouches	Bouches	PROPN	_	_	17	obl:mod	_	AlignBegin=84639|AlignEnd=84846
@@ -595,7 +595,7 @@
 25	de	de	ADP	_	_	27	case	_	AlignBegin=85262|AlignEnd=85469|wordform=du
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	coup	coup	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	AlignBegin=85469|AlignEnd=85677|SpaceAfter=No
-28	.	.	PUNCT	_	_	13	punct	_	AlignBegin=85677|AlignEnd=85677
+28	.	.	PUNCT	_	_	17	punct	_	AlignBegin=85677|AlignEnd=85677
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__32
 # sound_url = PS_2022_10_frèreHyperDifférent.mp3
@@ -608,10 +608,10 @@
 5	bah	bah	INTJ	_	_	14	discourse	_	AlignBegin=86231|AlignEnd=86507|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=86507|AlignEnd=86507
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	AlignBegin=86507|AlignEnd=86784|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=86784|AlignEnd=86784
-9	après	après	ADV	_	_	14	advmod	_	AlignBegin=86784|AlignEnd=87061|SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=86784|AlignEnd=86784
+9	après	après	ADV	_	_	11	reparandum	_	AlignBegin=86784|AlignEnd=87061|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=87061|AlignEnd=87061
-11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	reparandum	_	AlignBegin=87061|AlignEnd=87338
+11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	AlignBegin=87061|AlignEnd=87338
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	AlignBegin=87338|AlignEnd=87615
 13	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	AlignBegin=87615|AlignEnd=87891
 14	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=87891|AlignEnd=88168
@@ -634,9 +634,9 @@
 7	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=90148|AlignEnd=90346
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=90346|AlignEnd=90545
 9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	AlignBegin=90545|AlignEnd=90743
-10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=90743|AlignEnd=90942|SpaceAfter=No
+10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	12	reparandum	_	AlignBegin=90743|AlignEnd=90942|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=90942|AlignEnd=90942
-12	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	10	reparandum	_	AlignBegin=90942|AlignEnd=91141
+12	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=90942|AlignEnd=91141
 13	vies	vie	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	AlignBegin=91141|AlignEnd=91339
 14	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	obl:mod	_	AlignBegin=91339|AlignEnd=91538
 15	de	de	ADP	_	_	17	case	_	AlignBegin=91538|AlignEnd=91736
@@ -681,11 +681,11 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	AlignBegin=97036|AlignEnd=97204
 15	assez	assez	ADV	_	_	16	advmod	_	AlignBegin=97204|AlignEnd=97372
 16	similaire	similaire	ADJ	_	_	12	acl:relcl	_	AlignBegin=97372|AlignEnd=97540|SpaceAfter=No
-17	,	,	PUNCT	_	_	31	punct	_	AlignBegin=97540|AlignEnd=97540
+17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=97540|AlignEnd=97540
 18	parce	parce	ADV	_	_	31	mark	_	AlignBegin=97540|AlignEnd=97666|ExtPos=SCONJ|Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	AlignBegin=97666|AlignEnd=97792|InIdiom=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=97792|AlignEnd=97792
-21	parce	parce	ADV	_	_	18	reparandum	_	AlignBegin=97792|AlignEnd=97918|ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	_	10	dep	_	AlignBegin=97792|AlignEnd=97918|ExtPos=SCONJ|Idiom=Yes
 22	que	que	SCONJ	_	_	21	fixed	_	AlignBegin=97918|AlignEnd=98044|InIdiom=Yes
 23	bon	bon	INTJ	_	_	31	discourse	_	AlignBegin=98044|AlignEnd=98170|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=98170|AlignEnd=98170
@@ -695,7 +695,7 @@
 28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:tense	_	AlignBegin=98423|AlignEnd=98549
 29	quand	quand	SCONJ	_	_	31	dep	_	AlignBegin=98549|AlignEnd=98675
 30	même	même	ADV	_	_	29	dep	_	AlignBegin=98675|AlignEnd=98801
-31	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	AlignBegin=98801|AlignEnd=98927
+31	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	reparandum	_	AlignBegin=98801|AlignEnd=98927
 32	ensemble	ensemble	ADV	_	_	31	advmod	_	AlignBegin=98927|AlignEnd=99053|SpaceAfter=No
 33	,	,	PUNCT	_	_	38	punct	_	AlignBegin=99053|AlignEnd=99053
 34	même	même	ADV	_	_	38	advmod	_	AlignBegin=99053|AlignEnd=99179
@@ -718,19 +718,19 @@
 3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=101377|AlignEnd=101377
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	AlignBegin=101377|AlignEnd=101590
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=101590|AlignEnd=101803
-6	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=101803|AlignEnd=102017
+6	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	AlignBegin=101803|AlignEnd=102017
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=102017|AlignEnd=102230
 8	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	6	iobj	_	AlignBegin=102230|AlignEnd=102443|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=102443|AlignEnd=102443
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	AlignBegin=102443|AlignEnd=102704
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	AlignBegin=102704|AlignEnd=102964
 12	rapidement	rapidement	ADV	_	_	13	advmod	_	AlignBegin=102964|AlignEnd=103225
-13	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	reparandum	_	AlignBegin=103225|AlignEnd=103486
+13	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=103225|AlignEnd=103486
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	AlignBegin=103486|AlignEnd=103746
 15	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	AlignBegin=103746|AlignEnd=104007
 16	hyper	hyper	ADV	_	_	17	advmod	_	AlignBegin=104007|AlignEnd=104267
 17	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	AlignBegin=104267|AlignEnd=104528|SpaceAfter=No
-18	.	.	PUNCT	_	_	6	punct	_	AlignBegin=104528|AlignEnd=104528
+18	.	.	PUNCT	_	_	13	punct	_	AlignBegin=104528|AlignEnd=104528
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__37
 # sound_url = PS_2022_10_frèreHyperDifférent.mp3
@@ -818,21 +818,21 @@
 5	à	à	ADP	_	_	7	case	_	AlignBegin=114468|AlignEnd=114468
 6	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=114468|AlignEnd=114718
 7	personnalités	personnalité	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	AlignBegin=114718|AlignEnd=114967
-8	que	que	SCONJ	_	_	15	mark	_	AlignBegin=114967|AlignEnd=115217|SpaceAfter=No
-9	,	,	PUNCT	_	_	15	punct	_	AlignBegin=115217|AlignEnd=115217
+8	que	que	SCONJ	_	_	22	mark	_	AlignBegin=114967|AlignEnd=115217|SpaceAfter=No
+9	,	,	PUNCT	_	_	22	punct	_	AlignBegin=115217|AlignEnd=115217
 10	lui	lui	PRON	_	_	15	dislocated	_	AlignBegin=115217|AlignEnd=115534|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=115534|AlignEnd=115534
 12	bah	bah	INTJ	_	_	15	discourse	_	AlignBegin=115534|AlignEnd=115851
 13	maintenant	maintenant	ADV	_	_	15	advmod	_	AlignBegin=115851|AlignEnd=116168
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=116168|AlignEnd=116485
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	AlignBegin=116485|AlignEnd=116802
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	reparandum	_	AlignBegin=116485|AlignEnd=116802
 16	plus	plus	ADV	_	_	15	advmod	_	AlignBegin=116802|AlignEnd=117119
 17	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=117119|AlignEnd=117436|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=117436|AlignEnd=117436
 19	bah	bah	INTJ	_	_	22	discourse	_	AlignBegin=117436|AlignEnd=117758|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=117758|AlignEnd=117758
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	AlignBegin=117758|AlignEnd=118080
-22	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	reparandum	_	AlignBegin=118080|AlignEnd=118401
+22	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	AlignBegin=118080|AlignEnd=118401
 23	plus	plus	ADV	_	_	22	advmod	_	AlignBegin=118401|AlignEnd=118723
 24	bouger	bouger	VERB	_	VerbForm=Inf	22	xcomp	_	AlignBegin=118723|AlignEnd=119045|Subject=SubjRaising
 25	partout	partout	ADV	_	_	24	advmod	_	AlignBegin=119045|AlignEnd=119367
@@ -844,10 +844,10 @@
 # sound_url = PS_2022_10_frèreHyperDifférent.mp3
 # speaker = L1
 # text = alors que, que moi, je suis plus euh, calme.
-1	alors	alors	ADV	_	_	0	root	_	AlignBegin=120010|AlignEnd=120775
+1	alors	alors	ADV	_	_	4	reparandum	_	AlignBegin=120010|AlignEnd=120775
 2	que	que	SCONJ	_	_	1	dep	_	AlignBegin=120775|AlignEnd=121539|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=121539|AlignEnd=121539
-4	que	que	SCONJ	_	_	1	reparandum	_	AlignBegin=121539|AlignEnd=121748
+4	que	que	SCONJ	_	_	0	root	_	AlignBegin=121539|AlignEnd=121748
 5	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	12	dislocated	_	AlignBegin=121748|AlignEnd=121957|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=121957|AlignEnd=121957
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=121957|AlignEnd=122166
@@ -856,7 +856,7 @@
 10	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=122585|AlignEnd=122794|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=122794|AlignEnd=122794
 12	calme	calme	ADJ	_	Gender=Masc|Number=Sing	1	ccomp	_	AlignBegin=122794|AlignEnd=123003|SpaceAfter=No
-13	.	.	PUNCT	_	_	1	punct	_	AlignBegin=123003|AlignEnd=123003
+13	.	.	PUNCT	_	_	12	punct	_	AlignBegin=123003|AlignEnd=123003
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__45
 # sound_url = PS_2022_10_frèreHyperDifférent.mp3

@@ -71,9 +71,9 @@
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=9519|AlignEnd=9828
 4	que	que	ADV	_	_	5	advmod	_	AlignBegin=9828|AlignEnd=10137
 5	Jessica	Jessica	PROPN	_	_	3	obj	_	AlignBegin=10137|AlignEnd=10446
-6	et	et	CCONJ	_	_	9	cc	_	AlignBegin=10446|AlignEnd=10756|SpaceAfter=No
+6	et	et	CCONJ	_	_	8	reparandum	_	AlignBegin=10446|AlignEnd=10756|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=10756|AlignEnd=10756
-8	et	et	CCONJ	_	_	6	reparandum	_	AlignBegin=10756|AlignEnd=11065
+8	et	et	CCONJ	_	_	9	cc	_	AlignBegin=10756|AlignEnd=11065
 9	Papa	Papa	PROPN	_	_	5	conj	_	AlignBegin=11065|AlignEnd=11374|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=11374|AlignEnd=11374
 
@@ -206,10 +206,10 @@
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
 # speaker = L1
 # text = et euh, et du coup euh, du coup, on est allé chez elle.
-1	et	et	CCONJ	_	_	16	cc	_	AlignBegin=20337|AlignEnd=20595
-2	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=20595|AlignEnd=20852|SpaceAfter=No
+1	et	et	CCONJ	_	_	4	reparandum	_	AlignBegin=20337|AlignEnd=20595
+2	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=20595|AlignEnd=20852|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=20852|AlignEnd=20852
-4	et	et	CCONJ	_	_	1	reparandum	_	AlignBegin=20852|AlignEnd=21110
+4	et	et	CCONJ	_	_	16	cc	_	AlignBegin=20852|AlignEnd=21110
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	AlignBegin=21110|AlignEnd=21367|wordform=du
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -236,8 +236,8 @@
 2	là	là	ADV	_	_	4	advmod	_	AlignBegin=24029|AlignEnd=24365|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=24365|AlignEnd=24365
 4	plein	plein	ADV	_	_	0	root	_	AlignBegin=24365|AlignEnd=24701
-5	de	de	ADP	_	_	4	iobj	_	AlignBegin=24701|AlignEnd=25037
-6	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=25037|AlignEnd=25373
+5	de	de	ADP	_	_	6	case	_	AlignBegin=24701|AlignEnd=25037
+6	bébé	bébé	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	AlignBegin=25037|AlignEnd=25373
 7	chats	chat	NOUN	_	Gender=Masc|Number=Plur	6	compound	_	AlignBegin=25373|AlignEnd=25709|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=25709|AlignEnd=25709
 
@@ -437,9 +437,9 @@
 1	en	en	ADP	_	_	2	case	_	AlignBegin=47270|AlignEnd=47407
 2	plus	plus	ADV	_	_	10	advmod	_	AlignBegin=47407|AlignEnd=47543|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=47543|AlignEnd=47543
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	AlignBegin=47543|AlignEnd=47680|SpaceAfter=No
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	reparandum	_	AlignBegin=47543|AlignEnd=47680|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=47680|AlignEnd=47680
-6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	reparandum	_	AlignBegin=47680|AlignEnd=47817
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	AlignBegin=47680|AlignEnd=47817
 7	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	10	iobj	_	AlignBegin=47817|AlignEnd=47954
 8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obj	_	AlignBegin=47954|AlignEnd=48091|SpaceAfter=No
 9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	AlignBegin=48091|AlignEnd=48228
@@ -591,7 +591,7 @@
 3	après	après	ADV	_	_	6	advmod	_	AlignBegin=63742|AlignEnd=63962
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=63962|AlignEnd=64183
 5	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	expl:pv	_	AlignBegin=64183|AlignEnd=64403
-6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=64403|AlignEnd=64623
+6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	reparandum	_	AlignBegin=64403|AlignEnd=64623
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=64623|AlignEnd=64844
 8	jour	jour	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	AlignBegin=64844|AlignEnd=65064
 9	de	de	ADP	_	_	12	case	_	AlignBegin=65064|AlignEnd=65284
@@ -601,24 +601,24 @@
 13	,	,	PUNCT	_	_	16	punct	_	AlignBegin=65945|AlignEnd=65945
 14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=65945|AlignEnd=66323
 15	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obj	_	AlignBegin=66323|AlignEnd=66700|SpaceAfter=No
-16	a~	avoir	VERB	_	_	6	reparandum	_	AlignBegin=66700|AlignEnd=67078|SpaceAfter=No
+16	a~	avoir	VERB	_	_	21	reparandum	_	AlignBegin=66700|AlignEnd=67078|SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	AlignBegin=67078|AlignEnd=67078
 18	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	21	nsubj	_	AlignBegin=67078|AlignEnd=67456
 19	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obj	_	AlignBegin=67456|AlignEnd=67833|SpaceAfter=No
 20	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	21	aux:tense	_	AlignBegin=67833|AlignEnd=68211
-21	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	reparandum	_	AlignBegin=68211|AlignEnd=68589
+21	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=68211|AlignEnd=68589
 22	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=68589|AlignEnd=68966|SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	AlignBegin=68966|AlignEnd=68966
 24	à	à	ADP	_	_	25	case	_	AlignBegin=68966|AlignEnd=68966
-25	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	21	obl:arg	_	AlignBegin=68966|AlignEnd=69344
+25	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	30	reparandum	_	AlignBegin=68966|AlignEnd=69344
 26	euh	euh	INTJ	_	_	30	discourse	_	AlignBegin=69344|AlignEnd=69721|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=69721|AlignEnd=69721
 28	à	à	ADP	_	_	30	case	_	AlignBegin=69721|AlignEnd=69721
 29	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	AlignBegin=69721|AlignEnd=70099
-30	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	25	reparandum	_	AlignBegin=70099|AlignEnd=70477
+30	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	21	obl:arg	_	AlignBegin=70099|AlignEnd=70477
 31	et	et	CCONJ	_	_	32	cc	_	AlignBegin=70477|AlignEnd=70854
 32	tout	tout	ADV	_	_	30	conj	_	AlignBegin=70854|AlignEnd=71232|SpaceAfter=No
-33	.	.	PUNCT	_	_	6	punct	_	AlignBegin=71232|AlignEnd=71232
+33	.	.	PUNCT	_	_	21	punct	_	AlignBegin=71232|AlignEnd=71232
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__38
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
@@ -719,13 +719,13 @@
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=79632|AlignEnd=79632
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	AlignBegin=79632|AlignEnd=79869
 13	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	14	obj	_	AlignBegin=79869|AlignEnd=80105|SpaceAfter=No
-14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=80105|AlignEnd=80342
+14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	reparandum	_	AlignBegin=80105|AlignEnd=80342
 15	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=80342|AlignEnd=80578|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=80578|AlignEnd=80578
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=80578|AlignEnd=80876
 18	s'	se	PRON	_	_	20	obj	_	AlignBegin=80876|AlignEnd=81174|SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	AlignBegin=81174|AlignEnd=81472
-20	habitué	habituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	AlignBegin=81472|AlignEnd=81770
+20	habitué	habituer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=81472|AlignEnd=81770
 21	petit	petit	ADJ	_	_	23	amod	_	AlignBegin=81770|AlignEnd=82068
 22	à	à	ADP	_	_	23	case	_	AlignBegin=82068|AlignEnd=82068
 23	petit	petit	ADJ	_	_	20	obl:mod	_	AlignBegin=82068|AlignEnd=82366
@@ -737,15 +737,15 @@
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=83557|AlignEnd=83557
 30	franchement	franchement	ADV	_	_	14	discourse	_	AlignBegin=83557|AlignEnd=83855|ExtPos=INTJ
 31	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=83855|AlignEnd=84153|SpaceAfter=No
-32	.	.	PUNCT	_	_	14	punct	_	AlignBegin=84153|AlignEnd=84153
+32	.	.	PUNCT	_	_	31	punct	_	AlignBegin=84153|AlignEnd=84153
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__44
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
 # speaker = L2
 # text = mh mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=77096|AlignEnd=77563
-2	mh	mh	INTJ	_	_	1	reparandum	_	AlignBegin=77563|AlignEnd=78029|SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=78029|AlignEnd=78029
+1	mh	mh	INTJ	_	_	2	reparandum	_	AlignBegin=77096|AlignEnd=77563
+2	mh	mh	INTJ	_	_	0	root	_	AlignBegin=77563|AlignEnd=78029|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=78029|AlignEnd=78029
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__45
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
@@ -825,33 +825,33 @@
 # speaker = L1
 # text = il est, il est vraiment mignon, euh.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=89398|AlignEnd=89837
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=89837|AlignEnd=90277|SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	AlignBegin=89837|AlignEnd=90277|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	AlignBegin=90277|AlignEnd=90277
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=90277|AlignEnd=90716
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=90716|AlignEnd=91155
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	AlignBegin=91155|AlignEnd=91594
-7	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	2	reparandum	_	AlignBegin=91594|AlignEnd=92034|SpaceAfter=No
+7	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=91594|AlignEnd=92034|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=92034|AlignEnd=92034
 9	euh	euh	INTJ	_	_	2	discourse	_	AlignBegin=92034|AlignEnd=92473|SpaceAfter=No
-10	.	.	PUNCT	_	_	2	punct	_	AlignBegin=92473|AlignEnd=92473
+10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=92473|AlignEnd=92473
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__51
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
 # speaker = L2
 # text = ça fait plus, il fait plus chien que chat des fois.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=91813|AlignEnd=92064
-2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=92064|AlignEnd=92314
+2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	AlignBegin=92064|AlignEnd=92314
 3	plus	plus	ADV	_	_	2	advmod	_	AlignBegin=92314|AlignEnd=92565|Scrap=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=92565|AlignEnd=92565
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=92565|AlignEnd=92815
-6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	AlignBegin=92815|AlignEnd=93066
+6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=92815|AlignEnd=93066
 7	plus	plus	ADV	_	_	8	advmod	_	AlignBegin=93066|AlignEnd=93316
 8	chien	chien	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	AlignBegin=93316|AlignEnd=93567
 9	que	que	SCONJ	_	_	10	case	_	AlignBegin=93567|AlignEnd=93817
 10	chat	chat	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	AlignBegin=93817|AlignEnd=94068
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	advmod	_	AlignBegin=94068|AlignEnd=94318|ExtPos=ADV|Idiom=Yes
 12	fois	fois	NOUN	_	Gender=Fem|Number=Plur	11	fixed	_	AlignBegin=94318|AlignEnd=94569|InIdiom=Yes|SpaceAfter=No
-13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=94569|AlignEnd=94569
+13	.	.	PUNCT	_	_	6	punct	_	AlignBegin=94569|AlignEnd=94569
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__52
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
@@ -902,12 +902,12 @@
 # text = il nous parle, il nous parle.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=97180|AlignEnd=97491
 2	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	3	obj	_	AlignBegin=97491|AlignEnd=97801
-3	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=97801|AlignEnd=98112|SpaceAfter=No
+3	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	AlignBegin=97801|AlignEnd=98112|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=98112|AlignEnd=98112
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=98112|AlignEnd=98423
 6	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	7	obj	_	AlignBegin=98423|AlignEnd=98733
-7	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	reparandum	_	AlignBegin=98733|AlignEnd=99044|SpaceAfter=No
-8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=99044|AlignEnd=99044
+7	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=98733|AlignEnd=99044|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=99044|AlignEnd=99044
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__56
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
@@ -962,12 +962,12 @@
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=104444|AlignEnd=104733
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=104733|AlignEnd=105023
 8	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=105023|AlignEnd=105312
-9	comme	comme	ADP	_	_	8	dep	_	AlignBegin=105312|AlignEnd=105601
+9	comme	comme	ADP	_	_	14	reparandum	_	AlignBegin=105312|AlignEnd=105601
 10	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=105601|AlignEnd=105890|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=105890|AlignEnd=105890
 12	comme	comme	ADP	_	_	14	case	_	AlignBegin=105890|AlignEnd=106179
 13	petit	petit	ADJ	_	_	14	amod	_	AlignBegin=106179|AlignEnd=106468
-14	chat	chat	NOUN	_	Gender=Masc|Number=Sing	9	reparandum	_	AlignBegin=106468|AlignEnd=106757|SpaceAfter=No
+14	chat	chat	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	AlignBegin=106468|AlignEnd=106757|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	AlignBegin=106757|AlignEnd=106757
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__60
@@ -999,16 +999,16 @@
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
 # speaker = L2
 # text = parce que il est, il est pas sauvage.
-1	parce	parce	ADV	_	_	4	mark	_	AlignBegin=109032|AlignEnd=109241|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	_	9	mark	_	AlignBegin=109032|AlignEnd=109241|ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=109241|AlignEnd=109449|InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=109449|AlignEnd=109658
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=109658|AlignEnd=109866|SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	AlignBegin=109658|AlignEnd=109866|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	AlignBegin=109866|AlignEnd=109866
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=109866|AlignEnd=110075
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=110075|AlignEnd=110283
 8	pas	pas	ADV	_	_	9	advmod	_	AlignBegin=110283|AlignEnd=110491
-9	sauvage	sauvage	ADJ	_	_	4	reparandum	_	AlignBegin=110491|AlignEnd=110700|SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=110700|AlignEnd=110700
+9	sauvage	sauvage	ADJ	_	_	0	root	_	AlignBegin=110491|AlignEnd=110700|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=110700|AlignEnd=110700
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__63
 # sound_url = PS_2022_12_anniversairePetitChat.mp3
@@ -1040,16 +1040,16 @@
 # speaker = L2
 # text = il est euh, il fait sa petite vie quoi.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=111325|AlignEnd=111521
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=111521|AlignEnd=111717
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	AlignBegin=111521|AlignEnd=111717
 3	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=111717|AlignEnd=111912|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=111912|AlignEnd=111912
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=111912|AlignEnd=112108
-6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	AlignBegin=112108|AlignEnd=112304
+6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=112108|AlignEnd=112304
 7	sa	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	det	_	AlignBegin=112304|AlignEnd=112500
 8	petite	petit	ADJ	_	_	9	amod	_	AlignBegin=112500|AlignEnd=112695
 9	vie	vie	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	AlignBegin=112695|AlignEnd=112891
 10	quoi	quoi	INTJ	_	_	2	discourse	_	AlignBegin=112891|AlignEnd=113087|SpaceAfter=No
-11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=113087|AlignEnd=113087
+11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=113087|AlignEnd=113087
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__67
 # sound_url = PS_2022_12_anniversairePetitChat.mp3

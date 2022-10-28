@@ -12,13 +12,13 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	an	an	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	typique	typique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11	à	à	ADP	_	_	6	dep	_	SpaceAfter=No
+11	à	à	ADP	_	_	17	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
 13	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Réunion	Réunion	PROPN	_	_	11	reparandum	_	_
+17	Réunion	Réunion	PROPN	_	_	6	nmod	_	_
 18	qu'	que	PRON	_	PronType=Rel	21	obj	_	SpaceAfter=No
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
@@ -259,7 +259,7 @@
 18	plein	plein	ADV	_	_	15	conj	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	18	obl:arg	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	11	punct	_	_
+21	,	,	PUNCT	_	_	15	punct	_	_
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
 23	y	y	PRON	_	Person=3|PronType=Prs	25	expl	_	_
 24	en	en	PRON	_	Person=3|PronType=Prs	25	obj	_	_
@@ -335,25 +335,25 @@
 # sent_id = ParisStories_2020_poissonsNoel_14
 # text = et, euh, ensuite à la Réunion, c'est assez ty~, euh, traditionnel d'emmener, euh, pas un pique-nique de type sandwich mais d'amener carrément des marmites avec, euh, du riz des haricots et ce qu'on appelle carry ou rougail.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	17	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	13	punct	_	_
-5	ensuite	ensuite	ADV	_	_	13	advmod	_	_
+3	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	17	punct	_	_
+5	ensuite	ensuite	ADV	_	_	17	advmod	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	Réunion	Réunion	PROPN	_	_	13	obl:mod	_	SpaceAfter=No
+8	Réunion	Réunion	PROPN	_	_	17	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	expl:subj	_	SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	expl:subj	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 12	assez	assez	ADV	_	_	13	advmod	_	_
-13	ty~	ty~	ADJ	_	_	0	root	_	SpaceAfter=No
+13	ty~	ty~	ADJ	_	_	17	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	traditionnel	traditionnel	ADJ	_	Gender=Masc|Number=Sing	13	reparandum	_	_
+17	traditionnel	traditionnel	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 18	d'	de	ADP	_	_	19	mark	_	SpaceAfter=No
-19	emmener	emmener	VERB	_	VerbForm=Inf	13	csubj	_	SpaceAfter=No|Subject=NoRaising
+19	emmener	emmener	VERB	_	VerbForm=Inf	17	csubj	_	SpaceAfter=No|Subject=NoRaising
 20	,	,	PUNCT	_	_	25	punct	_	_
 21	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
@@ -385,7 +385,7 @@
 48	carry	carry	NOUN	_	Gender=Masc|Number=Sing	47	xcomp	_	_
 49	ou	ou	CCONJ	_	_	50	cc	_	_
 50	rougail	rougail	NOUN	_	Gender=Masc|Number=Sing	48	conj	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	13	punct	_	_
+51	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_15
 # text = c'est vraiment les plats traditionnels de la Réunion.
@@ -478,17 +478,17 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
 1	en	en	ADP	_	_	20	discourse	_	ExtPos=ADV|Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	quand	quand	SCONJ	_	_	20	dep	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	11	punct	_	_
-6	quand	quand	SCONJ	_	_	11	mark	_	_
-7	vraiment	vraiment	ADV	_	_	11	advmod	_	_
+3	,	,	PUNCT	_	_	13	punct	_	_
+4	quand	quand	SCONJ	_	_	13	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	13	punct	_	_
+6	quand	quand	SCONJ	_	_	13	mark	_	_
+7	vraiment	vraiment	ADV	_	_	13	advmod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	plage	plage	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	SpaceAfter=No
+9	plage	plage	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+11	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	reparandum	_	_
+13	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
@@ -512,9 +512,9 @@
 # sent_id = ParisStories_2020_poissonsNoel_20
 # text = même, même aux gens que tu connais pas, tu leur souhaites la bonne année.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	même	même	ADV	_	_	14	advmod	_	SpaceAfter=No
+1	même	même	ADV	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	même	même	ADV	_	_	1	reparandum	_	_
+3	même	même	ADV	_	_	14	advmod	_	_
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -523,7 +523,7 @@
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl	_	_
 10	pas	pas	ADV	_	_	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	1	punct	_	_
+11	,	,	PUNCT	_	_	3	punct	_	_
 12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 13	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
 14	souhaites	souhaire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

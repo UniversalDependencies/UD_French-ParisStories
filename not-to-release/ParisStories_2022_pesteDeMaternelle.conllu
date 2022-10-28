@@ -23,7 +23,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=3706|AlignEnd=3706
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=3706|AlignEnd=4056
 6	y	y	PRON	_	_	7	expl	_	AlignBegin=4056|AlignEnd=4406
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=4406|AlignEnd=4756|SpaceAfter=No
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	AlignBegin=4406|AlignEnd=4756|SpaceAfter=No
 8	,	,	PUNCT	_	_	18	punct	_	AlignBegin=4756|AlignEnd=4756
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=4756|AlignEnd=5106|SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	cop	_	AlignBegin=5106|AlignEnd=5455
@@ -34,7 +34,7 @@
 15	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=6155|AlignEnd=6505
 16	deux	deux	NUM	_	_	18	nummod	_	AlignBegin=6505|AlignEnd=6855
 17	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	AlignBegin=6855|AlignEnd=7205
-18	amies	amie	NOUN	_	Gender=Fem|Number=Plur	7	reparandum	_	AlignBegin=7205|AlignEnd=7555|SpaceAfter=No
+18	amies	amie	NOUN	_	Gender=Fem|Number=Plur	0	root	_	AlignBegin=7205|AlignEnd=7555|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=7555|AlignEnd=7555
 20	XXX	XXX	PROPN	_	_	18	dep	_	AlignBegin=7555|AlignEnd=7978|Scrap=Yes
 21	et	et	CCONJ	_	_	25	cc	_	AlignBegin=7978|AlignEnd=8402|SpaceAfter=No
@@ -42,7 +42,7 @@
 23	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=8402|AlignEnd=8825|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=8825|AlignEnd=8825
 25	XXX	XXX	PROPN	_	_	20	conj	_	AlignBegin=8825|AlignEnd=9249|SpaceAfter=No
-26	.	.	PUNCT	_	_	7	punct	_	AlignBegin=9249|AlignEnd=9249
+26	.	.	PUNCT	_	_	18	punct	_	AlignBegin=9249|AlignEnd=9249
 
 # sent_id = ParisStories_2022_4_pesteDeMaternelle__3
 # sound_url = PS_2022_4_pesteDeMaternelle.mp3
@@ -133,14 +133,14 @@
 12	pote	pote	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	AlignBegin=20775|AlignEnd=21042|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=21042|AlignEnd=21042
 14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=21042|AlignEnd=21309|SpaceAfter=No
-15	,	,	PUNCT	_	_	18	punct	_	AlignBegin=21309|AlignEnd=21309
+15	,	,	PUNCT	_	_	22	punct	_	AlignBegin=21309|AlignEnd=21309
 16	qu'	que	PRON	_	PronType=Rel	18	obj	_	AlignBegin=21309|AlignEnd=21577|SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	AlignBegin=21577|AlignEnd=21844
-18	aimait	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	AlignBegin=21844|AlignEnd=22111
+18	aimait	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	reparandum	_	AlignBegin=21844|AlignEnd=22111
 19	pas	pas	ADV	_	_	18	advmod	_	AlignBegin=22111|AlignEnd=22378|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=22378|AlignEnd=22378
 21	qui	qui	PRON	_	_	22	nsubj	_	AlignBegin=22378|AlignEnd=22646
-22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	AlignBegin=22646|AlignEnd=22913
+22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	AlignBegin=22646|AlignEnd=22913
 23	deux	deux	NUM	_	_	24	nummod	_	AlignBegin=22913|AlignEnd=23180
 24	potes	pote	NOUN	_	Number=Plur	22	obj	_	AlignBegin=23180|AlignEnd=23447
 25	qu'	que	PRON	_	PronType=Rel	27	obj	_	AlignBegin=24249|AlignEnd=24516|SpaceAfter=No
@@ -280,7 +280,7 @@
 # speaker = 0
 # text = vous avez pas le droit de faire ça, vous avez pas le droit de faire ci.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=44361|AlignEnd=44613
-2	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=44613|AlignEnd=44865
+2	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	reparandum	_	AlignBegin=44613|AlignEnd=44865
 3	pas	pas	ADV	_	_	2	advmod	_	AlignBegin=44865|AlignEnd=45117
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=45117|AlignEnd=45369
 5	droit	droit	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	AlignBegin=45369|AlignEnd=45621
@@ -289,14 +289,14 @@
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	AlignBegin=46126|AlignEnd=46378|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=46378|AlignEnd=46378
 10	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=46378|AlignEnd=46630
-11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	reparandum	_	AlignBegin=46630|AlignEnd=46882
+11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46630|AlignEnd=46882
 12	pas	pas	ADV	_	_	11	advmod	_	AlignBegin=46882|AlignEnd=47134
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=47134|AlignEnd=47386
 14	droit	droit	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	AlignBegin=47386|AlignEnd=47638
 15	de	de	ADP	_	_	16	mark	_	AlignBegin=47638|AlignEnd=47890
 16	faire	faire	VERB	_	VerbForm=Inf	14	acl	_	AlignBegin=47890|AlignEnd=48142|Subject=SubjRaising
 17	ci	ci	ADV	_	_	16	obj	_	AlignBegin=48142|AlignEnd=48394|SpaceAfter=No
-18	.	.	PUNCT	_	_	2	punct	_	AlignBegin=48394|AlignEnd=48394
+18	.	.	PUNCT	_	_	11	punct	_	AlignBegin=48394|AlignEnd=48394
 
 # sent_id = ParisStories_2022_4_pesteDeMaternelle__20
 # sound_url = PS_2022_4_pesteDeMaternelle.mp3
@@ -401,9 +401,9 @@
 # speaker = 0
 # text = et elle, elle avait fait.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=62671|AlignEnd=62974
-2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=62974|AlignEnd=63277|SpaceAfter=No
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	reparandum	_	AlignBegin=62974|AlignEnd=63277|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=63277|AlignEnd=63277
-4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	reparandum	_	AlignBegin=63277|AlignEnd=63580
+4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=63277|AlignEnd=63580
 5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:tense	_	AlignBegin=63580|AlignEnd=63883
 6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=63883|AlignEnd=64186|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=64186|AlignEnd=64186
@@ -423,14 +423,14 @@
 # sound_url = PS_2022_4_pesteDeMaternelle.mp3
 # speaker = 0
 # text = et, euh, et elle, elle avait fait non, vous avez pas le droit de leur parler.
-1	et	et	CCONJ	_	_	10	cc	_	AlignBegin=65095|AlignEnd=65399|SpaceAfter=No
+1	et	et	CCONJ	_	_	5	reparandum	_	AlignBegin=65095|AlignEnd=65399|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=65399|AlignEnd=65399
 3	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=65399|AlignEnd=65702|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=65702|AlignEnd=65702
-5	et	et	CCONJ	_	_	1	reparandum	_	AlignBegin=65702|AlignEnd=66005
-6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=66005|AlignEnd=66308|SpaceAfter=No
+5	et	et	CCONJ	_	_	10	cc	_	AlignBegin=65702|AlignEnd=66005
+6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	reparandum	_	AlignBegin=66005|AlignEnd=66308|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=66308|AlignEnd=66308
-8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	reparandum	_	AlignBegin=66308|AlignEnd=66611
+8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=66308|AlignEnd=66611
 9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	AlignBegin=66611|AlignEnd=66914
 10	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=66914|AlignEnd=67217
 11	non	non	ADV	_	_	14	discourse	_	AlignBegin=67217|AlignEnd=67466|SpaceAfter=No
@@ -688,14 +688,14 @@
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	AlignBegin=101776|AlignEnd=102014|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=102014|AlignEnd=102014
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=102014|AlignEnd=102251|SpaceAfter=No
-8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=102251|AlignEnd=102489|SpaceAfter=No
+8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	reparandum	_	AlignBegin=102251|AlignEnd=102489|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=102489|AlignEnd=102489
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=102489|AlignEnd=102727
 11	lui	lui	PRON	_	_	13	iobj	_	AlignBegin=102727|AlignEnd=102964
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	AlignBegin=102964|AlignEnd=103202
-13	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	AlignBegin=103202|AlignEnd=103439
+13	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=103202|AlignEnd=103439
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	AlignBegin=103439|AlignEnd=103677|SpaceAfter=No
-15	.	.	PUNCT	_	_	8	punct	_	AlignBegin=103677|AlignEnd=103677
+15	.	.	PUNCT	_	_	13	punct	_	AlignBegin=103677|AlignEnd=103677
 
 # sent_id = ParisStories_2022_4_pesteDeMaternelle__44
 # sound_url = PS_2022_4_pesteDeMaternelle.mp3
@@ -796,13 +796,13 @@
 12	,	,	PUNCT	_	_	5	punct	_	AlignBegin=118421|AlignEnd=118421
 13	là	là	ADV	_	_	24	discourse	_	AlignBegin=118421|AlignEnd=118759|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=118759|AlignEnd=118759
-15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	AlignBegin=118759|AlignEnd=119097|SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=119097|AlignEnd=119097
+15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	reparandum	_	AlignBegin=118759|AlignEnd=119097|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=119097|AlignEnd=119097
 17	pff	pff	INTJ	_	_	15	discourse	_	AlignBegin=119097|AlignEnd=119435|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=119435|AlignEnd=119435
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	reparandum	_	AlignBegin=119435|AlignEnd=119773|SpaceAfter=No
+19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	reparandum	_	AlignBegin=119435|AlignEnd=119773|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=119773|AlignEnd=119773
-21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	reparandum	_	AlignBegin=119773|AlignEnd=120111
+21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	AlignBegin=119773|AlignEnd=120111
 22	s'	se	PRON	_	_	24	expl	_	AlignBegin=120111|AlignEnd=120448|SpaceAfter=No
 23	en	en	PRON	_	Person=3|PronType=Prs	24	obj	_	AlignBegin=120448|AlignEnd=120786
 24	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=120786|AlignEnd=121124|SpaceAfter=No

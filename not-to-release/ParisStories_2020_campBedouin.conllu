@@ -22,10 +22,10 @@
 18	copain	copain	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 19	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 20	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	21	obj	_	SpaceAfter=No
-21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	acl:relcl	_	_
+21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	reparandum	_	_
 22	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	24	obj	_	_
 23	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux:tense	_	_
-24	emmenés	emmener	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	reparandum	_	_
+24	emmenés	emmener	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	aéroport	aéroport	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	SpaceAfter=No
@@ -67,17 +67,17 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
-3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
-7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	reparandum	_	_
+7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	ExtPos=ADV|Idiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 10	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 11	de	de	ADP	_	_	12	case	_	_
 12	retard	retard	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_5
 # text = mais bon on a quand même réussi à partir, à décoller, euh on a mis six heures trente-cinq de vol il y avait six heures trente-cinq de vol.
@@ -94,11 +94,11 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	à	à	ADP	_	_	12	mark	_	_
 12	décoller	décoller	VERB	_	VerbForm=Inf	9	conj	_	SpaceAfter=No|Subject=SubjRaising
-13	,	,	PUNCT	_	_	17	punct	_	_
+13	,	,	PUNCT	_	_	25	punct	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+17	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	reparandum	_	_
 18	six	six	NUM	_	Number=Plur	19	nummod	_	_
 19	heures	heure	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
 20	trente-cinq	trente-cinq	NUM	_	Number=Plur	19	nummod	_	_
@@ -106,7 +106,7 @@
 22	vol	vol	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	il	il	PRON	_	Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
 24	y	y	PRON	_	Person=3|PronType=Prs	25	expl	_	_
-25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	reparandum	_	_
+25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
 26	six	six	NUM	_	Number=Plur	27	nummod	_	_
 27	heures	heure	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
 28	trente-cinq	trente-cinq	NUM	_	Number=Plur	27	nummod	_	_
@@ -137,11 +137,11 @@
 5	mec	mec	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	8	obj	_	_
-8	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl	_	_
+8	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	reparandum	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	12	obj	_	_
-12	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	_
+12	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl	_	_
 13	avec	avec	ADP	_	_	15	case	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	pancarte	pancarte	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
@@ -232,7 +232,7 @@
 7	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	fixed	_	InIdiom=Yes
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-10	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+10	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	reparandum	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -244,7 +244,7 @@
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	petit	petit	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-21	marché	marché	NOUN	_	Gender=Masc|Number=Sing	9	reparandum	_	_
+21	marché	marché	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	_
 22	tout	tout	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	conj	_	_
 24	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -286,10 +286,10 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
-12	plein	plein	ADV	_	_	11	obj	_	_
+12	plein	plein	ADV	_	_	15	reparandum	_	_
 13	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	12	punct	_	_
-15	plein	plein	ADV	_	_	12	reparandum	_	_
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	plein	plein	ADV	_	_	11	obj	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	_
 18	si	si	SCONJ	_	_	20	mark	_	_
@@ -371,9 +371,9 @@
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
-9	super	super	ADV	_	_	13	advmod	_	_
+9	super	super	ADV	_	_	11	reparandum	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
-11	super	super	ADV	_	_	9	reparandum	_	_
+11	super	super	ADV	_	_	13	advmod	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	_
 13	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	20	punct	_	_

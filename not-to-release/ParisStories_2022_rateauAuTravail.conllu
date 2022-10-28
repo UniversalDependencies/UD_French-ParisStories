@@ -3,9 +3,9 @@
 # sound_url = PS_2022_14_râteauAuTravail.mp3
 # speaker = L1
 # text = je, je pensais vraiment qu'il était vieux.
-1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=97|AlignEnd=313|SpaceAfter=No
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	reparandum	_	AlignBegin=97|AlignEnd=313|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=313|AlignEnd=313
-3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	1	reparandum	_	AlignBegin=313|AlignEnd=529
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=313|AlignEnd=529
 4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=529|AlignEnd=744
 5	vraiment	vraiment	ADV	_	_	4	advmod	_	AlignBegin=744|AlignEnd=960
 6	qu'	que	SCONJ	_	_	9	mark	_	AlignBegin=960|AlignEnd=1176|SpaceAfter=No
@@ -131,12 +131,12 @@
 # text = tu habites à, euh, à Chaville.
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=13668|AlignEnd=14420
 2	habites	habiter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14420|AlignEnd=15173
-3	à	à	ADP	_	_	2	iobj	_	AlignBegin=15173|AlignEnd=15173|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=15173|AlignEnd=15173
+3	à	à	ADP	_	_	8	reparandum	_	AlignBegin=15173|AlignEnd=15173|SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	AlignBegin=15173|AlignEnd=15173
 5	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=15173|AlignEnd=15925|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=15925|AlignEnd=15925
 7	à	à	ADP	_	_	8	case	_	AlignBegin=15925|AlignEnd=15925
-8	Chaville	Chaville	PROPN	_	_	3	reparandum	_	AlignBegin=15925|AlignEnd=16677|SpaceAfter=No
+8	Chaville	Chaville	PROPN	_	_	2	obl:arg	_	AlignBegin=15925|AlignEnd=16677|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=16677|AlignEnd=16677|wordform=."
 
 # sent_id = ParisStories_2022_14_râteauAuTravail__9
@@ -196,10 +196,10 @@
 7	ouais	ouais	INTJ	_	_	15	discourse	_	AlignBegin=22373|AlignEnd=22608
 8	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=22608|AlignEnd=22844|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=22844|AlignEnd=22844
-10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	AlignBegin=22844|AlignEnd=23079
+10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	reparandum	_	AlignBegin=22844|AlignEnd=23079
 11	te	le	PRON	_	Number=Sing|Person=2|PronType=Prs	15	obj	_	AlignBegin=23079|AlignEnd=23315|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=23315|AlignEnd=23315
-13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	reparandum	_	AlignBegin=23315|AlignEnd=23550
+13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	AlignBegin=23315|AlignEnd=23550
 14	te	le	PRON	_	Number=Sing|Person=2|PronType=Prs	15	obj	_	AlignBegin=23550|AlignEnd=23786
 15	raccompagne	raccompagner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	AlignBegin=23786|AlignEnd=24021|Reported=Yes
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=24021|AlignEnd=24257
@@ -294,17 +294,17 @@
 # speaker = L1
 # text = il conduit comme un taré, il conduit n'importe comment.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=31549|AlignEnd=31807
-2	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=31807|AlignEnd=32066
+2	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	AlignBegin=31807|AlignEnd=32066
 3	comme	comme	ADP	_	_	5	case	_	AlignBegin=32066|AlignEnd=32325
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=32325|AlignEnd=32584
 5	taré	taré	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	AlignBegin=32584|AlignEnd=32843|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=32843|AlignEnd=32843
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=32843|AlignEnd=33198
-8	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	AlignBegin=33198|AlignEnd=33553
+8	conduit	conduire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=33198|AlignEnd=33553
 9	n'	ne	ADV	_	_	8	advmod	_	AlignBegin=33553|AlignEnd=33907|SpaceAfter=No
 10	importe	importer	VERB	_	_	9	dep	_	AlignBegin=33907|AlignEnd=34262
 11	comment	comment	ADV	_	_	10	dep	_	AlignBegin=34262|AlignEnd=34617|SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=34617|AlignEnd=34617
+12	.	.	PUNCT	_	_	8	punct	_	AlignBegin=34617|AlignEnd=34617
 
 # sent_id = ParisStories_2022_14_râteauAuTravail__21
 # sound_url = PS_2022_14_râteauAuTravail.mp3
@@ -350,9 +350,9 @@
 2	même	même	ADJ	_	_	3	amod	_	AlignBegin=38276|AlignEnd=38636
 3	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=38636|AlignEnd=38995|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=38995|AlignEnd=38995
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=38995|AlignEnd=39300|SpaceAfter=No
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	AlignBegin=38995|AlignEnd=39300|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=39300|AlignEnd=39300
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	AlignBegin=39300|AlignEnd=39605
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=39300|AlignEnd=39605
 8	même	même	ADJ	_	_	9	amod	_	AlignBegin=39605|AlignEnd=39910
 9	style	style	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	AlignBegin=39910|AlignEnd=40215
 10	de	de	ADP	_	_	11	case	_	AlignBegin=40215|AlignEnd=40520
@@ -378,13 +378,13 @@
 13	pas	pas	ADV	_	_	12	advmod	_	AlignBegin=42351|AlignEnd=42521
 14	quitter	quitter	VERB	_	VerbForm=Inf	12	xcomp	_	AlignBegin=42521|AlignEnd=42691|Subject=SubjRaising
 15	un	un	PRON	_	Gender=Masc	14	obj	_	AlignBegin=42691|AlignEnd=42860
-16	pour	pour	ADP	_	_	19	mark	_	AlignBegin=42860|AlignEnd=43030
+16	pour	pour	ADP	_	_	22	mark	_	AlignBegin=42860|AlignEnd=43030
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=43030|AlignEnd=43199|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=43199|AlignEnd=43199
-19	re~	re~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	AlignBegin=43199|AlignEnd=43369|SpaceAfter=No
+19	re~	re~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	reparandum	_	AlignBegin=43199|AlignEnd=43369|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=43369|AlignEnd=43369
 21	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	obj	_	AlignBegin=43369|AlignEnd=43630
-22	remettre	remettre	VERB	_	VerbForm=Inf	19	reparandum	_	AlignBegin=43630|AlignEnd=43890|Subject=SubjRaising
+22	remettre	remettre	VERB	_	VerbForm=Inf	14	advcl	_	AlignBegin=43630|AlignEnd=43890|Subject=SubjRaising
 23	avec	avec	ADP	_	_	25	case	_	AlignBegin=43890|AlignEnd=44151
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	AlignBegin=44151|AlignEnd=44412
 25	même	même	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	AlignBegin=44412|AlignEnd=44673|SpaceAfter=No
@@ -415,10 +415,10 @@
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=46588|AlignEnd=46588
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=46588|AlignEnd=46867|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	AlignBegin=46867|AlignEnd=46867
-12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=46867|AlignEnd=47146
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	reparandum	_	AlignBegin=46867|AlignEnd=47146
 13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	iobj	_	AlignBegin=47146|AlignEnd=47424|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=47424|AlignEnd=47424
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	reparandum	_	AlignBegin=47424|AlignEnd=47703
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=47424|AlignEnd=47703
 16	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	17	iobj	_	AlignBegin=47703|AlignEnd=47982
 17	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47982|AlignEnd=48226
 18	mon	son	DET	_	_	19	det	_	AlignBegin=48226|AlignEnd=48471
@@ -490,14 +490,14 @@
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=53600|AlignEnd=53790|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=53790|AlignEnd=53981
 5	pas	pas	ADV	_	_	6	advmod	_	AlignBegin=53981|AlignEnd=54172
-6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=54172|AlignEnd=54363
+6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	AlignBegin=54172|AlignEnd=54363
 7	mon	son	DET	_	_	8	det	_	AlignBegin=54363|AlignEnd=54553
 8	bisou	bisou	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	AlignBegin=54553|AlignEnd=54744|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=54744|AlignEnd=54744
 10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=54744|AlignEnd=54856|SpaceAfter=No
 11	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	AlignBegin=54856|AlignEnd=54968
 12	pas	pas	ADV	_	_	13	advmod	_	AlignBegin=54968|AlignEnd=55079
-13	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	AlignBegin=55079|AlignEnd=55191
+13	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=55079|AlignEnd=55191
 14	mon	son	DET	_	_	15	det	_	AlignBegin=55191|AlignEnd=55303
 15	bisou	bisou	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	AlignBegin=55303|AlignEnd=55415
 16	d'	de	ADP	_	_	17	case	_	AlignBegin=55415|AlignEnd=55526|SpaceAfter=No
@@ -505,7 +505,7 @@
 17	à	à	ADP	_	_	15	nmod	_	AlignBegin=55526|AlignEnd=55638|ExtPos=NOUN|Idiom=Yes|wordform=au
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	InIdiom=Yes
 19	revoir	revoir	VERB	_	VerbForm=Inf	17	fixed	_	AlignBegin=55638|AlignEnd=55750|InIdiom=Yes|SpaceAfter=No
-20	.	.	PUNCT	_	_	6	punct	_	AlignBegin=55750|AlignEnd=55750
+20	.	.	PUNCT	_	_	13	punct	_	AlignBegin=55750|AlignEnd=55750
 
 # sent_id = ParisStories_2022_14_râteauAuTravail__32_bis
 # sound_url = PS_2022_14_râteauAuTravail.mp3
@@ -519,11 +519,11 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=57232|AlignEnd=57232
 7	mais	mais	CCONJ	_	_	9	cc	_	AlignBegin=57232|AlignEnd=57351
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=57351|AlignEnd=57470
-9	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	reparandum	_	AlignBegin=57470|AlignEnd=57589|Reported=Yes
+9	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	AlignBegin=57470|AlignEnd=57589|Reported=Yes
 10	pas	pas	ADV	_	_	9	advmod	_	AlignBegin=57589|AlignEnd=57708|SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	AlignBegin=57708|AlignEnd=57708
 12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=57708|AlignEnd=57947
-13	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	AlignBegin=57947|AlignEnd=58185
+13	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	reparandum	_	AlignBegin=57947|AlignEnd=58185
 14	pas	pas	ADV	_	_	15	advmod	_	AlignBegin=58185|AlignEnd=58424
 15	commencer	commencer	VERB	_	VerbForm=Inf	13	xcomp	_	AlignBegin=58424|AlignEnd=58662|Subject=SubjRaising
 16	toi	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	15	dislocated	_	AlignBegin=58662|AlignEnd=58901|SpaceAfter=No
@@ -563,12 +563,12 @@
 8	rien	rien	PRON	_	_	3	obj	_	AlignBegin=61299|AlignEnd=61512|Reported=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=61512|AlignEnd=61512
 10	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	discourse	_	AlignBegin=61512|AlignEnd=61724|SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=61724|AlignEnd=61724
+11	,	,	PUNCT	_	_	16	punct	_	AlignBegin=61724|AlignEnd=61724
 12	à	à	ADP	_	_	13	case	_	AlignBegin=61724|AlignEnd=61724
-13	demain	demain	ADV	_	_	8	advmod	_	AlignBegin=61724|AlignEnd=61937|SpaceAfter=No
+13	demain	demain	ADV	_	_	16	reparandum	_	AlignBegin=61724|AlignEnd=61937|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=61937|AlignEnd=61937
 15	à	à	ADP	_	_	16	case	_	AlignBegin=61937|AlignEnd=61937
-16	demain	demain	ADV	_	_	13	reparandum	_	AlignBegin=61937|AlignEnd=62587|SpaceAfter=No
+16	demain	demain	ADV	_	_	8	advmod	_	AlignBegin=61937|AlignEnd=62587|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	AlignBegin=62587|AlignEnd=62587
 
 # sent_id = ParisStories_2022_14_râteauAuTravail__36
@@ -756,9 +756,9 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	AlignBegin=83898|AlignEnd=84231
 5	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=84231|AlignEnd=84563|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	AlignBegin=84563|AlignEnd=84563
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=84563|AlignEnd=84896|SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=84896|AlignEnd=84896
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	reparandum	_	AlignBegin=84896|AlignEnd=85228
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	reparandum	_	AlignBegin=84563|AlignEnd=84896|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=84896|AlignEnd=84896
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=84896|AlignEnd=85228
 10	demandait	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=85228|AlignEnd=85561
 11	à	à	ADP	_	_	13	case	_	AlignBegin=85561|AlignEnd=85561
 12	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=85561|AlignEnd=85893
@@ -784,11 +784,11 @@
 # sound_url = PS_2022_14_râteauAuTravail.mp3
 # speaker = L1
 # text = genre euh, en recherche euh, Meetic.
-1	genre	genre	NOUN	_	_	8	discourse	_	AlignBegin=90016|AlignEnd=90568|ExtPos=INTJ
+1	genre	genre	NOUN	_	_	5	reparandum	_	AlignBegin=90016|AlignEnd=90568|ExtPos=INTJ
 2	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=90568|AlignEnd=91120|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=91120|AlignEnd=91120
 4	en	en	ADP	_	_	5	case	_	AlignBegin=91120|AlignEnd=91586
-5	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	1	reparandum	_	AlignBegin=91586|AlignEnd=92053
+5	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	8	discourse	_	AlignBegin=91586|AlignEnd=92053
 6	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=92053|AlignEnd=92519|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=92519|AlignEnd=92519
 8	Meetic	Meetic	PROPN	_	_	0	root	_	AlignBegin=92519|AlignEnd=92762|SpaceAfter=No
@@ -921,16 +921,16 @@
 # text = mais bon bref, surtout euh relation au travail, interdit.
 1	mais	mais	CCONJ	_	_	12	cc	_	AlignBegin=106968|AlignEnd=107335
 2	bon	bon	INTJ	_	_	12	discourse	_	AlignBegin=107335|AlignEnd=107702
-3	bref	bref	INTJ	_	_	7	discourse	_	AlignBegin=107702|AlignEnd=108069|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=108069|AlignEnd=108069
-5	surtout	surtout	ADV	_	_	7	advmod	_	AlignBegin=108069|AlignEnd=108436
+3	bref	bref	INTJ	_	_	12	discourse	_	AlignBegin=107702|AlignEnd=108069|SpaceAfter=No
+4	,	,	PUNCT	_	_	12	punct	_	AlignBegin=108069|AlignEnd=108069
+5	surtout	surtout	ADV	_	_	12	advmod	_	AlignBegin=108069|AlignEnd=108436
 6	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=108436|AlignEnd=108804
-7	relation	relation	NOUN	_	Gender=Fem|Number=Sing	1	reparandum	_	AlignBegin=108804|AlignEnd=109171
+7	relation	relation	NOUN	_	Gender=Fem|Number=Sing	12	dislocated	_	AlignBegin=108804|AlignEnd=109171
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	AlignBegin=109171|AlignEnd=109538|wordform=au
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	travail	travail	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	AlignBegin=109538|AlignEnd=109905|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=109905|AlignEnd=109905
+11	,	,	PUNCT	_	_	7	punct	_	AlignBegin=109905|AlignEnd=109905
 12	interdit	interdire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=109905|AlignEnd=110272|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	AlignBegin=110272|AlignEnd=110272
 
@@ -983,10 +983,10 @@
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	AlignBegin=115554|AlignEnd=115761
 8	grandissait	grandissir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	AlignBegin=115761|AlignEnd=115968
 9	trop	trop	ADV	_	_	8	advmod	_	AlignBegin=115968|AlignEnd=116174
-10	de	de	ADP	_	_	8	dep	_	AlignBegin=116174|AlignEnd=116381
+10	de	de	ADP	_	_	13	reparandum	_	AlignBegin=116174|AlignEnd=116381
 11	de	de	ADP	_	_	13	case	_	AlignBegin=116381|AlignEnd=116609
 12	son	son	DET	_	Gender=Masc|Number=Sing	13	det	_	AlignBegin=116609|AlignEnd=116838
-13	coté	coté	NOUN	_	Gender=Masc|Number=Sing	10	reparandum	_	AlignBegin=116838|AlignEnd=117066|SpaceAfter=No
+13	coté	coté	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	AlignBegin=116838|AlignEnd=117066|SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	AlignBegin=117066|AlignEnd=117066
 
 # sent_id = ParisStories_2022_14_râteauAuTravail__64

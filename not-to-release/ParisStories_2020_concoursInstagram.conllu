@@ -8,10 +8,10 @@
 4	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	lien	lien	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
-7	de	de	ADP	_	_	6	dep	_	SpaceAfter=No
+7	de	de	ADP	_	_	10	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
-10	Insta	Insta	PROPN	_	_	7	reparandum	_	SpaceAfter=No
+10	Insta	Insta	PROPN	_	_	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	où	où	ADV	_	PronType=Rel	16	advmod	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
@@ -90,14 +90,14 @@
 8	de	de	ADP	_	_	9	mark	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	0	root	_	Subject=NoRaising
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	18	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	bah	bah	INTJ	_	_	18	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	11	reparandum	_	_
+18	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 19	sur	sur	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
@@ -179,19 +179,19 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11-12	aux	_	_	_	_	_	_	_	SpaceAfter=No
-11	à	à	ADP	_	_	10	iobj	_	_
+11	à	à	ADP	_	_	16	reparandum	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	dep	_	_
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
-16	fans	fan	NOUN	_	Gender=Masc|Number=Plur	11	reparandum	_	_
-17	de	de	ADP	_	_	16	dep	_	SpaceAfter=No
+16	fans	fan	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
+17	de	de	ADP	_	_	23	reparandum	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	_
 19	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	bah	bah	INTJ	_	_	23	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	de	de	ADP	_	_	17	reparandum	_	SpaceAfter=No
+23	de	de	ADP	_	_	30	reparandum	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -199,7 +199,7 @@
 27	coup	coup	NOUN	_	Gender=Masc|Number=Sing	30	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	d'	de	ADP	_	_	30	mark	_	SpaceAfter=No
-30	enregistrer	enregistrer	VERB	_	VerbForm=Inf	23	reparandum	_	Subject=ObjRaising
+30	enregistrer	enregistrer	VERB	_	VerbForm=Inf	16	acl	_	Subject=ObjRaising
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
 33	en	en	ADP	_	_	34	case	_	_
@@ -366,9 +366,9 @@
 # text = devant le, la télé du salon.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	devant	devant	ADP	_	_	5	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	reparandum	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	télé	télé	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -390,13 +390,13 @@
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	20	dislocated	_	SpaceAfter=No
+11	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	16	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	11	reparandum	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	11	punct	_	_
+16	gagnant	gagnant	NOUN	_	Gender=Masc|Number=Sing	20	dislocated	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
 20	quoi	quoi	PRON	_	PronType=Rel	0	root	_	_
@@ -449,17 +449,17 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	5	cc	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	reparandum	_	_
 6	aussi	aussi	ADV	_	_	5	advmod	_	_
 7	dans	dans	ADP	_	_	5	iobj	_	Scrap=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	reparandum	_	_
+10	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	aussi	aussi	ADV	_	_	10	advmod	_	_
 12	dans	dans	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	clip	clip	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_25
 # text = oui dans le clip~.
@@ -496,13 +496,13 @@
 11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	monde	monde	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+14	monde	monde	NOUN	_	Gender=Masc|Number=Sing	20	reparandum	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	tous	tout	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	participants	participant	NOUN	_	Gender=Masc|Number=Plur	14	reparandum	_	_
+20	participants	participant	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 21	passaient	passer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
 22	dans	dans	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -672,17 +672,17 @@
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	quelques	quelque	DET	_	Gender=Masc|Number=Plur	12	det	_	_
-12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	15	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
-15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
+15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	que	que	SCONJ	_	_	20	mark	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	15	ccomp	_	_
 21	après	après	ADV	_	_	20	advmod	_	_
-22	?	?	PUNCT	_	_	12	punct	_	_
+22	?	?	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_38
 # text = après la…

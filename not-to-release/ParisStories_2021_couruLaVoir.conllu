@@ -45,9 +45,9 @@
 14	maternelle	maternelle	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	parce	parce	SCONJ	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
 16	qu'	qu'	SCONJ	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
-17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	SpaceAfter=No
+17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	reparandum	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	reparandum	_	_
+19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 21	grandi	grandir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
 22	dans	dans	ADP	_	_	25	case	_	_
@@ -118,14 +118,14 @@
 1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ
 2	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
-4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 7	y	y	PRON	_	Person=3|PronType=Prs	8	expl	_	_
-8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	reparandum	_	SpaceAfter=No
+8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
-11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
+11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	dire	dire	VERB	_	VerbForm=Inf	11	xcomp	_	Subject=SubjRaising
 13	qu'	qu'	SCONJ	_	_	16	mark	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
@@ -133,7 +133,7 @@
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
 17	deux	deux	NUM	_	Number=Plur	18	nummod	_	_
 18	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	4	punct	_	_
+19	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_8
 # text = et on était à chaque fois dans les, dans les deux groupes différents, dans les deux classes différentes.
@@ -145,18 +145,18 @@
 5	chaque	chaque	DET	_	Number=Sing|PronType=Ind	6	det	_	_
 6	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
 7	dans	dans	ADP	_	_	8	case	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	obl:arg	_	Scrap=Yes|SpaceAfter=No
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	reparandum	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	dans	dans	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 12	deux	deux	NUM	_	Number=Plur	13	nummod	_	_
-13	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	8	reparandum	_	_
+13	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	19	reparandum	_	_
 14	différents	différents	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	dans	dans	ADP	_	_	19	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	deux	deux	NUM	_	Number=Plur	19	nummod	_	_
-19	classes	classe	NOUN	_	Gender=Fem|Number=Plur	13	reparandum	_	_
+19	classes	classe	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	_
 20	différentes	différentes	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -168,7 +168,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 5	n'	n'	ADV	_	_	6	advmod	_	SpaceAfter=No
-6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 7	vraim~	vraiment	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
@@ -176,8 +176,8 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 12	jamais	jamais	ADV	_	PronType=Neg	14	advmod	_	_
 13	vraiment	vraiment	ADV	_	_	14	advmod	_	_
-14	intéragi	intéragir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	reparandum	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	6	punct	_	_
+14	intéragi	intéragir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_couruLaVoir_10
@@ -206,11 +206,11 @@
 21	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
 22	en	en	ADP	_	_	23	case	_	_
 23	CM1	CM1	PROPN	_	_	21	obl:arg	_	_
-24	parce	parce	ADV	_	_	28	mark	_	ExtPos=SCONJ|Idiom=Yes
+24	parce	parce	ADV	_	_	39	mark	_	ExtPos=SCONJ|Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
 27	y	y	PRON	_	Person=3|PronType=Prs	28	expl	_	_
-28	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	SpaceAfter=No
+28	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	reparandum	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
@@ -221,7 +221,7 @@
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	expl:subj	_	_
 37	y	y	PRON	_	Person=3|PronType=Prs	39	expl	_	_
 38	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	39	aux:tense	_	_
-39	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	reparandum	_	_
+39	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
 40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	truc	truc	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
 42	bizarre	bizarre	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
@@ -233,9 +233,9 @@
 # sent_id = ParisStories_2021_couruLaVoir_11
 # text = pl~, plein d'enfants de nos classes respectives, nos amis, étaient tombés malades.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	pl~	pl~	X	_	_	15	nsubj	_	SpaceAfter=No
+1	pl~	pl~	X	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	plein	plein	ADV	_	_	1	reparandum	_	_
+3	plein	plein	ADV	_	_	15	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	enfants	enfant	NOUN	_	Number=Plur	3	obl:arg	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -245,7 +245,7 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	12	det	_	_
 12	amis	ami	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	1	punct	_	_
+13	,	,	PUNCT	_	_	3	punct	_	_
 14	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	aux:tense	_	_
 15	tombés	tomber	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 16	malades	malade	ADJ	_	Gender=Masc|Number=Plur	15	xcomp	_	SpaceAfter=No
@@ -263,10 +263,10 @@
 6	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	épidémie	épidémie	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	de	de	ADP	_	_	8	dep	_	SpaceAfter=No
+9	de	de	ADP	_	_	12	reparandum	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	de	de	ADP	_	_	12	case	_	_
-12	rhume	rhume	NOUN	_	Gender=Masc|Number=Sing	9	reparandum	_	_
+12	rhume	rhume	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 13	ou	ou	CCONJ	_	_	15	cc	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
@@ -321,11 +321,11 @@
 11	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	13	det	_	_
 12	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
 13	amies	amie	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
-14	de	de	ADP	_	_	13	dep	_	SpaceAfter=No
+14	de	de	ADP	_	_	16	reparandum	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	de	de	ADP	_	_	14	reparandum	_	SpaceAfter=No
+16	de	de	ADP	_	_	18	reparandum	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	respectives	respectif	ADJ	_	Gender=Fem|Number=Plur	16	reparandum	_	_
+18	respectives	respectif	ADJ	_	Gender=Fem|Number=Plur	13	dep	_	_
 19	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
 20	pas	pas	ADV	_	_	21	advmod	_	_
 21	là	là	ADV	_	_	7	advcl	_	SpaceAfter=No
@@ -377,10 +377,10 @@
 # sent_id = ParisStories_2021_couruLaVoir_16
 # text = et euh, et je sais pas pourtant c'est bizarre.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	et	et	CCONJ	_	_	11	cc	_	_
+1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	et	et	CCONJ	_	_	1	reparandum	_	_
+4	et	et	CCONJ	_	_	11	cc	_	_
 5	je	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	_
 7	pas	pas	ADV	_	_	6	advmod	_	_
@@ -448,34 +448,34 @@
 # speaker = L2
 # text = donc, euh, donc, tu lui as parlé, euh, tu lui as parlé comme ça euh, pour, pour que vous soyez amies, c'est ça?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	donc	donc	ADV	_	_	10	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+1	donc	donc	ADV	_	_	5	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	donc	donc	ADV	_	_	1	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	1	punct	_	_
+5	donc	donc	ADV	_	_	10	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 8	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
 9	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-10	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
 15	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
 16	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	reparandum	_	_
+17	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	comme	comme	ADP	_	_	19	case	_	_
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	obl:mod	_	_
 20	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	pour	pour	ADP	_	_	17	dep	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	28	punct	_	_
+22	pour	pour	ADP	_	_	28	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	28	punct	_	_
 24	pour	pour	ADP	_	_	28	mark	_	_
 25	que	que	SCONJ	_	_	28	mark	_	_
 26	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	28	nsubj	_	_
 27	soyez	être	AUX	_	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	28	cop	_	_
-28	amies	amie	NOUN	_	Gender=Masc|Number=Plur	22	reparandum	_	SpaceAfter=No
+28	amies	amie	NOUN	_	Gender=Masc|Number=Plur	17	advcl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	nsubj	_	SpaceAfter=No
 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
@@ -490,16 +490,16 @@
 3	ouais	ouais	INTJ	_	_	11	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ
-6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	reparandum	_	SpaceAfter=No
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	reparandum	_	SpaceAfter=No
-11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	reparandum	_	_
 12	XXX	XXX	X	_	_	11	dep	_	Scrap=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
-15	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	_
+15	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	peu	peu	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 18	comme	comme	SCONJ	_	_	21	mark	_	_
@@ -510,7 +510,7 @@
 23	à	à	ADP	_	_	25	mark	_	_
 24	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	25	advcl	_	_
 25	dire	dire	VERB	_	VerbForm=Inf	15	discourse	_	SpaceAfter=No|Subject=SubjRaising
-26	.	.	PUNCT	_	_	11	punct	_	_
+26	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_19
 # text = c'était marrant je l'ai vue de d~, toute de, de l'autre côté de la cour carrément.
@@ -522,16 +522,16 @@
 5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	de	de	ADP	_	_	7	dep	_	_
-9	d~	de	ADP	_	_	8	reparandum	_	SpaceAfter=No
+8	de	de	ADP	_	_	12	reparandum	_	_
+9	d~	de	ADP	_	_	7	dep	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	toute	tout	ADJ	_	Gender=Fem|Number=Sing	12	advcl	_	_
-12	de	de	ADP	_	_	8	reparandum	_	SpaceAfter=No
+12	de	de	ADP	_	_	17	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	de	de	ADP	_	_	17	case	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 16	autre	autre	ADJ	_	Number=Sing	17	amod	_	_
-17	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	_
+17	côté	côté	NOUN	_	Gender=Masc|Number=Sing	9	reparandum	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	cour	cour	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -555,19 +555,19 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
-6	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	18	punct	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 9	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
 10	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
-14	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	reparandum	_	SpaceAfter=No
+12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	reparandum	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	presque	presque	ADV	_	_	18	advmod	_	_
-18	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	reparandum	_	_
+18	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19	pour	pour	ADP	_	_	20	mark	_	_
 20	aller	aller	VERB	_	VerbForm=Inf	18	advcl	_	Subject=SubjRaising
 21	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
@@ -584,20 +584,20 @@
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	Reported=Yes
 33	-ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	40	expl:subj	_	wordform=ce
 34	que	que	SCONJ	_	_	40	mark	_	_
-35	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	nsubj	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	35	punct	_	_
-37	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	reparandum	_	SpaceAfter=No
-38	,	,	PUNCT	_	_	35	punct	_	_
+35	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	reparandum	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
 39	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	40	iobj	_	_
 40	dirait	dire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	_
 41	qu'	qu'	SCONJ	_	_	43	mark	_	SpaceAfter=No
 42	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	43	nsubj	_	_
-43	traine	trainer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	_
+43	traine	trainer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	reparandum	_	_
 44	ensemble	ensemble	ADV	_	_	43	advmod	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	48	punct	_	_
 46	qu'	qu'	SCONJ	_	_	48	mark	_	SpaceAfter=No
 47	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	48	nsubj	_	_
-48	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	reparandum	_	_
+48	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	_
 49	et	et	CCONJ	_	_	48	conj	_	ExtPos=ADV|Idiom=Yes
 50	tout	tout	ADV	_	Gender=Masc|Number=Sing	49	fixed	_	InIdiom=Yes
 51	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	_
@@ -612,7 +612,7 @@
 60	en	en	ADP	_	_	62	case	_	_
 61	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	62	det	_	_
 62	moment	moment	NOUN	_	Gender=Masc|Number=Sing	59	obl:mod	_	SpaceAfter=No
-63	?	?	PUNCT	_	_	6	punct	_	_
+63	?	?	PUNCT	_	_	18	punct	_	_
 
 # sent_id = ParisStories_2021_couruLaVoir_22
 # text = et euh, elle a fait ok.
@@ -634,9 +634,9 @@
 3	après	après	ADV	_	_	10	advmod	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	j~	il	PRON	_	_	10	nsubj	_	SpaceAfter=No
+6	j~	il	PRON	_	_	8	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	reparandum	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	à	à	ADP	_	_	12	mark	_	_
