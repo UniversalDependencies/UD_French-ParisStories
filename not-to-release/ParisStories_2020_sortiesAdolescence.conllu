@@ -137,7 +137,7 @@
 17	,	,	PUNCT	_	_	7	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	vont	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	dans	dans	ADP	_	_	21	reparandum	_	_
+20	dans	dans	ADP	_	_	26	reparandum	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	reparandum	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	dans	dans	ADP	_	_	26	case	_	_

@@ -185,8 +185,8 @@
 14	à	à	ADP	_	_	16	case	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
 16	fans	fan	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
-17	de	de	ADP	_	_	23	reparandum	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	23	punct	_	_
+17	de	de	ADP	_	_	30	reparandum	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	30	punct	_	_
 19	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	bah	bah	INTJ	_	_	23	discourse	_	SpaceAfter=No

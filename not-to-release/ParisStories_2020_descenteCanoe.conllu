@@ -239,8 +239,8 @@
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	bah	bah	INTJ	_	_	6	discourse	_	_
-6	non	non	ADV	_	_	8	reparandum	_	ExtPos=INTJ|SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
+6	non	non	ADV	_	_	13	reparandum	_	ExtPos=INTJ|SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
 8	pas	pas	ADV	_	_	13	reparandum	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	advmod	_	ExtPos=ADV|Idiom=Yes

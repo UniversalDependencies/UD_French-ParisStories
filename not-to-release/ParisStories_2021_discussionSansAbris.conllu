@@ -178,7 +178,7 @@
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	reparandum	_	SpaceAfter=No
+7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	17	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	pas	pas	ADV	_	_	12	advmod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_

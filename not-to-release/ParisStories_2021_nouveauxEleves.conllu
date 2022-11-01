@@ -289,9 +289,9 @@
 61	Rhônes	Rhônes	PROPN	_	_	56	nmod	_	_
 62	-Alpes	Alpes	PROPN	_	_	61	flat:name	_	_
 63	euh	euh	INTJ	_	_	62	discourse	_	_
-64	quelques	quelque	DET	_	Number=Plur	67	reparandum	_	_
+64	quelques	quelque	DET	_	Number=Plur	79	reparandum	_	_
 65	euh	euh	INTJ	_	_	64	discourse	_	SpaceAfter=No
-66	,	,	PUNCT	_	_	67	punct	_	_
+66	,	,	PUNCT	_	_	79	punct	_	_
 67	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	79	reparandum	_	ExtPos=ADP|Idiom=Yes
 68	y	y	PRON	_	Person=3|PronType=Prs	67	fixed	_	InIdiom=Yes
 69	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	fixed	_	InIdiom=Yes|SpaceAfter=No

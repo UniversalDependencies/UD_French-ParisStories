@@ -72,9 +72,9 @@
 # speaker = non_native
 1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ|wordform=fin
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	11	punct	_	_
+5	,	,	PUNCT	_	_	14	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
@@ -347,7 +347,7 @@
 13	quelques	quelque	DET	_	Number=Plur|PronType=Ind	14	det	_	_
 14	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	25	punct	_	_
-16	qui	qui	PRON	_	_	21	reparandum	_	_
+16	qui	qui	PRON	_	_	25	reparandum	_	_
 17	euh	euh	INTJ	_	_	21	discourse	_	_
 18	hum	hum	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -434,7 +434,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/d50bf89027694d4326915ff6e90cc525b2e3ea00
 # speaker = non_native
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
 3	seulement	seulement	ADV	_	_	2	advmod	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
@@ -502,7 +502,7 @@
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	qui	qui	PRON	_	_	15	nsubj	_	_
-15	po~	po~	VERB	_	_	16	reparandum	_	_
+15	po~	po~	VERB	_	_	19	reparandum	_	_
 16	port	_	VERB	_	_	19	reparandum	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	qui	qui	PRON	_	_	19	nsubj	_	_

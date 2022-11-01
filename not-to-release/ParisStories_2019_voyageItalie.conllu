@@ -135,7 +135,7 @@
 # text = et, euh, après, on est rentré par Gênes, on a pris notre avion à Gênes.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	et	et	CCONJ	_	_	9	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	9	punct	_	_
 3	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	après	après	ADV	_	_	9	advmod	_	SpaceAfter=No
@@ -163,9 +163,9 @@
 3	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ah	ah	INTJ	_	_	20	discourse	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
+6	,	,	PUNCT	_	_	20	punct	_	_
 7	mais	mais	CCONJ	_	_	20	cc	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
+8	,	,	PUNCT	_	_	20	punct	_	_
 9	par	par	ADP	_	_	20	cc	_	ExtPos=ADV|Idiom=Yes
 10	contre	contre	NOUN	_	_	20	obj	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -177,8 +177,8 @@
 17	mais	mais	CCONJ	_	_	15	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	reparandum	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	32	punct	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	SpaceAfter=No
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	reparandum	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No

@@ -820,7 +820,7 @@
 14	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	plus	plus	ADV	_	_	17	advmod	_	_
-17	claire	clair	ADJ	_	Gender=Fem|Number=Sing	22	reparandum	_	_
+17	claire	clair	ADJ	_	Gender=Fem|Number=Sing	27	reparandum	_	_
 18	que	que	ADV	_	_	16	advmod	_	Scrap=Yes
 19	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_

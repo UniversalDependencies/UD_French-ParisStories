@@ -19,10 +19,10 @@
 14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	29	punct	_	_
-17	de	de	ADP	_	_	23	reparandum	_	SpaceAfter=No
+17	de	de	ADP	_	_	29	reparandum	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
+20	,	,	PUNCT	_	_	29	punct	_	_
 21	de	de	ADP	_	_	23	case	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	reparandum	_	Scrap=Yes|SpaceAfter=No
@@ -80,17 +80,17 @@
 6	à	à	ADP	_	_	7	case	_	_
 7	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 8-9	du	_	_	_	_	_	_	_	SpaceAfter=No
-8	de	de	ADP	_	_	16	reparandum	_	_
+8	de	de	ADP	_	_	11	reparandum	_	_
 9	le	le	DET	_	Gender=Masc|Number=Sing	8	dep	_	Scrap=Yes
 10	,	,	PUNCT	_	_	11	punct	_	_
 11-12	du	_	_	_	_	_	_	_	SpaceAfter=No
-11	de	de	ADP	_	_	7	dep	_	_
+11	de	de	ADP	_	_	16	reparandum	_	_
 12	le	le	DET	_	Gender=Masc|Number=Sing	11	dep	_	Scrap=Yes
 13	,	,	PUNCT	_	_	11	punct	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Gender=Masc|Number=Sing	16	det	_	_
-16	Bundestag	Bundestag	PROPN	_	_	11	reparandum	_	SpaceAfter=No
+16	Bundestag	Bundestag	PROPN	_	_	7	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	23	punct	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	reparandum	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
@@ -189,8 +189,8 @@
 47	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	42	obl:mod	_	_
 49	ou	ou	CCONJ	_	_	50	cc	_	_
-50	de	de	ADP	_	_	54	reparandum	_	SpaceAfter=No
-51	,	,	PUNCT	_	_	54	punct	_	_
+50	de	de	ADP	_	_	58	reparandum	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	58	punct	_	_
 52	euh	euh	INTJ	_	_	54	discourse	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
 54	de	de	ADP	_	_	58	reparandum	_	SpaceAfter=No
@@ -198,8 +198,8 @@
 56	d'	d'	ADP	_	_	58	case	_	SpaceAfter=No
 57	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	48	conj	_	_
-59	de	de	ADP	_	_	61	reparandum	_	SpaceAfter=No
-60	,	,	PUNCT	_	_	61	punct	_	_
+59	de	de	ADP	_	_	64	reparandum	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	64	punct	_	_
 61	de	de	ADP	_	_	64	reparandum	_	SpaceAfter=No
 62	,	,	PUNCT	_	_	64	punct	_	_
 63	de	de	ADP	_	_	64	case	_	_
@@ -283,8 +283,8 @@
 17	,	,	PUNCT	_	_	25	punct	_	_
 18	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	reparandum	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
+20	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	24	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
 22	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	24	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
@@ -342,8 +342,8 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	et	et	CCONJ	_	_	21	cc	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	21	punct	_	_
-6	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	_
+6	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
 8	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
@@ -475,9 +475,9 @@
 # text = on vient de, euh, voilà euh, on aime, euh, on aime beaucoup Berlin, tout ça, euh.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
-2	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	_
+2	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	_
 3	de	de	ADP	_	_	2	iobj	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	11	punct	_	_
+4	,	,	PUNCT	_	_	16	punct	_	_
 5	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	voilà	voilà	VERB	_	_	11	discourse	_	ExtPos=INTJ
@@ -533,21 +533,21 @@
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	cop	_	_
 30	très	très	ADV	_	_	31	advmod	_	_
 31	contente	content	ADJ	_	Gender=Fem|Number=Sing	26	ccomp	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	35	punct	_	_
+32	,	,	PUNCT	_	_	46	punct	_	_
 33	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	33	punct	_	_
-35	de	de	ADP	_	_	46	reparandum	_	SpaceAfter=No
+35	de	de	ADP	_	_	40	reparandum	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	de	de	ADP	_	_	40	mark	_	_
-40	maintenir	maintenir	VERB	_	VerbForm=Inf	31	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+40	maintenir	maintenir	VERB	_	VerbForm=Inf	46	reparandum	_	SpaceAfter=No|Subject=SubjRaising
 41	,	,	PUNCT	_	_	46	punct	_	_
 42	euh	euh	INTJ	_	_	46	discourse	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	42	punct	_	_
 44	qu'	qu'	SCONJ	_	_	46	mark	_	SpaceAfter=No
 45	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	46	nsubj	_	_
-46	maintienne	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	reparandum	_	SpaceAfter=No
+46	maintienne	maintenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	55	punct	_	_
 48	euh	euh	INTJ	_	_	51	discourse	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	48	punct	_	_
@@ -614,10 +614,10 @@
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	cop	_	_
 3	juste	juste	ADV	_	_	5	advmod	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	13	reparandum	_	_
+5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	17	reparandum	_	_
 6	d'	d'	ADP	_	_	7	case	_	SpaceAfter=No
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	13	punct	_	_
+8	,	,	PUNCT	_	_	17	punct	_	_
 9	vraiment	vraiment	ADV	_	_	13	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	dep	_	Scrap=Yes|SpaceAfter=No
@@ -649,7 +649,7 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_23
 # text = faut penser, ben, euh, tu, faut, faut penser qu'à douze ans, c'est, c'est, ouais, c'est, c'est impressionnant, de, de de rencontrer quelqu'un d'aussi haut placé.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
+1	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
 2	penser	penser	VERB	_	VerbForm=Inf	1	ccomp	_	SpaceAfter=No|Subject=NoRaising
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ben	ben	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -668,11 +668,11 @@
 17	ans	an	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	reparandum	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	32	punct	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	SpaceAfter=No
-23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	reparandum	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	28	punct	_	_
+23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	reparandum	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	32	punct	_	_
 25	ouais	ouais	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	SpaceAfter=No
@@ -682,7 +682,7 @@
 31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
 32	impressionnant	impressionnant	ADJ	_	Gender=Masc|Number=Sing	13	ccomp	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	de	de	ADP	_	_	38	reparandum	_	SpaceAfter=No
+34	de	de	ADP	_	_	37	reparandum	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
 36	de	de	ADP	_	_	38	mark	_	_
 37	de	de	ADP	_	_	32	dep	_	_

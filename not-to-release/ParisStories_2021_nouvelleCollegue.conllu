@@ -566,7 +566,7 @@
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	comment	comment	ADV	_	_	6	advmod	_	_
-3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	reparandum	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	reparandum	_	_
 4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	reparandum	_	_
 5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
 6	communiquez	communiquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -639,14 +639,14 @@
 # text = c'est, c'est vraiment plus mon amie que, que ma collègue, et, même, en fait, quand on est fâché, c'est marrant, mais on est obligé de se parler, à cause, enfin, grâce au travail, on va dire.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	reparandum	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 6	vraiment	vraiment	ADV	_	_	9	advmod	_	_
 7	plus	plus	ADV	_	_	9	advmod	_	_
 8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
-9	amie	amie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	amie	amie	NOUN	_	Gender=Fem|Number=Sing	30	reparandum	_	_
 10	que	que	SCONJ	_	_	14	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	que	que	SCONJ	_	_	14	case	_	_
@@ -667,7 +667,7 @@
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nsubj	_	SpaceAfter=No
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
-30	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	9	reparandum	_	SpaceAfter=No
+30	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	35	punct	_	_
 32	mais	mais	CCONJ	_	_	35	cc	_	_
 33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	nsubj:pass	_	_
