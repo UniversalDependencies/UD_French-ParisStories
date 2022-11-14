@@ -38,11 +38,11 @@
 # text = j'ai posé euh mon mon lunch bag dans mon casier.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
-2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	posé	poser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	euh	euh	INTJ	_	_	8	discourse	_	_
-5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
-6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	reparandum	_	_
+5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	reparandum	_	_
+6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
 7	lunch	lunch	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 8	bag	bag	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
@@ -53,10 +53,10 @@
 # sent_id = ParisStories_2020_blessureRecreation_4
 # text = et euh, et je repars vers la cour euh, pour aller, pour prendre mon poste dans la cour.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	et	et	CCONJ	_	_	6	cc	_	_
-2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	4	reparandum	_	_
+2	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	reparandum	_	_
+4	et	et	CCONJ	_	_	6	cc	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	repars	repartir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	vers	vers	ADP	_	_	9	case	_	_
@@ -65,10 +65,10 @@
 10	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	pour	pour	ADP	_	_	13	mark	_	_
-13	aller	aller	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+13	aller	aller	VERB	_	VerbForm=Inf	16	reparandum	_	SpaceAfter=No|Subject=SubjRaising
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	pour	pour	ADP	_	_	16	mark	_	_
-16	prendre	prendre	VERB	_	VerbForm=Inf	13	reparandum	_	_
+16	prendre	prendre	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising
 17	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	18	det	_	_
 18	poste	poste	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
 19	dans	dans	ADP	_	_	21	case	_	_
@@ -81,34 +81,34 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	iobj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	gamine	gamin	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-7	euh	euh	INTJ	_	_	10	discourse	_	_
-8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
-9	s'	se	PRON	_	Person=3|PronType=Prs	10	dep:comp	_	SpaceAfter=No
-10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
-11	euh	euh	INTJ	_	_	10	discourse	_	_
-12	Céc~	Céc~	PROPN	_	_	10	obj	_	_
-13	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
-14	s'	se	PRON	_	Person=3|PronType=Prs	15	dep:comp	_	SpaceAfter=No
-15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
-16	Cécilia	Cécilia	PROPN	_	_	15	obj	_	SpaceAfter=No
+7	euh	euh	INTJ	_	_	9	discourse	_	_
+8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+9	s'	se	PRON	_	Person=3|PronType=Prs	14	reparandum	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	InIdiom=Yes
+11	euh	euh	INTJ	_	_	9	discourse	_	_
+12	Céc~	Céc~	PROPN	_	_	9	obj	_	_
+13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
+14	s'	se	PRON	_	Person=3|PronType=Prs	6	acl:relcl	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	InIdiom=Yes
+16	Cécilia	Cécilia	PROPN	_	_	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
-18	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
+18	qui	qui	PRON	_	PronType=Rel	21	reparandum	_	_
 19	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
-21	qui	qui	PRON	_	PronType=Rel	18	reparandum	_	_
+21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 23	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	24	obj	_	_
-24	voir	voir	VERB	_	VerbForm=Inf	22	xcomp	_	_
+24	voir	voir	VERB	_	VerbForm=Inf	22	xcomp	_	Subject=SubjRaising
 25	en	en	ADP	_	_	26	mark	_	_
-26	gueulant	gueuler	VERB	_	Tense=Pres|VerbForm=Part	24	advcl	_	_
+26	gueulant	gueuler	VERB	_	Tense=Pres|VerbForm=Part	24	advcl	_	Subject=Raising
 27	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	expl:subj	_	_
-30	y	y	PRON	_	Person=3|PronType=Prs	31	iobj	_	_
+30	y	y	PRON	_	Person=3|PronType=Prs	31	expl	_	_
 31	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	Reported=Yes
 32	Sanga	Sanga	PROPN	_	_	31	obj	_	_
 33	à	à	ADP	_	_	34	case	_	_
@@ -119,7 +119,7 @@
 # text = il y a Sanga à terre euh !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	iobj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 4	Sanga	Sanga	PROPN	_	_	3	obj	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -130,21 +130,21 @@
 # sent_id = ParisStories_2020_blessureRecreation_7
 # text = c'est le c'est la catastrophe euh !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Reported=Yes
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	Scrap=Yes
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	catastrophe	catastrophe	NOUN	_	Gender=Fem|Number=Sing	2	reparandum	_	_
+7	catastrophe	catastrophe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	!	!	PUNCT	_	_	2	punct	_	_
+9	!	!	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_8
 # text = il y a Sanga à terre !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	iobj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 4	Sanga	sanga	PROPN	_	_	3	obj	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -155,7 +155,7 @@
 # text = il y a Sanga à terre !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	iobj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 4	Sanga	sanga	PROPN	_	_	3	obj	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -169,33 +169,33 @@
 2	là	là	ADV	_	_	6	advmod	_	_
 3	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dislocated	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-5	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
 6	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	pff	pff	INTJ	_	_	12	discourse	_	_
 10	encore	encore	ADV	_	_	12	advmod	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	bagarre	bagarre	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	Reported=Yes
+12	bagarre	bagarre	NOUN	_	Gender=Fem|Number=Sing	21	reparandum	_	Reported=Yes
 13	de	de	ADP	_	_	14	case	_	_
 14	merde	merde	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	et	et	CCONJ	_	_	16	cc	_	ExtPos=ADV|InIdiom=Yes
-16	tout	tout	ADV	_	_	12	conj	_	Idiom=Yes
+15	et	et	CCONJ	_	_	12	conj	_	ExtPos=ADV|Idiom=Yes
+16	tout	tout	ADV	_	_	15	fixed	_	InIdiom=Yes
 17	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
-21	relous	relou	ADJ	_	Gender=Masc|Number=Plur	12	reparandum	_	_
-22	à	à	ADP	_	_	24	mark	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs	24	dep:comp	_	_
-24	taper	taper	VERB	_	VerbForm=Inf	21	xcomp	_	_
+21	relous	relou	ADJ	_	Gender=Masc|Number=Plur	6	ccomp	_	_
+22	à	à	ADP	_	_	23	mark	_	_
+23	se	le	PRON	_	Person=3|PronType=Prs	21	ccomp	_	ExtPos=VERB|Idiom=Yes
+24	taper	taper	VERB	_	VerbForm=Inf	23	fixed	_	InIdiom=Yes|Subject=SubjRaising
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	temps	temps	NOUN	_	Gender=Masc|Number=Sing	24	obl:mod	_	_
+27	temps	temps	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	_
 28	sur	sur	ADP	_	_	30	case	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	gueule	gueule	NOUN	_	Gender=Fem|Number=Sing	24	obl:arg	_	_
-31	machin	machin	INTJ	_	_	30	obj	_	SpaceAfter=No
+30	gueule	gueule	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
+31	machin	machin	NOUN	_	_	30	discourse	_	ExtPos=INTJ|SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_11
@@ -221,25 +221,25 @@
 18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	_
 19	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	advmod	_	ExtPos=ADV|Idiom=Yes
-21	peu	peu	NOUN	_	_	20	fixed	_	InIdiom=Yes
+21	peu	peu	NOUN	_	Gender=Masc|Number=Sing	20	fixed	_	InIdiom=Yes
 22	doucement	doucement	ADV	_	_	19	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_12
-# text = et euh, et là j'arrive et euh, et t'as le cercle des cinq cents collégiens autour d'une petite silhouette allongée.
+# text = et euh, et là j'arrive et euh, et tu as le cercle des cinq cents collégiens autour d'une petite silhouette allongée.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	reparandum	_	_
+4	et	et	CCONJ	_	_	7	cc	_	_
 5	là	là	ADV	_	_	7	advmod	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	et	et	CCONJ	_	_	13	cc	_	_
-9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+8	et	et	CCONJ	_	_	11	reparandum	_	_
+9	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	et	et	CCONJ	_	_	8	reparandum	_	_
-12	t'	il	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	SpaceAfter=No
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 13	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	cercle	cercle	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
@@ -262,21 +262,21 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 4	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	oh	oh	INTJ	_	_	8	discourse	_	_
 7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
-8	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	_
+8	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	ExtPos=INTJ
 9	mais	mais	CCONJ	_	_	10	cc	_	_
 10	qu'	que	PRON	_	Person=3|PronType=Int	4	ccomp	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	Reported=Yes|SpaceAfter=No
-12	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
+12	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	expl:subj	_	_
 13	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-15	s'	se	PRON	_	Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
-16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+15	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
+16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
+17	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl:cleft	_	_
 18	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_14
@@ -284,7 +284,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
 4	rapproche	rapprocher	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	Sanga	Sanga	PROPN	_	_	4	obl:arg	_	SpaceAfter=No
@@ -293,13 +293,13 @@
 # sent_id = ParisStories_2020_blessureRecreation_15
 # text = et euh, et là je je vois euh son poignet complètement retourné, avec l'os qui ressort, une minuscule tache de sang mais surtout l'os qui ressort.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	et	et	CCONJ	_	_	8	cc	_	_
-2	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	4	reparandum	_	_
+2	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	et	et	CCONJ	_	_	1	reparandum	_	_
+4	et	et	CCONJ	_	_	8	cc	_	_
 5	là	là	ADV	_	_	8	advmod	_	_
-6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	reparandum	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	reparandum	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 10	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	11	det	_	_
@@ -329,7 +329,7 @@
 # sent_id = ParisStories_2020_blessureRecreation_16
 # text = enfin c'était vraiment dégueulasse.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	enfin	enfin	ADV	_	_	5	discourse	_	_
+1	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	vraiment	vraiment	ADV	_	_	5	advmod	_	_
@@ -357,12 +357,12 @@
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl	_	_
-18	genre	genre	INTJ	_	_	23	discourse	_	_
+18	genre	genre	NOUN	_	_	23	discourse	_	ExtPos=INTJ
 19	là	là	ADV	_	_	17	xcomp	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	ah	ah	INTJ	_	_	23	discourse	_	_
 22	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	23	det	_	_
-23	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	17	parataxis	_	Reported=Yes
+23	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	Reported=Yes
 24	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_18
@@ -391,7 +391,7 @@
 4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 5	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
 6	t'	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	8	iobj	_	SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl:cleft	_	_
 9	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -402,8 +402,8 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	Reported=Yes|SpaceAfter=No
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
 4	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
-5	t'	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	7	obj	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	t'	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	7	iobj	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	advcl:cleft	_	_
 8	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -427,7 +427,7 @@
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 7	essaye	essayer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	de	de	ADP	_	_	9	mark	_	_
-9	gérer	gérer	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	gérer	gérer	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	situation	situation	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	comme	comme	ADP	_	_	14	mark	_	_
@@ -439,9 +439,9 @@
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 19	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	ccomp	_	_
 20	pas	pas	ADV	_	_	19	advmod	_	_
-21	regarder	regarder	VERB	_	VerbForm=Inf	19	xcomp	_	_
-22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	reparandum	_	_
+21	regarder	regarder	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=SubjRaising
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	reparandum	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	blessure	blessure	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -456,15 +456,15 @@
 6	Sanga	Sanga	PROPN	_	_	4	obl:arg	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	t'	se	PRON	_	Number=Sing|Person=2|PronType=Prs	10	obj	_	SpaceAfter=No
+9	t'	le	PRON	_	Number=Sing|Person=2|PronType=Prs	10	obj	_	SpaceAfter=No
 10	inquiète	inquiéter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	Reported=Yes
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
-12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
-13	aller	aller	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	_
+13	aller	aller	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
-16	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
-17	aller	aller	VERB	_	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+16	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	aller	aller	VERB	_	VerbForm=Inf	16	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 18	,	,	PUNCT	_	_	26	punct	_	_
 19	alors	alors	ADV	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes
@@ -487,10 +487,10 @@
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 3	essaye	essayer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
-5	casser	casser	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	casser	casser	VERB	_	VerbForm=Inf	8	reparandum	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	de	de	ADP	_	_	8	mark	_	_
-8	cacher	cacher	VERB	_	VerbForm=Inf	5	reparandum	_	_
+8	cacher	cacher	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	10	det	_	_
 10	blessure	blessure	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 11	comme	comme	ADP	_	_	13	mark	_	_
@@ -528,7 +528,7 @@
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
 8	essaye	essayer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	de	de	ADP	_	_	10	mark	_	_
-10	mettre	mettre	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	mettre	mettre	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
 12	genou	genou	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 13	devant	devant	ADP	_	_	10	dep	_	SpaceAfter=No
@@ -542,16 +542,16 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	9	cc	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dislocated	_	_
-6	enfin	enfin	ADV	_	_	9	discourse	_	_
+6	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	peur	peur	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+10	peur	peur	NOUN	_	Gender=Fem|Number=Sing	9	obj:lvc	_	_
 11	que	que	SCONJ	_	_	14	mark	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
 14	refasse	refaire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl	_	_
-15	mal	mal	ADV	_	_	14	obj	_	_
+15	mal	mal	ADV	_	Gender=Masc|Number=Sing	14	obj	_	_
 16	en	en	ADP	_	_	17	mark	_	_
 17	mettant	mettre	VERB	_	Tense=Pres|VerbForm=Part	14	advcl	_	_
 18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	19	det	_	_
@@ -560,23 +560,23 @@
 21	euh	euh	INTJ	_	_	23	discourse	_	_
 22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	SpaceAfter=No
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
-24	pas	pas	ADV	_	_	23	advmod	_	_
+24	pas	pas	ADV	_	_	25	advmod	_	_
 25	trop	trop	ADV	_	_	26	advmod	_	_
 26	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	9	punct	_	_
+27	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_28
 # text = je lui ai demandé s'il pouvait se relever.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
-3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	s'	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	obj	_	_
-9	relever	relever	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+8	se	se	PRON	_	Person=3|PronType=Prs	9	expl	_	_
+9	relever	relever	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_29
@@ -588,8 +588,8 @@
 4	trop	trop	ADV	_	_	5	advmod	_	_
 5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	obj:lvc	_	_
 6	de	de	ADP	_	_	8	mark	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs	8	obj	_	_
-8	relever	relever	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+8	relever	relever	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 9	en	en	ADP	_	_	3	advmod	_	ExtPos=ADV|Idiom=Yes
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
@@ -597,7 +597,7 @@
 # sent_id = ParisStories_2020_blessureRecreation_30
 # text = enfin il était vraiment à terre euh, terrorisé.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	enfin	enfin	ADV	_	_	9	discourse	_	_
+1	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 4	vraiment	vraiment	ADV	_	_	9	advmod	_	_
@@ -609,54 +609,55 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_31
-# text = euh là y a l'autre surveillante qui arrive, qui était dans la cour aussi avec son mégaphone, qui commence à demander à tout le monde de se reculer, que c'est pas un spectacle, qu'on va gérer la situation.
+# text = euh là il y a l'autre surveillante qui arrive, qui était dans la cour aussi avec son mégaphone, qui commence à demander à tout le monde de se reculer, que c'est pas un spectacle, qu'on va gérer la situation.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	là	là	ADV	_	_	4	advmod	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	iobj	_	_
-4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-6	autre	autre	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-7	surveillante	surveillant	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
-9	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	_
-11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
-12	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
-13	dans	dans	ADP	_	_	15	case	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	cour	cour	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
-16	aussi	aussi	ADV	_	_	15	advmod	_	_
-17	avec	avec	ADP	_	_	19	case	_	_
-18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	19	det	_	_
-19	mégaphone	mégaphone	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
-21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
-22	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-23	à	à	ADP	_	_	24	mark	_	_
-24	demander	demander	VERB	_	VerbForm=Inf	22	xcomp	_	_
-25	à	à	ADP	_	_	28	case	_	_
-26	tout	tout	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	monde	monde	NOUN	_	Gender=Masc|Number=Sing	24	obl:arg	_	_
-29	de	de	ADP	_	_	31	mark	_	_
-30	se	se	PRON	_	Person=3|PronType=Prs	31	obj	_	_
-31	reculer	reculer	VERB	_	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	38	punct	_	_
-33	que	que	SCONJ	_	_	38	mark	_	_
-34	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	nsubj	_	SpaceAfter=No
-35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
-36	pas	pas	ADV	_	_	38	advmod	_	_
-37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	42	punct	_	_
-40	qu'	que	SCONJ	_	_	42	mark	_	SpaceAfter=No
-41	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	42	nsubj	_	_
-42	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
-43	gérer	gérer	VERB	_	VerbForm=Inf	42	xcomp	_	_
-44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	situation	situation	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	4	punct	_	_
+1	euh	euh	INTJ	_	_	5	discourse	_	_
+2	là	là	ADV	_	_	5	advmod	_	_
+3	il	il	PRON	_	_	5	expl:subj	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	autre	autre	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	surveillante	surveillant	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
+10	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
+13	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+14	dans	dans	ADP	_	_	16	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cour	cour	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
+17	aussi	aussi	ADV	_	_	16	advmod	_	_
+18	avec	avec	ADP	_	_	20	case	_	_
+19	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	20	det	_	_
+20	mégaphone	mégaphone	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	qui	qui	PRON	_	PronType=Rel	23	nsubj	_	_
+23	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+24	à	à	ADP	_	_	25	mark	_	_
+25	demander	demander	VERB	_	VerbForm=Inf	23	xcomp	_	Subject=SubjRaising
+26	à	à	ADP	_	_	29	case	_	_
+27	tout	tout	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	monde	monde	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	_
+30	de	de	ADP	_	_	32	mark	_	_
+31	se	le	PRON	_	Person=3|PronType=Prs	32	obj	_	_
+32	reculer	reculer	VERB	_	VerbForm=Inf	25	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+33	,	,	PUNCT	_	_	39	punct	_	_
+34	que	que	SCONJ	_	_	39	mark	_	_
+35	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	nsubj	_	SpaceAfter=No
+36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+37	pas	pas	ADV	_	_	39	advmod	_	_
+38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	25	ccomp	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41	qu'	que	SCONJ	_	_	43	mark	_	SpaceAfter=No
+42	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	43	nsubj	_	_
+43	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+44	gérer	gérer	VERB	_	VerbForm=Inf	43	xcomp	_	Subject=SubjRaising
+45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	situation	situation	NOUN	_	Gender=Fem|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_32
 # text = je lui demande d'aller chercher l'infirmière.
@@ -665,8 +666,8 @@
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
 3	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	5	mark	_	SpaceAfter=No
-5	aller	aller	VERB	_	VerbForm=Inf	3	ccomp	_	_
-6	chercher	chercher	VERB	_	VerbForm=Inf	5	xcomp	_	_
+5	aller	aller	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
+6	chercher	chercher	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	infirmière	infirmier	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -684,17 +685,17 @@
 7	collège	collège	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
-10	qu'	que	SCONJ	_	_	12	dep:comp	_	SpaceAfter=No
-11	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
-12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+10	qu'	que	SCONJ	_	_	9	acl:relcl	_	SpaceAfter=No
+11	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	complètement	complètement	ADV	_	_	17	advmod	_	_
-17	débiles	débile	ADJ	_	Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+17	débiles	débile	ADJ	_	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
-19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-20	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
+20	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 21	que	que	SCONJ	_	_	25	mark	_	_
 22	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	expl:subj	_	_
 23	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_

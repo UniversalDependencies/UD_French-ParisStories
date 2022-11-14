@@ -1,8 +1,8 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_poissonsNoel_1
-# text = donc, c'est un jour de l'an typique à, euh, de la Réunion qu'on a passé, entre guillemets, parce que on est partis à la plage.
+# text = donc, c'est un jour de l'an typique à, euh, de la Réunion qu'on a passé, entre guillemets, parce que on est parti à la plage.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	donc	donc	ADV	_	_	6	discourse	_	SpaceAfter=No
+1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -12,16 +12,16 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	an	an	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	typique	typique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11	à	à	ADP	_	_	6	dep	_	SpaceAfter=No
+11	à	à	ADP	_	_	17	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
 13	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Réunion	Réunion	PROPN	_	_	11	reparandum	_	_
+17	Réunion	Réunion	PROPN	_	_	6	nmod	_	_
 18	qu'	que	PRON	_	PronType=Rel	21	obj	_	SpaceAfter=No
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
-20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 21	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl:cleft	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	entre	entre	ADP	_	_	24	dep	_	_
@@ -30,8 +30,8 @@
 26	parce	parce	ADV	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
 27	que	que	SCONJ	_	_	26	fixed	_	InIdiom=Yes
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	nsubj	_	_
-29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
-30	partis	partir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:tense	_	_
+30	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	plage	plage	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	SpaceAfter=No
@@ -43,11 +43,11 @@
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	comme	comme	SCONJ	_	_	5	mark	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 6	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	gens	gens	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	_
+8	gens	gens	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
@@ -61,7 +61,7 @@
 19	famille	famille	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
 20	d'	de	ADP	_	_	22	mark	_	SpaceAfter=No
 21	y	y	PRON	_	Person=3|PronType=Prs	22	iobj	_	_
-22	aller	aller	VERB	_	VerbForm=Inf	16	xcomp	_	_
+22	aller	aller	VERB	_	VerbForm=Inf	16	xcomp	_	Subject=SubjRaising
 23	dès	dès	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	matin	matin	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	SpaceAfter=No
@@ -75,13 +75,13 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
-7	installer	installer	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+6	s'	le	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+7	installer	installer	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	tranquillement	tranquillement	ADV	_	_	7	advmod	_	_
-12	avoir	avoir	VERB	_	VerbForm=Inf	7	conj	_	_
+12	avoir	avoir	VERB	_	VerbForm=Inf	7	conj	_	Subject=SubjRaising
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	place	place	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
 15	de	de	ADP	_	_	16	case	_	_
@@ -130,7 +130,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 4	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	_
+5	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 6	qu'	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 8	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Part	5	ccomp	_	_
@@ -143,8 +143,8 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	_
 17	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-18	aller	aller	VERB	_	VerbForm=Inf	17	xcomp	_	_
-19	voir	voir	VERB	_	VerbForm=Inf	18	xcomp	_	_
+18	aller	aller	VERB	_	VerbForm=Inf	17	xcomp	_	Subject=SubjRaising
+19	voir	voir	VERB	_	VerbForm=Inf	18	xcomp	_	Subject=SubjRaising
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	poissons	poisson	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
 22	dans	dans	ADP	_	_	24	case	_	_
@@ -175,7 +175,7 @@
 7	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
-10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	_
 13	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
@@ -185,7 +185,7 @@
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 19	à	à	ADP	_	_	20	mark	_	_
-20	regarder	regarder	VERB	_	VerbForm=Inf	11	xcomp	_	_
+20	regarder	regarder	VERB	_	VerbForm=Inf	11	xcomp	_	Subject=SubjRaising
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	poissons	poisson	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
@@ -247,7 +247,7 @@
 6	magnifiques	magnifique	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	11	iobj	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
 10	en	en	PRON	_	Person=3|PronType=Prs	11	obj	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 12	de	de	ADP	_	_	15	case	_	_
@@ -259,14 +259,14 @@
 18	plein	plein	ADV	_	_	15	conj	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	18	obl:arg	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	11	punct	_	_
+21	,	,	PUNCT	_	_	15	punct	_	_
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
-23	y	y	PRON	_	Person=3|PronType=Prs	25	iobj	_	_
+23	y	y	PRON	_	Person=3|PronType=Prs	25	expl	_	_
 24	en	en	PRON	_	Person=3|PronType=Prs	25	obj	_	_
 25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 26	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 27	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
-28	peur	peur	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+28	peur	peur	NOUN	_	Gender=Fem|Number=Plur	27	obj:lvc	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_10
@@ -274,14 +274,14 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
-3	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
-4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	rire	rire	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	parce	parce	ADV	_	_	5	dep	_	ExtPos=SCONJ|Idiom=Yes|Scrap=Yes
+3	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
+5	rire	rire	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|Subject=SubjRaising
+6	,	,	PUNCT	_	_	18	punct	_	_
+7	parce	parce	ADV	_	_	18	mark	_	ExtPos=SCONJ|Idiom=Yes|Scrap=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	maintenant	maintenant	ADV	_	_	5	advmod	_	_
+10	maintenant	maintenant	ADV	_	_	18	advmod	_	_
 11	mais	mais	CCONJ	_	_	18	cc	_	_
 12	sur	sur	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -289,7 +289,7 @@
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	vraiment	vraiment	ADV	_	_	18	advmod	_	_
-18	effrayant	effrayer	VERB	_	Tense=Pres|VerbForm=Part	5	ccomp	_	SpaceAfter=No
+18	effrayant	effrayer	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_11
@@ -299,7 +299,7 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	5	obj	_	_
-5	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 6	en	en	ADP	_	_	7	case	_	_
 7	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 8	avec	avec	ADP	_	_	10	case	_	_
@@ -335,25 +335,25 @@
 # sent_id = ParisStories_2020_poissonsNoel_14
 # text = et, euh, ensuite à la Réunion, c'est assez ty~, euh, traditionnel d'emmener, euh, pas un pique-nique de type sandwich mais d'amener carrément des marmites avec, euh, du riz des haricots et ce qu'on appelle carry ou rougail.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
+1	et	et	CCONJ	_	_	17	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	13	punct	_	_
-5	ensuite	ensuite	ADV	_	_	13	advmod	_	_
+3	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	17	punct	_	_
+5	ensuite	ensuite	ADV	_	_	17	advmod	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	Réunion	Réunion	PROPN	_	_	13	obl:mod	_	SpaceAfter=No
+8	Réunion	Réunion	PROPN	_	_	17	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	expl:subj	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 12	assez	assez	ADV	_	_	13	advmod	_	_
-13	ty~	ty~	ADJ	_	_	0	root	_	SpaceAfter=No
+13	ty~	ty~	ADJ	_	_	17	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	traditionnel	traditionnel	ADJ	_	Gender=Masc|Number=Sing	13	reparandum	_	_
+17	traditionnel	traditionnel	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 18	d'	de	ADP	_	_	19	mark	_	SpaceAfter=No
-19	emmener	emmener	VERB	_	VerbForm=Inf	13	csubj	_	SpaceAfter=No
+19	emmener	emmener	VERB	_	VerbForm=Inf	17	csubj	_	SpaceAfter=No|Subject=NoRaising
 20	,	,	PUNCT	_	_	25	punct	_	_
 21	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
@@ -365,7 +365,7 @@
 28	sandwich	sandwich	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 29	mais	mais	CCONJ	_	_	31	cc	_	_
 30	d'	de	ADP	_	_	31	mark	_	SpaceAfter=No
-31	amener	amener	VERB	_	VerbForm=Inf	19	conj	_	_
+31	amener	amener	VERB	_	VerbForm=Inf	19	conj	_	Subject=NoRaising
 32	carrément	carrément	ADV	_	_	31	advmod	_	_
 33	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
 34	marmites	marmite	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	_
@@ -385,7 +385,7 @@
 48	carry	carry	NOUN	_	Gender=Masc|Number=Sing	47	xcomp	_	_
 49	ou	ou	CCONJ	_	_	50	cc	_	_
 50	rougail	rougail	NOUN	_	Gender=Masc|Number=Sing	48	conj	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	13	punct	_	_
+51	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_15
 # text = c'est vraiment les plats traditionnels de la Réunion.
@@ -424,12 +424,12 @@
 # sent_id = ParisStories_2020_poissonsNoel_17
 # text = enfin, voilà, il y a même des gens qui fabriquent des bars avec des bouées et des planches pour distribuer des bières à leurs amis, c'est vraiment chouette.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	enfin	enfin	ADV	_	_	7	discourse	_	SpaceAfter=No
+1	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	voilà	voilà	VERB	_	_	7	discourse	_	SpaceAfter=No
+3	voilà	voilà	VERB	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	iobj	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	même	même	ADV	_	_	10	advmod	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
@@ -441,11 +441,11 @@
 15	avec	avec	ADP	_	_	17	case	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	bouées	bouée	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	_
-18	et	et	CCONJ	_	_	19	cc	_	_
+18	et	et	CCONJ	_	_	20	cc	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
 20	planches	planche	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
 21	pour	pour	ADP	_	_	22	mark	_	_
-22	distribuer	distribuer	VERB	_	VerbForm=Inf	12	advcl	_	_
+22	distribuer	distribuer	VERB	_	VerbForm=Inf	12	ccomp	_	Subject=NoRaising
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	bières	bière	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
 25	à	à	ADP	_	_	27	case	_	_
@@ -478,43 +478,43 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
 1	en	en	ADP	_	_	20	discourse	_	ExtPos=ADV|Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	quand	quand	SCONJ	_	_	20	dep	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	11	punct	_	_
-6	quand	quand	SCONJ	_	_	11	mark	_	_
-7	vraiment	vraiment	ADV	_	_	11	advmod	_	_
+3	,	,	PUNCT	_	_	13	punct	_	_
+4	quand	quand	SCONJ	_	_	13	reparandum	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	13	punct	_	_
+6	quand	quand	SCONJ	_	_	13	mark	_	_
+7	vraiment	vraiment	ADV	_	_	13	advmod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	plage	plage	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	SpaceAfter=No
+9	plage	plage	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+11	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	reparandum	_	_
+13	remplie	remplir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 19	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	20	obl:mod	_	_
-20	collés	collé	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-21	et	et	CCONJ	_	_	28	cc	_	_
+20	collés	coller	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+21	et	et	CCONJ	_	_	27	cc	_	_
 22	à	à	ADP	_	_	23	case	_	_
-23	minuit	minuit	NOUN	_	Gender=Masc|Number=Sing	28	obl:mod	_	_
+23	minuit	minuit	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
 24	tout	tout	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	monde	monde	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
-27	se	se	PRON	_	Person=3|PronType=Prs	28	dep:comp	_	_
-28	souhaite	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+26	monde	monde	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	se	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	conj	_	ExtPos=VERB|Idiom=Yes
+28	souhaite	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	fixed	_	InIdiom=Yes
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
-31	année	année	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	année	année	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_20
 # text = même, même aux gens que tu connais pas, tu leur souhaites la bonne année.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	même	même	ADV	_	_	14	advmod	_	SpaceAfter=No
+1	même	même	ADV	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	même	même	ADV	_	_	1	reparandum	_	_
+3	même	même	ADV	_	_	14	advmod	_	_
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -523,7 +523,7 @@
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl	_	_
 10	pas	pas	ADV	_	_	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	1	punct	_	_
+11	,	,	PUNCT	_	_	3	punct	_	_
 12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 13	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
 14	souhaites	souhaire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

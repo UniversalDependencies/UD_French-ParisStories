@@ -4,19 +4,19 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	ouais	ouais	INTJ	_	_	8	discourse	_	_
 2	alors	alors	ADV	_	_	8	discourse	_	_
-3	en	en	PRON	_	Person=3|PronType=Prs	8	discourse	_	_
-4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	_
 6	Rafi	Rafi	PROPN	_	_	8	dislocated	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	reparandum	_	_
-13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	reparandum	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	fille	fille	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	_
@@ -24,24 +24,24 @@
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	Île	île	PROPN	_	_	12	obl:mod	_	_
 22	Maurice	Maurice	PROPN	_	_	21	compound	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	8	punct	_	_
+23	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = et euh et cette fille elle travaille dans un, dans un Parc d'aventure euh là-bas euh.
 # sent_id = ParisStories_2019_mauriceAventure_2
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	et	et	CCONJ	_	_	7	cc	_	_
-2	euh	euh	INTJ	_	_	3	discourse	_	_
-3	et	et	CCONJ	_	_	1	reparandum	_	_
+1	et	et	CCONJ	_	_	3	reparandum	_	_
+2	euh	euh	INTJ	_	_	7	discourse	_	_
+3	et	et	CCONJ	_	_	7	cc	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	fille	fille	NOUN	_	Gender=Fem|Number=Sing	7	dislocated	_	_
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	dans	dans	ADP	_	_	9	dep:comp	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	iobj	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Parc	parc	NOUN	_	Gender=Masc|Number=Sing	9	reparandum	_	_
+13	Parc	parc	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
 14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	aventure	aventure	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	euh	euh	INTJ	_	_	17	discourse	_	_
@@ -53,14 +53,14 @@
 # sent_id = ParisStories_2019_mauriceAventure_3
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
-5	s'	se	PRON	_	Person=3|PronType=Prs	6	dep:comp	_	SpaceAfter=No
-6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	reparandum	_	_
-7	Casela	Casela	PROPN	_	_	6	xcomp	_	_
+4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
+5	s'	se	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	InIdiom=Yes
+7	Casela	Casela	PROPN	_	_	5	obj	_	_
 8	Aventures	aventures	PROPN	_	_	7	flat:name	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = c'est un parc où il y a pf où il y a plein de, plein d'activités.
 # sent_id = ParisStories_2019_mauriceAventure_4
@@ -69,19 +69,19 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	parc	parc	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-5	où	où	PRON	_	_	4	nmod	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	obl:mod	_	_
-8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+5	où	où	PRON	_	_	8	obl:mod	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
 9	pf	pf	X	_	_	10	discourse	_	_
-10	où	où	PRON	_	_	5	reparandum	_	_
-11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	13	obl:mod	_	_
-13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
-14	plein	plein	ADV	_	_	19	advmod	_	_
+10	où	où	PRON	_	_	13	obl:mod	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	expl	_	_
+13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+14	plein	plein	ADV	_	_	17	reparandum	_	_
 15	de	de	ADP	_	_	14	iobj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	plein	plein	ADV	_	_	14	reparandum	_	_
+17	plein	plein	ADV	_	_	19	advmod	_	_
 18	d'	d'	ADP	_	_	17	iobj	_	SpaceAfter=No
 19	activités	activité	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
@@ -89,8 +89,8 @@
 # text = il y a des animaux.
 # sent_id = ParisStories_2019_mauriceAventure_5
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	obl:mod	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
@@ -104,14 +104,14 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	advmod	_	ExtPos=ADV|Idiom=Yes
 5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	InIdiom=Yes
-6	genre	genre	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
+6	genre	genre	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	ExtPos=INTJ
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	zoo	zoo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	et	et	CCONJ	_	_	15	cc	_	_
-13	et	et	CCONJ	_	_	12	reparandum	_	_
+12	et	et	CCONJ	_	_	13	reparandum	_	_
+13	et	et	CCONJ	_	_	15	cc	_	_
 14	d'	d'	ADP	_	_	15	case	_	SpaceAfter=No
 15	attractions	attraction	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
@@ -119,9 +119,9 @@
 # text = enfin il y a plein d'activités qui existent.
 # sent_id = ParisStories_2019_mauriceAventure_7
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	enfin	enfin	ADV	_	_	4	discourse	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	obl:mod	_	_
+1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	4	obj	_	_
 6	d'	d'	ADP	_	_	7	case	_	SpaceAfter=No
@@ -133,8 +133,8 @@
 # text = il y a les tyroliennes.
 # sent_id = ParisStories_2019_mauriceAventure_8
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	obl:mod	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	tyroliennes	tyrolien	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
@@ -143,25 +143,25 @@
 # text = il y a, il y a le quad, le buggy.
 # sent_id = ParisStories_2019_mauriceAventure_9
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	obl:mod	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	obl:mod	_	_
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	reparandum	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	quad	quad	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	buggy	buggy	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+13	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = il y a la marche avec les lions, marche avec les pumas.
 # sent_id = ParisStories_2019_mauriceAventure_10
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	obl:mod	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	marche	marcher	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -169,7 +169,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	lions	lion	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	marche	marcher	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+10	marche	marcher	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 11	avec	avec	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	pumas	pumas	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
@@ -178,23 +178,23 @@
 # text = enfin c'est, c'est ouais c'est un un parc d'aventures super grand.
 # sent_id = ParisStories_2019_mauriceAventure_11
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	enfin	enfin	ADV	_	_	3	discourse	_	_
+1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	12	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	reparandum	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
 7	ouais	ouais	INTJ	_	_	12	discourse	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	reparandum	_	_
-12	parc	parc	NOUN	_	Gender=Masc|Number=Sing	6	reparandum	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	reparandum	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	parc	parc	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	aventures	aventure	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 15	super	super	ADV	_	_	16	advmod	_	_
 16	grand	grand	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	3	punct	_	_
+17	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = et donc en fait cet été elle nous a proposé de nous y emmener sur un de ses jours, sur un de ses jours de repos, pour euh bah pour qu'on puisse découvrir en fait son son univers avec elle euh.
 # sent_id = ParisStories_2019_mauriceAventure_12
@@ -207,38 +207,38 @@
 6	été	être	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 8	nous	lui	PRON	_	_	10	iobj	_	_
-9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	de	de	ADP	_	_	14	mark	_	_
 12	nous	le	PRON	_	_	14	obj	_	_
 13	y	y	PRON	_	Person=3|PronType=Prs	14	obl:mod	_	_
-14	emmener	emmener	VERB	_	VerbForm=Inf	10	xcomp	_	_
+14	emmener	emmener	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 15	sur	sur	ADP	_	_	16	case	_	_
-16	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	_
+16	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	reparandum	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	19	det	_	_
 19	jours	jours	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	sur	sur	ADP	_	_	22	case	_	_
-22	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	reparandum	_	_
+22	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	25	det	_	_
 25	jours	jours	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	repos	repos	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	29	punct	_	_
-29	pour	pour	ADP	_	_	14	dep	_	_
+28	,	,	PUNCT	_	_	32	punct	_	_
+29	pour	pour	ADP	_	_	32	reparandum	_	_
 30	euh	euh	INTJ	_	_	32	discourse	_	_
 31	bah	bah	INTJ	_	_	32	discourse	_	_
-32	pour	pour	ADP	_	_	29	reparandum	_	ExtPos=ADV|Idiom=Yes
+32	pour	pour	ADP	_	_	14	advmod	_	ExtPos=ADV|Idiom=Yes
 33	qu'	que	SCONJ	_	_	32	fixed	_	InIdiom=Yes|SpaceAfter=No
 34	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	nsubj	_	_
 35	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	_	_
-36	découvrir	découvrir	VERB	_	VerbForm=Inf	35	xcomp	_	_
+36	découvrir	découvrir	VERB	_	VerbForm=Inf	35	xcomp	_	Subject=SubjRaising
 37	en	en	ADP	_	_	38	case	_	_
 38	fait	fait	NOUN	_	Gender=Masc|Number=Sing	41	discourse	_	_
-39	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	41	det	_	_
-40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	39	reparandum	_	_
+39	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	40	reparandum	_	_
+40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	41	det	_	_
 41	univers	univers	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
 42	avec	avec	ADP	_	_	43	case	_	_
 43	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	obl:mod	_	_
@@ -248,17 +248,17 @@
 # text = donc on avait choisi choisi un jour tous ensemble etc.
 # sent_id = ParisStories_2019_mauriceAventure_13
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	donc	donc	ADV	_	_	4	advmod	_	_
-2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
-4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	_
+1	donc	donc	ADV	_	_	5	advmod	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	reparandum	_	_
+5	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	9	obl:mod	_	_
 9	ensemble	ensemble	ADV	_	_	5	advmod	_	_
-10	etc	etc	ADV	_	_	4	conj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	4	punct	_	_
+10	etc	etc	ADV	_	_	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = et donc on est parti euh là-bas.
 # sent_id = ParisStories_2019_mauriceAventure_14
@@ -266,7 +266,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	donc	donc	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	euh	euh	INTJ	_	_	7	discourse	_	_
 7	là-bas	là-bas	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -278,15 +278,15 @@
 1	donc	donc	ADV	_	_	6	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	s'	se	PRON	_	Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	levé	lever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
 8	tôt	tôt	ADV	_	_	6	advmod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	matin	matin	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 11	pour	pour	ADP	_	_	12	mark	_	_
-12	arriver	arriver	VERB	_	VerbForm=Inf	6	advcl	_	_
+12	arriver	arriver	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising
 13	à	à	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	aube	aube	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
@@ -301,20 +301,20 @@
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	nous	lui	PRON	_	_	7	iobj	_	_
-6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	_
 7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	en	en	ADP	_	_	9	case	_	_
-9	fait	fait	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	_
-10	euh	euh	INTJ	_	_	13	discourse	_	_
-11	que	que	SCONJ	_	_	13	mark	_	_
+9	fait	fait	NOUN	_	Gender=Masc|Number=Sing	19	discourse	_	_
+10	euh	euh	INTJ	_	_	19	discourse	_	_
+11	que	que	SCONJ	_	_	19	mark	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	reparandum	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
-17	très	très	ADV	_	_	18	advmod	_	_
-18	très	très	ADV	_	_	19	advmod	_	_
-19	vaste	vaste	ADJ	_	Gender=Masc|Number=Sing	13	reparandum	_	SpaceAfter=No
+17	très	très	ADV	_	_	19	advmod	_	_
+18	très	très	ADV	_	_	17	conj	_	_
+19	vaste	vaste	ADJ	_	Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = donc on pouvait pas euh tout faire dans la même journée.
@@ -326,7 +326,7 @@
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
 6	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	obj	_	_
-7	faire	faire	VERB	_	VerbForm=Inf	3	xcomp	_	_
+7	faire	faire	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 8	dans	dans	ADP	_	_	11	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	même	même	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
@@ -351,7 +351,7 @@
 12	qu'	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
 14	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl	_	_
-15	faire	faire	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+15	faire	faire	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = et comme ça ça pourrait être bien.
@@ -362,21 +362,21 @@
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl:mod	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 5	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	être	être	VERB	_	VerbForm=Inf	5	xcomp	_	_
+6	être	être	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	bien	bien	ADV	_	_	6	xcomp	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = donc on a tous choisi euh de faire le quad tous ensemble.
 # sent_id = ParisStories_2019_mauriceAventure_20
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	donc	donc	ADV	_	_	5	cc	_	_
+1	donc	donc	ADV	_	_	5	advmod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	5	obl:mod	_	_
 5	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	_
 7	de	de	ADP	_	_	8	mark	_	_
-8	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	quad	quad	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	12	obl:mod	_	_
@@ -391,7 +391,7 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	vraiment	vraiment	ADV	_	_	4	advmod	_	_
-6	faire	faire	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	activité	activité	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 9	vraiment	vraiment	ADV	_	_	11	advmod	_	_
@@ -403,10 +403,10 @@
 # text = donc on a pris le quad.
 # sent_id = ParisStories_2019_mauriceAventure_22
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	donc	donc	ADV	_	_	4	cc	_	_
+1	donc	donc	ADV	_	_	4	advmod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	quad	quad	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
@@ -425,17 +425,17 @@
 # text = et et papi et mamie avaient pris un buggy pour être avec nous.
 # sent_id = ParisStories_2019_mauriceAventure_24
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	et	et	CCONJ	_	_	7	cc	_	_
-2	et	et	CCONJ	_	_	1	reparandum	_	_
+1	et	et	CCONJ	_	_	2	reparandum	_	_
+2	et	et	CCONJ	_	_	7	cc	_	_
 3	papi	papi	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	mamie	mamie	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
-6	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	_
 7	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	buggy	buggy	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	pour	pour	ADP	_	_	11	mark	_	_
-11	être	être	VERB	_	VerbForm=Inf	7	advcl	_	_
+11	être	être	VERB	_	VerbForm=Inf	7	advcl	_	Subject=NoRaising
 12	avec	avec	ADP	_	_	13	case	_	_
 13	nous	nous	PRON	_	_	11	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
@@ -449,16 +449,16 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	pendant	pendant	ADP	_	_	10	case	_	_
 9	deux	deux	NUM	_	Number=Plur	10	nummod	_	_
 10	heures	heure	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	_
 11	euh	euh	INTJ	_	_	12	discourse	_	_
-12	dans	dans	ADP	_	_	7	dep	_	_
+12	dans	dans	ADP	_	_	15	reparandum	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	_
+15	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 16	hyper	hyper	ADV	_	_	17	advmod	_	_
 17	vaste	vaste	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 18	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
@@ -467,23 +467,23 @@
 # text = on s'est s'est vraiment cru dans la savane euh.
 # sent_id = ParisStories_2019_mauriceAventure_26
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	0	root	_	SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	dep:comp	_	Scrap=Yes|SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
+4	s'	se	PRON	_	Person=3|PronType=Prs	7	expl	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	_
-7	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	reparandum	_	_
+7	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	savane	savane	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
-11	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	_
+11	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
 
-# text = t'as plein d'animaux en liberté euh notamment les zèbres.
+# text = tu as plein d'animaux en liberté euh notamment les zèbres.
 # sent_id = ParisStories_2019_mauriceAventure_27
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	t'	te	PRON	_	_	2	nsubj	_	SpaceAfter=No
+1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plein	plein	ADV	_	_	5	advmod	_	_
 4	d'	d'	ADP	_	_	3	iobj	_	SpaceAfter=No
@@ -499,7 +499,7 @@
 # text = enfin c'est incroyable.
 # sent_id = ParisStories_2019_mauriceAventure_28
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	enfin	enfin	ADV	_	_	4	discourse	_	_
+1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	incroyable	incroyable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -513,15 +513,15 @@
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	6	obj	_	_
-6	toucher	toucher	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	toucher	toucher	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # text = euh il y avait des autruches aussi c'était trop marrant euh.
 # sent_id = ParisStories_2019_mauriceAventure_30
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	obl:mod	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	autruches	autruche	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
@@ -533,12 +533,12 @@
 12	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = et euh t'as plein de paysages magnifiques.
+# text = et euh tu as plein de paysages magnifiques.
 # sent_id = ParisStories_2019_mauriceAventure_31
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	_
-3	t'	te	PRON	_	_	4	nsubj	_	SpaceAfter=No
+3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	7	advmod	_	_
 6	de	de	ADP	_	_	5	iobj	_	_
@@ -574,22 +574,22 @@
 # text = enfin c'est c'est vraiment super joli.
 # sent_id = ParisStories_2019_mauriceAventure_34
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	enfin	enfin	ADV	_	_	3	discourse	_	_
+1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	_
 7	super	super	ADV	_	_	8	advmod	_	_
-8	joli	joli	ADJ	_	Gender=Masc|Number=Sing	3	reparandum	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	3	punct	_	_
+8	joli	joli	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = donc on a fini cette activité.
 # sent_id = ParisStories_2019_mauriceAventure_35
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	activité	activité	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
@@ -601,30 +601,30 @@
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	ensuite	ensuite	ADV	_	_	4	advmod	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-7	dejeuné	dejeuner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	dejeuné	dejeuner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	9	obl:mod	_	_
 9	ensemble	ensemble	ADV	_	_	7	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	_
+10	.	.	PUNCT	_	_	7	punct	_	_
 
 # text = euh on a été ah oui aussi on a nourri les girafes.
 # sent_id = ParisStories_2019_mauriceAventure_37
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	reparandum	_	_
 5	ah	ah	INTJ	_	_	10	discourse	_	_
-6	oui	oui	INTJ	_	_	10	discourse	_	_
+6	oui	oui	ADV	_	_	10	discourse	_	ExtPos=INTJ
 7	aussi	aussi	ADV	_	_	10	advmod	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
-9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	nourri	nourrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	reparandum	_	_
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
+10	nourri	nourrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	girafes	girafe	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	4	punct	_	_
+13	.	.	PUNCT	_	_	10	punct	_	_
 
 # text = c'est une activité que tu peux faire,
 # sent_id = ParisStories_2019_mauriceAventure_38
@@ -633,30 +633,30 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	activité	activité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-5	que	que	PRON	_	_	4	nmod	_	_
+5	que	que	PRON	_	_	7	obj	_	_
 6	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
-7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
-8	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 9	,	,	PUNCT	_	_	4	punct	_	_
 
-# text = t'achètes des petits trucs et tu leur donnes.
+# text = tu achètes des petits trucs et tu leur donnes.
 # sent_id = ParisStories_2019_mauriceAventure_39
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	t'	te	PRON	_	_	2	nsubj	_	SpaceAfter=No
+1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	achètes	acheter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 4	petits	petit	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 5	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 6	et	et	CCONJ	_	_	9	cc	_	_
 7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	9	iobj	_	_
+8	leur	son	PRON	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	9	iobj	_	_
 9	donnes	donner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = enfin mais c'est vraiment marrant.
 # sent_id = ParisStories_2019_mauriceAventure_40
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	enfin	enfin	ADV	_	_	6	discourse	_	_
+1	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ
 2	mais	mais	CCONJ	_	_	6	discourse	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -671,20 +671,20 @@
 2	donc	donc	ADV	_	_	6	advmod	_	_
 3	après	après	ADV	_	_	6	advmod	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
-5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	mangé	manger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	8	obl:mod	_	_
 8	ensemble	ensemble	ADV	_	_	6	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
-# text = et ensuite on est partis euh euh bah tous ensemble aussi mais il y a que la moitié qui ont fait euh euh la deuxième activité.
+# text = et ensuite on est parti euh euh bah tous ensemble aussi mais il y a que la moitié qui ont fait euh euh la deuxième activité.
 # sent_id = ParisStories_2019_mauriceAventure_42
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	ensuite	ensuite	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	partis	partir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	euh	euh	INTJ	_	_	10	discourse	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	_
 8	bah	bah	INTJ	_	_	10	discourse	_	_
@@ -692,14 +692,14 @@
 10	ensemble	ensemble	ADV	_	_	5	advmod	_	_
 11	aussi	aussi	ADV	_	_	10	advmod	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
-13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	y	y	PRON	_	Person=3|PronType=Prs	15	obl:mod	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
+14	y	y	PRON	_	Person=3|PronType=Prs	15	expl	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 16	que	que	SCONJ	_	_	18	dep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 19	qui	qui	PRON	_	_	21	nsubj	_	_
-20	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 21	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
 22	euh	euh	INTJ	_	_	26	discourse	_	_
 23	euh	euh	INTJ	_	_	26	discourse	_	_
@@ -726,8 +726,8 @@
 # sent_id = ParisStories_2019_mauriceAventure_44
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	InIdiom=Yes
-3	y	y	PRON	_	Person=3|PronType=Prs	4	dep:comp	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
@@ -740,34 +740,34 @@
 # text = donc du coup bah on était pas très on était plus très nombreux à rester pour faire ça.
 # sent_id = ParisStories_2019_mauriceAventure_45
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	donc	donc	ADV	_	_	7	discourse	_	_
+1	donc	donc	ADV	_	_	7	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 5	bah	bah	INTJ	_	_	7	discourse	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	reparandum	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 9	très	très	ADV	_	_	7	advmod	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	plus	plus	ADV	_	_	13	advmod	_	_
 13	très	très	ADV	_	_	14	advmod	_	_
-14	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	7	reparandum	_	_
+14	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 15	à	à	ADP	_	_	16	mark	_	_
-16	rester	rester	VERB	_	VerbForm=Inf	14	advcl	_	_
+16	rester	rester	VERB	_	VerbForm=Inf	14	advcl	_	Subject=SubjRaising
 17	pour	pour	ADP	_	_	18	mark	_	_
-18	faire	faire	VERB	_	VerbForm=Inf	16	advcl	_	_
+18	faire	faire	VERB	_	VerbForm=Inf	16	advcl	_	Subject=NoRaising
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	obj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	7	punct	_	_
+20	.	.	PUNCT	_	_	14	punct	_	_
 
 # text = euh il y avait euh l'oncle d'Alex.
 # sent_id = ParisStories_2019_mauriceAventure_46
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	obl:mod	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -779,11 +779,11 @@
 # text = il y avait les les deux cousines d'Alex.
 # sent_id = ParisStories_2019_mauriceAventure_47
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	obl:mod	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	reparandum	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 6	deux	deux	NUM	_	Number=Plur	7	nummod	_	_
 7	cousines	cousine	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
@@ -793,20 +793,20 @@
 # text = il y avait Bastien et Matthieu, les copains de des cousines.
 # sent_id = ParisStories_2019_mauriceAventure_48
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	obl:mod	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	Bastien	Bastien	PROPN	_	_	3	obj	_	_
+4	Bastien	Bastien	PROPN	_	_	9	reparandum	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	Matthieu	Matthieu	PROPN	_	_	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	copains	copain	NOUN	_	Gender=Masc|Number=Plur	4	reparandum	_	_
-10	de	de	ADP	_	_	9	dep	_	_
+9	copains	copain	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+10	de	de	ADP	_	_	13	reparandum	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	cousines	cousine	NOUN	_	Gender=Fem|Number=Plur	10	reparandum	_	SpaceAfter=No
+13	cousines	cousine	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # text = et je crois qu'il y avait moi.
@@ -816,8 +816,8 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	obl:mod	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
 8	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -835,9 +835,9 @@
 # sent_id = ParisStories_2019_mauriceAventure_51
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	ah	ah	INTJ	_	_	5	discourse	_	_
-2	non	non	INTJ	_	_	5	discourse	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	obl:mod	_	_
+2	non	non	ADV	_	_	5	discourse	_	ExtPos=INTJ
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	père	père	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -849,7 +849,7 @@
 # text = parce que lui il a le vertige, mais il s'est lancé un défi.
 # sent_id = ParisStories_2019_mauriceAventure_52
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	parce	parce	SCONJ	_	_	5	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	_	5	mark	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -859,8 +859,8 @@
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	mais	mais	CCONJ	_	_	13	cc	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-11	s'	se	PRON	_	Person=3|PronType=Prs	13	iobj	_	SpaceAfter=No
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	s'	le	PRON	_	Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	défi	défi	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
@@ -869,11 +869,11 @@
 # text = donc voilà et euh et donc en fait, on comme je disais, c'est un super grand endroit.
 # sent_id = ParisStories_2019_mauriceAventure_53
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	donc	donc	ADV	_	_	2	discourse	_	_
-2	voilà	voilà	VERB	_	_	16	discourse	_	_
-3	et	et	CCONJ	_	_	16	cc	_	_
-4	euh	euh	INTJ	_	_	5	discourse	_	_
-5	et	et	CCONJ	_	_	3	reparandum	_	_
+1	donc	donc	ADV	_	_	2	advmod	_	_
+2	voilà	voilà	VERB	_	_	16	discourse	_	ExtPos=INTJ
+3	et	et	CCONJ	_	_	5	reparandum	_	_
+4	euh	euh	INTJ	_	_	16	discourse	_	_
+5	et	et	CCONJ	_	_	16	cc	_	_
 6	donc	donc	ADV	_	_	16	cc	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	16	discourse	_	SpaceAfter=No
@@ -902,11 +902,11 @@
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 6	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 7	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	prendre	prendre	VERB	_	VerbForm=Inf	7	xcomp	_	_
+8	prendre	prendre	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	bus	bus	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
 11	pour	pour	ADP	_	_	12	mark	_	_
-12	aller	aller	VERB	_	VerbForm=Inf	8	advcl	_	_
+12	aller	aller	VERB	_	VerbForm=Inf	8	advcl	_	Subject=SubjRaising
 13	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
@@ -918,7 +918,7 @@
 # text = enfin tu as des horaires précis de bus, des horaires précis d'activités.
 # sent_id = ParisStories_2019_mauriceAventure_55
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	enfin	enfin	ADV	_	_	3	discourse	_	_
+1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
 2	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
@@ -948,14 +948,14 @@
 # text = Il faut être bien organisé pour pour être là dedans sinon c'est compliqué.
 # sent_id = ParisStories_2019_mauriceAventure_57
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	être	être	AUX	_	VerbForm=Inf	5	cop	_	_
+3	être	être	AUX	_	VerbForm=Inf	5	cop	_	Subject=SubjRaising
 4	bien	bien	ADV	_	_	5	advmod	_	_
 5	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
-6	pour	pour	ADP	_	_	5	dep	_	_
+6	pour	pour	ADP	_	_	8	reparandum	_	_
 7	pour	pour	ADP	_	_	8	mark	_	_
-8	être	être	AUX	_	VerbForm=Inf	6	reparandum	_	_
+8	être	être	AUX	_	VerbForm=Inf	5	advcl	_	Subject=NoRaising
 9	là	là	ADV	_	_	8	advmod	_	_
 10	dedans	dedans	ADV	_	_	8	advmod	_	_
 11	sinon	sinon	CCONJ	_	_	14	cc	_	_
