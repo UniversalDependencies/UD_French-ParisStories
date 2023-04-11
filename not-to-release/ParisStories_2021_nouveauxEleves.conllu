@@ -349,7 +349,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	ville	ville	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	exacte	exact	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	où	où	PRON	_	PronType=Rel	13	advcl	_	_
+11	où	où	PRON	_	PronType=Rel	13	obl:mod	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_

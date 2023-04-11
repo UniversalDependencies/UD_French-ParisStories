@@ -130,7 +130,7 @@
 35	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	nsubj	_	_
 36	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	38	iobj	_	SpaceAfter=No
 37	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux:tense	_	_
-38	offert	offrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+38	offert	offrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	_
 39	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
 40	bref	bref	INTJ	_	_	3	discourse	_	_
 41	voilà	voilà	VERB	_	_	3	discourse	_	ExtPos=INTJ|SpaceAfter=No

@@ -378,7 +378,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	directement	directement	ADV	_	_	6	advmod	_	_
-8	là-bas	là-bas	ADV	_	_	6	iobj	_	SpaceAfter=No
+8	là-bas	là-bas	ADV	_	_	6	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	à	à	ADP	_	_	14	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
@@ -422,7 +422,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	là-bas	là-bas	ADV	_	_	8	iobj	_	SpaceAfter=No
+9	là-bas	là-bas	ADV	_	_	8	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	mais	mais	CCONJ	_	_	14	cc	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_

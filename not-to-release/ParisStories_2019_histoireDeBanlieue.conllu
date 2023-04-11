@@ -10,7 +10,7 @@
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	5	iobj	_	SpaceAfter=No
+7	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # text = en fait j'habite dans une maison en banlieue, la banlieue parisienne.
@@ -347,21 +347,21 @@
 13	quelques	quelque	DET	_	Number=Plur|PronType=Ind	14	det	_	_
 14	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	25	punct	_	_
-16	qui	qui	PRON	_	_	25	reparandum	_	_
+16	qui	qui	PRON	_	PronType=Rel	25	reparandum	_	_
 17	euh	euh	INTJ	_	_	21	discourse	_	_
 18	hum	hum	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	qui	qui	PRON	_	_	21	nsubj	_	_
+20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 21	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	reparandum	_	_
 22	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
-24	qui	qui	PRON	_	_	25	nsubj	_	_
-25	restaient	rester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl	_	_
+24	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	_
+25	restaient	rester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
 26	ici	ici	ADV	_	_	25	advmod	_	_
 27	et	et	CCONJ	_	_	31	cc	_	_
 28	euh	euh	INTJ	_	_	31	discourse	_	_
-29	qui	qui	PRON	_	_	30	reparandum	_	_
-30	qui	qui	PRON	_	_	31	nsubj	_	_
+29	qui	qui	PRON	_	PronType=Rel	30	reparandum	_	_
+30	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	_
 31	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	42	reparandum	_	_
 32	en	en	ADP	_	_	33	case	_	_
 33	train	train	NOUN	_	Gender=Masc|Number=Sing	31	xcomp	_	_
@@ -369,10 +369,10 @@
 35	boire	boire	VERB	_	VerbForm=Inf	33	acl	_	SpaceAfter=No|Subject=SubjRaising
 36	,	,	PUNCT	_	_	42	punct	_	_
 37	enfin	enfin	ADV	_	_	42	discourse	_	ExtPos=INTJ|wordform=fin
-38	qui	qui	PRON	_	_	41	reparandum	_	_
+38	qui	qui	PRON	_	PronType=Rel	41	reparandum	_	_
 39	euh	euh	INTJ	_	_	41	discourse	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
-41	qui	qui	PRON	_	_	42	nsubj	_	_
+41	qui	qui	PRON	_	PronType=Rel	42	nsubj	_	_
 42	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	conj	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	air	air	NOUN	_	Gender=Masc|Number=Sing	42	obj:lvc	_	_
@@ -502,8 +502,8 @@
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	qui	qui	PRON	_	_	15	nsubj	_	_
-15	po~	po~	VERB	_	_	19	reparandum	_	_
-16	port	_	VERB	_	_	19	reparandum	_	SpaceAfter=No
+15	po~	po~	X	_	_	19	reparandum	_	ExtPos=VERB
+16	port	_	X	_	_	19	reparandum	_	ExtPos=VERB|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	qui	qui	PRON	_	_	19	nsubj	_	_
 19	portait	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
@@ -564,7 +564,7 @@
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	reparandum	_	_
-14	par	par	ADP	_	_	13	iobj	_	_
+14	par	par	ADP	_	_	13	obl:mod	_	_
 15	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
@@ -624,7 +624,7 @@
 # speaker = non_native
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	do~	do~	VERB	_	_	6	reparandum	_	_
+3	do~	do~	X	_	_	6	reparandum	_	ExtPos=VERB
 4	et	et	CCONJ	_	_	6	cc	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -642,7 +642,7 @@
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	rue	rue	NOUN	_	Gender=Fem|Number=Sing	7	advcl	_	_
-21	où	où	PRON	_	_	23	advcl	_	_
+21	où	où	PRON	_	_	23	obl:mod	_	_
 22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	SpaceAfter=No
 23	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_

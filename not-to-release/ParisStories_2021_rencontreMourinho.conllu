@@ -167,7 +167,7 @@
 # text = vraiment tous, mais vraiment, ils se sont tous arrêtés, bon, à part un, où il a fait une petite blague.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	vraiment	vraiment	ADV	_	_	5	reparandum	_	_
-2	tous	tout	PRON	_	Gender=Masc|Number=Plur	11	advcl	_	SpaceAfter=No
+2	tous	tout	PRON	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	mais	mais	CCONJ	_	_	5	cc	_	_
 5	vraiment	vraiment	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -184,7 +184,7 @@
 16	part	part	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	obl:mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
-19	où	où	PRON	_	PronType=Rel	22	advcl	_	_
+19	où	où	PRON	_	PronType=Rel	22	obl:mod	_	_
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 22	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
@@ -340,7 +340,7 @@
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	Mourinho	Mourinho	PROPN	_	_	19	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	où	où	PRON	_	PronType=Rel	36	advcl	_	_
+28	où	où	PRON	_	PronType=Rel	36	obl:mod	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	36	dislocated	_	_
 31-32	du	_	_	_	_	_	_	_	_
@@ -723,7 +723,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	11	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	qu'	qu'	PRON	_	Person=3|PronType=Int	0	root	_	SpaceAfter=No
+5	qu'	que	PRON	_	Person=3|PronType=Int	0	root	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	wordform=ce
 8	qu'	qu'	SCONJ	_	_	11	dep:comp	_	SpaceAfter=No

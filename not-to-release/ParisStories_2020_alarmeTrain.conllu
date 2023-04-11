@@ -53,7 +53,7 @@
 22	hum	hum	INTJ	_	_	32	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	oui	oui	ADV	_	_	32	discourse	_	ExtPos=INTJ
-25	du~	du~	DET	_	_	24	dep	_	Scrap=Yes|SpaceAfter=No
+25	du~	du~	X	_	_	24	dep	_	ExtPos=DET|Scrap=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	31	punct	_	_
 27	oui	oui	ADV	_	_	31	discourse	_	ExtPos=INTJ|SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
@@ -155,7 +155,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8970b764f6e6a69f0aa9b79c868c9ac5e23d1941
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	XXX	XXX	X	_	_	2	obj	_	wordform=X
+3	XXX	XXX	X	_	_	2	obj	_	ExtPos=X|wordform=X
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -243,7 +243,7 @@
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 18	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	dislocated	_	_
 19	deux	deux	NUM	_	Number=Plur	18	nmod	_	_
-20	ensemble	ensemble	ADV	_	_	15	acl	_	SpaceAfter=No
+20	ensemble	ensemble	ADV	_	_	15	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_alarmeTrain_12

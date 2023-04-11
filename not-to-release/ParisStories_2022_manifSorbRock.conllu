@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_17_manifSorbRock__1
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = donc du coup, vraiment euh, on a toutes les trois des mineures différentes.
 1	donc	donc	ADV	_	_	10	advmod	_	AlignBegin=0|AlignEnd=250
@@ -23,7 +23,7 @@
 17	.	.	PUNCT	_	_	10	punct	_	AlignBegin=3469|AlignEnd=3469
 
 # sent_id = ParisStories_2022_17_manifSorbRock__2
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais, étonnamment nos emplois du temps étaient assez euh, étaient assez euh, similaires.
 1	mais	mais	CCONJ	_	_	9	cc	_	AlignBegin=3469|AlignEnd=3833|SpaceAfter=No
@@ -47,7 +47,7 @@
 18	.	.	PUNCT	_	_	17	punct	_	AlignBegin=10248|AlignEnd=10248
 
 # sent_id = ParisStories_2022_17_manifSorbRock__3
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = et donc, du coup, on se retrouvait vachement pour déjeuner.
 1	et	et	CCONJ	_	_	10	cc	_	AlignBegin=10248|AlignEnd=10427
@@ -67,7 +67,7 @@
 14	.	.	PUNCT	_	_	10	punct	_	AlignBegin=12306|AlignEnd=12306
 
 # sent_id = ParisStories_2022_17_manifSorbRock__4
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = il y avait Maxime aussi, pas mal.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=12306|AlignEnd=12621
@@ -81,14 +81,14 @@
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=14506|AlignEnd=14506
 
 # sent_id = ParisStories_2022_17_manifSorbRock__5
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=13304|AlignEnd=13483|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=13483|AlignEnd=13483
 
 # sent_id = ParisStories_2022_17_manifSorbRock__6
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = et, euh, et après, on est, bah, ce qui nous a beaucoup rapprochés aus~, c'était au deuxième semestre, parce que il y a eu, euh, il y a eu la mobilisation, etc.
 1	et	et	CCONJ	_	_	5	reparandum	_	AlignBegin=14506|AlignEnd=14731|SpaceAfter=No
@@ -109,7 +109,7 @@
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	AlignBegin=16757|AlignEnd=16982
 17	beaucoup	beaucoup	ADV	_	_	18	advmod	_	AlignBegin=16982|AlignEnd=17291
 18	rapprochés	rapprocher	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	AlignBegin=17291|AlignEnd=17600
-19	aus~	aus~	ADV	_	_	18	discourse	_	AlignBegin=17600|AlignEnd=17909|SpaceAfter=No
+19	aus~	aus~	X	_	_	18	discourse	_	AlignBegin=17600|AlignEnd=17909|ExtPos=ADV|SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	AlignBegin=17909|AlignEnd=17909
 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	AlignBegin=17909|AlignEnd=18218|SpaceAfter=No
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	AlignBegin=18218|AlignEnd=18526
@@ -139,7 +139,7 @@
 45	.	.	PUNCT	_	_	26	punct	_	AlignBegin=25614|AlignEnd=25614
 
 # sent_id = ParisStories_2022_17_manifSorbRock__7
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = donc au début, certes, on se parlait un petit peu, tu vois, en cours et tout.
 1	donc	donc	ADV	_	_	10	advmod	_	AlignBegin=25614|AlignEnd=25842
@@ -167,7 +167,7 @@
 22	.	.	PUNCT	_	_	10	punct	_	AlignBegin=29279|AlignEnd=29279
 
 # sent_id = ParisStories_2022_17_manifSorbRock__8
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais c'est surtout quand on, on allait en AG, quand on allait manif~ …
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=29279|AlignEnd=29510
@@ -185,11 +185,11 @@
 13	quand	quand	SCONJ	_	_	15	mark	_	AlignBegin=32323|AlignEnd=32738
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	AlignBegin=32738|AlignEnd=33153
 15	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	AlignBegin=33153|AlignEnd=33567
-16	manif~	manif~	VERB	_	_	15	ccomp	_	AlignBegin=33567|AlignEnd=33982
+16	manif~	manif~	X	_	_	15	ccomp	_	AlignBegin=33567|AlignEnd=33982|ExtPos=VERB
 17	…	…	PUNCT	_	_	3	punct	_	AlignBegin=33982|AlignEnd=33982
 
 # sent_id = ParisStories_2022_17_manifSorbRock__9
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = quand vous étiez à la manif, ouais.
 1	quand	quand	SCONJ	_	_	3	mark	_	AlignBegin=32406|AlignEnd=32669
@@ -203,7 +203,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=33982|AlignEnd=33982
 
 # sent_id = ParisStories_2022_17_manifSorbRock__10
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = ouais, quand on allait manifester.
 1	ouais	ouais	INTJ	_	_	5	discourse	_	AlignBegin=33982|AlignEnd=34631|SpaceAfter=No
@@ -215,7 +215,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=37229|AlignEnd=37229
 
 # sent_id = ParisStories_2022_17_manifSorbRock__11
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = et euh, ça, ça nous a …
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=37229|AlignEnd=37878
@@ -229,7 +229,7 @@
 9	…	…	PUNCT	_	_	8	punct	_	AlignBegin=41125|AlignEnd=41125
 
 # sent_id = ParisStories_2022_17_manifSorbRock__12
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = puis surtout, euh, qu'on avait organisé, euh, la soirée.
 1	puis	puis	CCONJ	_	_	9	cc	_	AlignBegin=37293|AlignEnd=37676
@@ -249,7 +249,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	AlignBegin=41125|AlignEnd=41125
 
 # sent_id = ParisStories_2022_17_manifSorbRock__13
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = euh bah, après on était déjà, on était déjà proche à ce moment-là.
 1	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=41125|AlignEnd=41481
@@ -271,7 +271,7 @@
 17	.	.	PUNCT	_	_	12	punct	_	AlignBegin=45190|AlignEnd=45190
 
 # sent_id = ParisStories_2022_17_manifSorbRock__14
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = tu te souviens ?
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=41125|AlignEnd=41342
@@ -280,7 +280,7 @@
 4	?	?	PUNCT	_	_	3	punct	_	AlignBegin=41777|AlignEnd=41777
 
 # sent_id = ParisStories_2022_17_manifSorbRock__15
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = mh mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=44856|AlignEnd=45035
@@ -288,7 +288,7 @@
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=45214|AlignEnd=45214
 
 # sent_id = ParisStories_2022_17_manifSorbRock__16
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais, oui oui oui, bien sûr.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=45190|AlignEnd=45450|SpaceAfter=No
@@ -302,7 +302,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=46747|AlignEnd=46747
 
 # sent_id = ParisStories_2022_17_manifSorbRock__17
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = parce que tu m'avais dit que c'était euh, quoi, c'était en janvier où vous avez commencé à vous connaître ?
 1	parce	parce	ADV	_	_	6	mark	_	AlignBegin=46747|AlignEnd=46918|ExtPos=SCONJ|Idiom=Yes
@@ -322,7 +322,7 @@
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	AlignBegin=48800|AlignEnd=48971
 16	en	en	ADP	_	_	17	case	_	AlignBegin=48971|AlignEnd=49142
 17	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	ccomp	_	AlignBegin=49142|AlignEnd=49313
-18	où	où	PRON	_	_	21	advcl	_	AlignBegin=49313|AlignEnd=49485
+18	où	où	PRON	_	_	21	obl:mod	_	AlignBegin=49313|AlignEnd=49485
 19	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	21	nsubj	_	AlignBegin=49485|AlignEnd=49656
 20	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	aux:tense	_	AlignBegin=49656|AlignEnd=49827
 21	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	AlignBegin=49827|AlignEnd=49998
@@ -332,7 +332,7 @@
 25	?	?	PUNCT	_	_	6	punct	_	AlignBegin=50340|AlignEnd=50340
 
 # sent_id = ParisStories_2022_17_manifSorbRock__18
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = euh, ouais, non, avant, parce que phonologie, c'était au premier semestre.
 1	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=50340|AlignEnd=51844|SpaceAfter=No
@@ -357,7 +357,7 @@
 19	.	.	PUNCT	_	_	14	punct	_	AlignBegin=57428|AlignEnd=57428
 
 # sent_id = ParisStories_2022_17_manifSorbRock__19
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = non, un peu avant.
 1	non	non	ADV	_	_	5	discourse	_	AlignBegin=54858|AlignEnd=55049|SpaceAfter=No
@@ -368,7 +368,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=55623|AlignEnd=55623
 
 # sent_id = ParisStories_2022_17_manifSorbRock__20
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = ah oui.
 1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=57131|AlignEnd=57280
@@ -376,7 +376,7 @@
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=57428|AlignEnd=57428
 
 # sent_id = ParisStories_2022_17_manifSorbRock__21
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = non, non, c'est vraiment le premier semestre.
 1	non	non	ADV	_	_	10	discourse	_	AlignBegin=58338|AlignEnd=58527|SpaceAfter=No
@@ -392,7 +392,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=59849|AlignEnd=59849
 
 # sent_id = ParisStories_2022_17_manifSorbRock__22
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = après on est devenu proche au deuxième.
 1	après	après	ADV	_	_	4	advmod	_	AlignBegin=59849|AlignEnd=60147
@@ -407,24 +407,24 @@
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=61934|AlignEnd=61934
 
 # sent_id = ParisStories_2022_17_manifSorbRock__23
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=61696|AlignEnd=61934|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=61934|AlignEnd=61934
 
 # sent_id = ParisStories_2022_17_manifSorbRock__24
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais on s~, la première fois où on s'est rencontré, c'est vraiment, euh, au premier semestre de la L2.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=61934|AlignEnd=62119
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	AlignBegin=62119|AlignEnd=62304
-3	s~	s~	VERB	_	Number=Sing|Person=3	23	reparandum	_	AlignBegin=62304|AlignEnd=62489|SpaceAfter=No
+3	s~	s~	X	_	Number=Sing|Person=3	23	reparandum	_	AlignBegin=62304|AlignEnd=62489|ExtPos=VERB|SpaceAfter=No
 4	,	,	PUNCT	_	_	23	punct	_	AlignBegin=62489|AlignEnd=62489
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=62489|AlignEnd=62674
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	AlignBegin=62674|AlignEnd=62859
 7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	AlignBegin=62859|AlignEnd=63044
-8	où	où	PRON	_	_	12	advcl	_	AlignBegin=63044|AlignEnd=63229
+8	où	où	PRON	_	_	12	obl:mod	_	AlignBegin=63044|AlignEnd=63229
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	AlignBegin=63229|AlignEnd=63414
 10	s'	se	PRON	_	_	12	obj	_	AlignBegin=63414|AlignEnd=63599|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	AlignBegin=63599|AlignEnd=63784
@@ -447,7 +447,7 @@
 27	.	.	PUNCT	_	_	23	punct	_	AlignBegin=66662|AlignEnd=66662
 
 # sent_id = ParisStories_2022_17_manifSorbRock__25
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = ouais, vous vous êtez rapprochées pendant la mob~, pendant la mobilisation.
 1	ouais	ouais	INTJ	_	_	6	discourse	_	AlignBegin=65606|AlignEnd=65862|SpaceAfter=No
@@ -458,7 +458,7 @@
 6	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=66629|AlignEnd=66885
 7	pendant	pendant	ADP	_	_	9	case	_	AlignBegin=66885|AlignEnd=67141
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=67141|AlignEnd=67397
-9	mob~	mob~	NOUN	_	_	13	reparandum	_	AlignBegin=67397|AlignEnd=67653|SpaceAfter=No
+9	mob~	mob~	X	_	_	13	reparandum	_	AlignBegin=67397|AlignEnd=67653|ExtPos=NOUN|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=67653|AlignEnd=67653
 11	pendant	pendant	ADP	_	_	13	case	_	AlignBegin=67653|AlignEnd=67908
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=67908|AlignEnd=68164
@@ -466,18 +466,18 @@
 14	.	.	PUNCT	_	_	6	punct	_	AlignBegin=68420|AlignEnd=68420
 
 # sent_id = ParisStories_2022_17_manifSorbRock__26
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = ouais, p~, ouais.
 1	ouais	ouais	INTJ	_	_	3	reparandum	_	AlignBegin=68656|AlignEnd=68845|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=68845|AlignEnd=68845
-3	p~	p~	X	_	_	0	root	_	AlignBegin=68845|AlignEnd=69034|SpaceAfter=No
+3	p~	p~	X	_	_	0	root	_	AlignBegin=68845|AlignEnd=69034|ExtPos=X|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=69034|AlignEnd=69034
 5	ouais	ouais	INTJ	_	_	3	conj	_	AlignBegin=69034|AlignEnd=69223|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=69223|AlignEnd=69223
 
 # sent_id = ParisStories_2022_17_manifSorbRock__27
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = je ne sais pas où elle était en L1, d'ailleurs, parce je me souviens même pas d'elle.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=69223|AlignEnd=69411
@@ -504,7 +504,7 @@
 22	.	.	PUNCT	_	_	3	punct	_	AlignBegin=72735|AlignEnd=72735
 
 # sent_id = ParisStories_2022_17_manifSorbRock__28
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = apparemment elle, elle m'a~, elle m'avait déjà repérée en L1.
 1	apparemment	apparemment	ADV	_	_	6	advmod	_	AlignBegin=72735|AlignEnd=72986
@@ -512,7 +512,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=73238|AlignEnd=73238
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=73238|AlignEnd=73489
 5	m'	le	PRON	_	_	6	obj	_	AlignBegin=73489|AlignEnd=73740|SpaceAfter=No
-6	a~	avoir	VERB	_	Number=Sing|Person=3	12	reparandum	_	AlignBegin=73740|AlignEnd=73991|SpaceAfter=No
+6	a~	avoir	X	_	Number=Sing|Person=3	12	reparandum	_	AlignBegin=73740|AlignEnd=73991|ExtPos=VERB|SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	AlignBegin=73991|AlignEnd=73991
 8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=73991|AlignEnd=74243
 9	m'	le	PRON	_	_	12	obj	_	AlignBegin=74243|AlignEnd=74494|SpaceAfter=No
@@ -524,7 +524,7 @@
 15	.	.	PUNCT	_	_	12	punct	_	AlignBegin=75750|AlignEnd=75750
 
 # sent_id = ParisStories_2022_17_manifSorbRock__29
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = parce qu'on en a parlé et, moi, j'avais pas du tout capté.
 1	parce	parce	ADV	_	_	6	mark	_	AlignBegin=75750|AlignEnd=75937|ExtPos=SCONJ|Idiom=Yes
@@ -548,14 +548,14 @@
 18	.	.	PUNCT	_	_	6	punct	_	AlignBegin=78369|AlignEnd=78369
 
 # sent_id = ParisStories_2022_17_manifSorbRock__30
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=76708|AlignEnd=76865|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=76865|AlignEnd=76865
 
 # sent_id = ParisStories_2022_17_manifSorbRock__31
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = je suis pas très observatrice.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=78957|AlignEnd=79189
@@ -566,7 +566,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=80118|AlignEnd=80118
 
 # sent_id = ParisStories_2022_17_manifSorbRock__32
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = et euh, je …
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=80892|AlignEnd=81453
@@ -576,7 +576,7 @@
 5	…	…	PUNCT	_	_	4	punct	_	AlignBegin=82576|AlignEnd=82576
 
 # sent_id = ParisStories_2022_17_manifSorbRock__33
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = ça dépend pour quoi.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=82576|AlignEnd=82745
@@ -586,7 +586,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=83250|AlignEnd=83250
 
 # sent_id = ParisStories_2022_17_manifSorbRock__34
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = non, non.
 1	non	non	ADV	_	_	0	root	_	AlignBegin=83473|AlignEnd=83707|SpaceAfter=No
@@ -595,7 +595,7 @@
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=83941|AlignEnd=83941
 
 # sent_id = ParisStories_2022_17_manifSorbRock__35
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = ah, non, mais, pour les gens, euh, je …
 1	ah	ah	INTJ	_	_	9	discourse	_	AlignBegin=85009|AlignEnd=85405|SpaceAfter=No
@@ -614,7 +614,7 @@
 14	…	…	PUNCT	_	_	13	punct	_	AlignBegin=88176|AlignEnd=88176
 
 # sent_id = ParisStories_2022_17_manifSorbRock__36
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = non, les gens de ma licence, euh, je con~, si je connais quatre prénoms, c'est le bout du monde.
 1	non	non	ADV	_	_	12	discourse	_	AlignBegin=88176|AlignEnd=88383|SpaceAfter=No
@@ -628,7 +628,7 @@
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=89417|AlignEnd=89624|SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	AlignBegin=89624|AlignEnd=89624
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=89624|AlignEnd=89831
-12	con~	con~	VERB	_	_	23	reparandum	_	AlignBegin=89831|AlignEnd=90038|SpaceAfter=No
+12	con~	con~	X	_	_	23	reparandum	_	AlignBegin=89831|AlignEnd=90038|ExtPos=VERB|SpaceAfter=No
 13	,	,	PUNCT	_	_	23	punct	_	AlignBegin=90038|AlignEnd=90038
 14	si	si	SCONJ	_	_	16	mark	_	AlignBegin=90038|AlignEnd=90203
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=90203|AlignEnd=90367
@@ -647,14 +647,14 @@
 27	.	.	PUNCT	_	_	23	punct	_	AlignBegin=91848|AlignEnd=91848
 
 # sent_id = ParisStories_2022_17_manifSorbRock__37
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = donc, euh non j~, non, vraiment, les gens je les repère pas.
 1	donc	donc	ADV	_	_	15	advmod	_	AlignBegin=92598|AlignEnd=92792|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=92792|AlignEnd=92792
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=92792|AlignEnd=92987
 4	non	non	ADV	_	_	7	reparandum	_	AlignBegin=92987|AlignEnd=93181
-5	j~	j~	PRON	_	_	13	reparandum	_	AlignBegin=93181|AlignEnd=93375|SpaceAfter=No
+5	j~	j~	X	_	_	13	reparandum	_	AlignBegin=93181|AlignEnd=93375|ExtPos=PRON|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=93375|AlignEnd=93375
 7	non	non	ADV	_	_	15	discourse	_	AlignBegin=93375|AlignEnd=93569|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=93569|AlignEnd=93569
@@ -669,7 +669,7 @@
 17	.	.	PUNCT	_	_	15	punct	_	AlignBegin=94929|AlignEnd=94929
 
 # sent_id = ParisStories_2022_17_manifSorbRock__38
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais il y a trop de gens aussi, euh.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=94929|AlignEnd=95095
@@ -685,7 +685,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=96421|AlignEnd=96421
 
 # sent_id = ParisStories_2022_17_manifSorbRock__39
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = ça fait beaucoup dans un amphithéâtre, euh.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=96421|AlignEnd=96642
@@ -699,7 +699,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=97967|AlignEnd=97967
 
 # sent_id = ParisStories_2022_17_manifSorbRock__40
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = si tu veux, si la personne ne se manifeste pas super régulièrement, tu repères pas les gens.
 1	si	si	SCONJ	_	_	3	mark	_	AlignBegin=97967|AlignEnd=98188
@@ -724,7 +724,7 @@
 20	.	.	PUNCT	_	_	16	punct	_	AlignBegin=101923|AlignEnd=101923
 
 # sent_id = ParisStories_2022_17_manifSorbRock__41
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = mh mh.
 1	mh	mh	INTJ	_	_	2	reparandum	_	AlignBegin=102369|AlignEnd=102539
@@ -732,7 +732,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=102708|AlignEnd=102708
 
 # sent_id = ParisStories_2022_17_manifSorbRock__42
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = tu vois.
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=102708|AlignEnd=102835
@@ -740,7 +740,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=102962|AlignEnd=102962
 
 # sent_id = ParisStories_2022_17_manifSorbRock__43
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = pourtant, c'est une petite licence, hein !
 1	pourtant	pourtant	ADV	_	_	7	advmod	_	AlignBegin=103938|AlignEnd=104114|SpaceAfter=No
@@ -755,7 +755,7 @@
 10	!	!	PUNCT	_	_	7	punct	_	AlignBegin=105167|AlignEnd=105167
 
 # sent_id = ParisStories_2022_17_manifSorbRock__44
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = oui, euh, bah, ouais.
 1	oui	oui	ADV	_	_	0	root	_	AlignBegin=106054|AlignEnd=106326|ExtPos=INTJ|SpaceAfter=No
@@ -768,7 +768,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	AlignBegin=107140|AlignEnd=107140
 
 # sent_id = ParisStories_2022_17_manifSorbRock__45
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = pas une école de commerce, ni rien, hein ?
 1	pas	pas	ADV	_	_	3	advmod	_	AlignBegin=106906|AlignEnd=107076
@@ -784,7 +784,7 @@
 11	?	?	PUNCT	_	_	3	punct	_	AlignBegin=108266|AlignEnd=108266
 
 # sent_id = ParisStories_2022_17_manifSorbRock__46
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = oui mais en même temps, bon, qu'est-ce qu'on irait foutre en école de commerce, hein ?
 1	oui	oui	ADV	_	_	9	discourse	_	AlignBegin=108743|AlignEnd=108941|ExtPos=INTJ
@@ -811,7 +811,7 @@
 22	?	?	PUNCT	_	_	9	punct	_	AlignBegin=113019|AlignEnd=113019
 
 # sent_id = ParisStories_2022_17_manifSorbRock__47
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = non, mais oui, c'est une petite licence.
 1	non	non	ADV	_	_	10	discourse	_	AlignBegin=114705|AlignEnd=114934|SpaceAfter=No
@@ -827,7 +827,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=116538|AlignEnd=116538
 
 # sent_id = ParisStories_2022_17_manifSorbRock__48
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais pour autant euh, en soi et si les gens me parlent et tout ça, je les retiens, tu vois.
 1	mais	mais	CCONJ	_	_	20	cc	_	AlignBegin=116538|AlignEnd=116768
@@ -856,7 +856,7 @@
 24	.	.	PUNCT	_	_	20	punct	_	AlignBegin=120169|AlignEnd=120169
 
 # sent_id = ParisStories_2022_17_manifSorbRock__49
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mais bon, déjà, je retiens pas les prénoms.
 1	mais	mais	CCONJ	_	_	7	cc	_	AlignBegin=120169|AlignEnd=120376
@@ -872,7 +872,7 @@
 11	.	.	PUNCT	_	_	7	punct	_	AlignBegin=121823|AlignEnd=121823
 
 # sent_id = ParisStories_2022_17_manifSorbRock__50
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = et ensuite, c'est pas, ouais.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=121823|AlignEnd=122029
@@ -886,7 +886,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=124523|AlignEnd=124523
 
 # sent_id = ParisStories_2022_17_manifSorbRock__51
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = enfin bon, du coup oui, on s'est rapproché pendant la mobilisation, et aussi beaucoup, euh, pendant nos cours de rock, tu sais.
 1	enfin	enfin	ADV	_	_	12	discourse	_	AlignBegin=124523|AlignEnd=124742|ExtPos=INTJ
@@ -923,7 +923,7 @@
 31	.	.	PUNCT	_	_	12	punct	_	AlignBegin=130403|AlignEnd=130403
 
 # sent_id = ParisStories_2022_17_manifSorbRock__52
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = mh, c'est vrai.
 1	mh	mh	INTJ	_	_	5	discourse	_	AlignBegin=130596|AlignEnd=130891|SpaceAfter=No
@@ -934,14 +934,14 @@
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=131776|AlignEnd=131776
 
 # sent_id = ParisStories_2022_17_manifSorbRock__53
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=131459|AlignEnd=131614|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=131614|AlignEnd=131614
 
 # sent_id = ParisStories_2022_17_manifSorbRock__54
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = c'est l'association avec la fac ?
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=132049|AlignEnd=132250|SpaceAfter=No
@@ -954,7 +954,7 @@
 8	?	?	PUNCT	_	_	4	punct	_	AlignBegin=133456|AlignEnd=133456
 
 # sent_id = ParisStories_2022_17_manifSorbRock__55
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L1
 # text = mh, Sorb'Rock, qui a fermé, du coup.
 1	mh	mh	INTJ	_	_	3	discourse	_	AlignBegin=133651|AlignEnd=134066|SpaceAfter=No
@@ -973,14 +973,14 @@
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=136066|AlignEnd=136066
 
 # sent_id = ParisStories_2022_17_manifSorbRock__56
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=134690|AlignEnd=134896|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=134896|AlignEnd=134896
 
 # sent_id = ParisStories_2022_17_manifSorbRock__57
-# sound_url = PS_2022_17_manifSorbRock.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/55d3602766bbe5872e7d568f5a470911bf2e8ea0
 # speaker = L2
 # text = oh, triste.
 1	oh	oh	INTJ	_	_	3	discourse	_	AlignBegin=136363|AlignEnd=136784|SpaceAfter=No

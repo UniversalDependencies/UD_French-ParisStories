@@ -18,7 +18,7 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	jour	jour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-16	où	où	PRON	_	PronType=Rel	20	advcl	_	_
+16	où	où	PRON	_	PronType=Rel	20	obl:mod	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
 19	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
@@ -123,7 +123,7 @@
 14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	où	où	PRON	_	PronType=Rel	19	advcl	_	_
+17	où	où	PRON	_	PronType=Rel	19	obl:mod	_	_
 18	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
 20	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
@@ -363,13 +363,13 @@
 9	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
 10	frère	frère	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
-12	où	où	PRON	_	PronType=Rel	16	advcl	_	_
+12	où	où	PRON	_	PronType=Rel	16	obl:mod	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 16	goûtait	goûter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	où	où	PRON	_	PronType=Rel	20	advcl	_	_
+18	où	où	PRON	_	PronType=Rel	20	obl:mod	_	_
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
 20	vidait	vider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
 21	son	son	DET	_	Gender=Masc|Number=Sing	22	det	_	_
@@ -391,7 +391,7 @@
 # sent_id = ParisStories_2021_neesLeMemeMois_17
 # text = qu'est -ce qu'on faisait?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
-1	qu'	qu'	PRON	_	Person=3|PronType=Int	0	root	_	SpaceAfter=No
+1	qu'	que	PRON	_	Person=3|PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	nsubj	_	wordform=ce
 4	qu'	qu'	SCONJ	_	_	6	dep:comp	_	SpaceAfter=No
@@ -440,7 +440,7 @@
 8	à	à	ADP	_	_	10	case	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	moment	moment	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
-11	où	où	PRON	_	PronType=Rel	17	advcl	_	_
+11	où	où	PRON	_	PronType=Rel	17	obl:mod	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj:pass	_	_

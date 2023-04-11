@@ -261,7 +261,7 @@
 32	où	où	PRON	_	PronType=Rel	34	reparandum	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	là	là	ADV	_	_	27	advmod	_	_
-35	où	où	PRON	_	PronType=Rel	37	advcl	_	_
+35	où	où	PRON	_	PronType=Rel	37	obl:mod	_	_
 36	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	37	nsubj	_	_
 37	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
 38	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
@@ -331,7 +331,7 @@
 # text = enfin d~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ|wordform=fin
-2	d~	de	ADP	_	_	5	reparandum	_	SpaceAfter=No
+2	d~	de	X	_	_	5	reparandum	_	ExtPos=ADP|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
@@ -393,7 +393,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	où	où	PRON	_	PronType=Rel	22	advcl	_	_
+19	où	où	PRON	_	PronType=Rel	22	obl:mod	_	_
 20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 22	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	reparandum	_	SpaceAfter=No
@@ -483,7 +483,7 @@
 56	,	,	PUNCT	_	_	59	punct	_	_
 57	euh	euh	INTJ	_	_	59	discourse	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	59	punct	_	_
-59	dessus	dessus	ADV	_	_	49	iobj	_	SpaceAfter=No
+59	dessus	dessus	ADV	_	_	49	obl:mod	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_16

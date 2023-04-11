@@ -79,10 +79,10 @@
 12	y	y	PRON	_	Person=3|PronType=Prs	13	expl	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 14	plein	plein	ADV	_	_	17	reparandum	_	_
-15	de	de	ADP	_	_	14	iobj	_	SpaceAfter=No
+15	de	de	ADP	_	_	14	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	plein	plein	ADV	_	_	19	advmod	_	_
-18	d'	d'	ADP	_	_	17	iobj	_	SpaceAfter=No
+18	d'	d'	ADP	_	_	17	obl:mod	_	SpaceAfter=No
 19	activités	activité	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -486,7 +486,7 @@
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plein	plein	ADV	_	_	5	advmod	_	_
-4	d'	d'	ADP	_	_	3	iobj	_	SpaceAfter=No
+4	d'	d'	ADP	_	_	3	obl:mod	_	SpaceAfter=No
 5	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -541,7 +541,7 @@
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	7	advmod	_	_
-6	de	de	ADP	_	_	5	iobj	_	_
+6	de	de	ADP	_	_	5	obl:mod	_	_
 7	paysages	paysage	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 8	magnifiques	magnifique	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -556,7 +556,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 6	monte	monter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	tout	tout	ADV	_	_	8	advmod	_	_
-8	là-haut	là-haut	ADV	_	_	6	iobj	_	SpaceAfter=No
+8	là-haut	là-haut	ADV	_	_	6	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 
 # text = on a une vue sur la mer.

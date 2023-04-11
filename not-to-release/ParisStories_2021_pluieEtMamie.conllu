@@ -9,11 +9,11 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	premier	premier	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
-8	où	où	PRON	_	PronType=Rel	11	advcl	_	_
+8	où	où	PRON	_	PronType=Rel	11	obl:mod	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
-12	XXX	XXX	X	_	_	11	obj	_	SpaceAfter=No
+12	XXX	XXX	X	_	_	11	obj	_	ExtPos=X|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
@@ -158,7 +158,7 @@
 24	Mamie	Mamie	PROPN	_	_	25	nsubj	_	_
 25	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
 26	autre	autre	ADJ	_	Number=Sing	27	amod	_	_
-27	part	part	NOUN	_	Gender=Fem|Number=Sing	25	iobj	_	_
+27	part	part	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
 28	et	et	CCONJ	_	_	33	cc	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	33	punct	_	_
 30	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	33	dislocated	_	SpaceAfter=No
@@ -173,7 +173,7 @@
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	coup	coup	NOUN	_	Gender=Masc|Number=Sing	40	discourse	_	_
 40	rejoindre	rejoindre	VERB	_	VerbForm=Inf	33	xcomp	_	Subject=SubjRaising
-41	XXX	XXX	X	_	_	40	obj	_	SpaceAfter=No
+41	XXX	XXX	X	_	_	40	obj	_	ExtPos=X|SpaceAfter=No
 42	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_8
@@ -500,7 +500,7 @@
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	wordform=du
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	XXX	XXX	X	_	_	8	nmod	_	SpaceAfter=No
+15	XXX	XXX	X	_	_	8	nmod	_	ExtPos=X|SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_25
@@ -542,7 +542,7 @@
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	Reported=Yes
 11	aller	aller	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	à	à	ADP	_	_	13	case	_	_
-13	XXX	XXX	X	_	_	11	obl:mod	_	SpaceAfter=No
+13	XXX	XXX	X	_	_	11	obl:mod	_	ExtPos=X|SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_27
@@ -618,7 +618,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	XXX	XXX	X	_	_	7	obl:arg	_	SpaceAfter=No
+9	XXX	XXX	X	_	_	7	obl:arg	_	ExtPos=X|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_32
@@ -654,6 +654,6 @@
 4	manger	manger	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	à	à	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	XXX	XXX	X	_	_	4	obl:mod	_	SpaceAfter=No
+7	XXX	XXX	X	_	_	4	obl:mod	_	ExtPos=X|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 

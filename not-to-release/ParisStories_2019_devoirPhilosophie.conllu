@@ -510,9 +510,9 @@
 7	expliquait	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	comment	comment	ADV	_	_	7	obj	_	_
+10	comment	comment	ADV	_	_	12	advmod	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+12	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	16	det	_	_
@@ -714,7 +714,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	parfois	parfois	ADV	_	_	11	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	i~	i~	PRON	_	_	10	reparandum	_	SpaceAfter=No
+8	i~	i~	X	_	_	10	reparandum	_	ExtPos=PRON|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 11	respectaient	respecter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_

@@ -449,7 +449,7 @@
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
 34	autre	autre	ADJ	_	Number=Sing	35	amod	_	_
 35	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
-36	où	où	PRON	_	PronType=Rel	38	advcl	_	_
+36	où	où	PRON	_	PronType=Rel	38	obl:mod	_	_
 37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	nsubj	_	_
 38	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
 39	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	40	det	_	_
@@ -637,7 +637,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-5	q~	q~	X	_	_	8	reparandum	_	_
+5	q~	q~	X	_	_	8	reparandum	_	ExtPos=X
 6	quand	quand	SCONJ	_	_	8	mark	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 8	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
@@ -843,7 +843,7 @@
 1	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	pers~	pers~	NOUN	_	_	6	reparandum	_	_
+4	pers~	pers~	X	_	_	6	reparandum	_	ExtPos=NOUN
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	personne	personne	NOUN	_	Gender=Fem|Number=Sing	15	dislocated	_	_
 7	chez	chez	ADP	_	_	8	case	_	_

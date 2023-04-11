@@ -158,7 +158,7 @@
 5	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	griffer	griffer	VERB	_	VerbForm=Inf	11	reparandum	_	Subject=SubjRaising
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	f~	f~	X	_	_	6	obj	_	SpaceAfter=No
+8	f~	f~	X	_	_	6	obj	_	ExtPos=X|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	à	à	ADP	_	_	11	mark	_	_
 11	partir	partir	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
@@ -332,7 +332,7 @@
 # status = done
 # sent_id = ParisStories_2021_loulouLeChat_18
 # speaker = L1
-# macrosyntax =donc euh, [ il se méfie ] ouais, il se méfie.
+# macrosyntax = donc euh, [ il se méfie ] ouais, il se méfie.
 # text = donc euh, ouais, il se méfie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	donc	donc	ADV	_	_	8	advmod	_	_
@@ -348,7 +348,7 @@
 # status = done
 # sent_id = ParisStories_2021_loulouLeChat_18bis
 # speaker = L2
-# macrosyntax =donc euh, [ il se méfie ] ouais, il se méfie.
+# macrosyntax = donc euh, [ il se méfie ] ouais, il se méfie.
 # text = il se méfie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -438,7 +438,7 @@
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
 7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	beaucoup	beaucoup	ADV	_	_	9	advmod	_	_
-9	mieux	mieux	ADV	_	_	7	iobj	_	SpaceAfter=No
+9	mieux	mieux	ADV	_	_	7	obl:mod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_25
@@ -677,7 +677,7 @@
 # speaker = L2
 # text = XXX.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
-1	XXX	XXX	X	_	_	0	root	_	SpaceAfter=No
+1	XXX	XXX	X	_	_	0	root	_	ExtPos=X|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_40bis

@@ -23,7 +23,7 @@
 19	fois	fois	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 20	où	où	PRON	_	PronType=Rel	22	reparandum	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
-22	où	où	PRON	_	PronType=Rel	25	advcl	_	_
+22	où	où	PRON	_	PronType=Rel	25	obl:mod	_	_
 23	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	SpaceAfter=No
 24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 25	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_

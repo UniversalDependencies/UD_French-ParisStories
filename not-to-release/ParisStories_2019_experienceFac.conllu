@@ -395,7 +395,7 @@
 10	peu	peu	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	complètement	complètement	ADV	_	_	13	advmod	_	_
-13	dispro~	dispro~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	_
+13	dispro~	dispro~	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	ExtPos=VERB
 14	disproportionné	disproportionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -659,7 +659,7 @@
 11	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	super	super	ADV	_	_	13	advmod	_	_
 13	bien	bien	ADV	_	_	11	advmod	_	_
-14	avec	avec	ADP	_	_	11	iobj	_	SpaceAfter=No
+14	avec	avec	ADP	_	_	11	obl:mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_38
@@ -1150,8 +1150,8 @@
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 12	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
-13	à	à	ADP	_	_	14	mark	_	_
-14	découvrir	découvrir	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+13	à	à	ADP	_	_	12	obl:mod	_	_
+14	découvrir	découvrir	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_71
@@ -1325,7 +1325,7 @@
 29	euh	euh	INTJ	_	_	32	discourse	_	_
 30	ouais	ouais	INTJ	_	_	32	discourse	_	_
 31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
-32	hu~	hu~	NOUN	_	Gender=Masc|Number=Sing	34	reparandum	_	_
+32	hu~	hu~	X	_	Gender=Masc|Number=Sing	34	reparandum	_	ExtPos=NOUN
 33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 34	humain	humain	ADJ	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	28	punct	_	_
