@@ -50,7 +50,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	rue	rue	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
-18	y	y	PRON	_	Person=3|PronType=Prs	19	expl	_	_
+18	y	y	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	_
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	très	très	ADV	_	_	22	advmod	_	_
@@ -68,7 +68,7 @@
 1	en	en	ADP	_	_	4	discourse	_	ExtPos=ADV|Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	s~	savoir	X	_	_	7	reparandum	_	ExtPos=VERB
+4	s~	s~	VERB	_	_	7	reparandum	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	reparandum	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -158,7 +158,7 @@
 17	que	que	PRON	_	PronType=Rel	21	obj	_	_
 18	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	allais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
-20	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	21	expl	_	_
+20	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	21	expl:comp	_	_
 21	préparer	préparer	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=SubjRaising
 22	pour	pour	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -299,7 +299,7 @@
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	frites	frite	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
-6	maison	maison	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
+6	maison	maison	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_13
@@ -679,7 +679,7 @@
 7	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	Reported=Yes
 8	antillaise	antillais	ADJ	_	Gender=Fem|Number=Sing	7	xcomp	_	_
 9	plus	plus	ADV	_	_	10	advmod	_	_
-10	préci~	préci~	X	_	_	12	reparandum	_	ExtPos=ADV
+10	préci~	préci~	ADV	_	_	12	reparandum	_	_
 11	plus	plus	ADV	_	_	12	advmod	_	_
 12	précisément	précisément	ADV	_	_	15	advmod	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -709,7 +709,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	comment	comment	ADV	_	_	4	advmod	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	expl:subj	_	_
-3	se	se	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	se	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 5	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -768,7 +768,7 @@
 16	peau	peau	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
-19	y	y	PRON	_	Person=3|PronType=Prs	20	expl	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	antillais	antillais	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_

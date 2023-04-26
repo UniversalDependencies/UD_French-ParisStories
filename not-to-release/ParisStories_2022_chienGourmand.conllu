@@ -99,7 +99,7 @@
 3	là	là	ADV	_	_	7	advmod	_	AlignBegin=12316|AlignEnd=12501|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=12501|AlignEnd=12501
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=12501|AlignEnd=12686
-6	y	y	PRON	_	_	7	expl	_	AlignBegin=12686|AlignEnd=12871
+6	y	y	PRON	_	_	7	expl:comp	_	AlignBegin=12686|AlignEnd=12871
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=12871|AlignEnd=13055
 8	plein	plein	ADV	_	_	7	obj	_	AlignBegin=13055|AlignEnd=13240
 9	de	de	ADP	_	_	11	case	_	AlignBegin=13240|AlignEnd=13425
@@ -418,7 +418,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	AlignBegin=51625|AlignEnd=51753
 6	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=51753|AlignEnd=51882
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=51882|AlignEnd=52010
-8	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	AlignBegin=52010|AlignEnd=52138
+8	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	AlignBegin=52010|AlignEnd=52138
 9	ensemble	ensemble	ADV	_	_	6	advmod	_	AlignBegin=52138|AlignEnd=52266|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=52266|AlignEnd=52266
 
@@ -472,7 +472,7 @@
 2	moi	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dislocated	_	AlignBegin=57833|AlignEnd=57971|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=57971|AlignEnd=57971
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=57971|AlignEnd=58108
-5	m'	me	PRON	_	_	6	expl	_	AlignBegin=58108|AlignEnd=58246|SpaceAfter=No
+5	m'	me	PRON	_	_	6	expl:comp	_	AlignBegin=58108|AlignEnd=58246|SpaceAfter=No
 6	occupe	occuper	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=58246|AlignEnd=58384
 7	beaucoup	beaucoup	ADV	_	_	6	advmod	_	AlignBegin=58384|AlignEnd=58522
 8	beaucoup	beaucoup	ADV	_	_	7	conj	_	AlignBegin=58522|AlignEnd=58659

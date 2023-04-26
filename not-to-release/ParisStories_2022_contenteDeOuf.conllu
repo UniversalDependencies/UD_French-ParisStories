@@ -258,7 +258,7 @@
 7	de	de	ADP	_	_	6	dep	_	AlignBegin=34807|AlignEnd=35122|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=35122|AlignEnd=35122
 9	contente	content	ADJ	_	_	0	root	_	AlignBegin=35122|AlignEnd=35438
-10	de	de	ADP	_	_	9	obl:mod	_	AlignBegin=35438|AlignEnd=35753
+10	de	de	ADP	_	_	9	obl:arg	_	AlignBegin=35438|AlignEnd=35753
 11	…	…	PUNCT	_	_	9	punct	_	AlignBegin=35753|AlignEnd=35753
 
 # sent_id = ParisStories_2022_19_contenteDeOuf__18
@@ -338,7 +338,7 @@
 9	-y	y	PRON	_	Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	AlignBegin=46408|AlignEnd=46408
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	AlignBegin=46408|AlignEnd=46722|SpaceAfter=No
-12	an~	an~	X	_	_	15	reparandum	_	AlignBegin=46722|AlignEnd=47036|ExtPos=NOUN|SpaceAfter=No
+12	an~	an~	NOUN	_	_	15	reparandum	_	AlignBegin=46722|AlignEnd=47036|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=47036|AlignEnd=47036
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	AlignBegin=47036|AlignEnd=47349|SpaceAfter=No
 15	année	année	NOUN	_	Gender=Fem|Number=Sing	19	dislocated	_	AlignBegin=47349|AlignEnd=47663|SpaceAfter=No
@@ -457,7 +457,7 @@
 2	après	après	ADV	_	_	7	advmod	_	AlignBegin=61991|AlignEnd=62288|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=62288|AlignEnd=62288
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	AlignBegin=62422|AlignEnd=62575
-5	s'	se	PRON	_	_	7	expl	_	AlignBegin=62575|AlignEnd=62728|SpaceAfter=No
+5	s'	se	PRON	_	_	7	expl:comp	_	AlignBegin=62575|AlignEnd=62728|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=62728|AlignEnd=62880
 7	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=62880|AlignEnd=63033
 8	compte	compte	NOUN	_	Gender=Masc|Number=Sing	7	obj:lvc	_	AlignBegin=63033|AlignEnd=63186
@@ -922,13 +922,6 @@
 7	moins	moins	ADV	_	_	4	advmod	_	AlignBegin=123618|AlignEnd=123771|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=123771|AlignEnd=123771|wordform=."
 
-# sent_id = ParisStories_2022_19_contenteDeOuf__54
-# sound_url = PS_2022_19_contenteDeOuf.mp3
-# speaker = 0
-# text = .
-# statut = à supprimer
-1	.	.	PUNCT	_	_	0	root	_	AlignBegin=123771|AlignEnd=123771
-
 # sent_id = ParisStories_2022_19_contenteDeOuf__55
 # sound_url = PS_2022_19_contenteDeOuf.mp3
 # speaker = 0
@@ -960,7 +953,7 @@
 5	s'	se	PRON	_	_	6	iobj	_	AlignBegin=127602|AlignEnd=127823|SpaceAfter=No
 6	envoie	envoier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=127823|AlignEnd=128045
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=128045|AlignEnd=128266
-8	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	AlignBegin=128266|AlignEnd=128487
+8	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	AlignBegin=128266|AlignEnd=128487
 9	de	de	ADP	_	_	10	case	_	AlignBegin=128487|AlignEnd=128709
 10	messages	message	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	AlignBegin=128709|AlignEnd=128930|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=128930|AlignEnd=128930

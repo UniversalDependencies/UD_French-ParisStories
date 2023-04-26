@@ -76,7 +76,7 @@
 7	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
-10	s'	se	PRON	_	Person=3|PronType=Prs	12	expl	_	SpaceAfter=No
+10	s'	se	PRON	_	Person=3|PronType=Prs	12	expl:comp	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	baladé	balader	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
@@ -112,7 +112,7 @@
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	mais	mais	CCONJ	_	_	21	cc	_	_
 16	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	21	expl	_	SpaceAfter=No
+17	s'	se	PRON	_	Person=3|PronType=Prs	21	expl:comp	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	advmod	_	ExtPos=ADV|Idiom=Yes
 20	peu	peu	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	InIdiom=Yes
@@ -212,7 +212,7 @@
 1	entre	entre	ADV	_	_	5	advmod	_	_
 2	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 3	il	il	PRON	_	_	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	Adrien	Adrien	PROPN	_	_	5	obj	_	_
 7	qui	qui	PRON	_	_	10	nsubj	_	_
@@ -302,7 +302,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	ce	ce	PRON	_	_	0	root	_	_
 2	qui	qui	PRON	_	_	5	nsubj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs	5	expl	_	SpaceAfter=No
+3	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
 6	!	!	PUNCT	_	_	1	punct	_	_
@@ -362,7 +362,7 @@
 13	poser	poser	VERB	_	VerbForm=Inf	8	acl	_	SpaceAfter=No|Subject=NoRaising
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	il	il	PRON	_	_	17	expl:subj	_	_
-16	y	y	PRON	_	Person=3|PronType=Prs	17	expl	_	_
+16	y	y	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	plus	plus	ADV	_	_	20	advmod	_	_
 19	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
@@ -417,7 +417,7 @@
 4	plus	plus	ADV	_	_	2	advmod	_	_
 5	comment	comment	ADV	_	_	8	advmod	_	_
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	s'	se	PRON	_	Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+7	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
 8	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -467,7 +467,7 @@
 # sent_id = ParisStories_2019_mercrediSoir_25
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	il	il	PRON	_	_	3	expl:subj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	mariés	marié	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
@@ -665,7 +665,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	SpaceAfter=No
-8	à	à	ADP	_	_	7	obl:mod	_	_
+8	à	à	ADP	_	_	7	obl:arg	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	reparandum	_	_
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
@@ -699,7 +699,7 @@
 5	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	il	il	PRON	_	_	9	expl:subj	_	_
-8	y	y	PRON	_	Person=3|PronType=Prs	9	expl	_	_
+8	y	y	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	drapeau	drapeau	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
@@ -762,7 +762,7 @@
 # sent_id = ParisStories_2019_mercrediSoir_35
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	il	il	PRON	_	_	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -883,7 +883,7 @@
 32	bah	bah	INTJ	_	_	28	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	28	punct	_	_
 34	il	il	PRON	_	_	36	expl:subj	_	_
-35	y	y	PRON	_	Person=3|PronType=Prs	36	expl	_	_
+35	y	y	PRON	_	Person=3|PronType=Prs	36	expl:comp	_	_
 36	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
 37	moyen	moyen	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
 38	de	de	ADP	_	_	40	mark	_	_
@@ -1086,7 +1086,7 @@
 16	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	il	il	PRON	_	_	21	expl:subj	_	_
-19	y	y	PRON	_	Person=3|PronType=Prs	21	expl	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	21	expl:comp	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 21	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
 22	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_

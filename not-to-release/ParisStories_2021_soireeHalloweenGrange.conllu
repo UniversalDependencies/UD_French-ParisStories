@@ -28,7 +28,7 @@
 24	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	obl:mod	_	_
 25	que	que	PRON	_	PronType=Rel	28	obj	_	_
 26	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
-27	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	28	expl	_	_
+27	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	28	expl:comp	_	_
 28	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -44,7 +44,7 @@
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	il	il	PRON	_	_	11	expl:subj	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
@@ -237,13 +237,13 @@
 8	cimetière	cimetière	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	il	il	PRON	_	_	12	expl:subj	_	_
-11	y	y	PRON	_	Person=3|PronType=Prs	12	expl	_	_
+11	y	y	PRON	_	Person=3|PronType=Prs	12	expl:comp	_	_
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	il	il	PRON	_	_	18	expl:subj	_	_
-17	y	y	PRON	_	Person=3|PronType=Prs	18	expl	_	_
+17	y	y	PRON	_	Person=3|PronType=Prs	18	expl:comp	_	_
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
@@ -272,7 +272,7 @@
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	où	où	PRON	_	PronType=Rel	47	obl:mod	_	_
 45	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	expl:subj	_	_
-46	y	y	PRON	_	Person=3|PronType=Prs	47	expl	_	_
+46	y	y	PRON	_	Person=3|PronType=Prs	47	expl:comp	_	_
 47	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
 48	pas	pas	ADV	_	_	49	advmod	_	_
 49	encore	encore	ADV	_	_	47	advmod	_	SpaceAfter=No
@@ -290,7 +290,7 @@
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	_	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -331,7 +331,7 @@
 # text = enfin d~, de ce que j'ai compris, vu que, je suis pas une experte en anglais.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/efe7d359b1d6c0f6ae6015f4dfec20c8c44c7423
 1	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ|wordform=fin
-2	d~	de	X	_	_	5	reparandum	_	ExtPos=ADP|SpaceAfter=No
+2	d~	d~	ADP	_	_	5	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
@@ -399,7 +399,7 @@
 22	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	il	il	PRON	_	_	26	expl:subj	_	_
-25	y	y	PRON	_	Person=3|PronType=Prs	26	expl	_	_
+25	y	y	PRON	_	Person=3|PronType=Prs	26	expl:comp	_	_
 26	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
 27	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	28	det	_	_
 28	clowns	clown	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
@@ -408,7 +408,7 @@
 31	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	26	obl:mod	_	_
 32	que	que	PRON	_	PronType=Rel	35	obj	_	_
 33	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
-34	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	35	expl	_	_
+34	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	35	expl:comp	_	_
 35	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
@@ -483,7 +483,7 @@
 56	,	,	PUNCT	_	_	59	punct	_	_
 57	euh	euh	INTJ	_	_	59	discourse	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	59	punct	_	_
-59	dessus	dessus	ADV	_	_	49	obl:mod	_	SpaceAfter=No
+59	dessus	dessus	ADV	_	_	49	obl:arg	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_soireeHalloweenGrange_16

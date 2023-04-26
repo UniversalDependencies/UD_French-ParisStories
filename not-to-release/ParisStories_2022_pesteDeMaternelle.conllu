@@ -22,7 +22,7 @@
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	AlignBegin=3356|AlignEnd=3706|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=3706|AlignEnd=3706
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=3706|AlignEnd=4056
-6	y	y	PRON	_	_	7	expl	_	AlignBegin=4056|AlignEnd=4406
+6	y	y	PRON	_	_	7	expl:comp	_	AlignBegin=4056|AlignEnd=4406
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	AlignBegin=4406|AlignEnd=4756|SpaceAfter=No
 8	,	,	PUNCT	_	_	18	punct	_	AlignBegin=4756|AlignEnd=4756
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=4756|AlignEnd=5106|SpaceAfter=No
@@ -121,7 +121,7 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	AlignBegin=18904|AlignEnd=19171|wordform=du
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	c~	c~	X	_	_	7	discourse	_	AlignBegin=19171|AlignEnd=19439|ExtPos=X|Scrap=Yes|SpaceAfter=No
+3	c~	c~	X	_	_	7	discourse	_	AlignBegin=19171|AlignEnd=19439|Scrap=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=19439|AlignEnd=19439
 5	et	et	CCONJ	_	_	7	cc	_	AlignBegin=19439|AlignEnd=19706
 6	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=19706|AlignEnd=19973
@@ -191,7 +191,7 @@
 6	potes	pote	NOUN	_	Number=Plur	4	obj	_	AlignBegin=32321|AlignEnd=32651
 7	là	là	ADV	_	_	4	advmod	_	AlignBegin=32651|AlignEnd=32982|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=32982|AlignEnd=32982
-9	d~	d~	X	_	_	4	discourse	_	AlignBegin=32982|AlignEnd=33313|ExtPos=X|SpaceAfter=No
+9	d~	d~	X	_	_	4	discourse	_	AlignBegin=32982|AlignEnd=33313|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=33313|AlignEnd=33313
 
 # sent_id = ParisStories_2022_4_pesteDeMaternelle__13
@@ -710,13 +710,6 @@
 7	ouais	ouais	INTJ	_	_	4	obj	_	AlignBegin=104997|AlignEnd=105261|Reported=Yes|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=105261|AlignEnd=105261
 
-# sent_id = ParisStories_2022_4_pesteDeMaternelle__45
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/d2ccb0c580087f438fdb0aa0175f8d0e018e5b0c
-# speaker = 0
-# text = .
-# statut = à supprimer
-1	.	.	PUNCT	_	_	0	root	_	AlignBegin=105261|AlignEnd=105261
-
 # sent_id = ParisStories_2022_4_pesteDeMaternelle__46
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/d2ccb0c580087f438fdb0aa0175f8d0e018e5b0c
 # speaker = 0
@@ -803,7 +796,7 @@
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	reparandum	_	AlignBegin=119435|AlignEnd=119773|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=119773|AlignEnd=119773
 21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	nsubj	_	AlignBegin=119773|AlignEnd=120111
-22	s'	se	PRON	_	_	24	expl	_	AlignBegin=120111|AlignEnd=120448|SpaceAfter=No
+22	s'	se	PRON	_	_	24	expl:comp	_	AlignBegin=120111|AlignEnd=120448|SpaceAfter=No
 23	en	en	PRON	_	Person=3|PronType=Prs	24	obj	_	AlignBegin=120448|AlignEnd=120786
 24	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=120786|AlignEnd=121124|SpaceAfter=No
 25	.	.	PUNCT	_	_	24	punct	_	AlignBegin=121124|AlignEnd=121124

@@ -35,7 +35,7 @@
 9	mille	mille	NUM	_	_	10	nummod	_	_
 10	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 11	à	à	ADP	_	_	13	mark	_	_
-12	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	13	expl	_	_
+12	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	13	expl:comp	_	_
 13	préparer	préparer	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 14	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -158,7 +158,7 @@
 24	Mamie	Mamie	PROPN	_	_	25	nsubj	_	_
 25	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	advcl	_	_
 26	autre	autre	ADJ	_	Number=Sing	27	amod	_	_
-27	part	part	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
+27	part	part	NOUN	_	Gender=Fem|Number=Sing	25	obl:arg	_	_
 28	et	et	CCONJ	_	_	33	cc	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	33	punct	_	_
 30	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	33	dislocated	_	SpaceAfter=No
@@ -650,7 +650,7 @@
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	manger	manger	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	à	à	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_

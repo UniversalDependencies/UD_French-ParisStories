@@ -60,7 +60,7 @@
 5	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
-8	b~	b~	X	_	_	9	reparandum	_	ExtPos=X
+8	b~	b~	X	_	_	9	reparandum	_	_
 9	beaucoup	beaucoup	ADV	_	_	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	points	point	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
@@ -226,7 +226,7 @@
 33	tout	tout	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 34	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	conj	_	_
 35	il	_	PRON	_	_	37	expl:subj	_	_
-36	y	y	PRON	_	Person=3|PronType=Prs	37	expl	_	_
+36	y	y	PRON	_	Person=3|PronType=Prs	37	expl:comp	_	_
 37	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 38	plus	plus	ADV	_	_	41	advmod	_	_
 39	que	que	SCONJ	_	_	41	case	_	_
@@ -303,7 +303,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
@@ -332,7 +332,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-5	s'	se	PRON	_	Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
+5	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	juste	juste	ADV	_	_	8	advmod	_	_
 8	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -352,7 +352,7 @@
 22	bien	bien	ADV	_	_	23	advmod	_	_
 23	aller	aller	VERB	_	VerbForm=Inf	21	xcomp	_	Subject=SubjRaising
 24	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	25	det	_	_
-25	part	part	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	_
+25	part	part	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
 26	hein	hein	INTJ	_	_	8	discourse	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -377,7 +377,7 @@
 16	même	même	ADV	_	_	15	fixed	_	InIdiom=Yes
 17	qu'	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
-19	y	y	PRON	_	Person=3|PronType=Prs	20	expl	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	_
 20	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	panneau	panneau	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
@@ -623,7 +623,7 @@
 12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
 13	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
 14	il	il	PRON	_	_	16	expl:subj	_	_
-15	y	y	PRON	_	Person=3|PronType=Prs	16	expl	_	_
+15	y	y	PRON	_	Person=3|PronType=Prs	16	expl:comp	_	_
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	gars	gars	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
@@ -742,7 +742,7 @@
 21	fac	fac	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	à	à	ADP	_	_	25	mark	_	_
-24	se	se	PRON	_	Person=3|PronType=Prs	25	expl	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs	25	expl:comp	_	_
 25	promener	promener	VERB	_	VerbForm=Inf	16	conj	_	Subject=SubjRaising
 26	dans	dans	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -778,11 +778,11 @@
 6	parce	parce	ADV	_	_	14	mark	_	ExtPos=SCONJ|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	il	il	PRON	_	_	10	expl:subj	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	10	expl	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	reparandum	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	dep:comp	_	_
 12	il	_	PRON	_	_	14	expl:subj	_	_
-13	y	y	PRON	_	Person=3|PronType=Prs	14	expl	_	_
+13	y	y	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	_
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	escalator	escalator	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
@@ -825,7 +825,7 @@
 3	après	après	ADV	_	_	10	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	avec	avec	ADP	_	_	8	case	_	_
-6	Re~	Re~	X	_	_	8	reparandum	_	ExtPos=PROPN
+6	Re~	Re~	PROPN	_	_	8	reparandum	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	Thomas	Thomas	PROPN	_	_	10	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -884,7 +884,7 @@
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	donc	donc	ADV	_	_	11	cc	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	étage	étage	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
@@ -917,7 +917,7 @@
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	gens	gens	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
 17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
-18	se	se	PRON	_	Person=3|PronType=Prs	19	expl	_	_
+18	se	se	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	_
 19	plaignent	plaindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	tout	tout	ADJ	_	_	22	amod	_	_

@@ -285,10 +285,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	déjà	déjà	ADV	_	_	4	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	7	advmod	_	_
-6	de	de	ADP	_	_	5	obl:mod	_	_
+6	de	de	ADP	_	_	5	obl:arg	_	_
 7	monde	monde	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -439,7 +439,7 @@
 19	,	,	PUNCT	_	_	23	punct	_	_
 20	si	si	SCONJ	_	_	23	mark	_	_
 21	il	_	PRON	_	_	23	expl:subj	_	_
-22	y	y	PRON	_	Person=3|PronType=Prs	23	expl	_	_
+22	y	y	PRON	_	Person=3|PronType=Prs	23	expl:comp	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -606,7 +606,7 @@
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	voyait	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
 9	que	que	ADV	_	_	12	advmod	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
@@ -663,16 +663,16 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	7	cc	_	_
 5	il	_	PRON	_	_	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
 8	plein	plein	ADV	_	_	7	obj	_	_
-9	de	de	ADP	_	_	8	obl:mod	_	SpaceAfter=No
+9	de	de	ADP	_	_	8	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	il	_	PRON	_	_	13	expl:subj	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	13	expl	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	plein	plein	ADV	_	_	16	advmod	_	_
-15	de	de	ADP	_	_	14	obl:mod	_	_
+15	de	de	ADP	_	_	14	obl:arg	_	_
 16	musées	musée	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
 17	qu'	que	PRON	_	PronType=Rel	23	obj	_	SpaceAfter=No
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
@@ -731,10 +731,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	il	_	PRON	_	_	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	7	advmod	_	_
-6	de	de	ADP	_	_	5	obl:mod	_	_
+6	de	de	ADP	_	_	5	obl:arg	_	_
 7	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 8	qu'	que	PRON	_	PronType=Rel	14	obj	_	SpaceAfter=No
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	_

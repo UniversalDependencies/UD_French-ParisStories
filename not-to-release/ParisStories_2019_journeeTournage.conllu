@@ -89,7 +89,7 @@
 35	,	,	PUNCT	_	_	39	punct	_	_
 36	comment	comment	ADV	_	_	39	advmod	_	_
 37	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	nsubj	_	_
-38	se	se	PRON	_	Person=3|PronType=Prs	39	expl	_	_
+38	se	se	PRON	_	Person=3|PronType=Prs	39	expl:comp	_	_
 39	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	45	punct	_	_
 41	euh	euh	INTJ	_	_	45	discourse	_	SpaceAfter=No
@@ -119,7 +119,7 @@
 # sent_id = ParisStories_2019_journeeTournage_4
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	il	il	PRON	_	_	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	reparandum	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	abord	abord	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
@@ -590,7 +590,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	9	advmod	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	mid~	mid~	X	_	Gender=Masc|Number=Sing	7	reparandum	_	ExtPos=NOUN
+5	mid~	mid~	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	_
 6	à	à	ADP	_	_	7	case	_	_
 7	midi	midi	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
@@ -609,7 +609,7 @@
 # sent_id = ParisStories_2019_journeeTournage_19
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	il	il	PRON	_	_	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -736,7 +736,7 @@
 29	montrer	montrer	VERB	_	VerbForm=Inf	23	advcl	_	Subject=NoRaising
 30	qu'	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
 31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	expl:subj	_	_
-32	y	y	PRON	_	Person=3|PronType=Prs	33	expl	_	_
+32	y	y	PRON	_	Person=3|PronType=Prs	33	expl:comp	_	_
 33	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
 34	de	de	ADP	_	_	36	det	_	ExtPos=DET|Idiom=Yes
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	fixed	_	InIdiom=Yes
@@ -805,7 +805,7 @@
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	comment	comment	ADV	_	_	10	advmod	_	_
-9	se	se	PRON	_	Person=3|PronType=Prs	10	expl	_	_
+9	se	se	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	tournait	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	scène	scène	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No

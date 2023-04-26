@@ -89,7 +89,7 @@
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=16582|AlignEnd=16998
 21	an	an	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	AlignBegin=16998|AlignEnd=17414
 22	de	de	ADP	_	_	25	case	_	AlignBegin=17414|AlignEnd=17830
-23	m~	m~	X	_	_	25	reparandum	_	AlignBegin=17830|AlignEnd=18246|ExtPos=X|SpaceAfter=No
+23	m~	m~	X	_	_	25	reparandum	_	AlignBegin=17830|AlignEnd=18246|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=18246|AlignEnd=18246
 25	moins	moins	ADV	_	_	21	advmod	_	AlignBegin=18246|AlignEnd=18662|SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=18662|AlignEnd=18662
@@ -294,7 +294,7 @@
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=60884|AlignEnd=61230
 5	pas	pas	ADV	_	_	4	advmod	_	AlignBegin=61230|AlignEnd=61577
 6	de	un	DET	_	_	7	det	_	AlignBegin=61577|AlignEnd=61923
-7	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	AlignBegin=61923|AlignEnd=62270
+7	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	AlignBegin=61923|AlignEnd=62270
 8	avec	avec	ADP	_	_	9	case	_	AlignBegin=62270|AlignEnd=62616
 9	lui	lui	PRON	_	_	4	obl:mod	_	AlignBegin=62616|AlignEnd=62962
 10	quand	quand	SCONJ	_	_	13	mark	_	AlignBegin=62962|AlignEnd=63309
@@ -309,12 +309,12 @@
 # text = euh, j~, j'ai des souvenirs avec lui à partir de, de ma nouvelle vie en Espagne.
 1	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=64348|AlignEnd=64643|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=64643|AlignEnd=64643
-3	j~	j~	X	_	_	5	reparandum	_	AlignBegin=64643|AlignEnd=64937|ExtPos=PRON|SpaceAfter=No
+3	j~	j~	PRON	_	_	5	reparandum	_	AlignBegin=64643|AlignEnd=64937|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=64937|AlignEnd=64937
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=64937|AlignEnd=65232|SpaceAfter=No
 6	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65232|AlignEnd=65526
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=65526|AlignEnd=65821
-8	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	AlignBegin=65821|AlignEnd=66115
+8	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	AlignBegin=65821|AlignEnd=66115
 9	avec	avec	ADP	_	_	10	case	_	AlignBegin=66115|AlignEnd=66410
 10	lui	lui	PRON	_	_	8	nmod	_	AlignBegin=66410|AlignEnd=66704
 11	à	à	ADP	_	_	6	advmod	_	AlignBegin=66704|AlignEnd=66704|ExtPos=ADV|Idiom=Yes
@@ -490,7 +490,7 @@
 # speaker = 0
 # text = il é~, il a pas mal réagi.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=111815|AlignEnd=112154
-2	é~	é~	X	_	Number=Sing|Person=3	8	reparandum	_	AlignBegin=112154|AlignEnd=112154|ExtPos=VERB|SpaceAfter=No
+2	é~	é~	VERB	_	Number=Sing|Person=3	8	reparandum	_	AlignBegin=112154|AlignEnd=112154|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	AlignBegin=112154|AlignEnd=112154
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=112154|AlignEnd=112492
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	AlignBegin=112492|AlignEnd=112831
@@ -618,7 +618,7 @@
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	AlignBegin=139033|AlignEnd=139369
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	AlignBegin=139369|AlignEnd=139705
 19	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=139705|AlignEnd=140042
-20	m~	m~	X	_	_	25	reparandum	_	AlignBegin=140042|AlignEnd=140378|ExtPos=X|SpaceAfter=No
+20	m~	m~	X	_	_	25	reparandum	_	AlignBegin=140042|AlignEnd=140378|SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	AlignBegin=140378|AlignEnd=140378
 22	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	reparandum	_	AlignBegin=140378|AlignEnd=140714|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=140714|AlignEnd=140714

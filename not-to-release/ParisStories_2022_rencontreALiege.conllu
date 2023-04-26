@@ -131,7 +131,7 @@
 # text = et il y avait un professeur de la Haute École qui répondait à toutes nos questions, sur comment s'installer, trouver un appartement, euh, à faire ses courses à Liège, plein de, plein de petites choses pratiques comme ça, pour nous aider à, à mieux intégrer la ville en fait, et mieux s'intégrer surtout.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=24141|AlignEnd=24336
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	AlignBegin=24336|AlignEnd=24531
-3	y	y	PRON	_	_	4	expl	_	AlignBegin=24531|AlignEnd=24725
+3	y	y	PRON	_	_	4	expl:comp	_	AlignBegin=24531|AlignEnd=24725
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24725|AlignEnd=24920
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=24920|AlignEnd=25115
 6	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=25115|AlignEnd=25310
@@ -165,7 +165,7 @@
 34	Liège	Liège	PROPN	_	_	32	nmod	_	AlignBegin=33570|AlignEnd=33940|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	AlignBegin=33940|AlignEnd=33940
 36	plein	plein	ADV	_	_	39	reparandum	_	AlignBegin=34570|AlignEnd=34819
-37	de	de	ADP	_	_	30	obl:mod	_	AlignBegin=34819|AlignEnd=35068|SpaceAfter=No
+37	de	de	ADP	_	_	30	obl:arg	_	AlignBegin=34819|AlignEnd=35068|SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	AlignBegin=35068|AlignEnd=35068
 39	plein	plein	ADV	_	_	25	advmod	_	AlignBegin=35068|AlignEnd=35318
 40	de	de	ADP	_	_	42	case	_	AlignBegin=35318|AlignEnd=35567
@@ -290,7 +290,7 @@
 # text = et on se promenait dans les rues.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=58093|AlignEnd=58310
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=58310|AlignEnd=58526
-3	se	se	PRON	_	_	4	expl	_	AlignBegin=58526|AlignEnd=58742
+3	se	se	PRON	_	_	4	expl:comp	_	AlignBegin=58526|AlignEnd=58742
 4	promenait	promener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=58742|AlignEnd=58959
 5	dans	dans	ADP	_	_	7	case	_	AlignBegin=58959|AlignEnd=59175
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	AlignBegin=59175|AlignEnd=59392
@@ -675,7 +675,7 @@
 4	vraiment	vraiment	ADV	_	_	3	advmod	_	AlignBegin=122091|AlignEnd=122282
 5	de	de	ADP	_	_	8	case	_	AlignBegin=122282|AlignEnd=122473|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=122473|AlignEnd=122473
-7	de	de	ADP	_	_	3	obl:mod	_	AlignBegin=122473|AlignEnd=122664
+7	de	de	ADP	_	_	3	obl:arg	_	AlignBegin=122473|AlignEnd=122664
 8	plein	plein	ADV	_	_	7	reparandum	_	AlignBegin=122664|AlignEnd=122855
 9	plein	plein	ADV	_	_	8	conj	_	AlignBegin=122855|AlignEnd=123045
 10	de	de	ADP	_	_	11	case	_	AlignBegin=123045|AlignEnd=123236

@@ -28,7 +28,7 @@
 11	de	de	ADP	_	_	15	case	_	wordform=du
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	dep	_	Scrap=Yes
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	10	obl:mod	_	wordform=du
+13	de	de	ADP	_	_	10	obl:arg	_	wordform=du
 14	le	le	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 15	berceau	berceau	NOUN	_	Gender=Masc|Number=Sing	13	reparandum	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
@@ -51,7 +51,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/9013e79950a9e11d6e70efd6a0b837c72da616e1
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 6	longs	long	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
@@ -90,7 +90,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/9013e79950a9e11d6e70efd6a0b837c72da616e1
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	expl:comp	_	_
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	penchée	pencher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6-7	au	_	_	_	_	_	_	_	_

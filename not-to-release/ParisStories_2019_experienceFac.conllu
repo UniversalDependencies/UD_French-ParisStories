@@ -172,7 +172,7 @@
 1	bah	bah	INTJ	_	_	5	discourse	_	_
 2	souvent	souvent	ADV	_	_	5	advmod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	plusieurs	plusieurs	DET	_	Number=Plur|Person=3|PronType=Ind	7	det	_	_
 7	trains	train	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
@@ -193,7 +193,7 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	plein	plein	ADV	_	_	8	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
@@ -258,7 +258,7 @@
 5	impression	impression	NOUN	_	Gender=Fem|Number=Sing	3	obj:lvc	_	_
 6	que	que	SCONJ	_	_	9	mark	_	_
 7	il	il	PRON	_	_	9	expl:subj	_	_
-8	y	y	PRON	_	Person=3|PronType=Prs	9	expl	_	_
+8	y	y	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
 10	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	SpaceAfter=No
 11	énormes	énorme	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
@@ -395,7 +395,7 @@
 10	peu	peu	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	complètement	complètement	ADV	_	_	13	advmod	_	_
-13	dispro~	dispro~	X	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	ExtPos=VERB
+13	dispro~	dispro~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	reparandum	_	_
 14	disproportionné	disproportionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -659,7 +659,7 @@
 11	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	super	super	ADV	_	_	13	advmod	_	_
 13	bien	bien	ADV	_	_	11	advmod	_	_
-14	avec	avec	ADP	_	_	11	obl:mod	_	SpaceAfter=No
+14	avec	avec	ADP	_	_	11	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_38
@@ -681,7 +681,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	puis	puis	ADV	_	_	4	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	obj	_	ExtPos=ADV|Idiom=Yes
 6	mal	mal	ADV	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
@@ -736,7 +736,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	il	il	PRON	_	_	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	quizz	quizz	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -810,7 +810,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	après	après	ADV	_	_	4	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	obj	_	ExtPos=ADV|Idiom=Yes
 6	mal	mal	ADV	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
@@ -831,7 +831,7 @@
 6	année	année	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 7	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	10	expl	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -858,7 +858,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	bal	bal	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -1150,7 +1150,7 @@
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 12	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
-13	à	à	ADP	_	_	12	obl:mod	_	_
+13	à	à	ADP	_	_	12	obl:arg	_	_
 14	découvrir	découvrir	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1192,7 +1192,7 @@
 # text = il y a des cours que j'aime, d'autres que j'aime moins.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	cours	cours	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
@@ -1309,7 +1309,7 @@
 13	travailler	travailler	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	il	il	PRON	_	_	17	expl:subj	_	_
-16	y	y	PRON	_	Person=3|PronType=Prs	17	expl	_	_
+16	y	y	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	_
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	devoirs	devoir	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
@@ -1325,7 +1325,7 @@
 29	euh	euh	INTJ	_	_	32	discourse	_	_
 30	ouais	ouais	INTJ	_	_	32	discourse	_	_
 31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
-32	hu~	hu~	X	_	Gender=Masc|Number=Sing	34	reparandum	_	ExtPos=NOUN
+32	hu~	hu~	NOUN	_	Gender=Masc|Number=Sing	34	reparandum	_	_
 33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 34	humain	humain	ADJ	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	28	punct	_	_
@@ -1414,7 +1414,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/7fd8e2485c6f0ac8a57ee9edde90ab97c3e3fe8c
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 4	en	en	PRON	_	Person=3|PronType=Prs	5	obj	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	avec	avec	ADP	_	_	7	case	_	_
@@ -1429,7 +1429,7 @@
 15	avec	avec	ADP	_	_	16	case	_	_
 16	qui	qui	PRON	_	_	19	obl:mod	_	_
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	_
-18	s'	se	PRON	_	Person=3|PronType=Prs	19	expl	_	SpaceAfter=No
+18	s'	se	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	SpaceAfter=No
 19	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 20	bien	bien	ADV	_	_	19	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	19	punct	_	_

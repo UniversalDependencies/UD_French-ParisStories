@@ -120,7 +120,7 @@
 # speaker = L1
 # text = je m'en souviens.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=14667|AlignEnd=14939
-2	m'	me	PRON	_	_	4	expl	_	AlignBegin=14939|AlignEnd=15212|SpaceAfter=No
+2	m'	me	PRON	_	_	4	expl:comp	_	AlignBegin=14939|AlignEnd=15212|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	AlignBegin=15212|AlignEnd=15484
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15484|AlignEnd=15756|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=15756|AlignEnd=15756
@@ -130,7 +130,7 @@
 # speaker = L1
 # text = je m'en souviens parce que je sais que j'étais pas contente d'avoir un petit frère, parce que je trouvais que ça allait tout changer ma vie.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=15756|AlignEnd=15920
-2	m'	me	PRON	_	_	4	expl	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
+2	m'	me	PRON	_	_	4	expl:comp	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	AlignBegin=16084|AlignEnd=16248
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16248|AlignEnd=16412
 5	parce	parce	ADV	_	_	8	mark	_	AlignBegin=16412|AlignEnd=16576|ExtPos=SCONJ|Idiom=Yes
@@ -272,7 +272,7 @@
 6	voir	voir	VERB	_	VerbForm=Inf	5	xcomp	_	AlignBegin=37272|AlignEnd=37428|Subject=SubjRaising
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obj	_	AlignBegin=37428|AlignEnd=37584
 8	qui	qui	PRON	_	_	10	nsubj	_	AlignBegin=37584|AlignEnd=37740
-9	se	se	PRON	_	_	10	expl	_	AlignBegin=37740|AlignEnd=37896
+9	se	se	PRON	_	_	10	expl:comp	_	AlignBegin=37740|AlignEnd=37896
 10	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	AlignBegin=37896|AlignEnd=38052|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=38052|AlignEnd=38052
 
@@ -656,7 +656,7 @@
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=92799|AlignEnd=93032
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=93032|AlignEnd=93265
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	AlignBegin=93265|AlignEnd=93498
-7	vies	vie	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	AlignBegin=93498|AlignEnd=93732
+7	vies	vie	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	AlignBegin=93498|AlignEnd=93732
 8	graves	grave	ADJ	_	_	7	amod	_	AlignBegin=93732|AlignEnd=93965
 9	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	AlignBegin=93965|AlignEnd=94198|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=94198|AlignEnd=94198
@@ -720,7 +720,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	AlignBegin=101590|AlignEnd=101803
 6	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	AlignBegin=101803|AlignEnd=102017
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=102017|AlignEnd=102230
-8	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	AlignBegin=102230|AlignEnd=102443|SpaceAfter=No
+8	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	AlignBegin=102230|AlignEnd=102443|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=102443|AlignEnd=102443
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	AlignBegin=102443|AlignEnd=102704
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	AlignBegin=102704|AlignEnd=102964
@@ -1081,13 +1081,6 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=147727|AlignEnd=147866
 10	bout-en-train	boute-en-train	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	AlignBegin=147866|AlignEnd=148004|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=148004|AlignEnd=148004|wordform=."
-
-# sent_id = ParisStories_2022_10_frèreHyperDifférent__63
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/ff57166d99cd01b05e5d1e18f910e1794a93a246
-# speaker = L1
-# text = .
-# statut = à supprimer
-1	.	.	PUNCT	_	_	0	root	_	AlignBegin=148004|AlignEnd=148004
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__64
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/ff57166d99cd01b05e5d1e18f910e1794a93a246

@@ -206,7 +206,7 @@
 2	non	non	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
-5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	_	8	advmod	_	_
 8	trop	trop	ADV	_	_	6	advmod	_	_
@@ -238,7 +238,7 @@
 # text = il y a pas le choix, quoi.
 # sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	_	3	advmod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -444,7 +444,7 @@
 3	frère	frère	NOUN	_	Gender=Masc|Number=Sing	7	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
 9-10	des	_	_	_	_	_	_	_	_
@@ -900,7 +900,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	wordform=au
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	frig~	frigo	X	_	Gender=Masc|Number=Sing	3	obl:mod	_	ExtPos=NOUN|SpaceAfter=No
+11	frig~	frig~	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	enfin	enfin	ADV	_	_	2	discourse	_	ExtPos=INTJ|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_

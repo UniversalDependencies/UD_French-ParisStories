@@ -59,7 +59,7 @@
 6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	AlignBegin=10784|AlignEnd=10963|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=10963|AlignEnd=10963
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	AlignBegin=10963|AlignEnd=11142
-9	se	se	PRON	_	_	10	expl	_	AlignBegin=11142|AlignEnd=11321
+9	se	se	PRON	_	_	10	expl:comp	_	AlignBegin=11142|AlignEnd=11321
 10	retrouvait	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=11321|AlignEnd=11499
 11	vachement	vachement	ADV	_	_	13	advmod	_	AlignBegin=11499|AlignEnd=11678
 12	pour	pour	ADP	_	_	13	mark	_	AlignBegin=11678|AlignEnd=11992
@@ -71,7 +71,7 @@
 # speaker = L1
 # text = il y avait Maxime aussi, pas mal.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=12306|AlignEnd=12621
-2	y	y	PRON	_	_	3	expl	_	AlignBegin=12621|AlignEnd=12935
+2	y	y	PRON	_	_	3	expl:comp	_	AlignBegin=12621|AlignEnd=12935
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=12935|AlignEnd=13249
 4	Maxime	Maxime	PROPN	_	_	3	obj	_	AlignBegin=13249|AlignEnd=13563
 5	aussi	aussi	ADV	_	_	4	advmod	_	AlignBegin=13563|AlignEnd=13878|SpaceAfter=No
@@ -109,7 +109,7 @@
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	AlignBegin=16757|AlignEnd=16982
 17	beaucoup	beaucoup	ADV	_	_	18	advmod	_	AlignBegin=16982|AlignEnd=17291
 18	rapprochés	rapprocher	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	AlignBegin=17291|AlignEnd=17600
-19	aus~	aus~	X	_	_	18	discourse	_	AlignBegin=17600|AlignEnd=17909|ExtPos=ADV|SpaceAfter=No
+19	aus~	aus~	ADV	_	_	18	discourse	_	AlignBegin=17600|AlignEnd=17909|SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	AlignBegin=17909|AlignEnd=17909
 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	AlignBegin=17909|AlignEnd=18218|SpaceAfter=No
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	AlignBegin=18218|AlignEnd=18526
@@ -129,7 +129,7 @@
 35	euh	euh	INTJ	_	_	33	discourse	_	AlignBegin=22215|AlignEnd=22675|SpaceAfter=No
 36	,	,	PUNCT	_	_	35	punct	_	AlignBegin=22675|AlignEnd=22675
 37	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	expl:subj	_	AlignBegin=22675|AlignEnd=23095
-38	y	y	PRON	_	_	40	expl	_	AlignBegin=23095|AlignEnd=23515
+38	y	y	PRON	_	_	40	expl:comp	_	AlignBegin=23095|AlignEnd=23515
 39	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux:tense	_	AlignBegin=23515|AlignEnd=23935
 40	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	AlignBegin=23935|AlignEnd=24354
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	AlignBegin=24354|AlignEnd=24774
@@ -185,7 +185,7 @@
 13	quand	quand	SCONJ	_	_	15	mark	_	AlignBegin=32323|AlignEnd=32738
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	AlignBegin=32738|AlignEnd=33153
 15	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	AlignBegin=33153|AlignEnd=33567
-16	manif~	manif~	X	_	_	15	ccomp	_	AlignBegin=33567|AlignEnd=33982|ExtPos=VERB
+16	manif~	manif~	VERB	_	_	15	ccomp	_	AlignBegin=33567|AlignEnd=33982
 17	…	…	PUNCT	_	_	3	punct	_	AlignBegin=33982|AlignEnd=33982
 
 # sent_id = ParisStories_2022_17_manifSorbRock__9
@@ -419,7 +419,7 @@
 # text = mais on s~, la première fois où on s'est rencontré, c'est vraiment, euh, au premier semestre de la L2.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=61934|AlignEnd=62119
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	AlignBegin=62119|AlignEnd=62304
-3	s~	s~	X	_	Number=Sing|Person=3	23	reparandum	_	AlignBegin=62304|AlignEnd=62489|ExtPos=VERB|SpaceAfter=No
+3	s~	s~	VERB	_	Number=Sing|Person=3	23	reparandum	_	AlignBegin=62304|AlignEnd=62489|SpaceAfter=No
 4	,	,	PUNCT	_	_	23	punct	_	AlignBegin=62489|AlignEnd=62489
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=62489|AlignEnd=62674
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	AlignBegin=62674|AlignEnd=62859
@@ -458,7 +458,7 @@
 6	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=66629|AlignEnd=66885
 7	pendant	pendant	ADP	_	_	9	case	_	AlignBegin=66885|AlignEnd=67141
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=67141|AlignEnd=67397
-9	mob~	mob~	X	_	_	13	reparandum	_	AlignBegin=67397|AlignEnd=67653|ExtPos=NOUN|SpaceAfter=No
+9	mob~	mob~	NOUN	_	_	13	reparandum	_	AlignBegin=67397|AlignEnd=67653|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=67653|AlignEnd=67653
 11	pendant	pendant	ADP	_	_	13	case	_	AlignBegin=67653|AlignEnd=67908
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=67908|AlignEnd=68164
@@ -471,7 +471,7 @@
 # text = ouais, p~, ouais.
 1	ouais	ouais	INTJ	_	_	3	reparandum	_	AlignBegin=68656|AlignEnd=68845|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=68845|AlignEnd=68845
-3	p~	p~	X	_	_	0	root	_	AlignBegin=68845|AlignEnd=69034|ExtPos=X|SpaceAfter=No
+3	p~	p~	X	_	_	0	root	_	AlignBegin=68845|AlignEnd=69034|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=69034|AlignEnd=69034
 5	ouais	ouais	INTJ	_	_	3	conj	_	AlignBegin=69034|AlignEnd=69223|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=69223|AlignEnd=69223
@@ -512,7 +512,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=73238|AlignEnd=73238
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=73238|AlignEnd=73489
 5	m'	le	PRON	_	_	6	obj	_	AlignBegin=73489|AlignEnd=73740|SpaceAfter=No
-6	a~	avoir	X	_	Number=Sing|Person=3	12	reparandum	_	AlignBegin=73740|AlignEnd=73991|ExtPos=VERB|SpaceAfter=No
+6	a~	a~	VERB	_	Number=Sing|Person=3	12	reparandum	_	AlignBegin=73740|AlignEnd=73991|SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	AlignBegin=73991|AlignEnd=73991
 8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=73991|AlignEnd=74243
 9	m'	le	PRON	_	_	12	obj	_	AlignBegin=74243|AlignEnd=74494|SpaceAfter=No
@@ -628,7 +628,7 @@
 9	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=89417|AlignEnd=89624|SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	AlignBegin=89624|AlignEnd=89624
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=89624|AlignEnd=89831
-12	con~	con~	X	_	_	23	reparandum	_	AlignBegin=89831|AlignEnd=90038|ExtPos=VERB|SpaceAfter=No
+12	con~	con~	VERB	_	_	23	reparandum	_	AlignBegin=89831|AlignEnd=90038|SpaceAfter=No
 13	,	,	PUNCT	_	_	23	punct	_	AlignBegin=90038|AlignEnd=90038
 14	si	si	SCONJ	_	_	16	mark	_	AlignBegin=90038|AlignEnd=90203
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=90203|AlignEnd=90367
@@ -654,7 +654,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=92792|AlignEnd=92792
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=92792|AlignEnd=92987
 4	non	non	ADV	_	_	7	reparandum	_	AlignBegin=92987|AlignEnd=93181
-5	j~	j~	X	_	_	13	reparandum	_	AlignBegin=93181|AlignEnd=93375|ExtPos=PRON|SpaceAfter=No
+5	j~	j~	PRON	_	_	13	reparandum	_	AlignBegin=93181|AlignEnd=93375|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=93375|AlignEnd=93375
 7	non	non	ADV	_	_	15	discourse	_	AlignBegin=93375|AlignEnd=93569|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=93569|AlignEnd=93569
@@ -674,7 +674,7 @@
 # text = mais il y a trop de gens aussi, euh.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=94929|AlignEnd=95095
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	AlignBegin=95095|AlignEnd=95261
-3	y	y	PRON	_	_	4	expl	_	AlignBegin=95261|AlignEnd=95426
+3	y	y	PRON	_	_	4	expl:comp	_	AlignBegin=95261|AlignEnd=95426
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=95426|AlignEnd=95592
 5	trop	trop	ADV	_	_	4	obj	_	AlignBegin=95592|AlignEnd=95758
 6	de	de	ADP	_	_	7	case	_	AlignBegin=95758|AlignEnd=95924

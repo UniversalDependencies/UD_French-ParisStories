@@ -339,7 +339,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=49576|AlignEnd=49576
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	AlignBegin=49576|AlignEnd=49916
 12	n'	ne	ADV	_	_	14	advmod	_	AlignBegin=49916|AlignEnd=50256|SpaceAfter=No
-13	y	y	PRON	_	_	14	expl	_	AlignBegin=50256|AlignEnd=50596
+13	y	y	PRON	_	_	14	expl:comp	_	AlignBegin=50256|AlignEnd=50596
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=50596|AlignEnd=50935
 15	personne	personne	PRON	_	_	14	obj	_	AlignBegin=50935|AlignEnd=51275|SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	AlignBegin=51275|AlignEnd=51275
@@ -359,7 +359,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=52723|AlignEnd=52723
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	AlignBegin=52723|AlignEnd=52964
 11	n'	ne	ADV	_	_	13	advmod	_	AlignBegin=52964|AlignEnd=53206|SpaceAfter=No
-12	y	y	PRON	_	_	13	expl	_	AlignBegin=53206|AlignEnd=53447
+12	y	y	PRON	_	_	13	expl:comp	_	AlignBegin=53206|AlignEnd=53447
 13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	AlignBegin=53447|AlignEnd=53688
 14	personne	personne	PRON	_	_	13	obj	_	AlignBegin=53688|AlignEnd=53930
 15	à	à	ADP	_	_	17	case	_	AlignBegin=53930|AlignEnd=53930
@@ -451,13 +451,6 @@
 9	Tahiti	Tahiti	PROPN	_	_	8	obj	_	AlignBegin=77933|AlignEnd=78325|SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	AlignBegin=78325|AlignEnd=78325
 
-# sent_id = ParisStories_2022_16_hamacTahiti__29
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
-# speaker = L1
-# text = .
-# statut = à supprimer
-1	.	.	PUNCT	_	_	0	root	_	AlignBegin=78325|AlignEnd=78325
-
 # sent_id = ParisStories_2022_16_hamacTahiti__30
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
@@ -512,7 +505,7 @@
 23	ne	ne	ADV	_	_	30	advmod	_	AlignBegin=83592|AlignEnd=83855
 24	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	AlignBegin=83855|AlignEnd=84118
 25	pas	pas	ADV	_	_	30	advmod	_	AlignBegin=84118|AlignEnd=84382
-26	v~	v~	X	_	_	30	reparandum	_	AlignBegin=84382|AlignEnd=84645|ExtPos=X|SpaceAfter=No
+26	v~	v~	X	_	_	30	reparandum	_	AlignBegin=84382|AlignEnd=84645|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=84645|AlignEnd=84645
 28	enfin	enfin	ADV	_	_	26	discourse	_	AlignBegin=85296|AlignEnd=85757|ExtPos=INTJ|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=85757|AlignEnd=85757

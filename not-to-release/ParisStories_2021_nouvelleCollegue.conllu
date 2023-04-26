@@ -164,7 +164,7 @@
 17	idée	idée	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 18	que	que	SCONJ	_	_	21	mark	_	_
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	expl:subj	_	_
-20	y	y	PRON	_	Person=3|PronType=Prs	21	expl	_	_
+20	y	y	PRON	_	Person=3|PronType=Prs	21	expl:comp	_	_
 21	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
 22	quelqu'	quelqu'	DET	_	Number=Sing	23	det	_	SpaceAfter=No
 23	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	obj	_	_
@@ -516,7 +516,7 @@
 16	quand	quand	SCONJ	_	_	20	mark	_	_
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
 18	n'	n'	ADV	_	_	20	advmod	_	SpaceAfter=No
-19	y	y	PRON	_	Person=3|PronType=Prs	20	expl	_	_
+19	y	y	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
 21	qu'	qu'	SCONJ	_	_	22	dep	_	SpaceAfter=No
 22	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_

@@ -80,7 +80,7 @@
 # text = je me suis aperçue que c'était ça qui les empêchait de gonfler.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	me	se	PRON	_	_	4	expl	_	_
+2	me	se	PRON	_	_	4	expl:comp	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	aperçue	apercevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	8	mark	_	_
@@ -217,7 +217,7 @@
 56	ce	ce	PRON	_	_	50	acl	_	_
 57	qu'	que	PRON	_	_	60	nsubj	_	SpaceAfter=No
 58	il	il	PRON	_	_	60	expl:subj	_	_
-59	y	y	PRON	_	Person=3|PronType=Prs	60	expl	_	_
+59	y	y	PRON	_	Person=3|PronType=Prs	60	expl:comp	_	_
 60	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 62	plus	plus	ADV	_	_	63	advmod	_	_
@@ -306,7 +306,7 @@
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
 46	eau	eau	NOUN	_	Gender=Fem|Number=Sing	48	nsubj	_	_
-47	s'	se	PRON	_	Person=3|PronType=Prs	48	expl	_	SpaceAfter=No
+47	s'	se	PRON	_	Person=3|PronType=Prs	48	expl:comp	_	SpaceAfter=No
 48	évapore	évaporer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -339,7 +339,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	eau	eau	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-5	s'	se	PRON	_	Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	s'	se	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	SpaceAfter=No
 6	évapore	évaporer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	donc	donc	ADV	_	_	10	advmod	_	_
@@ -478,7 +478,7 @@
 6	me	lui	PRON	_	_	7	iobj	_	_
 7	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	reparandum	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
-9	quest~	quest~	X	_	Gender=Fem|Number=Sing	7	obj	_	ExtPos=NOUN
+9	quest~	quest~	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	bah	bah	INTJ	_	_	19	discourse	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	19	dislocated	_	SpaceAfter=No
@@ -489,7 +489,7 @@
 17	aussi	aussi	ADV	_	_	19	advmod	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	question	question	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-20	qu~	qu~	X	_	_	19	dep	_	ExtPos=SCONJ
+20	qu~	qu~	SCONJ	_	_	19	dep	_	_
 21	parce	parce	ADV	_	_	40	mark	_	ExtPos=SCONJ|Idiom=Yes
 22	qu'	que	SCONJ	_	_	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	en	en	ADP	_	_	24	case	_	_
@@ -503,7 +503,7 @@
 31	de	de	ADP	_	_	32	case	_	_
 32	pâte	pâte	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
-34	ferm~	ferm~	X	_	_	35	reparandum	_	ExtPos=ADJ
+34	ferm~	ferm~	ADJ	_	_	35	reparandum	_	_
 35	formée	formé	ADJ	_	Gender=Fem|Number=Sing	26	ccomp	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	26	punct	_	_
 37	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
@@ -598,7 +598,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	reparandum	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	fr~	fr~	X	_	Gender=Masc|Number=Sing	7	reparandum	_	ExtPos=NOUN|SpaceAfter=No
+5	fr~	fr~	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 8	et	et	CCONJ	_	_	7	conj	_	ExtPos=ADV|Idiom=Yes
@@ -747,7 +747,7 @@
 23	enfin	enfin	ADV	_	_	24	discourse	_	ExtPos=INTJ
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	ExtPos=ADV|Idiom=Yes
 25	fois	fois	NOUN	_	Gender=Fem|Number=Sing	24	fixed	_	InIdiom=Yes
-26	qu~	qu~	X	_	_	24	fixed	_	ExtPos=SCONJ|InIdiom=Yes
+26	qu~	qu~	SCONJ	_	_	24	fixed	_	InIdiom=Yes
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	ExtPos=ADV|Idiom=Yes
 28	fois	fois	NOUN	_	Gender=Fem|Number=Sing	27	fixed	_	InIdiom=Yes
 29	que	que	SCONJ	_	_	33	mark	_	_

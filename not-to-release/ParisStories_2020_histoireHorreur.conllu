@@ -117,14 +117,14 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 14	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
-16	y	y	PRON	_	Person=3|PronType=Prs	17	expl	_	_
+16	y	y	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	_
 17	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	bête	bête	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 22	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs	24	expl	_	_
+23	se	se	PRON	_	Person=3|PronType=Prs	24	expl:comp	_	_
 24	baladait	balader	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
 25	dans	dans	ADP	_	_	26	case	_	_
 26	Champgenéteux	Champgenéteux	PROPN	_	_	24	obl:mod	_	_
@@ -138,7 +138,7 @@
 34	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
 35	peur	peur	NOUN	_	Gender=Fem|Number=Sing	34	obj:lvc	_	_
 36-37	aux	_	_	_	_	_	_	_	_
-36	à	à	ADP	_	_	35	obl:mod	_	Scrap=Yes
+36	à	à	ADP	_	_	35	obl:arg	_	Scrap=Yes
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	dep	_	Scrap=Yes
 38	dans	dans	ADP	_	_	41	reparandum	_	_
 39	dans	dans	ADP	_	_	41	case	_	_
@@ -154,7 +154,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	_
 4	il	il	PRON	_	_	6	expl:subj	_	_
-5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	obj	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -218,7 +218,7 @@
 7	bête	bête	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 8	apparaissait	apparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	d'	de	DET	_	Definite=Ind|PronType=Art	15	det	_	SpaceAfter=No
 13	autres	autre	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
@@ -237,7 +237,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	Bloody	Bloody	PROPN	_	_	4	obj	_	_
@@ -250,7 +250,7 @@
 1	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -259,11 +259,11 @@
 # text = il y avait enfin il y avait plein de personnages euh de des de films qui apparaissaient.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 4	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
 5	il	il	PRON	_	_	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	plein	plein	ADV	_	_	7	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -288,11 +288,11 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	zom~	zom~	X	_	_	11	reparandum	_	ExtPos=NOUN
+7	zom~	zom~	NOUN	_	_	11	reparandum	_	_
 8	enfin	enfin	ADV	_	_	11	discourse	_	ExtPos=INTJ
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	possible	possible	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
@@ -325,7 +325,7 @@
 3	là	là	ADV	_	_	7	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	curé	curé	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -370,7 +370,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	scène	scène	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
@@ -463,7 +463,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 4	en	en	PRON	_	Person=3|PronType=Prs	6	nmod	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	obj	_	_
@@ -474,7 +474,7 @@
 11	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	appos	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
-14	dehors	dehors	ADV	_	_	13	obl:mod	_	_
+14	dehors	dehors	ADV	_	_	13	obl:arg	_	_
 15	genre	genre	NOUN	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -519,7 +519,7 @@
 2	genre	genre	NOUN	_	_	6	discourse	_	ExtPos=INTJ
 3	derrière	derrière	ADP	_	_	6	dep	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
-5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	gars	gars	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
@@ -546,7 +546,7 @@
 5	et	et	CCONJ	_	_	7	cc	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
-8	là	là	ADV	_	_	7	obl:mod	_	SpaceAfter=No
+8	là	là	ADV	_	_	7	obl:arg	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_31
@@ -559,7 +559,7 @@
 5	juste	juste	ADV	_	_	4	advmod	_	_
 6	par	par	ADP	_	_	13	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	fai~	fai~	X	_	_	13	reparandum	_	ExtPos=NOUN
+8	fai~	fai~	NOUN	_	_	13	reparandum	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	reparandum	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	reparandum	_	_
 11	ah	ah	INTJ	_	_	12	discourse	_	_

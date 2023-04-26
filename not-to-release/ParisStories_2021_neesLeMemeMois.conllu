@@ -172,7 +172,7 @@
 32	parce	parce	ADV	_	_	36	mark	_	ExtPos=SCONJ|Idiom=Yes
 33	que	que	SCONJ	_	_	32	fixed	_	InIdiom=Yes
 34	il	il	PRON	_	_	36	expl:subj	_	_
-35	y	y	PRON	_	Person=3|PronType=Prs	36	expl	_	_
+35	y	y	PRON	_	Person=3|PronType=Prs	36	expl:comp	_	_
 36	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	advcl	_	_
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	concours	concours	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_

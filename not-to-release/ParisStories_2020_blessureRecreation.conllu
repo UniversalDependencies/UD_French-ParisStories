@@ -81,7 +81,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	gamine	gamin	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
@@ -90,7 +90,7 @@
 9	s'	se	PRON	_	Person=3|PronType=Prs	14	reparandum	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
 10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	9	discourse	_	_
-12	Céc~	Céc~	X	_	_	9	obj	_	ExtPos=PROPN
+12	Céc~	Céc~	PROPN	_	_	9	obj	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
 14	s'	se	PRON	_	Person=3|PronType=Prs	6	acl:relcl	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
 15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	InIdiom=Yes
@@ -108,7 +108,7 @@
 27	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	expl:subj	_	_
-30	y	y	PRON	_	Person=3|PronType=Prs	31	expl	_	_
+30	y	y	PRON	_	Person=3|PronType=Prs	31	expl:comp	_	_
 31	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	Reported=Yes
 32	Sanga	Sanga	PROPN	_	_	31	obj	_	_
 33	à	à	ADP	_	_	34	case	_	_
@@ -119,7 +119,7 @@
 # text = il y a Sanga à terre euh !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 4	Sanga	Sanga	PROPN	_	_	3	obj	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -144,7 +144,7 @@
 # text = il y a Sanga à terre !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 4	Sanga	sanga	PROPN	_	_	3	obj	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -155,7 +155,7 @@
 # text = il y a Sanga à terre !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 4	Sanga	sanga	PROPN	_	_	3	obj	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -274,7 +274,7 @@
 12	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	expl:subj	_	_
 13	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-15	s'	se	PRON	_	Person=3|PronType=Prs	17	expl	_	SpaceAfter=No
+15	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
 17	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl:cleft	_	_
 18	?	?	PUNCT	_	_	4	punct	_	_
@@ -575,7 +575,7 @@
 5	s'	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	expl	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	_
 9	relever	relever	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -588,7 +588,7 @@
 4	trop	trop	ADV	_	_	5	advmod	_	_
 5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	obj:lvc	_	_
 6	de	de	ADP	_	_	8	mark	_	_
-7	se	se	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	relever	relever	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 9	en	en	ADP	_	_	3	advmod	_	ExtPos=ADV|Idiom=Yes
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -614,7 +614,7 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	là	là	ADV	_	_	5	advmod	_	_
 3	il	il	PRON	_	_	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 7	autre	autre	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
