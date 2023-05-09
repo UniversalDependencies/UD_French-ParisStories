@@ -80,7 +80,7 @@
 # text = je me suis aperçue que c'était ça qui les empêchait de gonfler.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	me	se	PRON	_	_	4	expl	_	_
+2	me	se	PRON	_	_	4	expl:comp	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	aperçue	apercevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	8	mark	_	_
@@ -217,8 +217,8 @@
 56	ce	ce	PRON	_	_	50	acl	_	_
 57	qu'	que	PRON	_	_	60	nsubj	_	SpaceAfter=No
 58	il	il	PRON	_	_	60	expl:subj	_	_
-59	y	y	PRON	_	Person=3|PronType=Prs	60	expl	_	_
-60	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl	_	_
+59	y	y	PRON	_	Person=3|PronType=Prs	60	expl:comp	_	_
+60	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 62	plus	plus	ADV	_	_	63	advmod	_	_
 63	gros	gros	ADJ	_	Gender=Masc|Number=Sing	64	amod	_	_
@@ -306,7 +306,7 @@
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
 46	eau	eau	NOUN	_	Gender=Fem|Number=Sing	48	nsubj	_	_
-47	s'	se	PRON	_	Person=3|PronType=Prs	48	expl	_	SpaceAfter=No
+47	s'	se	PRON	_	Person=3|PronType=Prs	48	expl:comp	_	SpaceAfter=No
 48	évapore	évaporer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -339,7 +339,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	eau	eau	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-5	s'	se	PRON	_	Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+5	s'	se	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	SpaceAfter=No
 6	évapore	évaporer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	donc	donc	ADV	_	_	10	advmod	_	_
@@ -743,7 +743,7 @@
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	27	punct	_	_
-22	XXX	XXX	X	_	_	24	discourse	_	_
+22	XXX	XXX	X	_	_	24	discourse	_	ExtPos=X
 23	enfin	enfin	ADV	_	_	24	discourse	_	ExtPos=INTJ
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	ExtPos=ADV|Idiom=Yes
 25	fois	fois	NOUN	_	Gender=Fem|Number=Sing	24	fixed	_	InIdiom=Yes
@@ -840,7 +840,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_31
 # text = XXX et euh, et voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	XXX	XXX	X	_	_	6	discourse	_	wordform=xxx
+1	XXX	XXX	X	_	_	6	discourse	_	ExtPos=X|wordform=xxx
 2	et	et	CCONJ	_	_	6	cc	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_

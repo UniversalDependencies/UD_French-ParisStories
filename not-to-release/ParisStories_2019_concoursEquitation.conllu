@@ -228,7 +228,7 @@
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
-7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
+7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	qualifié	qualifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	assez	assez	ADV	_	_	11	advmod	_	_
@@ -246,7 +246,7 @@
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	il	_	PRON	_	_	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	deux	deux	NUM	_	Number=Plur	9	nummod	_	_
 9	épreuves	épreuve	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
@@ -520,7 +520,7 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	26	amod	_	_
 26	ce	ce	PRON	_	_	23	nmod	_	_
-27	que	que	PRON	_	_	29	advcl	_	_
+27	que	que	PRON	_	_	29	obl:mod	_	_
 28	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	29	nsubj	_	_
 29	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
@@ -640,7 +640,7 @@
 18	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	28	punct	_	_
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	expl:subj	_	_
-21	y	y	PRON	_	Person=3|PronType=Prs	22	expl	_	_
+21	y	y	PRON	_	Person=3|PronType=Prs	22	expl:comp	_	_
 22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	reparandum	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	genre	genre	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
@@ -658,7 +658,7 @@
 36	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	39	nsubj	_	_
 37	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	iobj	_	_
 38	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:tense	_	_
-39	collé	coller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+39	collé	coller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
 40	sur	sur	ADP	_	_	42	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	tête	tête	NOUN	_	Gender=Fem|Number=Sing	39	obl:mod	_	SpaceAfter=No
@@ -797,7 +797,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	qui	qui	PRON	_	_	14	nsubj	_	_
 13	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
-14	couvrait	couvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl	_	_
+14	couvrait	couvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
 15	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	fesses	fesse	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
@@ -810,7 +810,7 @@
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 4	il	il	PRON	_	_	6	expl:subj	_	_
-5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
 7	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	6	obj	_	_
 8	de	de	ADP	_	_	26	case	_	_

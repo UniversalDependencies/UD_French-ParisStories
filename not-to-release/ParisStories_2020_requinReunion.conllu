@@ -3,7 +3,7 @@
 # text = il y a un truc qui m'a marquée.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/35931c521095ff436db20d6625bfa67a6fdde6f7
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	truc	truc	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
@@ -309,7 +309,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	monté	monter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	tout	tout	ADV	_	_	7	advmod	_	_
-7	en	en	ADP	_	_	5	iobj	_	ExtPos=ADV|Idiom=Yes
+7	en	en	ADP	_	_	5	obl:arg	_	ExtPos=ADV|Idiom=Yes
 8	haut	haut	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes
 9-10	du	_	_	_	_	_	_	_	_
 9	de	le	ADP	_	_	11	case	_	_
@@ -354,7 +354,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	monté	monter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	tout	tout	ADV	_	_	9	advmod	_	_
-9	en	en	ADP	_	_	7	iobj	_	ExtPos=ADV|Idiom=Yes
+9	en	en	ADP	_	_	7	obl:arg	_	ExtPos=ADV|Idiom=Yes
 10	haut	haut	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -452,7 +452,7 @@
 5	port~	port~	VERB	_	_	14	reparandum	_	_
 6	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-8	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+8	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	expl:comp	_	_
 9	tenait	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	reparandum	_	_
 10	s~	s~	X	_	_	9	dep	_	Scrap=Yes
 11	enfin	enfin	ADV	_	_	10	discourse	_	ExtPos=INTJ
@@ -509,7 +509,7 @@
 1	parce	parce	ADV	_	_	5	mark	_	ExtPos=SCONJ|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 7	belles	beau	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_

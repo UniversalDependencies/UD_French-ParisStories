@@ -69,7 +69,7 @@
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
 13	il	il	PRON	_	_	15	expl:subj	_	_
-14	y	y	PRON	_	Person=3|PronType=Prs	15	expl	_	_
+14	y	y	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	reparandum	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	26	punct	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
@@ -338,7 +338,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	être	être	AUX	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
+6	être	être	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	en	en	ADP	_	_	8	case	_	_
 8	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
 9	ou	ou	CCONJ	_	_	11	cc	_	_
@@ -378,7 +378,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	directement	directement	ADV	_	_	6	advmod	_	_
-8	là-bas	là-bas	ADV	_	_	6	iobj	_	SpaceAfter=No
+8	là-bas	là-bas	ADV	_	_	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	à	à	ADP	_	_	14	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
@@ -422,11 +422,11 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	là-bas	là-bas	ADV	_	_	8	iobj	_	SpaceAfter=No
+9	là-bas	là-bas	ADV	_	_	8	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	mais	mais	CCONJ	_	_	14	cc	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
-13	y	y	PRON	_	Person=3|PronType=Prs	14	expl	_	_
+13	y	y	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	_
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	queue	queue	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
@@ -552,7 +552,7 @@
 # text = il y en avait, il devait y en avoir genre, euh, cinq et finalement il y en a eu six, dont deux qu'on savait pas du tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -632,7 +632,7 @@
 11	même	même	ADV	_	_	15	advmod	_	_
 12	si	si	SCONJ	_	_	15	mark	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
-14	y	y	PRON	_	Person=3|PronType=Prs	15	expl	_	_
+14	y	y	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	_
 15	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	bon	bon	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
@@ -691,7 +691,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	_	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	tout	tout	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_

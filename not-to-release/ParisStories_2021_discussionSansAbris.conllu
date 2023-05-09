@@ -196,7 +196,7 @@
 21	fois	fois	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
 22	où	où	PRON	_	PronType=Rel	24	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	où	où	PRON	_	PronType=Rel	26	advcl	_	_
+24	où	où	PRON	_	PronType=Rel	26	obl:mod	_	_
 25	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
 26	arrivais	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
 27	à	à	ADP	_	_	28	case	_	_
@@ -280,7 +280,7 @@
 10	licence	licence	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
-13	y	y	PRON	_	Person=3|PronType=Prs	14	expl	_	_
+13	y	y	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	_
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 15	pas	pas	ADV	_	_	16	advmod	_	_
 16	mal	mal	ADV	_	Gender=Masc|Number=Sing	14	obj	_	_
@@ -442,7 +442,7 @@
 16	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	expl:pv	_	_
 17	rends	rendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	reparandum	_	_
 18	compte	compte	NOUN	_	Gender=Masc|Number=Sing	17	obj:lvc	_	_
-19	que	que	SCONJ	_	_	17	iobj	_	SpaceAfter=No
+19	que	que	SCONJ	_	_	17	obl:arg	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	devant	devant	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -454,7 +454,7 @@
 28	compte	compte	NOUN	_	Gender=Masc|Number=Sing	27	obj:lvc	_	_
 29	qu'	qu'	SCONJ	_	_	32	mark	_	SpaceAfter=No
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	expl:subj	_	_
-31	y	y	PRON	_	Person=3|PronType=Prs	32	expl	_	_
+31	y	y	PRON	_	Person=3|PronType=Prs	32	expl:comp	_	_
 32	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	sans-abri	sans-abri	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
@@ -530,7 +530,7 @@
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	quelqu'	quelqu'	DET	_	Number=Sing	10	det	_	SpaceAfter=No
 10	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	obj	_	_
@@ -675,7 +675,7 @@
 6	Seine-et-Marne	Seine-et-Marne	PROPN	_	_	10	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	10	expl	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	pas	pas	ADV	_	_	10	advmod	_	_
 12	forcément	forcemment	ADV	_	_	10	advmod	_	_
@@ -826,13 +826,13 @@
 # text = je me souviens qu'il s'appelait XXX.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl:comp	_	_
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	qu'	SCONJ	_	_	7	mark	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	expl:pv	_	SpaceAfter=No
 7	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
-8	XXX	XXX	X	_	_	7	obj	_	SpaceAfter=No
+8	XXX	XXX	X	_	_	7	obj	_	ExtPos=X|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_discussionSansAbris_37

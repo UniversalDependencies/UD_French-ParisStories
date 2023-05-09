@@ -71,18 +71,18 @@
 4	parc	parc	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	où	où	PRON	_	_	8	obl:mod	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	8	expl	_	_
+7	y	y	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
 9	pf	pf	X	_	_	10	discourse	_	_
 10	où	où	PRON	_	_	13	obl:mod	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	13	expl	_	_
+12	y	y	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 14	plein	plein	ADV	_	_	17	reparandum	_	_
-15	de	de	ADP	_	_	14	iobj	_	SpaceAfter=No
+15	de	de	ADP	_	_	14	obl:arg	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	plein	plein	ADV	_	_	19	advmod	_	_
-18	d'	d'	ADP	_	_	17	iobj	_	SpaceAfter=No
+18	d'	d'	ADP	_	_	17	obl:arg	_	SpaceAfter=No
 19	activités	activité	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -90,7 +90,7 @@
 # sent_id = ParisStories_2019_mauriceAventure_5
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
@@ -121,7 +121,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	4	obj	_	_
 6	d'	d'	ADP	_	_	7	case	_	SpaceAfter=No
@@ -134,7 +134,7 @@
 # sent_id = ParisStories_2019_mauriceAventure_8
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	tyroliennes	tyrolien	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
@@ -144,11 +144,11 @@
 # sent_id = ParisStories_2019_mauriceAventure_9
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	quad	quad	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
@@ -161,7 +161,7 @@
 # sent_id = ParisStories_2019_mauriceAventure_10
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	marche	marcher	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -278,7 +278,7 @@
 1	donc	donc	ADV	_	_	6	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	levé	lever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
@@ -470,7 +470,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	dep:comp	_	Scrap=Yes|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	7	expl	_	SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	_
 7	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -486,7 +486,7 @@
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plein	plein	ADV	_	_	5	advmod	_	_
-4	d'	d'	ADP	_	_	3	iobj	_	SpaceAfter=No
+4	d'	d'	ADP	_	_	3	obl:arg	_	SpaceAfter=No
 5	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -521,7 +521,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	autruches	autruche	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
@@ -541,7 +541,7 @@
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	7	advmod	_	_
-6	de	de	ADP	_	_	5	iobj	_	_
+6	de	de	ADP	_	_	5	obl:arg	_	_
 7	paysages	paysage	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 8	magnifiques	magnifique	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -556,7 +556,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 6	monte	monter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	tout	tout	ADV	_	_	8	advmod	_	_
-8	là-haut	là-haut	ADV	_	_	6	iobj	_	SpaceAfter=No
+8	là-haut	là-haut	ADV	_	_	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 
 # text = on a une vue sur la mer.
@@ -693,7 +693,7 @@
 11	aussi	aussi	ADV	_	_	10	advmod	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
-14	y	y	PRON	_	Person=3|PronType=Prs	15	expl	_	_
+14	y	y	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 16	que	que	SCONJ	_	_	18	dep	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -727,7 +727,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
@@ -767,7 +767,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
-3	y	y	PRON	_	Person=3|PronType=Prs	4	expl	_	_
+3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -780,7 +780,7 @@
 # sent_id = ParisStories_2019_mauriceAventure_47
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -794,7 +794,7 @@
 # sent_id = ParisStories_2019_mauriceAventure_48
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	Bastien	Bastien	PROPN	_	_	9	reparandum	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
@@ -817,7 +817,7 @@
 3	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
 8	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -837,7 +837,7 @@
 1	ah	ah	INTJ	_	_	5	discourse	_	_
 2	non	non	ADV	_	_	5	discourse	_	ExtPos=INTJ
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	père	père	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -955,7 +955,7 @@
 5	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 6	pour	pour	ADP	_	_	8	reparandum	_	_
 7	pour	pour	ADP	_	_	8	mark	_	_
-8	être	être	AUX	_	VerbForm=Inf	5	advcl	_	Subject=NoRaising
+8	être	être	VERB	_	VerbForm=Inf	5	advcl	_	Subject=NoRaising
 9	là	là	ADV	_	_	8	advmod	_	_
 10	dedans	dedans	ADV	_	_	8	advmod	_	_
 11	sinon	sinon	CCONJ	_	_	14	cc	_	_

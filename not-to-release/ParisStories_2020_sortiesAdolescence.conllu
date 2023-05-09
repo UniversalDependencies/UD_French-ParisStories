@@ -154,7 +154,7 @@
 3	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	_
 9	qu'	que	PRON	_	PronType=Rel	11	obj	_	SpaceAfter=No
@@ -177,7 +177,7 @@
 7	quatrième	quatrième	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
 12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_

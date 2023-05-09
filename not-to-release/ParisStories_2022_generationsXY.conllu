@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_2_générationsXY__1
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = Nicolas peut-être qui regardait.
 1	Nicolas	Nicolas	PROPN	_	_	0	root	_	AlignBegin=32|AlignEnd=306
@@ -10,7 +10,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=1127|AlignEnd=1127
 
 # sent_id = ParisStories_2022_2_générationsXY__2
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et, euh, du coup, moi, j'étais là.
 1	et	et	CCONJ	_	_	13	cc	_	AlignBegin=2050|AlignEnd=2226|SpaceAfter=No
@@ -30,7 +30,7 @@
 14	.	.	PUNCT	_	_	13	punct	_	AlignBegin=3376|AlignEnd=3376
 
 # sent_id = ParisStories_2022_2_générationsXY__3
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et puis, je voulais jouer, faire un truc.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=3376|AlignEnd=3530
@@ -46,7 +46,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	AlignBegin=4881|AlignEnd=4881
 
 # sent_id = ParisStories_2022_2_générationsXY__4
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et, euh, il y avait ça à la télé.
 1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=4881|AlignEnd=5087|SpaceAfter=No
@@ -54,7 +54,7 @@
 3	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=5087|AlignEnd=5293|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=5293|AlignEnd=5293
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=5293|AlignEnd=5499
-6	y	y	PRON	_	_	7	expl	_	AlignBegin=5499|AlignEnd=5706
+6	y	y	PRON	_	_	7	expl:comp	_	AlignBegin=5499|AlignEnd=5706
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=5706|AlignEnd=5912
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obj	_	AlignBegin=5912|AlignEnd=6118
 9	à	à	ADP	_	_	11	case	_	AlignBegin=6118|AlignEnd=6118
@@ -63,7 +63,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	AlignBegin=6530|AlignEnd=6530
 
 # sent_id = ParisStories_2022_2_générationsXY__5
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et vous étiez là avec Flora en train de rire.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=6530|AlignEnd=6686
@@ -79,7 +79,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=8090|AlignEnd=8090
 
 # sent_id = ParisStories_2022_2_générationsXY__6
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = vous ricaniez.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=8090|AlignEnd=8314
@@ -87,7 +87,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=8539|AlignEnd=8539
 
 # sent_id = ParisStories_2022_2_générationsXY__7
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = vous étiez là ha ha ha, oh la la !
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=8539|AlignEnd=8763
@@ -103,13 +103,13 @@
 11	!	!	PUNCT	_	_	3	punct	_	AlignBegin=9885|AlignEnd=9885
 
 # sent_id = ParisStories_2022_2_générationsXY__8
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = parce qu'il se passait des trucs bizarres.
 1	parce	parce	ADV	_	_	5	mark	_	AlignBegin=10464|AlignEnd=10598|ExtPos=SCONJ|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=10598|AlignEnd=10731|InIdiom=Yes|SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=10731|AlignEnd=10865
-4	se	se	PRON	_	_	5	expl	_	AlignBegin=10865|AlignEnd=10999
+4	se	se	PRON	_	_	5	expl:comp	_	AlignBegin=10865|AlignEnd=10999
 5	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=10999|AlignEnd=11132
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	AlignBegin=11132|AlignEnd=11266
 7	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	AlignBegin=11266|AlignEnd=11399
@@ -117,7 +117,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=11533|AlignEnd=11533
 
 # sent_id = ParisStories_2022_2_générationsXY__9
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et c'était un peu gore.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=11533|AlignEnd=11662
@@ -129,13 +129,13 @@
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=12309|AlignEnd=12309
 
 # sent_id = ParisStories_2022_2_générationsXY__10
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = genre, il y avait, on, on l'opérait du cerveau.
 1	genre	genre	NOUN	_	_	5	discourse	_	AlignBegin=12309|AlignEnd=12438|ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=12438|AlignEnd=12438
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	AlignBegin=12438|AlignEnd=12567
-4	y	y	PRON	_	_	5	expl	_	AlignBegin=12567|AlignEnd=12696
+4	y	y	PRON	_	_	5	expl:comp	_	AlignBegin=12567|AlignEnd=12696
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	AlignBegin=12696|AlignEnd=12826|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	AlignBegin=12826|AlignEnd=12826
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	reparandum	_	AlignBegin=12826|AlignEnd=12955|SpaceAfter=No
@@ -150,7 +150,7 @@
 15	.	.	PUNCT	_	_	11	punct	_	AlignBegin=14169|AlignEnd=14169
 
 # sent_id = ParisStories_2022_2_générationsXY__11
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et ils montraient l'opération.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=14169|AlignEnd=14384
@@ -161,7 +161,7 @@
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=15242|AlignEnd=15242
 
 # sent_id = ParisStories_2022_2_générationsXY__12
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et moi, je comprenais pas.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=15242|AlignEnd=15424
@@ -173,7 +173,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=16150|AlignEnd=16150
 
 # sent_id = ParisStories_2022_2_générationsXY__13
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = je suis là mais en vrai, ça fait pas peur.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=16150|AlignEnd=16271
@@ -186,11 +186,11 @@
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=16873|AlignEnd=16994
 9	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	AlignBegin=16994|AlignEnd=17114|Reported=Yes
 10	pas	pas	ADV	_	_	9	advmod	_	AlignBegin=17114|AlignEnd=17235
-11	peur	peur	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	AlignBegin=17235|AlignEnd=17355|SpaceAfter=No
+11	peur	peur	NOUN	_	Gender=Fem|Number=Sing	9	obj:lvc	_	AlignBegin=17235|AlignEnd=17355|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	AlignBegin=17355|AlignEnd=17355
 
 # sent_id = ParisStories_2022_2_générationsXY__14
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = c'est juste dégueu.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=17355|AlignEnd=17572|SpaceAfter=No
@@ -200,7 +200,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=18224|AlignEnd=18224
 
 # sent_id = ParisStories_2022_2_générationsXY__15
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et voilà.
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=19128|AlignEnd=19280
@@ -208,7 +208,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=19431|AlignEnd=19431
 
 # sent_id = ParisStories_2022_2_générationsXY__16
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = hm, je me souviens pas du tout.
 1	hm	hm	ADJ	_	_	5	discourse	_	AlignBegin=19380|AlignEnd=19534|SpaceAfter=No
@@ -224,7 +224,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=20460|AlignEnd=20460
 
 # sent_id = ParisStories_2022_2_générationsXY__17
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = tu es sûr que je regardais ça avec Flora ?
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=20460|AlignEnd=20615
@@ -239,7 +239,7 @@
 10	?	?	PUNCT	_	_	3	punct	_	AlignBegin=21859|AlignEnd=21859
 
 # sent_id = ParisStories_2022_2_générationsXY__18
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = ça m'étonnerait.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=22325|AlignEnd=22755
@@ -248,14 +248,14 @@
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=23616|AlignEnd=23616
 
 # sent_id = ParisStories_2022_2_générationsXY__19
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = euh.
 1	euh	euh	INTJ	_	_	0	root	_	AlignBegin=22336|AlignEnd=23309|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=23309|AlignEnd=23309
 
 # sent_id = ParisStories_2022_2_générationsXY__20
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = et je sais qu'on était quatre et qu'il y avait Nicolas et toi et moi.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=23619|AlignEnd=23789
@@ -268,7 +268,7 @@
 8	et	et	CCONJ	_	_	12	cc	_	AlignBegin=24940|AlignEnd=25094
 9	qu'	que	SCONJ	_	_	12	mark	_	AlignBegin=25094|AlignEnd=25248|SpaceAfter=No
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	AlignBegin=25248|AlignEnd=25402
-11	y	y	PRON	_	_	12	expl	_	AlignBegin=25402|AlignEnd=25556
+11	y	y	PRON	_	_	12	expl:comp	_	AlignBegin=25402|AlignEnd=25556
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	AlignBegin=25556|AlignEnd=25710
 13	Nicolas	Nicolas	PROPN	_	_	12	obj	_	AlignBegin=25710|AlignEnd=25863
 14	et	et	CCONJ	_	_	15	cc	_	AlignBegin=25863|AlignEnd=26017
@@ -278,7 +278,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	AlignBegin=26479|AlignEnd=26479
 
 # sent_id = ParisStories_2022_2_générationsXY__21
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = c'est sûr qu'il y avait Nicolas, mais Flora, je pense pas, parce qu'elle devait être petite.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	expl:subj	_	AlignBegin=26365|AlignEnd=26489|SpaceAfter=No
@@ -286,7 +286,7 @@
 3	sûr	sûr	ADJ	_	_	0	root	_	AlignBegin=26612|AlignEnd=26736
 4	qu'	que	SCONJ	_	_	7	mark	_	AlignBegin=26736|AlignEnd=26859|SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	AlignBegin=26859|AlignEnd=26983
-6	y	y	PRON	_	_	7	expl	_	AlignBegin=26983|AlignEnd=27106
+6	y	y	PRON	_	_	7	expl:comp	_	AlignBegin=26983|AlignEnd=27106
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	AlignBegin=27106|AlignEnd=27230
 8	Nicolas	Nicolas	PROPN	_	_	7	obj	_	AlignBegin=27230|AlignEnd=27353|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	AlignBegin=27353|AlignEnd=27353
@@ -306,7 +306,7 @@
 23	.	.	PUNCT	_	_	3	punct	_	AlignBegin=29346|AlignEnd=29346
 
 # sent_id = ParisStories_2022_2_générationsXY__22
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, mais, euh, c'était l'époque où, euh, elle te suivait partout tout le temps, donc, euh.
 1	ouais	ouais	INTJ	_	_	10	discourse	_	AlignBegin=30180|AlignEnd=30448|SpaceAfter=No
@@ -319,7 +319,7 @@
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	AlignBegin=31253|AlignEnd=31521
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=31521|AlignEnd=31789|SpaceAfter=No
 10	époque	époque	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=31789|AlignEnd=32057
-11	où	où	PRON	_	_	17	advcl	_	AlignBegin=32057|AlignEnd=32327|SpaceAfter=No
+11	où	où	PRON	_	_	17	obl:mod	_	AlignBegin=32057|AlignEnd=32327|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=32327|AlignEnd=32327
 13	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=32327|AlignEnd=32596|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=32596|AlignEnd=32596
@@ -337,7 +337,7 @@
 26	.	.	PUNCT	_	_	10	punct	_	AlignBegin=35022|AlignEnd=35022
 
 # sent_id = ParisStories_2022_2_générationsXY__23
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = ouais, peut-être.
 1	ouais	ouais	INTJ	_	_	3	discourse	_	AlignBegin=36304|AlignEnd=36698|SpaceAfter=No
@@ -346,7 +346,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=37091|AlignEnd=37091
 
 # sent_id = ParisStories_2022_2_générationsXY__24
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = mais elle avait beaucoup peur de beaucoup de trucs, tu t'en souviens ?
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=37785|AlignEnd=37980
@@ -366,14 +366,14 @@
 15	?	?	PUNCT	_	_	3	punct	_	AlignBegin=40132|AlignEnd=40132
 
 # sent_id = ParisStories_2022_2_générationsXY__25
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ah ?
 1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=40560|AlignEnd=40981
 2	?	?	PUNCT	_	_	1	punct	_	AlignBegin=40981|AlignEnd=40981
 
 # sent_id = ParisStories_2022_2_générationsXY__26
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = et moi, j'aimais que les films d'horreur.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=41087|AlignEnd=41251
@@ -389,7 +389,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	AlignBegin=42567|AlignEnd=42567
 
 # sent_id = ParisStories_2022_2_générationsXY__27
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = tu sais, les jeux d'horreur, et tout.
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=42572|AlignEnd=42687
@@ -405,7 +405,7 @@
 11	.	.	PUNCT	_	_	5	punct	_	AlignBegin=43493|AlignEnd=43493
 
 # sent_id = ParisStories_2022_2_générationsXY__28
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = et à chaque fois qu'elle, elle jouait ou qu'elle faisait des trucs comme moi, bah, ses parents, ils l'engueulaient.
 1	et	et	CCONJ	_	_	26	cc	_	AlignBegin=43493|AlignEnd=43653
@@ -437,7 +437,7 @@
 27	.	.	PUNCT	_	_	26	punct	_	AlignBegin=47092|AlignEnd=47092
 
 # sent_id = ParisStories_2022_2_générationsXY__29
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = parce que elle était pas censée faire comme moi.
 1	parce	parce	ADV	_	_	6	mark	_	AlignBegin=47092|AlignEnd=47403|ExtPos=SCONJ|Idiom=Yes
@@ -452,14 +452,14 @@
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=49611|AlignEnd=49611
 
 # sent_id = ParisStories_2022_2_générationsXY__30
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = oui.
 1	oui	oui	ADV	_	_	0	root	_	AlignBegin=48596|AlignEnd=49183|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=49183|AlignEnd=49183
 
 # sent_id = ParisStories_2022_2_générationsXY__31
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, enfin, elle était pas soumise.
 1	ouais	ouais	INTJ	_	_	8	discourse	_	AlignBegin=50021|AlignEnd=50213|SpaceAfter=No
@@ -473,7 +473,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=51171|AlignEnd=51171
 
 # sent_id = ParisStories_2022_2_générationsXY__32
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ça va.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=51171|AlignEnd=51362
@@ -481,7 +481,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=51554|AlignEnd=51554
 
 # sent_id = ParisStories_2022_2_générationsXY__33
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = bah, elle a quatre ans de moins quand même.
 1	bah	bah	INTJ	_	_	4	discourse	_	AlignBegin=51544|AlignEnd=51657|SpaceAfter=No
@@ -497,7 +497,7 @@
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52558|AlignEnd=52558
 
 # sent_id = ParisStories_2022_2_générationsXY__34
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, mais bon.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=53121|AlignEnd=53501|SpaceAfter=No
@@ -507,7 +507,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=54260|AlignEnd=54260
 
 # sent_id = ParisStories_2022_2_générationsXY__35
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = on est quand même dans la même …
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	AlignBegin=54735|AlignEnd=54840
@@ -520,7 +520,7 @@
 8	…	…	PUNCT	_	_	2	punct	_	AlignBegin=55467|AlignEnd=55467
 
 # sent_id = ParisStories_2022_2_générationsXY__36
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = est-ce qu'on est dans la même génération ?
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=55467|AlignEnd=55593|SpaceAfter=No
@@ -535,7 +535,7 @@
 10	?	?	PUNCT	_	_	5	punct	_	AlignBegin=56602|AlignEnd=56602
 
 # sent_id = ParisStories_2022_2_générationsXY__37
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = je sais pas.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=56602|AlignEnd=56772
@@ -544,14 +544,14 @@
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=57113|AlignEnd=57113
 
 # sent_id = ParisStories_2022_2_générationsXY__38
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = oui.
 1	oui	oui	ADV	_	_	0	root	_	AlignBegin=57120|AlignEnd=57327|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=57327|AlignEnd=57327
 
 # sent_id = ParisStories_2022_2_générationsXY__39
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = quatre-vingt s~, euh, la génération, euh …
 1	quatre-vingt	quatre-vingt	NUM	_	_	2	nummod	_	AlignBegin=58217|AlignEnd=58590
@@ -566,28 +566,28 @@
 10	…	…	PUNCT	_	_	7	punct	_	AlignBegin=60456|AlignEnd=60456
 
 # sent_id = ParisStories_2022_2_générationsXY__40
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=58355|AlignEnd=58531|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=58531|AlignEnd=58531
 
 # sent_id = ParisStories_2022_2_générationsXY__41
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = Z.
 1	Z	Z	PROPN	_	_	0	root	_	AlignBegin=60607|AlignEnd=61211|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=61211|AlignEnd=61211
 
 # sent_id = ParisStories_2022_2_générationsXY__42
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = X.
 1	X	X	PROPN	_	_	0	root	_	AlignBegin=60610|AlignEnd=61207|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=61207|AlignEnd=61207
 
 # sent_id = ParisStories_2022_2_générationsXY__43
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = non, on est pas Z, nous, hein.
 1	non	non	ADV	_	_	6	discourse	_	AlignBegin=61273|AlignEnd=61407|SpaceAfter=No
@@ -603,14 +603,14 @@
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=62211|AlignEnd=62211
 
 # sent_id = ParisStories_2022_2_générationsXY__44
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = si.
 1	si	si	ADV	_	_	0	root	_	AlignBegin=62356|AlignEnd=62639|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=62639|AlignEnd=62639
 
 # sent_id = ParisStories_2022_2_générationsXY__45
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = enfin, Z.
 1	enfin	enfin	ADV	_	_	3	discourse	_	AlignBegin=62952|AlignEnd=63097|ExtPos=INTJ|SpaceAfter=No
@@ -619,7 +619,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=63241|AlignEnd=63241
 
 # sent_id = ParisStories_2022_2_générationsXY__46
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = Z, c'est, c'est quatre-vingt-seize deux mille quatre.
 1	Z	Z	PROPN	_	_	4	dislocated	_	AlignBegin=63211|AlignEnd=63454|SpaceAfter=No
@@ -636,7 +636,7 @@
 12	.	.	PUNCT	_	_	7	punct	_	AlignBegin=65400|AlignEnd=65400
 
 # sent_id = ParisStories_2022_2_générationsXY__47
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ah, on est les Z ?
 1	ah	ah	INTJ	_	_	6	discourse	_	AlignBegin=65231|AlignEnd=65423|SpaceAfter=No
@@ -648,21 +648,21 @@
 7	?	?	PUNCT	_	_	6	punct	_	AlignBegin=66190|AlignEnd=66190
 
 # sent_id = ParisStories_2022_2_générationsXY__48
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=66180|AlignEnd=66374|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=66374|AlignEnd=66374
 
 # sent_id = ParisStories_2022_2_générationsXY__49
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = excellent !
 1	excellent	excellent	ADJ	_	_	0	root	_	AlignBegin=66557|AlignEnd=66699
 2	!	!	PUNCT	_	_	1	punct	_	AlignBegin=66699|AlignEnd=66699
 
 # sent_id = ParisStories_2022_2_générationsXY__50
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = parce que je pensais qu'on était pas Z.
 1	parce	parce	ADV	_	_	4	mark	_	AlignBegin=66699|AlignEnd=66841|ExtPos=SCONJ|Idiom=Yes
@@ -677,7 +677,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=67978|AlignEnd=67978
 
 # sent_id = ParisStories_2022_2_générationsXY__51
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = je pensais qu'on était les, les Y ou les …
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=67978|AlignEnd=68116
@@ -694,7 +694,7 @@
 12	…	…	PUNCT	_	_	2	punct	_	AlignBegin=69357|AlignEnd=69357
 
 # sent_id = ParisStories_2022_2_générationsXY__52
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = non, Y, c'est jusqu'à quatre-vingt-quinze.
 1	non	non	ADV	_	_	6	discourse	_	AlignBegin=69260|AlignEnd=69482|SpaceAfter=No
@@ -709,7 +709,7 @@
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=70813|AlignEnd=70813
 
 # sent_id = ParisStories_2022_2_générationsXY__53
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, ok, parce que moi, j'ai l'impression de plus être avec les Y qu'avec les, les Z, au final.
 1	ouais	ouais	INTJ	_	_	12	discourse	_	AlignBegin=71327|AlignEnd=71483|SpaceAfter=No
@@ -744,7 +744,7 @@
 29	.	.	PUNCT	_	_	10	punct	_	AlignBegin=75471|AlignEnd=75471
 
 # sent_id = ParisStories_2022_2_générationsXY__54
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = hm, j'ai l'impression d'être plus avec les Z, hein.
 1	hm	hm	ADJ	_	_	4	discourse	_	AlignBegin=74878|AlignEnd=75012|SpaceAfter=No
@@ -764,7 +764,7 @@
 15	.	.	PUNCT	_	_	4	punct	_	AlignBegin=76489|AlignEnd=76489
 
 # sent_id = ParisStories_2022_2_générationsXY__55
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = bah, en fait, moi c'est juste que après je sais …
 1	bah	bah	INTJ	_	_	8	discourse	_	AlignBegin=76759|AlignEnd=76964|SpaceAfter=No
@@ -783,14 +783,14 @@
 14	…	…	PUNCT	_	_	8	punct	_	AlignBegin=79176|AlignEnd=79176
 
 # sent_id = ParisStories_2022_2_générationsXY__56
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = non.
 1	non	non	ADV	_	_	0	root	_	AlignBegin=79176|AlignEnd=79422|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=79422|AlignEnd=79422
 
 # sent_id = ParisStories_2022_2_générationsXY__57
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = parce que moi, je parle de ça.
 1	parce	parce	ADV	_	_	6	mark	_	AlignBegin=79422|AlignEnd=79566|ExtPos=SCONJ|Idiom=Yes
@@ -804,7 +804,7 @@
 9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=80433|AlignEnd=80433
 
 # sent_id = ParisStories_2022_2_générationsXY__58
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = mais c'est, je pense aux filles que je garde quand je, quand je pense à Z.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=80433|AlignEnd=80558
@@ -831,7 +831,7 @@
 21	.	.	PUNCT	_	_	6	punct	_	AlignBegin=82796|AlignEnd=82796
 
 # sent_id = ParisStories_2022_2_générationsXY__59
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = bah, oui, mais on est dans leur génération.
 1	bah	bah	INTJ	_	_	7	discourse	_	AlignBegin=83257|AlignEnd=83459|SpaceAfter=No
@@ -847,7 +847,7 @@
 11	.	.	PUNCT	_	_	7	punct	_	AlignBegin=84876|AlignEnd=84876
 
 # sent_id = ParisStories_2022_2_générationsXY__60
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = c'est vingt ans, une génération.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=84964|AlignEnd=85136|SpaceAfter=No
@@ -860,7 +860,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=85995|AlignEnd=85995
 
 # sent_id = ParisStories_2022_2_générationsXY__61
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, mais, en fait …
 1	ouais	ouais	INTJ	_	_	6	reparandum	_	AlignBegin=85095|AlignEnd=85447|SpaceAfter=No
@@ -872,7 +872,7 @@
 7	…	…	PUNCT	_	_	6	punct	_	AlignBegin=87423|AlignEnd=87423
 
 # sent_id = ParisStories_2022_2_générationsXY__62
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, c'est vrai.
 1	ouais	ouais	INTJ	_	_	5	discourse	_	AlignBegin=87567|AlignEnd=87718|SpaceAfter=No
@@ -883,12 +883,12 @@
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=88171|AlignEnd=88171
 
 # sent_id = ParisStories_2022_2_générationsXY__63
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = mais il y a, euh, tu sais ce que c'est, une génération.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=88171|AlignEnd=88323
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	AlignBegin=88323|AlignEnd=88474
-3	y	y	PRON	_	_	4	expl	_	AlignBegin=88474|AlignEnd=88625
+3	y	y	PRON	_	_	4	expl:comp	_	AlignBegin=88474|AlignEnd=88625
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	AlignBegin=88625|AlignEnd=88776|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=88776|AlignEnd=88776
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=88776|AlignEnd=88927|SpaceAfter=No
@@ -905,7 +905,7 @@
 17	.	.	PUNCT	_	_	16	punct	_	AlignBegin=90058|AlignEnd=90058
 
 # sent_id = ParisStories_2022_2_générationsXY__64
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = genre, tu sais quand tu es dans la même génération que quelqu'un.
 1	genre	genre	NOUN	_	_	4	discourse	_	AlignBegin=90058|AlignEnd=90199|ExtPos=INTJ|SpaceAfter=No
@@ -924,7 +924,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	AlignBegin=91586|AlignEnd=91586
 
 # sent_id = ParisStories_2022_2_générationsXY__65
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = tu le ressens normalement.
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=91586|AlignEnd=91820
@@ -934,7 +934,7 @@
 5	.	.	PUNCT	_	_	3	punct	_	AlignBegin=92520|AlignEnd=92520
 
 # sent_id = ParisStories_2022_2_générationsXY__66
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = genre, moi, je sais que je me sens dans la même génération jusqu'aux personnes qui ont, genre, ouais, vingt-cinq, vingt-six ans.
 1	genre	genre	NOUN	_	_	6	discourse	_	AlignBegin=92520|AlignEnd=92747|ExtPos=INTJ|SpaceAfter=No
@@ -970,14 +970,14 @@
 30	.	.	PUNCT	_	_	6	punct	_	AlignBegin=98309|AlignEnd=98309
 
 # sent_id = ParisStories_2022_2_générationsXY__67
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=99437|AlignEnd=99854|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=99854|AlignEnd=99854
 
 # sent_id = ParisStories_2022_2_générationsXY__68
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = parce qu'en fait, pour moi, le truc qui fait une génération, c'est vraiment, genre, euh.
 1	parce	parce	ADV	_	_	17	mark	_	AlignBegin=99885|AlignEnd=100067|ExtPos=SCONJ|Idiom=Yes
@@ -1005,7 +1005,7 @@
 23	.	.	PUNCT	_	_	17	punct	_	AlignBegin=103006|AlignEnd=103006
 
 # sent_id = ParisStories_2022_2_générationsXY__69
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = les références et tout ?
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	AlignBegin=102975|AlignEnd=103167
@@ -1015,14 +1015,14 @@
 5	?	?	PUNCT	_	_	2	punct	_	AlignBegin=103742|AlignEnd=103742
 
 # sent_id = ParisStories_2022_2_générationsXY__70
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=103980|AlignEnd=104160|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=104160|AlignEnd=104160
 
 # sent_id = ParisStories_2022_2_générationsXY__71
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = à l'enfance.
 1	à	à	ADP	_	_	3	case	_	AlignBegin=104160|AlignEnd=104160
@@ -1031,7 +1031,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=104521|AlignEnd=104521
 
 # sent_id = ParisStories_2022_2_générationsXY__72
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = genre, tout ce qui t'a marqué dans l'enfance.
 1	genre	genre	NOUN	_	_	4	discourse	_	AlignBegin=104521|AlignEnd=104701|ExtPos=INTJ|SpaceAfter=No
@@ -1048,7 +1048,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	AlignBegin=106121|AlignEnd=106121
 
 # sent_id = ParisStories_2022_2_générationsXY__73
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = mais justement, moi, je trouve que avec les gens qui ontvingt-six ans, il y a un truc qui …
 1	mais	mais	CCONJ	_	_	7	cc	_	AlignBegin=105847|AlignEnd=106031
@@ -1068,7 +1068,7 @@
 15	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	AlignBegin=108241|AlignEnd=108448|SpaceAfter=No
 16	,	,	PUNCT	_	_	11	punct	_	AlignBegin=108448|AlignEnd=108448
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	AlignBegin=108448|AlignEnd=108696
-18	y	y	PRON	_	_	19	expl	_	AlignBegin=108696|AlignEnd=108944
+18	y	y	PRON	_	_	19	expl:comp	_	AlignBegin=108696|AlignEnd=108944
 19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	AlignBegin=108944|AlignEnd=109193
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=109193|AlignEnd=109441
 21	truc	truc	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	AlignBegin=109441|AlignEnd=109689
@@ -1076,7 +1076,7 @@
 23	…	…	PUNCT	_	_	7	punct	_	AlignBegin=109937|AlignEnd=109937
 
 # sent_id = ParisStories_2022_2_générationsXY__74
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = genre, ils ont des références que moi, j'ai pas.
 1	genre	genre	NOUN	_	_	4	discourse	_	AlignBegin=110399|AlignEnd=110556|ExtPos=INTJ|SpaceAfter=No
@@ -1084,7 +1084,7 @@
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=110556|AlignEnd=110713
 4	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=110713|AlignEnd=110870
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=110870|AlignEnd=111027
-6	références	référence	NOUN	_	Gender=Fem|Number=Plur	4	iobj	_	AlignBegin=111027|AlignEnd=111184
+6	références	référence	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	AlignBegin=111027|AlignEnd=111184
 7	que	que	PRON	_	_	11	obj	_	AlignBegin=111184|AlignEnd=111341
 8	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dislocated	_	AlignBegin=111341|AlignEnd=111498|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=111498|AlignEnd=111498
@@ -1094,7 +1094,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=111969|AlignEnd=111969
 
 # sent_id = ParisStories_2022_2_générationsXY__75
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = comme quoi ?
 1	comme	comme	ADP	_	_	2	case	_	AlignBegin=112595|AlignEnd=112877
@@ -1102,7 +1102,7 @@
 3	?	?	PUNCT	_	_	2	punct	_	AlignBegin=113158|AlignEnd=113158
 
 # sent_id = ParisStories_2022_2_générationsXY__76
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = bah, par exemple, par rapport à des dessins animés, euh, ou des chanteurs, ou …
 1	bah	bah	INTJ	_	_	7	discourse	_	AlignBegin=113218|AlignEnd=113454|SpaceAfter=No
@@ -1127,7 +1127,7 @@
 20	…	…	PUNCT	_	_	7	punct	_	AlignBegin=116289|AlignEnd=116289
 
 # sent_id = ParisStories_2022_2_générationsXY__77
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais, mais moi, je, moi, j'ai l'impression que si, tu vois, par rapport à …
 1	ouais	ouais	INTJ	_	_	11	discourse	_	AlignBegin=115272|AlignEnd=115459|SpaceAfter=No
@@ -1155,7 +1155,7 @@
 23	…	…	PUNCT	_	_	11	punct	_	AlignBegin=117983|AlignEnd=117983
 
 # sent_id = ParisStories_2022_2_générationsXY__78
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = mais c'est bizarre parce que tu es plus jeune que moi.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=117714|AlignEnd=117805
@@ -1173,7 +1173,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=118806|AlignEnd=118806
 
 # sent_id = ParisStories_2022_2_générationsXY__79
-# sound_url = PS_2022_2_générationsXY.mp3
+# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L1
 # text = ouais.
 1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=119732|AlignEnd=120212|SpaceAfter=No

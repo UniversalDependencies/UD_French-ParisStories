@@ -66,11 +66,11 @@
 # text = il y avait euh il y avait un petit peu de retard.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	ExtPos=ADV|Idiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
@@ -105,7 +105,7 @@
 21	de	de	ADP	_	_	22	case	_	_
 22	vol	vol	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 23	il	il	PRON	_	Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
-24	y	y	PRON	_	Person=3|PronType=Prs	25	expl	_	_
+24	y	y	PRON	_	Person=3|PronType=Prs	25	expl:comp	_	_
 25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
 26	six	six	NUM	_	Number=Plur	27	nummod	_	_
 27	heures	heure	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
@@ -131,7 +131,7 @@
 # text = il y avait un mec il nous attendait euh il nous attendait avec une pancarte, euh où il y avait écrit mon prénom Julie YYY, c'était assez marrant je trouvais.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	il	il	PRON	_	_	3	expl:subj	_	_
-2	y	y	PRON	_	Person=3|PronType=Prs	3	expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	mec	mec	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
@@ -284,7 +284,7 @@
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	bah	bah	INTJ	_	_	11	discourse	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
-10	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
 12	plein	plein	ADV	_	_	15	reparandum	_	_
 13	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -379,7 +379,7 @@
 14	,	,	PUNCT	_	_	20	punct	_	_
 15	enfin	enfin	ADV	_	_	20	discourse	_	ExtPos=INTJ
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	20	expl	_	SpaceAfter=No
+17	s'	se	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
 19	bien	bien	ADV	_	_	20	advmod	_	_
 20	tapé	taper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
@@ -405,7 +405,7 @@
 5	soir	soir	NOUN	_	Gender=Masc|Number=Sing	16	dislocated	_	_
 6	si	si	SCONJ	_	_	9	mark	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-8	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+8	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	expl:comp	_	_
 9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 10	bien	bien	ADV	_	_	9	advmod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -424,7 +424,7 @@
 24	barbecue	barbecue	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
-27	y	y	PRON	_	Person=3|PronType=Prs	28	expl	_	_
+27	y	y	PRON	_	Person=3|PronType=Prs	28	expl:comp	_	_
 28	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_

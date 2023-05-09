@@ -43,7 +43,7 @@
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	comme	comme	SCONJ	_	_	5	mark	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
-4	y	y	PRON	_	Person=3|PronType=Prs	5	expl	_	_
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 6	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
@@ -247,12 +247,12 @@
 6	magnifiques	magnifique	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	11	expl	_	_
+9	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 10	en	en	PRON	_	Person=3|PronType=Prs	11	obj	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 12	de	de	ADP	_	_	15	case	_	_
 13	plein	plein	ADV	_	_	15	advmod	_	_
-14	de	de	ADP	_	_	13	iobj	_	_
+14	de	de	ADP	_	_	13	obl:arg	_	_
 15	tailles	taille	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	de	de	ADP	_	_	18	case	_	_
@@ -261,11 +261,11 @@
 20	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	18	obl:arg	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	15	punct	_	_
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
-23	y	y	PRON	_	Person=3|PronType=Prs	25	expl	_	_
+23	y	y	PRON	_	Person=3|PronType=Prs	25	expl:comp	_	_
 24	en	en	PRON	_	Person=3|PronType=Prs	25	obj	_	_
 25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 26	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
-27	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
+27	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
 28	peur	peur	NOUN	_	Gender=Fem|Number=Plur	27	obj:lvc	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -429,7 +429,7 @@
 3	voilà	voilà	VERB	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
-6	y	y	PRON	_	Person=3|PronType=Prs	7	expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	même	même	ADV	_	_	10	advmod	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
@@ -521,7 +521,7 @@
 6	gens	gens	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
 7	que	que	PRON	_	PronType=Rel	9	obj	_	_
 8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-9	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl	_	_
+9	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 10	pas	pas	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
 12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_

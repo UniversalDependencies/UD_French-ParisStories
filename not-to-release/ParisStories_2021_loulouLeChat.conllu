@@ -332,7 +332,7 @@
 # status = done
 # sent_id = ParisStories_2021_loulouLeChat_18
 # speaker = L1
-# macrosyntax =donc euh, [ il se méfie ] ouais, il se méfie.
+# macrosyntax = donc euh, [ il se méfie ] ouais, il se méfie.
 # text = donc euh, ouais, il se méfie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	donc	donc	ADV	_	_	8	advmod	_	_
@@ -348,7 +348,7 @@
 # status = done
 # sent_id = ParisStories_2021_loulouLeChat_18bis
 # speaker = L2
-# macrosyntax =donc euh, [ il se méfie ] ouais, il se méfie.
+# macrosyntax = donc euh, [ il se méfie ] ouais, il se méfie.
 # text = il se méfie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -407,7 +407,7 @@
 2	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 3	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
-5	y	y	PRON	_	Person=3|PronType=Prs	6	expl	_	_
+5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Reported=Yes
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	truc	truc	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
@@ -438,7 +438,7 @@
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
 7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	beaucoup	beaucoup	ADV	_	_	9	advmod	_	_
-9	mieux	mieux	ADV	_	_	7	iobj	_	SpaceAfter=No
+9	mieux	mieux	ADV	_	_	7	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_25
@@ -677,7 +677,7 @@
 # speaker = L2
 # text = XXX.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
-1	XXX	XXX	X	_	_	0	root	_	SpaceAfter=No
+1	XXX	XXX	X	_	_	0	root	_	ExtPos=X|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_40bis
