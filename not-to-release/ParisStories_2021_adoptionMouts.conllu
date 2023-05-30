@@ -92,7 +92,7 @@
 4	toute	toute	ADV	_	_	5	advmod	_	_
 5	seule	seul	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
-7	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	8	det	_	_
+7	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	cage	cage	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -100,7 +100,7 @@
 # text = tous ses frères et sœurs étaient partis.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
 1	tous	tout	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-2	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	3	det	_	_
+2	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	_
 3	frères	frères	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	sœurs	sœur	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
@@ -154,7 +154,7 @@
 14	ergots	ergot	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	aux	ADP	_	_	17	case	_	wordform=aux
-16	les	les	DET	_	Number=Plur	17	det	_	_
+16	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	pattes	patte	NOUN	_	Gender=Fem|Number=Plur	14	obl:arg	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -230,7 +230,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	Reported=Yes
-13	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	14	det	_	_
+13	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	_
 14	chien	chien	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	_
 15	quoi	quoi	INTJ	_	_	14	discourse	_	SpaceAfter=No
 16	!	!	PUNCT	_	_	7	punct	_	_
@@ -248,7 +248,7 @@
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
-10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	11	det	_	_
+10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	bras	bras	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	maman	maman	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
@@ -300,7 +300,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	sous	sous	ADP	_	_	4	case	_	_
-3	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	4	det	_	_
+3	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	yeux	yeux	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -366,7 +366,7 @@
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	Reported=Yes
-17	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	18	det	_	_
+17	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	_
 18	chien	chien	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
 19	!	!	PUNCT	_	_	7	punct	_	_
 
@@ -392,7 +392,7 @@
 4	année	année	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	des	ADP	_	_	7	case	_	wordform=des
-6	les	les	DET	_	Number=Plur	7	det	_	_
+6	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	M	M	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
@@ -405,7 +405,7 @@
 2	,	,	PUNCT	_	_	23	punct	_	_
 3	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	23	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
+5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	surnom	surnom	NOUN	_	Gender=Masc|Number=Sing	23	dislocated	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	depuis	depuis	ADP	_	_	13	mark	_	_
@@ -416,7 +416,7 @@
 13	petite	petit	ADJ	_	Gender=Fem|Number=Sing	23	advcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
 15	que	que	PRON	_	PronType=Rel	19	obj	_	_
-16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	17	det	_	_
+16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
 17	papa	papa	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 18	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
 19	donnait	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
@@ -456,7 +456,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	avec	avec	ADP	_	_	8	case	_	_
-7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	mère	mère	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -522,7 +522,7 @@
 11	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
 13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
-14	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	15	det	_	_
+14	ses	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	vaccins	vaccin	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -539,10 +539,10 @@
 8	après	après	ADV	_	_	6	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	avec	avec	ADP	_	_	12	case	_	_
-11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
+11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
 12	frère	frère	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
-14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	15	det	_	_
+14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	mère	mère	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 

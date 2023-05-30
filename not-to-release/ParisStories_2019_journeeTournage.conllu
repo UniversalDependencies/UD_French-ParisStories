@@ -9,13 +9,13 @@
 5	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	_
 6	après	après	ADV	_	_	5	advmod	_	_
 7	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
-8	m'	lui	PRON	_	_	10	iobj	_	SpaceAfter=No
+8	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	iobj	_	SpaceAfter=No
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mail	mail	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 13	pour	pour	ADP	_	_	15	mark	_	_
-14	me	lui	PRON	_	_	15	iobj	_	_
+14	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
 15	dire	dire	VERB	_	VerbForm=Inf	10	advcl	_	Subject=NoRaising
 16	que	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
@@ -74,7 +74,7 @@
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	reparandum	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
-24	m'	lui	PRON	_	_	26	iobj	_	SpaceAfter=No
+24	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	26	iobj	_	SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
 26	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 27	de	de	ADP	_	_	28	mark	_	_
@@ -118,7 +118,7 @@
 # text = il y avait d'abord, euh, un jour, euh, enfin quelques jours avant le tournage, on devait aller, euh, dans le studio pour, euh, essayer le et notre costume euh avec la costumière, et euh, pour qu'ils regardent, euh, nos cheveux pour voir, euh, quelle coiffure ils pouvaient nous faire.
 # sent_id = ParisStories_2019_journeeTournage_4
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	il	il	PRON	_	_	3	expl:subj	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	reparandum	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
@@ -154,7 +154,7 @@
 34	essayer	essayer	VERB	_	VerbForm=Inf	23	advcl	_	Subject=NoRaising
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	reparandum	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
-37	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	38	det	_	_
+37	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	38	det	_	_
 38	costume	costume	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
 39	euh	euh	INTJ	_	_	42	discourse	_	_
 40	avec	avec	ADP	_	_	42	case	_	_
@@ -171,7 +171,7 @@
 51	,	,	PUNCT	_	_	55	punct	_	_
 52	euh	euh	INTJ	_	_	55	discourse	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
-54	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	55	det	_	_
+54	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	55	det	_	_
 55	cheveux	_	NOUN	_	Gender=Masc|Number=Plur	50	obj	_	_
 56	pour	pour	ADP	_	_	57	mark	_	_
 57	voir	voir	VERB	_	VerbForm=Inf	55	acl	_	SpaceAfter=No|Subject=SubjRaising
@@ -182,7 +182,7 @@
 62	coiffure	coiffure	NOUN	_	Gender=Fem|Number=Sing	57	obj	_	_
 63	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	64	nsubj	_	_
 64	pouvaient	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	62	acl	_	_
-65	nous	lui	PRON	_	_	66	iobj	_	_
+65	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	66	iobj	_	_
 66	faire	faire	VERB	_	VerbForm=Inf	64	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 67	.	.	PUNCT	_	_	22	punct	_	_
 
@@ -288,7 +288,7 @@
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
-28	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	29	det	_	_
+28	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	29	det	_	_
 29	tenue	tenir	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	35	punct	_	_
 31	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
@@ -608,7 +608,7 @@
 # text = il y avait un un petit buffet.
 # sent_id = ParisStories_2019_journeeTournage_19
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
-1	il	il	PRON	_	_	3	expl:subj	_	_
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	_
@@ -635,7 +635,7 @@
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	autre	autre	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	scène	scène	NOUN	_	Gender=Fem|Number=Sing	9	xcomp	_	_
-16	qui	qui	PRON	_	_	18	nsubj	_	_
+16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux:pass	_	_
 18	tournée	tourner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
 19	sur	sur	ADP	_	_	21	case	_	_
@@ -666,7 +666,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 19	trois	trois	NUM	_	Number=Plur	20	nummod	_	_
 20	fils	fils	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
-21	qui	qui	PRON	_	_	22	nsubj	_	_
+21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	jouaient	jouer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -679,7 +679,7 @@
 1	Et	et	CCONJ	_	_	8	cc	_	_
 2	donc	donc	ADV	_	_	8	cc	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
-4	nous	nous	PRON	_	_	8	dislocated	_	_
+4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	8	dislocated	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 7	en	en	ADP	_	_	8	case	_	_
@@ -722,7 +722,7 @@
 15	plus	plus	ADV	_	_	16	advmod	_	_
 16	bas	bas	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	_
-18	nous	nous	PRON	_	_	21	dislocated	_	_
+18	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	21	dislocated	_	_
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux:pass	_	_
 21	obligé	obliger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -842,7 +842,7 @@
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	qui	qui	PRON	_	_	10	nsubj	_	_
+9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
 11	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
@@ -857,9 +857,9 @@
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	advmod	_	ExtPos=ADV|Idiom=Yes
 22	peu	peu	NOUN	_	Gender=Masc|Number=Sing	21	fixed	_	InIdiom=Yes
 23	comme	comme	ADP	_	_	25	case	_	_
-24	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	25	det	_	_
+24	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	_
 25	mamans	maman	NOUN	_	Gender=Fem|Number=Plur	20	obl:mod	_	_
-26	qui	qui	PRON	_	_	27	nsubj	_	_
+26	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 27	venaient	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
@@ -876,7 +876,7 @@
 40	qu'	que	SCONJ	_	_	39	fixed	_	InIdiom=Yes|SpaceAfter=No
 41	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	_
 42	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	ccomp	_	_
-43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	44	det	_	_
+43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	scène	scène	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	49	punct	_	_
 46	euh	euh	INTJ	_	_	49	discourse	_	SpaceAfter=No

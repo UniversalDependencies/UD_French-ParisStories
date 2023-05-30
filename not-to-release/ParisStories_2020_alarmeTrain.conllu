@@ -109,7 +109,7 @@
 20	femme	femme	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 21	pardon	pardon	NOUN	_	_	20	discourse	_	ExtPos=INTJ
 22	avec	avec	ADP	_	_	24	case	_	_
-23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	24	det	_	_
+23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
 24	fils	fils	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
 26	certainement	certainement	ADV	_	_	28	advmod	_	_
@@ -340,7 +340,7 @@
 9	que	que	SCONJ	_	_	11	mark	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	dise	dire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
-12	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	13	det	_	_
+12	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	_
 13	phrase	phrase	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 

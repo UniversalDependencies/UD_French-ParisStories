@@ -8,7 +8,7 @@
 4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
 6	raconter	raconter	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
-7	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
+7	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	été	été	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -100,7 +100,7 @@
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
+8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
 9	amies	ami	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
@@ -166,7 +166,7 @@
 22	petite	petit	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 23	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
 24	avec	avec	ADP	_	_	26	case	_	_
-25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	26	det	_	_
+25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	_
 26	parents	parent	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -237,7 +237,7 @@
 2	euh	euh	INTJ	_	_	7	discourse	_	_
 3	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes
-5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	6	det	_	_
+5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	père	père	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 7	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	photographe	photographe	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
@@ -324,7 +324,7 @@
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
-13	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	14	det	_	_
+13	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	photos	photo	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	_
@@ -376,7 +376,7 @@
 12	à	à	ADP	_	_	13	case	_	_
 13	Paris	Paris	PROPN	_	_	6	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
-15	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	16	det	_	_
+15	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	_
 16	parents	parent	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	restés	rester	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
@@ -441,7 +441,7 @@
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
 23	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	conj	_	_
 24	de	de	ADP	_	_	28	case	_	_
-25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	28	det	_	_
+25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	28	det	_	_
 26	plus	plus	ADV	_	_	27	advmod	_	_
 27	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 28	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
@@ -475,7 +475,7 @@
 23	Biscarrosse	Biscarrosse	PROPN	_	_	18	obl:mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	avec	avec	ADP	_	_	27	case	_	_
-26	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	27	det	_	_
+26	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	27	det	_	_
 27	copain	copain	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -510,7 +510,7 @@
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	partie	partir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
-8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	9	det	_	_
+8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
 9	copain	copain	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	train	train	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No

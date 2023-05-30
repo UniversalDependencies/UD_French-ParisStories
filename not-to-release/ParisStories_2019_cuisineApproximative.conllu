@@ -22,7 +22,7 @@
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 9	quelqu'un	quelqueun	PRON	_	_	0	root	_	_
-10	qui	qui	PRON	_	_	11	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -80,14 +80,14 @@
 # text = je me suis aperçue que c'était ça qui les empêchait de gonfler.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	me	se	PRON	_	_	4	expl:comp	_	_
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl:comp	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	aperçue	apercevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	8	mark	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	ccomp	_	_
-9	qui	qui	PRON	_	_	11	nsubj	_	_
+9	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 10	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	11	obj	_	_
 11	empêchait	empêcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl:cleft	_	_
 12	de	de	ADP	_	_	13	mark	_	_
@@ -215,8 +215,8 @@
 54	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	56	nsubj	_	SpaceAfter=No
 55	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
 56	ce	ce	PRON	_	_	50	acl	_	_
-57	qu'	que	PRON	_	_	60	nsubj	_	SpaceAfter=No
-58	il	il	PRON	_	_	60	expl:subj	_	_
+57	qu'	que	PRON	_	PronType=Rel	60	nsubj	_	SpaceAfter=No
+58	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	expl:subj	_	_
 59	y	y	PRON	_	Person=3|PronType=Prs	60	expl:comp	_	_
 60	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
@@ -399,7 +399,7 @@
 5	question	question	NOUN	_	Gender=Fem|Number=Sing	15	dislocated	_	_
 6	que	que	PRON	_	_	11	obj	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
-8	me	lui	PRON	_	_	11	iobj	_	_
+8	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 10	toujours	toujours	ADV	_	_	11	advmod	_	_
 11	posée	poser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
@@ -475,7 +475,7 @@
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-6	me	lui	PRON	_	_	7	iobj	_	_
+6	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	reparandum	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	quest~	quest~	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
@@ -787,16 +787,16 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	épice	épice	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 9	que	que	SCONJ	_	_	11	case	_	_
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	grand-mère	_	NOUN	_	Gender=Fem|Number=Sing	21	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	21	punct	_	_
 13	que	que	SCONJ	_	_	15	case	_	_
-14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	15	det	_	_
+14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	mère	mère	NOUN	_	Gender=Fem|Number=Sing	21	reparandum	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	que	que	SCONJ	_	_	21	mark	_	_
 18	toute	tout	ADJ	_	Gender=Fem|Number=Sing|PronType=Ind	20	amod	_	_
-19	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	20	det	_	_
+19	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
 20	famille	famille	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
 21	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
@@ -819,7 +819,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	rajoutes	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	ton	ton	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs	10	det	_	_
+9	ton	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_

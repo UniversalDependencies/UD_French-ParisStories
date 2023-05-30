@@ -225,7 +225,7 @@
 32	Vigipirate	Vigipirate	PROPN	_	_	37	obl:mod	_	_
 33	tout	tout	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
 34	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	conj	_	_
-35	il	_	PRON	_	_	37	expl:subj	_	_
+35	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	expl:subj	_	_
 36	y	y	PRON	_	Person=3|PronType=Prs	37	expl:comp	_	_
 37	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
 38	plus	plus	ADV	_	_	41	advmod	_	_
@@ -276,7 +276,7 @@
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	fouillé	fouiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Prs	5	det	_	_
+4	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	_
 5	sacs	sac	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 
@@ -622,7 +622,7 @@
 11	mais	mais	CCONJ	_	_	22	cc	_	_
 12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
 13	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-14	il	il	PRON	_	_	16	expl:subj	_	_
+14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 15	y	y	PRON	_	Person=3|PronType=Prs	16	expl:comp	_	_
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -777,11 +777,11 @@
 5	contente	content	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 6	parce	parce	ADV	_	_	14	mark	_	ExtPos=SCONJ|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
-8	il	il	PRON	_	_	10	expl:subj	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	reparandum	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	dep:comp	_	_
-12	il	_	PRON	_	_	14	expl:subj	_	_
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
 13	y	y	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	_
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_

@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_rencontreMourinho_1
 # text = et là, vers midi, midi et demi, les joueurs ont commencé à sortir.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	là	là	ADV	_	_	14	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -22,30 +22,30 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_2
 # text = donc ils sont sortis avec leurs voitures.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	sortis	sortir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 5	avec	avec	ADP	_	_	7	case	_	_
-6	leurs	son	DET	_	Gender=Masc|Number=Plur	7	det	_	_
+6	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_3
 # text = ils sont sortis avec leurs voitures.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	sortis	sortir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 4	avec	avec	ADP	_	_	6	case	_	_
-5	leurs	son	DET	_	Gender=Masc|Number=Plur	6	det	_	_
+5	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	3	obl:mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_4
 # text = donc direct, ils ont été super sympas.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	donc	donc	ADV	_	_	8	advmod	_	_
 2	direct	direct	ADV	_	_	8	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -58,7 +58,7 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_5
 # text = ils se sont tous arrêtés.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 2	se	le	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
@@ -68,7 +68,7 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_6
 # text = donc euh le premier qui s'est arrêté, euh, il a ouvert sa fenêtre.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	donc	donc	ADV	_	_	14	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -83,13 +83,13 @@
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 14	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
+15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
 16	fenêtre	fenêtre	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_7
 # text = il nous a signé un autographe.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -100,7 +100,7 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_8
 # text = on a pu tous prendre une photo avec lui.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = ParisStories_2021_rencontreMourinho_9
 # text = on a commencé à discuter avec lui.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -127,7 +127,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_10
 # text = franchement, ils étaient super cool.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	franchement	franchement	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
@@ -139,7 +139,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_11
 # text = euh, ils ont pris le temps pour tout le monde, etc, ensuite, arrivent les autres joueurs.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -165,7 +165,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_12
 # text = vraiment tous, mais vraiment, ils se sont tous arrêtés, bon, à part un, où il a fait une petite blague.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	vraiment	vraiment	ADV	_	_	5	reparandum	_	_
 2	tous	tout	PRON	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -196,7 +196,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_13
 # text = il s'est arrêté.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	s'	le	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -206,7 +206,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_14
 # text = et au final, à la fin, il s'est pas arrêté.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	14	cc	_	_
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	wordform=au
@@ -227,7 +227,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_15
 # text = enfin, il s'est arrêté pour les pour les fans du début, donc pour nous.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -252,7 +252,7 @@
 # status = todo
 # sent_id = ParisStories_2021_rencontreMourinho_16
 # text = et pour les autres, à la fin, il a tracé une pointe.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -272,7 +272,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_17
 # text = et, il a pas voulu s'arrêter plus, quoi.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -289,7 +289,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_18
 # text = ouais, c'était pas très cool, mais je pense, il devait avoir faim.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	ouais	ouais	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
@@ -311,7 +311,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_19
 # status = done
 # text = il devait être épuisé de l'entraînement, etc et donc là, arrive le moment où le joueur du Portugal, euh, Mourinho, où le joueur du Portugal, il arrive et tout.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
 2	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	être	être	AUX	_	VerbForm=Inf	4	aux:pass	_	Subject=SubjRaising
@@ -357,12 +357,12 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_20
 # text = et euh et donc ma mère, comme, bah, on est portugais et tout, elle commence à lui parler portugais.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	19	discourse	_	_
 3	et	et	CCONJ	_	_	19	cc	_	_
 4	donc	donc	ADV	_	_	19	discourse	_	_
-5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	mère	mère	NOUN	_	Gender=Fem|Number=Sing	19	dislocated	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	comme	comme	SCONJ	_	_	14	mark	_	SpaceAfter=No
@@ -386,7 +386,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_21
 # text = et elle lui demande en portugais est -ce que tu veux m'épouser?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
@@ -406,7 +406,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_22
 # speaker = L2
 # text = elle a osé?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	osé	oser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -415,7 +415,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_23
 # text = la honte!
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	honte	honte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	_
@@ -423,7 +423,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_24
 # text = et là, lui, il l'a regardée en mode euh, mais, ça va, madame?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	là	là	ADV	_	_	9	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -448,7 +448,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_25
 # text = vous êtes sûre?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	sûre	sûr	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -457,13 +457,13 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_26
 # text = surtout qu'il y avait mon père à côté.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	surtout	surtout	ADV	_	_	0	root	_	_
 2	qu'	qu'	SCONJ	_	_	5	mark	_	SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	dep	_	_
-6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	père	père	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
@@ -472,7 +472,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_27
 # text = donc bref, c'était vraiment…
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	bref	bref	INTJ	_	_	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -485,7 +485,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_28
 # speaker = L2
 # text = il a répondu quoi?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	répondu	répondre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -495,7 +495,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_29
 # text = il a pas répondu.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	pas	pas	ADV	_	_	4	advmod	_	_
@@ -505,7 +505,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_30
 # text = il l'a regardée.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -515,7 +515,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_31
 # text = il était choqué.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
 3	choqué	choquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -524,7 +524,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_32
 # text = après, il a dit non de la tête.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	après	après	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -539,10 +539,10 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_33
 # text = après, ma mère, elle a dit bon, c'est dommage.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	après	après	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	mère	mère	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -558,7 +558,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_34
 # text = mais, vous pouvez au moins signer mon téléphone, s'il vous plaît?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	mais	mais	CCONJ	_	_	4	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
@@ -568,7 +568,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	moins	moins	ADV	_	_	4	obl:mod	_	_
 8	signer	signer	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
-9	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
+9	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	s'	s'	SCONJ	_	_	15	mark	_	SpaceAfter=No
@@ -580,7 +580,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_35
 # status = done
 # text = et donc, du coup, euh, du coup, elle a donné son téléphone.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	donc	donc	ADV	_	_	16	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -599,14 +599,14 @@
 14	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
 16	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	18	det	_	_
+17	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_36
 # text = et lui il était là en mode, euh, mais, euh, vous voulez que je fasse quoi avec ça et tout.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -636,7 +636,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_37
 # text = et là, elle dit ah, bah, signez!
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -652,19 +652,19 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_38
 # text = et il a signé sur sa coque de téléphone et sur son téléphone aussi.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	sur	sur	ADP	_	_	7	case	_	_
-6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	det	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	coque	coque	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	sur	sur	ADP	_	_	13	case	_	_
-12	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	13	det	_	_
+12	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 14	aussi	aussi	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -672,7 +672,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_39
 # text = lui, euh, il comprenait pas.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dislocated	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -685,7 +685,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_40
 # text = il était là en mode mais vous êtes sûre madame, euh.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 3	là	là	ADV	_	_	0	root	_	_
@@ -703,7 +703,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_41
 # text = enfin, bref, c'était vraiment trop drôle.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bref	bref	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -718,7 +718,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_42
 # text = euh, ensuite, qu'est -ce qu'on a fait?
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	11	advmod	_	SpaceAfter=No
@@ -735,7 +735,7 @@
 # status = done
 # sent_id = ParisStories_2021_rencontreMourinho_43
 # text = bah, ensuite, euh, les autres, ils étaient un peu dégoutés, parce que, du coup, nous, on est cinq, et le temps de faire les cinq photos, de parler un peu avec eux et tout, euh, bah, les autres, ils étaient un peu en mode bah c'est quand notre tour c'est quand notre tour etc.
-# sound_url =  https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	bah	bah	INTJ	_	_	14	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ensuite	ensuite	ADV	_	_	14	advmod	_	SpaceAfter=No
@@ -800,12 +800,12 @@
 61	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	65	expl:subj	_	SpaceAfter=No
 62	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	cop	_	Reported=Yes
 63	quand	quand	ADV	_	_	65	advmod	_	_
-64	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	65	det	_	_
+64	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	65	det	_	_
 65	tour	tour	NOUN	_	Gender=Masc|Number=Sing	70	reparandum	_	_
 66	c'	c'	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	70	expl:subj	_	SpaceAfter=No
 67	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	cop	_	_
 68	quand	quand	ADV	_	_	70	advmod	_	_
-69	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	70	det	_	_
+69	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	70	det	_	_
 70	tour	tour	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
 71	etc	etc	ADV	_	_	70	conj	_	SpaceAfter=No|wordform=et
 72	.	.	PUNCT	_	_	14	punct	_	_

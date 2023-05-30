@@ -57,7 +57,7 @@
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 16	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	avec	avec	ADP	_	_	19	case	_	_
-18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	19	det	_	_
+18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	famille	famille	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
 20	d'	de	ADP	_	_	22	mark	_	SpaceAfter=No
 21	y	y	PRON	_	Person=3|PronType=Prs	22	iobj	_	_
@@ -414,7 +414,7 @@
 8	gens	gens	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 9	amènent	amener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 10	pratiquement	pratiquement	ADV	_	_	9	advmod	_	_
-11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	12	det	_	_
+11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
 12	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 13	sur	sur	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -449,7 +449,7 @@
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	bières	bière	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
 25	à	à	ADP	_	_	27	case	_	_
-26	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	27	det	_	_
+26	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	_
 27	amis	ami	NOUN	_	Gender=Masc|Number=Plur	22	obl:arg	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	nsubj	_	SpaceAfter=No
@@ -545,7 +545,7 @@
 8	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	9	obj	_	_
 9	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
-11	tes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=2|PronType=Prs	12	det	_	_
+11	tes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	12	det	_	_
 12	bras	bras	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
 13	si	si	SCONJ	_	_	16	mark	_	_
 14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_

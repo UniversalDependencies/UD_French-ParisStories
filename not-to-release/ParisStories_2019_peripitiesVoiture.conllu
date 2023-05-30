@@ -9,7 +9,7 @@
 5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	raconter	raconter	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
-8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
+8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	_
 9	péripéties	péripétie	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -64,7 +64,7 @@
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
-14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	15	det	_	_
+14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	code	code	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	8	punct	_	_
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
@@ -97,7 +97,7 @@
 15	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
 16	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
 17	avec	avec	ADP	_	_	19	case	_	_
-18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	19	det	_	_
+18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	mère	mère	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
 
@@ -146,7 +146,7 @@
 # text = euh ma mère elle m'a beaucoup aidée parce que c'est une bonne conductrice,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	euh	euh	INTJ	_	_	8	discourse	_	_
-2	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	3	det	_	_
+2	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	_
 3	mère	mère	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 5	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
@@ -206,7 +206,7 @@
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
 17	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
 18	chez	chez	ADP	_	_	20	case	_	_
-19	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|PronType=Prs	20	det	_	_
+19	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
 20	tantes	tante	NOUN	_	Gender=Fem|Number=Plur	17	obl:arg	_	_
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	habitent	habiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
@@ -296,7 +296,7 @@
 26	que	que	SCONJ	_	_	28	mark	_	_
 27	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
 28	passe	passer	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
-29	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	30	det	_	_
+29	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	30	det	_	_
 30	permis	permis	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
 31	donc	donc	ADV	_	_	25	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	7	punct	_	_
@@ -346,7 +346,7 @@
 15	veille	veille	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
 16	de	de	ADP	_	_	17	mark	_	_
 17	passer	passer	VERB	_	VerbForm=Inf	15	acl	_	Subject=NoRaising
-18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	19	det	_	_
+18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	permis	permis	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	3	punct	_	_
 
@@ -440,7 +440,7 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	veille	veille	NOUN	_	Gender=Fem|Number=Sing	21	xcomp	_	_
 24	de	de	ADP	_	_	26	case	_	_
-25	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	26	det	_	_
+25	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	_
 26	permis	permis	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	bah	bah	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -463,7 +463,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	Gender=Masc|Number=Sing	3	det	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -479,7 +479,7 @@
 3	donc	donc	ADV	_	_	2	discourse	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	passais	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	permis	permis	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -499,7 +499,7 @@
 11	jour	jour	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
 12	de	de	ADP	_	_	15	reparandum	_	_
 13	que	que	SCONJ	_	_	15	case	_	_
-14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	15	det	_	_
+14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	permis	permis	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
 17	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	advcl	_	_
@@ -521,7 +521,7 @@
 3	,	,	PUNCT	_	_	12	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	wordform=du
-5	le	le	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -543,7 +543,7 @@
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	partiel	partiel	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	espagnol	espagnol	ADJ	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -595,7 +595,7 @@
 41	et	et	CCONJ	_	_	42	cc	_	_
 42	remonter	remonter	VERB	_	VerbForm=Inf	29	conj	_	Subject=SubjRaising
 43	après	après	ADP	_	_	45	case	_	_
-44	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	45	det	_	_
+44	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	45	det	_	_
 45	partiel	partiel	NOUN	_	Gender=Masc|Number=Sing	42	obl:mod	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -674,12 +674,12 @@
 11	rendue	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	_
 13	à	à	ADP	_	_	15	case	_	_
-14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	15	det	_	_
+14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
 15	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	rendez-vous	rendez-vous	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	pour	pour	ADP	_	_	20	case	_	_
-19	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	20	det	_	_
+19	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
 20	permis	permis	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	11	punct	_	_
 
@@ -690,7 +690,7 @@
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
 3	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	6	det	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	mère	mère	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
