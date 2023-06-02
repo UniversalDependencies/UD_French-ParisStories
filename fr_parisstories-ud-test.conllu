@@ -2352,7 +2352,7 @@
 24	trois	trois	NUM	_	Number=Plur	25	nummod	_	_
 25	boules	boule	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 26	dans	dans	ADP	_	_	28	case	_	_
-27	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	28	det	_	_
+27	chaque	chaque	DET	_	Number=Sing|PronType=Ind	28	det	_	_
 28	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -3394,7 +3394,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	à	à	ADP	_	_	4	case	_	_
-3	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	4	det	_	_
+3	chaque	chaque	DET	_	Number=Sing|PronType=Ind	4	det	_	_
 4	fois	fois	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 5	que	que	SCONJ	_	_	8	mark	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -4325,7 +4325,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	12	det	_	_
+11	quelque	quelque	DET	_	Number=Sing|PronType=Ind	12	det	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	xcomp	_	_
 13	quand	quand	SCONJ	_	_	10	advmod	_	ExtPos=ADV|Idiom=Yes
 14	même	même	ADV	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No

@@ -234,7 +234,7 @@
 10	assez	assez	ADV	_	_	11	advmod	_	_
 11	facilement	facilement	ADV	_	_	9	advmod	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
-13	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	14	det	_	_
+13	ces	ce	DET	_	Number=Plur|PronType=Dem	14	det	_	_
 14	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	9	obl:mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 

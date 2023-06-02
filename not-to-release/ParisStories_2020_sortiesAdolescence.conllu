@@ -12,7 +12,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	12	det	_	_
+11	quelque	quelque	DET	_	Number=Sing|PronType=Ind	12	det	_	_
 12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	xcomp	_	_
 13	quand	quand	SCONJ	_	_	10	advmod	_	ExtPos=ADV|Idiom=Yes
 14	même	même	ADV	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No

@@ -409,7 +409,7 @@
 24	trois	trois	NUM	_	Number=Plur	25	nummod	_	_
 25	boules	boule	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 26	dans	dans	ADP	_	_	28	case	_	_
-27	chaque	chaque	DET	_	Number=Sing|Person=3|PronType=Ind	28	det	_	_
+27	chaque	chaque	DET	_	Number=Sing|PronType=Ind	28	det	_	_
 28	coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
