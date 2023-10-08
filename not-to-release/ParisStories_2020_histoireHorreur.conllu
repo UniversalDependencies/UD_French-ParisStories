@@ -11,7 +11,7 @@
 7	faire	faire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 8	Secret	Secret	PROPN	_	_	7	obj	_	_
 9	Story	Story	PROPN	_	_	8	flat:name	_	_
-10	genre	genre	NOUN	_	_	14	discourse	_	ExtPos=INTJ
+10	genre	genre	NOUN	_	ExtPos=INTJ	14	discourse	_	_
 11	euh	euh	INTJ	_	_	14	discourse	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -35,7 +35,7 @@
 8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 9	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	parataxis:parenth	_	_
 10	se	soi	PRON	_	Person=3|PronType=Prs	9	obj	_	Scrap=Yes
-11	enfin	enfin	ADV	_	_	10	discourse	_	ExtPos=INTJ|SpaceAfter=No
+11	enfin	enfin	ADV	_	ExtPos=INTJ	10	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -102,7 +102,7 @@
 # text = et en fait le l'histoire du film d'horreur c'est qu'il y avait euh, une bête qui se baladait dans Champgenéteux et qui volait des enfants, qui faisait peur aux dans dans les jardins.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	et	et	CCONJ	_	_	17	cc	_	_
-2	en	en	ADP	_	_	17	discourse	_	ExtPos=ADV|Idiom=Yes
+2	en	en	ADP	_	ExtPos=ADV	17	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -184,7 +184,7 @@
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
 6	habillé	habiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-7	genre	genre	NOUN	_	_	13	discourse	_	ExtPos=INTJ|SpaceAfter=No
+7	genre	genre	NOUN	_	ExtPos=INTJ	13	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	juste	juste	ADV	_	_	13	advmod	_	_
 10	avec	avec	ADP	_	_	13	case	_	_
@@ -224,7 +224,7 @@
 13	autres	autre	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
 14	euh	euh	INTJ	_	_	13	discourse	_	_
 15	choses	chose	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
-16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	advmod	_	ExtPos=ADV|Idiom=Yes
+16	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	18	advmod	_	Idiom=Yes
 17	peu	peu	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	InIdiom=Yes
 18	mystiques	mystique	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
@@ -247,7 +247,7 @@
 # sent_id = ParisStories_2020_histoireHorreur_12
 # text = voilà, il y avait ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
-1	voilà	voilà	VERB	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
@@ -261,7 +261,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
-4	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ
+4	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	_
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -280,7 +280,7 @@
 # sent_id = ParisStories_2020_histoireHorreur_14
 # text = non.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
-1	non	non	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+1	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_15
@@ -293,7 +293,7 @@
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	zom~	zom~	NOUN	_	_	11	reparandum	_	_
-8	enfin	enfin	ADV	_	_	11	discourse	_	ExtPos=INTJ
+8	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	possible	possible	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	zombie	zombie	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -338,7 +338,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	euh	euh	INTJ	_	_	8	discourse	_	_
 2	ben	ben	INTJ	_	_	8	discourse	_	_
-3	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes
 5	juste	juste	ADV	_	_	8	advmod	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
@@ -359,7 +359,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	reparandum	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 8	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	en	en	ADP	_	_	8	xcomp	_	ExtPos=ADJ|Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADJ	8	xcomp	_	Idiom=Yes
 10	train	train	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes
 11	de	de	ADP	_	_	12	mark	_	_
 12	tourner	tourner	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No|Subject=SubjRaising
@@ -378,7 +378,7 @@
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 9	tournait	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
 10	justement	justement	ADV	_	_	9	advmod	_	_
-11	genre	genre	NOUN	_	_	13	discourse	_	ExtPos=INTJ
+11	genre	genre	NOUN	_	ExtPos=INTJ	13	discourse	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	bête	bête	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
@@ -410,7 +410,7 @@
 3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	discourse	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
-6	en	en	ADP	_	_	0	root	_	ExtPos=ADJ|Idiom=Yes
+6	en	en	ADP	_	ExtPos=ADJ	0	root	_	Idiom=Yes
 7	train	train	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes
 8	d'	de	ADP	_	_	9	mark	_	SpaceAfter=No
 9	essayer	essayer	VERB	_	VerbForm=Inf	6	advcl	_	Subject=SubjRaising
@@ -444,7 +444,7 @@
 1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	9	discourse	_	_
 3	et	et	CCONJ	_	_	9	cc	_	_
-4	genre	genre	NOUN	_	_	7	discourse	_	ExtPos=INTJ
+4	genre	genre	NOUN	_	ExtPos=INTJ	7	discourse	_	_
 5	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	reparandum	_	_
 6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	cousins	cousin	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -475,7 +475,7 @@
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
 14	dehors	dehors	ADV	_	_	13	obl:arg	_	_
-15	genre	genre	NOUN	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
+15	genre	genre	NOUN	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_26
@@ -496,9 +496,9 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
-15	se	soi	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+15	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 16	sentaient	sentir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	fixed	_	InIdiom=Yes
-17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	advmod	_	ExtPos=ADV|Idiom=Yes
+17	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	19	advmod	_	Idiom=Yes
 18	peu	peu	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	InIdiom=Yes
 19	observés	observer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	15	punct	_	_
@@ -516,7 +516,7 @@
 # text = et genre derrière il y avait un gars.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	genre	genre	NOUN	_	_	6	discourse	_	ExtPos=INTJ
+2	genre	genre	NOUN	_	ExtPos=INTJ	6	discourse	_	_
 3	derrière	derrière	ADP	_	_	6	dep	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	_
@@ -572,6 +572,6 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
-21	genre	genre	NOUN	_	_	20	discourse	_	ExtPos=INTJ|SpaceAfter=No
+21	genre	genre	NOUN	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 

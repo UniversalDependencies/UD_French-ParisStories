@@ -29,7 +29,7 @@
 # sent_id = ParisStories_2021_couruLaVoir_3
 # text = enfin, à vrai dire on se connaissait depuis la grande section de maternelle parce qu'on, on a grandi dans le même quartier, et dans le même immeuble.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	enfin	enfin	ADV	_	_	8	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	à	à	ADP	_	_	5	mark	_	_
 4	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -43,7 +43,7 @@
 12	section	section	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	maternelle	maternelle	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	parce	parce	SCONJ	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	SCONJ	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 16	qu'	qu'	SCONJ	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	reparandum	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -115,8 +115,8 @@
 # sent_id = ParisStories_2021_couruLaVoir_7
 # text = enfin voilà c'était, il y avait, on peut dire qu'il y avait deux groupes.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ
-2	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	_
+2	voilà	voilà	VERB	_	ExtPos=INTJ	4	discourse	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
@@ -206,7 +206,7 @@
 21	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
 22	en	en	ADP	_	_	23	case	_	_
 23	CM1	CM1	PROPN	_	_	21	obl:arg	_	_
-24	parce	parce	ADV	_	_	39	mark	_	ExtPos=SCONJ|Idiom=Yes
+24	parce	parce	ADV	_	ExtPos=SCONJ	39	mark	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes
 26	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
 27	y	y	PRON	_	Person=3|PronType=Prs	28	expl:comp	_	_
@@ -316,7 +316,7 @@
 6	toutes	tout	ADV	_	_	7	advmod	_	_
 7	seules	seul	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	21	punct	_	_
-9	parce	parce	ADV	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	InIdiom=Yes
 11	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	_
 12	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
@@ -355,7 +355,7 @@
 18	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
 19	parler	parler	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 20	,	,	PUNCT	_	_	24	punct	_	_
-21	parce	parce	ADV	_	_	24	mark	_	ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	ExtPos=SCONJ	24	mark	_	Idiom=Yes
 22	qu'	que	SCONJ	_	_	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	elle	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
@@ -400,7 +400,7 @@
 4	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	très	très	ADV	_	_	6	advmod	_	_
 6	bien	bien	ADV	_	_	4	advmod	_	_
-7	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+7	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
@@ -437,7 +437,7 @@
 41	,	,	PUNCT	_	_	48	punct	_	_
 42	ou	ou	CCONJ	_	_	48	cc	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
-44	genre	genre	NOUN	_	_	48	discourse	_	ExtPos=INTJ|SpaceAfter=No
+44	genre	genre	NOUN	_	ExtPos=INTJ	48	discourse	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	44	punct	_	_
 46	juste	juste	ADV	_	_	48	advmod	_	_
 47	de	de	ADP	_	_	48	case	_	_
@@ -489,14 +489,14 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ouais	ouais	INTJ	_	_	11	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ
+5	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	_
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	reparandum	_	_
-12	XXX	XXX	X	_	_	11	dep	_	ExtPos=X|Scrap=Yes|SpaceAfter=No
+12	XXX	XXX	X	_	_	11	dep	_	Scrap=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
 15	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -573,10 +573,10 @@
 21	la	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
 22	voir	voir	VERB	_	VerbForm=Inf	20	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 23	,	,	PUNCT	_	_	31	punct	_	_
-24	genre	genre	NOUN	_	Gender=Masc|Number=Sing	31	discourse	_	ExtPos=INTJ
+24	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	31	discourse	_	_
 25	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
-27	genre	genre	NOUN	_	Gender=Masc|Number=Sing	31	discourse	_	SpaceAfter=No
+27	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	31	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	pour	pour	ADP	_	_	31	mark	_	_
 30	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
@@ -598,7 +598,7 @@
 46	qu'	qu'	SCONJ	_	_	48	mark	_	SpaceAfter=No
 47	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	48	nsubj	_	_
 48	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	_
-49	et	et	CCONJ	_	_	48	conj	_	ExtPos=ADV|Idiom=Yes
+49	et	et	CCONJ	_	ExtPos=ADV	48	conj	_	Idiom=Yes
 50	tout	tout	ADV	_	Gender=Masc|Number=Sing	49	fixed	_	InIdiom=Yes
 51	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	_
 52	qu'	qu'	SCONJ	_	_	59	mark	_	SpaceAfter=No
@@ -706,7 +706,7 @@
 10	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	iobj	_	_
 11	dire	dire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 12-13	au	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	11	obl:arg	_	ExtPos=NOUN|Idiom=Yes|wordform=au
+12	à	à	ADP	_	ExtPos=NOUN	11	obl:arg	_	Idiom=Yes|wordform=au
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	InIdiom=Yes
 14	revoir	revoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Inf	12	fixed	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_

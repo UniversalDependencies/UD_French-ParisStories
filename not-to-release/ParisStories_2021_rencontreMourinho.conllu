@@ -228,7 +228,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_15
 # text = enfin, il s'est arrêté pour les pour les fans du début, donc pour nous.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
-1	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
@@ -350,7 +350,7 @@
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
-37	et	et	CCONJ	_	_	36	conj	_	ExtPos=ADV|Idiom=Yes
+37	et	et	CCONJ	_	ExtPos=ADV	36	conj	_	Idiom=Yes
 38	tout	tout	ADV	_	_	37	fixed	_	InIdiom=Yes|SpaceAfter=No
 39	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -372,7 +372,7 @@
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	portugais	portugais	ADJ	_	Gender=Masc|Number=Sing	19	advcl	_	_
-15	et	et	CCONJ	_	_	14	conj	_	ExtPos=ADV|Idiom=Yes
+15	et	et	CCONJ	_	ExtPos=ADV	14	conj	_	Idiom=Yes
 16	tout	tout	ADV	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -433,7 +433,7 @@
 7	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	en	en	ADP	_	_	17	mark	_	ExtPos=ADP|Idiom=Yes
+10	en	en	ADP	_	ExtPos=ADP	17	mark	_	Idiom=Yes
 11	mode	mode	NOUN	_	Number=Sing	10	fixed	_	InIdiom=Yes
 12	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
@@ -612,7 +612,7 @@
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 5	là	là	ADV	_	_	0	root	_	_
-6	en	en	ADP	_	_	16	mark	_	ExtPos=ADP|Idiom=Yes
+6	en	en	ADP	_	ExtPos=ADP	16	mark	_	Idiom=Yes
 7	mode	mode	NOUN	_	Number=Sing	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	16	punct	_	_
 9	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
@@ -629,7 +629,7 @@
 20	quoi	quoi	PRON	_	PronType=Int	19	obj	_	_
 21	avec	avec	ADP	_	_	22	case	_	_
 22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	obl:mod	_	_
-23	et	et	CCONJ	_	_	22	conj	_	ExtPos=ADV|Idiom=Yes
+23	et	et	CCONJ	_	ExtPos=ADV	22	conj	_	Idiom=Yes
 24	tout	tout	ADV	_	_	23	fixed	_	InIdiom=Yes|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -689,7 +689,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 3	là	là	ADV	_	_	0	root	_	_
-4	en	en	ADP	_	_	9	mark	_	ExtPos=ADP|Idiom=Yes
+4	en	en	ADP	_	ExtPos=ADP	9	mark	_	Idiom=Yes
 5	mode	mode	NOUN	_	Number=Sing	4	fixed	_	InIdiom=Yes
 6	mais	mais	CCONJ	_	_	9	cc	_	_
 7	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
@@ -704,7 +704,7 @@
 # sent_id = ParisStories_2021_rencontreMourinho_41
 # text = enfin, bref, c'était vraiment trop drôle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
-1	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bref	bref	INTJ	_	_	9	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -751,7 +751,7 @@
 13	peu	peu	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
 14	dégoutés	dégouter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	27	punct	_	_
-16	parce	parce	ADV	_	_	27	mark	_	ExtPos=SCONJ|Idiom=Yes
+16	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	fixed	_	InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	27	punct	_	_
 19-20	du	_	_	_	_	_	_	_	_
@@ -780,7 +780,7 @@
 41	peu	peu	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	_
 42	avec	avec	ADP	_	_	43	case	_	_
 43	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl:arg	_	_
-44	et	et	CCONJ	_	_	33	conj	_	ExtPos=ADV|Idiom=Yes
+44	et	et	CCONJ	_	ExtPos=ADV	33	conj	_	Idiom=Yes
 45	tout	tout	ADV	_	_	44	fixed	_	InIdiom=Yes|SpaceAfter=No
 46	,	,	PUNCT	_	_	31	punct	_	_
 47	euh	euh	INTJ	_	_	52	discourse	_	SpaceAfter=No
@@ -794,7 +794,7 @@
 55	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	70	cop	_	_
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 57	peu	peu	NOUN	_	Gender=Masc|Number=Sing	70	obl:mod	_	_
-58	en	en	ADP	_	_	70	mark	_	ExtPos=ADP|Idiom=Yes
+58	en	en	ADP	_	ExtPos=ADP	70	mark	_	Idiom=Yes
 59	mode	mode	NOUN	_	Number=Sing	58	fixed	_	InIdiom=Yes
 60	bah	bah	INTJ	_	_	65	discourse	_	_
 61	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	65	expl:subj	_	SpaceAfter=No

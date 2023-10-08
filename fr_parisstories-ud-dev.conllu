@@ -14,10 +14,10 @@
 # text = bah d'abord, enfin je suis pas quelqu'un qui fait euh, des recettes très très carrées etc.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	bah	bah	INTJ	_	_	9	discourse	_	_
-2	d'	de	ADP	_	_	9	advmod	_	ExtPos=ADV|Idiom=Yes|SpaceAfter=No
+2	d'	de	ADP	_	ExtPos=ADV	9	advmod	_	Idiom=Yes|SpaceAfter=No
 3	abord	abord	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	InIdiom=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ
+5	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	_
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
@@ -37,7 +37,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_3
 # text = genre souvent j'ai plus l'habitude de, de pas trop suivre les proportions, de regarder en gros et tout, donc souvent je fous de l'eau dans la casserole, et souvent trop.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	4	discourse	_	ExtPos=INTJ
+1	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	4	discourse	_	_
 2	souvent	souvent	ADV	_	_	4	advmod	_	_
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -57,14 +57,14 @@
 18	regarder	regarder	VERB	_	VerbForm=Inf	7	acl	_	Subject=SubjRaising
 19	en	en	ADP	_	_	20	case	_	_
 20	gros	gros	ADJ	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
-21	et	et	CCONJ	_	_	18	conj	_	ExtPos=ADV|Idiom=Yes
+21	et	et	CCONJ	_	ExtPos=ADV	18	conj	_	Idiom=Yes
 22	tout	tout	ADV	_	_	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	donc	donc	ADV	_	_	27	cc	_	_
 25	souvent	souvent	ADV	_	_	27	advmod	_	_
 26	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 27	fous	fou	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
-28	de	de	ADP	_	_	30	det	_	ExtPos=DET|Idiom=Yes
+28	de	de	ADP	_	ExtPos=DET	30	det	_	Idiom=Yes
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	fixed	_	InIdiom=Yes|SpaceAfter=No
 30	eau	eau	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
 31	dans	dans	ADP	_	_	33	case	_	_
@@ -111,7 +111,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	17	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	genre	genre	NOUN	_	Gender=Masc|Number=Sing	17	discourse	_	ExtPos=INTJ
+15	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	17	discourse	_	_
 16	des	des	DET	_	Gender=Masc|Number=Plur	17	det	_	_
 17	morceaux	morceau	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
 18	de	de	ADP	_	_	19	case	_	_
@@ -132,7 +132,7 @@
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	fois	fois	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	19	discourse	_	ExtPos=ADV|Idiom=Yes
+11	de	de	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	InIdiom=Yes
 13	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	InIdiom=Yes
 14	quand	quand	SCONJ	_	_	19	mark	_	_
@@ -160,7 +160,7 @@
 # text = et une fois que le tout est bien fondu, bien, ouais, que l'eau et le beurre est bien, est bien, sont bien mélangés, tu rajoutes un peu de sel, et tu rajoutes la farine, et la farine, maintenant je l'ai retenu, c'est ce qu'il y a le plus gros format.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	32	cc	_	_
-2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	advmod	_	ExtPos=ADV|Idiom=Yes
+2	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	32	advmod	_	Idiom=Yes
 3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	2	fixed	_	InIdiom=Yes
 4	que	que	SCONJ	_	_	11	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -191,7 +191,7 @@
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	32	nsubj	_	_
 32	rajoutes	rajoute	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	obj	_	ExtPos=ADV|Idiom=Yes
+33	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	32	obj	_	Idiom=Yes
 34	peu	peu	NOUN	_	Gender=Masc|Number=Sing	33	fixed	_	InIdiom=Yes
 35	de	de	ADP	_	_	36	case	_	_
 36	sel	sel	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
@@ -228,10 +228,10 @@
 # sent_id = ParisStories_2019_cuisineApproximative_9
 # text = enfin c'était genre euh, cent cinquante grammes de farine, alors que tout le reste c'est soixante-quinze grammes ou euh, vingt-cinq centilitres.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	enfin	enfin	ADV	_	_	3	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	genre	genre	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	ExtPos=INTJ
+4	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	9	discourse	_	_
 5	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	cent	cent	NUM	_	Number=Plur	9	nummod	_	_
@@ -240,7 +240,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	farine	farine	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	21	punct	_	_
-13	alors	alors	ADV	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+13	alors	alors	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 14	que	que	SCONJ	_	_	13	fixed	_	InIdiom=Yes
 15	tout	tout	ADJ	_	_	17	amod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -264,7 +264,7 @@
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	et	et	CCONJ	_	_	9	cc	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	9	discourse	_	ExtPos=ADV|Idiom=Yes
+5	de	de	ADP	_	ExtPos=ADV	9	discourse	_	Idiom=Yes
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	InIdiom=Yes
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
 8	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
@@ -294,7 +294,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	feu	feu	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	48	punct	_	_
-35	parce	parce	ADV	_	_	48	mark	_	ExtPos=SCONJ|Idiom=Yes
+35	parce	parce	ADV	_	ExtPos=SCONJ	48	mark	_	Idiom=Yes
 36	que	que	SCONJ	_	_	35	fixed	_	InIdiom=Yes
 37	comme	comme	ADP	_	_	38	case	_	_
 38	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	48	discourse	_	SpaceAfter=No
@@ -321,7 +321,7 @@
 6	en	en	PRON	_	Person=3|PronType=Prs	8	iobj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	ExtPos=ADV|Idiom=Yes
+9	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	Idiom=Yes
 10	fois	fois	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	InIdiom=Yes
 11	ensemble	ensemble	ADV	_	_	8	advmod	_	_
 12	?	?	PUNCT	_	_	8	punct	_	_
@@ -329,7 +329,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_12
 # text = non ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	non	non	ADV	_	Polarity=Neg	0	root	_	ExtPos=INTJ
+1	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	0	root	_	_
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_13
@@ -363,7 +363,7 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	casserole	casserole	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-28	parce	parce	ADV	_	_	33	mark	_	ExtPos=SCONJ|Idiom=Yes
+28	parce	parce	ADV	_	ExtPos=SCONJ	33	mark	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	fixed	_	InIdiom=Yes
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	eau	eau	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
@@ -430,7 +430,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_16
 # text = parce que les matières grasses, ça capte vachement bien les saveurs et tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	parce	parce	ADV	_	_	8	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	matières	matière	NOUN	_	Gender=Fem|Number=Plur	8	dislocated	_	_
@@ -442,7 +442,7 @@
 10	bien	bien	ADV	_	_	8	advmod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	saveurs	saveur	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
-13	et	et	CCONJ	_	_	12	conj	_	ExtPos=ADV|Idiom=Yes
+13	et	et	CCONJ	_	ExtPos=ADV	12	conj	_	Idiom=Yes
 14	tout	tout	ADV	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -456,7 +456,7 @@
 5	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 6	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	advmod	_	ExtPos=ADV|Idiom=Yes
+8	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
 9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	fixed	_	InIdiom=Yes
 10	que	que	SCONJ	_	_	16	mark	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -490,12 +490,12 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	question	question	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 20	qu~	qu~	SCONJ	_	_	19	dep	_	_
-21	parce	parce	ADV	_	_	40	mark	_	ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	ExtPos=SCONJ	40	mark	_	Idiom=Yes
 22	qu'	que	SCONJ	_	_	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	en	en	ADP	_	_	24	case	_	_
 24	fait	fait	NOUN	_	Gender=Masc|Number=Sing	40	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
-26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	advmod	_	ExtPos=ADV|Idiom=Yes
+26	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	40	advmod	_	Idiom=Yes
 27	fois	fois	NOUN	_	Gender=Fem|Number=Sing	26	fixed	_	InIdiom=Yes
 28	que	que	SCONJ	_	_	35	mark	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -570,7 +570,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_22
 # text = genre je mets les œufs etc, et une fois que tout est fait là je rajoute les épices.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	genre	genre	NOUN	_	Gender=Masc|Number=Sing	3	discourse	_	ExtPos=INTJ
+1	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	3	discourse	_	_
 2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -578,7 +578,7 @@
 6	etc	etc	ADV	_	_	5	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	advmod	_	ExtPos=ADV|Idiom=Yes
+9	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	17	advmod	_	Idiom=Yes
 10	fois	fois	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	InIdiom=Yes
 11	que	que	SCONJ	_	_	14	mark	_	_
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj:pass	_	_
@@ -601,15 +601,15 @@
 5	fr~	fr~	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	fromage	fromage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-8	et	et	CCONJ	_	_	7	conj	_	ExtPos=ADV|Idiom=Yes
+8	et	et	CCONJ	_	ExtPos=ADV	7	conj	_	Idiom=Yes
 9	tout	tout	ADV	_	_	8	fixed	_	InIdiom=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	21	punct	_	_
 11	et	et	CCONJ	_	_	21	cc	_	_
 12	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	21	punct	_	_
-14	non	non	ADV	_	_	16	reparandum	_	ExtPos=INTJ|wordform=nan
-15	non	non	ADV	_	_	16	reparandum	_	ExtPos=INTJ|wordform=nan
-16	non	non	ADV	_	_	21	discourse	_	ExtPos=INTJ|wordform=nan
+14	non	non	ADV	_	ExtPos=INTJ	16	reparandum	_	wordform=nan
+15	non	non	ADV	_	ExtPos=INTJ	16	reparandum	_	wordform=nan
+16	non	non	ADV	_	ExtPos=INTJ	21	discourse	_	wordform=nan
 17	bah	bah	INTJ	_	_	21	discourse	_	_
 18	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	reparandum	_	_
 19	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
@@ -622,10 +622,10 @@
 25	en	en	ADP	_	_	26	case	_	_
 26	fait	fait	NOUN	_	Gender=Masc|Number=Sing	21	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
-28	dès	dès	ADP	_	_	31	reparandum	_	ExtPos=ADV|Idiom=Yes
+28	dès	dès	ADP	_	ExtPos=ADV	31	reparandum	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	fixed	_	InIdiom=Yes|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	dès	dès	ADP	_	_	21	advmod	_	ExtPos=ADV|Idiom=Yes
+31	dès	dès	ADP	_	ExtPos=ADV	21	advmod	_	Idiom=Yes
 32	que	que	SCONJ	_	_	31	fixed	_	InIdiom=Yes
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	beurre	beurre	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
@@ -655,7 +655,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_25
 # text = enfin si tu le fais bien, et dans les bonnes proportions et tout, ça se décolle hyper vite.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	enfin	enfin	ADV	_	_	18	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
 2	si	si	SCONJ	_	_	5	mark	_	_
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 4	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
@@ -667,7 +667,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 11	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
 12	proportions	proportion	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
-13	et	et	CCONJ	_	_	6	conj	_	ExtPos=ADV|Idiom=Yes
+13	et	et	CCONJ	_	ExtPos=ADV	6	conj	_	Idiom=Yes
 14	tout	tout	ADV	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
@@ -708,7 +708,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_27
 # text = oui j'ai oublié ce que tu…
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ
+1	oui	oui	ADV	_	ExtPos=INTJ	4	discourse	_	_
 2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	oublié	oublier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -733,22 +733,22 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	feu	feu	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
-12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	ExtPos=ADV|Idiom=Yes
+12	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
 13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	fixed	_	InIdiom=Yes
 14	que	que	SCONJ	_	_	12	dep:comp	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	27	punct	_	_
-16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	ExtPos=ADV|Idiom=Yes
+16	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
 17	fois	fois	NOUN	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
 18	que	que	SCONJ	_	_	20	mark	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	27	punct	_	_
-22	XXX	XXX	X	_	_	24	discourse	_	ExtPos=X
-23	enfin	enfin	ADV	_	_	24	discourse	_	ExtPos=INTJ
-24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	ExtPos=ADV|Idiom=Yes
+22	XXX	XXX	X	_	_	24	discourse	_	_
+23	enfin	enfin	ADV	_	ExtPos=INTJ	24	discourse	_	_
+24	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
 25	fois	fois	NOUN	_	Gender=Fem|Number=Sing	24	fixed	_	InIdiom=Yes
 26	qu~	qu~	SCONJ	_	_	24	fixed	_	InIdiom=Yes
-27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	ExtPos=ADV|Idiom=Yes
+27	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	Idiom=Yes
 28	fois	fois	NOUN	_	Gender=Fem|Number=Sing	27	fixed	_	InIdiom=Yes
 29	que	que	SCONJ	_	_	33	mark	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
@@ -840,7 +840,7 @@
 # sent_id = ParisStories_2019_cuisineApproximative_31
 # text = XXX et euh, et voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
-1	XXX	XXX	X	_	_	6	discourse	_	ExtPos=X|wordform=xxx
+1	XXX	XXX	X	_	_	6	discourse	_	wordform=xxx
 2	et	et	CCONJ	_	_	6	cc	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
@@ -871,7 +871,7 @@
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
 8	mettre	mettre	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
-9	de	de	ADP	_	_	11	det	_	ExtPos=DET|Idiom=Yes
+9	de	de	ADP	_	ExtPos=DET	11	det	_	Idiom=Yes
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	fixed	_	InIdiom=Yes
 11	muscade	muscade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -938,7 +938,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_4
 # text = parce que euh, je suis pas très douée en philosophie à la base.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	parce	parce	ADV	_	_	9	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -964,7 +964,7 @@
 5	prof	prof	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
 6	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	12	obj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux:tense	_	_
-8	quand	quand	SCONJ	_	_	12	advmod	_	ExtPos=ADV|Idiom=Yes
+8	quand	quand	SCONJ	_	ExtPos=ADV	12	advmod	_	Idiom=Yes
 9	même	même	ADV	_	_	8	fixed	_	InIdiom=Yes
 10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -1061,7 +1061,7 @@
 5	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
 7	penchée	pencher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	ExtPos=ADV|Idiom=Yes
+8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
 9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 10	sur	sur	ADP	_	_	12	case	_	_
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
@@ -1100,7 +1100,7 @@
 3	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	ExtPos=ADV|Idiom=Yes
+6	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes
 7	peu	peu	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes
 8	de	de	ADP	_	_	9	case	_	_
 9	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
@@ -1145,7 +1145,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
 15	écoutais	écouter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-16	pardon	pardon	NOUN	_	Gender=Masc|Number=Sing	18	discourse	_	ExtPos=INTJ
+16	pardon	pardon	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	18	discourse	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	radio	radio	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	_
@@ -1216,7 +1216,7 @@
 # text = bah oui !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
 1	bah	bah	INTJ	_	_	2	discourse	_	_
-2	oui	oui	ADV	_	_	0	root	_	ExtPos=INTJ
+2	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	_
 3	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_devoirPhilosophie_16
@@ -1260,7 +1260,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-9	quand	quand	SCONJ	_	_	13	advmod	_	ExtPos=ADV|Idiom=Yes
+9	quand	quand	SCONJ	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
 10	même	même	ADV	_	_	9	fixed	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -1278,14 +1278,14 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_18
 # text = parce que j'ai dit euh, ~enfin, je me suis dit, c'est quand même euh, deux visions antinomiques
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	parce	parce	ADV	_	_	13	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	13	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	_
 6	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	~enfin	enfin	ADV	_	_	13	discourse	_	ExtPos=INTJ|SpaceAfter=No|wordform=~fin
+8	~enfin	enfin	ADV	_	ExtPos=INTJ	13	discourse	_	SpaceAfter=No|wordform=~fin
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 11	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
@@ -1294,7 +1294,7 @@
 14	,	,	PUNCT	_	_	22	punct	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-17	quand	quand	SCONJ	_	_	22	advmod	_	ExtPos=ADV|Idiom=Yes
+17	quand	quand	SCONJ	_	ExtPos=ADV	22	advmod	_	Idiom=Yes
 18	même	même	ADV	_	_	17	fixed	_	InIdiom=Yes
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
@@ -1415,7 +1415,7 @@
 9	missionnaire	missionnaire	NOUN	_	Gender=Fem|Number=Sing	15	advcl	_	_
 10	avant	avant	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	~enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No|wordform=~fin
+12	~enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No|wordform=~fin
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
@@ -1534,7 +1534,7 @@
 7	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	quand	quand	SCONJ	_	_	13	advmod	_	ExtPos=ADV|Idiom=Yes
+10	quand	quand	SCONJ	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
 11	même	même	ADV	_	_	10	fixed	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	confrontée	confronter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
@@ -1663,8 +1663,8 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur	4	dep:comp	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	~enfin	enfin	ADV	_	_	14	discourse	_	ExtPos=INTJ|wordform=~fin
-11	voilà	voilà	VERB	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No
+10	~enfin	enfin	ADV	_	ExtPos=INTJ	14	discourse	_	wordform=~fin
+11	voilà	voilà	VERB	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
 14	respectait	respecter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
@@ -1718,7 +1718,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	Reported=Yes
-16	quand	quand	SCONJ	_	_	15	advmod	_	ExtPos=ADV|Idiom=Yes
+16	quand	quand	SCONJ	_	ExtPos=ADV	15	advmod	_	Idiom=Yes
 17	même	même	ADV	_	_	16	fixed	_	InIdiom=Yes
 18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	idée	idée	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
@@ -1736,7 +1736,7 @@
 # sent_id = ParisStories_2019_devoirPhilosophie_34
 # text = parce que, du coup, cette femme, euh finalement, elle doit faire preuve d'empathie, pour pouvoir donner des conseils en matière de sexe, à ses patients, puisque, en gros, elle elle a fait vœu de chasteté, elle est religieuse.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
-1	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	15	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_
@@ -1882,7 +1882,7 @@
 8	passe	passer	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	code	code	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
-11	et	et	CCONJ	_	_	8	conj	_	ExtPos=ADV|Idiom=Yes
+11	et	et	CCONJ	_	ExtPos=ADV	8	conj	_	Idiom=Yes
 12	tout	tout	ADV	_	_	11	fixed	_	InIdiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
 
@@ -1896,7 +1896,7 @@
 5	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	20	punct	_	_
-8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	advmod	_	ExtPos=ADV|Idiom=Yes
+8	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	20	advmod	_	Idiom=Yes
 9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	fixed	_	InIdiom=Yes
 10	que	que	SCONJ	_	_	13	mark	_	_
 11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
@@ -1991,7 +1991,7 @@
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	beaucoup	beaucoup	ADV	_	_	8	advmod	_	_
 8	aidée	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	parce	parce	ADV	_	_	12	mark	_	ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	InIdiom=Yes
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
@@ -2013,12 +2013,12 @@
 8	de	de	ADP	_	_	11	case	_	_
 9	choses	chose	NOUN	_	Gender=Fem|Number=Plur	11	reparandum	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	XXX	XXX	X	_	_	7	nmod	_	ExtPos=X|wordform=XX
-12	de	de	ADP	_	_	14	det	_	ExtPos=DET|Idiom=Yes
+11	XXX	XXX	X	_	_	7	nmod	_	wordform=XX
+12	de	de	ADP	_	ExtPos=DET	14	det	_	Idiom=Yes
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	InIdiom=Yes
 14	ville	ville	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	de	de	ADP	_	_	18	det	_	ExtPos=DET|Idiom=Yes
+16	de	de	ADP	_	ExtPos=DET	18	det	_	Idiom=Yes
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	fixed	_	InIdiom=Yes
 18	route	route	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	_
@@ -2070,7 +2070,7 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_12
 # text = XXX j'ai vraiment eu des bonnes expériences pour euh m'aider à apprendre à conduire, parce que on apprend avec l'expérience.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
-1	XXX	XXX	X	_	_	5	discourse	_	ExtPos=X|wordform=xx
+1	XXX	XXX	X	_	_	5	discourse	_	wordform=xx
 2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	vraiment	vraiment	ADV	_	_	5	advmod	_	_
@@ -2087,7 +2087,7 @@
 15	à	à	ADP	_	_	16	mark	_	_
 16	conduire	conduire	VERB	_	VerbForm=Inf	14	ccomp	_	SpaceAfter=No|Subject=NoRaising
 17	,	,	PUNCT	_	_	21	punct	_	_
-18	parce	parce	ADV	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+18	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	InIdiom=Yes
 20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 21	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
@@ -2117,7 +2117,7 @@
 9	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	25	discourse	_	_
-12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	advmod	_	ExtPos=ADV|Idiom=Yes
+12	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	25	advmod	_	Idiom=Yes
 13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	fixed	_	InIdiom=Yes
 14	que	que	SCONJ	_	_	18	mark	_	_
 15	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
@@ -2202,12 +2202,12 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	gauche	gauche	ADJ	_	Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
-12	alors	alors	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+12	alors	alors	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
-17	de	de	ADP	_	_	16	advmod	_	ExtPos=ADV|Idiom=Yes
+17	de	de	ADP	_	ExtPos=ADV	16	advmod	_	Idiom=Yes
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	InIdiom=Yes
 19	tout	tout	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	InIdiom=Yes
 20	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	obj	_	_
@@ -2222,7 +2222,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	parce	parce	ADV	_	_	6	mark	_	ExtPos=SCONJ|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	InIdiom=Yes
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
@@ -2242,11 +2242,11 @@
 20	,	,	PUNCT	_	_	26	punct	_	_
 21	mais	mais	CCONJ	_	_	26	cc	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
-23	en	en	ADP	_	_	26	discourse	_	ExtPos=ADV|Idiom=Yes
+23	en	en	ADP	_	ExtPos=ADV	26	discourse	_	Idiom=Yes
 24	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	InIdiom=Yes|SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	pas	pas	ADV	_	Polarity=Neg	12	conj	_	_
-27	de	de	ADP	_	_	26	advmod	_	ExtPos=ADV|Idiom=Yes
+27	de	de	ADP	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	InIdiom=Yes
 29	tout	tout	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	InIdiom=Yes|SpaceAfter=No
 30	.	.	PUNCT	_	_	2	punct	_	_
@@ -2329,7 +2329,7 @@
 3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	obj:lvc	_	_
-6	parce	parce	ADV	_	_	17	mark	_	ExtPos=SCONJ|Idiom=Yes
+6	parce	parce	ADV	_	ExtPos=SCONJ	17	mark	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes
 8	euh	euh	INTJ	_	_	17	discourse	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -2392,7 +2392,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	et	et	CCONJ	_	_	27	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	en	en	ADP	_	_	27	discourse	_	ExtPos=ADV|Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	27	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	27	discourse	_	_
@@ -2404,7 +2404,7 @@
 12	euh	euh	INTJ	_	_	15	discourse	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 14	...	...	PUNCT	_	_	13	punct	_	_
-15	enfin	enfin	ADV	_	_	11	discourse	_	ExtPos=INTJ|SpaceAfter=No
+15	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -2427,7 +2427,7 @@
 35	prendre	prendre	VERB	_	VerbForm=Inf	29	conj	_	Subject=SubjRaising
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	train	train	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	_
-38	et	et	CCONJ	_	_	37	conj	_	ExtPos=ADV|Idiom=Yes
+38	et	et	CCONJ	_	ExtPos=ADV	37	conj	_	Idiom=Yes
 39	tout	tout	ADV	_	_	38	fixed	_	InIdiom=Yes|SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	et	et	CCONJ	_	_	42	cc	_	_
@@ -2453,7 +2453,7 @@
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	de	de	ADP	_	_	6	det	_	ExtPos=DET|Idiom=Yes
+4	de	de	ADP	_	ExtPos=DET	6	det	_	Idiom=Yes
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	fixed	_	InIdiom=Yes
 6	chance	chance	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 7	que	que	PRON	_	PronType=Rel	12	reparandum	_	_
@@ -2559,7 +2559,7 @@
 21	travailler	travailler	VERB	_	VerbForm=Inf	18	appos	_	SpaceAfter=No|Subject=ObjRaising
 22	…	…	PUNCT	_	_	33	punct	_	_
 23	euh	euh	INTJ	_	_	33	discourse	_	_
-24	parce	parce	ADV	_	_	33	mark	_	ExtPos=SCONJ|Idiom=Yes
+24	parce	parce	ADV	_	ExtPos=SCONJ	33	mark	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes
 26	quand	quand	SCONJ	_	_	28	mark	_	_
 27	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	nsubj	_	_
@@ -2595,9 +2595,9 @@
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
-8	XXX	XXX	X	_	_	7	dep	_	ExtPos=X|Scrap=Yes|SpaceAfter=No
+8	XXX	XXX	X	_	_	7	dep	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	enfin	enfin	ADV	_	_	14	discourse	_	ExtPos=INTJ|SpaceAfter=No|wordform=fin
+10	enfin	enfin	ADV	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No|wordform=fin
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
@@ -2610,7 +2610,7 @@
 20	retenir	retenir	VERB	_	VerbForm=Inf	17	advcl	_	Subject=NoRaising
 21	par	par	ADP	_	_	22	case	_	_
 22	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
-23	parce	parce	ADV	_	_	28	mark	_	ExtPos=SCONJ|Idiom=Yes
+23	parce	parce	ADV	_	ExtPos=SCONJ	28	mark	_	Idiom=Yes
 24	que	que	SCONJ	_	_	23	fixed	_	InIdiom=Yes
 25	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	SpaceAfter=No
 26	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	reparandum	_	_
@@ -2712,12 +2712,12 @@
 6	gamine	gamin	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
-9	s'	soi	PRON	_	Person=3|PronType=Prs	14	reparandum	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+9	s'	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	14	reparandum	_	Idiom=Yes|SpaceAfter=No
 10	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	9	discourse	_	_
 12	Céc~	Céc~	PROPN	_	_	9	obj	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
-14	s'	soi	PRON	_	Person=3|PronType=Prs	6	acl:relcl	_	ExtPos=VERB|Idiom=Yes|SpaceAfter=No
+14	s'	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	6	acl:relcl	_	Idiom=Yes|SpaceAfter=No
 15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	InIdiom=Yes
 16	Cécilia	Cécilia	PROPN	_	_	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
@@ -2804,7 +2804,7 @@
 12	bagarre	bagarre	NOUN	_	Gender=Fem|Number=Sing	21	reparandum	_	Reported=Yes
 13	de	de	ADP	_	_	14	case	_	_
 14	merde	merde	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	et	et	CCONJ	_	_	12	conj	_	ExtPos=ADV|Idiom=Yes
+15	et	et	CCONJ	_	ExtPos=ADV	12	conj	_	Idiom=Yes
 16	tout	tout	ADV	_	_	15	fixed	_	InIdiom=Yes
 17	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
@@ -2812,7 +2812,7 @@
 20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 21	relous	relou	ADJ	_	Gender=Masc|Number=Plur	6	ccomp	_	_
 22	à	à	ADP	_	_	23	mark	_	_
-23	se	soi	PRON	_	Person=3|PronType=Prs	21	ccomp	_	ExtPos=VERB|Idiom=Yes
+23	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	21	ccomp	_	Idiom=Yes
 24	taper	taper	VERB	_	VerbForm=Inf	23	fixed	_	InIdiom=Yes|Subject=SubjRaising
 25	tout	tout	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -2820,7 +2820,7 @@
 28	sur	sur	ADP	_	_	30	case	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	gueule	gueule	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
-31	machin	machin	NOUN	_	_	30	discourse	_	ExtPos=INTJ|SpaceAfter=No
+31	machin	machin	NOUN	_	ExtPos=INTJ	30	discourse	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_11
@@ -2845,7 +2845,7 @@
 17	genou	genou	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
 18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	_
 19	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	advmod	_	ExtPos=ADV|Idiom=Yes
+20	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	22	advmod	_	Idiom=Yes
 21	peu	peu	NOUN	_	Gender=Masc|Number=Sing	20	fixed	_	InIdiom=Yes
 22	doucement	doucement	ADV	_	_	19	advmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
@@ -2892,7 +2892,7 @@
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	oh	oh	INTJ	_	_	8	discourse	_	_
 7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
-8	dieu	dieu	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	ExtPos=INTJ
+8	dieu	dieu	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	10	discourse	_	_
 9	mais	mais	CCONJ	_	_	10	cc	_	_
 10	qu'	que	PRON	_	PronType=Int	4	ccomp	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	Reported=Yes|SpaceAfter=No
@@ -2954,7 +2954,7 @@
 # sent_id = ParisStories_2020_blessureRecreation_16
 # text = enfin c'était vraiment dégueulasse.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	enfin	enfin	ADV	_	_	5	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	vraiment	vraiment	ADV	_	_	5	advmod	_	_
@@ -2982,7 +2982,7 @@
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	étaient	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
-18	genre	genre	NOUN	_	_	23	discourse	_	ExtPos=INTJ
+18	genre	genre	NOUN	_	ExtPos=INTJ	23	discourse	_	_
 19	là	là	ADV	_	_	17	xcomp	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	ah	ah	INTJ	_	_	23	discourse	_	_
@@ -3091,7 +3091,7 @@
 16	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 17	aller	aller	VERB	_	VerbForm=Inf	16	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 18	,	,	PUNCT	_	_	26	punct	_	_
-19	alors	alors	ADV	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
+19	alors	alors	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes
 21	moi-même	moi-même	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	26	dislocated	_	_
 22	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
@@ -3100,7 +3100,7 @@
 25	pas	pas	ADV	_	_	26	advmod	_	_
 26	bien	bien	ADV	_	_	4	advcl	_	_
 27-28	du	_	_	_	_	_	_	_	_
-27	de	de	ADP	_	_	26	advmod	_	ExtPos=ADV|Idiom=Yes
+27	de	de	ADP	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	InIdiom=Yes
 29	tout	tout	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	InIdiom=Yes|SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
@@ -3122,7 +3122,7 @@
 12	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 13	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
-15	parce	parce	ADV	_	_	18	mark	_	ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	18	mark	_	Idiom=Yes
 16	que	que	SCONJ	_	_	15	fixed	_	InIdiom=Yes
 17	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 18	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
@@ -3167,7 +3167,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	9	cc	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	dislocated	_	_
-6	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ
+6	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	_
 7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -3215,14 +3215,14 @@
 6	de	de	ADP	_	_	8	mark	_	_
 7	se	soi	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
 8	relever	relever	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
-9	en	en	ADP	_	_	3	advmod	_	ExtPos=ADV|Idiom=Yes
+9	en	en	ADP	_	ExtPos=ADV	3	advmod	_	Idiom=Yes
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_blessureRecreation_30
 # text = enfin il était vraiment à terre euh, terrorisé.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	enfin	enfin	ADV	_	_	9	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	_
 2	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 4	vraiment	vraiment	ADV	_	_	9	advmod	_	_
@@ -3300,7 +3300,7 @@
 # sent_id = ParisStories_2020_blessureRecreation_33
 # text = parce que les procédures du collège sont ce qu'elles sont, elles sont complètement débiles, il faut que ce soit l'infirmière qui appelle les pompiers.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3fac9a3cfaf4e50754c8be5d07cb9fe629128cdd
-1	parce	parce	ADV	_	_	9	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	procédures	procédure	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
@@ -3405,7 +3405,7 @@
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	ExtPos=ADV|Idiom=Yes
+8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	Idiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 10	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 11	de	de	ADP	_	_	12	case	_	_
@@ -3419,7 +3419,7 @@
 2	bon	bon	INTJ	_	_	7	discourse	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-5	quand	quand	SCONJ	_	_	7	advmod	_	ExtPos=ADV|Idiom=Yes
+5	quand	quand	SCONJ	_	ExtPos=ADV	7	advmod	_	Idiom=Yes
 6	même	même	ADV	_	_	5	fixed	_	InIdiom=Yes
 7	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	9	mark	_	_
@@ -3456,7 +3456,7 @@
 4	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
-7	et	et	CCONJ	_	_	6	conj	_	ExtPos=ADV|Idiom=Yes
+7	et	et	CCONJ	_	ExtPos=ADV	6	conj	_	Idiom=Yes
 8	tout	tout	ADV	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3501,7 +3501,7 @@
 # sent_id = ParisStories_2020_campBedouin_8
 # text = et puis après il nous a emmenés dans notre hôtel, à Dubaï franchement c'était super beau tout ça euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
-1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	après	après	ADV	_	_	7	advmod	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -3533,15 +3533,15 @@
 4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
 6	raconter	raconter	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	ExtPos=ADV|Idiom=Yes
+7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	Idiom=Yes
 8	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes
 9	vite	vite	ADV	_	_	10	advmod	_	_
 10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 11	en	en	ADP	_	_	12	case	_	_
 12	détails	détail	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
-13	quand	quand	SCONJ	_	_	6	advmod	_	ExtPos=ADV|Idiom=Yes
+13	quand	quand	SCONJ	_	ExtPos=ADV	6	advmod	_	Idiom=Yes
 14	même	même	ADV	_	_	13	fixed	_	InIdiom=Yes
-15	parce	parce	ADV	_	_	6	dep	_	ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	6	dep	_	Idiom=Yes
 16	que	que	SCONJ	_	_	15	fixed	_	InIdiom=Yes
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
@@ -3561,7 +3561,7 @@
 3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 4	jour	jour	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-6	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+6	me	moi	PRON	_	ExtPos=VERB|Number=Sing|Person=1|PronType=Prs	0	root	_	Idiom=Yes
 7	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	fixed	_	InIdiom=Yes
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
@@ -3649,7 +3649,7 @@
 # text = tu te souviens ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+2	te	toi	PRON	_	ExtPos=VERB|Number=Sing|Person=2|PronType=Prs	0	root	_	Idiom=Yes
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	fixed	_	InIdiom=Yes
 4	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -3710,7 +3710,7 @@
 12	euh	euh	INTJ	_	_	11	discourse	_	_
 13	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	20	punct	_	_
-15	enfin	enfin	ADV	_	_	20	discourse	_	ExtPos=INTJ
+15	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
 17	s'	soi	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
@@ -3718,7 +3718,7 @@
 20	tapé	taper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	barres	barre	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
-23	parce	parce	ADV	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
+23	parce	parce	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 24	que	que	SCONJ	_	_	23	fixed	_	InIdiom=Yes
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
 26	secouait	secouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
@@ -3791,7 +3791,7 @@
 # text = mais par contre dans le désert en décembre, il fait super super froid.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	mais	mais	CCONJ	_	_	11	cc	_	_
-2	par	par	ADP	_	_	11	advmod	_	ExtPos=ADV|Idiom=Yes
+2	par	par	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
 3	contre	contre	NOUN	_	_	2	fixed	_	InIdiom=Yes
 4	dans	dans	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -3857,7 +3857,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_3
 # text = oui, c'est bien ça !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -3918,7 +3918,7 @@
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	karaoké	karaoké	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	39	punct	_	_
-32	parce	parce	ADV	_	_	39	mark	_	ExtPos=SCONJ|Idiom=Yes
+32	parce	parce	ADV	_	ExtPos=SCONJ	39	mark	_	Idiom=Yes
 33	que	que	SCONJ	_	_	32	fixed	_	InIdiom=Yes
 34	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	35	det	_	_
 35	clip	clip	NOUN	_	Gender=Masc|Number=Sing	39	dislocated	_	_
@@ -3940,7 +3940,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	oui	oui	ADV	_	_	3	discourse	_	ExtPos=INTJ|SpaceAfter=No
+5	oui	oui	ADV	_	ExtPos=INTJ	3	discourse	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_8
@@ -3961,7 +3961,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_9
 # text = oui, bon, c'était un karaoké.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	8	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bon	bon	INTJ	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -4013,7 +4013,7 @@
 34	train	train	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 35	de	de	ADP	_	_	36	mark	_	_
 36	danser	danser	VERB	_	VerbForm=Inf	34	acl	_	Subject=ObjRaising
-37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	advmod	_	ExtPos=ADV|Idiom=Yes
+37	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	39	advmod	_	Idiom=Yes
 38	peu	peu	NOUN	_	Gender=Masc|Number=Sing	37	fixed	_	InIdiom=Yes
 39	active	actif	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
 40	et	et	CCONJ	_	_	49	cc	_	SpaceAfter=No
@@ -4044,7 +4044,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_11
 # text = sauf que tu voulais pas le mettre sur ton Insta.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	sauf	sauf	ADP	_	_	4	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	sauf	sauf	ADP	_	ExtPos=SCONJ	4	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -4061,10 +4061,10 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	oui	oui	ADV	_	_	12	discourse	_	ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	12	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	évidemment	évidemment	ADV	_	_	12	discourse	_	_
-6	parce	parce	ADV	_	_	12	mark	_	ExtPos=SCONJ|Idiom=Yes
+6	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	dislocated	_	SpaceAfter=No
@@ -4115,11 +4115,11 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	soi-disant	soi-disant	ADV	_	_	7	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
-4	parce	parce	ADV	_	_	7	mark	_	ExtPos=SCONJ|Idiom=Yes
+4	parce	parce	ADV	_	ExtPos=SCONJ	7	mark	_	Idiom=Yes
 5	que	que	SCONJ	_	_	4	fixed	_	InIdiom=Yes
 6	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	de	de	ADP	_	_	10	det	_	ExtPos=DET|Idiom=Yes
+8	de	de	ADP	_	ExtPos=DET	10	det	_	Idiom=Yes
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	InIdiom=Yes
 10	chance	chance	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 11-12	aux	_	_	_	_	_	_	_	_
@@ -4193,7 +4193,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	final	final	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	en	en	ADP	_	_	20	discourse	_	ExtPos=ADV|Idiom=Yes
+7	en	en	ADP	_	ExtPos=ADV	20	discourse	_	Idiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -4252,7 +4252,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_24
 # text = oui, mais il passait aussi dans, il passait aussi dans le clip.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	5	cc	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -4271,7 +4271,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_25
 # text = oui dans le clip~.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ
+1	oui	oui	ADV	_	ExtPos=INTJ	4	discourse	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	clip~	clip~	NOUN	_	_	0	root	_	SpaceAfter=No
@@ -4299,7 +4299,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	surprise	surprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	21	punct	_	_
-10	parce	parce	ADV	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	InIdiom=Yes
 12	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -4319,7 +4319,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_28
 # text = non, mais ça, on savait pas au début.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	non	non	ADV	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	non	non	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	7	cc	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	SpaceAfter=No
@@ -4336,7 +4336,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_29
 # text = oui, ça on sai~…
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
@@ -4371,7 +4371,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_31
 # text = oui, et plus une surprise.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	et	et	CCONJ	_	_	6	cc	_	_
 4	plus	plus	ADV	_	_	6	advmod	_	_
@@ -4384,7 +4384,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	donc	donc	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	voilà	voilà	VERB	_	_	1	discourse	_	ExtPos=INTJ|SpaceAfter=No
+3	voilà	voilà	VERB	_	ExtPos=INTJ	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	en	en	ADP	_	_	6	case	_	_
 6	plus	plus	ADV	_	_	10	advmod	_	SpaceAfter=No
@@ -4430,7 +4430,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_35
 # text = oui, voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	3	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -4501,17 +4501,17 @@
 # sent_id = ParisStories_2020_concoursInstagram_39
 # text = oui.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_40
 # text = non, non, non !
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	non	non	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+1	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	non	non	ADV	_	_	1	conj	_	ExtPos=INTJ|SpaceAfter=No
+3	non	non	ADV	_	ExtPos=INTJ	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	non	non	ADV	_	_	1	conj	_	ExtPos=INTJ
+5	non	non	ADV	_	ExtPos=INTJ	1	conj	_	_
 6	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_41
@@ -4529,7 +4529,7 @@
 # text = mais non, mais le clip ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	mais	mais	CCONJ	_	_	2	cc	_	_
-2	non	non	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+2	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	mais	mais	CCONJ	_	_	6	cc	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -4546,7 +4546,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_44
 # text = non, ça a pris trois semaines.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	non	non	ADV	_	_	5	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	non	non	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
@@ -4558,7 +4558,7 @@
 # sent_id = ParisStories_2020_concoursInstagram_45
 # text = oui, trois semaines.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	oui	oui	ADV	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	trois	trois	NUM	_	Number=Plur	4	nummod	_	_
 4	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
@@ -4569,7 +4569,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	ah	ah	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	oui	oui	ADV	_	_	6	discourse	_	ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	trois	trois	NUM	_	Number=Plur	6	nummod	_	_
 6	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
@@ -4614,12 +4614,12 @@
 # sent_id = ParisStories_2020_concoursInstagram_49
 # text = sauf que le clip, enfin, je suis désolée, mais il faisait pas très professionnel, hein.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
-1	sauf	sauf	ADP	_	_	14	mark	_	ExtPos=SCONJ|Idiom=Yes
+1	sauf	sauf	ADP	_	ExtPos=SCONJ	14	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	clip	clip	NOUN	_	Gender=Masc|Number=Sing	14	dislocated	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ|SpaceAfter=No
+6	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -4651,7 +4651,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	non	non	ADV	_	_	0	root	_	ExtPos=INTJ|SpaceAfter=No
+3	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_52
@@ -4693,7 +4693,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Iphone	Iphone	PROPN	_	_	7	obl:mod	_	_
 11	mais	mais	CCONJ	_	_	12	cc	_	_
-12	parce	parce	ADV	_	_	7	dep	_	ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	ExtPos=SCONJ	7	dep	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	euh~	euh~	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -4718,7 +4718,7 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	quand	quand	ADV	_	_	5	advmod	_	ExtPos=ADV|Idiom=Yes
+6	quand	quand	ADV	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 7	même	même	ADV	_	Number=Sing	6	fixed	_	InIdiom=Yes
 8	peut-être	peut-être	ADV	_	_	10	advmod	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -4767,7 +4767,7 @@
 # sent_id = ParisStories_2021_adoptionMouts_6
 # text = et puis, il y en avait une toute seule qui était un beagle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/7583d20220b42183d8a2dd5e9f139f4e24eab885
-1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
 2	puis	puis	ADV	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
@@ -4844,7 +4844,7 @@
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
 5	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
-7	parce	parce	SCONJ	_	_	12	mark	_	ExtPos=SCONJ|Idiom=Yes
+7	parce	parce	SCONJ	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
 8	qu'	qu'	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	en	en	ADP	_	_	10	case	_	_
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	_
@@ -4885,7 +4885,7 @@
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	quoi	quoi	INTJ	_	_	20	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	enfin	enfin	ADV	_	_	20	discourse	_	ExtPos=INTJ|SpaceAfter=No
+24	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -5023,7 +5023,7 @@
 23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	mascara	mascara	NOUN	_	Gender=Masc|Number=Sing	28	reparandum	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
-26	de	un	ADP	_	_	28	det	_	ExtPos=DET|Idiom=Yes
+26	de	un	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
 27	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	fixed	_	InIdiom=Yes|SpaceAfter=No
 28	eyeliner	eyeliner	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	13	punct	_	_
@@ -5060,7 +5060,7 @@
 8	,	,	PUNCT	_	_	18	punct	_	_
 9	bah	bah	INTJ	_	_	18	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	voilà	voilà	VERB	_	_	18	discourse	_	ExtPos=INTJ|SpaceAfter=No
+11	voilà	voilà	VERB	_	ExtPos=INTJ	18	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	quoi	quoi	INTJ	_	_	18	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -5190,7 +5190,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bah	bah	INTJ	_	_	9	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	voilà	voilà	VERB	_	_	9	discourse	_	ExtPos=INTJ|SpaceAfter=No
+5	voilà	voilà	VERB	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
@@ -5363,7 +5363,7 @@
 # sent_id = ParisStories_2021_couruLaVoir_3
 # text = enfin, à vrai dire on se connaissait depuis la grande section de maternelle parce qu'on, on a grandi dans le même quartier, et dans le même immeuble.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	enfin	enfin	ADV	_	_	8	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	à	à	ADP	_	_	5	mark	_	_
 4	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -5377,7 +5377,7 @@
 12	section	section	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	maternelle	maternelle	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	parce	parce	SCONJ	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	SCONJ	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 16	qu'	qu'	SCONJ	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	reparandum	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -5449,8 +5449,8 @@
 # sent_id = ParisStories_2021_couruLaVoir_7
 # text = enfin voilà c'était, il y avait, on peut dire qu'il y avait deux groupes.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	enfin	enfin	ADV	_	_	4	discourse	_	ExtPos=INTJ
-2	voilà	voilà	VERB	_	_	4	discourse	_	ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	_
+2	voilà	voilà	VERB	_	ExtPos=INTJ	4	discourse	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
@@ -5540,7 +5540,7 @@
 21	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	_
 22	en	en	ADP	_	_	23	case	_	_
 23	CM1	CM1	PROPN	_	_	21	obl:arg	_	_
-24	parce	parce	ADV	_	_	39	mark	_	ExtPos=SCONJ|Idiom=Yes
+24	parce	parce	ADV	_	ExtPos=SCONJ	39	mark	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes
 26	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
 27	y	y	PRON	_	Person=3|PronType=Prs	28	expl:comp	_	_
@@ -5650,7 +5650,7 @@
 6	toutes	tout	ADV	_	_	7	advmod	_	_
 7	seules	seul	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	21	punct	_	_
-9	parce	parce	ADV	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	InIdiom=Yes
 11	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	_
 12	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
@@ -5689,7 +5689,7 @@
 18	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
 19	parler	parler	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 20	,	,	PUNCT	_	_	24	punct	_	_
-21	parce	parce	ADV	_	_	24	mark	_	ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	ExtPos=SCONJ	24	mark	_	Idiom=Yes
 22	qu'	que	SCONJ	_	_	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	elle	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
@@ -5734,7 +5734,7 @@
 4	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	très	très	ADV	_	_	6	advmod	_	_
 6	bien	bien	ADV	_	_	4	advmod	_	_
-7	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+7	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
@@ -5771,7 +5771,7 @@
 41	,	,	PUNCT	_	_	48	punct	_	_
 42	ou	ou	CCONJ	_	_	48	cc	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	48	punct	_	_
-44	genre	genre	NOUN	_	_	48	discourse	_	ExtPos=INTJ|SpaceAfter=No
+44	genre	genre	NOUN	_	ExtPos=INTJ	48	discourse	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	44	punct	_	_
 46	juste	juste	ADV	_	_	48	advmod	_	_
 47	de	de	ADP	_	_	48	case	_	_
@@ -5823,14 +5823,14 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ouais	ouais	INTJ	_	_	11	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	enfin	enfin	ADV	_	_	6	discourse	_	ExtPos=INTJ
+5	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	_
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	reparandum	_	_
-12	XXX	XXX	X	_	_	11	dep	_	ExtPos=X|Scrap=Yes|SpaceAfter=No
+12	XXX	XXX	X	_	_	11	dep	_	Scrap=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
 15	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -5907,10 +5907,10 @@
 21	la	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
 22	voir	voir	VERB	_	VerbForm=Inf	20	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 23	,	,	PUNCT	_	_	31	punct	_	_
-24	genre	genre	NOUN	_	Gender=Masc|Number=Sing	31	discourse	_	ExtPos=INTJ
+24	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	31	discourse	_	_
 25	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
-27	genre	genre	NOUN	_	Gender=Masc|Number=Sing	31	discourse	_	SpaceAfter=No
+27	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	31	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	pour	pour	ADP	_	_	31	mark	_	_
 30	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	iobj	_	_
@@ -5932,7 +5932,7 @@
 46	qu'	qu'	SCONJ	_	_	48	mark	_	SpaceAfter=No
 47	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	48	nsubj	_	_
 48	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	_
-49	et	et	CCONJ	_	_	48	conj	_	ExtPos=ADV|Idiom=Yes
+49	et	et	CCONJ	_	ExtPos=ADV	48	conj	_	Idiom=Yes
 50	tout	tout	ADV	_	Gender=Masc|Number=Sing	49	fixed	_	InIdiom=Yes
 51	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	_
 52	qu'	qu'	SCONJ	_	_	59	mark	_	SpaceAfter=No
@@ -6040,7 +6040,7 @@
 10	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	iobj	_	_
 11	dire	dire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 12-13	au	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	11	obl:arg	_	ExtPos=NOUN|Idiom=Yes|wordform=au
+12	à	à	ADP	_	ExtPos=NOUN	11	obl:arg	_	Idiom=Yes|wordform=au
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	InIdiom=Yes
 14	revoir	revoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Inf	12	fixed	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -6195,7 +6195,7 @@
 16	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	17	obj	_	AlignBegin=10155|AlignEnd=10328|SpaceAfter=No
 17	adopter	adopter	VERB	_	VerbForm=Inf	23	reparandum	_	AlignBegin=10328|AlignEnd=10502|SpaceAfter=No|Subject=NoRaising
 18	,	,	PUNCT	_	_	23	punct	_	AlignBegin=10502|AlignEnd=10502
-19	enfin	enfin	ADV	_	_	23	discourse	_	AlignBegin=10968|AlignEnd=11213|ExtPos=INTJ|SpaceAfter=No
+19	enfin	enfin	ADV	_	ExtPos=INTJ	23	discourse	_	AlignBegin=10968|AlignEnd=11213|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=11213|AlignEnd=11213
 21	pour	pour	ADP	_	_	23	mark	_	AlignBegin=11213|AlignEnd=11458
 22	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	AlignBegin=11458|AlignEnd=11702
@@ -6283,7 +6283,7 @@
 3	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=21360|AlignEnd=21518|SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=21518|AlignEnd=21675
 5	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=21675|AlignEnd=21833
-6	parce	parce	ADV	_	_	11	mark	_	AlignBegin=21833|AlignEnd=21990|ExtPos=SCONJ|Idiom=Yes
+6	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=21833|AlignEnd=21990|Idiom=Yes
 7	que	que	SCONJ	_	_	6	fixed	_	AlignBegin=21990|AlignEnd=22148|InIdiom=Yes
 8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=22658|AlignEnd=22815
 9	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	iobj	_	AlignBegin=22815|AlignEnd=22972|SpaceAfter=No
@@ -6411,7 +6411,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/4eeef466a61c255a03921a4d234ae810647ba3f1
 # speaker = L1
 # text = parce qu'on a déménagé entre temps, tu sais, tu te rappelles ?
-1	parce	parce	ADV	_	_	5	mark	_	AlignBegin=38110|AlignEnd=38244|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=38110|AlignEnd=38244|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=38244|AlignEnd=38379|InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	AlignBegin=38379|AlignEnd=38513
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=38513|AlignEnd=38647
@@ -6469,7 +6469,7 @@
 # text = hum, parce qu'il a un peu de mal à avancer.
 1	hum	hum	INTJ	_	_	6	discourse	_	AlignBegin=44337|AlignEnd=44617|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=44617|AlignEnd=44617
-3	parce	parce	ADV	_	_	6	mark	_	AlignBegin=44617|AlignEnd=44897|ExtPos=SCONJ|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=44617|AlignEnd=44897|Idiom=Yes
 4	qu'	que	SCONJ	_	_	3	fixed	_	AlignBegin=44897|AlignEnd=45178|InIdiom=Yes|SpaceAfter=No
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=45178|AlignEnd=45458
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45458|AlignEnd=45738
@@ -6485,7 +6485,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/4eeef466a61c255a03921a4d234ae810647ba3f1
 # speaker = L1
 # text = genre, il a un peu d'arthrose.
-1	genre	genre	NOUN	_	_	4	discourse	_	AlignBegin=47139|AlignEnd=47288|ExtPos=INTJ|SpaceAfter=No
+1	genre	genre	NOUN	_	ExtPos=INTJ	4	discourse	_	AlignBegin=47139|AlignEnd=47288|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=47288|AlignEnd=47288
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=47288|AlignEnd=47436
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47436|AlignEnd=47585
@@ -6551,7 +6551,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/4eeef466a61c255a03921a4d234ae810647ba3f1
 # speaker = L1
 # text = enfin, à chaque fois que je reviens parce que, bon …
-1	enfin	enfin	ADV	_	_	5	discourse	_	AlignBegin=54981|AlignEnd=55124|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	AlignBegin=54981|AlignEnd=55124|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=55124|AlignEnd=55124
 3	à	à	ADP	_	_	5	case	_	AlignBegin=55124|AlignEnd=55124
 4	chaque	chaque	DET	_	Number=Sing|PronType=Ind	5	det	_	AlignBegin=55124|AlignEnd=55267
@@ -6559,7 +6559,7 @@
 6	que	que	SCONJ	_	_	8	mark	_	AlignBegin=55411|AlignEnd=55554
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=55554|AlignEnd=55697
 8	reviens	revieir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	AlignBegin=55697|AlignEnd=55840
-9	parce	parce	ADV	_	_	5	dep	_	AlignBegin=55840|AlignEnd=55984|ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	5	dep	_	AlignBegin=55840|AlignEnd=55984|Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	AlignBegin=55984|AlignEnd=56127|InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=56127|AlignEnd=56127
 12	bon	bon	INTJ	_	_	8	discourse	_	AlignBegin=56127|AlignEnd=56270
@@ -6591,7 +6591,7 @@
 9	de	de	ADP	_	_	10	case	_	AlignBegin=58659|AlignEnd=58797
 10	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	AlignBegin=58797|AlignEnd=58935|SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	AlignBegin=58935|AlignEnd=58935
-12	parce	parce	ADV	_	_	16	mark	_	AlignBegin=58935|AlignEnd=59034|ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=58935|AlignEnd=59034|Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	AlignBegin=59034|AlignEnd=59133|InIdiom=Yes
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=59133|AlignEnd=59233
 15	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obj	_	AlignBegin=59233|AlignEnd=59332|SpaceAfter=No
@@ -6711,7 +6711,7 @@
 5	assez	assez	ADV	_	_	6	advmod	_	AlignBegin=72878|AlignEnd=73022
 6	drôle	drôle	ADJ	_	_	0	root	_	AlignBegin=73022|AlignEnd=73166|SpaceAfter=No
 7	,	,	PUNCT	_	_	19	punct	_	AlignBegin=73166|AlignEnd=73166
-8	parce	parce	ADV	_	_	19	mark	_	AlignBegin=73166|AlignEnd=73312|ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	19	mark	_	AlignBegin=73166|AlignEnd=73312|Idiom=Yes
 9	que	que	SCONJ	_	_	8	fixed	_	AlignBegin=73312|AlignEnd=73457|InIdiom=Yes
 10	dès	dès	ADP	_	_	14	mark	_	AlignBegin=73457|AlignEnd=73603
 11	que	que	SCONJ	_	_	14	mark	_	AlignBegin=73603|AlignEnd=73749
@@ -6819,7 +6819,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=87192|AlignEnd=87192
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	AlignBegin=87192|AlignEnd=87366|SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	AlignBegin=87366|AlignEnd=87539
-10	de	de	ADP	_	_	13	reparandum	_	AlignBegin=87539|AlignEnd=87713|ExtPos=DET|Idiom=Yes
+10	de	de	ADP	_	ExtPos=DET	13	reparandum	_	AlignBegin=87539|AlignEnd=87713|Idiom=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	AlignBegin=87713|AlignEnd=87886|InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=87886|AlignEnd=87886
 13	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=87886|AlignEnd=88060
@@ -6951,8 +6951,8 @@
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=100642|AlignEnd=100642
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=100642|AlignEnd=100797|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	AlignBegin=100797|AlignEnd=100952
-8	quand	quand	SCONJ	_	_	10	dep	_	AlignBegin=100952|AlignEnd=101107
-9	même	même	ADV	_	_	8	dep	_	AlignBegin=101107|AlignEnd=101262
+8	quand	quand	SCONJ	_	_	10	dep	_	AlignBegin=100952|AlignEnd=101107|ExtPos=ADV|Idiom=Yes
+9	même	même	ADV	_	_	8	dep	_	AlignBegin=101107|AlignEnd=101262|InIdiom=Yes
 10	bien	bien	ADV	_	_	0	root	_	AlignBegin=101262|AlignEnd=101417|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=101417|AlignEnd=101417
 
@@ -6990,7 +6990,7 @@
 10	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=107430|AlignEnd=107647
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=107647|AlignEnd=107864
 12	chien	chien	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	AlignBegin=107864|AlignEnd=108081
-13	parce	parce	ADV	_	_	18	mark	_	AlignBegin=108081|AlignEnd=108298|ExtPos=SCONJ|Idiom=Yes
+13	parce	parce	ADV	_	ExtPos=SCONJ	18	mark	_	AlignBegin=108081|AlignEnd=108298|Idiom=Yes
 14	qu'	que	SCONJ	_	_	13	fixed	_	AlignBegin=108298|AlignEnd=108515|InIdiom=Yes|SpaceAfter=No
 15	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=108515|AlignEnd=108731
 16	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	18	obj	_	AlignBegin=108731|AlignEnd=108948|SpaceAfter=No
@@ -7089,7 +7089,7 @@
 8	de	de	ADP	_	_	9	case	_	AlignBegin=118386|AlignEnd=118517
 9	conneries	connerie	NOUN	_	Gender=Fem|Number=Plur	7	obl:arg	_	AlignBegin=118517|AlignEnd=118648|SpaceAfter=No
 10	,	,	PUNCT	_	_	28	punct	_	AlignBegin=118648|AlignEnd=118648
-11	parce	parce	ADV	_	_	28	mark	_	AlignBegin=118809|AlignEnd=118935|ExtPos=SCONJ|Idiom=Yes
+11	parce	parce	ADV	_	ExtPos=SCONJ	28	mark	_	AlignBegin=118809|AlignEnd=118935|Idiom=Yes
 12	qu'	que	SCONJ	_	_	11	fixed	_	AlignBegin=118935|AlignEnd=119062|InIdiom=Yes|SpaceAfter=No
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	16	case	_	AlignBegin=119062|AlignEnd=119188|wordform=au
@@ -7116,9 +7116,9 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/4eeef466a61c255a03921a4d234ae810647ba3f1
 # speaker = L1
 # text = enfin, genre, il mangeait …
-1	enfin	enfin	ADV	_	_	6	discourse	_	AlignBegin=122205|AlignEnd=122385|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	AlignBegin=122205|AlignEnd=122385|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=122385|AlignEnd=122385
-3	genre	genre	NOUN	_	_	6	discourse	_	AlignBegin=122385|AlignEnd=122565|ExtPos=INTJ|SpaceAfter=No
+3	genre	genre	NOUN	_	ExtPos=INTJ	6	discourse	_	AlignBegin=122385|AlignEnd=122565|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=122565|AlignEnd=122565
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=122565|AlignEnd=122744
 6	mangeait	manger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=122744|AlignEnd=122924
@@ -7341,7 +7341,7 @@
 3	qu'	que	SCONJ	_	_	5	mark	_	AlignBegin=148117|AlignEnd=148230|SpaceAfter=No
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=148230|AlignEnd=148344
 5	sent	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	AlignBegin=148344|AlignEnd=148457
-6	de	de	ADP	_	_	8	det	_	AlignBegin=148457|AlignEnd=148570|ExtPos=DET|Idiom=Yes
+6	de	de	ADP	_	ExtPos=DET	8	det	_	AlignBegin=148457|AlignEnd=148570|Idiom=Yes
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	AlignBegin=148570|AlignEnd=148683|InIdiom=Yes
 8	bouffe	bouffe	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	AlignBegin=148683|AlignEnd=148796|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	AlignBegin=148796|AlignEnd=148796
@@ -7659,7 +7659,7 @@
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	AlignBegin=44579|AlignEnd=44864
 8	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=44864|AlignEnd=45150|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	AlignBegin=45150|AlignEnd=45150
-10	parce	parce	ADV	_	_	14	mark	_	AlignBegin=45150|AlignEnd=45436|ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	AlignBegin=45150|AlignEnd=45436|Idiom=Yes
 11	qu'	que	SCONJ	_	_	10	fixed	_	AlignBegin=45436|AlignEnd=45722|InIdiom=Yes|SpaceAfter=No
 12	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=45722|AlignEnd=46007
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:tense	_	AlignBegin=46007|AlignEnd=46293
@@ -7689,7 +7689,7 @@
 11	très	très	ADV	_	_	12	advmod	_	AlignBegin=49899|AlignEnd=50084
 12	bizarre	bizarre	ADJ	_	_	0	root	_	AlignBegin=50084|AlignEnd=50269|SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	AlignBegin=50269|AlignEnd=50269
-14	parce	parce	ADV	_	_	19	mark	_	AlignBegin=50269|AlignEnd=50453|ExtPos=SCONJ|Idiom=Yes
+14	parce	parce	ADV	_	ExtPos=SCONJ	19	mark	_	AlignBegin=50269|AlignEnd=50453|Idiom=Yes
 15	qu'	que	SCONJ	_	_	14	fixed	_	AlignBegin=50453|AlignEnd=50638|InIdiom=Yes|SpaceAfter=No
 16	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=50638|AlignEnd=50823
 17	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	iobj	_	AlignBegin=50823|AlignEnd=51008|SpaceAfter=No
@@ -8078,7 +8078,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/8beb415208b9c78afa2a9e439886fb6bb2a52e71
 # speaker = 0
 # text = enfin, en tout cas, elle faisait des mélanges, euh, qui étaient vraiment trop drôles.
-1	enfin	enfin	ADV	_	_	8	discourse	_	AlignBegin=109014|AlignEnd=109344|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	8	discourse	_	AlignBegin=109014|AlignEnd=109344|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=109344|AlignEnd=109344
 3	en	en	ADP	_	_	5	case	_	AlignBegin=109344|AlignEnd=109673
 4	tout	tout	ADJ	_	_	5	amod	_	AlignBegin=109673|AlignEnd=110003
@@ -8188,12 +8188,12 @@
 12	entre	entre	ADP	_	_	13	case	_	AlignBegin=4971|AlignEnd=5118
 13	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	11	obl:mod	_	AlignBegin=5118|AlignEnd=5265|SpaceAfter=No
 14	,	,	PUNCT	_	_	21	punct	_	AlignBegin=5265|AlignEnd=5265
-15	parce	parce	ADV	_	_	21	mark	_	AlignBegin=5265|AlignEnd=5412|ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	AlignBegin=5265|AlignEnd=5412|Idiom=Yes
 16	qu'	que	SCONJ	_	_	15	fixed	_	AlignBegin=5412|AlignEnd=5558|InIdiom=Yes|SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	AlignBegin=5558|AlignEnd=5705
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	AlignBegin=5705|AlignEnd=5852
-19	quand	quand	SCONJ	_	_	21	dep	_	AlignBegin=5852|AlignEnd=5998
-20	même	même	ADV	_	_	19	dep	_	AlignBegin=5998|AlignEnd=6145
+19	quand	quand	SCONJ	_	_	21	dep	_	AlignBegin=5852|AlignEnd=5998|ExtPos=ADV|Idiom=Yes
+20	même	même	ADV	_	_	19	dep	_	AlignBegin=5998|AlignEnd=6145|InIdiom=Yes
 21	resté	rester	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	AlignBegin=6145|AlignEnd=6447
 22	trois	trois	NUM	_	_	23	nummod	_	AlignBegin=6447|AlignEnd=6749
 23	ans	an	NOUN	_	Gender=Masc|Number=Plur	21	obl:mod	_	AlignBegin=6749|AlignEnd=7052
@@ -8221,7 +8221,7 @@
 5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	AlignBegin=10331|AlignEnd=10482
 6	ensemble	ensemble	ADV	_	_	3	advmod	_	AlignBegin=10482|AlignEnd=10634|SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	AlignBegin=10634|AlignEnd=10634
-8	parce	parce	ADV	_	_	13	mark	_	AlignBegin=10634|AlignEnd=10785|ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	13	mark	_	AlignBegin=10634|AlignEnd=10785|Idiom=Yes
 9	qu'	que	SCONJ	_	_	8	fixed	_	AlignBegin=10785|AlignEnd=10937|InIdiom=Yes|SpaceAfter=No
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	AlignBegin=10937|AlignEnd=11088
 11	s'	soi	PRON	_	Person=3|PronType=Prs	13	obj	_	AlignBegin=11088|AlignEnd=11240|SpaceAfter=No
@@ -8284,7 +8284,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=18253|AlignEnd=18473
 7	folie	folie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=18473|AlignEnd=18694|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=18694|AlignEnd=18694
-9	parce	parce	ADV	_	_	12	mark	_	AlignBegin=18694|AlignEnd=18914|ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	AlignBegin=18694|AlignEnd=18914|Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	AlignBegin=18914|AlignEnd=19134|InIdiom=Yes
 11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=19712|AlignEnd=20066
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	AlignBegin=20066|AlignEnd=20420
@@ -8327,7 +8327,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/3bdae03fe269a9e98fe9149ab851b8aee7bb17df
 # speaker = L1
 # text = enfin, franchement, pour une première relation, un vrai bonheur.
-1	enfin	enfin	ADV	_	_	12	discourse	_	AlignBegin=28437|AlignEnd=28738|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	AlignBegin=28437|AlignEnd=28738|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=28738|AlignEnd=28738
 3	franchement	franchement	ADV	_	_	12	advmod	_	AlignBegin=29397|AlignEnd=29682|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=29682|AlignEnd=29682
@@ -8367,7 +8367,7 @@
 11	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	AlignBegin=35072|AlignEnd=35306
 12	laisser	laisser	VERB	_	VerbForm=Inf	10	xcomp	_	AlignBegin=35306|AlignEnd=35541|Subject=SubjRaising
 13	à	à	ADP	_	_	14	case	_	AlignBegin=35541|AlignEnd=35541
-14	XXX	XXX	X	_	_	12	obl:arg	_	AlignBegin=35541|AlignEnd=35775|ExtPos=PROPN|SpaceAfter=No
+14	XXX	XXX	X	_	ExtPos=PROPN	12	obl:arg	_	AlignBegin=35541|AlignEnd=35775|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=35775|AlignEnd=35775
 16	finalement	finalement	ADV	_	_	10	advmod	_	AlignBegin=35775|AlignEnd=36010|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	AlignBegin=36010|AlignEnd=36010
@@ -8378,7 +8378,7 @@
 # text = non, parce qu'après, il l'a quitté pour moi.
 1	non	non	ADV	_	_	10	discourse	_	AlignBegin=36010|AlignEnd=36151|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=36151|AlignEnd=36151
-3	parce	parce	ADV	_	_	10	mark	_	AlignBegin=36151|AlignEnd=36291|ExtPos=SCONJ|Idiom=Yes
+3	parce	parce	ADV	_	ExtPos=SCONJ	10	mark	_	AlignBegin=36151|AlignEnd=36291|Idiom=Yes
 4	qu'	que	SCONJ	_	_	3	fixed	_	AlignBegin=36291|AlignEnd=36432|InIdiom=Yes|SpaceAfter=No
 5	après	après	ADV	_	_	10	advmod	_	AlignBegin=36432|AlignEnd=36572|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36572|AlignEnd=36572
@@ -8398,7 +8398,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=36523|AlignEnd=36523
 3	ben	ben	INTJ	_	_	1	discourse	_	AlignBegin=36523|AlignEnd=36727|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36727|AlignEnd=36727
-5	oui	oui	ADV	_	_	0	root	_	AlignBegin=36727|AlignEnd=36932|ExtPos=INTJ|SpaceAfter=No
+5	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	AlignBegin=36727|AlignEnd=36932|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=36932|AlignEnd=36932
 
 # sent_id = ParisStories_2022_11_copineEnCarton__16
@@ -8470,7 +8470,7 @@
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	AlignBegin=45799|AlignEnd=45968
 12	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=45968|AlignEnd=46137|SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	AlignBegin=46137|AlignEnd=46137
-14	parce	parce	ADV	_	_	20	mark	_	AlignBegin=46137|AlignEnd=46394|ExtPos=SCONJ|Idiom=Yes
+14	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=46137|AlignEnd=46394|Idiom=Yes
 15	qu'	que	SCONJ	_	_	14	fixed	_	AlignBegin=46394|AlignEnd=46650|InIdiom=Yes|SpaceAfter=No
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	AlignBegin=46650|AlignEnd=46907
 17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	AlignBegin=46907|AlignEnd=47164
@@ -8515,7 +8515,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/3bdae03fe269a9e98fe9149ab851b8aee7bb17df
 # speaker = L1
 # text = parce que, du coup, j'étais sa chose.
-1	parce	parce	ADV	_	_	11	mark	_	AlignBegin=52911|AlignEnd=53112|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=52911|AlignEnd=53112|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=53112|AlignEnd=53313|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	AlignBegin=53313|AlignEnd=53313
 4-5	du	_	_	_	_	_	_	_	_
@@ -8614,7 +8614,7 @@
 5	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=62803|AlignEnd=62941
 6	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=62941|AlignEnd=63080|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	AlignBegin=63080|AlignEnd=63080
-8	parce	parce	ADV	_	_	11	mark	_	AlignBegin=63080|AlignEnd=63218|ExtPos=SCONJ|Idiom=Yes
+8	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=63080|AlignEnd=63218|Idiom=Yes
 9	que	que	SCONJ	_	_	8	fixed	_	AlignBegin=63218|AlignEnd=63356|InIdiom=Yes
 10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=63356|AlignEnd=63495|SpaceAfter=No
 11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	AlignBegin=63495|AlignEnd=63633
@@ -8789,7 +8789,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/3bdae03fe269a9e98fe9149ab851b8aee7bb17df
 # speaker = L1
 # text = enfin, l'horreur.
-1	enfin	enfin	ADV	_	_	4	discourse	_	AlignBegin=82513|AlignEnd=82735|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=82513|AlignEnd=82735|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=82735|AlignEnd=82735
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	AlignBegin=82735|AlignEnd=82957|SpaceAfter=No
 4	horreur	horreur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AlignBegin=82957|AlignEnd=83179|SpaceAfter=No
@@ -8860,7 +8860,7 @@
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	AlignBegin=90854|AlignEnd=91002
 9	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	AlignBegin=91002|AlignEnd=91149|SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	AlignBegin=91149|AlignEnd=91149
-11	parce	parce	ADV	_	_	15	mark	_	AlignBegin=91149|AlignEnd=91297|ExtPos=SCONJ|Idiom=Yes
+11	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	AlignBegin=91149|AlignEnd=91297|Idiom=Yes
 12	que	que	SCONJ	_	_	11	fixed	_	AlignBegin=91297|AlignEnd=91444|InIdiom=Yes
 13	là	là	ADV	_	_	15	advmod	_	AlignBegin=91444|AlignEnd=91592
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	AlignBegin=91592|AlignEnd=91740
@@ -9016,7 +9016,7 @@
 6	mal	mal	ADV	_	Gender=Masc|Number=Sing	7	advmod	_	AlignBegin=104956|AlignEnd=105055
 7	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=105055|AlignEnd=105154|SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	AlignBegin=105154|AlignEnd=105154
-9	parce	parce	ADV	_	_	14	mark	_	AlignBegin=105154|AlignEnd=105252|ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	AlignBegin=105154|AlignEnd=105252|Idiom=Yes
 10	qu'	que	SCONJ	_	_	9	fixed	_	AlignBegin=105252|AlignEnd=105351|InIdiom=Yes|SpaceAfter=No
 11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=105351|AlignEnd=105449
 12	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	iobj	_	AlignBegin=105449|AlignEnd=105548|SpaceAfter=No
@@ -9054,7 +9054,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/3bdae03fe269a9e98fe9149ab851b8aee7bb17df
 # speaker = L1
 # text = enfin, je vois jamais mes potes sans toi.
-1	enfin	enfin	ADV	_	_	4	discourse	_	AlignBegin=108111|AlignEnd=108255|ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=108111|AlignEnd=108255|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=108255|AlignEnd=108255
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=108255|AlignEnd=108399
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=108399|AlignEnd=108543
@@ -9134,7 +9134,7 @@
 10	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obl:mod	_	AlignBegin=115881|AlignEnd=116027|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	AlignBegin=116027|AlignEnd=116027
 12	mais	mais	CCONJ	_	_	15	cc	_	AlignBegin=116027|AlignEnd=116498
-13	vraiment	vraiment	ADV	_	_	15	discourse	_	AlignBegin=116498|AlignEnd=116968|ExtPos=INTJ|SpaceAfter=No
+13	vraiment	vraiment	ADV	_	ExtPos=INTJ	15	discourse	_	AlignBegin=116498|AlignEnd=116968|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=116968|AlignEnd=116968
 15	vas	aller	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=116968|AlignEnd=117439|SpaceAfter=No|wordform=vas-y
 16	-y	y	PRON	_	Person=3|PronType=Prs	15	obj	_	_
@@ -9224,7 +9224,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/ff57166d99cd01b05e5d1e18f910e1794a93a246
 # speaker = L1
 # text = alors du coup, j'ai réfléchi sur euh, qu'est-ce que je pourrais te raconter.
-1	alors	alors	ADV	_	_	8	discourse	_	AlignBegin=0|AlignEnd=186|ExtPos=INTJ
+1	alors	alors	ADV	_	ExtPos=INTJ	8	discourse	_	AlignBegin=0|AlignEnd=186
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	AlignBegin=186|AlignEnd=373|wordform=du
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -9354,7 +9354,7 @@
 2	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl:comp	_	AlignBegin=15920|AlignEnd=16084|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	AlignBegin=16084|AlignEnd=16248
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16248|AlignEnd=16412
-5	parce	parce	ADV	_	_	8	mark	_	AlignBegin=16412|AlignEnd=16576|ExtPos=SCONJ|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	AlignBegin=16412|AlignEnd=16576|Idiom=Yes
 6	que	que	SCONJ	_	_	5	fixed	_	AlignBegin=16576|AlignEnd=16739|InIdiom=Yes
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=16739|AlignEnd=16903
 8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	AlignBegin=16903|AlignEnd=17067
@@ -9369,7 +9369,7 @@
 17	petit	petit	ADJ	_	_	18	amod	_	AlignBegin=18650|AlignEnd=18868
 18	frère	frère	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	AlignBegin=18868|AlignEnd=19086|SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	AlignBegin=19086|AlignEnd=19086
-20	parce	parce	ADV	_	_	23	mark	_	AlignBegin=20456|AlignEnd=20720|ExtPos=SCONJ|Idiom=Yes
+20	parce	parce	ADV	_	ExtPos=SCONJ	23	mark	_	AlignBegin=20456|AlignEnd=20720|Idiom=Yes
 21	que	que	SCONJ	_	_	20	fixed	_	AlignBegin=20720|AlignEnd=20984|InIdiom=Yes
 22	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	AlignBegin=20984|AlignEnd=21248
 23	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	conj	_	AlignBegin=21248|AlignEnd=21512
@@ -9571,8 +9571,8 @@
 12	début	début	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	AlignBegin=49164|AlignEnd=49337
 13	de	de	ADP	_	_	14	case	_	AlignBegin=49337|AlignEnd=49509
 14	relation	relation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	AlignBegin=49509|AlignEnd=49682
-15	quand	quand	SCONJ	_	_	12	dep	_	AlignBegin=49682|AlignEnd=49855
-16	même	même	ADV	_	_	15	dep	_	AlignBegin=49855|AlignEnd=50028|SpaceAfter=No
+15	quand	quand	SCONJ	_	_	12	dep	_	AlignBegin=49682|AlignEnd=49855|ExtPos=ADV|Idiom=Yes
+16	même	même	ADV	_	_	15	dep	_	AlignBegin=49855|AlignEnd=50028|InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=50028|AlignEnd=50028
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__18
@@ -9650,7 +9650,7 @@
 1	pourtant	pourtant	ADV	_	_	3	advmod	_	AlignBegin=59496|AlignEnd=59624
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=59624|AlignEnd=59752|SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=59752|AlignEnd=59880
-4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	dep	_	AlignBegin=59880|AlignEnd=60009|ExtPos=ADP|Idiom=Yes
+4	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	dep	_	AlignBegin=59880|AlignEnd=60009|Idiom=Yes
 5	y	y	PRON	_	Person=3|PronType=Prs	4	fixed	_	AlignBegin=60009|AlignEnd=60137|InIdiom=Yes
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	fixed	_	AlignBegin=60137|AlignEnd=60265|InIdiom=Yes
 7	longtemps	longtemps	ADV	_	_	4	advmod	_	AlignBegin=60265|AlignEnd=60393|SpaceAfter=No
@@ -9742,8 +9742,8 @@
 8	avoir	avoir	VERB	_	VerbForm=Inf	7	xcomp	_	AlignBegin=71804|AlignEnd=72036|Subject=SubjRaising
 9	dix-huit	dix-huit	NUM	_	Number=Plur	10	nummod	_	AlignBegin=72036|AlignEnd=72268
 10	ans	an	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	AlignBegin=72268|AlignEnd=72499
-11	quand	quand	SCONJ	_	_	8	dep	_	AlignBegin=72499|AlignEnd=72731
-12	même	même	ADV	_	_	11	dep	_	AlignBegin=72731|AlignEnd=72963|SpaceAfter=No
+11	quand	quand	SCONJ	_	_	8	dep	_	AlignBegin=72499|AlignEnd=72731|ExtPos=ADV|Idiom=Yes
+12	même	même	ADV	_	_	11	dep	_	AlignBegin=72731|AlignEnd=72963|InIdiom=Yes|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	AlignBegin=72963|AlignEnd=72963
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__28
@@ -9903,10 +9903,10 @@
 15	assez	assez	ADV	_	_	16	advmod	_	AlignBegin=97204|AlignEnd=97372
 16	similaire	similaire	ADJ	_	_	12	acl:relcl	_	AlignBegin=97372|AlignEnd=97540|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=97540|AlignEnd=97540
-18	parce	parce	ADV	_	_	31	mark	_	AlignBegin=97540|AlignEnd=97666|ExtPos=SCONJ|Idiom=Yes
+18	parce	parce	ADV	_	ExtPos=SCONJ	31	mark	_	AlignBegin=97540|AlignEnd=97666|Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	AlignBegin=97666|AlignEnd=97792|InIdiom=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=97792|AlignEnd=97792
-21	parce	parce	ADV	_	_	10	dep	_	AlignBegin=97792|AlignEnd=97918|ExtPos=SCONJ|Idiom=Yes
+21	parce	parce	ADV	_	ExtPos=SCONJ	10	dep	_	AlignBegin=97792|AlignEnd=97918|Idiom=Yes
 22	que	que	SCONJ	_	_	21	fixed	_	AlignBegin=97918|AlignEnd=98044|InIdiom=Yes
 23	bon	bon	INTJ	_	_	31	discourse	_	AlignBegin=98044|AlignEnd=98170|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=98170|AlignEnd=98170
@@ -9914,8 +9914,8 @@
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=98297|AlignEnd=98297
 27	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	31	nsubj	_	AlignBegin=98297|AlignEnd=98423
 28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:tense	_	AlignBegin=98423|AlignEnd=98549
-29	quand	quand	SCONJ	_	_	31	dep	_	AlignBegin=98549|AlignEnd=98675
-30	même	même	ADV	_	_	29	dep	_	AlignBegin=98675|AlignEnd=98801
+29	quand	quand	SCONJ	_	_	31	dep	_	AlignBegin=98549|AlignEnd=98675|ExtPos=ADV|Idiom=Yes
+30	même	même	ADV	_	_	29	dep	_	AlignBegin=98675|AlignEnd=98801|InIdiom=Yes
 31	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	reparandum	_	AlignBegin=98801|AlignEnd=98927
 32	ensemble	ensemble	ADV	_	_	31	advmod	_	AlignBegin=98927|AlignEnd=99053|SpaceAfter=No
 33	,	,	PUNCT	_	_	38	punct	_	AlignBegin=99053|AlignEnd=99053
@@ -10325,7 +10325,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/3d9c8d376f35deb38bd1913c9d6c13f1ba6adaa4
 # speaker = 0
 # text = oui, bah, en fait, je voulais te raconter ma rencontre avec, euh, un enfant du centre, parce que maintenant ça va faire, euh, deux semaines que je travaille au centre, bah, le mercredi.
-1	oui	oui	ADV	_	_	9	discourse	_	AlignBegin=0|AlignEnd=373|ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	9	discourse	_	AlignBegin=0|AlignEnd=373|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=373|AlignEnd=373
 3	bah	bah	INTJ	_	_	9	discourse	_	AlignBegin=373|AlignEnd=746|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=746|AlignEnd=746
@@ -10349,7 +10349,7 @@
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	centre	centre	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	AlignBegin=6000|AlignEnd=6454|SpaceAfter=No
 23	,	,	PUNCT	_	_	28	punct	_	AlignBegin=6454|AlignEnd=6454
-24	parce	parce	ADV	_	_	28	mark	_	AlignBegin=6454|AlignEnd=6711|ExtPos=SCONJ|Idiom=Yes
+24	parce	parce	ADV	_	ExtPos=SCONJ	28	mark	_	AlignBegin=6454|AlignEnd=6711|Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	AlignBegin=6711|AlignEnd=6968|InIdiom=Yes
 26	maintenant	maintenant	ADV	_	_	28	advmod	_	AlignBegin=6968|AlignEnd=7225
 27	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	AlignBegin=7225|AlignEnd=7482
@@ -10551,7 +10551,7 @@
 6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=45243|AlignEnd=45480
 7	bras	bras	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	AlignBegin=45480|AlignEnd=45718|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=45718|AlignEnd=45718
-9	parce	parce	ADV	_	_	12	mark	_	AlignBegin=45718|AlignEnd=45923|ExtPos=SCONJ|Idiom=Yes
+9	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	AlignBegin=45718|AlignEnd=45923|Idiom=Yes
 10	qu'	que	SCONJ	_	_	9	fixed	_	AlignBegin=45923|AlignEnd=46129|InIdiom=Yes|SpaceAfter=No
 11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=46129|AlignEnd=46334
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	AlignBegin=46334|AlignEnd=46539
@@ -10676,7 +10676,7 @@
 7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	AlignBegin=71641|AlignEnd=71945
 8	ensemble	ensemble	ADV	_	_	4	advmod	_	AlignBegin=71945|AlignEnd=72250|SpaceAfter=No
 9	,	,	PUNCT	_	_	16	punct	_	AlignBegin=72250|AlignEnd=72250
-10	parce	parce	ADV	_	_	16	mark	_	AlignBegin=72250|AlignEnd=72520|ExtPos=SCONJ|Idiom=Yes
+10	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=72250|AlignEnd=72520|Idiom=Yes
 11	qu'	que	SCONJ	_	_	10	fixed	_	AlignBegin=72520|AlignEnd=72790|InIdiom=Yes|SpaceAfter=No
 12	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=72790|AlignEnd=73060
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	AlignBegin=73060|AlignEnd=73330
@@ -10706,7 +10706,7 @@
 9	que	que	SCONJ	_	_	20	mark	_	AlignBegin=76810|AlignEnd=77018
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	expl:subj	_	AlignBegin=77018|AlignEnd=77226|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	AlignBegin=77226|AlignEnd=77434
-12	parce	parce	ADV	_	_	20	mark	_	AlignBegin=77434|AlignEnd=77643|ExtPos=SCONJ|Idiom=Yes
+12	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=77434|AlignEnd=77643|Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	AlignBegin=77643|AlignEnd=77851|InIdiom=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	20	punct	_	AlignBegin=77851|AlignEnd=77851
 15	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=77851|AlignEnd=78059
@@ -11258,7 +11258,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/c5ca4edfdaf0d41d812213d83ce93c45be4e975e
 # speaker = 0
 # text = parce que du coup Marine, en fait, elle est, elle est originaire de Monaco, hein ?
-1	parce	parce	ADV	_	_	16	mark	_	AlignBegin=66336|AlignEnd=66545|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=66336|AlignEnd=66545|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=66545|AlignEnd=66753|InIdiom=Yes
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	AlignBegin=66753|AlignEnd=66962|wordform=du
@@ -11468,7 +11468,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/c5ca4edfdaf0d41d812213d83ce93c45be4e975e
 # speaker = 0
 # text = enfin je t'entends parler depuis tout à l'heure, est-ce que je peux me joindre à toi ?
-1	enfin	enfin	ADV	_	_	4	discourse	_	AlignBegin=99756|AlignEnd=99920|ExtPos=INTJ
+1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=99756|AlignEnd=99920
 2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=99920|AlignEnd=100085
 3	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	obj	_	AlignBegin=100085|AlignEnd=100249|SpaceAfter=No
 4	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=100249|AlignEnd=100414
@@ -11552,14 +11552,14 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/c5ca4edfdaf0d41d812213d83ce93c45be4e975e
 # speaker = 0
 # text = parce qu'en fait, on a fait que parler de plein de choses euh, bah, de, de nos écoles, dans lesquelles on était avant, euh, Liège euh, l'orthophonie.
-1	parce	parce	ADV	_	_	10	mark	_	AlignBegin=112342|AlignEnd=112503|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	10	mark	_	AlignBegin=112342|AlignEnd=112503|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	AlignBegin=112503|AlignEnd=112664|InIdiom=Yes|SpaceAfter=No
 3	en	en	ADP	_	_	4	case	_	AlignBegin=112664|AlignEnd=112825
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	AlignBegin=112825|AlignEnd=112986|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=112986|AlignEnd=112986
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	AlignBegin=112986|AlignEnd=113147
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	AlignBegin=113147|AlignEnd=113308
-8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:caus	_	AlignBegin=113308|AlignEnd=113469
+8	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:caus	_	AlignBegin=113308|AlignEnd=113469
 9	que	que	ADV	_	_	10	advmod	_	AlignBegin=113469|AlignEnd=113629
 10	parler	parler	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=113629|AlignEnd=113790|Subject=ObjRaising
 11	de	de	ADP	_	_	12	case	_	AlignBegin=113790|AlignEnd=113951
@@ -11640,7 +11640,7 @@
 24	comment	comment	ADV	_	_	25	advmod	_	AlignBegin=5365|AlignEnd=5687|Reported=Yes|Scrap=Yes
 25	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	32	nsubj	_	AlignBegin=5687|AlignEnd=6008
 26	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	25	obj	_	AlignBegin=6008|AlignEnd=6330|Scrap=Yes
-27	enfin	enfin	ADV	_	_	25	discourse	_	AlignBegin=6330|AlignEnd=6651|ExtPos=INTJ|SpaceAfter=No
+27	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	AlignBegin=6330|AlignEnd=6651|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=6651|AlignEnd=6651
 29	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=6651|AlignEnd=6848|SpaceAfter=No
 30	,	,	PUNCT	_	_	25	punct	_	AlignBegin=6848|AlignEnd=6848
@@ -11678,9 +11678,9 @@
 # text = je fais oui, oui, j'ai l'impression de t'avoir déjà vue !
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=11315|AlignEnd=11458
 2	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11458|AlignEnd=11601
-3	oui	oui	ADV	_	_	8	discourse	_	AlignBegin=11601|AlignEnd=11743|ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	8	discourse	_	AlignBegin=11601|AlignEnd=11743|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11743|AlignEnd=11743
-5	oui	oui	ADV	_	_	3	conj	_	AlignBegin=11743|AlignEnd=11886|ExtPos=INTJ|SpaceAfter=No
+5	oui	oui	ADV	_	ExtPos=INTJ	3	conj	_	AlignBegin=11743|AlignEnd=11886|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=11886|AlignEnd=11886
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=11886|AlignEnd=12024|SpaceAfter=No
 8	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	AlignBegin=12024|AlignEnd=12162|Reported=Yes
@@ -11889,7 +11889,7 @@
 # text = euh, oui, elle habite à Athis.
 1	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=36855|AlignEnd=37040|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=37040|AlignEnd=37040
-3	oui	oui	ADV	_	_	6	discourse	_	AlignBegin=38492|AlignEnd=38660|ExtPos=INTJ|SpaceAfter=No
+3	oui	oui	ADV	_	ExtPos=INTJ	6	discourse	_	AlignBegin=38492|AlignEnd=38660|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=38660|AlignEnd=38660
 5	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=38660|AlignEnd=38827
 6	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=38827|AlignEnd=38995
@@ -12085,7 +12085,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/6c07bd11b2c9d625da3b4a7187378503ebf44de4
 # speaker = L1
 # text = oui, voilà, au conservatoire d'Athis, exactement !
-1	oui	oui	ADV	_	_	7	discourse	_	AlignBegin=61688|AlignEnd=61958|ExtPos=INTJ|SpaceAfter=No
+1	oui	oui	ADV	_	ExtPos=INTJ	7	discourse	_	AlignBegin=61688|AlignEnd=61958|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=61958|AlignEnd=61958
 3	voilà	voilà	VERB	_	_	7	discourse	_	AlignBegin=61958|AlignEnd=62227|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=62227|AlignEnd=62227
@@ -12198,7 +12198,7 @@
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux:tense	_	AlignBegin=75830|AlignEnd=76058
 17	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	AlignBegin=76058|AlignEnd=76286|SpaceAfter=No
 18	,	,	PUNCT	_	_	33	punct	_	AlignBegin=76286|AlignEnd=76286
-19	parce	parce	ADV	_	_	33	mark	_	AlignBegin=76286|AlignEnd=76517|ExtPos=SCONJ|Idiom=Yes
+19	parce	parce	ADV	_	ExtPos=SCONJ	33	mark	_	AlignBegin=76286|AlignEnd=76517|Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	AlignBegin=76517|AlignEnd=76747|InIdiom=Yes
 21	après	après	ADV	_	_	25	advmod	_	AlignBegin=76747|AlignEnd=76978|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=76978|AlignEnd=76978
@@ -12250,7 +12250,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/6c07bd11b2c9d625da3b4a7187378503ebf44de4
 # speaker = L1
 # text = parce que ce qui était bien, c'est que, bon, ça dépendait des activités, hein, mais quand, en fait, euh, on faisait, euh, c'était quoi, le conservatoire, on avait la chance, comme à l'école, d'avoir des photos d'années.
-1	parce	parce	ADV	_	_	43	mark	_	AlignBegin=85324|AlignEnd=85616|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	43	mark	_	AlignBegin=85324|AlignEnd=85616|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=85616|AlignEnd=85908|InIdiom=Yes
 3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	43	dislocated	_	AlignBegin=85908|AlignEnd=86081
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	AlignBegin=86081|AlignEnd=86254
@@ -12420,7 +12420,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=113931|AlignEnd=113931
 24	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=113931|AlignEnd=114187|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=114187|AlignEnd=114187
-26	enfin	enfin	ADV	_	_	22	discourse	_	AlignBegin=114683|AlignEnd=114929|ExtPos=INTJ|SpaceAfter=No
+26	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	AlignBegin=114683|AlignEnd=114929|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=114929|AlignEnd=114929
 28	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=114929|AlignEnd=115175
 29	…	…	PUNCT	_	_	10	punct	_	AlignBegin=115175|AlignEnd=115175
@@ -12592,7 +12592,7 @@
 12	et	et	CCONJ	_	_	14	cc	_	AlignBegin=137113|AlignEnd=137330
 13	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=137330|AlignEnd=137547
 14	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	AlignBegin=137547|AlignEnd=137764
-15	de	de	ADP	_	_	17	det	_	AlignBegin=137764|AlignEnd=137981|ExtPos=DET|Idiom=Yes
+15	de	de	ADP	_	ExtPos=DET	17	det	_	AlignBegin=137764|AlignEnd=137981|Idiom=Yes
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	fixed	_	AlignBegin=137981|AlignEnd=138198|InIdiom=Yes|SpaceAfter=No
 17	alto	alto	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	AlignBegin=138198|AlignEnd=138415|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	AlignBegin=138415|AlignEnd=138415
@@ -12656,7 +12656,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L2
 # text = il y a combien de temps ?
-1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	case	_	AlignBegin=8275|AlignEnd=8499|ExtPos=ADP|Idiom=Yes
+1	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	case	_	AlignBegin=8275|AlignEnd=8499|Idiom=Yes
 2	y	y	PRON	_	Person=3|PronType=Prs	1	fixed	_	AlignBegin=8499|AlignEnd=8724|InIdiom=Yes
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	AlignBegin=8724|AlignEnd=8948|InIdiom=Yes
 4	combien	combien	ADV	_	_	0	root	_	AlignBegin=8948|AlignEnd=9172
@@ -12852,7 +12852,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = parce que ça m'intéresse pas !
-1	parce	parce	ADV	_	_	5	mark	_	AlignBegin=31058|AlignEnd=31256|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	AlignBegin=31058|AlignEnd=31256|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=31256|AlignEnd=31454|InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=31454|AlignEnd=31652
 4	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	_	AlignBegin=31652|AlignEnd=31850|SpaceAfter=No
@@ -12919,7 +12919,7 @@
 9	moins	moins	ADV	_	_	3	advmod	_	AlignBegin=37548|AlignEnd=38230
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	reparandum	_	AlignBegin=38230|AlignEnd=38912|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=38912|AlignEnd=38912
-12	enfin	enfin	ADV	_	_	10	discourse	_	AlignBegin=38912|AlignEnd=39177|ExtPos=INTJ|SpaceAfter=No
+12	enfin	enfin	ADV	_	ExtPos=INTJ	10	discourse	_	AlignBegin=38912|AlignEnd=39177|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=39177|AlignEnd=39177
 14	mieux	mieux	ADV	_	_	17	advmod	_	AlignBegin=39177|AlignEnd=39443
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=39443|AlignEnd=39708
@@ -13025,7 +13025,7 @@
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	AlignBegin=50321|AlignEnd=50512
 12	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=50512|AlignEnd=50703|SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	AlignBegin=50703|AlignEnd=50703
-14	enfin	enfin	ADV	_	_	19	reparandum	_	AlignBegin=50703|AlignEnd=51040|ExtPos=INTJ|SpaceAfter=No
+14	enfin	enfin	ADV	_	ExtPos=INTJ	19	reparandum	_	AlignBegin=50703|AlignEnd=51040|SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	AlignBegin=51040|AlignEnd=51040
 16	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	dislocated	_	AlignBegin=51040|AlignEnd=51376|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=51376|AlignEnd=51376
@@ -13041,7 +13041,7 @@
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=54697|AlignEnd=54697
 28	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=54697|AlignEnd=55242|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=55242|AlignEnd=55242
-30	genre	genre	NOUN	_	_	23	discourse	_	AlignBegin=55242|AlignEnd=55564|ExtPos=INTJ|SpaceAfter=No
+30	genre	genre	NOUN	_	ExtPos=INTJ	23	discourse	_	AlignBegin=55242|AlignEnd=55564|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=55564|AlignEnd=55564
 32	détourner	détourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	ccomp	_	AlignBegin=55564|AlignEnd=55887
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	AlignBegin=55887|AlignEnd=56209|SpaceAfter=No
@@ -13131,7 +13131,7 @@
 15	qu'	que	SCONJ	_	_	14	dep	_	AlignBegin=65349|AlignEnd=65638|SpaceAfter=No
 16	à	à	ADP	_	_	17	mark	_	AlignBegin=65638|AlignEnd=65638
 17	inviter	inviter	VERB	_	VerbForm=Inf	14	xcomp	_	AlignBegin=65638|AlignEnd=65927|Subject=SubjRaising
-18	XXX	XXX	X	_	_	17	obj	_	AlignBegin=65927|AlignEnd=66216|ExtPos=PROPN
+18	XXX	XXX	X	_	ExtPos=PROPN	17	obj	_	AlignBegin=65927|AlignEnd=66216
 19	à	à	ADP	_	_	20	mark	_	AlignBegin=66216|AlignEnd=66216
 20	manger	manger	VERB	_	VerbForm=Inf	17	xcomp	_	AlignBegin=66216|AlignEnd=66505|Subject=ObjRaising
 21	!	!	PUNCT	_	_	5	punct	_	AlignBegin=66505|AlignEnd=66505
@@ -13373,7 +13373,7 @@
 8	potes	pote	NOUN	_	Number=Plur	5	obj	_	AlignBegin=93916|AlignEnd=94125
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	AlignBegin=94125|AlignEnd=94573
 10	surgissent	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	AlignBegin=94573|AlignEnd=95021
-11	genre	genre	NOUN	_	_	10	discourse	_	AlignBegin=95021|AlignEnd=95469|ExtPos=INTJ
+11	genre	genre	NOUN	_	ExtPos=INTJ	10	discourse	_	AlignBegin=95021|AlignEnd=95469
 12	ah	ah	INTJ	_	_	15	discourse	_	AlignBegin=95469|AlignEnd=95917|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=95917|AlignEnd=95917
 14	bon	bon	ADJ	_	_	15	amod	_	AlignBegin=95917|AlignEnd=96365
@@ -13392,7 +13392,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = machin.
-1	machin	machin	NOUN	_	_	0	root	_	AlignBegin=96813|AlignEnd=97592|ExtPos=INTJ|SpaceAfter=No
+1	machin	machin	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=96813|AlignEnd=97592|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=97592|AlignEnd=97592
 
 # sent_id = ParisStories_2022_6_tetedeNeuneu__58
@@ -13422,7 +13422,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = genre, avec une grosse tête de neuneu.
-1	genre	genre	NOUN	_	_	6	discourse	_	AlignBegin=101772|AlignEnd=102070|ExtPos=INTJ|SpaceAfter=No
+1	genre	genre	NOUN	_	ExtPos=INTJ	6	discourse	_	AlignBegin=101772|AlignEnd=102070|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=102070|AlignEnd=102070
 3	avec	avec	ADP	_	_	6	case	_	AlignBegin=102070|AlignEnd=102367
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=102367|AlignEnd=102665
@@ -13523,7 +13523,7 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/1e3c003fb1cc9a7787c17100ba141af556e72824
 # speaker = L1
 # text = parce que je savais ce qu'il faisait.
-1	parce	parce	ADV	_	_	4	mark	_	AlignBegin=116154|AlignEnd=116338|ExtPos=SCONJ|Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	AlignBegin=116154|AlignEnd=116338|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=116338|AlignEnd=116523|InIdiom=Yes
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=116523|AlignEnd=116707
 4	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=116707|AlignEnd=116892

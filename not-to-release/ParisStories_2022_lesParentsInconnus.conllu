@@ -7,7 +7,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=364|AlignEnd=364
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=364|AlignEnd=727|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=727|AlignEnd=727
-5	oui	oui	ADV	_	_	0	root	_	AlignBegin=727|AlignEnd=1091|ExtPos=INTJ|SpaceAfter=No
+5	oui	oui	ADV	_	ExtPos=INTJ	0	root	_	AlignBegin=727|AlignEnd=1091|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=1091|AlignEnd=1091
 7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=1091|AlignEnd=1454|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	AlignBegin=1454|AlignEnd=1454
@@ -169,7 +169,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=37121|AlignEnd=37121
 6	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=37121|AlignEnd=37384|SpaceAfter=No
 7	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=37384|AlignEnd=37648
-8	de	de	ADP	_	_	10	det	_	AlignBegin=37648|AlignEnd=37911|ExtPos=DET|Idiom=Yes
+8	de	de	ADP	_	ExtPos=DET	10	det	_	AlignBegin=37648|AlignEnd=37911|Idiom=Yes
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	AlignBegin=37911|AlignEnd=38174|InIdiom=Yes
 10	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	AlignBegin=38174|AlignEnd=38438
 11	que	que	SCONJ	_	_	15	mark	_	AlignBegin=38438|AlignEnd=38701
@@ -187,8 +187,8 @@
 2	,	,	PUNCT	_	_	10	punct	_	AlignBegin=40018|AlignEnd=40018
 3	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=40018|AlignEnd=40281|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=40281|AlignEnd=40281
-5	quand	quand	SCONJ	_	_	10	dep	_	AlignBegin=40281|AlignEnd=40619
-6	même	même	ADV	_	_	5	dep	_	AlignBegin=40619|AlignEnd=40957|SpaceAfter=No
+5	quand	quand	SCONJ	_	_	10	dep	_	AlignBegin=40281|AlignEnd=40619|ExtPos=ADV|Idiom=Yes
+6	même	même	ADV	_	_	5	dep	_	AlignBegin=40619|AlignEnd=40957|InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	AlignBegin=40957|AlignEnd=40957
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=40957|AlignEnd=41295|SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	AlignBegin=41295|AlignEnd=41633
@@ -201,7 +201,7 @@
 16	peu	peu	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	AlignBegin=43144|AlignEnd=43423
 17	inconnu	inconnu	ADJ	_	_	10	nmod	_	AlignBegin=43423|AlignEnd=43701|SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	AlignBegin=43701|AlignEnd=43701
-19	parce	parce	ADV	_	_	23	mark	_	AlignBegin=43701|AlignEnd=43980|ExtPos=SCONJ|Idiom=Yes
+19	parce	parce	ADV	_	ExtPos=SCONJ	23	mark	_	AlignBegin=43701|AlignEnd=43980|Idiom=Yes
 20	qu'	que	SCONJ	_	_	19	fixed	_	AlignBegin=43980|AlignEnd=44258|InIdiom=Yes|SpaceAfter=No
 21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	nsubj	_	AlignBegin=44258|AlignEnd=44536
 22	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	AlignBegin=44536|AlignEnd=44815
@@ -317,7 +317,7 @@
 8	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	AlignBegin=65821|AlignEnd=66115
 9	avec	avec	ADP	_	_	10	case	_	AlignBegin=66115|AlignEnd=66410
 10	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	AlignBegin=66410|AlignEnd=66704
-11	à	à	ADP	_	_	6	advmod	_	AlignBegin=66704|AlignEnd=66704|ExtPos=ADV|Idiom=Yes
+11	à	à	ADP	_	ExtPos=ADV	6	advmod	_	AlignBegin=66704|AlignEnd=66704|Idiom=Yes
 12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	AlignBegin=66704|AlignEnd=67092|InIdiom=Yes
 13	de	de	ADP	_	_	18	reparandum	_	AlignBegin=67092|AlignEnd=67480|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	AlignBegin=67480|AlignEnd=67480
@@ -376,7 +376,7 @@
 8	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=81429|AlignEnd=81755
 9	pas	pas	ADV	_	_	8	advmod	_	AlignBegin=81755|AlignEnd=82081|SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	AlignBegin=82081|AlignEnd=82081
-11	parce	parce	ADV	_	_	16	mark	_	AlignBegin=82081|AlignEnd=82406|ExtPos=SCONJ|Idiom=Yes
+11	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=82081|AlignEnd=82406|Idiom=Yes
 12	que	que	SCONJ	_	_	11	fixed	_	AlignBegin=82406|AlignEnd=82732|InIdiom=Yes
 13	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=82732|AlignEnd=83058
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	AlignBegin=83058|AlignEnd=83383
@@ -508,7 +508,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	AlignBegin=114525|AlignEnd=114863
 4	triste	triste	ADJ	_	Number=Sing	0	root	_	AlignBegin=114863|AlignEnd=115202|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	AlignBegin=115202|AlignEnd=115202
-6	parce	parce	ADV	_	_	9	mark	_	AlignBegin=115202|AlignEnd=115609|ExtPos=SCONJ|Idiom=Yes
+6	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	AlignBegin=115202|AlignEnd=115609|Idiom=Yes
 7	qu'	que	SCONJ	_	_	6	fixed	_	AlignBegin=115609|AlignEnd=116017|InIdiom=Yes|SpaceAfter=No
 8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=116017|AlignEnd=116424
 9	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	AlignBegin=116424|AlignEnd=116831
@@ -646,7 +646,7 @@
 14	inconnu	inconnu	NOUN	_	Gender=Masc|Number=Sing	23	reparandum	_	AlignBegin=146231|AlignEnd=146579
 15	aussi	aussi	ADV	_	_	14	advmod	_	AlignBegin=146579|AlignEnd=146927|SpaceAfter=No
 16	,	,	PUNCT	_	_	23	punct	_	AlignBegin=146927|AlignEnd=146927
-17	parce	parce	ADV	_	_	23	mark	_	AlignBegin=146927|AlignEnd=147275|ExtPos=SCONJ|Idiom=Yes
+17	parce	parce	ADV	_	ExtPos=SCONJ	23	mark	_	AlignBegin=146927|AlignEnd=147275|Idiom=Yes
 18	que	que	SCONJ	_	_	17	fixed	_	AlignBegin=147275|AlignEnd=147623|InIdiom=Yes
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	nsubj	_	AlignBegin=147623|AlignEnd=147701
 20	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	23	obj	_	AlignBegin=147701|AlignEnd=147778|SpaceAfter=No

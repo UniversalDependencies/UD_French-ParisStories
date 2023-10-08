@@ -93,7 +93,7 @@
 1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
-4	se	soi	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+4	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 5	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	fixed	_	InIdiom=Yes
 6	bien	bien	ADV	_	_	4	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
@@ -181,7 +181,7 @@
 16	euh	euh	INTJ	_	_	13	discourse	_	_
 17	:	:	PUNCT	_	_	13	punct	_	_
 18	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	_
-19	se	soi	PRON	_	Person=3|PronType=Prs	13	ccomp	_	ExtPos=VERB|Idiom=Yes
+19	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	13	ccomp	_	Idiom=Yes
 20	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	InIdiom=Yes|Reported=Yes
 21	bien	bien	ADV	_	_	19	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	13	punct	_	_
@@ -193,7 +193,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	bizarre	bizarre	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	parce	parce	ADV	_	_	9	mark	_	ExtPos=SCONJ|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 6	que	que	SCONJ	_	_	5	fixed	_	InIdiom=Yes
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -221,7 +221,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	pas	pas	ADV	_	_	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	4	advmod	_	ExtPos=ADV|Idiom=Yes
+5	de	de	ADP	_	ExtPos=ADV	4	advmod	_	Idiom=Yes
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	InIdiom=Yes
 7	tout	tout	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -332,7 +332,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-7	se	soi	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+7	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	InIdiom=Yes
 9	:	:	PUNCT	_	_	15	punct	_	_
 10	bon	bon	INTJ	_	_	15	discourse	_	_
@@ -400,7 +400,7 @@
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
-8	se	soi	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+8	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 9	dirige	diriger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	InIdiom=Yes
 10	tranquillement	tranquillement	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
@@ -447,11 +447,11 @@
 8	heure	heure	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
-11	se	soi	PRON	_	Person=3|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+11	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs	0	root	_	Idiom=Yes
 12	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	InIdiom=Yes
 13	:	:	PUNCT	_	_	14	punct	_	_
 14	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	Reported=Yes
-15	quand	quand	SCONJ	_	_	14	advmod	_	ExtPos=ADV|Idiom=Yes
+15	quand	quand	SCONJ	_	ExtPos=ADV	14	advmod	_	Idiom=Yes
 16	même	même	ADV	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
@@ -571,7 +571,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	Anglais	Anglais	PROPN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	voilà	voilà	VERB	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
+16	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_38
@@ -681,7 +681,7 @@
 # sent_id = ParisStories_2020_galereNice_46
 # text = enfin, donc, là, on prend notre mal en patience.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
-1	enfin	enfin	ADV	_	_	8	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	donc	donc	ADV	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_

@@ -147,7 +147,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=34225|AlignEnd=34579
 11	rêve	rêve	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=34579|AlignEnd=34933|SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	AlignBegin=34933|AlignEnd=34933
-13	parce	parce	ADV	_	_	16	mark	_	AlignBegin=35402|AlignEnd=35682|ExtPos=SCONJ|Idiom=Yes
+13	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=35402|AlignEnd=35682|Idiom=Yes
 14	que	que	SCONJ	_	_	13	fixed	_	AlignBegin=35682|AlignEnd=35961|InIdiom=Yes
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=35961|AlignEnd=36241
 16	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	AlignBegin=36241|AlignEnd=36520
@@ -286,7 +286,7 @@
 5	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=68783|AlignEnd=68942
 6	à	à	ADP	_	_	7	case	_	AlignBegin=68942|AlignEnd=68942
 7	Tignes	Tignes	PROPN	_	_	5	obl:arg	_	AlignBegin=68942|AlignEnd=69102
-8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	case	_	AlignBegin=69102|AlignEnd=69261|ExtPos=ADP|Idiom=Yes
+8	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	case	_	AlignBegin=69102|AlignEnd=69261|Idiom=Yes
 9	y	y	PRON	_	Person=3|PronType=Prs	8	fixed	_	AlignBegin=69261|AlignEnd=69420|InIdiom=Yes
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	AlignBegin=69420|AlignEnd=69579|InIdiom=Yes
 11	deux	deux	NUM	_	_	12	nummod	_	AlignBegin=69579|AlignEnd=69739
@@ -370,7 +370,7 @@
 42	moraines	moraine	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	AlignBegin=85882|AlignEnd=86233
 43	euh	euh	INTJ	_	_	50	discourse	_	AlignBegin=86233|AlignEnd=86584|SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	AlignBegin=86584|AlignEnd=86584
-45	effectivement	effectivement	ADV	_	_	50	discourse	_	AlignBegin=86584|AlignEnd=86934|ExtPos=INTJ
+45	effectivement	effectivement	ADV	_	ExtPos=INTJ	50	discourse	_	AlignBegin=86584|AlignEnd=86934
 46	euh	euh	INTJ	_	_	45	discourse	_	AlignBegin=86934|AlignEnd=87285|SpaceAfter=No
 47	,	,	PUNCT	_	_	45	punct	_	AlignBegin=87285|AlignEnd=87285
 48	juste	juste	ADV	_	_	50	advmod	_	AlignBegin=87285|AlignEnd=87636
@@ -646,7 +646,7 @@
 70	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	cop	_	AlignBegin=139974|AlignEnd=140395
 71	génial	génial	ADJ	_	_	7	ccomp	_	AlignBegin=140395|AlignEnd=140815|SpaceAfter=No
 72	,	,	PUNCT	_	_	76	punct	_	AlignBegin=140815|AlignEnd=140815
-73	parce	parce	ADV	_	_	76	mark	_	AlignBegin=141008|AlignEnd=141284|ExtPos=SCONJ|Idiom=Yes
+73	parce	parce	ADV	_	ExtPos=SCONJ	76	mark	_	AlignBegin=141008|AlignEnd=141284|Idiom=Yes
 74	que	que	SCONJ	_	_	73	fixed	_	AlignBegin=141284|AlignEnd=141560|InIdiom=Yes
 75	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	76	nsubj	_	AlignBegin=141560|AlignEnd=141837
 76	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	71	advcl	_	AlignBegin=141837|AlignEnd=142113
