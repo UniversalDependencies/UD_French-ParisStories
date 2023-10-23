@@ -214,7 +214,7 @@
 1	hm	hm	ADJ	_	_	5	discourse	_	AlignBegin=19380|AlignEnd=19534|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=19534|AlignEnd=19534
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=19534|AlignEnd=19689
-4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	AlignBegin=19689|AlignEnd=19843
+4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	expl:pv	_	AlignBegin=19689|AlignEnd=19843
 5	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19843|AlignEnd=19997
 6	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=19997|AlignEnd=20151
 7-8	du	_	_	_	_	_	_	_	_
@@ -360,7 +360,7 @@
 9	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	AlignBegin=39346|AlignEnd=39541|SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	AlignBegin=39541|AlignEnd=39541
 11	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=39541|AlignEnd=39689
-12	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	obj	_	AlignBegin=39689|AlignEnd=39837|SpaceAfter=No
+12	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	expl:comp	_	AlignBegin=39689|AlignEnd=39837|SpaceAfter=No
 13	en	en	PRON	_	Person=3|PronType=Prs	14	obj	_	AlignBegin=39837|AlignEnd=39984
 14	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	discourse	_	AlignBegin=39984|AlignEnd=40132
 15	?	?	PUNCT	_	_	3	punct	_	AlignBegin=40132|AlignEnd=40132
@@ -492,8 +492,8 @@
 6	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	AlignBegin=51995|AlignEnd=52107
 7	de	de	ADP	_	_	8	case	_	AlignBegin=52107|AlignEnd=52220
 8	moins	moins	ADV	_	_	6	advmod	_	AlignBegin=52220|AlignEnd=52333
-9	quand	quand	SCONJ	_	_	4	dep	_	AlignBegin=52333|AlignEnd=52445|ExtPos=ADV|Idiom=Yes
-10	même	même	ADV	_	_	9	dep	_	AlignBegin=52445|AlignEnd=52558|InIdiom=Yes|SpaceAfter=No
+9	quand	quand	SCONJ	_	ExtPos=ADV	4	advmod	_	AlignBegin=52333|AlignEnd=52445|Idiom=Yes
+10	même	même	ADV	_	_	9	fixed	_	AlignBegin=52445|AlignEnd=52558|InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52558|AlignEnd=52558
 
 # sent_id = ParisStories_2022_2_générationsXY__34
@@ -512,8 +512,8 @@
 # text = on est quand même dans la même …
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	AlignBegin=54735|AlignEnd=54840
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=54840|AlignEnd=54944
-3	quand	quand	SCONJ	_	_	2	dep	_	AlignBegin=54944|AlignEnd=55049|ExtPos=ADV|Idiom=Yes
-4	même	même	ADV	_	_	3	dep	_	AlignBegin=55049|AlignEnd=55153|InIdiom=Yes
+3	quand	quand	SCONJ	_	ExtPos=ADV	2	advmod	_	AlignBegin=54944|AlignEnd=55049|Idiom=Yes
+4	même	même	ADV	_	_	3	fixed	_	AlignBegin=55049|AlignEnd=55153|InIdiom=Yes
 5	dans	dans	ADP	_	_	7	case	_	AlignBegin=55153|AlignEnd=55258
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=55258|AlignEnd=55362
 7	même	même	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	AlignBegin=55362|AlignEnd=55467

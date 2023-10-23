@@ -207,7 +207,7 @@
 15	de	de	ADP	_	_	16	mark	_	_
 16	regarder	regarder	VERB	_	VerbForm=Inf	14	acl	_	Subject=SubjRaising
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	concours	concours	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	concours	concours	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
 20	et	et	CCONJ	_	_	25	cc	_	_
 21	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No

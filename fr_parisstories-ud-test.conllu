@@ -5228,7 +5228,7 @@
 3	peut-être	peut-être	ADV	_	_	2	advmod	_	_
 4	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
-6	bizarres	bizarre	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+6	bizarres	bizarre	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7	avec	avec	ADP	_	_	8	case	_	_
 8	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	obl:mod	_	_
 9	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
@@ -8705,8 +8705,8 @@
 16	,	,	PUNCT	_	_	10	punct	_	AlignBegin=88948|AlignEnd=88948
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	AlignBegin=88948|AlignEnd=89179|SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	AlignBegin=89179|AlignEnd=89410
-19	quand	quand	SCONJ	_	_	28	dep	_	AlignBegin=89410|AlignEnd=89642|ExtPos=ADV|Idiom=Yes
-20	même	même	ADV	_	_	19	dep	_	AlignBegin=89642|AlignEnd=89873|InIdiom=Yes
+19	quand	quand	SCONJ	_	ExtPos=ADV	28	advmod	_	AlignBegin=89410|AlignEnd=89642|Idiom=Yes
+20	même	même	ADV	_	_	19	fixed	_	AlignBegin=89642|AlignEnd=89873|InIdiom=Yes
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=89873|AlignEnd=90104
 22	peu	peu	NOUN	_	Gender=Masc|Number=Sing	27	reparandum	_	AlignBegin=90104|AlignEnd=90335|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=90335|AlignEnd=90335
@@ -9095,7 +9095,7 @@
 1	hm	hm	ADJ	_	_	5	discourse	_	AlignBegin=19380|AlignEnd=19534|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=19534|AlignEnd=19534
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=19534|AlignEnd=19689
-4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	AlignBegin=19689|AlignEnd=19843
+4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	expl:pv	_	AlignBegin=19689|AlignEnd=19843
 5	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19843|AlignEnd=19997
 6	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=19997|AlignEnd=20151
 7-8	du	_	_	_	_	_	_	_	_
@@ -9241,7 +9241,7 @@
 9	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	AlignBegin=39346|AlignEnd=39541|SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	AlignBegin=39541|AlignEnd=39541
 11	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=39541|AlignEnd=39689
-12	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	obj	_	AlignBegin=39689|AlignEnd=39837|SpaceAfter=No
+12	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	expl:comp	_	AlignBegin=39689|AlignEnd=39837|SpaceAfter=No
 13	en	en	PRON	_	Person=3|PronType=Prs	14	obj	_	AlignBegin=39837|AlignEnd=39984
 14	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	discourse	_	AlignBegin=39984|AlignEnd=40132
 15	?	?	PUNCT	_	_	3	punct	_	AlignBegin=40132|AlignEnd=40132
@@ -9373,8 +9373,8 @@
 6	ans	an	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	AlignBegin=51995|AlignEnd=52107
 7	de	de	ADP	_	_	8	case	_	AlignBegin=52107|AlignEnd=52220
 8	moins	moins	ADV	_	_	6	advmod	_	AlignBegin=52220|AlignEnd=52333
-9	quand	quand	SCONJ	_	_	4	dep	_	AlignBegin=52333|AlignEnd=52445|ExtPos=ADV|Idiom=Yes
-10	même	même	ADV	_	_	9	dep	_	AlignBegin=52445|AlignEnd=52558|InIdiom=Yes|SpaceAfter=No
+9	quand	quand	SCONJ	_	ExtPos=ADV	4	advmod	_	AlignBegin=52333|AlignEnd=52445|Idiom=Yes
+10	même	même	ADV	_	_	9	fixed	_	AlignBegin=52445|AlignEnd=52558|InIdiom=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52558|AlignEnd=52558
 
 # sent_id = ParisStories_2022_2_générationsXY__34
@@ -9393,8 +9393,8 @@
 # text = on est quand même dans la même …
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	AlignBegin=54735|AlignEnd=54840
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=54840|AlignEnd=54944
-3	quand	quand	SCONJ	_	_	2	dep	_	AlignBegin=54944|AlignEnd=55049|ExtPos=ADV|Idiom=Yes
-4	même	même	ADV	_	_	3	dep	_	AlignBegin=55049|AlignEnd=55153|InIdiom=Yes
+3	quand	quand	SCONJ	_	ExtPos=ADV	2	advmod	_	AlignBegin=54944|AlignEnd=55049|Idiom=Yes
+4	même	même	ADV	_	_	3	fixed	_	AlignBegin=55049|AlignEnd=55153|InIdiom=Yes
 5	dans	dans	ADP	_	_	7	case	_	AlignBegin=55153|AlignEnd=55258
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=55258|AlignEnd=55362
 7	même	même	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	AlignBegin=55362|AlignEnd=55467
@@ -10248,8 +10248,8 @@
 2	,	,	PUNCT	_	_	10	punct	_	AlignBegin=40018|AlignEnd=40018
 3	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=40018|AlignEnd=40281|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=40281|AlignEnd=40281
-5	quand	quand	SCONJ	_	_	10	dep	_	AlignBegin=40281|AlignEnd=40619|ExtPos=ADV|Idiom=Yes
-6	même	même	ADV	_	_	5	dep	_	AlignBegin=40619|AlignEnd=40957|InIdiom=Yes|SpaceAfter=No
+5	quand	quand	SCONJ	_	ExtPos=ADV	10	advmod	_	AlignBegin=40281|AlignEnd=40619|Idiom=Yes
+6	même	même	ADV	_	_	5	fixed	_	AlignBegin=40619|AlignEnd=40957|InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	AlignBegin=40957|AlignEnd=40957
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=40957|AlignEnd=41295|SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	AlignBegin=41295|AlignEnd=41633
@@ -11316,7 +11316,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=71285|AlignEnd=71285
 14	parce	parce	SCONJ	_	_	3	dep	_	AlignBegin=71285|AlignEnd=71466
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=71466|AlignEnd=71647
-16	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	iobj	_	AlignBegin=71647|AlignEnd=71829
+16	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	expl:pv	_	AlignBegin=71647|AlignEnd=71829
 17	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	ccomp	_	AlignBegin=71829|AlignEnd=72010
 18	même	même	ADV	_	_	19	advmod	_	AlignBegin=72010|AlignEnd=72191
 19	pas	pas	ADV	_	_	17	advmod	_	AlignBegin=72191|AlignEnd=72372
@@ -12320,8 +12320,8 @@
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	AlignBegin=75869|AlignEnd=76147
 14	y	y	PRON	_	Person=3|PronType=Prs	15	iobj	_	AlignBegin=76147|AlignEnd=76426
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=76426|AlignEnd=76704
-16	quand	quand	SCONJ	_	_	15	dep	_	AlignBegin=76704|AlignEnd=76982|ExtPos=ADV|Idiom=Yes
-17	même	même	ADV	_	_	16	dep	_	AlignBegin=76982|AlignEnd=77261|InIdiom=Yes|SpaceAfter=No
+16	quand	quand	SCONJ	_	ExtPos=ADV	15	advmod	_	AlignBegin=76704|AlignEnd=76982|Idiom=Yes
+17	même	même	ADV	_	_	16	fixed	_	AlignBegin=76982|AlignEnd=77261|InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=77261|AlignEnd=77261
 19	euh	euh	INTJ	_	_	15	discourse	_	AlignBegin=77261|AlignEnd=77539|SpaceAfter=No
 20	.	.	PUNCT	_	_	15	punct	_	AlignBegin=77539|AlignEnd=77539
@@ -12652,7 +12652,7 @@
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	AlignBegin=4074|AlignEnd=4306
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=4306|AlignEnd=4537
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	AlignBegin=4537|AlignEnd=4768
-21	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	AlignBegin=4768|AlignEnd=5000
+21	mêmes	même	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	AlignBegin=4768|AlignEnd=5000
 22	horaires	horaire	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	AlignBegin=5000|AlignEnd=5231|SpaceAfter=No
 23	.	.	PUNCT	_	_	19	punct	_	AlignBegin=5231|AlignEnd=5231
 

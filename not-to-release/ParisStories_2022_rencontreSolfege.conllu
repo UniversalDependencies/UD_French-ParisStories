@@ -199,7 +199,7 @@
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=29099|AlignEnd=29292|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=29292|AlignEnd=29484
 3	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29484|AlignEnd=29677
-4	d'	de	ADP	_	_	3	dep:comp	_	AlignBegin=29677|AlignEnd=29869|SpaceAfter=No
+4	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=29677|AlignEnd=29869|SpaceAfter=No
 5	autres	autre	ADJ	_	_	6	amod	_	AlignBegin=29869|AlignEnd=30062
 6	activités	activité	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	AlignBegin=30062|AlignEnd=30254
 7	quand	quand	SCONJ	_	_	11	mark	_	AlignBegin=30254|AlignEnd=30479
@@ -823,7 +823,7 @@
 1	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=115175|AlignEnd=115399|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=115399|AlignEnd=115399
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=115399|AlignEnd=115622
-4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	AlignBegin=115622|AlignEnd=115846
+4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	expl:pv	_	AlignBegin=115622|AlignEnd=115846
 5	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115846|AlignEnd=116070
 6	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=116070|AlignEnd=116294
 7-8	des	_	_	_	_	_	_	_	_

@@ -437,8 +437,8 @@
 16	,	,	PUNCT	_	_	10	punct	_	AlignBegin=88948|AlignEnd=88948
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	nsubj	_	AlignBegin=88948|AlignEnd=89179|SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	AlignBegin=89179|AlignEnd=89410
-19	quand	quand	SCONJ	_	_	28	dep	_	AlignBegin=89410|AlignEnd=89642|ExtPos=ADV|Idiom=Yes
-20	même	même	ADV	_	_	19	dep	_	AlignBegin=89642|AlignEnd=89873|InIdiom=Yes
+19	quand	quand	SCONJ	_	ExtPos=ADV	28	advmod	_	AlignBegin=89410|AlignEnd=89642|Idiom=Yes
+20	même	même	ADV	_	_	19	fixed	_	AlignBegin=89642|AlignEnd=89873|InIdiom=Yes
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=89873|AlignEnd=90104
 22	peu	peu	NOUN	_	Gender=Masc|Number=Sing	27	reparandum	_	AlignBegin=90104|AlignEnd=90335|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=90335|AlignEnd=90335

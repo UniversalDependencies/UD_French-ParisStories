@@ -1490,7 +1490,7 @@
 4	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
 6	peu	peu	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
-7	débordée	débordé	ADJ	_	Gender=Fem|Number=Plur	4	xcomp	_	_
+7	débordée	débordé	ADJ	_	Gender=Fem|Number=Sing	4	xcomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	fin	fin	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
@@ -17915,7 +17915,7 @@
 42	,	,	PUNCT	_	_	46	punct	_	_
 43	à	à	ADP	_	_	46	case	_	_
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-45	même	même	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
+45	même	même	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	_
 46	heure	heure	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -19048,7 +19048,7 @@
 15	de	de	ADP	_	_	16	mark	_	_
 16	regarder	regarder	VERB	_	VerbForm=Inf	14	acl	_	Subject=SubjRaising
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	concours	concours	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	concours	concours	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
 20	et	et	CCONJ	_	_	25	cc	_	_
 21	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
@@ -25833,7 +25833,7 @@
 5	,	,	PUNCT	_	_	9	punct	_	AlignBegin=20747|AlignEnd=20747
 6	si	si	SCONJ	_	_	9	mark	_	AlignBegin=20747|AlignEnd=20977
 7	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=20977|AlignEnd=21207
-8	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	obj	_	AlignBegin=21207|AlignEnd=21436
+8	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	expl:pv	_	AlignBegin=21207|AlignEnd=21436
 9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	AlignBegin=21436|AlignEnd=21666|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=21666|AlignEnd=21666
 
@@ -26427,8 +26427,8 @@
 # sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = quand même.
-1	quand	quand	SCONJ	_	_	0	root	_	AlignBegin=117319|AlignEnd=117687|ExtPos=ADV|Idiom=Yes
-2	même	même	ADV	_	_	1	dep	_	AlignBegin=117687|AlignEnd=118054|InIdiom=Yes|SpaceAfter=No
+1	quand	quand	SCONJ	_	ExtPos=ADV	0	root	_	AlignBegin=117319|AlignEnd=117687|Idiom=Yes
+2	même	même	ADV	_	_	1	fixed	_	AlignBegin=117687|AlignEnd=118054|InIdiom=Yes|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=118054|AlignEnd=118054
 
 # sent_id = ParisStories_2022_16_hamacTahiti__47
@@ -26493,8 +26493,8 @@
 32	,	,	PUNCT	_	_	28	punct	_	AlignBegin=125481|AlignEnd=125481
 33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	41	nsubj	_	AlignBegin=125481|AlignEnd=125740
 34	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	cop	_	AlignBegin=125740|AlignEnd=125999
-35	quand	quand	SCONJ	_	_	41	dep	_	AlignBegin=125999|AlignEnd=126258|ExtPos=ADV|Idiom=Yes
-36	même	même	ADV	_	_	35	dep	_	AlignBegin=126258|AlignEnd=126517|InIdiom=Yes
+35	quand	quand	SCONJ	_	ExtPos=ADV	41	advmod	_	AlignBegin=125999|AlignEnd=126258|Idiom=Yes
+36	même	même	ADV	_	_	35	fixed	_	AlignBegin=126258|AlignEnd=126517|InIdiom=Yes
 37	très	très	ADV	_	_	41	advmod	_	AlignBegin=126517|AlignEnd=126776
 38	très	très	ADV	_	_	37	conj	_	AlignBegin=126776|AlignEnd=127034
 39	très	très	ADV	_	_	37	conj	_	AlignBegin=127034|AlignEnd=127293
@@ -26599,8 +26599,8 @@
 26	que	que	SCONJ	_	_	25	dep	_	AlignBegin=5641|AlignEnd=5861
 27	neuf	neuf	NUM	_	Gender=Masc|Number=Plur	28	nummod	_	AlignBegin=5861|AlignEnd=6082
 28	mois	mois	NOUN	_	Gender=Masc|Number=Plur	23	obl:mod	_	AlignBegin=6082|AlignEnd=6302
-29	quand	quand	SCONJ	_	_	28	dep	_	AlignBegin=6302|AlignEnd=6523|ExtPos=ADV|Idiom=Yes
-30	même	même	ADV	_	_	29	dep	_	AlignBegin=6523|AlignEnd=6743|InIdiom=Yes|SpaceAfter=No
+29	quand	quand	SCONJ	_	ExtPos=ADV	28	advmod	_	AlignBegin=6302|AlignEnd=6523|Idiom=Yes
+30	même	même	ADV	_	_	29	fixed	_	AlignBegin=6523|AlignEnd=6743|InIdiom=Yes|SpaceAfter=No
 31	,	,	PUNCT	_	_	37	punct	_	AlignBegin=6743|AlignEnd=6743
 32	parce	parce	ADV	_	ExtPos=SCONJ	37	mark	_	AlignBegin=6743|AlignEnd=6903|Idiom=Yes
 33	que	que	SCONJ	_	_	32	fixed	_	AlignBegin=6903|AlignEnd=7062|InIdiom=Yes
@@ -26861,7 +26861,7 @@
 # speaker = 0
 # text = je me souviens pas vraiment du jour.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=40331|AlignEnd=40612
-2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	iobj	_	AlignBegin=40612|AlignEnd=40892
+2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	expl:pv	_	AlignBegin=40612|AlignEnd=40892
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=40892|AlignEnd=41173
 4	pas	pas	ADV	_	_	3	advmod	_	AlignBegin=41173|AlignEnd=41453
 5	vraiment	vraiment	ADV	_	_	3	advmod	_	AlignBegin=41453|AlignEnd=41734
@@ -26876,7 +26876,7 @@
 # speaker = 0
 # text = je me souviens juste que, euh, elle était vraiment moche, mais genre très très moche.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=42295|AlignEnd=42636
-2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	iobj	_	AlignBegin=42636|AlignEnd=42977
+2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	expl:pv	_	AlignBegin=42636|AlignEnd=42977
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42977|AlignEnd=43319
 4	juste	juste	ADV	_	_	3	advmod	_	AlignBegin=43319|AlignEnd=43660
 5	que	que	SCONJ	_	_	12	mark	_	AlignBegin=43660|AlignEnd=44001|SpaceAfter=No
@@ -27097,8 +27097,8 @@
 4	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=69805|AlignEnd=69989
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=69989|AlignEnd=70174
 6	mignonne	mignon	ADJ	_	_	2	ccomp	_	AlignBegin=70174|AlignEnd=70358
-7	quand	quand	SCONJ	_	_	6	dep	_	AlignBegin=70358|AlignEnd=70543|ExtPos=ADV|Idiom=Yes
-8	même	même	ADV	_	_	7	dep	_	AlignBegin=70543|AlignEnd=70727|InIdiom=Yes|SpaceAfter=No
+7	quand	quand	SCONJ	_	ExtPos=ADV	6	advmod	_	AlignBegin=70358|AlignEnd=70543|Idiom=Yes
+8	même	même	ADV	_	_	7	fixed	_	AlignBegin=70543|AlignEnd=70727|InIdiom=Yes|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=70727|AlignEnd=70727
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__30
@@ -27409,7 +27409,7 @@
 3	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=110912|AlignEnd=111114
 4	que	que	SCONJ	_	_	8	mark	_	AlignBegin=111114|AlignEnd=111316
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=111316|AlignEnd=111518
-6	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dep:comp	_	AlignBegin=111518|AlignEnd=111720|SpaceAfter=No
+6	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	expl:comp	_	AlignBegin=111518|AlignEnd=111720|SpaceAfter=No
 7	en	en	PRON	_	Person=3|PronType=Prs	8	obj	_	AlignBegin=111720|AlignEnd=111922
 8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	AlignBegin=111922|AlignEnd=112124
 9	à	à	ADP	_	_	10	case	_	AlignBegin=112124|AlignEnd=112124
@@ -27507,7 +27507,7 @@
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=810|AlignEnd=1101|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=1101|AlignEnd=1101
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=1101|AlignEnd=1393
-5	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	AlignBegin=1393|AlignEnd=1684
+5	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	expl:pv	_	AlignBegin=1393|AlignEnd=1684
 6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1684|AlignEnd=1975|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	AlignBegin=1975|AlignEnd=1975
 8	que	que	SCONJ	_	_	11	mark	_	AlignBegin=1975|AlignEnd=2266

@@ -547,7 +547,7 @@
 4	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
 6	peu	peu	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
-7	débordée	débordé	ADJ	_	Gender=Fem|Number=Plur	4	xcomp	_	_
+7	débordée	débordé	ADJ	_	Gender=Fem|Number=Sing	4	xcomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	fin	fin	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_

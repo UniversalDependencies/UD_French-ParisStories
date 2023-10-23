@@ -5548,7 +5548,7 @@
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
-32	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
+32	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
 33	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	parataxis:parenth	_	_
 34	plus	plus	ADV	_	_	33	advmod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	39	punct	_	_
@@ -5605,7 +5605,7 @@
 14	de	de	ADP	_	_	15	case	_	_
 15	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 18	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	discourse	_	_
 19	plus	plus	ADV	_	_	18	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
@@ -5615,7 +5615,7 @@
 # text = et je me rappelle, on était au milieu de la cour, et je l'ai vue de loin.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	_
 4	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
@@ -5630,7 +5630,7 @@
 13	cour	cour	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
 15	et	et	CCONJ	_	_	19	cc	_	_
-16	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 17	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
 19	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -5673,7 +5673,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
 6	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	iobj	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -5683,7 +5683,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	Reported=Yes
 17	aller	aller	VERB	_	VerbForm=Inf	16	xcomp	_	Subject=SubjRaising
 18	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
@@ -5715,7 +5715,7 @@
 2	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	et	et	CCONJ	_	_	11	cc	_	_
-5	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	_
 7	pas	pas	ADV	_	_	6	advmod	_	_
 8	pourtant	pourtant	ADV	_	_	11	advmod	_	_
@@ -5728,7 +5728,7 @@
 # sent_id = ParisStories_2021_couruLaVoir_16bis
 # text = je m'en rappelle très bien parce que, c'est vraiment pas le genre de chose que j'aurais fait à l'époque, euh, d'aller parler comme ça à quelqu'un que je ne connaissais pas, ou, genre, juste de vue.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/3e38bdf9a5d2e2f708d6c539237d80a5d40cd01f
-1	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 4	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5764,7 +5764,7 @@
 34	quelqu'	quelqu'	DET	_	Number=Sing|PronType=Ind	35	det	_	SpaceAfter=No
 35	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	obl:arg	_	_
 36	que	que	PRON	_	PronType=Rel	39	obj	_	_
-37	je	moi	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+37	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
 38	ne	ne	ADV	_	Polarity=Neg	39	advmod	_	_
 39	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
 40	pas	pas	ADV	_	Polarity=Neg	39	advmod	_	SpaceAfter=No
@@ -6951,8 +6951,8 @@
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=100642|AlignEnd=100642
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=100642|AlignEnd=100797|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	AlignBegin=100797|AlignEnd=100952
-8	quand	quand	SCONJ	_	_	10	dep	_	AlignBegin=100952|AlignEnd=101107|ExtPos=ADV|Idiom=Yes
-9	même	même	ADV	_	_	8	dep	_	AlignBegin=101107|AlignEnd=101262|InIdiom=Yes
+8	quand	quand	SCONJ	_	ExtPos=ADV	10	advmod	_	AlignBegin=100952|AlignEnd=101107|Idiom=Yes
+9	même	même	ADV	_	_	8	fixed	_	AlignBegin=101107|AlignEnd=101262|InIdiom=Yes
 10	bien	bien	ADV	_	_	0	root	_	AlignBegin=101262|AlignEnd=101417|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=101417|AlignEnd=101417
 
@@ -7678,7 +7678,7 @@
 # text = et je me souviens c'était très, euh, très bizarre, parce qu'elle m'avait demandé un jus d'orange, de jus d'orange avec un, un autre jus, je sais plus trop quoi.
 1	et	et	CCONJ	_	_	12	cc	_	AlignBegin=48421|AlignEnd=48606
 2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=48606|AlignEnd=48791
-3	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	AlignBegin=48791|AlignEnd=48975
+3	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	expl:pv	_	AlignBegin=48791|AlignEnd=48975
 4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	AlignBegin=48975|AlignEnd=49160
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=49160|AlignEnd=49345|SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	AlignBegin=49345|AlignEnd=49530
@@ -7910,7 +7910,7 @@
 4	bah	bah	INTJ	_	_	14	discourse	_	AlignBegin=83497|AlignEnd=83685|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	AlignBegin=83685|AlignEnd=83685
 6	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=83685|AlignEnd=83872
-7	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	obj	_	AlignBegin=83872|AlignEnd=84059
+7	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	expl:pv	_	AlignBegin=83872|AlignEnd=84059
 8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	discourse	_	AlignBegin=84059|AlignEnd=84246|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=84246|AlignEnd=84246
 10	en	en	ADP	_	_	11	case	_	AlignBegin=84246|AlignEnd=84433
@@ -8192,8 +8192,8 @@
 16	qu'	que	SCONJ	_	_	15	fixed	_	AlignBegin=5412|AlignEnd=5558|InIdiom=Yes|SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	AlignBegin=5558|AlignEnd=5705
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	AlignBegin=5705|AlignEnd=5852
-19	quand	quand	SCONJ	_	_	21	dep	_	AlignBegin=5852|AlignEnd=5998|ExtPos=ADV|Idiom=Yes
-20	même	même	ADV	_	_	19	dep	_	AlignBegin=5998|AlignEnd=6145|InIdiom=Yes
+19	quand	quand	SCONJ	_	ExtPos=ADV	21	advmod	_	AlignBegin=5852|AlignEnd=5998|Idiom=Yes
+20	même	même	ADV	_	_	19	fixed	_	AlignBegin=5998|AlignEnd=6145|InIdiom=Yes
 21	resté	rester	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	AlignBegin=6145|AlignEnd=6447
 22	trois	trois	NUM	_	_	23	nummod	_	AlignBegin=6447|AlignEnd=6749
 23	ans	an	NOUN	_	Gender=Masc|Number=Plur	21	obl:mod	_	AlignBegin=6749|AlignEnd=7052
@@ -8747,7 +8747,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=77394|AlignEnd=77593|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=77593|AlignEnd=77793
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=77793|AlignEnd=77992
-4	gars	gars	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=77992|AlignEnd=78191|SpaceAfter=No
+4	gars	gars	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=77992|AlignEnd=78191|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	AlignBegin=78191|AlignEnd=78191
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=78191|AlignEnd=78390
 7	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	8	obj	_	AlignBegin=78390|AlignEnd=78590
@@ -9571,8 +9571,8 @@
 12	début	début	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	AlignBegin=49164|AlignEnd=49337
 13	de	de	ADP	_	_	14	case	_	AlignBegin=49337|AlignEnd=49509
 14	relation	relation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	AlignBegin=49509|AlignEnd=49682
-15	quand	quand	SCONJ	_	_	12	dep	_	AlignBegin=49682|AlignEnd=49855|ExtPos=ADV|Idiom=Yes
-16	même	même	ADV	_	_	15	dep	_	AlignBegin=49855|AlignEnd=50028|InIdiom=Yes|SpaceAfter=No
+15	quand	quand	SCONJ	_	ExtPos=ADV	12	advmod	_	AlignBegin=49682|AlignEnd=49855|Idiom=Yes
+16	même	même	ADV	_	_	15	fixed	_	AlignBegin=49855|AlignEnd=50028|InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=50028|AlignEnd=50028
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__18
@@ -9742,8 +9742,8 @@
 8	avoir	avoir	VERB	_	VerbForm=Inf	7	xcomp	_	AlignBegin=71804|AlignEnd=72036|Subject=SubjRaising
 9	dix-huit	dix-huit	NUM	_	Number=Plur	10	nummod	_	AlignBegin=72036|AlignEnd=72268
 10	ans	an	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	AlignBegin=72268|AlignEnd=72499
-11	quand	quand	SCONJ	_	_	8	dep	_	AlignBegin=72499|AlignEnd=72731|ExtPos=ADV|Idiom=Yes
-12	même	même	ADV	_	_	11	dep	_	AlignBegin=72731|AlignEnd=72963|InIdiom=Yes|SpaceAfter=No
+11	quand	quand	SCONJ	_	ExtPos=ADV	8	advmod	_	AlignBegin=72499|AlignEnd=72731|Idiom=Yes
+12	même	même	ADV	_	_	11	fixed	_	AlignBegin=72731|AlignEnd=72963|InIdiom=Yes|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	AlignBegin=72963|AlignEnd=72963
 
 # sent_id = ParisStories_2022_10_frèreHyperDifférent__28
@@ -9914,8 +9914,8 @@
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=98297|AlignEnd=98297
 27	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	31	nsubj	_	AlignBegin=98297|AlignEnd=98423
 28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:tense	_	AlignBegin=98423|AlignEnd=98549
-29	quand	quand	SCONJ	_	_	31	dep	_	AlignBegin=98549|AlignEnd=98675|ExtPos=ADV|Idiom=Yes
-30	même	même	ADV	_	_	29	dep	_	AlignBegin=98675|AlignEnd=98801|InIdiom=Yes
+29	quand	quand	SCONJ	_	ExtPos=ADV	31	advmod	_	AlignBegin=98549|AlignEnd=98675|Idiom=Yes
+30	même	même	ADV	_	_	29	fixed	_	AlignBegin=98675|AlignEnd=98801|InIdiom=Yes
 31	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	reparandum	_	AlignBegin=98801|AlignEnd=98927
 32	ensemble	ensemble	ADV	_	_	31	advmod	_	AlignBegin=98927|AlignEnd=99053|SpaceAfter=No
 33	,	,	PUNCT	_	_	38	punct	_	AlignBegin=99053|AlignEnd=99053
@@ -9926,7 +9926,7 @@
 38	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	advcl	_	AlignBegin=99558|AlignEnd=99684
 39	pas	pas	ADV	_	_	38	advmod	_	AlignBegin=99684|AlignEnd=99810
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	AlignBegin=99810|AlignEnd=99936
-41	mêmes	même	ADJ	_	Gender=Fem|Number=Plur	42	amod	_	AlignBegin=99936|AlignEnd=100062
+41	mêmes	même	ADJ	_	Gender=Masc|Number=Plur	42	amod	_	AlignBegin=99936|AlignEnd=100062
 42	papas	papa	NOUN	_	Gender=Masc|Number=Plur	38	obj	_	AlignBegin=100062|AlignEnd=100188|SpaceAfter=No
 43	.	.	PUNCT	_	_	10	punct	_	AlignBegin=100188|AlignEnd=100188
 
@@ -10898,7 +10898,7 @@
 5	en	en	PRON	_	Person=3|PronType=Prs	8	nmod	_	AlignBegin=116720|AlignEnd=116923
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	AlignBegin=116923|AlignEnd=117126
 7	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=117126|AlignEnd=117329|SpaceAfter=No
-8	autres	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	6	obj	_	AlignBegin=117329|AlignEnd=117533|SpaceAfter=No
+8	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	6	obj	_	AlignBegin=117329|AlignEnd=117533|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=117533|AlignEnd=117533
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=117533|AlignEnd=117736|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=117736|AlignEnd=117736
@@ -11808,7 +11808,7 @@
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=29099|AlignEnd=29292|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=29292|AlignEnd=29484
 3	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29484|AlignEnd=29677
-4	d'	de	ADP	_	_	3	dep:comp	_	AlignBegin=29677|AlignEnd=29869|SpaceAfter=No
+4	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=29677|AlignEnd=29869|SpaceAfter=No
 5	autres	autre	ADJ	_	_	6	amod	_	AlignBegin=29869|AlignEnd=30062
 6	activités	activité	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	AlignBegin=30062|AlignEnd=30254
 7	quand	quand	SCONJ	_	_	11	mark	_	AlignBegin=30254|AlignEnd=30479
@@ -12432,7 +12432,7 @@
 1	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=115175|AlignEnd=115399|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=115399|AlignEnd=115399
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=115399|AlignEnd=115622
-4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	AlignBegin=115622|AlignEnd=115846
+4	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	expl:pv	_	AlignBegin=115622|AlignEnd=115846
 5	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115846|AlignEnd=116070
 6	pas	pas	ADV	_	_	5	advmod	_	AlignBegin=116070|AlignEnd=116294
 7-8	des	_	_	_	_	_	_	_	_
