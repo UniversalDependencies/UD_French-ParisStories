@@ -7,7 +7,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	vingt-six	vingt-six	NUM	_	Number=Plur	0	root	_	_
 5	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -18,12 +18,12 @@
 14	père	père	NOUN	_	Gender=Masc|Number=Sing	12	xcomp	_	_
 15	euh	euh	INTJ	_	_	14	discourse	_	_
 16	de	de	ADP	_	_	18	case	_	_
-17	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	18	det	_	_
+17	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	_
 18	copain	copain	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 19	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
-20	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	21	obj	_	SpaceAfter=No
+20	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	obj	_	SpaceAfter=No
 21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	reparandum	_	_
-22	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	24	obj	_	_
+22	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	24	obj	_	_
 23	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux:tense	_	_
 24	emmenés	emmener	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
 25	à	à	ADP	_	_	27	case	_	_
@@ -65,14 +65,14 @@
 # sent_id = ParisStories_2020_campBedouin_4
 # text = il y avait euh il y avait un petit peu de retard.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	ExtPos=ADV|Idiom=Yes
+8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	Idiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 10	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	InIdiom=Yes
 11	de	de	ADP	_	_	12	case	_	_
@@ -86,7 +86,7 @@
 2	bon	bon	INTJ	_	_	7	discourse	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-5	quand	quand	SCONJ	_	_	7	advmod	_	ExtPos=ADV|Idiom=Yes
+5	quand	quand	SCONJ	_	ExtPos=ADV	7	advmod	_	Idiom=Yes
 6	même	même	ADV	_	_	5	fixed	_	InIdiom=Yes
 7	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	9	mark	_	_
@@ -104,7 +104,7 @@
 20	trente-cinq	trente-cinq	NUM	_	Number=Plur	19	nummod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	vol	vol	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-23	il	il	PRON	_	Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
+23	il	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
 24	y	y	PRON	_	Person=3|PronType=Prs	25	expl:comp	_	_
 25	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
 26	six	six	NUM	_	Number=Plur	27	nummod	_	_
@@ -123,24 +123,24 @@
 4	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
-7	et	et	CCONJ	_	_	6	conj	_	ExtPos=ADV|Idiom=Yes
+7	et	et	CCONJ	_	ExtPos=ADV	6	conj	_	Idiom=Yes
 8	tout	tout	ADV	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_7
 # text = il y avait un mec il nous attendait euh il nous attendait avec une pancarte, euh où il y avait écrit mon prénom Julie YYY, c'était assez marrant je trouvais.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
-1	il	il	PRON	_	_	3	expl:subj	_	_
+1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	mec	mec	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	8	obj	_	_
 8	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	reparandum	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-11	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	12	obj	_	_
 12	attendait	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl	_	_
 13	avec	avec	ADP	_	_	15	case	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -148,11 +148,11 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	euh	euh	INTJ	_	_	18	discourse	_	_
 18	où	où	ADV	_	PronType=Rel	15	advmod	_	_
-19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 20	y	y	PRON	_	Person=3|PronType=Prs	22	iobj	_	_
 21	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	aux:tense	_	_
 22	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	_
-23	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	24	det	_	_
+23	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	_
 24	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	Julie	Julie	PROPN	_	_	24	nmod:appos	_	_
 26	YYY	YYY	PROPN	_	_	25	flat:name	_	SpaceAfter=No
@@ -161,22 +161,22 @@
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	cop	_	_
 30	assez	assez	ADV	_	_	31	advmod	_	_
 31	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	22	ccomp	_	_
-32	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+32	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
 33	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	31	discourse	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_8
 # text = et puis après il nous a emmenés dans notre hôtel, à Dubaï franchement c'était super beau tout ça euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
-1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	et	et	CCONJ	_	ExtPos=CCONJ	7	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	après	après	ADV	_	_	7	advmod	_	_
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-5	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	7	obj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	emmenés	emmener	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
-9	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|PronType=Prs	10	det	_	_
+9	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	à	à	ADP	_	_	13	case	_	_
@@ -196,19 +196,19 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	alors	alors	ADV	_	_	4	advmod	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	_
-3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
+5	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
 6	raconter	raconter	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
-7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	ExtPos=ADV|Idiom=Yes
+7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	Idiom=Yes
 8	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	InIdiom=Yes
 9	vite	vite	ADV	_	_	10	advmod	_	_
 10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 11	en	en	ADP	_	_	12	case	_	_
 12	détails	détail	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
-13	quand	quand	SCONJ	_	_	6	advmod	_	ExtPos=ADV|Idiom=Yes
+13	quand	quand	SCONJ	_	ExtPos=ADV	6	advmod	_	Idiom=Yes
 14	même	même	ADV	_	_	13	fixed	_	InIdiom=Yes
-15	parce	parce	ADV	_	_	6	dep	_	ExtPos=SCONJ|Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	6	dep	_	Idiom=Yes
 16	que	que	SCONJ	_	_	15	fixed	_	InIdiom=Yes
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
@@ -227,8 +227,8 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 4	jour	jour	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
-5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-6	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	me	moi	PRON	_	ExtPos=VERB|Number=Sing|Person=1|PronType=Prs	0	root	_	Idiom=Yes
 7	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	fixed	_	InIdiom=Yes
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
@@ -283,7 +283,7 @@
 6	zouk	zouk	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	bah	bah	INTJ	_	_	11	discourse	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
+9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
 12	plein	plein	ADV	_	_	15	reparandum	_	_
@@ -295,7 +295,7 @@
 18	si	si	SCONJ	_	_	20	mark	_	_
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
 20	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
-21	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	22	obj	_	_
+21	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	22	obj	_	_
 22	acheter	acheter	VERB	_	VerbForm=Inf	20	xcomp	_	Subject=SubjRaising
 23	tout	tout	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
 24	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	conj	_	_
@@ -304,8 +304,8 @@
 27	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	28	det	_	_
 28	souvenirs	souvenir	NOUN	_	Gender=Masc|Number=Plur	22	obl:mod	_	_
 29	même	même	ADV	_	_	28	advmod	_	_
-30	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
-31	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	33	iobj	_	_
+30	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+31	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	33	iobj	_	_
 32	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	aux:tense	_	_
 33	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 34	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -315,8 +315,8 @@
 # sent_id = ParisStories_2020_campBedouin_14
 # text = tu te souviens ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
-1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	ExtPos=VERB|Idiom=Yes
+1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	te	toi	PRON	_	ExtPos=VERB|Number=Sing|Person=2|PronType=Prs	0	root	_	Idiom=Yes
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	fixed	_	InIdiom=Yes
 4	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -363,7 +363,7 @@
 # sent_id = ParisStories_2020_campBedouin_17
 # text = j'en n'avais jamais fait c'était super euh super euh marrant, enfin on s'est bien tapé des barres parce que ça secouait de partout là dedans.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
-1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
 2	en	en	PRON	_	Person=3|PronType=Prs	6	obj	_	_
 3	n'	ne	ADV	_	_	6	advmod	_	SpaceAfter=No
 4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux:tense	_	_
@@ -377,15 +377,15 @@
 12	euh	euh	INTJ	_	_	11	discourse	_	_
 13	marrant	marrant	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	20	punct	_	_
-15	enfin	enfin	ADV	_	_	20	discourse	_	ExtPos=INTJ
+15	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	_
-17	s'	se	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	SpaceAfter=No
+17	s'	soi	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
 19	bien	bien	ADV	_	_	20	advmod	_	_
 20	tapé	taper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	barres	barre	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
-23	parce	parce	ADV	_	_	26	mark	_	ExtPos=SCONJ|Idiom=Yes
+23	parce	parce	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 24	que	que	SCONJ	_	_	23	fixed	_	InIdiom=Yes
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
 26	secouait	secouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	advcl	_	_
@@ -404,8 +404,8 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	soir	soir	NOUN	_	Gender=Masc|Number=Sing	16	dislocated	_	_
 6	si	si	SCONJ	_	_	9	mark	_	_
-7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-8	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	expl:comp	_	_
+7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	expl:comp	_	_
 9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 10	bien	bien	ADV	_	_	9	advmod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -423,14 +423,14 @@
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	barbecue	barbecue	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
-26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
+26	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
 27	y	y	PRON	_	Person=3|PronType=Prs	28	expl:comp	_	_
 28	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	spectacle	spectacle	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	monsieur	monsieur	NOUN	_	Gender=Masc|Number=Sing	34	dislocated	_	_
-33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+33	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	crachait	cracher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	parataxis:parenth	_	_
 35	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	feu	feu	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
@@ -458,7 +458,7 @@
 # text = mais par contre dans le désert en décembre, il fait super super froid.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	mais	mais	CCONJ	_	_	11	cc	_	_
-2	par	par	ADP	_	_	11	advmod	_	ExtPos=ADV|Idiom=Yes
+2	par	par	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
 3	contre	contre	NOUN	_	_	2	fixed	_	InIdiom=Yes
 4	dans	dans	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -466,7 +466,7 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	super	super	ADV	_	_	14	advmod	_	_
 13	super	super	ADV	_	_	12	conj	_	_

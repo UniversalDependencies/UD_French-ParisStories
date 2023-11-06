@@ -27,7 +27,7 @@
 23	entre	entre	ADP	_	_	24	dep	_	_
 24	guillemets	guillemet	NOUN	_	Gender=Masc|Number=Plur	21	obl:mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	30	punct	_	_
-26	parce	parce	ADV	_	_	30	mark	_	ExtPos=SCONJ|Idiom=Yes
+26	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 27	que	que	SCONJ	_	_	26	fixed	_	InIdiom=Yes
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	nsubj	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:tense	_	_
@@ -42,7 +42,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	comme	comme	SCONJ	_	_	5	mark	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 6	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
@@ -57,7 +57,7 @@
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 16	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	avec	avec	ADP	_	_	19	case	_	_
-18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs	19	det	_	_
+18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	famille	famille	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
 20	d'	de	ADP	_	_	22	mark	_	SpaceAfter=No
 21	y	y	PRON	_	Person=3|PronType=Prs	22	iobj	_	_
@@ -75,7 +75,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	s'	le	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	s'	soi	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 7	installer	installer	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
@@ -120,7 +120,7 @@
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	été	été	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 28	pour	pour	ADP	_	_	29	case	_	_
-29	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	27	obl:mod	_	SpaceAfter=No
+29	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	27	obl:mod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_5
@@ -132,7 +132,7 @@
 4	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 6	qu'	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 8	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Part	5	ccomp	_	_
 9	vraiment	vraiment	ADV	_	_	10	advmod	_	_
 10	beau	beau	ADJ	_	Gender=Masc|Number=Sing	8	xcomp	_	_
@@ -172,7 +172,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	Damien	Damien	PROPN	_	_	11	dislocated	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj	_	SpaceAfter=No
+7	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
@@ -200,12 +200,12 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	vraiment	vraiment	ADV	_	_	4	advmod	_	_
 4	magique	magique	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-5	parce	parce	ADV	_	_	11	mark	_	ExtPos=SCONJ|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	Idiom=Yes
 6	que	que	SCONJ	_	_	5	fixed	_	InIdiom=Yes
 7	non	non	ADV	_	_	11	advmod	_	_
 8	seulement	seulement	ADV	_	_	7	advmod	_	_
-9	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dislocated	_	_
-10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dislocated	_	_
+10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	redécouvrais	redécouvrir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
 13	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
@@ -222,8 +222,8 @@
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	dislocated	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	29	punct	_	_
-27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
-28	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	29	obj	_	_
+27	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	29	obj	_	_
 29	découvrait	découvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	38	punct	_	_
 31	euh	euh	INTJ	_	_	38	discourse	_	SpaceAfter=No
@@ -246,7 +246,7 @@
 5	vraiment	vraiment	ADV	_	_	6	advmod	_	_
 6	magnifiques	magnifique	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
+8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 10	en	en	PRON	_	Person=3|PronType=Prs	11	obj	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
@@ -260,7 +260,7 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	couleurs	couleur	NOUN	_	Gender=Fem|Number=Plur	18	obl:arg	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	15	punct	_	_
-22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
+22	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	expl:subj	_	_
 23	y	y	PRON	_	Person=3|PronType=Prs	25	expl:comp	_	_
 24	en	en	PRON	_	Person=3|PronType=Prs	25	obj	_	_
 25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
@@ -274,11 +274,11 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
-3	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	obj	_	_
 4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	rire	rire	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	18	punct	_	_
-7	parce	parce	ADV	_	_	18	mark	_	ExtPos=SCONJ|Idiom=Yes|Scrap=Yes
+7	parce	parce	ADV	_	ExtPos=SCONJ	18	mark	_	Idiom=Yes|Scrap=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	maintenant	maintenant	ADV	_	_	18	advmod	_	_
@@ -298,16 +298,16 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+4	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 6	en	en	ADP	_	_	7	case	_	_
 7	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 8	avec	avec	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	GoPro	GoPro	PROPN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
-11	parce	parce	ADV	_	_	15	mark	_	ExtPos=SCONJ|Idiom=Yes
+11	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 12	qu'	que	SCONJ	_	_	11	fixed	_	InIdiom=Yes|SpaceAfter=No
-13	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 15	étanche	étanche	ADJ	_	Gender=Fem|Number=Sing	3	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -378,7 +378,7 @@
 41	des	du	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
 42	haricots	haricot	NOUN	_	Gender=Masc|Number=Plur	40	conj	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
-44	ce	ce	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	40	conj	_	_
+44	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	conj	_	_
 45	qu'	que	PRON	_	PronType=Rel	47	obj	_	SpaceAfter=No
 46	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	47	nsubj	_	_
 47	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	_	_
@@ -408,13 +408,13 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	très	très	ADV	_	_	4	advmod	_	_
 4	rigolo	rigolo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-5	parce	parce	ADV	_	_	9	mark	_	ExtPos=SCONJ|Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 6	que	que	SCONJ	_	_	5	fixed	_	InIdiom=Yes
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	gens	gens	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 9	amènent	amener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 10	pratiquement	pratiquement	ADV	_	_	9	advmod	_	_
-11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	12	det	_	_
+11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
 12	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 13	sur	sur	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -424,11 +424,11 @@
 # sent_id = ParisStories_2020_poissonsNoel_17
 # text = enfin, voilà, il y a même des gens qui fabriquent des bars avec des bouées et des planches pour distribuer des bières à leurs amis, c'est vraiment chouette.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	enfin	enfin	ADV	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
+1	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	voilà	voilà	VERB	_	_	7	discourse	_	ExtPos=INTJ|SpaceAfter=No
+3	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	même	même	ADV	_	_	10	advmod	_	_
@@ -449,7 +449,7 @@
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	bières	bière	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
 25	à	à	ADP	_	_	27	case	_	_
-26	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	27	det	_	_
+26	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	27	det	_	_
 27	amis	ami	NOUN	_	Gender=Masc|Number=Plur	22	obl:arg	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	_
 29	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	nsubj	_	SpaceAfter=No
@@ -476,7 +476,7 @@
 # sent_id = ParisStories_2020_poissonsNoel_19
 # text = en fait, quand, quand vraiment la plage est remplie, remplie de monde, on est tous collés et à minuit tout le monde se souhaite la bonne année.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	en	en	ADP	_	_	20	discourse	_	ExtPos=ADV|Idiom=Yes
+1	en	en	ADP	_	ExtPos=ADV	20	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	13	punct	_	_
 4	quand	quand	SCONJ	_	_	13	reparandum	_	SpaceAfter=No
@@ -502,7 +502,7 @@
 24	tout	tout	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	monde	monde	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
-27	se	lui	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	conj	_	ExtPos=VERB|Idiom=Yes
+27	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs|Reflex=Yes	20	conj	_	Idiom=Yes
 28	souhaite	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	fixed	_	InIdiom=Yes
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
@@ -520,12 +520,12 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	gens	gens	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
 7	que	que	PRON	_	PronType=Rel	9	obj	_	_
-8	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 10	pas	pas	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
-12	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
-13	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
+12	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
+13	leur	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
 14	souhaites	souhaire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
@@ -535,21 +535,21 @@
 # sent_id = ParisStories_2020_poissonsNoel_21
 # text = tu es content, limite, tu les prends dans tes bras si tu le sens.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/978462f10dc62bd19559b99badf62462094df653
-1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	content	content	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	limite	limite	ADV	_	_	9	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-8	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+7	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	9	obj	_	_
 9	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
-11	tes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=2|PronType=Prs	12	det	_	_
+11	tes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	12	det	_	_
 12	bras	bras	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
 13	si	si	SCONJ	_	_	16	mark	_	_
-14	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
-15	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+14	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
+15	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 16	sens	sentir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
