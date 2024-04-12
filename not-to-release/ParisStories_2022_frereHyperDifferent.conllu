@@ -85,7 +85,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=10474|AlignEnd=10656
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=10656|AlignEnd=10839
 8	quand	quand	SCONJ	_	_	23	case	_	AlignBegin=10839|AlignEnd=11022|SpaceAfter=No
-9	,	,	PUNCT	_	_	23	punct	_	AlignBegin=11022|AlignEnd=11022
+9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=11022|AlignEnd=11022
 10	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	dislocated	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11204|AlignEnd=11204
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
@@ -97,7 +97,7 @@
 18	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	AlignBegin=11935|AlignEnd=12117
 19	et	et	CCONJ	_	_	20	cc	_	AlignBegin=12117|AlignEnd=12300
 20	demi	demi	ADJ	_	Gender=Masc|Number=Sing	18	conj	_	AlignBegin=12300|AlignEnd=12483|SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	AlignBegin=12483|AlignEnd=12483
+21	,	,	PUNCT	_	_	13	punct	_	AlignBegin=12483|AlignEnd=12483
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=12483|AlignEnd=12665
 23	truc	truc	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	AlignBegin=12665|AlignEnd=12848
 24	comme	comme	ADP	_	_	25	case	_	AlignBegin=12848|AlignEnd=13030
@@ -343,7 +343,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=48126|AlignEnd=48299|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=48299|AlignEnd=48472
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	reparandum	_	AlignBegin=48472|AlignEnd=48645|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=48645|AlignEnd=48645
+8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=48645|AlignEnd=48645
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=48645|AlignEnd=48818
 10	très	très	ADV	_	_	11	advmod	_	AlignBegin=48818|AlignEnd=48991
 11	bon	bon	ADJ	_	_	12	amod	_	AlignBegin=48991|AlignEnd=49164
@@ -456,7 +456,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=62956|AlignEnd=63178
 14	deux	deux	NUM	_	_	11	obl:mod	_	AlignBegin=63178|AlignEnd=63399
 15	avec	avec	ADP	_	_	21	case	_	AlignBegin=63399|AlignEnd=63621|SpaceAfter=No
-16	,	,	PUNCT	_	_	21	punct	_	AlignBegin=63621|AlignEnd=63621
+16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=63621|AlignEnd=63621
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=63621|AlignEnd=63842|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=63842|AlignEnd=63842
 19	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	reparandum	_	AlignBegin=63842|AlignEnd=64017
@@ -468,7 +468,7 @@
 25	,	,	PUNCT	_	_	32	punct	_	AlignBegin=64892|AlignEnd=64892
 26	comme	comme	ADP	_	_	27	case	_	AlignBegin=64892|AlignEnd=65067
 27	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	reparandum	_	AlignBegin=65067|AlignEnd=65242|SpaceAfter=No
-28	,	,	PUNCT	_	_	32	punct	_	AlignBegin=65242|AlignEnd=65242
+28	,	,	PUNCT	_	_	27	punct	_	AlignBegin=65242|AlignEnd=65242
 29	comme	comme	ADP	_	_	32	case	_	AlignBegin=65242|AlignEnd=65417
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	AlignBegin=65417|AlignEnd=65592
 31	petit	petit	ADJ	_	_	32	amod	_	AlignBegin=65592|AlignEnd=65767
@@ -531,9 +531,9 @@
 # text = ça fait, ça, ça change, hein ?
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=73424|AlignEnd=73639
 2	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	AlignBegin=73639|AlignEnd=73854|SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	AlignBegin=73854|AlignEnd=73854
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=73854|AlignEnd=73854
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	reparandum	_	AlignBegin=73854|AlignEnd=74069|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=74069|AlignEnd=74069
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=74069|AlignEnd=74069
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	AlignBegin=74069|AlignEnd=74283
 7	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74283|AlignEnd=74498|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=74498|AlignEnd=74498
@@ -554,9 +554,9 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=77571|AlignEnd=77830|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=77830|AlignEnd=78088
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	AlignBegin=78088|AlignEnd=78347|SpaceAfter=No
-4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=78347|AlignEnd=78347
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=78347|AlignEnd=78347
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	reparandum	_	AlignBegin=78347|AlignEnd=78606|SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=78606|AlignEnd=78606
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=78606|AlignEnd=78606
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=78606|AlignEnd=78865
 8	sacré	sacré	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	AlignBegin=78865|AlignEnd=79123
 9	bonhomme	bonhomme	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=79123|AlignEnd=79382|SpaceAfter=No
@@ -610,7 +610,7 @@
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	AlignBegin=86507|AlignEnd=86784|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=86784|AlignEnd=86784
 9	après	après	ADV	_	_	11	reparandum	_	AlignBegin=86784|AlignEnd=87061|SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=87061|AlignEnd=87061
+10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=87061|AlignEnd=87061
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	AlignBegin=87061|AlignEnd=87338
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	AlignBegin=87338|AlignEnd=87615
 13	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	AlignBegin=87615|AlignEnd=87891
@@ -635,7 +635,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=90346|AlignEnd=90545
 9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	AlignBegin=90545|AlignEnd=90743
 10	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	12	reparandum	_	AlignBegin=90743|AlignEnd=90942|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=90942|AlignEnd=90942
+11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=90942|AlignEnd=90942
 12	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=90942|AlignEnd=91141
 13	vies	vie	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	AlignBegin=91141|AlignEnd=91339
 14	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	obl:mod	_	AlignBegin=91339|AlignEnd=91538
@@ -650,8 +650,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/ff57166d99cd01b05e5d1e18f910e1794a93a246
 # speaker = L2
 # text = et puis, vous avez des vies graves différentes.
-1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=92332|AlignEnd=92565
-2	puis	puis	CCONJ	_	_	5	dep	_	AlignBegin=92565|AlignEnd=92799|SpaceAfter=No
+1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=92332|AlignEnd=92565|Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=92565|AlignEnd=92799|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=92799|AlignEnd=92799
 4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=92799|AlignEnd=93032
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=93032|AlignEnd=93265
@@ -721,7 +721,7 @@
 6	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	reparandum	_	AlignBegin=101803|AlignEnd=102017
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	AlignBegin=102017|AlignEnd=102230
 8	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	AlignBegin=102230|AlignEnd=102443|SpaceAfter=No
-9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=102443|AlignEnd=102443
+9	,	,	PUNCT	_	_	6	punct	_	AlignBegin=102443|AlignEnd=102443
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	AlignBegin=102443|AlignEnd=102704
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	AlignBegin=102704|AlignEnd=102964
 12	rapidement	rapidement	ADV	_	_	13	advmod	_	AlignBegin=102964|AlignEnd=103225
@@ -819,7 +819,7 @@
 6	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=114468|AlignEnd=114718
 7	personnalités	personnalité	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	AlignBegin=114718|AlignEnd=114967
 8	que	que	SCONJ	_	_	22	mark	_	AlignBegin=114967|AlignEnd=115217|SpaceAfter=No
-9	,	,	PUNCT	_	_	22	punct	_	AlignBegin=115217|AlignEnd=115217
+9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=115217|AlignEnd=115217
 10	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	dislocated	_	AlignBegin=115217|AlignEnd=115534|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=115534|AlignEnd=115534
 12	bah	bah	INTJ	_	_	15	discourse	_	AlignBegin=115534|AlignEnd=115851
@@ -846,7 +846,7 @@
 # text = alors que, que moi, je suis plus euh, calme.
 1	alors	alors	ADV	_	_	4	reparandum	_	AlignBegin=120010|AlignEnd=120775
 2	que	que	SCONJ	_	_	1	dep	_	AlignBegin=120775|AlignEnd=121539|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=121539|AlignEnd=121539
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=121539|AlignEnd=121539
 4	que	que	SCONJ	_	_	0	root	_	AlignBegin=121539|AlignEnd=121748
 5	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	dislocated	_	AlignBegin=121748|AlignEnd=121957|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=121957|AlignEnd=121957
@@ -881,7 +881,7 @@
 1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=125913|AlignEnd=126062
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=126062|AlignEnd=126212
 3	que	que	SCONJ	_	_	9	mark	_	AlignBegin=126212|AlignEnd=126361|SpaceAfter=No
-4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=126361|AlignEnd=126361
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=126361|AlignEnd=126361
 5	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	dislocated	_	AlignBegin=126361|AlignEnd=126510|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=126510|AlignEnd=126510
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=126510|AlignEnd=126660|SpaceAfter=No

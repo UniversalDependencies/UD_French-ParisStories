@@ -26,7 +26,7 @@
 7	maison	maison	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 8	en	en	ADP	_	_	12	case	_	_
 9	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	12	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	banlieue	banlieue	NOUN	_	Gender=Fem|Number=Sing	4	discourse	_	_
 13	parisienne	parisien	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
@@ -43,7 +43,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Chinois	Chinois	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	12	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	wordform=fin
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
@@ -57,7 +57,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	10	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
 7	six	six	NUM	_	Number=Plur	10	obl:mod	_	_
@@ -74,14 +74,14 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	14	punct	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	maison	maison	NOUN	_	Gender=Fem|Number=Sing	14	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
@@ -188,7 +188,7 @@
 6	Chinois	Chinois	NOUN	_	Gender=Masc|Number=Plur	12	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No|wordform=fin
-9	,	,	PUNCT	_	_	12	punct	_	_
+9	,	,	PUNCT	_	_	6	punct	_	_
 10	soit	soit	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Chinois	Chinois	NOUN	_	Gender=Masc|Number=Plur	2	xcomp	_	_
@@ -204,7 +204,7 @@
 # speaker = non_native
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jour	jour	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	wordform=fin
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -221,7 +221,7 @@
 17	puisque	puisque	SCONJ	_	_	22	mark	_	_
 18	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	reparandum	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 22	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 23	cours	cours	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
@@ -272,7 +272,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	Scrap=Yes|SpaceAfter=No
-8	,	,	PUNCT	_	_	13	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
@@ -367,7 +367,7 @@
 33	train	train	NOUN	_	Gender=Masc|Number=Sing	31	xcomp	_	_
 34	de	de	ADP	_	_	35	mark	_	_
 35	boire	boire	VERB	_	VerbForm=Inf	33	acl	_	SpaceAfter=No|Subject=SubjRaising
-36	,	,	PUNCT	_	_	42	punct	_	_
+36	,	,	PUNCT	_	_	31	punct	_	_
 37	enfin	enfin	ADV	_	ExtPos=INTJ	42	discourse	_	wordform=fin
 38	qui	qui	PRON	_	PronType=Rel	41	reparandum	_	_
 39	euh	euh	INTJ	_	_	41	discourse	_	SpaceAfter=No
@@ -504,11 +504,11 @@
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
 15	po~	po~	VERB	_	_	19	reparandum	_	_
 16	port	_	X	_	ExtPos=VERB	19	reparandum	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	19	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	portait	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	reparandum	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
+21	,	,	PUNCT	_	_	20	punct	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	sac	sac	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 24	à	à	ADP	_	_	25	case	_	_

@@ -7,7 +7,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	vers	vers	ADP	_	_	7	case	_	_
 5	midi	midi	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	midi	midi	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	demi	demi	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
@@ -168,7 +168,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	vraiment	vraiment	ADV	_	_	5	reparandum	_	_
 2	tous	tout	PRON	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	5	cc	_	_
 5	vraiment	vraiment	ADV	_	_	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -180,8 +180,8 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	bon	bon	INTJ	_	_	11	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	à	à	ADP	_	_	16	case	_	_
-16	part	part	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+15	à	à	ADP	_	ExtPos=ADP	17	case	_	Idiom=Yes
+16	part	part	NOUN	_	Gender=Fem|Number=Sing	15	fixed	_	InIdiom=Yes
 17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	obl:mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	où	où	PRON	_	PronType=Rel	22	obl:mod	_	_
@@ -243,7 +243,7 @@
 12	de	de	ADP	_	_	14	case	_	wordform=du
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	début	début	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	18	punct	_	_
+15	,	,	PUNCT	_	_	11	punct	_	_
 16	donc	donc	ADV	_	_	18	cc	_	_
 17	pour	pour	ADP	_	_	18	case	_	_
 18	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	obl:mod	_	SpaceAfter=No
@@ -317,7 +317,7 @@
 3	être	être	AUX	_	VerbForm=Inf	4	aux:pass	_	Subject=SubjRaising
 4	épuisé	épuiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 5	de	de	ADP	_	_	7	case	_	_
-6	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	entraînement	entraînement	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	etc	etc	ADV	_	_	7	conj	_	wordform=et
@@ -339,7 +339,7 @@
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	Mourinho	Mourinho	PROPN	_	_	19	appos	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
+27	,	,	PUNCT	_	_	19	punct	_	_
 28	où	où	PRON	_	PronType=Rel	36	obl:mod	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	36	dislocated	_	_
@@ -459,7 +459,7 @@
 # text = surtout qu'il y avait mon père à côté.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2e359a0bf142c10376687a4ed689231c15f3eacd
 1	surtout	surtout	ADV	_	_	0	root	_	_
-2	qu'	qu'	SCONJ	_	_	5	mark	_	SpaceAfter=No
+2	qu'	que	SCONJ	_	_	5	mark	_	SpaceAfter=No
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	dep	_	_
@@ -571,7 +571,7 @@
 9	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
-12	s'	s'	SCONJ	_	_	15	mark	_	SpaceAfter=No
+12	s'	si	SCONJ	_	_	15	mark	_	SpaceAfter=No
 13	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
 14	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	15	iobj	_	_
 15	plaît	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No
@@ -588,7 +588,7 @@
 4	de	de	ADP	_	_	6	case	_	wordform=du
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	12	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -614,7 +614,7 @@
 5	là	là	ADV	_	_	0	root	_	_
 6	en	en	ADP	_	ExtPos=ADP	16	mark	_	Idiom=Yes
 7	mode	mode	NOUN	_	Number=Sing	6	fixed	_	InIdiom=Yes|SpaceAfter=No
-8	,	,	PUNCT	_	_	16	punct	_	_
+8	,	,	PUNCT	_	_	6	punct	_	_
 9	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	mais	mais	CCONJ	_	_	16	cc	_	SpaceAfter=No
@@ -726,7 +726,7 @@
 5	qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	wordform=ce
-8	qu'	qu'	SCONJ	_	_	11	dep:comp	_	SpaceAfter=No
+8	qu'	que	SCONJ	_	_	11	dep:comp	_	SpaceAfter=No
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl:cleft	_	SpaceAfter=No
@@ -753,7 +753,7 @@
 15	,	,	PUNCT	_	_	27	punct	_	_
 16	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	fixed	_	InIdiom=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	27	punct	_	_
+18	,	,	PUNCT	_	_	16	punct	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	wordform=du
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_

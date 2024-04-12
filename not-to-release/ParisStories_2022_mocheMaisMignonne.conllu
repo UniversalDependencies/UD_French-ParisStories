@@ -54,7 +54,7 @@
 5	pas	pas	ADV	_	_	6	advmod	_	AlignBegin=8360|AlignEnd=8526
 6	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=8526|AlignEnd=8692
 7	voir	voir	VERB	_	VerbForm=Inf	10	reparandum	_	AlignBegin=8692|AlignEnd=8858|SpaceAfter=No|Subject=SubjRaising
-8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=8858|AlignEnd=8858
+8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=8858|AlignEnd=8858
 9	la	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	AlignBegin=8858|AlignEnd=9091
 10	voir	voir	VERB	_	VerbForm=Inf	6	xcomp	_	AlignBegin=9091|AlignEnd=9323|Subject=SubjRaising
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=9323|AlignEnd=9556
@@ -312,7 +312,7 @@
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42977|AlignEnd=43319
 4	juste	juste	ADV	_	_	3	advmod	_	AlignBegin=43319|AlignEnd=43660
 5	que	que	SCONJ	_	_	12	mark	_	AlignBegin=43660|AlignEnd=44001|SpaceAfter=No
-6	,	,	PUNCT	_	_	12	punct	_	AlignBegin=44001|AlignEnd=44001
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=44001|AlignEnd=44001
 7	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=44001|AlignEnd=44342|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=44342|AlignEnd=44342
 9	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=44342|AlignEnd=44639
@@ -376,7 +376,7 @@
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	reparandum	_	AlignBegin=52253|AlignEnd=52446|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=52446|AlignEnd=52446
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=52446|AlignEnd=52640|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=52640|AlignEnd=52640
+4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=52640|AlignEnd=52640
 5	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=52640|AlignEnd=52833
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	AlignBegin=52833|AlignEnd=53026
 7	pas	pas	ADV	_	_	8	advmod	_	AlignBegin=53026|AlignEnd=53219
@@ -413,7 +413,7 @@
 2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	AlignBegin=55888|AlignEnd=56140
 3	dans	dans	ADP	_	_	2	obl:arg	_	AlignBegin=56140|AlignEnd=56393
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	2	obj	_	AlignBegin=56393|AlignEnd=56645|Scrap=Yes|SpaceAfter=No
-5	,	,	PUNCT	_	_	18	punct	_	AlignBegin=56645|AlignEnd=56645
+5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=56645|AlignEnd=56645
 6	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=56645|AlignEnd=56793
 7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	discourse	_	AlignBegin=56793|AlignEnd=56942|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=56942|AlignEnd=56942
@@ -422,7 +422,7 @@
 11	pas	pas	ADV	_	_	13	advmod	_	AlignBegin=57238|AlignEnd=57386
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	AlignBegin=57386|AlignEnd=57535
 13	landaus	landau	NOUN	_	Gender=Masc|Number=Plur	18	reparandum	_	AlignBegin=57535|AlignEnd=57683|SpaceAfter=No
-14	,	,	PUNCT	_	_	18	punct	_	AlignBegin=57683|AlignEnd=57683
+14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=57683|AlignEnd=57683
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	AlignBegin=57683|AlignEnd=57865|SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	AlignBegin=57865|AlignEnd=58048
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	AlignBegin=58048|AlignEnd=58230
@@ -486,7 +486,7 @@
 3	dedans	dedans	ADV	_	_	2	xcomp	_	AlignBegin=64145|AlignEnd=64375
 4	avec	avec	ADP	_	_	5	dep:comp	_	AlignBegin=64375|AlignEnd=64604
 5	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	reparandum	_	AlignBegin=64604|AlignEnd=64834|SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	AlignBegin=64834|AlignEnd=64834
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=64834|AlignEnd=64834
 7	avec	avec	ADP	_	_	9	case	_	AlignBegin=64834|AlignEnd=65012
 8	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=65012|AlignEnd=65190
 9	cheveux	cheveu	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	AlignBegin=65190|AlignEnd=65367|SpaceAfter=No
@@ -604,14 +604,14 @@
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=79453|AlignEnd=79453
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	AlignBegin=79453|AlignEnd=79689|SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	reparandum	_	AlignBegin=79689|AlignEnd=79926|SpaceAfter=No
-11	,	,	PUNCT	_	_	20	punct	_	AlignBegin=79926|AlignEnd=79926
+11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=79926|AlignEnd=79926
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	nsubj	_	AlignBegin=79926|AlignEnd=80174
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	reparandum	_	AlignBegin=80174|AlignEnd=80423
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	AlignBegin=80423|AlignEnd=80671|wordform=du
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	AlignBegin=80671|AlignEnd=80919|SpaceAfter=No
-17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80919|AlignEnd=80919
+17	,	,	PUNCT	_	_	13	punct	_	AlignBegin=80919|AlignEnd=80919
 18	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	AlignBegin=80919|AlignEnd=81146
 19	y	y	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	AlignBegin=81146|AlignEnd=81373
 20	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	AlignBegin=81373|AlignEnd=81600
@@ -695,7 +695,7 @@
 6	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	AlignBegin=91135|AlignEnd=91335
 7	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	1	ccomp	_	AlignBegin=91335|AlignEnd=91536
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	reparandum	_	AlignBegin=91536|AlignEnd=91736|SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=91736|AlignEnd=91736
+9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=91736|AlignEnd=91736
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=91736|AlignEnd=91972
 11	chariot	chariot	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	AlignBegin=91972|AlignEnd=92209
 12	vide	vide	ADJ	_	_	11	amod	_	AlignBegin=92209|AlignEnd=92445
@@ -727,7 +727,7 @@
 3	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	AlignBegin=94980|AlignEnd=95177
 4	courru	courrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=95177|AlignEnd=95374
 5	avec	avec	ADP	_	_	9	reparandum	_	AlignBegin=95374|AlignEnd=95571|SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	AlignBegin=95571|AlignEnd=95571
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=95571|AlignEnd=95571
 7	dans	dans	ADP	_	_	9	case	_	AlignBegin=95571|AlignEnd=95836
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=95836|AlignEnd=96100
 9	couloir	couloir	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	AlignBegin=96100|AlignEnd=96365|SpaceAfter=No
@@ -772,7 +772,7 @@
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=100432|AlignEnd=100665
 2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	expl:pv	_	AlignBegin=100665|AlignEnd=100899
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	reparandum	_	AlignBegin=100899|AlignEnd=101132|SpaceAfter=No
-4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=101132|AlignEnd=101132
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=101132|AlignEnd=101132
 5	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=101132|AlignEnd=101365|SpaceAfter=No
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	cop	_	AlignBegin=101365|AlignEnd=101598
 7	jalouse	jaloux	ADJ	_	_	0	root	_	AlignBegin=101598|AlignEnd=101832
@@ -816,7 +816,7 @@
 11	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	reparandum	_	AlignBegin=107526|AlignEnd=107684|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=107684|AlignEnd=107684
 13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=107684|AlignEnd=107843|SpaceAfter=No
-14	,	,	PUNCT	_	_	19	punct	_	AlignBegin=107843|AlignEnd=107843
+14	,	,	PUNCT	_	_	11	punct	_	AlignBegin=107843|AlignEnd=107843
 15	même	même	ADV	_	_	19	advmod	_	AlignBegin=107843|AlignEnd=108000
 16	quand	quand	SCONJ	_	_	19	mark	_	AlignBegin=108000|AlignEnd=108158
 17	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	AlignBegin=108158|AlignEnd=108315
@@ -853,7 +853,7 @@
 15	,	,	PUNCT	_	_	20	punct	_	AlignBegin=113061|AlignEnd=113061
 16	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=113061|AlignEnd=113212|Idiom=Yes
 17	que	que	SCONJ	_	_	16	fixed	_	AlignBegin=113212|AlignEnd=113364|InIdiom=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=113364|AlignEnd=113364
+18	,	,	PUNCT	_	_	16	punct	_	AlignBegin=113364|AlignEnd=113364
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	AlignBegin=113364|AlignEnd=113515
 20	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	AlignBegin=113515|AlignEnd=113667
 21	longtemps	longtemps	ADV	_	_	20	advmod	_	AlignBegin=113667|AlignEnd=113818|SpaceAfter=No
@@ -866,7 +866,7 @@
 1	donc	donc	ADV	_	_	19	advmod	_	AlignBegin=113818|AlignEnd=113984|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=113984|AlignEnd=113984
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	AlignBegin=113984|AlignEnd=114150|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=114150|AlignEnd=114150
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=114150|AlignEnd=114150
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=114150|AlignEnd=114316
 6	moitié	moitié	NOUN	_	Gender=Fem|Number=Plur	19	dislocated	_	AlignBegin=114316|AlignEnd=114482
 7-8	des	_	_	_	_	_	_	_	_

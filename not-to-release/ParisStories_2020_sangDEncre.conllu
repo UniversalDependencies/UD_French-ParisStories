@@ -12,7 +12,7 @@
 8	parler	parler	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 9	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	_
 10	de	de	ADP	_	_	16	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	16	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14-15	du	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 15	à	à	ADP	_	_	16	case	_	_
 16	Paris	Paris	PROPN	_	_	14	obl:arg	_	_
 17	puisque	puisque	SCONJ	_	_	22	mark	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	22	punct	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
@@ -134,7 +134,7 @@
 41	voyageais	voyager	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	37	appos	_	_
 42	toute	tout	ADV	_	_	43	advmod	_	_
 43	seule	seul	ADJ	_	Gender=Fem|Number=Sing	41	advcl	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	46	punct	_	_
+44	,	,	PUNCT	_	_	37	punct	_	_
 45	de	de	ADP	_	_	46	mark	_	_
 46	prendre	prendre	VERB	_	VerbForm=Inf	33	xcomp	_	Subject=SubjRaising
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
@@ -194,7 +194,7 @@
 14	puisque	puisque	SCONJ	_	_	20	mark	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 16	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	20	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	fan	fan	NOUN	_	Gender=Fem|Number=Sing	11	advcl	_	_
@@ -332,7 +332,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	InTitle=Yes
@@ -379,7 +379,7 @@
 9	coup	coup	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	15	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
@@ -396,13 +396,13 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	11	punct	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	Scrap=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	11	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	obj	_	Scrap=Yes
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	dep:comp	_	_
 12	pour	pour	ADP	_	_	15	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	petite	petit	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
@@ -411,13 +411,13 @@
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
 18	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	reparandum	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	reparandum	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 24	petits	petit	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 25	avions	avion	NOUN	_	Gender=Masc|Number=Plur	33	reparandum	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	33	punct	_	_
+26	,	,	PUNCT	_	_	25	punct	_	_
 27	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
@@ -440,9 +440,9 @@
 # text = les, des, des avions à hélices, euh, c'est des avions qui, euh, qui font juste le transport en France.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	5	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	avions	avion	NOUN	_	Gender=Masc|Number=Plur	15	dislocated	_	_
 7	à	à	ADP	_	_	8	case	_	_
@@ -455,7 +455,7 @@
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	avions	avion	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 16	qui	qui	PRON	_	PronType=Rel	20	reparandum	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	20	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
@@ -481,7 +481,7 @@
 9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	reparandum	_	_
 11	que	que	SCONJ	_	_	10	dep:comp	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	24	punct	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
 13	bah	bah	INTJ	_	_	24	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15-16	du	_	_	_	_	_	_	_	_
@@ -509,7 +509,7 @@
 4	toujours	toujours	ADV	_	_	5	advmod	_	_
 5	six	six	NUM	_	Number=Plur	0	root	_	_
 6	dans	dans	ADP	_	_	10	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	avion	avion	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
@@ -565,7 +565,7 @@
 27	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	28	iobj	_	_
 28	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 29	que	que	SCONJ	_	_	34	mark	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	34	punct	_	_
+30	,	,	PUNCT	_	_	29	punct	_	_
 31	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	nsubj	_	_
@@ -758,14 +758,14 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+13	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
+15	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	28	advmod	_	Idiom=Yes
+16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	15	fixed	_	InIdiom=Yes
 17	que	que	SCONJ	_	_	20	mark	_	_
 18	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
 19	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
-20	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+20	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	aéroport	aéroport	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	SpaceAfter=No
@@ -828,14 +828,14 @@
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
 3	très	très	ADV	_	_	4	advmod	_	_
 4	bien	bien	ADV	_	_	2	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	8	punct	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	visualisez	visualiser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 11	de	de	ADP	_	_	17	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	17	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
@@ -922,9 +922,9 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	_
 9	de	de	ADP	_	_	16	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	16	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	de	de	ADP	_	_	16	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	16	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	d'	de	ADP	_	_	16	mark	_	SpaceAfter=No
@@ -1006,9 +1006,9 @@
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	fixed	_	InIdiom=Yes
 38	tout	tout	NOUN	_	Gender=Masc|Number=Sing	36	fixed	_	InIdiom=Yes
 39	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	43	reparandum	_	SpaceAfter=No
-40	,	,	PUNCT	_	_	43	punct	_	_
+40	,	,	PUNCT	_	_	39	punct	_	_
 41	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	43	reparandum	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	43	punct	_	_
+42	,	,	PUNCT	_	_	41	punct	_	_
 43	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	28	conj	_	_
 44	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	46	nsubj	_	SpaceAfter=No
 45	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
@@ -1137,7 +1137,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	reparandum	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 5	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 6	bien	bien	ADV	_	_	5	advmod	_	_
@@ -1272,7 +1272,7 @@
 12	en	en	ADP	_	_	13	mark	_	_
 13	sachant	savoir	VERB	_	Tense=Pres|VerbForm=Part	17	reparandum	_	_
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	17	punct	_	_
+15	,	,	PUNCT	_	_	13	punct	_	_
 16	en	en	ADP	_	_	17	mark	_	_
 17	sachant	savoir	VERB	_	Tense=Pres|VerbForm=Part	8	acl	_	_
 18	que	que	SCONJ	_	_	30	mark	_	_
@@ -1505,10 +1505,10 @@
 9	pas	pas	ADV	_	_	8	advmod	_	_
 10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	reparandum	_	SpaceAfter=No
 11	en	en	PRON	_	Person=3|PronType=Prs	10	dep	_	Scrap=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	16	punct	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
 13	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	reparandum	_	SpaceAfter=No
 14	en	en	PRON	_	Person=3|PronType=Prs	13	dep	_	Scrap=Yes|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
+15	,	,	PUNCT	_	_	13	punct	_	_
 16	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
 17	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 18	pas	pas	ADV	_	_	19	advmod	_	_
@@ -1560,7 +1560,7 @@
 20	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	_
 21	plutôt	plutôt	ADV	_	_	20	advmod	_	_
 22	de	de	ADP	_	_	25	reparandum	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	25	punct	_	_
+23	,	,	PUNCT	_	_	22	punct	_	_
 24	de	de	ADP	_	_	25	mark	_	_
 25	rester	rester	VERB	_	VerbForm=Inf	20	ccomp	_	Subject=NoRaising
 26	seule	seul	ADJ	_	Gender=Fem|Number=Sing	25	obj	_	_
@@ -1609,7 +1609,7 @@
 7	autour	autour	ADV	_	_	6	advmod	_	_
 8	que	que	SCONJ	_	_	13	mark	_	_
 9	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	expl:comp	_	_
 13	voyais	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	ccomp	_	_

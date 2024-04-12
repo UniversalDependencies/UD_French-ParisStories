@@ -23,7 +23,7 @@
 5	qui	qui	PRON	_	PronType=Rel	12	reparandum	_	AlignBegin=3455|AlignEnd=3707|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=3707|AlignEnd=3707
 7	bah	bah	INTJ	_	_	5	discourse	_	AlignBegin=3707|AlignEnd=3959|SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=3959|AlignEnd=3959
+8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=3959|AlignEnd=3959
 9	en	en	ADP	_	_	10	case	_	AlignBegin=3959|AlignEnd=4211
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	AlignBegin=4211|AlignEnd=4463|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=4463|AlignEnd=4463
@@ -51,7 +51,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=7674|AlignEnd=7916
 9	vrai	vrai	ADJ	_	_	0	root	_	AlignBegin=7916|AlignEnd=8157
 10	que	que	SCONJ	_	_	16	mark	_	AlignBegin=8157|AlignEnd=8399|SpaceAfter=No
-11	,	,	PUNCT	_	_	16	punct	_	AlignBegin=8399|AlignEnd=8399
+11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=8399|AlignEnd=8399
 12	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=8399|AlignEnd=8640|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=8640|AlignEnd=8640
 14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	AlignBegin=8640|AlignEnd=8882
@@ -93,7 +93,7 @@
 # speaker = 0
 # text = et, et je crois, qu'avec le recul maintenant, euh, si j'aurais dû le faire, moi aussi, euh, je pense que j'aurais été incapable de monter.
 1	et	et	CCONJ	_	_	3	reparandum	_	AlignBegin=14195|AlignEnd=14463|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=14463|AlignEnd=14463
+2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=14463|AlignEnd=14463
 3	et	et	CCONJ	_	_	5	cc	_	AlignBegin=14463|AlignEnd=14730
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=14730|AlignEnd=14998
 5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14998|AlignEnd=15265|SpaceAfter=No
@@ -176,7 +176,7 @@
 # speaker = 0
 # text = et, et voilà.
 1	et	et	CCONJ	_	_	3	reparandum	_	AlignBegin=28599|AlignEnd=28844|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=28844|AlignEnd=28844
+2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=28844|AlignEnd=28844
 3	et	et	CCONJ	_	_	4	cc	_	AlignBegin=28844|AlignEnd=29088
 4	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=29088|AlignEnd=29333|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=29333|AlignEnd=29333
@@ -193,7 +193,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=30067|AlignEnd=30067
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=30067|AlignEnd=30312|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	reparandum	_	AlignBegin=30312|AlignEnd=30557|SpaceAfter=No
-8	,	,	PUNCT	_	_	18	punct	_	AlignBegin=30557|AlignEnd=30557
+8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=30557|AlignEnd=30557
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	AlignBegin=30557|AlignEnd=30802|SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	AlignBegin=30802|AlignEnd=31046
 11	vraiment	vraiment	ADV	_	_	18	advmod	_	AlignBegin=31046|AlignEnd=31291|SpaceAfter=No
@@ -261,8 +261,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/8beb415208b9c78afa2a9e439886fb6bb2a52e71
 # speaker = 0
 # text = et puis, du coup, euh, c'est ce jour-là où j'ai rencontré Lise.
-1	et	et	CCONJ	_	_	13	cc	_	AlignBegin=38943|AlignEnd=39120
-2	puis	puis	ADV	_	_	13	dep	_	AlignBegin=39120|AlignEnd=39297|SpaceAfter=No
+1	et	et	CCONJ	_	ExtPos=CCONJ	13	cc	_	AlignBegin=38943|AlignEnd=39120|Idiom=Yes
+2	puis	puis	ADV	_	_	1	fixed	_	AlignBegin=39120|AlignEnd=39297|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	13	punct	_	AlignBegin=39297|AlignEnd=39297
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	AlignBegin=39297|AlignEnd=39474|wordform=du
@@ -343,7 +343,7 @@
 28	orange	orange	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	AlignBegin=53638|AlignEnd=53985
 29	avec	avec	ADP	_	_	34	case	_	AlignBegin=53985|AlignEnd=54332
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	reparandum	_	AlignBegin=54332|AlignEnd=54679|SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=54679|AlignEnd=54679
+31	,	,	PUNCT	_	_	30	punct	_	AlignBegin=54679|AlignEnd=54679
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	AlignBegin=54679|AlignEnd=55026
 33	autre	autre	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	AlignBegin=55026|AlignEnd=55372
 34	jus	jus	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	AlignBegin=55372|AlignEnd=55719|SpaceAfter=No
@@ -541,8 +541,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/8beb415208b9c78afa2a9e439886fb6bb2a52e71
 # speaker = 0
 # text = et puis, bah, tu te souviens, en fait, c'est quand j'y repense, c'est grâce à elle, qu'on a connu, euh, mh, qu'on, euh, a connu Paul et ses fameuses crêpes.
-1	et	et	CCONJ	_	_	14	cc	_	AlignBegin=83123|AlignEnd=83310
-2	puis	puis	CCONJ	_	_	14	dep	_	AlignBegin=83310|AlignEnd=83497|SpaceAfter=No
+1	et	et	CCONJ	_	ExtPos=CCONJ	14	cc	_	AlignBegin=83123|AlignEnd=83310|Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=83310|AlignEnd=83497|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	14	punct	_	AlignBegin=83497|AlignEnd=83497
 4	bah	bah	INTJ	_	_	14	discourse	_	AlignBegin=83497|AlignEnd=83685|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	AlignBegin=83685|AlignEnd=83685
@@ -559,7 +559,7 @@
 16	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=85182|AlignEnd=85369|SpaceAfter=No
 17	y	y	PRON	_	Person=3|PronType=Prs	18	iobj	_	AlignBegin=85369|AlignEnd=85556
 18	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	AlignBegin=85556|AlignEnd=85743|SpaceAfter=No
-19	,	,	PUNCT	_	_	22	punct	_	AlignBegin=85743|AlignEnd=85743
+19	,	,	PUNCT	_	_	14	punct	_	AlignBegin=85743|AlignEnd=85743
 20	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	AlignBegin=85743|AlignEnd=85931|SpaceAfter=No
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	AlignBegin=85931|AlignEnd=86118
 22	grâce	grâce	NOUN	_	_	0	root	_	AlignBegin=86118|AlignEnd=86305
@@ -612,8 +612,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/8beb415208b9c78afa2a9e439886fb6bb2a52e71
 # speaker = 0
 # text = et puis, il nous offrait les meilleures crêpes.
-1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=92549|AlignEnd=92767
-2	puis	puis	CCONJ	_	_	6	dep	_	AlignBegin=92767|AlignEnd=92985|SpaceAfter=No
+1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	AlignBegin=92549|AlignEnd=92767|Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=92767|AlignEnd=92985|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=92985|AlignEnd=92985
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=92985|AlignEnd=93203
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	iobj	_	AlignBegin=93203|AlignEnd=93421
@@ -629,7 +629,7 @@
 # text = c'était, euh, c'était un délice.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	AlignBegin=94292|AlignEnd=94510|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	reparandum	_	AlignBegin=94510|AlignEnd=94728|SpaceAfter=No
-3	,	,	PUNCT	_	_	9	punct	_	AlignBegin=94728|AlignEnd=94728
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=94728|AlignEnd=94728
 4	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=94728|AlignEnd=94946|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=94946|AlignEnd=94946
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=94946|AlignEnd=95164|SpaceAfter=No
@@ -642,8 +642,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/8beb415208b9c78afa2a9e439886fb6bb2a52e71
 # speaker = 0
 # text = et puis même tu vois, quand j'y repense, à ce fameux cocktail qu'elle m'a demandé, bah, elle faisait un peu la même avec les crêpes.
-1	et	et	CCONJ	_	_	25	cc	_	AlignBegin=95818|AlignEnd=96035
-2	puis	puis	CCONJ	_	_	25	dep	_	AlignBegin=96035|AlignEnd=96253
+1	et	et	CCONJ	_	ExtPos=CCONJ	25	cc	_	AlignBegin=95818|AlignEnd=96035|Idiom=Yes
+2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=96035|AlignEnd=96253|InIdiom=Yes
 3	même	même	ADV	_	_	5	advmod	_	AlignBegin=96253|AlignEnd=96471
 4	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=96471|AlignEnd=96689
 5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	discourse	_	AlignBegin=96689|AlignEnd=96907|SpaceAfter=No
@@ -652,7 +652,7 @@
 8	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=97370|AlignEnd=97544|SpaceAfter=No
 9	y	y	PRON	_	Person=3|PronType=Prs	10	iobj	_	AlignBegin=97544|AlignEnd=97717
 10	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	reparandum	_	AlignBegin=97717|AlignEnd=97890|SpaceAfter=No
-11	,	,	PUNCT	_	_	15	punct	_	AlignBegin=97890|AlignEnd=97890
+11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=97890|AlignEnd=97890
 12	à	à	ADP	_	_	15	case	_	AlignBegin=98120|AlignEnd=98120
 13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	AlignBegin=98120|AlignEnd=98368
 14	fameux	fameux	ADJ	_	_	15	amod	_	AlignBegin=98368|AlignEnd=98616

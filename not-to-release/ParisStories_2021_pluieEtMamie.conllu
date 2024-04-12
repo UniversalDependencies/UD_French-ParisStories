@@ -54,7 +54,7 @@
 10-11	du	_	_	_	_	_	_	_	SpaceAfter=No
 10	de	de	ADP	_	_	9	dep:comp	_	Scrap=Yes
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	dep	_	Scrap=Yes
-12	,	,	PUNCT	_	_	13	punct	_	_
+12	,	,	PUNCT	_	_	9	punct	_	_
 13	plus	plus	ADV	_	_	5	obj	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	deux	deux	NUM	_	Number=Plur	16	nummod	_	_
@@ -191,13 +191,13 @@
 9	bah	bah	INTJ	_	_	35	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	19	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	reparandum	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	19	punct	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	reparandum	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	première	premier	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	35	dislocated	_	_
@@ -225,7 +225,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	et	et	CCONJ	_	_	13	cc	_	_
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	reparandum	_	_
 6	ouais	ouais	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -238,7 +238,7 @@
 13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	ouais	ouais	INTJ	_	_	13	discourse	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	_
+16	,	,	PUNCT	_	_	13	punct	_	_
 17	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -254,7 +254,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	reparandum	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	9	punct	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 8	tout	tout	ADV	_	_	9	advmod	_	_
@@ -334,7 +334,7 @@
 # text = il, il était tout rouge là tu te rappelles?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/b1b141c59333312581d95cb902e9d25e814b9b5c
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	tout	tout	ADV	_	_	6	advmod	_	_
@@ -357,7 +357,7 @@
 7	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	iobj	_	SpaceAfter=No
 8	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
-10	qu'	qu'	SCONJ	_	_	12	mark	_	SpaceAfter=No
+10	qu'	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
 11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	dislocated	_	_
 13	plein	plein	ADJ	_	Gender=Masc|Number=Sing	12	obj	_	_
@@ -390,7 +390,7 @@
 18	quand	quand	SCONJ	_	_	24	mark	_	_
 19	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	reparandum	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	24	punct	_	_
+21	,	,	PUNCT	_	_	20	punct	_	_
 22	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
 23	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	aux:tense	_	_
 24	habillé	habiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -411,7 +411,7 @@
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	bagues	bague	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	encore	encore	ADV	_	_	7	advmod	_	_
@@ -496,7 +496,7 @@
 9	de	de	ADP	_	_	11	case	_	wordform=du
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	bus	bus	NOUN	_	Gender=Masc|Number=Sing	15	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	15	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	wordform=du
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -584,7 +584,7 @@
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	choses	chose	NOUN	_	Gender=Fem|Number=Plur	11	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	11	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_

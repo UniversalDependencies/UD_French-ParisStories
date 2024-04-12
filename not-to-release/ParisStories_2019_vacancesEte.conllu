@@ -150,7 +150,7 @@
 6	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	12	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	partie	partir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -178,7 +178,7 @@
 3	voilà	voilà	VERB	_	ExtPos=INTJ	5	discourse	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 5	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 8	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	sympa	sympa	ADJ	_	Number=Sing	8	xcomp	_	SpaceAfter=No
@@ -432,11 +432,11 @@
 13	donc	donc	ADV	_	_	15	cc	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	23	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
 19	génial	génial	ADJ	_	Gender=Masc|Number=Sing	23	reparandum	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	SpaceAfter=No
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
 23	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	conj	_	_
@@ -492,7 +492,7 @@
 8	loin	loin	ADV	_	_	4	xcomp	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	Arcachon	Arcachon	PROPN	_	_	13	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	Bordeaux	Bordeaux	PROPN	_	_	8	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -527,9 +527,9 @@
 6	appartement	appartement	NOUN	_	Gender=Masc|Number=Sing	2	xcomp	_	_
 7	euh	euh	INTJ	_	_	8	discourse	_	_
 8	en	en	ADP	_	_	14	reparandum	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	14	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	à	à	ADP	_	_	14	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	14	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	dix	dix	DET	_	Number=Plur	14	det	_	_
 14	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
@@ -656,12 +656,12 @@
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	xcomp	_	Scrap=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	10	punct	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 14	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	début	début	NOUN	_	Gender=Masc|Number=Sing	18	reparandum	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	début	début	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 19	août	août	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
@@ -742,7 +742,7 @@
 32	de	de	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	été	été	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	36	punct	_	_
+35	,	,	PUNCT	_	_	31	punct	_	_
 36	colo	colo	NOUN	_	Gender=Fem|Number=Sing	30	flat	_	_
 37	écrivains	écrivain	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	7	punct	_	_

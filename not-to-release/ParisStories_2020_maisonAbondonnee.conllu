@@ -106,7 +106,7 @@
 22	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
 23	là-bas	là-bas	ADV	_	_	22	advmod	_	_
 24	qui	qui	PRON	_	PronType=Rel	28	reparandum	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	_
+25	,	,	PUNCT	_	_	24	punct	_	_
 26	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	_
@@ -317,7 +317,7 @@
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
 15	effacé	effacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	22	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	SpaceAfter=No
@@ -348,7 +348,7 @@
 6	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	même	même	ADV	_	_	6	advmod	_	_
 8	pour	pour	ADP	_	_	13	mark	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	13	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	13	obj	_	_
@@ -394,7 +394,7 @@
 6	contents	content	ADJ	_	Gender=Masc|Number=Plur	3	xcomp	_	_
 7	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
-9	,	,	PUNCT	_	_	16	punct	_	_
+9	,	,	PUNCT	_	_	7	punct	_	_
 10	ben	ben	INTJ	_	_	16	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
@@ -453,7 +453,7 @@
 10	fer	fer	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
 12	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	root	_	_

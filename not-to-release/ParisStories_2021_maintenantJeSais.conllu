@@ -25,12 +25,12 @@
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	dépassait	dépasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	15	case	_	wordform=du
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	dep	_	Scrap=Yes
+11	de	de	ADP	_	_	15	reparandum	_	wordform=du
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	dep	_	Scrap=Yes
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	10	obl:arg	_	wordform=du
+13	de	de	ADP	_	_	15	case	_	wordform=du
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	berceau	berceau	NOUN	_	Gender=Masc|Number=Sing	13	reparandum	_	SpaceAfter=No
+15	berceau	berceau	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_maintenantJeSais_3
@@ -160,7 +160,7 @@
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
 11	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	obj	_	_
 12	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	Reported=Yes|SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 15	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	obj	_	SpaceAfter=No
 16	observe	observer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
@@ -306,7 +306,7 @@
 24	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 25	:	:	PUNCT	_	_	28	punct	_	_
 26	de	de	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
-27	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	26	fixed	_	InIdiom=Yes|SpaceAfter=No
+27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	fixed	_	InIdiom=Yes|SpaceAfter=No
 28	étonnement	étonnement	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	46	punct	_	_
 30	de	de	ADP	_	ExtPos=DET	32	det	_	Idiom=Yes
@@ -322,7 +322,7 @@
 40	mot	mot	NOUN	_	Gender=Masc|Number=Sing	37	xcomp	_	_
 41	qui	qui	PRON	_	PronType=Rel	42	nsubj	_	_
 42	convient	convier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	SpaceAfter=No
-43	,	,	PUNCT	_	_	46	punct	_	_
+43	,	,	PUNCT	_	_	32	punct	_	_
 44	de	de	ADP	_	ExtPos=DET	46	det	_	Idiom=Yes
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	fixed	_	InIdiom=Yes
 46	fascination	fascination	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
@@ -339,7 +339,7 @@
 6	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	qu'	qu'	SCONJ	_	_	21	mark	_	SpaceAfter=No
+9	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
 10	en	en	ADP	_	_	11	case	_	_
 11	fait	fait	NOUN	_	Gender=Masc|Number=Sing	21	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -387,14 +387,14 @@
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	10	cop	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	XXX	XXX	X	_	_	3	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
 12	et	et	CCONJ	_	_	19	cc	_	_
 13	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	19	punct	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
 15	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	dislocated	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
@@ -403,7 +403,7 @@
 20	,	,	PUNCT	_	_	28	punct	_	_
 21	et	et	CCONJ	_	_	28	cc	_	_
 22	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	28	punct	_	_
+23	,	,	PUNCT	_	_	22	punct	_	_
 24	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	27	det	_	_
@@ -416,7 +416,7 @@
 33	uniques	unique	ADJ	_	Number=Plur	31	conj	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	39	punct	_	_
 35	et	et	CCONJ	_	_	39	cc	_	_
-36	qu'	qu'	SCONJ	_	_	39	mark	_	SpaceAfter=No
+36	qu'	que	SCONJ	_	_	39	mark	_	SpaceAfter=No
 37	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	_
 38	ne	ne	ADV	_	_	39	advmod	_	_
 39	ressembleraient	ressembler	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
@@ -464,11 +464,11 @@
 10	ces	ce	DET	_	Number=Plur|PronType=Dem	12	det	_	_
 11	cinq	cinq	NUM	_	Number=Plur	12	nummod	_	_
 12	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
-13	d'	d'	ADP	_	_	14	case	_	SpaceAfter=No
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	angoisses	angoisse	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	de	de	ADP	_	_	22	reparandum	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	22	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
@@ -487,7 +487,7 @@
 1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	reparandum	_	_
 2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 6	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_

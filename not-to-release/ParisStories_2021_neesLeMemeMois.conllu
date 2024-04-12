@@ -12,7 +12,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	thème	thème	NOUN	_	Gender=Masc|Number=Sing	15	dislocated	_	_
-10	d'	d'	ADP	_	_	11	case	_	SpaceAfter=No
+10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	aujourd'hui	aujourd'hui	ADV	_	_	9	advmod	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -82,7 +82,7 @@
 18	,	,	PUNCT	_	_	30	punct	_	_
 19	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
-21	,	,	PUNCT	_	_	30	punct	_	_
+21	,	,	PUNCT	_	_	19	punct	_	_
 22	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	30	dislocated	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24-25	du	_	_	_	_	_	_	_	_
@@ -146,16 +146,16 @@
 6	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	dislocated	_	_
 7	à	à	ADP	_	_	8	case	_	_
 8	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
-9	d'	d'	ADP	_	_	11	case	_	SpaceAfter=No
+9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	de	de	ADP	_	_	17	reparandum	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	17	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	saut	saut	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-18	d'	d'	ADP	_	_	19	case	_	SpaceAfter=No
+18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 19	obstacles	obstacle	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
@@ -273,7 +273,7 @@
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -365,7 +365,7 @@
 11	,	,	PUNCT	_	_	7	punct	_	_
 12	où	où	PRON	_	PronType=Rel	16	obl:mod	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	reparandum	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 16	goûtait	goûter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
@@ -394,7 +394,7 @@
 1	qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	nsubj	_	wordform=ce
-4	qu'	qu'	SCONJ	_	_	6	dep:comp	_	SpaceAfter=No
+4	qu'	que	SCONJ	_	_	6	dep:comp	_	SpaceAfter=No
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 6	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl:cleft	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	1	punct	_	_
@@ -436,7 +436,7 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	bien	bien	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
-7	jusqu'	jusqu'	ADP	_	_	10	case	_	SpaceAfter=No
+7	jusqu'	jusque	ADP	_	_	10	case	_	SpaceAfter=No
 8	à	à	ADP	_	_	10	case	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	moment	moment	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
@@ -510,12 +510,12 @@
 5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
 10	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	neuf	neuf	NUM	_	Gender=Masc|Number=Sing	12	nummod	_	_
 12	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
-13	qu'	qu'	SCONJ	_	_	16	mark	_	SpaceAfter=No
+13	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 15	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	ccomp	_	SpaceAfter=No
@@ -547,11 +547,11 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	bientôt	bientôt	ADV	_	_	7	advmod	_	_
 7	vingt	vingt	NUM	_	Number=Plur	14	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	et	et	CCONJ	_	_	7	dep	_	Scrap=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	7	punct	_	_
 13	bientôt	bientôt	ADV	_	_	14	advmod	_	_
 14	vingt-et-un	vingt-et-un	NUM	_	Number=Plur	2	obj	_	SpaceAfter=No|wordform=vingt
 15	.	.	PUNCT	_	_	2	punct	_	_
@@ -578,7 +578,7 @@
 # text = parce qu'on est nées le même mois en plus!
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/98dfff1b4750050ab2d6a40612e4025174516ebf
 1	parce	parce	SCONJ	_	ExtPos=SCONJ	5	mark	_	AttachTo=2@ParisStories_2021_neesLeMemeMois_25|Idiom=Yes|Rel=mod
-2	qu'	qu'	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+2	qu'	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	nées	naître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -607,7 +607,7 @@
 3	ah	ah	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	si	si	SCONJ	_	_	11	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	11	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	après	après	ADV	_	_	11	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_

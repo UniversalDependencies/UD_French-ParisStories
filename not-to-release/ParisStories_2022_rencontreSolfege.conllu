@@ -93,11 +93,11 @@
 3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13610|AlignEnd=13851
 4	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=13851|AlignEnd=14185
 5	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=14185|AlignEnd=14519|Reported=Yes|SpaceAfter=No
-6	,	,	PUNCT	_	_	12	punct	_	AlignBegin=14519|AlignEnd=14519
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=14519|AlignEnd=14519
 7	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=14519|AlignEnd=14853|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=14853|AlignEnd=14853
 9	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	12	reparandum	_	AlignBegin=14853|AlignEnd=15187|SpaceAfter=No
-10	,	,	PUNCT	_	_	12	punct	_	AlignBegin=15187|AlignEnd=15187
+10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=15187|AlignEnd=15187
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=15187|AlignEnd=15521
 12	redoublante	redoublant	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	AlignBegin=15521|AlignEnd=15855
 13	?	?	PUNCT	_	_	3	punct	_	AlignBegin=15855|AlignEnd=15855
@@ -118,7 +118,7 @@
 # text = je suis, euh, redoublante.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=16557|AlignEnd=16732
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=16732|AlignEnd=16908|SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=16908|AlignEnd=16908
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=16908|AlignEnd=16908
 4	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=16908|AlignEnd=17083|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=17083|AlignEnd=17083
 6	redoublante	redoublant	ADJ	_	_	0	root	_	AlignBegin=17597|AlignEnd=18414|SpaceAfter=No
@@ -527,14 +527,14 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=66297|AlignEnd=66297
 7	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=66297|AlignEnd=66440
 8	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	advcl:cleft	_	AlignBegin=66440|AlignEnd=66584|SpaceAfter=No
-9	en	en	PRON	_	Person=3|PronType=Prs	11	reparandum	_	AlignBegin=66584|AlignEnd=66728|SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=66728|AlignEnd=66728
-11	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	7	dep	_	AlignBegin=66728|AlignEnd=66967|Scrap=Yes
+9	en	en	PRON	_	Person=3|PronType=Prs	11	reparandum	_	AlignBegin=66584|AlignEnd=66728|Scrap=Yes|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=66728|AlignEnd=66728
+11	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	7	dep	_	AlignBegin=66728|AlignEnd=66967
 12	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	14	expl:comp	_	AlignBegin=66967|AlignEnd=67205|SpaceAfter=No
 13	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux:tense	_	AlignBegin=67205|AlignEnd=67444
 14	souvenue	souvenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=67444|AlignEnd=67682
 15	de	de	ADP	_	_	20	reparandum	_	AlignBegin=67682|AlignEnd=67921|SpaceAfter=No
-16	,	,	PUNCT	_	_	20	punct	_	AlignBegin=67921|AlignEnd=67921
+16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=67921|AlignEnd=67921
 17	de	de	ADP	_	_	20	mark	_	AlignBegin=67921|AlignEnd=68120
 18	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obj	_	AlignBegin=68120|AlignEnd=68319|SpaceAfter=No
 19	avoir	avoir	AUX	_	VerbForm=Inf	20	aux:tense	_	AlignBegin=68319|AlignEnd=68518|Subject=SubjRaising
@@ -600,7 +600,7 @@
 27	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	obl:arg	_	AlignBegin=78533|AlignEnd=78963|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=78963|AlignEnd=78963
 29	hum	hum	INTJ	_	_	27	discourse	_	AlignBegin=78963|AlignEnd=79394|SpaceAfter=No
-30	,	,	PUNCT	_	_	33	punct	_	AlignBegin=79394|AlignEnd=79394
+30	,	,	PUNCT	_	_	25	punct	_	AlignBegin=79394|AlignEnd=79394
 31	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	AlignBegin=80153|AlignEnd=80471
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:tense	_	AlignBegin=80471|AlignEnd=80790
 33	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=80790|AlignEnd=81108|SpaceAfter=No
@@ -665,7 +665,7 @@
 21	,	,	PUNCT	_	_	31	punct	_	AlignBegin=89283|AlignEnd=89283
 22	mais	mais	CCONJ	_	_	31	cc	_	AlignBegin=89672|AlignEnd=90024
 23	quand	quand	SCONJ	_	_	31	mark	_	AlignBegin=90024|AlignEnd=90376|SpaceAfter=No
-24	,	,	PUNCT	_	_	31	punct	_	AlignBegin=90376|AlignEnd=90376
+24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=90376|AlignEnd=90376
 25	en	en	ADP	_	_	26	case	_	AlignBegin=90376|AlignEnd=90729
 26	fait	fait	NOUN	_	Gender=Masc|Number=Sing	31	discourse	_	AlignBegin=90729|AlignEnd=91081|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=91081|AlignEnd=91081
@@ -733,9 +733,9 @@
 10	non	non	ADV	_	_	17	discourse	_	AlignBegin=103204|AlignEnd=103370|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=103370|AlignEnd=103370
 12	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	reparandum	_	AlignBegin=103370|AlignEnd=103535|SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	AlignBegin=103535|AlignEnd=103535
+13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=103535|AlignEnd=103535
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	reparandum	_	AlignBegin=103535|AlignEnd=103701|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=103701|AlignEnd=103701
+15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=103701|AlignEnd=103701
 16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=103999|AlignEnd=104154
 17	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	AlignBegin=104154|AlignEnd=104309|Reported=Yes
 18	que	que	SCONJ	_	_	21	mark	_	AlignBegin=104309|AlignEnd=104465
@@ -801,7 +801,7 @@
 13	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	expl:pv	_	AlignBegin=111559|AlignEnd=111722
 14	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	AlignBegin=111722|AlignEnd=111886
 15	que	que	SCONJ	_	_	22	mark	_	AlignBegin=111886|AlignEnd=112049|SpaceAfter=No
-16	,	,	PUNCT	_	_	22	punct	_	AlignBegin=112049|AlignEnd=112049
+16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=112049|AlignEnd=112049
 17	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=112652|AlignEnd=112908|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=112908|AlignEnd=112908
 19	quand	quand	SCONJ	_	_	22	mark	_	AlignBegin=112908|AlignEnd=113164
@@ -841,11 +841,11 @@
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=118209|AlignEnd=118209
 18	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	19	nsubj	_	AlignBegin=118526|AlignEnd=118681
 19	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	discourse	_	AlignBegin=118681|AlignEnd=118837|SpaceAfter=No
-20	,	,	PUNCT	_	_	29	punct	_	AlignBegin=118837|AlignEnd=118837
+20	,	,	PUNCT	_	_	15	punct	_	AlignBegin=118837|AlignEnd=118837
 21	de	de	ADP	_	_	23	case	_	AlignBegin=118837|AlignEnd=118992
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	AlignBegin=118992|AlignEnd=119148
 23	date	date	NOUN	_	Gender=Fem|Number=Sing	29	reparandum	_	AlignBegin=119148|AlignEnd=119303|SpaceAfter=No
-24	,	,	PUNCT	_	_	29	punct	_	AlignBegin=119303|AlignEnd=119303
+24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=119303|AlignEnd=119303
 25	mais	mais	CCONJ	_	_	29	cc	_	AlignBegin=119303|AlignEnd=119499
 26	plus	plus	ADV	_	_	29	advmod	_	AlignBegin=119499|AlignEnd=119696
 27-28	des	_	_	_	_	_	_	_	_
@@ -895,7 +895,7 @@
 12	mais	mais	CCONJ	_	_	19	cc	_	AlignBegin=124578|AlignEnd=124682
 13	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	reparandum	_	AlignBegin=124682|AlignEnd=124786
 14	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	19	obj	_	AlignBegin=124786|AlignEnd=124890|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=124890|AlignEnd=124890
+15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=124890|AlignEnd=124890
 16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=124890|AlignEnd=125061
 17	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	19	obj	_	AlignBegin=125061|AlignEnd=125233|SpaceAfter=No
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	AlignBegin=125233|AlignEnd=125404|Reported=Yes
@@ -947,7 +947,7 @@
 12	,	,	PUNCT	_	_	4	punct	_	AlignBegin=131630|AlignEnd=131630
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	AlignBegin=131630|AlignEnd=131815|SpaceAfter=No
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	AlignBegin=131815|AlignEnd=131999|SpaceAfter=No
-15	,	,	PUNCT	_	_	22	punct	_	AlignBegin=131999|AlignEnd=131999
+15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=131999|AlignEnd=131999
 16	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=131999|AlignEnd=132183|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=132183|AlignEnd=132183
 18	bah	bah	INTJ	_	_	22	discourse	_	AlignBegin=132578|AlignEnd=132926|SpaceAfter=No
