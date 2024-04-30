@@ -28,7 +28,7 @@
 9	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=4756|AlignEnd=5106|SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	cop	_	AlignBegin=5106|AlignEnd=5455
 11	avec	avec	ADP	_	_	18	case	_	AlignBegin=5455|AlignEnd=5805|SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=5805|AlignEnd=5805
+12	,	,	PUNCT	_	_	18	punct	_	AlignBegin=5805|AlignEnd=5805
 13	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=5805|AlignEnd=6155|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=6155|AlignEnd=6155
 15	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=6155|AlignEnd=6505

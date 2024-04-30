@@ -266,7 +266,7 @@
 2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	AlignBegin=56155|AlignEnd=56444
 3	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=56444|AlignEnd=56732
 4	de	de	ADP	_	_	10	mark	_	AlignBegin=56732|AlignEnd=57020|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=57020|AlignEnd=57020
+5	,	,	PUNCT	_	_	10	punct	_	AlignBegin=57020|AlignEnd=57020
 6	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=57020|AlignEnd=57308|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=57308|AlignEnd=57308
 8	quand	quand	SCONJ	_	_	10	mark	_	AlignBegin=57308|AlignEnd=57597
@@ -396,7 +396,7 @@
 28	,	,	PUNCT	_	_	27	punct	_	AlignBegin=87748|AlignEnd=87748
 29	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	33	nsubj	_	AlignBegin=87748|AlignEnd=88466|SpaceAfter=No
 30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	AlignBegin=88466|AlignEnd=89183|SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	AlignBegin=89183|AlignEnd=89183
+31	,	,	PUNCT	_	_	33	punct	_	AlignBegin=89183|AlignEnd=89183
 32	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	33	det	_	AlignBegin=89183|AlignEnd=89900
 33	père	père	NOUN	_	Gender=Masc|Number=Sing	22	ccomp	_	AlignBegin=89900|AlignEnd=90617|SpaceAfter=No
 34	.	.	PUNCT	_	_	8	punct	_	AlignBegin=90617|AlignEnd=90617
@@ -753,7 +753,7 @@
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=173223|AlignEnd=173223
 
 # sent_id = ParisStories_2022_20_LesParentsInconnus__35
-# sound_url = PS_2022_20_LesParentsInconnus.mp3
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/86b98d9610ef59da002ccadd00d7c0f4c16202d8
 # speaker = L1
 # text = mh.
 1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=169056|AlignEnd=169750|SpaceAfter=No

@@ -18,14 +18,14 @@
 14	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
 15	dire	dire	VERB	_	VerbForm=Inf	10	advcl	_	Subject=NoRaising
 16	que	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	22	punct	_	_
 18	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 21	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	aux:pass	_	_
 22	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
 23	pour	pour	ADP	_	_	28	case	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
+24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -148,7 +148,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	studio	studio	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	_
 30	pour	pour	ADP	_	_	34	mark	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	_
+31	,	,	PUNCT	_	_	34	punct	_	_
 32	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	essayer	essayer	VERB	_	VerbForm=Inf	23	advcl	_	Subject=NoRaising
@@ -354,7 +354,7 @@
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	_
+20	,	,	PUNCT	_	_	23	punct	_	_
 21	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	fermée	fermer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No

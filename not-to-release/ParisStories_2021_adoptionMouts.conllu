@@ -436,7 +436,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	16	punct	_	_
 9	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	pour	pour	ADP	_	_	13	case	_	_

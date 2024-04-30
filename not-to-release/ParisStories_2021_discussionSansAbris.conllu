@@ -575,7 +575,7 @@
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	14	punct	_	_
 9	pour	pour	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	coup	coup	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	SpaceAfter=No
@@ -723,7 +723,7 @@
 6	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	16	punct	_	_
 10	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No

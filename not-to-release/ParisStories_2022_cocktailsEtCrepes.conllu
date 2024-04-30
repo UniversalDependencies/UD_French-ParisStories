@@ -51,7 +51,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=7674|AlignEnd=7916
 9	vrai	vrai	ADJ	_	_	0	root	_	AlignBegin=7916|AlignEnd=8157
 10	que	que	SCONJ	_	_	16	mark	_	AlignBegin=8157|AlignEnd=8399|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=8399|AlignEnd=8399
+11	,	,	PUNCT	_	_	16	punct	_	AlignBegin=8399|AlignEnd=8399
 12	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=8399|AlignEnd=8640|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=8640|AlignEnd=8640
 14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	AlignBegin=8640|AlignEnd=8882

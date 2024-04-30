@@ -294,7 +294,7 @@
 # text = que… tu dois connaître par cœur, sur le bout des doigts.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/5299e17ac172ff33449605a94034e33a5bb88690
 1	que	que	SCONJ	_	_	4	mark	_	SpaceAfter=No
-2	…	…	PUNCT	_	_	1	punct	_	_
+2	…	…	PUNCT	_	_	4	punct	_	_
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	connaître	connaître	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
@@ -582,7 +582,7 @@
 3	à	à	ADP	_	_	4	mark	_	_
 4	dire	dire	VERB	_	VerbForm=Inf	2	ccomp	_	Subject=NoRaising
 5	que	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	12	punct	_	_
 7	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	8	obj	_	_
 8	déguiser	déguiser	VERB	_	VerbForm=Inf	12	dislocated	_	Subject=NoRaising
 9	en	en	ADP	_	_	10	case	_	_
@@ -731,7 +731,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 2	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	9	punct	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	re~	re~	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	reparandum	_	SpaceAfter=No
@@ -917,7 +917,7 @@
 9	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 10	greffer	greffer	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
 11	sur	sur	ADP	_	_	16	case	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	16	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	_
@@ -1415,7 +1415,7 @@
 9	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	24	punct	_	_
 13	alors	alors	ADV	_	_	20	discourse	_	_
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	discourse	_	_
@@ -3111,14 +3111,14 @@
 14	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
 15	dire	dire	VERB	_	VerbForm=Inf	10	advcl	_	Subject=NoRaising
 16	que	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	22	punct	_	_
 18	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 21	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	aux:pass	_	_
 22	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
 23	pour	pour	ADP	_	_	28	case	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
+24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -3241,7 +3241,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	studio	studio	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	_
 30	pour	pour	ADP	_	_	34	mark	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	30	punct	_	_
+31	,	,	PUNCT	_	_	34	punct	_	_
 32	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	essayer	essayer	VERB	_	VerbForm=Inf	23	advcl	_	Subject=NoRaising
@@ -3447,7 +3447,7 @@
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:pass	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	_
+20	,	,	PUNCT	_	_	23	punct	_	_
 21	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	fermée	fermer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -5499,7 +5499,7 @@
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	que	que	SCONJ	_	_	18	mark	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+13	,	,	PUNCT	_	_	18	punct	_	_
 14	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
@@ -5509,14 +5509,14 @@
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	film	film	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 22	sur	sur	ADP	_	_	27	case	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	27	punct	_	_
 24	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	école	école	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 28	de	de	ADP	_	_	31	case	_	_
-29	"	"	PUNCT	_	_	28	punct	_	_
-30	"	"	PUNCT	_	_	28	punct	_	_
+29	"	"	PUNCT	_	_	31	punct	_	_
+30	"	"	PUNCT	_	_	31	punct	_	_
 31	Montessori	Montessori	PROPN	_	_	27	nmod	_	_
 32	"	"	PUNCT	_	_	31	punct	_	_
 33	"	"	PUNCT	_	_	31	punct	_	_
@@ -5645,7 +5645,7 @@
 20	Adrien	Adrien	PROPN	_	_	26	nsubj	_	_
 21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	iobj	_	_
 22	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:tense	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	SpaceAfter=No
@@ -5818,7 +5818,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	11	punct	_	_
 7	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
@@ -8641,7 +8641,7 @@
 3	à	à	ADP	_	_	4	mark	_	_
 4	dire	dire	VERB	_	VerbForm=Inf	2	ccomp	_	Subject=NoRaising
 5	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	16	punct	_	_
 7	euh	euh	INTJ	_	_	16	discourse	_	_
 8	maintenant	maintenant	ADV	_	_	16	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -9896,7 +9896,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	repeint	repeindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -9953,7 +9953,7 @@
 20	,	,	PUNCT	_	_	16	punct	_	_
 21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
 22	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	aux:tense	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -10170,7 +10170,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
 15	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	expl:subj	_	_
 16	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	19	punct	_	_
 18	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	que	que	SCONJ	_	_	22	mark	_	_
@@ -10291,7 +10291,7 @@
 19	,	,	PUNCT	_	_	26	punct	_	_
 20	parce	parce	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 21	que	que	SCONJ	_	_	20	fixed	_	InIdiom=Yes|SpaceAfter=No
-22	,	,	PUNCT	_	_	20	punct	_	_
+22	,	,	PUNCT	_	_	26	punct	_	_
 23	sinon	sinon	ADV	_	_	26	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
@@ -11903,7 +11903,7 @@
 8	en	en	ADP	_	_	9	case	_	_
 9	binôme	binôme	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
 10	avec	avec	ADP	_	_	16	case	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
+11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	justement	justement	ADV	_	_	16	advmod	_	_
@@ -11947,7 +11947,7 @@
 21	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	sur	sur	ADP	_	_	28	case	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
+24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -12069,7 +12069,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	sauf	sauf	ADP	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	9	punct	_	_
 4	bah	bah	INTJ	_	_	9	discourse	_	_
 5	effectivement	effectivement	ADV	_	_	9	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -12279,7 +12279,7 @@
 10	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
 11	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	avec	avec	ADP	_	_	17	case	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+13	,	,	PUNCT	_	_	17	punct	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	_
@@ -12465,7 +12465,7 @@
 10	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	sur	sur	ADP	_	_	17	case	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+13	,	,	PUNCT	_	_	17	punct	_	_
 14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -12475,7 +12475,7 @@
 20	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 21	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	27	punct	_	_
 24	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -12870,7 +12870,7 @@
 10	à	à	ADP	_	_	14	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	à	à	ADP	_	_	14	case	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
 14	Etoile	Etoile	PROPN	_	_	8	appos	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -12957,7 +12957,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	moins	moins	ADV	_	_	12	nmod	_	_
 7	peut-être	peut-être	ADV	_	_	12	advmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -14213,7 +14213,7 @@
 13	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	compte	compte	NOUN	_	Gender=Masc|Number=Sing	13	obj:lvc	_	_
 15	que	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	25	punct	_	_
 17	oui	oui	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
@@ -14335,7 +14335,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	que	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	17	punct	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	coup	coup	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	SpaceAfter=No
@@ -14527,7 +14527,7 @@
 38	,	,	PUNCT	_	_	45	punct	_	_
 39	qui	qui	PRON	_	PronType=Rel	45	nsubj	_	_
 40	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	45	aux:tense	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	40	punct	_	_
+41	,	,	PUNCT	_	_	45	punct	_	_
 42	quand	quand	SCONJ	_	ExtPos=ADV	45	advmod	_	Idiom=Yes
 43	même	même	ADV	_	_	42	fixed	_	InIdiom=Yes|SpaceAfter=No
 44	,	,	PUNCT	_	_	42	punct	_	_
@@ -14561,7 +14561,7 @@
 22	si	si	SCONJ	_	_	31	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	que	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	24	punct	_	_
+25	,	,	PUNCT	_	_	31	punct	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	animal	animal	NOUN	_	Gender=Masc|Number=Sing	31	dislocated	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
@@ -15054,7 +15054,7 @@
 6	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	même	même	ADV	_	_	6	advmod	_	_
 8	pour	pour	ADP	_	_	13	mark	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	13	punct	_	_
 10	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	13	obj	_	_
@@ -15100,7 +15100,7 @@
 6	contents	content	ADJ	_	Gender=Masc|Number=Plur	3	xcomp	_	_
 7	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	16	punct	_	_
 10	ben	ben	INTJ	_	_	16	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
@@ -15159,7 +15159,7 @@
 10	fer	fer	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
 12	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+13	,	,	PUNCT	_	_	16	punct	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	root	_	_
@@ -15617,7 +15617,7 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	6	punct	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	chemins	chemin	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -15873,7 +15873,7 @@
 15	à	à	ADP	_	_	16	case	_	_
 16	Paris	Paris	PROPN	_	_	14	obl:arg	_	_
 17	puisque	puisque	SCONJ	_	_	22	mark	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
@@ -15959,7 +15959,7 @@
 14	puisque	puisque	SCONJ	_	_	20	mark	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 16	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	fan	fan	NOUN	_	Gender=Fem|Number=Sing	11	advcl	_	_
@@ -16097,7 +16097,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	7	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	InTitle=Yes
@@ -16330,7 +16330,7 @@
 27	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	28	iobj	_	_
 28	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 29	que	que	SCONJ	_	_	34	mark	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	29	punct	_	_
+30	,	,	PUNCT	_	_	34	punct	_	_
 31	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	nsubj	_	_
@@ -18022,7 +18022,7 @@
 5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	14	punct	_	_
 9	pour	pour	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	coup	coup	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	SpaceAfter=No
@@ -18170,7 +18170,7 @@
 6	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	16	punct	_	_
 10	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
@@ -18678,14 +18678,14 @@
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	10	cop	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	10	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	XXX	XXX	X	_	_	3	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
 12	et	et	CCONJ	_	_	19	cc	_	_
 13	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	_
+14	,	,	PUNCT	_	_	19	punct	_	_
 15	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	dislocated	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
@@ -18694,7 +18694,7 @@
 20	,	,	PUNCT	_	_	28	punct	_	_
 21	et	et	CCONJ	_	_	28	cc	_	_
 22	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	28	punct	_	_
 24	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	27	det	_	_
@@ -18922,7 +18922,7 @@
 18	,	,	PUNCT	_	_	30	punct	_	_
 19	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
-21	,	,	PUNCT	_	_	19	punct	_	_
+21	,	,	PUNCT	_	_	30	punct	_	_
 22	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	30	dislocated	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24-25	du	_	_	_	_	_	_	_	_
@@ -19447,7 +19447,7 @@
 3	ah	ah	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	si	si	SCONJ	_	_	11	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	11	punct	_	_
 7	après	après	ADV	_	_	11	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_
@@ -19719,7 +19719,7 @@
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	20	punct	_	_
 9	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	non	non	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
@@ -20134,7 +20134,7 @@
 9	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	Reported=Yes
 11	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	28	punct	_	_
 13	si	si	SCONJ	_	_	19	mark	_	_
 14	vraiment	vraiment	ADV	_	_	19	advmod	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	reparandum	_	SpaceAfter=No
@@ -20894,7 +20894,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	15	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	caisse	caisse	NOUN	_	Gender=Fem|Number=Sing	15	dislocated	_	_
 7	où	où	PRON	_	PronType=Rel	9	obl:mod	_	_
@@ -21138,7 +21138,7 @@
 23	rencontrer	rencontrer	VERB	_	VerbForm=Inf	17	advcl	_	Subject=NoRaising
 24	parce	parce	ADV	_	ExtPos=SCONJ	30	case	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes|SpaceAfter=No
-26	,	,	PUNCT	_	_	24	punct	_	_
+26	,	,	PUNCT	_	_	30	punct	_	_
 27	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	30	dep	_	_
@@ -21183,7 +21183,7 @@
 14	craqué	craquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	parce	parce	ADV	_	ExtPos=SCONJ	24	mark	_	Idiom=Yes
 16	que	que	SCONJ	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
-17	,	,	PUNCT	_	_	15	punct	_	_
+17	,	,	PUNCT	_	_	24	punct	_	_
 18	bah	bah	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
@@ -21797,7 +21797,7 @@
 2	,	,	PUNCT	_	_	10	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
+5	,	,	PUNCT	_	_	10	punct	_	_
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	six	six	NUM	_	Number=Plur	9	nummod	_	_
@@ -22665,7 +22665,7 @@
 10	raconter	raconter	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	12	punct	_	_
+13	,	,	PUNCT	_	_	19	punct	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	reparandum	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
@@ -22757,7 +22757,7 @@
 35	inscrire	inscrire	VERB	_	VerbForm=Inf	41	reparandum	_	SpaceAfter=No|Subject=NoRaising
 36	,	,	PUNCT	_	_	35	punct	_	_
 37	pour	pour	ADP	_	_	41	mark	_	SpaceAfter=No
-38	,	,	PUNCT	_	_	37	punct	_	_
+38	,	,	PUNCT	_	_	41	punct	_	_
 39	euh	euh	INTJ	_	_	41	discourse	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
 41	rendre	rendre	VERB	_	VerbForm=Inf	27	acl	_	Subject=NoRaising
@@ -23565,7 +23565,7 @@
 19	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	de	de	ADP	_	_	23	case	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	21	punct	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	reparandum	_	Scrap=Yes|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	hum	hum	INTJ	_	_	29	discourse	_	SpaceAfter=No
@@ -24115,7 +24115,7 @@
 9	de	de	ADP	_	_	13	reparandum	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	de	de	ADP	_	_	13	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
 13	prendre	prendre	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	reparandum	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -24850,7 +24850,7 @@
 5	là	là	ADV	_	_	0	root	_	_
 6	en	en	ADP	_	ExtPos=ADP	16	mark	_	Idiom=Yes
 7	mode	mode	NOUN	_	Number=Sing	6	fixed	_	InIdiom=Yes|SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	_
+8	,	,	PUNCT	_	_	16	punct	_	_
 9	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	mais	mais	CCONJ	_	_	16	cc	_	SpaceAfter=No
@@ -24989,7 +24989,7 @@
 15	,	,	PUNCT	_	_	27	punct	_	_
 16	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	fixed	_	InIdiom=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	16	punct	_	_
+18	,	,	PUNCT	_	_	27	punct	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	wordform=du
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -25055,7 +25055,7 @@
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=298|AlignEnd=596
 4	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=596|AlignEnd=894
 5	que	que	SCONJ	_	_	14	mark	_	AlignBegin=894|AlignEnd=1192|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=1192|AlignEnd=1192
+6	,	,	PUNCT	_	_	14	punct	_	AlignBegin=1192|AlignEnd=1192
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=1192|AlignEnd=1489
 8	mieux	mieux	ADV	_	_	14	dislocated	_	AlignBegin=1489|AlignEnd=1787
 9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	AlignBegin=1787|AlignEnd=2085
@@ -25706,7 +25706,7 @@
 83	enfants	enfant	NOUN	_	Number=Plur	85	nsubj	_	AlignBegin=144597|AlignEnd=144855
 84	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	85	aux:tense	_	AlignBegin=144855|AlignEnd=145113
 85	nés	naître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	88	advcl	_	AlignBegin=145113|AlignEnd=145371|SpaceAfter=No
-86	,	,	PUNCT	_	_	85	punct	_	AlignBegin=145371|AlignEnd=145371
+86	,	,	PUNCT	_	_	88	punct	_	AlignBegin=145371|AlignEnd=145371
 87	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	88	nsubj	_	AlignBegin=145371|AlignEnd=145629
 88	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	95	reparandum	_	AlignBegin=145629|AlignEnd=145886
 89	pas	pas	ADV	_	_	88	advmod	_	AlignBegin=145886|AlignEnd=146144
@@ -26076,7 +26076,7 @@
 4	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=51758|AlignEnd=51999
 5	comme	comme	ADP	_	_	13	mark	_	AlignBegin=51999|AlignEnd=52240
 6	si	si	SCONJ	_	_	13	mark	_	AlignBegin=52240|AlignEnd=52482|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=52482|AlignEnd=52482
+7	,	,	PUNCT	_	_	13	punct	_	AlignBegin=52482|AlignEnd=52482
 8	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=52482|AlignEnd=52723|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=52723|AlignEnd=52723
 10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	AlignBegin=52723|AlignEnd=52964
@@ -26462,7 +26462,7 @@
 9	,	,	PUNCT	_	_	20	punct	_	AlignBegin=121698|AlignEnd=121698
 10	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=121698|AlignEnd=121897|Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	AlignBegin=121897|AlignEnd=122096|InIdiom=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	10	punct	_	AlignBegin=122096|AlignEnd=122096
+12	,	,	PUNCT	_	_	20	punct	_	AlignBegin=122096|AlignEnd=122096
 13	pour	pour	ADP	_	_	15	case	_	AlignBegin=122096|AlignEnd=122295
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=122295|AlignEnd=122495
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	20	discourse	_	AlignBegin=122495|AlignEnd=122694|SpaceAfter=No
@@ -26474,7 +26474,7 @@
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	AlignBegin=123411|AlignEnd=123670|SpaceAfter=No
 22	impression	impression	NOUN	_	Gender=Fem|Number=Sing	20	obj:lvc	_	AlignBegin=123670|AlignEnd=123928
 23	que	que	SCONJ	_	_	41	mark	_	AlignBegin=123928|AlignEnd=124187|SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=124187|AlignEnd=124187
+24	,	,	PUNCT	_	_	41	punct	_	AlignBegin=124187|AlignEnd=124187
 25	euh	euh	INTJ	_	_	41	discourse	_	AlignBegin=124187|AlignEnd=124446|SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=124446|AlignEnd=124446
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	AlignBegin=124446|AlignEnd=124705
@@ -26561,7 +26561,7 @@
 28	.	.	PUNCT	_	_	4	punct	_	AlignBegin=135312|AlignEnd=135312
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__1
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = le jour où j'ai rencontré ma petite soeur, euh, bah, déjà, ça faisait longtemps que je l'attendais, plus que neuf mois quand même, parce que je l'avais demandée avant.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=0|AlignEnd=344
@@ -26605,7 +26605,7 @@
 39	.	.	PUNCT	_	_	18	punct	_	AlignBegin=7861|AlignEnd=7861
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__2
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = donc, je suis pas allée voir, la voir le jour même, parce qu'elle est née euh, je crois qu'elle est née le soir.
 1	donc	donc	ADV	_	_	6	advmod	_	AlignBegin=7861|AlignEnd=8027|SpaceAfter=No
@@ -26640,7 +26640,7 @@
 30	.	.	PUNCT	_	_	6	punct	_	AlignBegin=12882|AlignEnd=12882
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__3
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = ouais, elle est née le soir, euh, tard.
 1	ouais	ouais	INTJ	_	_	5	discourse	_	AlignBegin=12882|AlignEnd=13085|SpaceAfter=No
@@ -26657,7 +26657,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	AlignBegin=14509|AlignEnd=14509
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__4
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = du coup moi, ce soir-là, j'étais chez mon oncle et ma tante.
 1-2	du	_	_	_	_	_	_	_	_
@@ -26681,7 +26681,7 @@
 18	.	.	PUNCT	_	_	11	punct	_	AlignBegin=17847|AlignEnd=17847
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__5
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = il y avait mes cousins avec moi.
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=17847|AlignEnd=18144
@@ -26694,7 +26694,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=19923|AlignEnd=19923
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__6
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et on était, euh, tous euh autour du téléphone.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=19923|AlignEnd=20155
@@ -26713,7 +26713,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=22784|AlignEnd=22784
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__7
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je me souviens, j'étais sur les genoux de ma tante.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=22784|AlignEnd=22942
@@ -26731,7 +26731,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	AlignBegin=24524|AlignEnd=24524
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__8
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et euh, il y a le téléphone qui a sonné.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=24524|AlignEnd=24799
@@ -26748,7 +26748,7 @@
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=27273|AlignEnd=27273
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__9
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = on nous a dit qu'elle était née.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=27273|AlignEnd=27455
@@ -26762,7 +26762,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=28731|AlignEnd=28731
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__10
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et vu qu'on avait tous, pff …
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=28731|AlignEnd=29054
@@ -26776,7 +26776,7 @@
 9	…	…	PUNCT	_	_	2	punct	_	AlignBegin=30990|AlignEnd=30990
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__11
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = j'avais sept ans, je crois.
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=30990|AlignEnd=31228|SpaceAfter=No
@@ -26789,7 +26789,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=32420|AlignEnd=32420
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__12
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mon cousin, il devait avoir huit ans, mon autre petit cousin, quatre.
 1	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	AlignBegin=32420|AlignEnd=32628
@@ -26810,7 +26810,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	AlignBegin=35646|AlignEnd=35646
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__13
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = du coup, bah, on est tous allé se coucher.
 1-2	du	_	_	_	_	_	_	_	_
@@ -26829,7 +26829,7 @@
 13	.	.	PUNCT	_	_	10	punct	_	AlignBegin=37245|AlignEnd=37245
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__14
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et après, donc le lendemain, on est allé la voir à l'hôpital.
 1	et	et	CCONJ	_	_	10	cc	_	AlignBegin=37245|AlignEnd=37834
@@ -26850,7 +26850,7 @@
 16	.	.	PUNCT	_	_	10	punct	_	AlignBegin=40331|AlignEnd=40331
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__15
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je me souviens pas vraiment du jour.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=40331|AlignEnd=40612
@@ -26865,7 +26865,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42295|AlignEnd=42295
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__16
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je me souviens juste que, euh, elle était vraiment moche, mais genre très très moche.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=42295|AlignEnd=42636
@@ -26873,7 +26873,7 @@
 3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42977|AlignEnd=43319
 4	juste	juste	ADV	_	_	3	advmod	_	AlignBegin=43319|AlignEnd=43660
 5	que	que	SCONJ	_	_	12	mark	_	AlignBegin=43660|AlignEnd=44001|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=44001|AlignEnd=44001
+6	,	,	PUNCT	_	_	12	punct	_	AlignBegin=44001|AlignEnd=44001
 7	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=44001|AlignEnd=44342|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=44342|AlignEnd=44342
 9	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=44342|AlignEnd=44639
@@ -26889,7 +26889,7 @@
 19	.	.	PUNCT	_	_	3	punct	_	AlignBegin=46699|AlignEnd=46699
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__17
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = bon, les bébés, quand ils naissent, ils sont moches.
 1	bon	bon	INTJ	_	_	12	discourse	_	AlignBegin=46699|AlignEnd=46906|SpaceAfter=No
@@ -26907,7 +26907,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	AlignBegin=48662|AlignEnd=48662
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__18
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais, euh, elle était toute rouge.
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=48662|AlignEnd=49025|SpaceAfter=No
@@ -26921,7 +26921,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=50570|AlignEnd=50570
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__19
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = elle était toute flétrie.
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=50570|AlignEnd=50991
@@ -26931,7 +26931,7 @@
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=52253|AlignEnd=52253
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__20
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = elle, euh, elle était pas belle.
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	reparandum	_	AlignBegin=52253|AlignEnd=52446|SpaceAfter=No
@@ -26945,7 +26945,7 @@
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=53413|AlignEnd=53413
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__21
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = puis, elle avait plein de cheveux.
 1	puis	puis	CCONJ	_	_	4	cc	_	AlignBegin=53413|AlignEnd=53606|SpaceAfter=No
@@ -26958,7 +26958,7 @@
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=54572|AlignEnd=54572
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__22
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = c'était bizarre.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	AlignBegin=54572|AlignEnd=54926|SpaceAfter=No
@@ -26967,7 +26967,7 @@
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=55635|AlignEnd=55635
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__23
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = elle était dans son, tu sais, c'est pas des landaus, c'est les trucs dans les hôpitaux là, je crois que c'est en verre.
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=55635|AlignEnd=55888
@@ -27003,7 +27003,7 @@
 31	.	.	PUNCT	_	_	18	punct	_	AlignBegin=60376|AlignEnd=60376
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__24
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je sais plus comment ça s'appelle.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=60376|AlignEnd=60540
@@ -27016,7 +27016,7 @@
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=61526|AlignEnd=61526
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__25
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = c'est pas les couveuses là.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	AlignBegin=61526|AlignEnd=61713|SpaceAfter=No
@@ -27028,7 +27028,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=62648|AlignEnd=62648
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__26
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais ils les mettent dedans.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=62648|AlignEnd=62856
@@ -27039,7 +27039,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=63686|AlignEnd=63686
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__27
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = elle était dedans avec ses, avec ses cheveux, là, qui sortaient de partout, et avec ses petites peluches.
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=63686|AlignEnd=63916
@@ -27067,7 +27067,7 @@
 23	.	.	PUNCT	_	_	2	punct	_	AlignBegin=67781|AlignEnd=67781
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__28
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et je l'ai prise dans mes bras.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=67781|AlignEnd=67988
@@ -27081,7 +27081,7 @@
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=69436|AlignEnd=69436
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__29
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = j'avoue, elle était mignonne quand même.
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=69436|AlignEnd=69620|SpaceAfter=No
@@ -27095,7 +27095,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=70727|AlignEnd=70727
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__30
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais, elle était pas très belle.
 1	mais	mais	CCONJ	_	_	7	cc	_	AlignBegin=70727|AlignEnd=70905|SpaceAfter=No
@@ -27108,7 +27108,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=71793|AlignEnd=71793
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__31
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais, elle était mignonne.
 1	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=71793|AlignEnd=71975|SpaceAfter=No
@@ -27119,7 +27119,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=72522|AlignEnd=72522
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__32
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et voilà, j'étais contente, parce que c'était ma petite soeur.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=72522|AlignEnd=72791
@@ -27139,7 +27139,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	AlignBegin=75075|AlignEnd=75075
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__33
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je la rencontrais pour la première fois.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=75075|AlignEnd=75464
@@ -27152,7 +27152,7 @@
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=77796|AlignEnd=77796
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__34
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je me souviens que dans l'hôpital, c'était, on était du coup, il y avait mon père, ma mère et moi.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=77796|AlignEnd=78033
@@ -27186,7 +27186,7 @@
 28	.	.	PUNCT	_	_	3	punct	_	AlignBegin=83265|AlignEnd=83265
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__35
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais du coup, il y avait aussi mon oncle et ma tante, vu qu'ils m'avaient emmenée, vu que j'avais dormi chez eux la veille.
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=83265|AlignEnd=83406
@@ -27224,7 +27224,7 @@
 32	.	.	PUNCT	_	_	8	punct	_	AlignBegin=87556|AlignEnd=87556
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__36
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et je me souviens que les garçons, ils avaient fait une course de chariot.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=87556|AlignEnd=87727
@@ -27245,7 +27245,7 @@
 16	.	.	PUNCT	_	_	4	punct	_	AlignBegin=90334|AlignEnd=90334
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__37
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = enfin, je crois ils avaient pris un, un chariot vide ou, je sais pas, tu sais, le truc là où on met les bébés.
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=90334|AlignEnd=90534|SpaceAfter=No
@@ -27280,7 +27280,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	AlignBegin=94586|AlignEnd=94586
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__38
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = et ils avaient courru avec, dans le couloir.
 1	et	et	CCONJ	_	_	4	cc	_	AlignBegin=94586|AlignEnd=94783
@@ -27295,7 +27295,7 @@
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=96365|AlignEnd=96365
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__39
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je sais pas s'ils s'étaient fait engueuler ou …
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=96365|AlignEnd=96554
@@ -27311,7 +27311,7 @@
 11	…	…	PUNCT	_	_	2	punct	_	AlignBegin=98251|AlignEnd=98251
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__40
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais ouais, ils avaient foutu un peu le bazar.
 1	mais	mais	CCONJ	_	_	6	cc	_	AlignBegin=98251|AlignEnd=98619
@@ -27327,7 +27327,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=100432|AlignEnd=100432
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__41
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je me souviens, j'étais jalouse aussi, parce que mon cousin, donc qui a mon âge, il a pris ma sœur dans ses bras.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=100432|AlignEnd=100665
@@ -27361,7 +27361,7 @@
 29	.	.	PUNCT	_	_	7	punct	_	AlignBegin=105964|AlignEnd=105964
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__42
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = toute façon, j'étais trop jalouse après, quand quelqu'un, euh, même quand il y a quelqu'un qui voulait lui donner le biberon ou …
 1	toute	tout	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	AlignBegin=105964|AlignEnd=106164
@@ -27394,7 +27394,7 @@
 28	…	…	PUNCT	_	_	7	punct	_	AlignBegin=110508|AlignEnd=110508
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__43
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = mais je crois que je m'en souviens à moitié, avec les photos, parce que, ça fait longtemps.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=110508|AlignEnd=110710
@@ -27414,14 +27414,14 @@
 15	,	,	PUNCT	_	_	20	punct	_	AlignBegin=113061|AlignEnd=113061
 16	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=113061|AlignEnd=113212|Idiom=Yes
 17	que	que	SCONJ	_	_	16	fixed	_	AlignBegin=113212|AlignEnd=113364|InIdiom=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	16	punct	_	AlignBegin=113364|AlignEnd=113364
+18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=113364|AlignEnd=113364
 19	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	AlignBegin=113364|AlignEnd=113515
 20	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	AlignBegin=113515|AlignEnd=113667
 21	longtemps	longtemps	ADV	_	_	20	advmod	_	AlignBegin=113667|AlignEnd=113818|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	AlignBegin=113818|AlignEnd=113818
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__44
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = donc, les, la moitié des souvenirs que j'ai, c'est parce que je vois les photos et, du coup, je sais ce qui s'est passé.
 1	donc	donc	ADV	_	_	19	advmod	_	AlignBegin=113818|AlignEnd=113984|SpaceAfter=No
@@ -27463,7 +27463,7 @@
 35	.	.	PUNCT	_	_	19	punct	_	AlignBegin=118054|AlignEnd=118054
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__45
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = bah, après, je sais plus trop.
 1	bah	bah	INTJ	_	_	6	discourse	_	AlignBegin=118054|AlignEnd=118246|SpaceAfter=No
@@ -27477,7 +27477,7 @@
 9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=119204|AlignEnd=119204
 
 # sent_id = ParisStories_2022_18_mocheMaisMignonne__46
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/4c16ad5298bc01259cd081e097a0df5106200f8c
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/bc27be7aaac432dc5213887b40b3c595d5272ccf
 # speaker = 0
 # text = je sais qu'on l'a ramenée à la maison.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=119204|AlignEnd=119356
@@ -27498,7 +27498,7 @@
 # text = parce que, je me souviens, que tu étais sorti, un peu avant moi, genre, peut-être dix minutes, ou, une demi-heure, je sais plus.
 1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=519|AlignEnd=810|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=810|AlignEnd=1101|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=1101|AlignEnd=1101
+3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=1101|AlignEnd=1101
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=1101|AlignEnd=1393
 5	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	expl:pv	_	AlignBegin=1393|AlignEnd=1684
 6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1684|AlignEnd=1975|SpaceAfter=No
@@ -28085,7 +28085,7 @@
 14	juste	juste	ADV	_	_	27	advmod	_	AlignBegin=89772|AlignEnd=89965
 15	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	AlignBegin=89965|AlignEnd=90159|Idiom=Yes
 16	que	que	SCONJ	_	_	15	fixed	_	AlignBegin=90159|AlignEnd=90352|InIdiom=Yes|SpaceAfter=No
-17	,	,	PUNCT	_	_	15	punct	_	AlignBegin=90352|AlignEnd=90352
+17	,	,	PUNCT	_	_	27	punct	_	AlignBegin=90352|AlignEnd=90352
 18	si	si	SCONJ	_	_	20	mark	_	AlignBegin=90352|AlignEnd=90573
 19	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=90573|AlignEnd=90794
 20	partais	partir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	advcl	_	AlignBegin=90794|AlignEnd=91014

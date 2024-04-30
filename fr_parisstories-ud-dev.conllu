@@ -346,7 +346,7 @@
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
 10	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 11	que	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	21	punct	_	_
 13	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	en	en	ADP	_	_	16	case	_	_
@@ -1738,7 +1738,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61d5227a42c58525ddcd3fa82738bebdb33859b5
 1	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	15	punct	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -1772,7 +1772,7 @@
 33	patients	patient	NOUN	_	Gender=Masc|Number=Plur	23	obl:arg	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	49	punct	_	_
 35	puisque	puisque	SCONJ	_	_	49	mark	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	35	punct	_	_
+36	,	,	PUNCT	_	_	49	punct	_	_
 37	en	en	ADP	_	_	38	case	_	_
 38	gros	gros	NOUN	_	Gender=Masc|Number=Sing	43	discourse	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
@@ -4066,7 +4066,7 @@
 5	évidemment	évidemment	ADV	_	_	12	discourse	_	_
 6	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
 9	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -5136,7 +5136,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	16	punct	_	_
 9	bah	bah	INTJ	_	_	16	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	pour	pour	ADP	_	_	13	case	_	_
@@ -5402,7 +5402,7 @@
 1	mais	mais	CCONJ	_	_	18	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	18	punct	_	_
 3	pour	pour	ADP	_	_	9	mark	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	9	punct	_	_
 5	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
@@ -5736,7 +5736,7 @@
 6	bien	bien	ADV	_	_	4	advmod	_	_
 7	parce	parce	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 8	que	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	15	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 12	vraiment	vraiment	ADV	_	_	13	advmod	_	_
@@ -5898,7 +5898,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
 15	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
 17	presque	presque	ADV	_	_	18	advmod	_	_
 18	couru	courir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19	pour	pour	ADP	_	_	20	mark	_	_
@@ -7413,7 +7413,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=7674|AlignEnd=7916
 9	vrai	vrai	ADJ	_	_	0	root	_	AlignBegin=7916|AlignEnd=8157
 10	que	que	SCONJ	_	_	16	mark	_	AlignBegin=8157|AlignEnd=8399|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=8399|AlignEnd=8399
+11	,	,	PUNCT	_	_	16	punct	_	AlignBegin=8399|AlignEnd=8399
 12	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=8399|AlignEnd=8640|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=8640|AlignEnd=8640
 14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	AlignBegin=8640|AlignEnd=8882
@@ -8409,7 +8409,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=37835|AlignEnd=37835
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=37835|AlignEnd=38044|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=38044|AlignEnd=38253|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=38253|AlignEnd=38253
+6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=38253|AlignEnd=38253
 7	compliqué	compliqué	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=38253|AlignEnd=38462
 8	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	dep	_	AlignBegin=38462|AlignEnd=38672
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	dislocated	_	AlignBegin=38672|AlignEnd=38881|SpaceAfter=No
@@ -8516,7 +8516,7 @@
 # text = parce que, du coup, j'étais sa chose.
 1	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=52911|AlignEnd=53112|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=53112|AlignEnd=53313|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=53313|AlignEnd=53313
+3	,	,	PUNCT	_	_	11	punct	_	AlignBegin=53313|AlignEnd=53313
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	AlignBegin=53313|AlignEnd=53514|wordform=du
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -8656,7 +8656,7 @@
 8	qu'	que	SCONJ	_	_	14	mark	_	AlignBegin=68072|AlignEnd=68361|SpaceAfter=No
 9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=68361|AlignEnd=68650
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	AlignBegin=68650|AlignEnd=68938|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=68938|AlignEnd=68938
+11	,	,	PUNCT	_	_	14	punct	_	AlignBegin=68938|AlignEnd=68938
 12	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=68938|AlignEnd=69227|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=69227|AlignEnd=69227
 14	intéressant	intéressant	ADJ	_	Gender=Masc|Number=Sing	7	ccomp	_	AlignBegin=69227|AlignEnd=69516|SpaceAfter=No
@@ -8829,7 +8829,7 @@
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	AlignBegin=87751|AlignEnd=87929|SpaceAfter=No
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87929|AlignEnd=88107
 13	que	que	SCONJ	_	_	24	mark	_	AlignBegin=88107|AlignEnd=88286|SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=88286|AlignEnd=88286
+14	,	,	PUNCT	_	_	24	punct	_	AlignBegin=88286|AlignEnd=88286
 15	ben	ben	INTJ	_	_	24	discourse	_	AlignBegin=88286|AlignEnd=88464|SpaceAfter=No
 16	,	,	PUNCT	_	_	24	punct	_	AlignBegin=88464|AlignEnd=88464
 17	à	à	ADP	_	_	19	case	_	AlignBegin=88464|AlignEnd=88464
@@ -9305,7 +9305,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=10474|AlignEnd=10656
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=10656|AlignEnd=10839
 8	quand	quand	SCONJ	_	_	23	case	_	AlignBegin=10839|AlignEnd=11022|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=11022|AlignEnd=11022
+9	,	,	PUNCT	_	_	23	punct	_	AlignBegin=11022|AlignEnd=11022
 10	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	dislocated	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11204|AlignEnd=11204
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
@@ -9676,7 +9676,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=62956|AlignEnd=63178
 14	deux	deux	NUM	_	_	11	obl:mod	_	AlignBegin=63178|AlignEnd=63399
 15	avec	avec	ADP	_	_	21	case	_	AlignBegin=63399|AlignEnd=63621|SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=63621|AlignEnd=63621
+16	,	,	PUNCT	_	_	21	punct	_	AlignBegin=63621|AlignEnd=63621
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=63621|AlignEnd=63842|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=63842|AlignEnd=63842
 19	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	reparandum	_	AlignBegin=63842|AlignEnd=64017
@@ -10039,7 +10039,7 @@
 6	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=114468|AlignEnd=114718
 7	personnalités	personnalité	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	AlignBegin=114718|AlignEnd=114967
 8	que	que	SCONJ	_	_	22	mark	_	AlignBegin=114967|AlignEnd=115217|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=115217|AlignEnd=115217
+9	,	,	PUNCT	_	_	22	punct	_	AlignBegin=115217|AlignEnd=115217
 10	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	dislocated	_	AlignBegin=115217|AlignEnd=115534|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=115534|AlignEnd=115534
 12	bah	bah	INTJ	_	_	15	discourse	_	AlignBegin=115534|AlignEnd=115851
@@ -10101,7 +10101,7 @@
 1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=125913|AlignEnd=126062
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=126062|AlignEnd=126212
 3	que	que	SCONJ	_	_	9	mark	_	AlignBegin=126212|AlignEnd=126361|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=126361|AlignEnd=126361
+4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=126361|AlignEnd=126361
 5	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	dislocated	_	AlignBegin=126361|AlignEnd=126510|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=126510|AlignEnd=126510
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=126510|AlignEnd=126660|SpaceAfter=No
@@ -10338,7 +10338,7 @@
 12	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=2983|AlignEnd=3356
 13	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	AlignBegin=3356|AlignEnd=3729
 14	avec	avec	ADP	_	_	19	case	_	AlignBegin=3729|AlignEnd=4183|SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=4183|AlignEnd=4183
+15	,	,	PUNCT	_	_	19	punct	_	AlignBegin=4183|AlignEnd=4183
 16	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=4183|AlignEnd=4637|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=4637|AlignEnd=4637
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=4637|AlignEnd=5092
@@ -10496,7 +10496,7 @@
 25	,	,	PUNCT	_	_	24	punct	_	AlignBegin=37063|AlignEnd=37063
 26	et	et	CCONJ	_	_	33	cc	_	AlignBegin=37063|AlignEnd=37362
 27	comme	comme	ADP	_	_	33	case	_	AlignBegin=37362|AlignEnd=37661|SpaceAfter=No
-28	,	,	PUNCT	_	_	27	punct	_	AlignBegin=37661|AlignEnd=37661
+28	,	,	PUNCT	_	_	33	punct	_	AlignBegin=37661|AlignEnd=37661
 29	bah	bah	INTJ	_	_	33	discourse	_	AlignBegin=37661|AlignEnd=37960|SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	AlignBegin=37960|AlignEnd=37960
 31	tous	tout	ADJ	_	_	33	amod	_	AlignBegin=37960|AlignEnd=38260
@@ -10707,7 +10707,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	AlignBegin=77226|AlignEnd=77434
 12	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=77434|AlignEnd=77643|Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	AlignBegin=77643|AlignEnd=77851|InIdiom=Yes|SpaceAfter=No
-14	,	,	PUNCT	_	_	12	punct	_	AlignBegin=77851|AlignEnd=77851
+14	,	,	PUNCT	_	_	20	punct	_	AlignBegin=77851|AlignEnd=77851
 15	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=77851|AlignEnd=78059
 16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	expl:subj	_	AlignBegin=78059|AlignEnd=78320|SpaceAfter=No
 17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	AlignBegin=78320|AlignEnd=78582
@@ -10832,7 +10832,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=102109|AlignEnd=102484
 3	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=102484|AlignEnd=102859
 4	avec	avec	ADP	_	_	11	case	_	AlignBegin=102859|AlignEnd=103234|SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=103234|AlignEnd=103234
+5	,	,	PUNCT	_	_	11	punct	_	AlignBegin=103234|AlignEnd=103234
 6	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=103234|AlignEnd=103609|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=103609|AlignEnd=103609
 8	bah	bah	INTJ	_	_	11	discourse	_	AlignBegin=103609|AlignEnd=103983|SpaceAfter=No
@@ -11701,7 +11701,7 @@
 3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13610|AlignEnd=13851
 4	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=13851|AlignEnd=14185
 5	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=14185|AlignEnd=14519|Reported=Yes|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=14519|AlignEnd=14519
+6	,	,	PUNCT	_	_	12	punct	_	AlignBegin=14519|AlignEnd=14519
 7	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=14519|AlignEnd=14853|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=14853|AlignEnd=14853
 9	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	12	reparandum	_	AlignBegin=14853|AlignEnd=15187|SpaceAfter=No
@@ -11726,7 +11726,7 @@
 # text = je suis, euh, redoublante.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=16557|AlignEnd=16732
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=16732|AlignEnd=16908|SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=16908|AlignEnd=16908
+3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=16908|AlignEnd=16908
 4	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=16908|AlignEnd=17083|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=17083|AlignEnd=17083
 6	redoublante	redoublant	ADJ	_	_	0	root	_	AlignBegin=17597|AlignEnd=18414|SpaceAfter=No
@@ -12273,7 +12273,7 @@
 21	,	,	PUNCT	_	_	31	punct	_	AlignBegin=89283|AlignEnd=89283
 22	mais	mais	CCONJ	_	_	31	cc	_	AlignBegin=89672|AlignEnd=90024
 23	quand	quand	SCONJ	_	_	31	mark	_	AlignBegin=90024|AlignEnd=90376|SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=90376|AlignEnd=90376
+24	,	,	PUNCT	_	_	31	punct	_	AlignBegin=90376|AlignEnd=90376
 25	en	en	ADP	_	_	26	case	_	AlignBegin=90376|AlignEnd=90729
 26	fait	fait	NOUN	_	Gender=Masc|Number=Sing	31	discourse	_	AlignBegin=90729|AlignEnd=91081|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=91081|AlignEnd=91081
@@ -12409,7 +12409,7 @@
 13	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	expl:pv	_	AlignBegin=111559|AlignEnd=111722
 14	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	AlignBegin=111722|AlignEnd=111886
 15	que	que	SCONJ	_	_	22	mark	_	AlignBegin=111886|AlignEnd=112049|SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=112049|AlignEnd=112049
+16	,	,	PUNCT	_	_	22	punct	_	AlignBegin=112049|AlignEnd=112049
 17	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=112652|AlignEnd=112908|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=112908|AlignEnd=112908
 19	quand	quand	SCONJ	_	_	22	mark	_	AlignBegin=112908|AlignEnd=113164
@@ -12555,7 +12555,7 @@
 12	,	,	PUNCT	_	_	4	punct	_	AlignBegin=131630|AlignEnd=131630
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	AlignBegin=131630|AlignEnd=131815|SpaceAfter=No
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	AlignBegin=131815|AlignEnd=131999|SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=131999|AlignEnd=131999
+15	,	,	PUNCT	_	_	22	punct	_	AlignBegin=131999|AlignEnd=131999
 16	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=131999|AlignEnd=132183|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=132183|AlignEnd=132183
 18	bah	bah	INTJ	_	_	22	discourse	_	AlignBegin=132578|AlignEnd=132926|SpaceAfter=No

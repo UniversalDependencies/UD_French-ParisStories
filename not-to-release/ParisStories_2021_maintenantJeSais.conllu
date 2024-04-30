@@ -387,14 +387,14 @@
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 6	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	10	cop	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	10	punct	_	_
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	XXX	XXX	X	_	_	3	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
 12	et	et	CCONJ	_	_	19	cc	_	_
 13	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	_
+14	,	,	PUNCT	_	_	19	punct	_	_
 15	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	dislocated	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
@@ -403,7 +403,7 @@
 20	,	,	PUNCT	_	_	28	punct	_	_
 21	et	et	CCONJ	_	_	28	cc	_	_
 22	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	28	punct	_	_
 24	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	27	det	_	_

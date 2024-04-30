@@ -8,7 +8,7 @@
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=298|AlignEnd=596
 4	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=596|AlignEnd=894
 5	que	que	SCONJ	_	_	14	mark	_	AlignBegin=894|AlignEnd=1192|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=1192|AlignEnd=1192
+6	,	,	PUNCT	_	_	14	punct	_	AlignBegin=1192|AlignEnd=1192
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=1192|AlignEnd=1489
 8	mieux	mieux	ADV	_	_	14	dislocated	_	AlignBegin=1489|AlignEnd=1787
 9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	AlignBegin=1787|AlignEnd=2085
@@ -659,7 +659,7 @@
 83	enfants	enfant	NOUN	_	Number=Plur	85	nsubj	_	AlignBegin=144597|AlignEnd=144855
 84	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	85	aux:tense	_	AlignBegin=144855|AlignEnd=145113
 85	nés	naître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	88	advcl	_	AlignBegin=145113|AlignEnd=145371|SpaceAfter=No
-86	,	,	PUNCT	_	_	85	punct	_	AlignBegin=145371|AlignEnd=145371
+86	,	,	PUNCT	_	_	88	punct	_	AlignBegin=145371|AlignEnd=145371
 87	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	88	nsubj	_	AlignBegin=145371|AlignEnd=145629
 88	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	95	reparandum	_	AlignBegin=145629|AlignEnd=145886
 89	pas	pas	ADV	_	_	88	advmod	_	AlignBegin=145886|AlignEnd=146144

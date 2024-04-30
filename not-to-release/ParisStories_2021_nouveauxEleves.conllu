@@ -232,7 +232,7 @@
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	20	punct	_	_
 9	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	dislocated	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	non	non	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
@@ -647,7 +647,7 @@
 9	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	Reported=Yes
 11	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	28	punct	_	_
 13	si	si	SCONJ	_	_	19	mark	_	_
 14	vraiment	vraiment	ADV	_	_	19	advmod	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	reparandum	_	SpaceAfter=No

@@ -354,7 +354,7 @@
 4	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=51758|AlignEnd=51999
 5	comme	comme	ADP	_	_	13	mark	_	AlignBegin=51999|AlignEnd=52240
 6	si	si	SCONJ	_	_	13	mark	_	AlignBegin=52240|AlignEnd=52482|SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=52482|AlignEnd=52482
+7	,	,	PUNCT	_	_	13	punct	_	AlignBegin=52482|AlignEnd=52482
 8	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=52482|AlignEnd=52723|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=52723|AlignEnd=52723
 10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	AlignBegin=52723|AlignEnd=52964
@@ -740,7 +740,7 @@
 9	,	,	PUNCT	_	_	20	punct	_	AlignBegin=121698|AlignEnd=121698
 10	parce	parce	ADV	_	ExtPos=SCONJ	20	mark	_	AlignBegin=121698|AlignEnd=121897|Idiom=Yes
 11	que	que	SCONJ	_	_	10	fixed	_	AlignBegin=121897|AlignEnd=122096|InIdiom=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	10	punct	_	AlignBegin=122096|AlignEnd=122096
+12	,	,	PUNCT	_	_	20	punct	_	AlignBegin=122096|AlignEnd=122096
 13	pour	pour	ADP	_	_	15	case	_	AlignBegin=122096|AlignEnd=122295
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=122295|AlignEnd=122495
 15	coup	coup	NOUN	_	Gender=Masc|Number=Sing	20	discourse	_	AlignBegin=122495|AlignEnd=122694|SpaceAfter=No
@@ -752,7 +752,7 @@
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	AlignBegin=123411|AlignEnd=123670|SpaceAfter=No
 22	impression	impression	NOUN	_	Gender=Fem|Number=Sing	20	obj:lvc	_	AlignBegin=123670|AlignEnd=123928
 23	que	que	SCONJ	_	_	41	mark	_	AlignBegin=123928|AlignEnd=124187|SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	AlignBegin=124187|AlignEnd=124187
+24	,	,	PUNCT	_	_	41	punct	_	AlignBegin=124187|AlignEnd=124187
 25	euh	euh	INTJ	_	_	41	discourse	_	AlignBegin=124187|AlignEnd=124446|SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=124446|AlignEnd=124446
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	AlignBegin=124446|AlignEnd=124705

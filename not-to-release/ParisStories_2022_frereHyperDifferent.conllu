@@ -85,7 +85,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	AlignBegin=10474|AlignEnd=10656
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=10656|AlignEnd=10839
 8	quand	quand	SCONJ	_	_	23	case	_	AlignBegin=10839|AlignEnd=11022|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=11022|AlignEnd=11022
+9	,	,	PUNCT	_	_	23	punct	_	AlignBegin=11022|AlignEnd=11022
 10	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	dislocated	_	AlignBegin=11022|AlignEnd=11204|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11204|AlignEnd=11204
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=11204|AlignEnd=11387|SpaceAfter=No
@@ -456,7 +456,7 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	AlignBegin=62956|AlignEnd=63178
 14	deux	deux	NUM	_	_	11	obl:mod	_	AlignBegin=63178|AlignEnd=63399
 15	avec	avec	ADP	_	_	21	case	_	AlignBegin=63399|AlignEnd=63621|SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=63621|AlignEnd=63621
+16	,	,	PUNCT	_	_	21	punct	_	AlignBegin=63621|AlignEnd=63621
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=63621|AlignEnd=63842|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=63842|AlignEnd=63842
 19	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	21	reparandum	_	AlignBegin=63842|AlignEnd=64017
@@ -819,7 +819,7 @@
 6	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=114468|AlignEnd=114718
 7	personnalités	personnalité	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	AlignBegin=114718|AlignEnd=114967
 8	que	que	SCONJ	_	_	22	mark	_	AlignBegin=114967|AlignEnd=115217|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=115217|AlignEnd=115217
+9	,	,	PUNCT	_	_	22	punct	_	AlignBegin=115217|AlignEnd=115217
 10	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	dislocated	_	AlignBegin=115217|AlignEnd=115534|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=115534|AlignEnd=115534
 12	bah	bah	INTJ	_	_	15	discourse	_	AlignBegin=115534|AlignEnd=115851
@@ -881,7 +881,7 @@
 1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=125913|AlignEnd=126062
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=126062|AlignEnd=126212
 3	que	que	SCONJ	_	_	9	mark	_	AlignBegin=126212|AlignEnd=126361|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=126361|AlignEnd=126361
+4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=126361|AlignEnd=126361
 5	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	dislocated	_	AlignBegin=126361|AlignEnd=126510|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=126510|AlignEnd=126510
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=126510|AlignEnd=126660|SpaceAfter=No

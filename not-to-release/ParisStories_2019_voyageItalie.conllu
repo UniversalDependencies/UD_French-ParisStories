@@ -85,7 +85,7 @@
 15	Portoferraio	Portoferraio	PROPN	_	_	6	obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	sur	sur	ADP	_	_	22	case	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	quatre	quatre	NUM	_	Number=Plur	22	nummod	_	_
@@ -326,7 +326,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	demande	demande	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	si	si	SCONJ	_	_	8	mark	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+4	,	,	PUNCT	_	_	8	punct	_	_
 5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
@@ -552,7 +552,7 @@
 8	ouais	ouais	INTJ	_	_	3	discourse	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	prix	prix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
@@ -1214,7 +1214,7 @@
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 13	quoi	quoi	INTJ	_	_	17	discourse	_	_
 14	à	à	ADP	_	_	17	case	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
+15	,	,	PUNCT	_	_	17	punct	_	_
 16	six	six	NUM	_	Number=Plur	17	nummod	_	_
 17	euros	euro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
@@ -1227,7 +1227,7 @@
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	apéro	apéro	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 27	avec	avec	ADP	_	_	32	case	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	27	punct	_	_
+28	,	,	PUNCT	_	_	32	punct	_	_
 29	genre	genre	NOUN	_	ExtPos=INTJ	32	discourse	_	_
 30	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	32	det	_	_
 31	petits	petit	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_

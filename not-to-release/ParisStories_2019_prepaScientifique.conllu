@@ -23,7 +23,7 @@
 6	quand	quand	SCONJ	_	_	14	mark	_	_
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
 8	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	cop	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	14	punct	_	_
 10	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	à	à	ADP	_	_	14	case	_	_
@@ -376,7 +376,7 @@
 17	,	,	PUNCT	_	_	29	punct	_	_
 18	parce	parce	ADV	_	ExtPos=SCONJ	29	mark	_	Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	InIdiom=Yes|SpaceAfter=No
-20	,	,	PUNCT	_	_	18	punct	_	_
+20	,	,	PUNCT	_	_	29	punct	_	_
 21	enfin	enfin	ADV	_	ExtPos=INTJ	29	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	en	en	ADP	_	_	24	case	_	_
@@ -487,7 +487,7 @@
 19	dans	dans	ADP	_	_	20	case	_	_
 20	APB	APB	PROPN	_	_	12	advcl	_	_
 21	pour	pour	ADP	_	_	26	case	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	21	punct	_	_
+22	,	,	PUNCT	_	_	26	punct	_	_
 23	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -507,7 +507,7 @@
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	là	là	ADV	_	_	3	xcomp	_	_
 5	que	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	25	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 9	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	reparandum	_	_
@@ -987,7 +987,7 @@
 15	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	16	aux:pass	_	_
 16	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	que	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
+18	,	,	PUNCT	_	_	24	punct	_	_
 19	oh	oh	INTJ	_	_	24	discourse	_	_
 20	en	en	ADP	_	_	22	case	_	_
 21	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
@@ -1104,7 +1104,7 @@
 2	re	re	X	_	_	3	nmod	_	_
 3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	8	case	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
+5	,	,	PUNCT	_	_	8	punct	_	_
 6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	panique	panique	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_

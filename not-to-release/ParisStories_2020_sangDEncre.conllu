@@ -108,7 +108,7 @@
 15	à	à	ADP	_	_	16	case	_	_
 16	Paris	Paris	PROPN	_	_	14	obl:arg	_	_
 17	puisque	puisque	SCONJ	_	_	22	mark	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
@@ -194,7 +194,7 @@
 14	puisque	puisque	SCONJ	_	_	20	mark	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 16	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	fan	fan	NOUN	_	Gender=Fem|Number=Sing	11	advcl	_	_
@@ -332,7 +332,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/88de8a05bad3c8cbaae5f9b89f2cd5d0a49240e1
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	7	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	InTitle=Yes
@@ -565,7 +565,7 @@
 27	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	28	iobj	_	_
 28	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 29	que	que	SCONJ	_	_	34	mark	_	SpaceAfter=No
-30	,	,	PUNCT	_	_	29	punct	_	_
+30	,	,	PUNCT	_	_	34	punct	_	_
 31	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	34	nsubj	_	_

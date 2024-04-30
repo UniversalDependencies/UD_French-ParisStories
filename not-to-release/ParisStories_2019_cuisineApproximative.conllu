@@ -346,7 +346,7 @@
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
 10	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 11	que	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	21	punct	_	_
 13	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	en	en	ADP	_	_	16	case	_	_

@@ -154,7 +154,7 @@
 12	,	,	PUNCT	_	_	25	punct	_	AlignBegin=16072|AlignEnd=16072
 13	parce	parce	ADV	_	ExtPos=SCONJ	25	mark	_	AlignBegin=16072|AlignEnd=16239|Idiom=Yes
 14	que	que	SCONJ	_	_	13	fixed	_	AlignBegin=16239|AlignEnd=16406|InIdiom=Yes|SpaceAfter=No
-15	,	,	PUNCT	_	_	13	punct	_	AlignBegin=16406|AlignEnd=16406
+15	,	,	PUNCT	_	_	25	punct	_	AlignBegin=16406|AlignEnd=16406
 16	quand	quand	SCONJ	_	_	19	mark	_	AlignBegin=16406|AlignEnd=16573
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	AlignBegin=16573|AlignEnd=16740
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	AlignBegin=16740|AlignEnd=16907

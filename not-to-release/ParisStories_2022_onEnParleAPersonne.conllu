@@ -5,7 +5,7 @@
 # text = parce que, je me souviens, que tu étais sorti, un peu avant moi, genre, peut-être dix minutes, ou, une demi-heure, je sais plus.
 1	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	AlignBegin=519|AlignEnd=810|Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	AlignBegin=810|AlignEnd=1101|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=1101|AlignEnd=1101
+3	,	,	PUNCT	_	_	6	punct	_	AlignBegin=1101|AlignEnd=1101
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=1101|AlignEnd=1393
 5	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	expl:pv	_	AlignBegin=1393|AlignEnd=1684
 6	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1684|AlignEnd=1975|SpaceAfter=No
@@ -592,7 +592,7 @@
 14	juste	juste	ADV	_	_	27	advmod	_	AlignBegin=89772|AlignEnd=89965
 15	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	AlignBegin=89965|AlignEnd=90159|Idiom=Yes
 16	que	que	SCONJ	_	_	15	fixed	_	AlignBegin=90159|AlignEnd=90352|InIdiom=Yes|SpaceAfter=No
-17	,	,	PUNCT	_	_	15	punct	_	AlignBegin=90352|AlignEnd=90352
+17	,	,	PUNCT	_	_	27	punct	_	AlignBegin=90352|AlignEnd=90352
 18	si	si	SCONJ	_	_	20	mark	_	AlignBegin=90352|AlignEnd=90573
 19	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=90573|AlignEnd=90794
 20	partais	partir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	advcl	_	AlignBegin=90794|AlignEnd=91014

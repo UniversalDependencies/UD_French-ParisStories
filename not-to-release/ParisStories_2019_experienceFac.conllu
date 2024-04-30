@@ -472,7 +472,7 @@
 9	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	24	punct	_	_
 13	alors	alors	ADV	_	_	20	discourse	_	_
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	discourse	_	_

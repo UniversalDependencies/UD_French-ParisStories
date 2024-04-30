@@ -181,7 +181,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	repeint	repeindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -238,7 +238,7 @@
 20	,	,	PUNCT	_	_	16	punct	_	_
 21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
 22	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	aux:tense	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	22	punct	_	_
+23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -455,7 +455,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
 15	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	expl:subj	_	_
 16	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	19	punct	_	_
 18	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	que	que	SCONJ	_	_	22	mark	_	_
@@ -576,7 +576,7 @@
 19	,	,	PUNCT	_	_	26	punct	_	_
 20	parce	parce	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 21	que	que	SCONJ	_	_	20	fixed	_	InIdiom=Yes|SpaceAfter=No
-22	,	,	PUNCT	_	_	20	punct	_	_
+22	,	,	PUNCT	_	_	26	punct	_	_
 23	sinon	sinon	ADV	_	_	26	advmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_

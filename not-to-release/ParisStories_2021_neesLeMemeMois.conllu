@@ -82,7 +82,7 @@
 18	,	,	PUNCT	_	_	30	punct	_	_
 19	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 20	que	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
-21	,	,	PUNCT	_	_	19	punct	_	_
+21	,	,	PUNCT	_	_	30	punct	_	_
 22	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	30	dislocated	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24-25	du	_	_	_	_	_	_	_	_
@@ -607,7 +607,7 @@
 3	ah	ah	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	si	si	SCONJ	_	_	11	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	11	punct	_	_
 7	après	après	ADV	_	_	11	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	_

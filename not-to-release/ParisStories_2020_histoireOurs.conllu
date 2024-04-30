@@ -307,7 +307,7 @@
 13	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	compte	compte	NOUN	_	Gender=Masc|Number=Sing	13	obj:lvc	_	_
 15	que	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	25	punct	_	_
 17	oui	oui	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
@@ -429,7 +429,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	que	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	17	punct	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	coup	coup	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	SpaceAfter=No
@@ -621,7 +621,7 @@
 38	,	,	PUNCT	_	_	45	punct	_	_
 39	qui	qui	PRON	_	PronType=Rel	45	nsubj	_	_
 40	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	45	aux:tense	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	40	punct	_	_
+41	,	,	PUNCT	_	_	45	punct	_	_
 42	quand	quand	SCONJ	_	ExtPos=ADV	45	advmod	_	Idiom=Yes
 43	même	même	ADV	_	_	42	fixed	_	InIdiom=Yes|SpaceAfter=No
 44	,	,	PUNCT	_	_	42	punct	_	_
@@ -655,7 +655,7 @@
 22	si	si	SCONJ	_	_	31	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	que	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	24	punct	_	_
+25	,	,	PUNCT	_	_	31	punct	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	animal	animal	NOUN	_	Gender=Masc|Number=Sing	31	dislocated	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_

@@ -713,7 +713,7 @@
 3	à	à	ADP	_	_	4	mark	_	_
 4	dire	dire	VERB	_	VerbForm=Inf	2	ccomp	_	Subject=NoRaising
 5	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	16	punct	_	_
 7	euh	euh	INTJ	_	_	16	discourse	_	_
 8	maintenant	maintenant	ADV	_	_	16	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
