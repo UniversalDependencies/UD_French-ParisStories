@@ -144,6 +144,10 @@ An article about the annotation of spoken French will soon be released (Kahane e
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Fix a few inconsistent annotation of idioms
+  * See [SUD commit logs](https://github.com/surfacesyntacticud/SUD_French-ParisStories/commits/master/) for more details
+
 * 2021-11-15 v2.9
   * Initial release in Universal Dependencies.
 
