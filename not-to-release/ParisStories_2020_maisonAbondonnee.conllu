@@ -106,7 +106,7 @@
 22	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
 23	là-bas	là-bas	ADV	_	_	22	advmod	_	_
 24	qui	qui	PRON	_	PronType=Rel	28	reparandum	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	_
+25	,	,	PUNCT	_	_	24	punct	_	_
 26	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
 28	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	_
@@ -317,7 +317,7 @@
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
 15	effacé	effacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	22	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	SpaceAfter=No

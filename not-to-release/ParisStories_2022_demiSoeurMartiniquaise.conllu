@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__1
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L1
 # text = et du coup, tu l'as rencontrée quand ta demi-soeur ?
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=278|AlignEnd=425
@@ -19,7 +19,7 @@
 13	?	?	PUNCT	_	_	9	punct	_	AlignBegin=1743|AlignEnd=1743
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__2
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = je l'ai rencontrée quand j'avais six ans.
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=2457|AlignEnd=2675
@@ -34,12 +34,12 @@
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=4417|AlignEnd=4417
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__3
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = et elle, elle avait huit ans de plus.
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=5300|AlignEnd=5575
 2	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	reparandum	_	AlignBegin=5575|AlignEnd=5849|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=5849|AlignEnd=5849
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=5849|AlignEnd=5849
 4	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=5849|AlignEnd=6124
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=6124|AlignEnd=6398
 6	huit	huit	NUM	_	_	7	nummod	_	AlignBegin=6398|AlignEnd=6673
@@ -49,7 +49,7 @@
 10	.	.	PUNCT	_	_	5	punct	_	AlignBegin=7496|AlignEnd=7496
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__4
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = donc euh, elle avait quatorze ans.
 1	donc	donc	ADV	_	_	5	advmod	_	AlignBegin=7544|AlignEnd=7814
@@ -62,7 +62,7 @@
 8	.	.	PUNCT	_	_	5	punct	_	AlignBegin=9164|AlignEnd=9164
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__5
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = donc c'était un peu, c'était un peu spécial.
 1	donc	donc	ADV	_	_	3	advmod	_	AlignBegin=9164|AlignEnd=9500
@@ -70,7 +70,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	reparandum	_	AlignBegin=9836|AlignEnd=10173
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=10173|AlignEnd=10509
 5	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	AlignBegin=10509|AlignEnd=10845|SpaceAfter=No
-6	,	,	PUNCT	_	_	11	punct	_	AlignBegin=10845|AlignEnd=10845
+6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=10845|AlignEnd=10845
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=10845|AlignEnd=11181|SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	AlignBegin=11181|AlignEnd=11517
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=11517|AlignEnd=11854
@@ -79,7 +79,7 @@
 12	.	.	PUNCT	_	_	11	punct	_	AlignBegin=12526|AlignEnd=12526
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__6
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = bon, là, euh …
 1	bon	bon	INTJ	_	_	3	discourse	_	AlignBegin=12526|AlignEnd=13043|SpaceAfter=No
@@ -90,7 +90,7 @@
 6	…	…	PUNCT	_	_	3	punct	_	AlignBegin=14076|AlignEnd=14076
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__7
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L1
 # text = et vous vous êtes rencontrées où la première fois ?
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=16352|AlignEnd=16570
@@ -105,7 +105,7 @@
 10	?	?	PUNCT	_	_	5	punct	_	AlignBegin=18314|AlignEnd=18314
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__8
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = euh, bah c'était en vacances.
 1	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=19689|AlignEnd=20025|SpaceAfter=No
@@ -118,7 +118,7 @@
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=21705|AlignEnd=21705
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__9
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = euh, j'étais partie dans le sud avec mes parents, mes grand-parents, tout ça.
 1	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=21918|AlignEnd=22201|SpaceAfter=No
@@ -141,7 +141,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	AlignBegin=25935|AlignEnd=25935
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__10
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = et, mon père, euh, je pense qu'il avait organisé, euh, le voyage de ma soeur, euh, de la Martinique à, à ici.
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=26796|AlignEnd=27122|SpaceAfter=No
@@ -172,13 +172,13 @@
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	AlignBegin=33512|AlignEnd=33998
 27	Martinique	Martinique	PROPN	_	_	18	nmod	_	AlignBegin=33998|AlignEnd=34484
 28	à	à	ADP	_	_	31	reparandum	_	AlignBegin=34484|AlignEnd=34484|SpaceAfter=No
-29	,	,	PUNCT	_	_	31	punct	_	AlignBegin=34484|AlignEnd=34484
+29	,	,	PUNCT	_	_	28	punct	_	AlignBegin=34484|AlignEnd=34484
 30	à	à	ADP	_	_	31	case	_	AlignBegin=34484|AlignEnd=34484
 31	ici	ici	ADV	_	_	27	advmod	_	AlignBegin=34484|AlignEnd=34970|SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	AlignBegin=34970|AlignEnd=34970
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__11
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = parce que bon, bah, elle habite un peu loin, hein.
 1	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	AlignBegin=35710|AlignEnd=35849|Idiom=Yes
@@ -197,7 +197,7 @@
 14	.	.	PUNCT	_	_	8	punct	_	AlignBegin=37104|AlignEnd=37104
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__12
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = donc, c'était un peu, euh, compliqué, euh, d'organiser ça avec une, euh, gamine de quatorze ans, quoi, on va dire.
 1	donc	donc	ADV	_	_	10	advmod	_	AlignBegin=37848|AlignEnd=38186|SpaceAfter=No
@@ -234,7 +234,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	AlignBegin=44722|AlignEnd=44722
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__13
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = mais du coup, après bah, on va dire, c'était spécial un peu comme rencontre, parce que, bah, forcément, j'ai six ans donc, euh je me la suis imaginée, on va dire.
 1	mais	mais	CCONJ	_	_	15	cc	_	AlignBegin=45944|AlignEnd=46252
@@ -284,7 +284,7 @@
 44	.	.	PUNCT	_	_	29	punct	_	AlignBegin=57980|AlignEnd=57980
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__14
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = j'ai imaginé mademi-soeur pendant six ans.
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=59074|AlignEnd=59327|SpaceAfter=No
@@ -298,7 +298,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=61098|AlignEnd=61098
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__15
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = donc, forcément, ça, à elle, comme à moi, ça nous a fait un, un choc parce que je pense que elle aussi, elle m'a imaginé.
 1	donc	donc	ADV	_	_	17	advmod	_	AlignBegin=62086|AlignEnd=62377|SpaceAfter=No
@@ -319,7 +319,7 @@
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	AlignBegin=64454|AlignEnd=64752
 17	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=64752|AlignEnd=65051
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	reparandum	_	AlignBegin=65051|AlignEnd=65350|SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=65350|AlignEnd=65350
+19	,	,	PUNCT	_	_	18	punct	_	AlignBegin=65350|AlignEnd=65350
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=65350|AlignEnd=65649
 21	choc	choc	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	AlignBegin=65649|AlignEnd=65948
 22	parce	parce	ADV	_	ExtPos=SCONJ	25	mark	_	AlignBegin=65948|AlignEnd=66147|Idiom=Yes
@@ -337,7 +337,7 @@
 34	.	.	PUNCT	_	_	17	punct	_	AlignBegin=68141|AlignEnd=68141
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__16
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = on s'était parlé un petit peu au téléphone et tout.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	AlignBegin=69735|AlignEnd=70016
@@ -356,7 +356,7 @@
 13	.	.	PUNCT	_	_	4	punct	_	AlignBegin=72675|AlignEnd=72675
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__17
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = donc, euh, on se connaissait.
 1	donc	donc	ADV	_	_	7	advmod	_	AlignBegin=72675|AlignEnd=72880|SpaceAfter=No
@@ -369,13 +369,13 @@
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=75671|AlignEnd=75671
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__18
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = mais, euh, mais, on avait pas un lien.
 1	mais	mais	CCONJ	_	_	5	reparandum	_	AlignBegin=75676|AlignEnd=76224|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=76224|AlignEnd=76224
 3	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=76224|AlignEnd=76772|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=76772|AlignEnd=76772
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=76772|AlignEnd=76772
 5	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=77347|AlignEnd=77575|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=77575|AlignEnd=77575
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	AlignBegin=77575|AlignEnd=77803
@@ -386,7 +386,7 @@
 12	.	.	PUNCT	_	_	8	punct	_	AlignBegin=78715|AlignEnd=78715
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__19
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = enfin, on avait pas le lien que mon père aurait, enfin, espérait, qu'on ait, euh, si jeune.
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	AlignBegin=79660|AlignEnd=79814|SpaceAfter=No
@@ -404,7 +404,7 @@
 13	enfin	enfin	ADV	_	ExtPos=INTJ	15	discourse	_	AlignBegin=81811|AlignEnd=82110|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=82110|AlignEnd=82110
 15	espérait	espérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	reparandum	_	AlignBegin=82110|AlignEnd=82410|SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	AlignBegin=82410|AlignEnd=82410
+16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=82410|AlignEnd=82410
 17	qu'	que	SCONJ	_	_	19	mark	_	AlignBegin=82410|AlignEnd=82709|SpaceAfter=No
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	AlignBegin=82709|AlignEnd=83008
 19	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	AlignBegin=83008|AlignEnd=83308|SpaceAfter=No
@@ -416,7 +416,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	AlignBegin=84206|AlignEnd=84206
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__20
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = et donc, euh, bah, la première fois qu'on s'est rencontré, c'était quand même un peu, euh, un peu gênant, on va dire.
 1	et	et	CCONJ	_	_	28	cc	_	AlignBegin=85623|AlignEnd=86111
@@ -443,7 +443,7 @@
 22	peu	peu	NOUN	_	Gender=Masc|Number=Sing	27	reparandum	_	AlignBegin=90104|AlignEnd=90335|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=90335|AlignEnd=90335
 24	euh	euh	INTJ	_	_	22	discourse	_	AlignBegin=90335|AlignEnd=90567|SpaceAfter=No
-25	,	,	PUNCT	_	_	27	punct	_	AlignBegin=90567|AlignEnd=90567
+25	,	,	PUNCT	_	_	22	punct	_	AlignBegin=90567|AlignEnd=90567
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	AlignBegin=90567|AlignEnd=90798
 27	peu	peu	NOUN	_	Gender=Masc|Number=Sing	28	obl:mod	_	AlignBegin=90798|AlignEnd=91029
 28	gênant	gênant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=91029|AlignEnd=91260|SpaceAfter=No
@@ -454,7 +454,7 @@
 33	.	.	PUNCT	_	_	28	punct	_	AlignBegin=91954|AlignEnd=91954
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__21
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = mais bon, après ça, ça s'est assoupli.
 1	mais	mais	CCONJ	_	_	10	cc	_	AlignBegin=93254|AlignEnd=93644
@@ -470,7 +470,7 @@
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=96371|AlignEnd=96371
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__22
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = enfin, on a rigolé ensemble.
 1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	AlignBegin=96805|AlignEnd=97194|SpaceAfter=No
@@ -482,7 +482,7 @@
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=98750|AlignEnd=98750
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__23
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = on faisait des jeux.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	AlignBegin=99461|AlignEnd=99805
@@ -492,7 +492,7 @@
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=100837|AlignEnd=100837
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__24
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = donc euh, on va dire que ça s'est un peu amélioré.
 1	donc	donc	ADV	_	_	5	advmod	_	AlignBegin=101274|AlignEnd=101534
@@ -511,7 +511,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	AlignBegin=104231|AlignEnd=104231
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__25
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L1
 # text = et quand tu l'as imaginé, est-ce que c'était, c'était comme tu l'as vue dans ta tête en vrai ou ?
 1	et	et	CCONJ	_	_	20	cc	_	AlignBegin=106332|AlignEnd=106476
@@ -526,7 +526,7 @@
 10	que	que	SCONJ	_	_	20	mark	_	AlignBegin=107485|AlignEnd=107630
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	expl:subj	_	AlignBegin=107630|AlignEnd=107774|SpaceAfter=No
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	reparandum	_	AlignBegin=107774|AlignEnd=107918|SpaceAfter=No
-13	,	,	PUNCT	_	_	20	punct	_	AlignBegin=107918|AlignEnd=107918
+13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=107918|AlignEnd=107918
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	expl:subj	_	AlignBegin=109368|AlignEnd=109606|SpaceAfter=No
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	AlignBegin=109606|AlignEnd=109843
 16	comme	comme	SCONJ	_	_	20	mark	_	AlignBegin=109843|AlignEnd=110081
@@ -543,7 +543,7 @@
 27	?	?	PUNCT	_	_	20	punct	_	AlignBegin=112457|AlignEnd=112457
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__26
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = bah, c'est un peu, euh, en fait, je l'ai imaginée, mais en fait, je l'ai, j'ai fait un mix, euh, du visage de mon père, du mien.
 1	bah	bah	INTJ	_	_	4	discourse	_	AlignBegin=114770|AlignEnd=115863|SpaceAfter=No
@@ -552,7 +552,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	AlignBegin=117263|AlignEnd=117500
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=117500|AlignEnd=117737
 6	peu	peu	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	AlignBegin=117737|AlignEnd=117974|SpaceAfter=No
-7	,	,	PUNCT	_	_	16	punct	_	AlignBegin=117974|AlignEnd=117974
+7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=117974|AlignEnd=117974
 8	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=117974|AlignEnd=118211|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=118211|AlignEnd=118211
 10	en	en	ADP	_	_	11	case	_	AlignBegin=119759|AlignEnd=119957
@@ -570,7 +570,7 @@
 22	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	AlignBegin=121542|AlignEnd=121740
 23	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	24	obj	_	AlignBegin=121740|AlignEnd=121938|SpaceAfter=No
 24	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	reparandum	_	AlignBegin=121938|AlignEnd=122136|SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	AlignBegin=122136|AlignEnd=122136
+25	,	,	PUNCT	_	_	24	punct	_	AlignBegin=122136|AlignEnd=122136
 26	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	AlignBegin=122136|AlignEnd=122334|SpaceAfter=No
 27	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux:tense	_	AlignBegin=122334|AlignEnd=122533
 28	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	AlignBegin=122533|AlignEnd=122731
@@ -594,14 +594,14 @@
 44	.	.	PUNCT	_	_	16	punct	_	AlignBegin=124934|AlignEnd=124934
 
 # sent_id = ParisStories_2022_9_demiSoeurMartiniquaise__27
-# sound_url = https://api.nakala.fr/embed/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/fb42c0407726c2561e0c3e6cb6bbd24973bed571
 # speaker = L2
 # text = j'ai essayé de, de la chercher en nous, en fait.
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=124934|AlignEnd=125218|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=125218|AlignEnd=125501
 3	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=125501|AlignEnd=125785
 4	de	de	ADP	_	_	8	reparandum	_	AlignBegin=125785|AlignEnd=126069|SpaceAfter=No
-5	,	,	PUNCT	_	_	8	punct	_	AlignBegin=126069|AlignEnd=126069
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=126069|AlignEnd=126069
 6	de	de	ADP	_	_	8	mark	_	AlignBegin=126069|AlignEnd=126353
 7	la	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	AlignBegin=126353|AlignEnd=126636
 8	chercher	chercher	VERB	_	VerbForm=Inf	3	xcomp	_	AlignBegin=126636|AlignEnd=126920|Subject=SubjRaising

@@ -9,7 +9,7 @@
 5	adolescence	adolescence	NOUN	_	Gender=Fem|Number=Sing	7	dislocated	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	quelque	quelque	DET	_	Number=Sing|PronType=Ind	12	det	_	_
@@ -26,7 +26,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	fascinant	fascinant	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -139,7 +139,7 @@
 19	vont	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	dans	dans	ADP	_	_	26	reparandum	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	reparandum	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	26	punct	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
 23	dans	dans	ADP	_	_	26	case	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
 25	petites	petit	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
@@ -207,7 +207,7 @@
 36	à	à	ADP	_	_	37	case	_	_
 37	Mayotte	Mayotte	PROPN	_	_	35	nmod	_	_
 38	etc	etc	ADV	_	_	31	conj	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	46	punct	_	_
+39	,	,	PUNCT	_	_	19	punct	_	_
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
 41	AJP	AJP	PROPN	_	_	46	dislocated	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	41	punct	_	_
@@ -404,7 +404,7 @@
 4	dehors	dehors	NOUN	_	Gender=Masc|Number=Sing	10	reparandum	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -442,7 +442,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	à	à	ADP	_	_	2	mark	_	_
 2	partir	partir	VERB	_	VerbForm=Inf	9	advcl	_	Subject=NoRaising
-3	d'	d'	ADP	_	_	5	case	_	SpaceAfter=No
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	moment	moment	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 6	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
@@ -478,7 +478,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/bf256dfaad00858eaf1cd303c4c934772838c425
 1	dis	dire	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	s~	s~	X	_	_	6	dep	_	Scrap=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	dis	dire	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

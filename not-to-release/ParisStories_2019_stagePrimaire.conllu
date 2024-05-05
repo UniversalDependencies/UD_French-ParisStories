@@ -340,7 +340,7 @@
 15	leur	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	16	iobj	_	_
 16	apprendre	apprendre	VERB	_	VerbForm=Inf	20	reparandum	_	Subject=ObjRaising
 17	à	à	ADP	_	_	16	obl:arg	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	_
+18	,	,	PUNCT	_	_	16	punct	_	_
 19	leur	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	20	iobj	_	_
 20	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	appos	_	_
 21	à	à	ADP	_	_	22	mark	_	_
@@ -415,7 +415,7 @@
 12	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 13	avoir	avoir	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
 14	auprès	auprès	ADV	_	_	13	advmod	_	_
-15	d'	d'	ADP	_	_	17	case	_	SpaceAfter=No
+15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	classe	classe	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
@@ -436,11 +436,11 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	où	où	PRON	_	PronType=Rel	12	obl:mod	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
-12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	_
+12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	Scrap=Yes
 13	plutôt	plutôt	ADV	_	_	12	advmod	_	_
 14	bah	bah	INTJ	_	_	16	discourse	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
-16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	Scrap=Yes
+16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 17	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	18	det	_	_
 18	classes	classe	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
@@ -608,7 +608,7 @@
 10	voir	voir	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
 12	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	16	reparandum	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	_
 15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	_
 16	maître	maître	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
@@ -667,7 +667,7 @@
 # text = dégouté, pas dégouté de son métier parce qu'il aime ce qu'il fait.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/e9626624f528004ff3efd401810a123798da22ff
 1	dégouté	dégouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	4	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 4	dégouté	dégouter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_

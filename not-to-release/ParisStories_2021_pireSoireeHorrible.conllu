@@ -78,13 +78,13 @@
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
 7	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	reparandum	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
-15	qu'	qu'	SCONJ	_	_	17	mark	_	SpaceAfter=No
+15	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	_
 17	tannait	tanner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl:cleft	_	_
 18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
@@ -100,7 +100,7 @@
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	30	dep	_	_
 30	envie	envie	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
-31	qu'	qu'	SCONJ	_	_	33	mark	_	SpaceAfter=No
+31	qu'	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
 32	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	vienne	venir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
 34	vivre	vivre	VERB	_	VerbForm=Inf	33	xcomp	_	Subject=SubjRaising
@@ -124,7 +124,7 @@
 # text = et, euh, et au bout d'un moment on a craqué parce que, bah, elle est, elle forçait, elle forçait, puis, elle était plus jamais à la maison et tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	et	et	CCONJ	_	_	5	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	14	cc	_	_
@@ -132,7 +132,7 @@
 6	à	à	ADP	_	_	8	case	_	wordform=au
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bout	bout	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
-9	d'	d'	ADP	_	_	11	case	_	SpaceAfter=No
+9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	moment	moment	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
@@ -145,7 +145,7 @@
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	reparandum	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	24	punct	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
 23	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	forçait	forcer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
@@ -221,8 +221,8 @@
 # speaker = L1
 # text = et puis en soi, c'est son mec.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
-1	et	et	CCONJ	_	_	9	cc	_	_
-2	puis	puis	ADV	_	_	9	cc	_	_
+1	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes
+2	puis	puis	ADV	_	_	1	fixed	_	InIdiom=Yes
 3	en	en	ADP	_	_	4	case	_	_
 4	soi	soi	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -380,7 +380,7 @@
 # text = la, la première discussion qu'on a eue, c'est il critiquait les notes scolaires de mon frère.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	nmod	_	_
 5	discussion	discussion	NOUN	_	Gender=Fem|Number=Sing	12	dislocated	_	_
@@ -489,7 +489,7 @@
 2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 4	que	que	SCONJ	_	_	16	mark	_	_
-5	s'	s'	SCONJ	_	_	9	mark	_	SpaceAfter=No
+5	s'	si	SCONJ	_	_	9	mark	_	SpaceAfter=No
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 8	pas	pas	ADV	_	_	9	advmod	_	_
@@ -514,7 +514,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	reparandum	_	_
 7	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dep	_	Scrap=Yes|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
+8	,	,	PUNCT	_	_	6	punct	_	_
 9	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
 10	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	cop	_	_
 11	là	là	ADV	_	_	0	root	_	SpaceAfter=No
@@ -577,15 +577,14 @@
 6	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	mère	mère	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-9	avec	avec	ADP	_	_	11	case	_	_
-10	quelqu'	quelqu'	DET	_	Number=Sing	11	det	_	SpaceAfter=No
-11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	obl:mod	_	_
-12	d'	d'	ADP	_	_	13	case	_	SpaceAfter=No
-13	autre	autre	ADJ	_	Number=Sing	11	nmod	_	_
-14	que	que	SCONJ	_	_	16	case	_	_
-15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	_
-16	père	père	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	_
+9	avec	avec	ADP	_	_	10	case	_	_
+10	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	obl:mod	_	_
+11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+12	autre	autre	ADJ	_	Number=Sing	10	nmod	_	_
+13	que	que	SCONJ	_	_	15	case	_	_
+14	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
+15	père	père	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_34
 # speaker = L1
@@ -603,9 +602,9 @@
 1	donc	donc	ADV	_	_	14	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	9	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	trois	trois	NUM	_	Number=Plur	14	dislocated	_	SpaceAfter=No
@@ -682,7 +681,7 @@
 # text = le, le supplice s'est arrêté là.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	supplice	supplice	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 5	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
@@ -700,7 +699,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	11	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
 8	mère	mère	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 9	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
@@ -799,7 +798,7 @@
 1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
-4	qu'	qu'	SCONJ	_	_	7	mark	_	SpaceAfter=No
+4	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	débarqué	débarquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
@@ -835,7 +834,7 @@
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -877,7 +876,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	arrivait	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	avec	avec	ADP	_	_	9	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	avec	avec	ADP	_	_	9	case	_	_
@@ -910,7 +909,7 @@
 # text = mais, mais genre nous, on était invité chez lui.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	mais	mais	CCONJ	_	_	3	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	9	cc	_	_
 4	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	9	discourse	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	dislocated	_	SpaceAfter=No

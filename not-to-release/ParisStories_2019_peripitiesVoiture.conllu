@@ -57,7 +57,7 @@
 4	après	après	SCONJ	_	_	6	dep	_	_
 5	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	20	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	20	advmod	_	Idiom=Yes
 9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	fixed	_	InIdiom=Yes
 10	que	que	SCONJ	_	_	13	mark	_	_
@@ -117,7 +117,7 @@
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	reparandum	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	16	punct	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	discourse	_	_
 17	plus	plus	ADV	_	_	16	advmod	_	_
@@ -174,7 +174,7 @@
 7	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	choses	chose	NOUN	_	Gender=Fem|Number=Plur	11	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	XXX	XXX	X	_	_	7	nmod	_	wordform=XX
 12	de	de	ADP	_	ExtPos=DET	14	det	_	Idiom=Yes
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	InIdiom=Yes
@@ -285,7 +285,7 @@
 15	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 17	eu	avoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:tense	_	_
-18	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+18	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
 21	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	SpaceAfter=No
@@ -505,7 +505,7 @@
 17	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	advcl	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	examen	examen	NOUN	_	Gender=Masc|Number=Sing	22	reparandum	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
 23	de	de	ADP	_	_	25	case	_	_
@@ -567,7 +567,7 @@
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 14	...	...	PUNCT	_	_	13	punct	_	_
 15	enfin	enfin	ADV	_	ExtPos=INTJ	11	discourse	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	19	punct	_	_
+16	,	,	PUNCT	_	_	11	punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	sud	sud	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
@@ -621,7 +621,7 @@
 7	que	que	PRON	_	PronType=Rel	12	reparandum	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
-10	...	...	PUNCT	_	_	12	punct	_	_
+10	...	...	PUNCT	_	_	7	punct	_	_
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
 12	tombait	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
@@ -700,7 +700,7 @@
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	reparandum	_	SpaceAfter=No
-4	…	…	PUNCT	_	_	16	punct	_	_
+4	…	…	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -738,7 +738,7 @@
 38	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
 40	théoriques	théorique	ADJ	_	Gender=Fem|Number=Plur	43	reparandum	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	43	punct	_	_
+41	,	,	PUNCT	_	_	40	punct	_	_
 42	en	en	ADP	_	_	43	case	_	_
 43	plus	plus	ADV	_	_	35	advmod	_	_
 44	de	de	ADP	_	_	46	case	_	_
@@ -758,7 +758,7 @@
 6	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 8	XXX	XXX	X	_	_	7	dep	_	Scrap=Yes|SpaceAfter=No
-9	,	,	PUNCT	_	_	14	punct	_	_
+9	,	,	PUNCT	_	_	7	punct	_	_
 10	enfin	enfin	ADV	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No|wordform=fin
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No

@@ -159,7 +159,7 @@
 6	griffer	griffer	VERB	_	VerbForm=Inf	11	reparandum	_	Subject=SubjRaising
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	f~	f~	X	_	_	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
+9	,	,	PUNCT	_	_	6	punct	_	_
 10	à	à	ADP	_	_	11	mark	_	_
 11	partir	partir	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -291,7 +291,7 @@
 9	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 10	pas	pas	ADV	_	_	11	advmod	_	_
 11	longtemps	longtemps	ADV	_	_	9	advmod	_	_
-12	qu'	qu'	SCONJ	_	_	15	mark	_	SpaceAfter=No
+12	qu'	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	_
 14	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
 15	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
@@ -320,7 +320,7 @@
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis:parenth	_	_
 17	pas	pas	ADV	_	_	16	advmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	22	punct	_	_
+18	,	,	PUNCT	_	_	10	punct	_	_
 19	que	que	SCONJ	_	_	22	mark	_	_
 20	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
@@ -421,7 +421,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -446,7 +446,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	tout	tout	ADV	_	_	7	advmod	_	_
@@ -494,7 +494,7 @@
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
 3	beau	beau	ADJ	_	Gender=Masc|Number=Sing	2	advcl	_	_
 4	aller	aller	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|Subject=SubjRaising
-5	,	,	PUNCT	_	_	9	punct	_	_
+5	,	,	PUNCT	_	_	2	punct	_	_
 6	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
@@ -611,7 +611,7 @@
 7	ouf	ouf	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
 12	comprend	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 13	pas	pas	ADV	_	_	12	advmod	_	SpaceAfter=No
@@ -624,7 +624,7 @@
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	impression	impression	NOUN	_	Gender=Fem|Number=Sing	2	obj:lvc	_	_
-5	qu'	qu'	SCONJ	_	_	6	case	_	SpaceAfter=No
+5	qu'	que	SCONJ	_	_	6	case	_	SpaceAfter=No
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	Scrap=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	15	discourse	_	SpaceAfter=No
@@ -659,7 +659,7 @@
 1	et	et	CCONJ	_	_	5	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -697,7 +697,7 @@
 11	quand	quand	ADV	_	ExtPos=ADV	10	advmod	_	Idiom=Yes
 12	même	même	ADV	_	Number=Sing	11	fixed	_	InIdiom=Yes
 13	beaucoup	beaucoup	ADV	_	_	10	obj	_	_
-14	d'	d'	ADP	_	_	15	case	_	SpaceAfter=No
+14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	attention	attention	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -742,7 +742,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	10	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	dingue	dingue	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No

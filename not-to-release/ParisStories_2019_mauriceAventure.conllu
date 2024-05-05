@@ -10,12 +10,12 @@
 6	Rafi	Rafi	PROPN	_	_	8	dislocated	_	_
 7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	12	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	reparandum	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	fille	fille	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
@@ -38,7 +38,7 @@
 7	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	dans	dans	ADP	_	_	9	dep:comp	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Parc	parc	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
@@ -80,9 +80,9 @@
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 14	plein	plein	ADV	_	_	17	reparandum	_	_
 15	de	de	ADP	_	_	14	obl:arg	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
+16	,	,	PUNCT	_	_	14	punct	_	_
 17	plein	plein	ADV	_	_	19	advmod	_	_
-18	d'	d'	ADP	_	_	17	obl:arg	_	SpaceAfter=No
+18	d'	de	ADP	_	_	17	obl:arg	_	SpaceAfter=No
 19	activités	activité	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -112,7 +112,7 @@
 11	zoo	zoo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	et	et	CCONJ	_	_	13	reparandum	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
-14	d'	d'	ADP	_	_	15	case	_	SpaceAfter=No
+14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	attractions	attraction	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -124,7 +124,7 @@
 3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plein	plein	ADV	_	_	4	obj	_	_
-6	d'	d'	ADP	_	_	7	case	_	SpaceAfter=No
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	activités	activité	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 9	existent	exister	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
@@ -146,7 +146,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	7	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -181,7 +181,7 @@
 1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	12	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
 7	ouais	ouais	INTJ	_	_	12	discourse	_	_
@@ -218,7 +218,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	_
 19	jours	jours	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
+20	,	,	PUNCT	_	_	16	punct	_	_
 21	sur	sur	ADP	_	_	22	case	_	_
 22	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	obl:mod	_	_
 23	de	de	ADP	_	_	25	case	_	_
@@ -486,7 +486,7 @@
 1	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plein	plein	ADV	_	_	5	advmod	_	_
-4	d'	d'	ADP	_	_	3	obl:arg	_	SpaceAfter=No
+4	d'	de	ADP	_	_	3	obl:arg	_	SpaceAfter=No
 5	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -799,7 +799,7 @@
 4	Bastien	Bastien	PROPN	_	_	9	reparandum	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	Matthieu	Matthieu	PROPN	_	_	4	conj	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	copains	copain	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 10	de	de	ADP	_	_	13	reparandum	_	_

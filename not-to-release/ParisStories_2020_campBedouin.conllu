@@ -238,7 +238,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Dubaï	Dubaï	PROPN	_	_	10	obl:arg	_	_
 14	Creek	Creek	PROPN	_	_	13	flat:name	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	21	punct	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
 16	euh	euh	INTJ	_	_	21	discourse	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
@@ -288,7 +288,7 @@
 11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
 12	plein	plein	ADV	_	_	15	reparandum	_	_
 13	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
+14	,	,	PUNCT	_	_	12	punct	_	_
 15	plein	plein	ADV	_	_	11	obj	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	_

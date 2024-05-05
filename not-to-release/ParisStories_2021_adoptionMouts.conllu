@@ -128,7 +128,7 @@
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	vraiment	vraiment	ADV	_	_	2	advmod	_	_
-4	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	air	air	NOUN	_	Gender=Masc|Number=Sing	2	obj:lvc	_	_
 6	toute	toute	ADV	_	_	7	advmod	_	_
 7	triste	triste	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
@@ -145,7 +145,7 @@
 5	prise	prendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	parce	parce	SCONJ	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
-8	qu'	qu'	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
+8	qu'	que	SCONJ	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	en	en	ADP	_	_	10	case	_	_
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	_
 11	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
@@ -192,7 +192,7 @@
 28	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 29	en	en	ADP	_	_	30	case	_	_
 30	plus	plus	ADV	_	_	28	advmod	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	33	punct	_	_
+31	,	,	PUNCT	_	_	18	punct	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	ongle	ongle	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 34	en	en	ADP	_	_	35	case	_	_
@@ -252,7 +252,7 @@
 11	bras	bras	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	maman	maman	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
-14	d'	d'	ADP	_	_	15	case	_	SpaceAfter=No
+14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	abord	abord	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	après	après	ADP	_	_	18	dep	_	_
@@ -305,10 +305,10 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	é~	é~	VERB	_	_	13	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	13	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	tout	tout	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
@@ -322,7 +322,7 @@
 22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	_
 23	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	mascara	mascara	NOUN	_	Gender=Masc|Number=Sing	28	reparandum	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	_
+25	,	,	PUNCT	_	_	24	punct	_	_
 26	de	un	ADP	_	ExtPos=DET	28	det	_	Idiom=Yes
 27	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	fixed	_	InIdiom=Yes|SpaceAfter=No
 28	eyeliner	eyeliner	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
@@ -518,7 +518,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
-10	qu'	qu'	SCONJ	_	_	12	mark	_	SpaceAfter=No
+10	qu'	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
 11	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
 13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
@@ -535,7 +535,7 @@
 4	revenu	revenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
-7	d'	d'	ADP	_	_	8	case	_	SpaceAfter=No
+7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	après	après	ADV	_	_	6	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	avec	avec	ADP	_	_	12	case	_	_

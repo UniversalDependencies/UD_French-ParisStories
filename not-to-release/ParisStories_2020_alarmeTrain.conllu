@@ -34,7 +34,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 5	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
 8	entends	entendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -99,10 +99,10 @@
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	mère	mère	NOUN	_	Gender=Fem|Number=Sing	20	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	20	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -137,7 +137,7 @@
 12	que	que	SCONJ	_	_	11	fixed	_	InIdiom=Yes
 13	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 14	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	reparandum	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	19	punct	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
@@ -275,7 +275,7 @@
 24	brassard	brassard	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	orange	orange	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
 26	avec	avec	ADP	_	_	29	reparandum	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	29	punct	_	_
+27	,	,	PUNCT	_	_	26	punct	_	_
 28	avec	avec	ADP	_	_	29	mark	_	_
 29	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
 30	police	police	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
@@ -332,7 +332,7 @@
 1	voilà	voilà	VERB	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 6	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	obj	_	_
 7	rattrapes	rattrape	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -435,7 +435,7 @@
 17	tiré	tirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
 18	à	à	ADP	_	_	19	case	_	_
 19	cause	cause	NOUN	_	Gender=Fem|Number=Sing	22	reparandum	_	Scrap=Yes|SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	pour	pour	ADP	_	_	22	case	_	_
 22	cause	cause	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 23	de	de	ADP	_	_	24	case	_	_

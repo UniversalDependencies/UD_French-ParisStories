@@ -72,7 +72,7 @@
 21	,	,	PUNCT	_	_	18	punct	_	_
 22	ne	ne	ADV	_	_	23	advmod	_	_
 23	connaître	connaître	VERB	_	VerbForm=Inf	31	reparandum	_	SpaceAfter=No|Subject=SubjRaising
-24	,	,	PUNCT	_	_	31	punct	_	_
+24	,	,	PUNCT	_	_	23	punct	_	_
 25	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	ni	ni	CCONJ	_	_	31	cc	_	SpaceAfter=No
@@ -171,7 +171,7 @@
 # sent_id = ParisStories_2021_nouveauxEleves_8
 # text = d'où tu viens etc?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/2f23fc7ef93ff57444d56c8036be2ff81307aaeb
-1	d'	d'	ADP	_	_	2	case	_	SpaceAfter=No
+1	d'	de	ADP	_	_	2	case	_	SpaceAfter=No
 2	où	où	PRON	_	PronType=Rel	4	obl:arg	_	_
 3	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	viens	venir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -244,24 +244,24 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	contraire	contraire	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
 18	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-19	n'	n'	ADV	_	_	20	advmod	_	SpaceAfter=No
+19	n'	ne	ADV	_	_	20	advmod	_	SpaceAfter=No
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
 21	pas	pas	ADV	_	_	20	advmod	_	_
 22	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	tout	tout	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
 24	de	de	ADP	_	_	28	reparandum	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	28	punct	_	_
+25	,	,	PUNCT	_	_	24	punct	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	région	région	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	_
 29	parisienne	parisien	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	34	punct	_	_
-31	qu'	qu'	SCONJ	_	_	34	mark	_	SpaceAfter=No
+31	qu'	que	SCONJ	_	_	34	mark	_	SpaceAfter=No
 32	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 33	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	aux:tense	_	_
 34	déménagé	déménager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	_
 35	et	et	CCONJ	_	_	40	cc	_	_
-36	qu'	qu'	SCONJ	_	_	40	mark	_	SpaceAfter=No
+36	qu'	que	SCONJ	_	_	40	mark	_	SpaceAfter=No
 37	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 38	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
 39	tout	tout	ADV	_	_	40	advmod	_	_
@@ -271,7 +271,7 @@
 43	euh	euh	INTJ	_	_	48	discourse	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	48	punct	_	_
 45	parce	parce	SCONJ	_	ExtPos=SCONJ	48	mark	_	Idiom=Yes
-46	qu'	qu'	SCONJ	_	_	45	fixed	_	InIdiom=Yes|SpaceAfter=No
+46	qu'	que	SCONJ	_	_	45	fixed	_	InIdiom=Yes|SpaceAfter=No
 47	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	_
 48	habitait	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	40	advcl	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	51	punct	_	_
@@ -289,16 +289,16 @@
 61	Rhônes	Rhônes	PROPN	_	_	56	nmod	_	_
 62	-Alpes	Alpes	PROPN	_	_	61	flat:name	_	_
 63	euh	euh	INTJ	_	_	62	discourse	_	_
-64	quelques	quelque	DET	_	Number=Plur	79	reparandum	_	_
+64	quelques	quelque	DET	_	Number=Plur	79	reparandum	_	Scrap=Yes
 65	euh	euh	INTJ	_	_	64	discourse	_	SpaceAfter=No
-66	,	,	PUNCT	_	_	79	punct	_	_
+66	,	,	PUNCT	_	_	64	punct	_	_
 67	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	79	reparandum	_	Idiom=Yes
 68	y	y	PRON	_	Person=3|PronType=Prs	67	fixed	_	InIdiom=Yes
 69	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	fixed	_	InIdiom=Yes|SpaceAfter=No
-70	,	,	PUNCT	_	_	79	punct	_	_
+70	,	,	PUNCT	_	_	67	punct	_	_
 71	il	lui	PRON	_	ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	79	case	_	Idiom=Yes
 72	y	y	PRON	_	Person=3|PronType=Prs	71	fixed	_	InIdiom=Yes
-73	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	fixed	_	InIdiom=Yes|Scrap=Yes
+73	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	fixed	_	InIdiom=Yes
 74	même	même	ADV	_	_	75	advmod	_	_
 75	pas	pas	ADV	_	_	79	advmod	_	_
 76	euh	euh	INTJ	_	_	79	discourse	_	SpaceAfter=No
@@ -379,7 +379,7 @@
 20	à	à	ADP	_	_	21	case	_	_
 21	rien	rien	PRON	_	Number=Sing|PronType=Neg	19	obl:arg	_	_
 22	que	que	SCONJ	_	_	27	reparandum	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	27	punct	_	_
+23	,	,	PUNCT	_	_	22	punct	_	_
 24	que	que	SCONJ	_	_	27	mark	_	_
 25	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 26	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	27	iobj	_	_
@@ -432,7 +432,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	11	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	pas	pas	ADV	_	_	11	advmod	_	_
@@ -497,7 +497,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	bon	bon	INTJ	_	_	20	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	d'	d'	ADP	_	_	17	case	_	SpaceAfter=No
+16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	accord	accord	NOUN	_	Gender=Masc|Number=Sing	20	discourse	_	_
 18	comme	comme	SCONJ	_	_	20	mark	_	Reported=Yes
 19	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
@@ -537,7 +537,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	début	début	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 9	pas	pas	ADV	_	_	10	advmod	_	_
@@ -651,7 +651,7 @@
 13	si	si	SCONJ	_	_	19	mark	_	_
 14	vraiment	vraiment	ADV	_	_	19	advmod	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 18	te	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	19	iobj	_	_
 19	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	SpaceAfter=No

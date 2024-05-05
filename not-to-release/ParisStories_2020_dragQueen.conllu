@@ -71,13 +71,13 @@
 13	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	_
 14	y	y	PRON	_	Person=3|PronType=Prs	15	expl:comp	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	reparandum	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	26	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	année	année	NOUN	_	Gender=Fem|Number=Sing	26	reparandum	_	_
 21	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	26	punct	_	_
+22	,	,	PUNCT	_	_	20	punct	_	_
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	SpaceAfter=No
 24	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
@@ -226,7 +226,7 @@
 9	changer	changer	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 10	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	14	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
 13	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	_
 14	date	date	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 15	de	de	ADP	_	_	16	case	_	_
@@ -291,7 +291,7 @@
 # text = mais, euh, mais voilà, du coup, j'y suis allé avec Eleanor.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	mais	mais	CCONJ	_	_	5	reparandum	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	mais	mais	CCONJ	_	_	15	cc	_	_
@@ -315,7 +315,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	8	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
@@ -335,7 +335,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/8ea300dd08e8fd14e52fcb9197addd70b294980c
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	reparandum	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 5	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	être	être	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
@@ -381,7 +381,7 @@
 8	là-bas	là-bas	ADV	_	_	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	à	à	ADP	_	_	14	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	14	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	à	à	ADP	_	_	14	case	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	Etoile	Etoile	PROPN	_	_	8	appos	_	SpaceAfter=No
@@ -475,7 +475,7 @@
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	heure	heure	NOUN	_	Gender=Fem|Number=Sing	20	reparandum	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	20	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	heure	heure	NOUN	_	Gender=Fem|Number=Sing	20	reparandum	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
@@ -555,7 +555,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 7	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	y	y	PRON	_	Person=3|PronType=Prs	10	dep:comp	_	_
@@ -637,7 +637,7 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	bon	bon	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 18	gros	gros	ADJ	_	Gender=Masc|Number=Sing	23	reparandum	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	23	punct	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 22	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
@@ -696,7 +696,7 @@
 5	tout	tout	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	beaucoup	beaucoup	ADV	_	_	10	advmod	_	_
 10	trop	trop	ADV	_	_	4	obj	_	_
 11	de	de	ADP	_	_	12	case	_	_

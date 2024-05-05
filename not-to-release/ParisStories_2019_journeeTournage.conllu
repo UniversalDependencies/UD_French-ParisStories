@@ -61,7 +61,7 @@
 8	franchement	_	ADV	_	_	10	advmod	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	16	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	vraiment	vraiment	ADV	_	_	16	advmod	_	_
@@ -72,7 +72,7 @@
 19	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	reparandum	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
 24	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	26	iobj	_	SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
@@ -123,12 +123,12 @@
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	reparandum	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	abord	abord	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	22	punct	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	jour	jour	NOUN	_	Gender=Masc|Number=Sing	16	reparandum	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	16	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	enfin	enfin	ADV	_	ExtPos=INTJ	16	discourse	_	_
@@ -203,7 +203,7 @@
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	côtés	côté	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	_
 14	pour	pour	ADP	_	_	19	reparandum	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	19	punct	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	pour	pour	ADP	_	_	19	mark	_	_
@@ -344,7 +344,7 @@
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	13	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	toute	tout	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
@@ -380,7 +380,7 @@
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	années	année	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 16	quarante	quarante	NUM	_	Number=Plur	15	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	21	punct	_	_
+17	,	,	PUNCT	_	_	7	punct	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
@@ -565,7 +565,7 @@
 2	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	_
 4	que	que	SCONJ	_	_	10	reparandum	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	10	punct	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
@@ -622,7 +622,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	Et	et	CCONJ	_	_	4	reparandum	_	_
 2	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	et	et	CCONJ	_	_	9	cc	_	_
 5	ensuite	ensuite	ADV	_	_	9	advmod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -731,7 +731,7 @@
 24	derrière	derrière	ADP	_	_	23	dep	_	_
 25	pour	pour	ADP	_	ExtPos=ADV	29	reparandum	_	Idiom=Yes
 26	que	que	SCONJ	_	_	25	fixed	_	InIdiom=Yes|SpaceAfter=No
-27	,	,	PUNCT	_	_	29	punct	_	_
+27	,	,	PUNCT	_	_	25	punct	_	_
 28	pour	pour	ADP	_	_	29	mark	_	_
 29	montrer	montrer	VERB	_	VerbForm=Inf	23	advcl	_	Subject=NoRaising
 30	qu'	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
@@ -878,7 +878,7 @@
 42	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	ccomp	_	_
 43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	scène	scène	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
-45	,	,	PUNCT	_	_	49	punct	_	_
+45	,	,	PUNCT	_	_	33	punct	_	_
 46	euh	euh	INTJ	_	_	49	discourse	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	49	obj	_	_

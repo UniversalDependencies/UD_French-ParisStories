@@ -67,9 +67,9 @@
 16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	d'	de	ADP	_	_	23	reparandum	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	23	punct	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
 20	d'	de	ADP	_	_	23	reparandum	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
+21	,	,	PUNCT	_	_	20	punct	_	_
 22	d'	de	ADP	_	_	23	mark	_	SpaceAfter=No
 23	aider	aider	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=SubjRaising
 24	à	à	ADP	_	_	26	case	_	_
@@ -146,7 +146,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	pendant	pendant	ADP	_	_	11	case	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	reparandum	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	construction	construction	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
@@ -154,7 +154,7 @@
 14	guillemets	guillemet	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	reparandum	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	20	punct	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
@@ -451,7 +451,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
 11	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	expl:subj	_	_
 12	que	que	SCONJ	_	_	19	reparandum	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	19	punct	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	SpaceAfter=No
 15	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	expl:subj	_	_
 16	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
@@ -484,7 +484,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	9	punct	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
@@ -519,10 +519,10 @@
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	dislocated	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	13	punct	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	13	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
