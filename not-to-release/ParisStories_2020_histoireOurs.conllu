@@ -8,8 +8,8 @@
 4	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	vraiment	vraiment	ADV	_	_	2	advmod	_	_
-7	sous	sous	ADP	_	_	8	dep:comp	_	_
-8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	reparandum	_	SpaceAfter=No
+7	sous	sous	ADP	_	_	8	case	_	_
+8	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	reparandum	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	sous	sous	ADP	_	_	12	case	_	_
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	_
@@ -130,8 +130,8 @@
 23	et	et	CCONJ	_	ExtPos=ADV	21	conj	_	Idiom=Yes
 24	tout	tout	ADV	_	_	23	fixed	_	InIdiom=Yes|SpaceAfter=No
 25	,	,	PUNCT	_	_	31	punct	_	_
-26	sur	sur	ADP	_	_	27	dep:comp	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	reparandum	_	SpaceAfter=No
+26	sur	sur	ADP	_	_	27	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	reparandum	_	Scrap=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	sur	sur	ADP	_	_	31	case	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_

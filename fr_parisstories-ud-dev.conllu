@@ -634,7 +634,7 @@
 37	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_24
-# text = en fait, quand tu mets la farine à le final ça se décolle.
+# text = en fait, quand tu mets la farine au final ça se décolle.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	en	en	ADP	_	_	2	case	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	SpaceAfter=No
@@ -644,6 +644,7 @@
 6	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	farine	farine	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	final	final	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
@@ -1816,19 +1817,17 @@
 22	justement	justement	ADV	_	_	24	advmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	donner	donner	VERB	_	VerbForm=Inf	20	xcomp	_	Subject=SubjRaising
-25-26	des	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
-27	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
-28	à	à	ADP	_	_	30	case	_	_
-29	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	_
-30	patients	patient	NOUN	_	Gender=Masc|Number=Plur	24	obl:arg	_	SpaceAfter=No
-31	,	,	PUNCT	_	_	33	punct	_	_
-32	en	en	ADP	_	_	33	case	_	_
-33	matière	matière	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
-34	de	de	ADP	_	_	35	case	_	_
-35	sexe	sexe	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	2	punct	_	_
+25	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
+26	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	24	obj	_	_
+27	à	à	ADP	_	_	29	case	_	_
+28	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	29	det	_	_
+29	patients	patient	NOUN	_	Gender=Masc|Number=Plur	24	obl:arg	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	en	en	ADP	_	_	32	case	_	_
+32	matière	matière	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	sexe	sexe	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_devoirPhilosophie_36
 # text = donc voilà.
@@ -1854,7 +1853,7 @@
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_2
-# text = donc euh j'ai fait la conduite accompagnée à le lycée.
+# text = donc euh j'ai fait la conduite accompagnée au lycée.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
@@ -1864,6 +1863,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
@@ -2189,7 +2189,7 @@
 20	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_17
-# text = je me suis mise euh sur la voie de gauche, alors que je devais pas de le tout me mettre sur cette voie.
+# text = je me suis mise euh sur la voie de gauche, alors que je devais pas du tout me mettre sur cette voie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
@@ -2207,6 +2207,7 @@
 14	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 15	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
+17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	ExtPos=ADV	16	advmod	_	Idiom=Yes
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	InIdiom=Yes
 19	tout	tout	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	InIdiom=Yes
@@ -2218,7 +2219,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_18
-# text = c'est parce que je pensais que le stop il s'étalait sur tout le long de la route, mais, en fait, pas de le tout.
+# text = c'est parce que je pensais que le stop il s'étalait sur tout le long de la route, mais, en fait, pas du tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2246,6 +2247,7 @@
 24	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	InIdiom=Yes|SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	pas	pas	ADV	_	Polarity=Neg	12	conj	_	_
+27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	InIdiom=Yes
 29	tout	tout	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -2448,7 +2450,7 @@
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_27
-# text = j'ai eu de la chance que c'était... ça tombait pas à le même moment.
+# text = j'ai eu de la chance que c'était... ça tombait pas au même moment.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
@@ -2463,6 +2465,7 @@
 11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
 12	tombait	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
+14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	17	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	même	même	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
@@ -2497,12 +2500,13 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_30
-# text = après euh l'après-midi de le coup je me suis rendue euh à mon lieu de rendez-vous pour mon permis,
+# text = après euh l'après-midi du coup je me suis rendue euh à mon lieu de rendez-vous pour mon permis,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/96fdf0c3c0929c7ff3aac3518300fab62602949b
 1	après	après	ADV	_	_	11	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	discourse	_	_
@@ -3987,7 +3991,7 @@
 10	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11-12	aux	_	_	_	_	_	_	_	SpaceAfter=No
 11	à	à	ADP	_	_	16	reparandum	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	dep	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	dep	_	Scrap=Yes
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_
@@ -8411,7 +8415,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=38044|AlignEnd=38253|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=38253|AlignEnd=38253
 7	compliqué	compliqué	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=38253|AlignEnd=38462
-8	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	dep	_	AlignBegin=38462|AlignEnd=38672
+8	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	9	amod	_	AlignBegin=38462|AlignEnd=38672
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	dislocated	_	AlignBegin=38672|AlignEnd=38881|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=38881|AlignEnd=38881
 
@@ -12204,11 +12208,11 @@
 23	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=76978|AlignEnd=77209
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	AlignBegin=77209|AlignEnd=77439
 25	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	reparandum	_	AlignBegin=77439|AlignEnd=77670
-26	dans	dans	ADP	_	_	27	dep:comp	_	AlignBegin=78102|AlignEnd=78533
-27	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	obl:arg	_	AlignBegin=78533|AlignEnd=78963|SpaceAfter=No
+26	dans	dans	ADP	_	_	27	case	_	AlignBegin=78102|AlignEnd=78533
+27	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	obl:arg	_	AlignBegin=78533|AlignEnd=78963|Scrap=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=78963|AlignEnd=78963
-29	hum	hum	INTJ	_	_	27	discourse	_	AlignBegin=78963|AlignEnd=79394|SpaceAfter=No
-30	,	,	PUNCT	_	_	25	punct	_	AlignBegin=79394|AlignEnd=79394
+29	hum	hum	INTJ	_	_	33	discourse	_	AlignBegin=78963|AlignEnd=79394|SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	AlignBegin=79394|AlignEnd=79394
 31	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	AlignBegin=80153|AlignEnd=80471
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:tense	_	AlignBegin=80471|AlignEnd=80790
 33	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=80790|AlignEnd=81108|SpaceAfter=No
@@ -12217,8 +12221,8 @@
 36	,	,	PUNCT	_	_	35	punct	_	AlignBegin=81426|AlignEnd=81426
 37	chez	chez	ADP	_	_	38	case	_	AlignBegin=81426|AlignEnd=81766
 38	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obl:arg	_	AlignBegin=81766|AlignEnd=82107
-39	dans	dans	ADP	_	_	40	dep:comp	_	AlignBegin=82107|AlignEnd=82447
-40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	45	dep:comp	_	AlignBegin=82447|AlignEnd=82787|SpaceAfter=No
+39	dans	dans	ADP	_	_	40	case	_	AlignBegin=82107|AlignEnd=82447
+40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	45	obj	_	AlignBegin=82447|AlignEnd=82787|Scrap=Yes|SpaceAfter=No
 41	,	,	PUNCT	_	_	45	punct	_	AlignBegin=82787|AlignEnd=82787
 42	comment	comment	ADV	_	_	45	advmod	_	AlignBegin=82787|AlignEnd=82982
 43	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	nsubj	_	AlignBegin=82982|AlignEnd=83178

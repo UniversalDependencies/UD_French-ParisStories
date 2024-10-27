@@ -36,8 +36,8 @@
 5	fille	fille	NOUN	_	Gender=Fem|Number=Sing	7	dislocated	_	_
 6	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	dans	dans	ADP	_	_	9	dep:comp	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	SpaceAfter=No
+8	dans	dans	ADP	_	_	9	case	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	Scrap=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_

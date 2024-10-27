@@ -247,8 +247,8 @@
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	27	punct	_	_
-22	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	26	punct	_	_
+22	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	hum	mh	INTJ	_	_	22	discourse	_	SpaceAfter=No|wordform=mh
 25	,	,	PUNCT	_	_	22	punct	_	_

@@ -1,19 +1,20 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_prepaScientifique_1
-# text = alors, euh, pas de le tout.
+# text = alors, euh, pas du tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	alors	alors	ADV	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
+6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	InIdiom=Yes
 8	tout	tout	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_2
-# text = en fait, euh, quand j'étais, euh, à le lycée, enfin même à le collège, enfin, et surtout en terminale, euh, ce que j'aimais le plus c'était les sciences, et surtout les maths.
+# text = en fait, euh, quand j'étais, euh, au lycée, enfin même au collège, enfin, et surtout en terminale, euh, ce que j'aimais le plus c'était les sciences, et surtout les maths.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	en	en	ADP	_	ExtPos=ADV	40	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -26,12 +27,14 @@
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
+12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	31	acl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	enfin	enfin	ADV	_	ExtPos=INTJ	20	discourse	_	_
 17	même	même	ADV	_	_	20	cc	_	_
+18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	collège	collège	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
@@ -95,8 +98,9 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_4
-# text = de le coup, avec ma maman, on a demandé un peu conseil à mes profs, qui euh…
+# text = du coup, avec ma maman, on a demandé un peu conseil à mes profs, qui euh…
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	discourse	_	SpaceAfter=No
@@ -139,7 +143,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_6
-# text = donc, euh, moi, XXX, enfin ça me semblait parfait, parce que déjà, euh, ça permettait de pas se spécialiser de le tout tout de suite, de continuer à faire un peu de tout.
+# text = donc, euh, moi, XXX, enfin ça me semblait parfait, parce que déjà, euh, ça permettait de pas se spécialiser du tout tout de suite, de continuer à faire un peu de tout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	donc	donc	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -167,6 +171,7 @@
 24	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
 25	se	soi	PRON	_	Person=3|PronType=Prs	26	obj	_	_
 26	spécialiser	spécialiser	VERB	_	VerbForm=Inf	35	reparandum	_	Subject=NoRaising
+27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	InIdiom=Yes
 29	tout	tout	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	InIdiom=Yes
@@ -245,7 +250,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_10
-# text = et, euh, c'était euh, en fait, en fait, ni moi ni ma famille, on avait réfléchi à le fait que ça menait à des études d'ingénieur.
+# text = et, euh, c'était euh, en fait, en fait, ni moi ni ma famille, on avait réfléchi au fait que ça menait à des études d'ingénieur.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -270,6 +275,7 @@
 21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	nsubj	_	_
 22	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux:tense	_	_
 23	réfléchi	réfléchir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
@@ -284,12 +290,13 @@
 35	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_11
-# text = on s'était pas de le tout rendu compte de ça.
+# text = on s'était pas du tout rendu compte de ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 2	s'	soi	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
 4	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
+5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	ExtPos=ADV	4	advmod	_	Idiom=Yes
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	InIdiom=Yes
 7	tout	tout	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	InIdiom=Yes
@@ -332,8 +339,9 @@
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_14
-# text = de le coup, je suis arrivée là-dedans sans savoir de le tout ce que ça allait donner.
+# text = du coup, je suis arrivée là-dedans sans savoir du tout ce que ça allait donner.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
@@ -344,6 +352,7 @@
 8	là-dedans	là-dedans	ADV	_	_	7	advmod	_	_
 9	sans	sans	ADP	_	_	10	mark	_	_
 10	savoir	savoir	VERB	_	VerbForm=Inf	7	advcl	_	Subject=NoRaising
+11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	InIdiom=Yes
 13	tout	tout	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	InIdiom=Yes
@@ -441,12 +450,13 @@
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_19
-# text = et, euh, à le moment, enfin en gros après, j'ai passé les concours.
+# text = et, euh, au moment, enfin en gros après, j'ai passé les concours.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	et	et	CCONJ	_	_	16	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	16	punct	_	_
+5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	moment	moment	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	SpaceAfter=No
@@ -500,7 +510,7 @@
 32	.	.	PUNCT	_	_	28	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_21
-# text = et c'est là que, on a commencé à regarder les brochures, euh, avec mes parents, et XXX on a commencé à regarder les brochures de les écoles d'ingénieur.
+# text = et c'est là que, on a commencé à regarder les brochures, euh, avec mes parents, et XXX on a commencé à regarder les brochures des écoles d'ingénieur.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
@@ -531,6 +541,7 @@
 27	regarder	regarder	VERB	_	VerbForm=Inf	25	xcomp	_	Subject=SubjRaising
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	brochures	brochure	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	_
+30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
 32	écoles	école	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
@@ -808,7 +819,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_prepaScientifique_32
-# text = mais on s'amuse beaucoup, c'est l'école d'ingénieur, euh, le retour des, de la vie sociale, de les amis, et tout ça, donc ça c'était chouette.
+# text = mais on s'amuse beaucoup, c'est l'école d'ingénieur, euh, le retour des, de la vie sociale, des amis, et tout ça, donc ça c'était chouette.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/0f31223390324cb44822e998a63813adbed0d448
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
@@ -836,6 +847,7 @@
 23	vie	vie	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 24	sociale	social	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
+26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	amis	ami	NOUN	_	Gender=Masc|Number=Plur	19	appos	_	SpaceAfter=No
@@ -1184,7 +1196,7 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_4
-# text = euh sinon euh en juillet, euh je suis restée chez moi à le début juillet,
+# text = euh sinon euh en juillet, euh je suis restée chez moi au début juillet,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	10	discourse	_	_
 2	sinon	sinon	ADV	_	_	10	cc	_	_
@@ -1198,6 +1210,7 @@
 10	restée	rester	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	chez	chez	ADP	_	_	12	case	_	_
 12	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obl:mod	_	_
+13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	16	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	début	début	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -1367,7 +1380,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_11
-# text = et euh et pendant le mois de juillet il avait une exposition euh à le château de Javarzay.
+# text = et euh et pendant le mois de juillet il avait une exposition euh au château de Javarzay.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	10	discourse	_	_
@@ -1382,6 +1395,7 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	exposition	exposition	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	_
+14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	château	château	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
@@ -1498,12 +1512,13 @@
 20	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_17
-# text = euh voilà et donc à le retour de à Paris je suis allée à le concert de Coldplay à le Stade de France, euh voilà.
+# text = euh voilà et donc au retour de à Paris je suis allée au concert de Coldplay au Stade de France, euh voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	13	discourse	_	_
 2	voilà	voilà	VERB	_	ExtPos=INTJ	13	discourse	_	_
 3	et	et	CCONJ	_	_	13	cc	_	_
 4	donc	donc	ADV	_	_	13	cc	_	_
+5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	retour	retour	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
@@ -1513,11 +1528,13 @@
 11	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	concert	concert	NOUN	_	Gender=Masc|Number=Sing	13	obl:arg	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	Coldplay	Coldplay	PROPN	_	_	16	nmod	_	_
+19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Stade	stade	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
@@ -1676,12 +1693,13 @@
 10	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_24
-# text = euh j'ai gagné à le total quinze euros.
+# text = euh j'ai gagné au total quinze euros.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	total	total	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
@@ -1705,12 +1723,13 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_26
-# text = euh on est allé à le cinéma, on a fait euh de le vélo, on est allé à le lac, on retournait à le casino,
+# text = euh on est allé au cinéma, on a fait euh du vélo, on est allé au lac, on retournait au casino,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
@@ -1719,6 +1738,7 @@
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	_
+13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	vélo	vélo	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
@@ -1726,12 +1746,14 @@
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	nsubj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
 19	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	lac	lac	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	nsubj	_	_
 25	retournait	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+26-27	au	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	casino	casino	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	SpaceAfter=No
@@ -1923,11 +1945,12 @@
 7	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_35
-# text = on est allé à le casino, beaucoup, parce que on aime bien ça.
+# text = on est allé au casino, beaucoup, parce que on aime bien ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	casino	casino	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No
@@ -2099,7 +2122,7 @@
 20	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_8
-# text = et, euh, ah, mais, par contre, euh, l'Italie, mais, c'est, c'est pas, franchement, c'est pas un cliché, c'est vraiment le pays de les arnaques.
+# text = et, euh, ah, mais, par contre, euh, l'Italie, mais, c'est, c'est pas, franchement, c'est pas un cliché, c'est vraiment le pays des arnaques.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	et	et	CCONJ	_	_	20	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -2139,6 +2162,7 @@
 36	vraiment	vraiment	ADV	_	_	38	advmod	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	pays	pays	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	_
+39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
 41	arnaques	arnaque	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
@@ -2507,11 +2531,12 @@
 20	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_24
-# text = et hum, à le final on est parti en tapant un scandale,
+# text = et hum, au final on est parti en tapant un scandale,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	hum	hum	INTJ	_	_	9	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
+4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	final	final	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
@@ -2567,8 +2592,9 @@
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_27
-# text = à le final euh, c'est un peu partout pareil.
+# text = au final euh, c'est un peu partout pareil.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
+1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	final	final	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
@@ -2636,7 +2662,7 @@
 33	jusqu'	jusque	ADV	_	_	34	advmod	_	SpaceAfter=No
 34-35	au	_	_	_	_	_	_	_	SpaceAfter=No
 34	à	à	ADP	_	_	39	reparandum	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	dep	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	dep	_	Scrap=Yes
 36	,	,	PUNCT	_	_	34	punct	_	_
 37	pendant	pendant	ADP	_	_	39	case	_	_
 38	trois	trois	NUM	_	Number=Plur	39	nummod	_	_
@@ -2646,7 +2672,7 @@
 42	.	.	PUNCT	_	_	41	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_30
-# text = on devait être quand, on était jeudi, vendredi, et c'était complet jusqu'à le lundi.
+# text = on devait être quand, on était jeudi, vendredi, et c'était complet jusqu'au lundi.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	reparandum	_	_
@@ -2664,6 +2690,7 @@
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
 15	complet	complet	ADJ	_	Gender=Masc|Number=Sing	10	conj	_	_
 16	jusqu'	jusque	ADV	_	_	19	advmod	_	SpaceAfter=No
+17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
@@ -2870,7 +2897,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_39
-# text = donc euh, laisse tomber c'était, c'était horrible genre de le bruit, mais toute la journée, toute la nuit,
+# text = donc euh, laisse tomber c'était, c'était horrible genre du bruit, mais toute la journée, toute la nuit,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	donc	donc	ADV	_	_	7	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -2884,6 +2911,7 @@
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
 11	horrible	horrible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 12	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	15	discourse	_	_
+13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	bruit	bruit	NOUN	_	Gender=Masc|Number=Sing	11	dislocated	_	SpaceAfter=No
@@ -2982,12 +3010,13 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_45
-# text = et euh, mais à le final euh on a fait notre petite réclamation sur Airbnb, et euh et on a été remboursé de euh, genre euh, quatre-ving euros mais bon.
+# text = et euh, mais au final euh on a fait notre petite réclamation sur Airbnb, et euh et on a été remboursé de euh, genre euh, quatre-ving euros mais bon.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	11	cc	_	_
+5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	final	final	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
@@ -5916,8 +5945,8 @@
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	27	punct	_	_
-22	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	26	punct	_	_
+22	une	une	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	hum	mh	INTJ	_	_	22	discourse	_	SpaceAfter=No|wordform=mh
 25	,	,	PUNCT	_	_	22	punct	_	_
@@ -7576,8 +7605,8 @@
 12	qui	qui	PRON	_	PronType=Rel	14	obl:arg	_	AlignBegin=37355|AlignEnd=37537
 13	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=37537|AlignEnd=37719
 14	parlais	parler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	AlignBegin=37719|AlignEnd=37901
-15	dans	dans	ADP	_	_	16	dep:comp	_	AlignBegin=37901|AlignEnd=38083
-16	la	le	DET	_	Definite=Def|PronType=Art	20	reparandum	_	AlignBegin=38083|AlignEnd=38264|SpaceAfter=No
+15	dans	dans	ADP	_	_	16	case	_	AlignBegin=37901|AlignEnd=38083
+16	la	le	DET	_	Definite=Def|PronType=Art	20	reparandum	_	AlignBegin=38083|AlignEnd=38264|Scrap=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=38264|AlignEnd=38264
 18	dans	dans	ADP	_	_	20	case	_	AlignBegin=38264|AlignEnd=38446
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=38446|AlignEnd=38628
@@ -9917,7 +9946,7 @@
 # text = genre, tout ce qui t'a marqué dans l'enfance.
 1	genre	genre	NOUN	_	ExtPos=INTJ	4	discourse	_	AlignBegin=104521|AlignEnd=104701|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=104701|AlignEnd=104701
-3	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	dep	_	AlignBegin=104701|AlignEnd=104881
+3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nmod	_	AlignBegin=104701|AlignEnd=104881
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=104881|AlignEnd=105061
 5	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	AlignBegin=105061|AlignEnd=105212
 6	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	8	obj	_	AlignBegin=105212|AlignEnd=105364|SpaceAfter=No

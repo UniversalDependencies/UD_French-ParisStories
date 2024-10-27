@@ -279,8 +279,8 @@
 12	qui	qui	PRON	_	PronType=Rel	14	obl:arg	_	AlignBegin=37355|AlignEnd=37537
 13	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=37537|AlignEnd=37719
 14	parlais	parler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	AlignBegin=37719|AlignEnd=37901
-15	dans	dans	ADP	_	_	16	dep:comp	_	AlignBegin=37901|AlignEnd=38083
-16	la	le	DET	_	Definite=Def|PronType=Art	20	reparandum	_	AlignBegin=38083|AlignEnd=38264|SpaceAfter=No
+15	dans	dans	ADP	_	_	16	case	_	AlignBegin=37901|AlignEnd=38083
+16	la	le	DET	_	Definite=Def|PronType=Art	20	reparandum	_	AlignBegin=38083|AlignEnd=38264|Scrap=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=38264|AlignEnd=38264
 18	dans	dans	ADP	_	_	20	case	_	AlignBegin=38264|AlignEnd=38446
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=38446|AlignEnd=38628

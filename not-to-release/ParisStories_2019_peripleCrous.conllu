@@ -70,7 +70,7 @@
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_5
-# text = aujourd'hui, euh, le but c'était d'aller à le CROUS de Jussieu, parce que Thomas n'ayant pas de carte Navigo on peut pas aller plus loin pour l'instant.
+# text = aujourd'hui, euh, le but c'était d'aller au CROUS de Jussieu, parce que Thomas n'ayant pas de carte Navigo on peut pas aller plus loin pour l'instant.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -82,6 +82,7 @@
 8	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No
 10	aller	aller	VERB	_	VerbForm=Inf	8	ccomp	_	Subject=NoRaising
+11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	CROUS	CROUS	PROPN	_	_	10	obl:arg	_	_
@@ -153,10 +154,11 @@
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_9
-# text = et euh de le coup on est allé à Jussieu,
+# text = et euh du coup on est allé à Jussieu,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	8	cc	_	_
 2	euh	euh	INTJ	_	_	8	discourse	_	_
+3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
@@ -189,7 +191,7 @@
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_11
-# text = euh donc en fait je crois qu'on a perdu genre à le moins dix minutes à faire le tour de le bâtiment pour avoir une entrée, parce qu'avec Vigipirate tout ça il y a plus que une entrée d'ouverte comme partout.
+# text = euh donc en fait je crois qu'on a perdu genre au moins dix minutes à faire le tour du bâtiment pour avoir une entrée, parce qu'avec Vigipirate tout ça il y a plus que une entrée d'ouverte comme partout.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	donc	donc	ADV	_	_	6	discourse	_	_
@@ -202,6 +204,7 @@
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 10	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
 11	genre	genre	NOUN	_	ExtPos=INTJ|Gender=Masc|Number=Sing	14	discourse	_	_
+12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	moins	moins	ADV	_	_	10	obl:mod	_	_
@@ -211,6 +214,7 @@
 18	faire	faire	VERB	_	VerbForm=Inf	16	acl	_	Subject=SubjRaising
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	tour	tour	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
@@ -249,8 +253,9 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_13
-# text = de le coup on a fait tout le tour de le bâtiment pour arriver à l'entrée.
+# text = du coup on a fait tout le tour du bâtiment pour arriver à l'entrée.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	_
@@ -260,6 +265,7 @@
 7	tout	tout	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tour	tour	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	_
@@ -326,8 +332,9 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_18
-# text = de le coup on s'est juste mis à marcher là où les gens marchaient, en mode bon ils doivent bien aller quelque part hein.
+# text = du coup on s'est juste mis à marcher là où les gens marchaient, en mode bon ils doivent bien aller quelque part hein.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	_
@@ -357,13 +364,14 @@
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_19
-# text = et, et puis, à le bout d'un moment j'ai vu quand même qu'il y avait un panneau c'était Cuvier,
+# text = et, et puis, au bout d'un moment j'ai vu quand même qu'il y avait un panneau c'était Cuvier,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	ADV	_	_	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	et	et	CCONJ	_	ExtPos=CCONJ	14	cc	_	Idiom=Yes
 4	puis	puis	ADV	_	_	3	fixed	_	InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	14	punct	_	_
+6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	bout	bout	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
@@ -431,10 +439,11 @@
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_22
-# text = bon, de le coup on commence à marcher,
+# text = bon, du coup on commence à marcher,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	bon	bon	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
+3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
@@ -452,7 +461,7 @@
 3	Cuvier	Cuvier	PROPN	_	_	4	dislocated	_	_
 4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	Reported=Yes
 5	prendre	prendre	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	dep:comp	_	SpaceAfter=No
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	obj	_	Scrap=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 9	prendre	prendre	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
@@ -548,8 +557,9 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_31
-# text = de le coup on va là dedans,
+# text = du coup on va là dedans,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	_
@@ -583,15 +593,17 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_34
-# text = et là en fait à le bout de le couloir tu as juste une porte qui te ramène dehors.
+# text = et là en fait au bout du couloir tu as juste une porte qui te ramène dehors.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	là	là	ADV	_	_	12	advmod	_	_
 3	en	en	ADP	_	ExtPos=ADV	2	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes
+5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bout	bout	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	couloir	couloir	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -607,9 +619,10 @@
 20	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_35
-# text = euh de le coup on était un peu perdu, mais vu qu'il y avait un gars on a juste suivi le gars,
+# text = euh du coup on était un peu perdu, mais vu qu'il y avait un gars on a juste suivi le gars,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	euh	euh	INTJ	_	_	9	discourse	_	_
+2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	_
@@ -651,7 +664,7 @@
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_37
-# text = on était très heureux, euh, sauf que, nous sommes le mardi dix octobre, et qu'aujourd'hui, c'est la grève de les fonctionnaires, la grève de la fonction publique.
+# text = on était très heureux, euh, sauf que, nous sommes le mardi dix octobre, et qu'aujourd'hui, c'est la grève des fonctionnaires, la grève de la fonction publique.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
@@ -678,6 +691,7 @@
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	grève	grève	NOUN	_	Gender=Fem|Number=Sing	31	reparandum	_	_
+26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	fonctionnaires	fonctionnaire	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
@@ -691,8 +705,9 @@
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_38
-# text = de le coup, qui euh qui faisait grève aujourd'hui ?
+# text = du coup, qui euh qui faisait grève aujourd'hui ?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	8	discourse	_	SpaceAfter=No
@@ -717,8 +732,9 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_40
-# text = de le coup, on a perdu à le moins un quart d'heure à faire le tour de la fac, à se promener dans la fac, pour trouver le CROUS, pour que le CROUS soit fermé, ce qui était assez décevant.
+# text = du coup, on a perdu au moins un quart d'heure à faire le tour de la fac, à se promener dans la fac, pour trouver le CROUS, pour que le CROUS soit fermé, ce qui était assez décevant.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	SpaceAfter=No
@@ -726,6 +742,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	moins	moins	ADV	_	_	12	nmod	_	_
@@ -780,7 +797,7 @@
 8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	reparandum	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	dep:comp	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	obj	_	Scrap=Yes
 12	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
 13	y	y	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	_
 14	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
@@ -931,7 +948,7 @@
 29	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_48
-# text = puis, là, on se sépare tous les deux, parce que moi je voulais de le couscous et lui il voulait des frites,
+# text = puis, là, on se sépare tous les deux, parce que moi je voulais du couscous et lui il voulait des frites,
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	puis	puis	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -949,6 +966,7 @@
 14	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	dislocated	_	_
 15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	advcl	_	_
+17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	couscous	couscous	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
@@ -961,8 +979,9 @@
 26	,	,	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_49
-# text = de le coup je suis pas allée dans la même queue.
+# text = du coup je suis pas allée dans la même queue.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	_
