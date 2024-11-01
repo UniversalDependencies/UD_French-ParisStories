@@ -48,7 +48,7 @@
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	reparandum	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	hum	mh	INTJ	_	_	17	discourse	_	SpaceAfter=No|wordform=mh
+14	hum	mh	INTJ	_	_	16	discourse	_	SpaceAfter=No|wordform=mh
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_

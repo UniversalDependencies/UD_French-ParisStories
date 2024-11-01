@@ -46,7 +46,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	wordform=fin
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	euh	euh	INTJ	_	_	12	discourse	_	_
+11	euh	euh	INTJ	_	_	10	discourse	_	_
 12	Français-Chinois	Français-Chinois	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -480,7 +480,7 @@
 11	y	y	PRON	_	Person=3|PronType=Prs	12	expl:comp	_	_
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	euh	euh	INTJ	_	_	15	discourse	_	_
+14	euh	euh	INTJ	_	_	13	discourse	_	_
 15	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -493,7 +493,7 @@
 3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	reparandum	_	_
-6	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
+6	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	étudiant	étudiant	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -542,7 +542,7 @@
 10	par	par	ADP	_	_	15	case	_	_
 11	euh	euh	INTJ	_	_	15	discourse	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
-13	euh	euh	INTJ	_	_	15	discourse	_	_
+13	euh	euh	INTJ	_	_	12	discourse	_	_
 14	petite	petit	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	rue	rue	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	_
@@ -604,7 +604,7 @@
 10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	euh	euh	INTJ	_	_	14	discourse	_	_
+13	euh	euh	INTJ	_	_	12	discourse	_	_
 14	fourché	fourché	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 

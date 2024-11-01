@@ -128,8 +128,8 @@
 7	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=19973|AlignEnd=20240
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=20240|AlignEnd=20508|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=20508|AlignEnd=20508
-10	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=20508|AlignEnd=20775|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=20775|AlignEnd=20775
+10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=20508|AlignEnd=20775|SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	AlignBegin=20775|AlignEnd=20775
 12	pote	pote	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	AlignBegin=20775|AlignEnd=21042|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=21042|AlignEnd=21042
 14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=21042|AlignEnd=21309|SpaceAfter=No
