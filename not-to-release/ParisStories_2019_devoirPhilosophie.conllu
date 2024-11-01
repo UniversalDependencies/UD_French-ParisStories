@@ -124,8 +124,8 @@
 5	d'	de	ADP	_	_	6	mark	_	SpaceAfter=No
 6	utiliser	utiliser	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=OblRaising
 7	des	des	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
-8	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	_
+8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
 10	arguments	argument	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 11	hum	hum	INTJ	_	_	14	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -301,7 +301,7 @@
 7	témoignage	témoignage	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-10	euh	euh	INTJ	_	_	9	discourse	_	_
+10	euh	euh	INTJ	_	_	12	discourse	_	_
 11	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	sœur	sœur	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
