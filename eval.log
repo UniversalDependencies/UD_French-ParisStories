@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_French-ParisStories:
-commit 83de08edc6acc75f04748d93d1c902f52f64697d
-Merge: 9fc2a97 9352bfe
+commit ba2722718da6140bea8054521b901405a3219803
+Merge: 3cb55fe 8a798e3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 42787 of 42787 words (nodes).
-Size: min(0, log((N/1000)**2)) = 7.51246863626434.
+Size: counted 42786 of 42786 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.51242189254844.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 22894 out of 42787 total words have one or more features.
+Features: 22894 out of 42786 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
                TOTAL        496
 Udapi: found 496 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 42787 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 42786 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-ParisStories/fr_parisstories-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.543770612366808) = 0.139428362145335
+(weight=0.256410256410256) * (score{size}=0.543767228943829) = 0.139427494600982
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.884076939257251) = 0.272023673617616
+(weight=0.307692307692308) * (score{udapi}=0.884074229888281) = 0.272022839965625
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.699520194419345) * (availability=1) * (validity=1) = 0.699520194419345
+(TOTAL score=0.699518493223001) * (availability=1) * (validity=1) = 0.699518493223001
 STARS = 3.5
-UD_French-ParisStories	0.699520194419345	3.5
+UD_French-ParisStories	0.699518493223001	3.5
