@@ -705,7 +705,7 @@
 11	éjecter	éjecter	VERB	_	VerbForm=Inf	0	root	_	Subject=SubjRaising
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	16	reparandum	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	dep	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	dep	_	Scrap=Yes
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_

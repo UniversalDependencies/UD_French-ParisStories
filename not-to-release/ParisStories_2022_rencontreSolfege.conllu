@@ -596,11 +596,11 @@
 23	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=76978|AlignEnd=77209
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	AlignBegin=77209|AlignEnd=77439
 25	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	reparandum	_	AlignBegin=77439|AlignEnd=77670
-26	dans	dans	ADP	_	_	27	dep:comp	_	AlignBegin=78102|AlignEnd=78533
-27	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	obl:arg	_	AlignBegin=78533|AlignEnd=78963|SpaceAfter=No
+26	dans	dans	ADP	_	_	27	case	_	AlignBegin=78102|AlignEnd=78533
+27	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	25	obl:arg	_	AlignBegin=78533|AlignEnd=78963|Scrap=Yes|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=78963|AlignEnd=78963
-29	hum	hum	INTJ	_	_	27	discourse	_	AlignBegin=78963|AlignEnd=79394|SpaceAfter=No
-30	,	,	PUNCT	_	_	25	punct	_	AlignBegin=79394|AlignEnd=79394
+29	hum	hum	INTJ	_	_	33	discourse	_	AlignBegin=78963|AlignEnd=79394|SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	AlignBegin=79394|AlignEnd=79394
 31	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	AlignBegin=80153|AlignEnd=80471
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:tense	_	AlignBegin=80471|AlignEnd=80790
 33	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	AlignBegin=80790|AlignEnd=81108|SpaceAfter=No
@@ -609,8 +609,8 @@
 36	,	,	PUNCT	_	_	35	punct	_	AlignBegin=81426|AlignEnd=81426
 37	chez	chez	ADP	_	_	38	case	_	AlignBegin=81426|AlignEnd=81766
 38	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obl:arg	_	AlignBegin=81766|AlignEnd=82107
-39	dans	dans	ADP	_	_	40	dep:comp	_	AlignBegin=82107|AlignEnd=82447
-40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	45	dep:comp	_	AlignBegin=82447|AlignEnd=82787|SpaceAfter=No
+39	dans	dans	ADP	_	_	40	case	_	AlignBegin=82107|AlignEnd=82447
+40	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	45	obj	_	AlignBegin=82447|AlignEnd=82787|Scrap=Yes|SpaceAfter=No
 41	,	,	PUNCT	_	_	45	punct	_	AlignBegin=82787|AlignEnd=82787
 42	comment	comment	ADV	_	_	45	advmod	_	AlignBegin=82787|AlignEnd=82982
 43	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	nsubj	_	AlignBegin=82982|AlignEnd=83178

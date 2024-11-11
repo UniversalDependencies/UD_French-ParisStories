@@ -484,8 +484,8 @@
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=63686|AlignEnd=63916
 2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=63916|AlignEnd=64145
 3	dedans	dedans	ADV	_	_	2	xcomp	_	AlignBegin=64145|AlignEnd=64375
-4	avec	avec	ADP	_	_	5	dep:comp	_	AlignBegin=64375|AlignEnd=64604
-5	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	reparandum	_	AlignBegin=64604|AlignEnd=64834|SpaceAfter=No
+4	avec	avec	ADP	_	_	5	case	_	AlignBegin=64375|AlignEnd=64604
+5	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	reparandum	_	AlignBegin=64604|AlignEnd=64834|Scrap=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=64834|AlignEnd=64834
 7	avec	avec	ADP	_	_	9	case	_	AlignBegin=64834|AlignEnd=65012
 8	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=65012|AlignEnd=65190

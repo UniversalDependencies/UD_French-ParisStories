@@ -180,7 +180,7 @@
 10	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11-12	aux	_	_	_	_	_	_	_	SpaceAfter=No
 11	à	à	ADP	_	_	16	reparandum	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	dep	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	dep	_	Scrap=Yes
 13	,	,	PUNCT	_	_	11	punct	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	_

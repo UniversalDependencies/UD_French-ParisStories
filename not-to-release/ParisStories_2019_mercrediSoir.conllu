@@ -64,12 +64,13 @@
 3	drôle	drôle	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
-# text = et euh, de le coup euh, on s'est baladé, m'a emmené, euh, vers les quais de Seine.
+# text = et euh, du coup euh, on s'est baladé, m'a emmené, euh, vers les quais de Seine.
 # sent_id = ParisStories_2019_mercrediSoir_5
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	12	punct	_	_
+4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	_
@@ -253,11 +254,12 @@
 27	Munich	Munich	PROPN	_	_	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = et que de le coup, euh, on irait sans lui et il nous rejoindrait après.
+# text = et que du coup, euh, on irait sans lui et il nous rejoindrait après.
 # sent_id = ParisStories_2019_mercrediSoir_13
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	que	que	SCONJ	_	_	10	mark	_	_
+3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	SpaceAfter=No
@@ -275,7 +277,7 @@
 17	après	après	ADV	_	_	16	advmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	10	punct	_	_
 
-# text = sur ce j'ai annoncé l'ouverture de le score, euh, de le PSG rapide.
+# text = sur ce j'ai annoncé l'ouverture du score, euh, du PSG rapide.
 # sent_id = ParisStories_2019_mercrediSoir_14
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	sur	sur	ADP	_	_	2	case	_	_
@@ -285,12 +287,14 @@
 5	annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	ouverture	ouverture	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	score	score	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
+14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	PSG	PSG	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -307,11 +311,12 @@
 5	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
 6	!	!	PUNCT	_	_	1	punct	_	_
 
-# text = euh, de le coup on a bien marché etc.
+# text = euh, du coup on a bien marché etc.
 # sent_id = ParisStories_2019_mercrediSoir_16
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
+3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	_
@@ -593,8 +598,8 @@
 68	à	à	ADP	_	_	69	mark	_	_
 69	venir	venir	VERB	_	VerbForm=Inf	67	acl	_	SpaceAfter=No|Subject=NoRaising
 70	,	,	PUNCT	_	_	78	punct	_	_
-71	dans	dans	ADP	_	_	72	dep:comp	_	_
-72	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	78	reparandum	_	SpaceAfter=No
+71	dans	dans	ADP	_	_	72	case	_	_
+72	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	78	reparandum	_	Scrap=Yes|SpaceAfter=No
 73	,	,	PUNCT	_	_	72	punct	_	_
 74	euh	euh	INTJ	_	_	78	discourse	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	74	punct	_	_
@@ -623,8 +628,8 @@
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	surveillante	surveillant	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 17	à	à	ADP	_	_	23	reparandum	_	_
-18	dans	dans	ADP	_	_	19	dep:comp	_	_
-19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	reparandum	_	SpaceAfter=No
+18	dans	dans	ADP	_	_	19	case	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	reparandum	_	Scrap=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	dans	dans	ADP	_	_	23	case	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -665,15 +670,15 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	allé	aller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8-9	au	_	_	_	_	_	_	_	SpaceAfter=No
-8	à	à	ADP	_	_	7	obl:arg	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	reparandum	_	_
-10	,	,	PUNCT	_	_	9	punct	_	_
+8	à	à	ADP	_	_	15	reparandum	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	dep	_	Scrap=Yes
+10	,	,	PUNCT	_	_	8	punct	_	_
 11	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	bar	bar	NOUN	_	Gender=Masc|Number=Sing	8	dep	_	SpaceAfter=No
+15	bar	bar	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	26	punct	_	_
 17	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
@@ -689,7 +694,7 @@
 28	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	7	punct	_	_
 
-# text = déjà, on est arrivé, il y avait un drapeau de le PSG, euh, devant, donc ça change de le café OZ, où, euh.
+# text = déjà, on est arrivé, il y avait un drapeau du PSG, euh, devant, donc ça change du café OZ, où, euh.
 # sent_id = ParisStories_2019_mercrediSoir_32
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	déjà	déjà	ADV	_	_	5	advmod	_	SpaceAfter=No
@@ -703,6 +708,7 @@
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	drapeau	drapeau	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	PSG	PSG	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -714,6 +720,7 @@
 20	donc	donc	ADV	_	_	22	cc	_	_
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	_
 22	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	café	café	PROPN	_	_	22	obl:arg	_	_
@@ -778,7 +785,7 @@
 4	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# text = bon, un peu seul, de le coup toute la soirée, il a dû, euh, tout servir tout seul etc.
+# text = bon, un peu seul, du coup toute la soirée, il a dû, euh, tout servir tout seul etc.
 # sent_id = ParisStories_2019_mercrediSoir_37
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	bon	bon	INTJ	_	_	16	discourse	_	SpaceAfter=No
@@ -787,6 +794,7 @@
 4	peu	peu	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	InIdiom=Yes
 5	seul	seul	ADJ	_	Gender=Masc|Number=Sing	16	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
+7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	coup	coup	NOUN	_	Gender=Masc|Number=Sing	16	discourse	_	_
@@ -893,9 +901,10 @@
 42	quoi	quoi	INTJ	_	_	4	discourse	_	_
 43	!	!	PUNCT	_	_	4	punct	_	_
 
-# text = de le coup, euh, elle a commandé un Monaco.
+# text = du coup, euh, elle a commandé un Monaco.
 # sent_id = ParisStories_2019_mercrediSoir_41
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
+1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	SpaceAfter=No
@@ -934,7 +943,7 @@
 20	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
 
-# text = et, euh, et de le coup le match a commencé !
+# text = et, euh, et du coup le match a commencé !
 # sent_id = ParisStories_2019_mercrediSoir_43
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	et	et	CCONJ	_	_	5	reparandum	_	SpaceAfter=No
@@ -942,6 +951,7 @@
 3	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	12	cc	_	_
+6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	_

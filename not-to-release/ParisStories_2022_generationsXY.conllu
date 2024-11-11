@@ -1036,7 +1036,7 @@
 # text = genre, tout ce qui t'a marqué dans l'enfance.
 1	genre	genre	NOUN	_	ExtPos=INTJ	4	discourse	_	AlignBegin=104521|AlignEnd=104701|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=104701|AlignEnd=104701
-3	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	dep	_	AlignBegin=104701|AlignEnd=104881
+3	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nmod	_	AlignBegin=104701|AlignEnd=104881
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=104881|AlignEnd=105061
 5	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	AlignBegin=105061|AlignEnd=105212
 6	t'	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	8	obj	_	AlignBegin=105212|AlignEnd=105364|SpaceAfter=No

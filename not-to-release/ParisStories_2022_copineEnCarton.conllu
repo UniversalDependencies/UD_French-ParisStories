@@ -260,7 +260,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=38044|AlignEnd=38253|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=38253|AlignEnd=38253
 7	compliqué	compliqué	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=38253|AlignEnd=38462
-8	tout	tout	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	dep	_	AlignBegin=38462|AlignEnd=38672
+8	tout	tout	ADJ	_	Gender=Masc|Number=Sing|PronType=Ind	9	amod	_	AlignBegin=38462|AlignEnd=38672
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	dislocated	_	AlignBegin=38672|AlignEnd=38881|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=38881|AlignEnd=38881
 

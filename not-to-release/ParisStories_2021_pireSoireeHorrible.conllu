@@ -98,7 +98,7 @@
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	euh	euh	INTJ	_	_	30	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
-29	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	30	dep	_	_
+29	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	30	det	_	_
 30	envie	envie	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 31	qu'	que	SCONJ	_	_	33	mark	_	SpaceAfter=No
 32	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
@@ -724,7 +724,6 @@
 4	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_44
-# speaker = L1
 # speaker = L2
 # text = et donc tout ça, c'était combien de temps après la séparation de tes parents?
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
