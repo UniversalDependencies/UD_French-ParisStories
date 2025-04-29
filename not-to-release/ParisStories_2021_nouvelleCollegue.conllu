@@ -8,14 +8,14 @@
 3	XXX	XXX	X	_	_	5	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	raconte	raconter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	-moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No|wordform=moi
+6	-moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No|wordform=moi
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	jour	jour	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 12	où	où	PRON	_	PronType=Rel	15	obl:mod	_	_
-13	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
+13	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 14	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 15	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
 16	Wendy	Wendy	PROPN	_	_	15	obj	_	_
@@ -39,7 +39,7 @@
 8	jour	jour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	où	où	PRON	_	PronType=Rel	13	obl:mod	_	_
-11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+11	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
 14	Wendy	Wendy	PROPN	_	_	13	obj	_	SpaceAfter=No
@@ -70,8 +70,8 @@
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-6	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+5	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -80,7 +80,7 @@
 12	deux	deux	NUM	_	Number=Plur	13	nummod	_	_
 13	mois	mois	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
 14	que	que	SCONJ	_	_	16	mark	_	_
-15	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	travaillais	travailler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	advcl:cleft	_	_
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	wordform=au
@@ -94,13 +94,13 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
-3	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
+3	m'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	5	iobj	_	SpaceAfter=No
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	que	que	SCONJ	_	_	11	mark	_	_
-7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	reparandum	_	SpaceAfter=No
+7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	y	y	PRON	_	Person=3|PronType=Prs	11	iobj	_	_
 11	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
 12	avoir	avoir	VERB	_	VerbForm=Inf	11	xcomp	_	Subject=SubjRaising
@@ -113,27 +113,27 @@
 # text = et moi, j'étais pas contente, parce que j'ai cru qu'elle allait prendre mon poste et qu'elle allait prendre mes heures.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	dislocated	_	SpaceAfter=No
+2	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	7	dislocated	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
+4	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	cop	_	_
 6	pas	pas	ADV	_	_	7	advmod	_	_
 7	contente	content	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	parce	parce	ADV	_	ExtPos=SCONJ	13	mark	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	InIdiom=Yes
-11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+11	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	cru	croire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
 14	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-15	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
 17	prendre	prendre	VERB	_	VerbForm=Inf	16	xcomp	_	Subject=SubjRaising
 18	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	poste	poste	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
 20	et	et	CCONJ	_	_	23	cc	_	_
 21	qu'	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
-22	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 23	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
 24	prendre	prendre	VERB	_	VerbForm=Inf	23	xcomp	_	Subject=SubjRaising
 25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	_
@@ -154,7 +154,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	bah	bah	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
+10	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
 11	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	pas	pas	ADV	_	_	11	advmod	_	_
 13	très	très	ADV	_	_	14	advmod	_	_
@@ -163,7 +163,7 @@
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	idée	idée	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 18	que	que	SCONJ	_	_	21	mark	_	_
-19	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	expl:subj	_	_
+19	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	expl:subj	_	_
 20	y	y	PRON	_	Person=3|PronType=Prs	21	expl:comp	_	_
 21	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
 22	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	obj	_	_
@@ -197,12 +197,12 @@
 50	,	,	PUNCT	_	_	49	punct	_	_
 51	euh	euh	INTJ	_	_	56	discourse	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	51	punct	_	_
-53	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	56	nsubj:pass	_	_
-54	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	56	iobj	_	_
+53	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	56	nsubj:pass	_	_
+54	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	56	iobj	_	_
 55	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	56	aux:tense	_	_
 56	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	59	punct	_	_
-58	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	59	nsubj	_	_
+58	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	59	nsubj	_	_
 59	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	ccomp	_	Reported=Yes
 60	piquer	piquer	VERB	_	VerbForm=Inf	59	xcomp	_	Subject=SubjRaising
 61	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	62	det	_	_
@@ -243,7 +243,6 @@
 17	entendue	entendre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_10
 # speaker = L1
 # text = parce qu'on a le même âge.
@@ -257,7 +256,6 @@
 7	âge	âge	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_11
 # speaker = L1
 # text = et, euh, c'est quelqu'un qui est pas loin de ma ville.
@@ -278,21 +276,19 @@
 14	ville	ville	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_12
 # speaker = L1
 # text = mais je l'avais jamais rencontrée avant.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	mais	mais	CCONJ	_	_	6	cc	_	_
-2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-3	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+2	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
 4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux:tense	_	_
 5	jamais	jamais	ADV	_	PronType=Neg	6	advmod	_	_
 6	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	avant	avant	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_13
 # speaker = L1
 # text = et, c'est quelqu'un, elle est, elle est trop gentille.
@@ -303,17 +299,16 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	13	punct	_	_
-7	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+10	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	trop	trop	ADV	_	_	13	advmod	_	_
 13	gentille	gentil	ADJ	_	Gender=Fem|Number=Sing	5	dislocated	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_14
-# status = todo
 # speaker = L1
 # text = et, bah, du coup, maintenant, ça fait deux ans que je la connais, et euh en plus d'être ma collègue, c'est plus mon amie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
@@ -333,8 +328,8 @@
 13	deux	deux	NUM	_	_	14	nummod	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
 15	que	que	SCONJ	_	_	18	mark	_	_
-16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
-17	la	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+16	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 18	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	33	punct	_	_
 20	et	et	CCONJ	_	_	33	cc	_	_
@@ -353,7 +348,6 @@
 33	amie	amie	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_15
 # speaker = L1
 # text = et, on a vraiment forgé, euh, une relation d'amitié, avec le temps.
@@ -378,7 +372,6 @@
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_16
-# status = done
 # speaker = L1
 # text = et, euh, du coup, bah, c'est vraiment agréable d'avoir, euh, de travailler, avec quelqu'un, qui est pas seulement ma collègue, mais aussi mon amie.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
@@ -421,7 +414,6 @@
 36	amie	amie	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	14	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_nouvelleCollegue_17
 # speaker = L1
 # text = après, c'est pas forcément représentatif, vu que c'est mon premier travail.
@@ -448,7 +440,7 @@
 # text = donc je sais pas vraiment ce que c'est le monde du travail.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/8d7bc99b2323de73beb60da784ce02fbcac8525a
 1	donc	donc	ADV	_	_	3	advmod	_	_
-2	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	_	3	advmod	_	_
 5	vraiment	vraiment	ADV	_	_	3	advmod	_	_
@@ -499,27 +491,27 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	que	que	SCONJ	_	_	6	dep	_	_
-6	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	13	advcl	_	_
+6	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	13	advcl	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
 8	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl:cleft	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	bah	bah	INTJ	_	_	13	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	reparandum	_	_
 14	et	et	CCONJ	_	_	27	cc	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	27	punct	_	_
 16	quand	quand	SCONJ	_	_	20	mark	_	_
-17	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
+17	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
 18	n'	ne	ADV	_	_	20	advmod	_	SpaceAfter=No
 19	y	y	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
 21	qu'	que	SCONJ	_	_	22	dep	_	SpaceAfter=No
-22	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
 24	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	20	punct	_	_
-26	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+26	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 27	viens	venir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 28	aussi	aussi	ADV	_	_	27	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	27	punct	_	_
@@ -539,7 +531,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	_
 9	vraiment	vraiment	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
-11	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
 12	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	pas	pas	ADV	_	_	12	advmod	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
@@ -551,7 +543,7 @@
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	travail	travail	NOUN	_	Gender=Masc|Number=Sing	17	xcomp	_	_
 21	quand	quand	SCONJ	_	_	23	mark	_	_
-22	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
 23	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 24	avec	avec	ADP	_	_	23	dep	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	12	punct	_	_
@@ -779,7 +771,7 @@
 5	autres	autre	ADJ	_	Number=Plur	6	amod	_	_
 6	collègues	collègues	NOUN	_	Number=Plur	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+8	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
 9	y	y	PRON	_	Person=3|PronType=Prs	10	obj	_	_
 10	arrivent	arriver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -796,7 +788,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+8	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	qu'	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
@@ -853,14 +845,14 @@
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	personne	personne	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
-5	gère	gère	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	gère	gérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	confiserie	confiserie	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	et	et	CCONJ	_	_	10	cc	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	autre	autre	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	conj	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
-12	gère	gère	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+12	gère	gérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	billeterie	billeterie	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
