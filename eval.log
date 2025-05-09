@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_French-ParisStories:
-commit ba2722718da6140bea8054521b901405a3219803
-Merge: 3cb55fe 8a798e3
+commit e331017eccaa601375619ba2d1548afc02d00208
+Merge: 25e3709 aaa2aef
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 42786 of 42786 words (nodes).
-Size: min(0, log((N/1000)**2)) = 7.51242189254844.
+Size: counted 42789 of 42789 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.51256212041879.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,15 +15,15 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 22894 out of 42786 total words have one or more features.
+Features: 22931 out of 42789 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        496
-Udapi: found 496 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 42786 words.
-Genres: found 1 out of 17 known.
+               TOTAL        438
+Udapi: found 438 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 42789 words.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-ParisStories/fr_parisstories-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-ParisStories/fr_parisstories-ud-test.conllu
@@ -32,13 +32,13 @@ Genres: found 1 out of 17 known.
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.543767228943829) = 0.139427494600982
+(weight=0.256410256410256) * (score{size}=0.543777378975546) = 0.139430097173217
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.884074229888281) = 0.272022839965625
+(weight=0.307692307692308) * (score{udapi}=0.897637243216715) = 0.276196074835912
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.699518493223001) * (availability=1) * (validity=1) = 0.699518493223001
+(TOTAL score=0.703442948061199) * (availability=1) * (validity=1) = 0.703442948061199
 STARS = 3.5
-UD_French-ParisStories	0.699518493223001	3.5
+UD_French-ParisStories	0.703442948061199	3.5
