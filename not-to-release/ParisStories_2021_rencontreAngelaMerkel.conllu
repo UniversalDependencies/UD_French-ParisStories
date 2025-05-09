@@ -237,7 +237,7 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_5
 # text = il n'avait pas l'air d'être armé, ni rien.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	n'	ne	ADV	_	_	3	advmod	_	SpaceAfter=No
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	_	3	advmod	_	_
@@ -264,7 +264,7 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_7
 # text = elle s'apprêtait à prendre, euh, une voiture, euh, qui l'emmenait, euh, je, je, je sais pas trop où.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
 3	apprêtait	apprêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
@@ -278,16 +278,16 @@
 12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
-15	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+15	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
 16	emmenait	emmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	25	punct	_	_
 18	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	24	reparandum	_	SpaceAfter=No
+20	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	24	reparandum	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
-22	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	24	reparandum	_	SpaceAfter=No
+22	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	24	reparandum	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
-24	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
 25	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 26	pas	pas	ADV	_	_	25	advmod	_	_
 27	trop	trop	ADV	_	_	25	advmod	_	_
@@ -327,13 +327,12 @@
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	reparandum	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
-6	la	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	la	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	loin	loin	ADV	_	_	7	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
-# status = done
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_10
 # text = et euh, et, ma, ma, ma prof d'allemand, à ce moment -là, elle a, elle a osé.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
@@ -356,10 +355,10 @@
 17	moment	moment	NOUN	_	Gender=Masc|Number=Sing	21	obl:mod	_	_
 18	-là	là	ADV	_	_	17	advmod	_	SpaceAfter=No|wordform=là
 19	,	,	PUNCT	_	_	17	punct	_	_
-20	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	reparandum	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+23	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 25	osé	oser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	25	punct	_	_
@@ -367,9 +366,9 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_11
 # text = elle, elle y est allée, un peu au culot, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	reparandum	_	SpaceAfter=No
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	6	obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -387,9 +386,9 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_12
 # text = elle, elle a dit venez les enfants.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	reparandum	_	SpaceAfter=No
+1	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	venez	venir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	ccomp	_	Reported=Yes
@@ -403,7 +402,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aller	aller	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
-4	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+4	lui	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
 5	parler	parler	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 6	et	et	CCONJ	_	ExtPos=ADV	5	conj	_	Idiom=Yes
 7	tout	tout	ADV	_	Gender=Masc|Number=Sing	6	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -416,12 +415,12 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	expl:pv	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	adressée	adresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	à	à	ADP	_	_	8	case	_	_
-8	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	_
+8	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	allemand	allemand	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -462,8 +461,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj:pass	_	_
-4	apprécie	apprécier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
+4	apprécie	apprécier	VERB	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	énormément	énormément	ADV	_	_	4	advmod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	ville	ville	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
@@ -529,7 +528,7 @@
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
 26	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
 27	qu'	que	SCONJ	_	_	31	mark	_	SpaceAfter=No
-28	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	cop	_	_
 30	très	très	ADV	_	_	31	advmod	_	_
 31	contente	content	ADJ	_	Gender=Fem|Number=Sing	26	ccomp	_	SpaceAfter=No
@@ -567,7 +566,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
-5	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
@@ -610,17 +609,17 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_21
 # text = j'étais juste à côté d'elle, vraiment, je, collée, euh, collée à ses côtés, enfin voilà.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
+1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	cop	_	_
 3	juste	juste	ADV	_	_	5	advmod	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	17	reparandum	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
-7	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+7	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	vraiment	vraiment	ADV	_	_	13	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	dep	_	Scrap=Yes|SpaceAfter=No
+11	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	9	dep	_	Scrap=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	collée	coller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -638,7 +637,7 @@
 # sent_id = ParisStories_2021_rencontreAngelaMerkel_22
 # text = j'étais très intimidée, euh.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/f35b8235e71da133241d217dc1ec1c5249591be8
-1	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	SpaceAfter=No
+1	j'	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
 3	très	très	ADV	_	_	4	advmod	_	_
 4	intimidée	intimider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -656,7 +655,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
-8	tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	10	dep	_	Scrap=Yes|SpaceAfter=No
+8	tu	toi	PRON	_	Emph=No|Number=Sing|Person=2|PronType=Prs	10	dep	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
