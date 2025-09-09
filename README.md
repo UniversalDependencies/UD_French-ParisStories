@@ -157,6 +157,7 @@ An article about the annotation of spoken French will soon be released (Kahane e
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: converted from manual
 UPOS: converted from manual
