@@ -266,7 +266,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	temps	temps	NOUN	_	Number=Sing	4	obl:arg	_	Gender[lex]=Masc
+7	temps	temps	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Masc
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	créent	créer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	eux-mêmes	eux-mêmes	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	obl:mod	_	_

@@ -3247,7 +3247,7 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	tournage	tournage	NOUN	_	_	15	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+20	tournage	tournage	NOUN	_	Number=Sing	15	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_3
@@ -3338,7 +3338,7 @@
 34	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
 35	peur	peur	NOUN	_	_	34	obj:lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing
 36-37	aux	_	_	_	_	_	_	_	_
-36	à	à	ADP	_	_	35	obl:arg	_	Scrap=Yes
+36	à	à	ADP	_	_	35	nmod	_	Scrap=Yes
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	dep	_	Scrap=Yes
 38	dans	dans	ADP	_	_	41	reparandum	_	_
 39	dans	dans	ADP	_	_	41	case	_	_
@@ -5869,7 +5869,7 @@
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	transporteur	transporteur	NOUN	_	_	14	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 20	à	à	ADP	_	_	21	case	_	_
-21	bovins	bovin	NOUN	_	_	19	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+21	bovins	bovin	NOUN	_	_	19	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 22	,	,	PUNCT	_	_	14	punct	_	_
 23	et	et	CCONJ	_	_	26	cc	_	_
 24	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	nsubj	_	_

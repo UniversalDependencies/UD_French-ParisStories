@@ -195,7 +195,7 @@
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	transporteur	transporteur	NOUN	_	_	14	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 20	à	à	ADP	_	_	21	case	_	_
-21	bovins	bovin	NOUN	_	_	19	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+21	bovins	bovin	NOUN	_	_	19	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 22	,	,	PUNCT	_	_	14	punct	_	_
 23	et	et	CCONJ	_	_	26	cc	_	_
 24	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	nsubj	_	_

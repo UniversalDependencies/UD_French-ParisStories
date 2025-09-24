@@ -789,7 +789,7 @@
 8	épice	épice	NOUN	_	_	3	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	que	que	SCONJ	_	_	11	case	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
-11	grand-mère	_	NOUN	_	Number=Sing	21	reparandum	_	Gender[lex]=Fem|SpaceAfter=No
+11	grand-mère	grand-mère	NOUN	_	Number=Sing	21	reparandum	_	Gender[lex]=Fem|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	que	que	SCONJ	_	_	15	case	_	_
 14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
@@ -4858,7 +4858,7 @@
 15-16	aux	_	_	_	_	_	_	_	_
 15	à	aux	ADP	_	_	17	case	_	wordform=aux
 16	les	les	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-17	pattes	patte	NOUN	_	_	14	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+17	pattes	patte	NOUN	_	_	14	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_adoptionMouts_12
@@ -8606,7 +8606,7 @@
 11	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	AlignBegin=63495|AlignEnd=63633
 12	besoin	besoin	NOUN	_	_	11	obj	_	AlignBegin=63633|AlignEnd=63771|Gender[lex]=Masc|Number[ctxt]=Sing
 13	d'	de	ADP	_	_	14	case	_	AlignBegin=63771|AlignEnd=63910|SpaceAfter=No
-14	indépendance	indépendance	NOUN	_	_	12	obl:arg	_	AlignBegin=63910|AlignEnd=64048|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	indépendance	indépendance	NOUN	_	_	12	nmod	_	AlignBegin=63910|AlignEnd=64048|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	AlignBegin=64048|AlignEnd=64048
 
 # sent_id = ParisStories_2022_11_copineEnCarton__28
@@ -8928,7 +8928,7 @@
 3	besoin	besoin	NOUN	_	_	2	obj:lvc	_	AlignBegin=97200|AlignEnd=97338|Gender[lex]=Masc|Number[ctxt]=Sing
 4	d'	de	ADP	_	_	6	case	_	AlignBegin=97338|AlignEnd=97475|SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=97475|AlignEnd=97613
-6	peu	peu	NOUN	_	Number=Sing	3	obl:arg	_	AlignBegin=97613|AlignEnd=97751|Gender[lex]=Masc
+6	peu	peu	NOUN	_	Number=Sing	3	nmod	_	AlignBegin=97613|AlignEnd=97751|Gender[lex]=Masc
 7	d'	de	ADP	_	_	8	case	_	AlignBegin=97751|AlignEnd=97888|SpaceAfter=No
 8	indé~	indé~	X	_	ExtPos=NOUN	11	reparandum	_	AlignBegin=97888|AlignEnd=98026|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=98026|AlignEnd=98026
@@ -10728,7 +10728,7 @@
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85525|AlignEnd=85984
 3	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	AlignBegin=85984|AlignEnd=86443
 4	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	AlignBegin=86443|AlignEnd=86902
-5	cheveux	cheveux	NOUN	_	Number=Plur	2	obj	_	AlignBegin=86902|AlignEnd=87362|Gender[lex]=Masc
+5	cheveux	cheveu	NOUN	_	Number=Plur	2	obj	_	AlignBegin=86902|AlignEnd=87362|Gender[lex]=Masc
 6	bouclés	bouclé	ADJ	_	_	5	amod	_	AlignBegin=87362|AlignEnd=87821|Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=87821|AlignEnd=87821
 8	de	un	DET	_	PronType=Art	10	det	_	AlignBegin=87821|AlignEnd=88280

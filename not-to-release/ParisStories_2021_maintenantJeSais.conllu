@@ -245,7 +245,7 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	face	face	NOUN	_	_	6	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	_
-10	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	obl:arg	_	SpaceAfter=No
+10	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_maintenantJeSais_17

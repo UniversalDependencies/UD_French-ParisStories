@@ -242,7 +242,7 @@
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	cheveux	cheveux	NOUN	_	Number=Plur	18	obj	_	Gender[lex]=Masc
+20	cheveux	cheveu	NOUN	_	Number=Plur	18	obj	_	Gender[lex]=Masc
 21	courts	court	ADJ	_	Gender=Masc	20	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 22	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -262,7 +262,7 @@
 11	cause	cause	NOUN	_	_	9	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	pluie	pluie	NOUN	_	_	11	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	pluie	pluie	NOUN	_	_	11	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_11
@@ -278,7 +278,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	peu	peu	NOUN	_	Number=Sing	7	obl:mod	_	Gender[lex]=Masc
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	cheveux	cheveux	NOUN	_	Number=Plur	7	obj	_	Gender[lex]=Masc
+11	cheveux	cheveu	NOUN	_	Number=Plur	7	obj	_	Gender[lex]=Masc
 12	courts	court	ADJ	_	Gender=Masc	11	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -288,7 +288,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	cheveux	cheveux	NOUN	_	Number=Plur	2	obj	_	Gender[lex]=Masc
+4	cheveux	cheveu	NOUN	_	Number=Plur	2	obj	_	Gender[lex]=Masc
 5	courts	court	ADJ	_	Gender=Masc	4	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
@@ -308,7 +308,7 @@
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	cheveux	cheveux	NOUN	_	Number=Plur	10	obj	_	Gender[lex]=Masc
+12	cheveux	cheveu	NOUN	_	Number=Plur	10	obj	_	Gender[lex]=Masc
 13	plus	plus	ADV	_	_	14	advmod	_	_
 14	courts	court	ADJ	_	Gender=Masc	12	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_

@@ -1832,7 +1832,7 @@
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
-6	.	_	PUNCT	_	_	4	punct	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_experienceFac_54
 # text = ou alors j'avais peut-être la flemme.
@@ -2093,7 +2093,7 @@
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 11	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	5	acl:relcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 12	plaisir	plaisir	NOUN	_	_	11	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-13	à	à	ADP	_	_	12	obl:arg	_	_
+13	à	à	ADP	_	_	12	nmod	_	_
 14	découvrir	découvrir	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 15	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -2638,7 +2638,7 @@
 4	euh	euh	INTJ	_	_	7	discourse	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	wordform=fin
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	mardi	_	NOUN	_	Number=Sing	10	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+7	mardi	mardi	NOUN	_	Number=Sing	10	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2647,7 +2647,7 @@
 13	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 14	tard	tard	ADV	_	_	13	advmod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	mardi	_	NOUN	_	Number=Sing	13	obl:mod	_	Gender[lex]=Masc
+16	mardi	mardi	NOUN	_	Number=Sing	13	obl:mod	_	Gender[lex]=Masc
 17	puisque	puisque	SCONJ	_	_	22	mark	_	_
 18	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	reparandum	_	SpaceAfter=No
@@ -2936,7 +2936,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
 15	po~	po~	X	_	ExtPos=VERB	19	reparandum	_	_
-16	port	_	X	_	ExtPos=VERB	19	reparandum	_	SpaceAfter=No
+16	port	port	X	_	ExtPos=VERB	19	reparandum	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	portait	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	_
@@ -3127,7 +3127,7 @@
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	journée	journée	NOUN	_	_	22	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 29	de	de	ADP	_	_	30	case	_	_
-30	tournage	_	NOUN	_	Number=Sing	28	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+30	tournage	tournage	NOUN	_	Number=Sing	28	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 31	,	,	PUNCT	_	_	36	punct	_	_
 32	euh	euh	INTJ	_	_	36	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
@@ -3154,7 +3154,7 @@
 5	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	enfin	enfin	ADV	_	ExtPos=INTJ	10	discourse	_	_
-8	franchement	_	ADV	_	_	10	advmod	_	_
+8	franchement	franchement	ADV	_	_	10	advmod	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	reparandum	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -3232,7 +3232,7 @@
 16	jours	jour	NOUN	_	_	22	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 17	avant	avant	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	tournage	_	NOUN	_	Number=Sing	16	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+19	tournage	tournage	NOUN	_	Number=Sing	16	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 20	,	,	PUNCT	_	_	16	punct	_	_
 21	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
 22	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -3268,7 +3268,7 @@
 52	euh	euh	INTJ	_	_	55	discourse	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
 54	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	55	det	_	_
-55	cheveux	_	NOUN	_	Number=Plur	50	obj	_	Gender[lex]=Masc
+55	cheveux	cheveu	NOUN	_	Number=Plur	50	obj	_	Gender[lex]=Masc
 56	pour	pour	ADP	_	_	57	mark	_	_
 57	voir	voir	VERB	_	VerbForm=Inf	55	acl	_	SpaceAfter=No|Subject=SubjRaising
 58	,	,	PUNCT	_	_	62	punct	_	_
@@ -3288,7 +3288,7 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	garçons	_	NOUN	_	Number=Plur	7	obl:mod	_	Gender[lex]=Masc
+4	garçons	garçon	NOUN	_	Number=Plur	7	obl:mod	_	Gender[lex]=Masc
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs	7	expl:pass	_	_
 7	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -3305,7 +3305,7 @@
 18	pour	pour	ADP	_	_	19	mark	_	_
 19	avoir	avoir	VERB	_	VerbForm=Inf	10	advcl	_	Subject=NoRaising
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	coupe	_	NOUN	_	Number=Sing	19	obj	_	Gender[lex]=Fem|SpaceAfter=No
+21	coupe	coupe	NOUN	_	Number=Sing	19	obj	_	Gender[lex]=Fem|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
@@ -3363,7 +3363,7 @@
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	tournage	_	NOUN	_	Number=Sing	6	nmod	_	Gender[lex]=Masc
+9	tournage	tournage	NOUN	_	Number=Sing	6	nmod	_	Gender[lex]=Masc
 10	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	être	être	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	euh	euh	INTJ	_	_	15	discourse	_	_
@@ -3418,7 +3418,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	lieu	lieu	NOUN	_	_	4	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 16	de	de	ADP	_	_	17	case	_	_
-17	tournage	_	NOUN	_	Number=Sing	15	nmod	_	Gender[lex]=Masc
+17	tournage	tournage	NOUN	_	Number=Sing	15	nmod	_	Gender[lex]=Masc
 18	sur	sur	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Promenade	promenade	PROPN	_	_	15	nmod	_	Gender[lex]=Unknown
@@ -3722,7 +3722,7 @@
 4	et	et	CCONJ	_	_	15	cc	_	_
 5	ensuite	ensuite	ADV	_	_	15	advmod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-7	après-midi	_	NOUN	_	Number=Sing	15	obl:mod	_	Gender[lex]=Masc
+7	après-midi	après-midi	NOUN	_	_	15	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
@@ -3754,7 +3754,7 @@
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	autre	autre	ADJ	_	_	13	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
-13	actrice	_	NOUN	_	Number=Sing	8	appos	_	Gender[lex]=Fem
+13	actrice	actrice	NOUN	_	Number=Sing	8	appos	_	Gender[lex]=Fem
 14	et	et	CCONJ	_	_	20	cc	_	_
 15	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
@@ -3885,7 +3885,7 @@
 8	pendant	pendant	ADP	_	_	11	case	_	_
 9	tout	tout	ADJ	_	Gender=Masc	11	amod	_	Number[ctxt]=Sing
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-11	après-midi	_	NOUN	_	Number=Sing	3	obl:mod	_	Gender[lex]=Masc
+11	après-midi	après-midi	NOUN	_	_	3	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -3934,7 +3934,7 @@
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	deux	deux	NUM	_	_	5	nummod	_	Number[lex]=Plur
 4	petits	petit	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-5	acteurs	_	NOUN	_	Number=Plur	2	obj	_	Gender[lex]=Masc|SpaceAfter=No
+5	acteurs	acteur	NOUN	_	Number=Plur	2	obj	_	Gender[lex]=Masc|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -3945,7 +3945,7 @@
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	assistante	_	NOUN	_	Number=Sing	10	obj	_	Gender[lex]=Fem|SpaceAfter=No
+16	assistante	assistante	NOUN	_	Number=Sing	10	obj	_	Gender[lex]=Fem|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -10037,7 +10037,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	temps	temps	NOUN	_	Number=Sing	4	obl:arg	_	Gender[lex]=Masc
+7	temps	temps	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Masc
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	créent	créer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	eux-mêmes	eux-mêmes	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	obl:mod	_	_
@@ -10965,7 +10965,7 @@
 7	mal	mal	NOUN	_	Number=Sing	6	obj	_	Gender[lex]=Masc
 8	à	à	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	cheville	cheville	NOUN	_	_	7	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+10	cheville	cheville	NOUN	_	_	7	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 13	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	discourse	_	SpaceAfter=No
@@ -18582,7 +18582,7 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	face	face	NOUN	_	_	6	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	_
-10	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	obl:arg	_	SpaceAfter=No
+10	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_maintenantJeSais_17
@@ -22238,7 +22238,7 @@
 17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	cheveux	cheveux	NOUN	_	Number=Plur	18	obj	_	Gender[lex]=Masc
+20	cheveux	cheveu	NOUN	_	Number=Plur	18	obj	_	Gender[lex]=Masc
 21	courts	court	ADJ	_	Gender=Masc	20	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 22	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -22258,7 +22258,7 @@
 11	cause	cause	NOUN	_	_	9	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	pluie	pluie	NOUN	_	_	11	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	pluie	pluie	NOUN	_	_	11	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_pluieEtMamie_11
@@ -22274,7 +22274,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	peu	peu	NOUN	_	Number=Sing	7	obl:mod	_	Gender[lex]=Masc
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	cheveux	cheveux	NOUN	_	Number=Plur	7	obj	_	Gender[lex]=Masc
+11	cheveux	cheveu	NOUN	_	Number=Plur	7	obj	_	Gender[lex]=Masc
 12	courts	court	ADJ	_	Gender=Masc	11	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -22284,7 +22284,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	cheveux	cheveux	NOUN	_	Number=Plur	2	obj	_	Gender[lex]=Masc
+4	cheveux	cheveu	NOUN	_	Number=Plur	2	obj	_	Gender[lex]=Masc
 5	courts	court	ADJ	_	Gender=Masc	4	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
@@ -22304,7 +22304,7 @@
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	cheveux	cheveux	NOUN	_	Number=Plur	10	obj	_	Gender[lex]=Masc
+12	cheveux	cheveu	NOUN	_	Number=Plur	10	obj	_	Gender[lex]=Masc
 13	plus	plus	ADV	_	_	14	advmod	_	_
 14	courts	court	ADJ	_	Gender=Masc	12	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
