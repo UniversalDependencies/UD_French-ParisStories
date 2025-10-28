@@ -45,7 +45,7 @@
 5	vacances	vacance	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur
 6	dès	dès	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mois	mois	NOUN	_	Number=Sing	5	obl:mod	_	Gender[lex]=Masc
+8	mois	mois	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	_
 10	mai	mai	NOUN	_	_	8	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 11	en	en	ADP	_	_	13	case	_	_
@@ -126,7 +126,7 @@
 30	allée	aller	VERB	_	VerbForm=Part	7	conj	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
 31	dans	dans	ADP	_	_	33	case	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	spa	spa	NOUN	_	Number=Sing	30	obl:arg	_	Gender[lex]=Masc
+33	spa	spa	NOUN	_	_	30	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 34	qu'	que	PRON	_	PronType=Rel	38	obj	_	SpaceAfter=No
 35	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	nsubj	_	_
 36	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	38	iobj	_	SpaceAfter=No
@@ -212,7 +212,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	beau	beau	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+3	beau	beau	ADJ	_	Gender=Masc	2	xcomp	_	Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
@@ -261,7 +261,7 @@
 3	et	et	CCONJ	_	_	10	cc	_	_
 4	pendant	pendant	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	mois	mois	NOUN	_	Number=Sing	10	obl:mod	_	Gender[lex]=Masc
+6	mois	mois	NOUN	_	_	10	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	de	de	ADP	_	_	8	case	_	_
 8	juillet	juillet	NOUN	_	_	6	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
@@ -448,7 +448,7 @@
 24	de	de	ADP	_	_	28	case	_	_
 25	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	28	det	_	_
 26	plus	plus	ADV	_	_	27	advmod	_	_
-27	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+27	beaux	beau	ADJ	_	Gender=Masc	28	amod	_	Number[ctxt]=Plur
 28	concerts	concert	NOUN	_	_	23	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 29	!	!	PUNCT	_	_	6	punct	_	_
 
@@ -528,7 +528,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 3	dans	dans	ADP	_	_	6	case	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	petit	petit	ADJ	_	_	6	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+5	petit	petit	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	appartement	appartement	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	euh	euh	INTJ	_	_	8	discourse	_	_
 8	en	en	ADP	_	_	14	reparandum	_	SpaceAfter=No
@@ -691,7 +691,7 @@
 10	directement	directement	ADV	_	_	9	advmod	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	_
 12	en	en	ADP	_	_	13	case	_	_
-13	colo	colo	NOUN	_	Number=Sing	9	obl:mod	_	Gender[lex]=Fem
+13	colo	colo	NOUN	_	_	9	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	en	en	ADP	_	ExtPos=ADV	3	discourse	_	Idiom=Yes
 15	fait	fait	NOUN	_	_	14	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -709,7 +709,7 @@
 8	euh	euh	INTJ	_	_	11	discourse	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	colo	colo	NOUN	_	Number=Sing	6	obl:mod	_	Gender[lex]=Fem
+11	colo	colo	NOUN	_	_	6	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	euh	euh	INTJ	_	_	14	discourse	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	adolescents	adolescent	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
@@ -731,12 +731,12 @@
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	vers	vers	ADP	_	_	13	case	_	_
 13	Agen	Agen	PROPN	_	_	9	nmod	_	Gender[lex]=Unknown
-14	specialisée	specialiser	ADJ	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	reparandum	_	_
+14	specialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	30	reparandum	_	Number[ctxt]=Sing
 15	pour	pour	ADP	_	_	14	dep	_	_
 16	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	enfin	enfin	ADV	_	ExtPos=INTJ	19	discourse	_	_
-19	spécialisée	specialiser	ADJ	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	reparandum	_	_
+19	spécialisée	specialiser	ADJ	_	Gender=Fem|Tense=Past|VerbForm=Part	30	reparandum	_	Number[ctxt]=Sing
 20	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	30	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	enfin	enfin	ADV	_	ExtPos=INTJ	30	discourse	_	wordform=fin
@@ -747,13 +747,13 @@
 27	euh	euh	INTJ	_	_	31	discourse	_	_
 28	euh	euh	INTJ	_	_	31	discourse	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	best	best	ADJ	_	Gender=Masc|Number=Plur	9	acl	_	_
-31	sellers	seller	NOUN	_	Number=Plur	36	reparandum	_	Gender[lex]=Masc
+30	best	best	ADJ	_	_	9	acl	_	Number[ctxt]=Sing
+31	sellers	seller	NOUN	_	_	36	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Plur
 32	de	de	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 34	été	été	NOUN	_	_	31	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 35	,	,	PUNCT	_	_	31	punct	_	_
-36	colo	colo	NOUN	_	Number=Sing	30	flat	_	Gender[lex]=Fem
+36	colo	colo	NOUN	_	_	30	flat	_	Gender[lex]=Fem|Number[ctxt]=Sing
 37	écrivains	écrivain	NOUN	_	_	36	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 38	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -765,13 +765,13 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
-6	peu	peu	NOUN	_	Number=Sing	5	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+6	peu	peu	NOUN	_	_	5	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 7	bizarre	bizarre	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 8	mais	mais	CCONJ	_	_	12	cc	_	_
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
-12	colos	colo	NOUN	_	Number=Plur	7	conj	_	Gender[lex]=Fem
+12	colos	colo	NOUN	_	_	7	conj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 13	à	à	ADP	_	_	14	case	_	_
 14	projets	projet	NOUN	_	_	12	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
@@ -780,23 +780,23 @@
 # text = en gros il y avait colo manga euh colo euh colo jeux olympiques, colo bande-dessinée, colo dessin, oui je l'ai déjà dit.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
 1	en	en	ADP	_	_	2	case	_	_
-2	gros	gros	ADJ	_	Gender=Masc	5	discourse	_	_
+2	gros	gros	ADJ	_	Gender=Masc	5	discourse	_	Number[ctxt]=Sing
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	colo	colo	NOUN	_	Number=Sing	5	obj	_	Gender[lex]=Fem
+6	colo	colo	NOUN	_	_	5	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	manga	manga	NOUN	_	_	6	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	9	discourse	_	_
-9	colo	colo	NOUN	_	Number=Sing	11	reparandum	_	Gender[lex]=Fem
+9	colo	colo	NOUN	_	_	11	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing
 10	euh	euh	INTJ	_	_	11	discourse	_	_
-11	colo	colo	NOUN	_	Number=Sing	6	appos	_	Gender[lex]=Fem
+11	colo	colo	NOUN	_	_	6	appos	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	jeux	jeu	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 13	olympiques	olympique	ADJ	_	_	12	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	colo	colo	NOUN	_	Number=Sing	11	appos	_	Gender[lex]=Fem
-16	bande-dessinée	bande-dessinée	NOUN	_	Number=Sing	15	nmod	_	Gender[lex]=Fem|SpaceAfter=No
+15	colo	colo	NOUN	_	_	11	appos	_	Gender[lex]=Fem|Number[ctxt]=Sing
+16	bande-dessinée	bande-dessinée	NOUN	_	_	15	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	colo	colo	NOUN	_	Number=Sing	15	appos	_	Gender[lex]=Fem
+18	colo	colo	NOUN	_	_	15	appos	_	Gender[lex]=Fem|Number[ctxt]=Sing
 19	dessin	dessin	NOUN	_	_	18	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	26	punct	_	_
 21	oui	oui	INTJ	_	_	26	discourse	_	_

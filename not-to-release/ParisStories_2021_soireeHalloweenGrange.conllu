@@ -57,7 +57,7 @@
 20	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
-23	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
+23	fausses	faux	ADJ	_	Gender=Fem	24	amod	_	Number[ctxt]=Plur
 24	tronçonneuses	tronçonneuse	NOUN	_	_	17	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 25	et	et	CCONJ	_	_	27	cc	_	_
 26	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
@@ -463,7 +463,7 @@
 37	d'	de	ADP	_	_	42	mark	_	SpaceAfter=No
 38	être	être	AUX	_	VerbForm=Inf	42	cop	_	Subject=SubjRaising
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	peu	peu	NOUN	_	Number=Sing	42	nmod	_	Gender[lex]=Masc
+40	peu	peu	NOUN	_	_	42	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	sorcière	sorcière	NOUN	_	_	36	xcomp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_

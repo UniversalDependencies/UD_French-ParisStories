@@ -737,8 +737,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/3932a12de258119b8a0aa89bb7a4b36aa9a2dcf5
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	à	à	ADP	_	_	4	case	_	_
-3	chaque	chaque	DET	_	Number=Sing|PronType=Ind	4	det	_	_
-4	fois	fois	NOUN	_	Number=Sing	14	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
+3	chaque	chaque	DET	_	PronType=Ind	4	det	_	Number[lex]=Sing
+4	fois	fois	NOUN	_	_	14	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	pour	pour	ADP	_	_	7	mark	_	_
 7	essayer	essayer	VERB	_	VerbForm=Inf	14	advcl	_	Subject=NoRaising
@@ -791,8 +791,8 @@
 3	coup	coup	NOUN	_	_	15	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	à	à	ADP	_	_	7	case	_	_
-6	chaque	chaque	DET	_	Number=Sing|PronType=Ind	7	det	_	_
-7	fois	fois	NOUN	_	Number=Sing	15	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
+6	chaque	chaque	DET	_	PronType=Ind	7	det	_	Number[lex]=Sing
+7	fois	fois	NOUN	_	_	15	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	tête	tête	NOUN	_	_	15	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -874,8 +874,8 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	rocher	rocher	NOUN	_	_	8	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	20	advmod	_	Idiom=Yes
-19	peu	peu	NOUN	_	Number=Sing	18	fixed	_	Gender[lex]=Masc|InIdiom=Yes
-20	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	peu	peu	NOUN	_	_	18	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+20	particulier	particulier	ADJ	_	Gender=Masc	17	amod	_	Number[ctxt]=Sing
 21	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_

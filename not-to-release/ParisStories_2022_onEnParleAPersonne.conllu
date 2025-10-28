@@ -16,7 +16,7 @@
 11	sorti	sortir	VERB	_	VerbForm=Part	6	ccomp	_	AlignBegin=2849|AlignEnd=3140|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 12	,	,	PUNCT	_	_	16	punct	_	AlignBegin=3140|AlignEnd=3140
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=3140|AlignEnd=3290
-14	peu	peu	NOUN	_	Number=Sing	16	nmod	_	AlignBegin=3290|AlignEnd=3441|Gender[lex]=Masc
+14	peu	peu	NOUN	_	_	16	nmod	_	AlignBegin=3290|AlignEnd=3441|Gender[lex]=Masc|Number[ctxt]=Sing
 15	avant	avant	ADP	_	_	16	case	_	AlignBegin=3441|AlignEnd=3591
 16	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	11	obl:mod	_	AlignBegin=3591|AlignEnd=3742|SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	AlignBegin=3742|AlignEnd=3742
@@ -223,7 +223,7 @@
 # speaker = L1
 # text = les chmeliers, les Chevaliers d'Émeraude.
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	AlignBegin=33518|AlignEnd=33700
-2	chmeliers	chmelier	NOUN	_	Number=Plur	0	root	_	AlignBegin=33700|AlignEnd=33883|SpaceAfter=No
+2	chmeliers	chmelier	NOUN	_	_	0	root	_	AlignBegin=33700|AlignEnd=33883|Number[ctxt]=Plur|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=33883|AlignEnd=33883
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=35350|AlignEnd=35717
 5	Chevaliers	Chevaliers	PROPN	_	Gender=Masc|Number=Plur	2	appos	_	AlignBegin=35717|AlignEnd=36084
@@ -525,7 +525,7 @@
 3	et	et	CCONJ	_	_	9	cc	_	AlignBegin=80675|AlignEnd=80773|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	AlignBegin=80773|AlignEnd=80773
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	AlignBegin=80773|AlignEnd=80872
-6	sœur	sœur	NOUN	_	Number=Sing	9	dislocated	_	AlignBegin=80872|AlignEnd=80970|Gender[lex]=Fem
+6	sœur	sœur	NOUN	_	_	9	dislocated	_	AlignBegin=80872|AlignEnd=80970|Gender[lex]=Fem|Number[ctxt]=Sing
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=80970|AlignEnd=81069
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	AlignBegin=81069|AlignEnd=81167
 9	là	là	ADV	_	_	0	root	_	AlignBegin=81167|AlignEnd=81266
@@ -628,7 +628,7 @@
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	AlignBegin=94650|AlignEnd=94827
 3	en	en	ADP	_	_	4	case	_	AlignBegin=94827|AlignEnd=95004
 4	mode	mode	NOUN	_	_	0	root	_	AlignBegin=95004|AlignEnd=95181
-5	ok	ok	ADJ	_	Gender=Masc|Number=Sing	9	discourse	_	AlignBegin=95181|AlignEnd=95357|SpaceAfter=No
+5	ok	ok	ADJ	_	Gender=Masc	9	discourse	_	AlignBegin=95181|AlignEnd=95357|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=95357|AlignEnd=95357
 7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=95357|AlignEnd=95534|SpaceAfter=No
 8	y	y	PRON	_	Person=3|PronType=Prs	9	iobj	_	AlignBegin=95534|AlignEnd=95711|Reported=Yes
@@ -880,7 +880,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=130963|AlignEnd=131203
 3	choisi	choisir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=131203|AlignEnd=131443|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=131443|AlignEnd=131682
-5	premier	premier	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	AlignBegin=131682|AlignEnd=131922
+5	premier	premier	ADJ	_	Gender=Masc	6	amod	_	AlignBegin=131682|AlignEnd=131922|Number[ctxt]=Sing
 6	bar	bar	NOUN	_	_	3	obj	_	AlignBegin=131922|AlignEnd=132162|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	AlignBegin=132162|AlignEnd=132162
 8	mais	mais	CCONJ	_	_	11	cc	_	AlignBegin=132162|AlignEnd=132525
@@ -942,7 +942,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	AlignBegin=137381|AlignEnd=137609
 3	fait	faire	VERB	_	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=137609|AlignEnd=137838
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=137838|AlignEnd=138067
-5	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	obj	_	AlignBegin=138067|AlignEnd=138296|Reported=Yes|SpaceAfter=No
+5	premier	premier	ADJ	_	Gender=Masc	3	obj	_	AlignBegin=138067|AlignEnd=138296|Number[ctxt]=Sing|Reported=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=138296|AlignEnd=138296
 7	à	à	ADP	_	_	8	case	_	AlignBegin=138296|AlignEnd=138296
 8	droite	droite	NOUN	_	_	5	appos	_	AlignBegin=138296|AlignEnd=138524|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No

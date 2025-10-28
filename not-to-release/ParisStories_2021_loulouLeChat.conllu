@@ -8,7 +8,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-7	ouf	ouf	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	ouf	ouf	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	genre	genre	NOUN	_	ExtPos=INTJ	12	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -24,7 +24,7 @@
 1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	trop	trop	ADV	_	_	4	advmod	_	_
-4	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_3
@@ -316,7 +316,7 @@
 19	que	que	SCONJ	_	_	22	mark	_	_
 20	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
 21	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	cop	_	_
-22	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No
+22	nouvelle	nouveau	ADJ	_	Gender=Fem	2	advcl	_	Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
@@ -366,7 +366,7 @@
 4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	peu	peu	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Masc
+7	peu	peu	NOUN	_	_	8	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	bizarre	bizarre	ADJ	_	_	4	xcomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -438,7 +438,7 @@
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	tout	tout	ADV	_	_	7	advmod	_	_
-7	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_26
@@ -446,8 +446,8 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	euh	euh	INTJ	_	_	12	discourse	_	_
 2	à	à	ADP	_	_	4	case	_	_
-3	chaque	chaque	DET	_	Number=Sing|PronType=Ind	4	det	_	_
-4	fois	fois	NOUN	_	Number=Sing	12	obl:mod	_	Gender[lex]=Fem
+3	chaque	chaque	DET	_	PronType=Ind	4	det	_	Number[lex]=Sing
+4	fois	fois	NOUN	_	_	12	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 5	que	que	SCONJ	_	_	7	mark	_	_
 6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 7	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
@@ -480,7 +480,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/c9484fe7c8a06eb33e567d830ded3d0eae77a4c6
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	reparandum	_	_
-3	beau	beau	ADJ	_	Gender=Masc|Number=Sing	2	advcl	_	_
+3	beau	beau	ADJ	_	Gender=Masc	2	advcl	_	Number[ctxt]=Sing
 4	aller	aller	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	SpaceAfter=No
@@ -516,7 +516,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	grave	grave	ADV	_	_	4	advmod	_	_
-4	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_loulouLeChat_31
@@ -550,7 +550,7 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	truc	truc	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	de	de	ADP	_	_	6	case	_	_
-6	ouf	ouf	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+6	ouf	ouf	NOUN	_	_	4	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	insupportable	insupportable	ADJ	_	_	4	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -596,7 +596,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-7	ouf	ouf	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	ouf	ouf	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	reparandum	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_

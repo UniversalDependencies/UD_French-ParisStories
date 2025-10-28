@@ -116,7 +116,7 @@
 17	s'	soi	PRON	_	Person=3|PronType=Prs	21	expl:comp	_	SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 19	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	21	advmod	_	Idiom=Yes
-20	peu	peu	NOUN	_	Number=Sing	19	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+20	peu	peu	NOUN	_	_	19	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 21	trompée	tromper	VERB	_	VerbForm=Part	2	conj	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 22	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -183,7 +183,7 @@
 26	flottant	flottant	ADJ	_	Gender=Masc	25	amod	_	Number[ctxt]=Sing
 27	euh	euh	INTJ	_	_	29	discourse	_	_
 28	hyper	hyper	ADV	_	_	29	advmod	_	_
-29	long	long	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+29	long	long	ADJ	_	Gender=Masc	26	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 30	,	,	PUNCT	_	_	35	punct	_	_
 31	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
@@ -211,7 +211,7 @@
 # sent_id = ParisStories_2019_mercrediSoir_11
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/59fb2f588aa07840b770f8758ac09abb7bcf07cf
 1	entre	entre	ADV	_	_	5	advmod	_	_
-2	temps	temps	NOUN	_	Number=Sing	1	obj	_	Gender[lex]=Masc
+2	temps	temps	NOUN	_	_	1	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -501,7 +501,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	shooting	shooting	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
+5	shooting	shooting	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	photo	photo	NOUN	_	_	5	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -515,7 +515,7 @@
 5	comme	comme	ADP	_	_	8	case	_	_
 6	tout	tout	ADJ	_	Gender=Masc	8	amod	_	Number[ctxt]=Sing
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	temps	temps	NOUN	_	Number=Sing	2	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+8	temps	temps	NOUN	_	_	2	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -772,7 +772,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	bonne	bon	ADJ	_	_	6	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+5	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	ambiance	ambiance	NOUN	_	_	3	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -791,7 +791,7 @@
 1	bon	bon	INTJ	_	_	16	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes
-4	peu	peu	NOUN	_	Number=Sing	3	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+4	peu	peu	NOUN	_	_	3	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 5	seul	seul	ADJ	_	_	16	advcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7-8	du	_	_	_	_	_	_	_	_
@@ -826,8 +826,8 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	10	advmod	_	Idiom=Yes
-9	peu	peu	NOUN	_	Number=Sing	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes
-10	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	peu	peu	NOUN	_	_	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
+10	chaud	chaud	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	mais	mais	CCONJ	_	_	13	cc	_	_
 13	voilà	voilà	VERB	_	_	10	conj	_	SpaceAfter=No
@@ -881,7 +881,7 @@
 22	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	_
 23	très	très	ADV	_	_	25	advmod	_	_
 24	très	très	ADV	_	_	23	conj	_	_
-25	cher	cher	ADJ	_	Gender=Masc|Number=Sing	11	advcl	_	_
+25	cher	cher	ADJ	_	_	11	advcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 26	et	et	CCONJ	_	_	36	cc	_	_
 27	en	en	ADP	_	_	28	case	_	_
 28	plus	plus	ADV	_	_	36	advmod	_	SpaceAfter=No
@@ -936,7 +936,7 @@
 13	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
 15	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	14	obj	_	Idiom=Yes
-16	peu	peu	NOUN	_	Number=Sing	15	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+16	peu	peu	NOUN	_	_	15	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 17	de	de	ADP	_	_	18	case	_	_
 18	mal	mal	NOUN	_	Number=Sing	15	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -1009,8 +1009,8 @@
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	reparandum	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	gens	gens	NOUN	_	Number=Plur	4	parataxis	_	Gender[lex]=Masc
-17	debout	debout	ADJ	_	Gender=Masc	16	amod	_	Number[ctxt]=Plur
+16	gens	gens	NOUN	_	_	4	parataxis	_	Gender[lex]=Masc|Number[ctxt]=Plur
+17	debout	debout	ADJ	_	_	16	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
 18	etc	etc	ADV	_	_	4	conj	_	SpaceAfter=No|wordform=etcétéra
 19	.	.	PUNCT	_	_	4	punct	_	_
 

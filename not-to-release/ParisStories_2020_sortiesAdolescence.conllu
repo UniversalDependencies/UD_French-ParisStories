@@ -104,7 +104,7 @@
 43	mais	mais	CCONJ	_	_	49	cc	_	_
 44	tout	tout	ADJ	_	Gender=Masc	46	amod	_	Number[ctxt]=Sing
 45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-46	temps	temps	NOUN	_	Number=Sing	49	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+46	temps	temps	NOUN	_	_	49	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	49	nsubj	_	SpaceAfter=No
 49	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	33	conj	_	_
@@ -216,7 +216,7 @@
 45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	lieu	lieu	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 47	de	de	ADP	_	_	48	case	_	_
-48	rendez-vous	rendez-vous	NOUN	_	Number=Sing	46	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+48	rendez-vous	rendez-vous	NOUN	_	_	46	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 49	.	.	PUNCT	_	_	46	punct	_	_
 
 # sent_id = ParisStories_2020_sortiesAdolescence_8
@@ -227,12 +227,12 @@
 3	connaissez	connaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	_	Idiom=Yes
 5	petit	petit	ADJ	_	Gender=Masc	4	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
-6	peu	peu	NOUN	_	Number=Sing	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+6	peu	peu	NOUN	_	_	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	légende	légende	NOUN	_	_	3	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	gens	gens	NOUN	_	Number=Plur	8	conj	_	Gender[lex]=Masc
+11	gens	gens	NOUN	_	_	8	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -260,7 +260,7 @@
 1	dès	dès	ADP	_	_	5	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 3	plus	plus	ADV	_	Gender=Masc|Number=Sing	4	advmod	_	_
-4	jeune	jeune	ADJ	_	_	5	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+4	jeune	jeune	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 5	âge	âge	NOUN	_	_	7	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	_
 7	commençait	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -301,7 +301,7 @@
 4	parents	parent	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 6	assez	assez	ADV	_	_	7	advmod	_	_
-7	pratiquants	pratiquant	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	pratiquants	pratiquant	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Plur|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	assez	assez	ADV	_	_	11	advmod	_	_
 10	à	à	ADP	_	_	11	case	_	_
@@ -365,7 +365,7 @@
 12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
 13	apprenais	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	conj	_	_
 14	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
-15	cours	cours	NOUN	_	Number=Plur	13	obj	_	Gender[lex]=Masc|SpaceAfter=No
+15	cours	cours	NOUN	_	_	13	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_sortiesAdolescence_15
@@ -381,7 +381,7 @@
 8	dans	dans	ADP	_	_	11	case	_	_
 9	tous	tout	ADJ	_	Gender=Masc	11	amod	_	Number[ctxt]=Plur
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-11	cas	cas	NOUN	_	Number=Plur	15	nmod	_	Gender[lex]=Masc
+11	cas	cas	NOUN	_	_	15	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -401,7 +401,7 @@
 1	mais	mais	CCONJ	_	_	23	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	23	punct	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	dehors	dehors	NOUN	_	Number=Sing	10	reparandum	_	Gender[lex]=Masc
+4	dehors	dehors	NOUN	_	_	10	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	de	de	ADP	_	_	6	case	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
@@ -434,7 +434,7 @@
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	choix	choix	NOUN	_	Number=Sing	4	obj	_	Gender[lex]=Masc|SpaceAfter=No
+7	choix	choix	NOUN	_	_	4	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_sortiesAdolescence_18
@@ -603,6 +603,6 @@
 12	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
 13	vraiment	vraiment	ADV	_	_	12	advmod	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	seum	seum	NOUN	_	Number=Sing	12	obj	_	Gender[lex]=Masc|SpaceAfter=No
+15	seum	seum	NOUN	_	_	12	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	_
 

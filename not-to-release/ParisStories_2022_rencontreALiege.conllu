@@ -82,7 +82,7 @@
 6	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	AlignBegin=12829|AlignEnd=13126
 7	organisé	organiser	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=13126|AlignEnd=13424|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=13424|AlignEnd=13721
-9	pré-rentrée	pré-rentrée	NOUN	_	Number=Sing	7	obj	_	AlignBegin=13721|AlignEnd=14019|Gender[lex]=Fem
+9	pré-rentrée	pré-rentrée	NOUN	_	_	7	obj	_	AlignBegin=13721|AlignEnd=14019|Gender[lex]=Fem|Number[ctxt]=Sing
 10	à	à	ADP	_	_	13	case	_	AlignBegin=14019|AlignEnd=14019
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=14019|AlignEnd=14316
 12	Haute	Haute	ADJ	_	_	13	amod	_	AlignBegin=14316|AlignEnd=14614|Gender[ctxt]=Fem|Number[ctxt]=Sing
@@ -256,7 +256,7 @@
 10	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=53261|AlignEnd=53448|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=53448|AlignEnd=53448
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=53448|AlignEnd=53636
-13	peu	peu	NOUN	_	Number=Sing	14	obl:mod	_	AlignBegin=53636|AlignEnd=53824|Gender[lex]=Masc
+13	peu	peu	NOUN	_	_	14	obl:mod	_	AlignBegin=53636|AlignEnd=53824|Gender[lex]=Masc|Number[ctxt]=Sing
 14	comme	comme	ADP	_	_	24	reparandum	_	AlignBegin=53824|AlignEnd=54011
 15	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=54011|AlignEnd=54199|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=54199|AlignEnd=54199
@@ -281,7 +281,7 @@
 3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	2	obl:mod	_	AlignBegin=57444|AlignEnd=57660
 4	à	à	ADP	_	_	6	case	_	AlignBegin=57660|AlignEnd=57660
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=57660|AlignEnd=57877
-6	queleuleu	queleuleu	NOUN	_	Number=Sing	2	obl:arg	_	AlignBegin=57877|AlignEnd=58093|Gender[lex]=Fem|SpaceAfter=No
+6	queleuleu	queleuleu	NOUN	_	_	2	obl:arg	_	AlignBegin=57877|AlignEnd=58093|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=58093|AlignEnd=58093
 
 # sent_id = ParisStories_2022_8_rencontreALiège__14
@@ -408,7 +408,7 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=80627|AlignEnd=80820|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=80820|AlignEnd=81012
 5	super	super	ADV	_	_	6	advmod	_	AlignBegin=81012|AlignEnd=81205
-6	long	long	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=81205|AlignEnd=81398|SpaceAfter=No
+6	long	long	ADJ	_	Gender=Masc	0	root	_	AlignBegin=81205|AlignEnd=81398|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=81398|AlignEnd=81398
 
 # sent_id = ParisStories_2022_8_rencontreALiège__20
@@ -498,8 +498,8 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	expl:subj	_	AlignBegin=92487|AlignEnd=92633|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=92633|AlignEnd=92779
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=92779|AlignEnd=92925
-8	première	premier	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	AlignBegin=92925|AlignEnd=93071
-9	fois	fois	NOUN	_	Number=Sing	0	root	_	AlignBegin=93071|AlignEnd=93218|Gender[lex]=Fem
+8	première	premier	ADJ	_	Gender=Fem	9	amod	_	AlignBegin=92925|AlignEnd=93071|Number[ctxt]=Sing
+9	fois	fois	NOUN	_	_	0	root	_	AlignBegin=93071|AlignEnd=93218|Gender[lex]=Fem|Number[ctxt]=Sing
 10	de	de	ADP	_	_	12	case	_	AlignBegin=93218|AlignEnd=93364
 11	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	AlignBegin=93364|AlignEnd=93510
 12	vie	vie	NOUN	_	_	9	nmod	_	AlignBegin=93510|AlignEnd=93656|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -604,7 +604,7 @@
 2	en	en	ADP	_	ExtPos=ADV	13	discourse	_	AlignBegin=109273|AlignEnd=109481|Idiom=Yes
 3	fait	fait	NOUN	_	_	2	fixed	_	AlignBegin=109481|AlignEnd=109689|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	AlignBegin=109689|AlignEnd=109689
-5	toute	tout	ADJ	_	_	7	amod	_	AlignBegin=109689|AlignEnd=109897
+5	toute	tout	ADJ	_	_	7	amod	_	AlignBegin=109689|AlignEnd=109897|Number[ctxt]=Sing
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=109897|AlignEnd=110105
 7	ballade	ballade	NOUN	_	_	13	dislocated	_	AlignBegin=110105|AlignEnd=110313|Gender[lex]=Fem|Number[ctxt]=Sing
 8	après	après	ADV	_	_	7	advmod	_	AlignBegin=110313|AlignEnd=110521

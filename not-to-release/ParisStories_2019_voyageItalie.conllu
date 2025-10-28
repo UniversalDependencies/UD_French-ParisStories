@@ -45,7 +45,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	petit	petit	ADJ	_	Gender=Masc	16	amod	_	Number[ctxt]=Sing
-16	road	road	NOUN	_	ExtPos=NOUN|Number=Sing	8	obj	_	Gender[lex]=Masc|Idiom=Yes
+16	road	road	NOUN	_	ExtPos=NOUN	8	obj	_	Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 17	trip	trip	NOUN	_	_	16	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
@@ -111,7 +111,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	trop	trop	ADV	_	_	5	advmod	_	_
 4	trop	trop	ADV	_	_	3	conj	_	_
-5	beau	beau	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	beau	beau	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_6
@@ -127,7 +127,7 @@
 8	contre	contre	NOUN	_	_	7	fixed	_	InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	12	advmod	_	Idiom=Yes
-11	peu	peu	NOUN	_	Number=Sing	10	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+11	peu	peu	NOUN	_	_	10	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 12	plus	plus	ADV	_	_	5	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -165,9 +165,9 @@
 5	ah	ah	INTJ	_	_	20	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	20	punct	_	_
 7	mais	mais	CCONJ	_	_	20	cc	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	20	punct	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
 9	par	par	ADP	_	ExtPos=ADV	20	cc	_	Idiom=Yes
-10	contre	contre	NOUN	_	_	20	obj	_	InIdiom=Yes|SpaceAfter=No
+10	contre	contre	NOUN	_	_	9	fixed	_	InIdiom=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	_
@@ -195,7 +195,7 @@
 35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
 36	vraiment	vraiment	ADV	_	_	38	advmod	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	pays	pays	NOUN	_	Number=Sing	32	conj	_	Gender[lex]=Masc
+38	pays	pays	NOUN	_	_	32	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
@@ -275,7 +275,7 @@
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	dans	dans	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	centre-ville	centre-ville	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+14	centre-ville	centre-ville	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	_
 17	marchait	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	SpaceAfter=No
@@ -359,7 +359,7 @@
 3	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	gars	gars	NOUN	_	Number=Sing	8	dislocated	_	Gender[lex]=Masc
+6	gars	gars	NOUN	_	_	8	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -410,7 +410,7 @@
 24	trois	trois	NUM	_	_	25	nummod	_	Number[lex]=Plur
 25	boules	boule	NOUN	_	_	16	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 26	dans	dans	ADP	_	_	28	case	_	_
-27	chaque	chaque	DET	_	Number=Sing|PronType=Ind	28	det	_	_
+27	chaque	chaque	DET	_	PronType=Ind	28	det	_	Number[lex]=Sing
 28	coupe	coupe	NOUN	_	_	25	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -464,7 +464,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	Reported=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	même	même	ADJ	_	_	14	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
-14	prix	prix	NOUN	_	Number=Sing	3	ccomp	_	Gender[lex]=Masc|SpaceAfter=No
+14	prix	prix	NOUN	_	_	3	ccomp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_19
@@ -482,7 +482,7 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	Reported=Yes
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	même	même	ADJ	_	_	13	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
-13	prix	prix	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+13	prix	prix	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_20
@@ -527,7 +527,7 @@
 9	petite	petit	ADJ	_	Gender=Fem	15	amod	_	Number[ctxt]=Sing
 10	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	première	premier	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+12	première	premier	ADJ	_	Gender=Fem	15	amod	_	Number[ctxt]=Sing
 13	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	12	punct	_	_
 15	arnaque	arnaque	NOUN	_	_	4	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -545,7 +545,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/a4b0a6df58fb781427d69f4ee8f3795235f6ee81
 1	donc	donc	ADV	_	_	13	advmod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	prix	prix	NOUN	_	Number=Sing	13	dislocated	_	Gender[lex]=Masc
+3	prix	prix	NOUN	_	_	13	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	nmod	_	Scrap=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -555,10 +555,10 @@
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	prix	prix	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
+13	prix	prix	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	repas	repas	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Masc
+16	repas	repas	NOUN	_	_	13	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes
 18	fait	fait	NOUN	_	_	17	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 19	hein	hein	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -591,7 +591,7 @@
 3	laisser	laisser	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 4	euh	euh	INTJ	_	_	6	discourse	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
-6	avis	avis	NOUN	_	Number=Plur	3	obj	_	Gender[lex]=Masc|SpaceAfter=No
+6	avis	avis	NOUN	_	_	3	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	sur	sur	ADP	_	_	9	case	_	_
 9	Google	Google	PROPN	_	_	6	nmod	_	Gender[lex]=Unknown
@@ -613,7 +613,7 @@
 9	que	que	ADV	_	Polarity=Neg	12	advmod	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 11	mauvais	mauvais	ADJ	_	Gender=Masc	12	amod	_	Number[ctxt]=Plur
-12	avis	avis	NOUN	_	Number=Plur	8	obj	_	Gender[lex]=Masc
+12	avis	avis	NOUN	_	_	8	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 13	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	sur	sur	ADP	_	_	17	case	_	_
@@ -637,7 +637,7 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	Idiom=Yes
-9	peu	peu	NOUN	_	Number=Sing	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+9	peu	peu	NOUN	_	_	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 10	partout	partout	ADV	_	_	11	advmod	_	_
 11	pareil	pareil	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
@@ -655,7 +655,7 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	vraiment	vraiment	ADV	_	_	11	advmod	_	_
 10	trop	trop	ADV	_	_	11	advmod	_	_
-11	beau	beau	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	beau	beau	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_29
@@ -1018,7 +1018,7 @@
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	trop	trop	ADV	_	_	5	advmod	_	_
-5	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	chaud	chaud	ADJ	_	Gender=Masc	3	xcomp	_	Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_voyageItalie_44
@@ -1092,7 +1092,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	pour	pour	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	prix	prix	NOUN	_	Number=Sing	19	obl:mod	_	Gender[lex]=Masc
+7	prix	prix	NOUN	_	_	19	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	général	général	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Masc
@@ -1213,7 +1213,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	spritz	spritz	NOUN	_	Number=Plur	17	dislocated	_	Gender[lex]=Masc|SpaceAfter=No
+8	spritz	spritz	NOUN	_	_	17	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	là-bas	là-bas	ADV	_	_	17	advmod	_	_
 11	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_

@@ -42,12 +42,12 @@
 4	propriétaire	propriétaire	NOUN	_	_	12	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Chinois	Chinois	NOUN	_	Number=Sing	12	reparandum	_	Gender[lex]=Masc|SpaceAfter=No
+7	Chinois	Chinois	NOUN	_	_	12	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	enfin	enfin	ADV	_	ExtPos=INTJ	12	discourse	_	wordform=fin
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
-12	Français-Chinois	Français-Chinois	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+12	Français-Chinois	Français-Chinois	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = et on est, on était six dans le maison.
@@ -139,7 +139,7 @@
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	fils	fils	NOUN	_	Number=Sing	4	conj	_	Gender[lex]=Masc
+18	fils	fils	NOUN	_	_	4	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -185,17 +185,17 @@
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	tous	tout	ADJ	_	Gender=Masc	6	amod	_	Number[ctxt]=Plur
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	Chinois	Chinois	NOUN	_	Number=Plur	12	reparandum	_	Gender[lex]=Masc|SpaceAfter=No
+6	Chinois	Chinois	NOUN	_	_	12	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No|wordform=fin
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	soit	soit	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-12	Chinois	Chinois	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Masc
+12	Chinois	Chinois	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Plur
 13	soit	soit	CCONJ	_	_	16	cc	_	_
 14	euh	euh	INTJ	_	_	16	discourse	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	Français-Chinois	Français-Chinois	NOUN	_	Number=Plur	12	conj	_	Gender[lex]=Masc|SpaceAfter=No
+16	Français-Chinois	Français-Chinois	NOUN	_	_	12	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 17	.	.	PUNCT	_	_	12	punct	_	_
 
 # text = un jour, euh enfin un mardi, tu sais que je rentre tard le mardi puisque j'ai, j'ai cours jusqu'à dix-neuf heures.
@@ -208,7 +208,7 @@
 4	euh	euh	INTJ	_	_	7	discourse	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	wordform=fin
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	mardi	mardi	NOUN	_	Number=Sing	10	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+7	mardi	mardi	NOUN	_	_	10	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -217,14 +217,14 @@
 13	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 14	tard	tard	ADV	_	_	13	advmod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	mardi	mardi	NOUN	_	Number=Sing	13	obl:mod	_	Gender[lex]=Masc
+16	mardi	mardi	NOUN	_	_	13	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 17	puisque	puisque	SCONJ	_	_	22	mark	_	_
 18	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	reparandum	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 22	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
-23	cours	cours	NOUN	_	Number=Sing	22	obj	_	Gender[lex]=Masc
+23	cours	cours	NOUN	_	_	22	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	jusqu'	jusque	ADV	_	_	27	advmod	_	SpaceAfter=No
 25	à	à	ADP	_	_	27	case	_	_
 26	dix-neuf	dix-neuf	NUM	_	_	27	nummod	_	Number[lex]=Sing
@@ -255,7 +255,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	_	Idiom=Yes
-5	peu	peu	NOUN	_	Number=Sing	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+5	peu	peu	NOUN	_	_	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 6	tard	tard	ADV	_	_	3	advmod	_	_
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	discourse	_	SpaceAfter=No
@@ -425,7 +425,7 @@
 32	autre	autre	ADJ	_	_	33	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
 33	rue	rue	NOUN	_	_	30	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 34	plus	plus	ADV	_	_	35	advmod	_	_
-35	grande	grand	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
+35	grande	grand	ADJ	_	Gender=Fem	33	amod	_	Number[ctxt]=Sing
 36	vers	vers	ADP	_	_	38	case	_	_
 37	chez	chez	ADP	_	_	38	case	_	_
 38	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	33	nmod	_	SpaceAfter=No
@@ -441,11 +441,11 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	_
 6	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	Idiom=Yes
-7	peu	peu	NOUN	_	Number=Sing	6	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+7	peu	peu	NOUN	_	_	6	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 10	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	13	advmod	_	Idiom=Yes
-11	peu	peu	NOUN	_	Number=Sing	10	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+11	peu	peu	NOUN	_	_	10	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 12	plus	plus	ADV	_	_	13	advmod	_	_
 13	loin	loin	ADV	_	_	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	_
@@ -515,7 +515,7 @@
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	sac	sac	NOUN	_	_	19	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 24	à	à	ADP	_	_	25	case	_	_
-25	dos	dos	NOUN	_	Number=Sing	23	nmod	_	Gender[lex]=Masc
+25	dos	dos	NOUN	_	_	23	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 26	et	et	CCONJ	_	_	31	cc	_	_
 27	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
@@ -608,7 +608,7 @@
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	euh	euh	INTJ	_	_	12	discourse	_	_
-14	fourché	fourché	NOUN	_	Number=Sing	11	obj	_	Gender[lex]=Masc|SpaceAfter=No
+14	fourché	fourché	NOUN	_	_	11	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 
 # text = il tourne vers là-bas.

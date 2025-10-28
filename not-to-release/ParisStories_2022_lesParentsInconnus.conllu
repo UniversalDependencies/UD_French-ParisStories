@@ -41,7 +41,7 @@
 # text = après quelque temps, ma mère, elle est partie aussi.
 1	après	après	ADP	_	_	3	case	_	AlignBegin=5453|AlignEnd=5700
 2	quelque	quelque	DET	_	Number=Sing|PronType=Ind	3	det	_	AlignBegin=5700|AlignEnd=5948
-3	temps	temps	NOUN	_	Number=Sing	10	obl:mod	_	AlignBegin=5948|AlignEnd=6195|Gender[lex]=Masc|SpaceAfter=No
+3	temps	temps	NOUN	_	_	10	obl:mod	_	AlignBegin=5948|AlignEnd=6195|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=6195|AlignEnd=6195
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	AlignBegin=6195|AlignEnd=6442
 6	mère	mère	NOUN	_	_	10	dislocated	_	AlignBegin=6442|AlignEnd=6690|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -197,9 +197,9 @@
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=42309|AlignEnd=42309
 13	de	de	ADP	_	_	17	case	_	AlignBegin=42309|AlignEnd=42587
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=42587|AlignEnd=42866
-15	petit	petit	ADJ	_	_	16	amod	_	AlignBegin=42866|AlignEnd=43144
-16	peu	peu	NOUN	_	Number=Sing	17	obl:mod	_	AlignBegin=43144|AlignEnd=43423|Gender[lex]=Masc
-17	inconnu	inconnu	ADJ	_	_	10	nmod	_	AlignBegin=43423|AlignEnd=43701|SpaceAfter=No
+15	petit	petit	ADJ	_	_	16	amod	_	AlignBegin=42866|AlignEnd=43144|Number[ctxt]=Sing
+16	peu	peu	NOUN	_	_	17	obl:mod	_	AlignBegin=43144|AlignEnd=43423|Gender[lex]=Masc|Number[ctxt]=Sing
+17	inconnu	inconnu	ADJ	_	_	10	nmod	_	AlignBegin=43423|AlignEnd=43701|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	AlignBegin=43701|AlignEnd=43701
 19	parce	parce	ADV	_	ExtPos=SCONJ	23	mark	_	AlignBegin=43701|AlignEnd=43980|Idiom=Yes
 20	qu'	que	SCONJ	_	_	19	fixed	_	AlignBegin=43980|AlignEnd=44258|InIdiom=Yes|SpaceAfter=No
@@ -228,7 +228,7 @@
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=48857|AlignEnd=48857
 13	beaucoup	beaucoup	ADV	_	_	9	obj	_	AlignBegin=48857|AlignEnd=49258
 14	de	de	ADP	_	_	15	case	_	AlignBegin=49258|AlignEnd=49659
-15	temps	temps	NOUN	_	Number=Sing	13	obl:arg	_	AlignBegin=49659|AlignEnd=50059|Gender[lex]=Masc
+15	temps	temps	NOUN	_	_	13	obl:arg	_	AlignBegin=49659|AlignEnd=50059|Gender[lex]=Masc|Number[ctxt]=Sing
 16	avec	avec	ADP	_	_	19	case	_	AlignBegin=50059|AlignEnd=50460
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=50460|AlignEnd=50861|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	AlignBegin=50861|AlignEnd=50861
@@ -323,7 +323,7 @@
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=67480|AlignEnd=67480
 15	de	de	ADP	_	_	18	case	_	AlignBegin=67480|AlignEnd=67868
 16	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=67868|AlignEnd=68256
-17	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	AlignBegin=68256|AlignEnd=68643
+17	nouvelle	nouveau	ADJ	_	Gender=Fem	18	amod	_	AlignBegin=68256|AlignEnd=68643|Number[ctxt]=Sing
 18	vie	vie	NOUN	_	_	11	obl:arg	_	AlignBegin=68643|AlignEnd=69031|Gender[lex]=Fem|Number[ctxt]=Sing
 19	en	en	ADP	_	_	20	case	_	AlignBegin=69031|AlignEnd=69419
 20	Espagne	Espagne	PROPN	_	_	18	nmod	_	AlignBegin=69419|AlignEnd=69807|Gender[lex]=Unknown|SpaceAfter=No
@@ -431,7 +431,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	AlignBegin=97071|AlignEnd=97682|wordform=au
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	dessous	dessous	NOUN	_	Number=Sing	7	obl:mod	_	AlignBegin=97682|AlignEnd=98292|Gender[lex]=Masc
+11	dessous	dessous	NOUN	_	_	7	obl:mod	_	AlignBegin=97682|AlignEnd=98292|Gender[lex]=Masc|Number[ctxt]=Sing
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	AlignBegin=98292|AlignEnd=98903|wordform=du
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -681,7 +681,7 @@
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=163741|AlignEnd=163741
 18	avec	avec	ADP	_	_	20	case	_	AlignBegin=163741|AlignEnd=164123
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=164123|AlignEnd=164506
-20	temps	temps	NOUN	_	Number=Sing	22	reparandum	_	AlignBegin=164506|AlignEnd=164888|Gender[lex]=Masc|SpaceAfter=No
+20	temps	temps	NOUN	_	_	22	reparandum	_	AlignBegin=164506|AlignEnd=164888|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=164888|AlignEnd=164888
 22	avec	avec	ADP	_	_	11	dep	_	AlignBegin=164888|AlignEnd=165583|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=165583|AlignEnd=165583
@@ -716,7 +716,7 @@
 21	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=149255|AlignEnd=149332|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=149332|AlignEnd=149332
 23	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=149332|AlignEnd=149410
-24	tout	tout	ADJ	_	_	26	amod	_	AlignBegin=149410|AlignEnd=149488
+24	tout	tout	ADJ	_	_	26	amod	_	AlignBegin=149410|AlignEnd=149488|Number[ctxt]=Sing
 25	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	AlignBegin=149488|AlignEnd=149565
 26	changement	changement	NOUN	_	_	34	dislocated	_	AlignBegin=149565|AlignEnd=149643|Gender[lex]=Masc|Number[ctxt]=Sing
 27	de	de	ADP	_	_	28	case	_	AlignBegin=149643|AlignEnd=149721

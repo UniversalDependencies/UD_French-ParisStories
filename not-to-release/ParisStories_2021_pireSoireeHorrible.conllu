@@ -25,7 +25,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	peu	peu	NOUN	_	Number=Sing	5	obl:mod	_	Gender[lex]=Masc
+4	peu	peu	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	tendu	tendu	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -71,7 +71,7 @@
 # text = en gros, euh, ça faisait des, des semaines et des semaines qu'on tannait ma mère pour pas le rencontrer parce que, euh, aucune envie qu'il vienne vivre chez nous et tout, hein.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
 1	en	en	ADP	_	_	2	case	_	_
-2	gros	gros	ADJ	_	Gender=Masc	7	obl:mod	_	SpaceAfter=No
+2	gros	gros	ADJ	_	Gender=Masc	7	obl:mod	_	Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -192,7 +192,7 @@
 6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 7	trop	trop	ADV	_	_	5	advmod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	choix	choix	NOUN	_	Number=Sing	5	obj	_	Gender[lex]=Masc|SpaceAfter=No
+9	choix	choix	NOUN	_	_	5	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_12
@@ -208,7 +208,7 @@
 7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 8	trop	trop	ADV	_	_	6	advmod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	choix	choix	NOUN	_	Number=Sing	6	obj	_	Gender[lex]=Masc|SpaceAfter=No
+10	choix	choix	NOUN	_	_	6	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	quoi	quoi	INTJ	_	_	6	discourse	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
@@ -237,7 +237,7 @@
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	choix	choix	NOUN	_	Number=Sing	3	obj	_	Gender[lex]=Masc|SpaceAfter=No
+6	choix	choix	NOUN	_	_	3	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	quoi	quoi	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -348,8 +348,8 @@
 8	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 9	pour	pour	ADP	_	_	12	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	première	premier	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-12	fois	fois	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
+11	première	premier	ADJ	_	Gender=Fem	12	amod	_	Number[ctxt]=Sing
+12	fois	fois	NOUN	_	_	8	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	_
 14	genre	genre	NOUN	_	ExtPos=INTJ	18	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -369,7 +369,7 @@
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	reparandum	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	nmod	_	_
+4	première	premier	ADJ	_	Gender=Fem	5	nmod	_	Number[ctxt]=Sing
 5	discussion	discussion	NOUN	_	_	14	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	qu'	que	PRON	_	PronType=Rel	9	obj	_	SpaceAfter=No
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
@@ -405,7 +405,7 @@
 # speaker = L1
 # text = bonne ambiance.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
-1	bonne	bonne	ADJ	_	_	2	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+1	bonne	bonne	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 2	ambiance	ambiance	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -420,24 +420,25 @@
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_26
 # speaker = L1
-# text = donc mon frère, il y a un des deux était déjà braqué.
+# text = donc mon frère, il y a un des deux , était déjà braqué.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/e49250515830f4160331954ff62532215cd3f8c8
-1	donc	donc	ADV	_	_	3	advmod	_	_
+1	donc	donc	ADV	_	_	15	advmod	_	_
 2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	_
-3	frère	frère	NOUN	_	_	7	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+3	frère	frère	NOUN	_	_	15	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
-8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:parenth	_	_
+8	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	obj	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	des	ADP	_	_	11	case	_	wordform=des
 10	les	les	DET	_	Definite=Def|PronType=Art	11	det	_	_
 11	deux	deux	NUM	_	_	8	nmod	_	_
-12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:tense	_	_
-13	déjà	déjà	ADV	_	_	14	advmod	_	_
-14	braqué	braquer	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
-15	.	.	PUNCT	_	_	14	punct	_	_
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux:tense	_	_
+14	déjà	déjà	ADV	_	_	15	advmod	_	_
+15	braqué	braquer	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+16	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_27
 # speaker = L1
@@ -473,7 +474,7 @@
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
-9	premier	premier	ADJ	_	Gender=Masc|Number=Sing	16	advcl	_	SpaceAfter=No
+9	premier	premier	ADJ	_	Gender=Masc	16	advcl	_	Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
@@ -506,7 +507,7 @@
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	Reported=Yes
 18	quoi	quoi	PRON	_	PronType=Int	11	ccomp	_	_
 19	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
-20	gars	gars	NOUN	_	Number=Sing	18	dislocated	_	Gender[lex]=Masc|SpaceAfter=No
+20	gars	gars	NOUN	_	_	18	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_31
@@ -629,7 +630,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
-5	long	long	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	long	long	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_39
@@ -716,7 +717,7 @@
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 8	combien	combien	ADV	_	_	0	root	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	temps	temps	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Masc
+10	temps	temps	NOUN	_	_	8	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 11	après	après	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	séparation	séparation	NOUN	_	_	8	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -737,7 +738,7 @@
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	six	six	NUM	_	_	9	nummod	_	Number[lex]=Plur
-9	mois	mois	NOUN	_	Number=Plur	10	obl:mod	_	Gender[lex]=Masc
+9	mois	mois	NOUN	_	_	10	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 10	après	après	ADV	_	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	à	à	ADP	_	ExtPos=ADV	10	advmod	_	Idiom=Yes
@@ -758,7 +759,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ouais	ouais	INTJ	_	_	10	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	chaud	chaud	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2021_pireSoireeHorrible_47

@@ -159,7 +159,7 @@
 14	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	obj	_	AlignBegin=20165|AlignEnd=20314
 15	dans	dans	ADP	_	_	17	case	_	AlignBegin=20314|AlignEnd=20462
 16	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=20462|AlignEnd=20611
-17	bras	bras	NOUN	_	Number=Plur	12	obl:mod	_	AlignBegin=20611|AlignEnd=20760|Gender[lex]=Masc|SpaceAfter=No
+17	bras	bras	NOUN	_	_	12	obl:mod	_	AlignBegin=20611|AlignEnd=20760|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	AlignBegin=20760|AlignEnd=20760
 
 # sent_id = ParisStories_2022_7_chienGourmand__7
@@ -266,10 +266,10 @@
 # text = et puis, de ce temps-là, il est à la maison.
 1	et	et	CCONJ	_	ExtPos=CCONJ	10	cc	_	AlignBegin=34527|AlignEnd=34660|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=34660|AlignEnd=34792|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	10	punct	_	AlignBegin=34792|AlignEnd=34792
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=34792|AlignEnd=34792
 4	de	de	ADP	_	_	6	case	_	AlignBegin=34792|AlignEnd=34925
 5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	AlignBegin=34925|AlignEnd=35058
-6	temps	temps	NOUN	_	Number=Sing	10	obl:mod	_	AlignBegin=35058|AlignEnd=35191|Gender[lex]=Masc|SpaceAfter=No
+6	temps	temps	NOUN	_	_	10	obl:mod	_	AlignBegin=35058|AlignEnd=35191|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	-là	là	ADV	_	_	6	advmod	_	AlignBegin=35191|AlignEnd=35323|SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	AlignBegin=35323|AlignEnd=35323
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=35323|AlignEnd=35456
@@ -305,7 +305,7 @@
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	AlignBegin=38513|AlignEnd=38647
 5	déménagé	déménager	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=38647|AlignEnd=38781|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	entre	entre	ADP	_	_	7	case	_	AlignBegin=38781|AlignEnd=38916
-7	temps	temps	NOUN	_	Number=Sing	5	obl:mod	_	AlignBegin=38916|AlignEnd=39050|Gender[lex]=Masc|SpaceAfter=No
+7	temps	temps	NOUN	_	_	5	obl:mod	_	AlignBegin=38916|AlignEnd=39050|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=39050|AlignEnd=39050
 9	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=39050|AlignEnd=39184
 10	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	discourse	_	AlignBegin=39184|AlignEnd=39318|SpaceAfter=No
@@ -347,7 +347,7 @@
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=42933|AlignEnd=43089
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	AlignBegin=43089|AlignEnd=43245
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=43245|AlignEnd=43401
-10	peu	peu	NOUN	_	Number=Sing	11	obl:mod	_	AlignBegin=43401|AlignEnd=43556|Gender[lex]=Masc
+10	peu	peu	NOUN	_	_	11	obl:mod	_	AlignBegin=43401|AlignEnd=43556|Gender[lex]=Masc|Number[ctxt]=Sing
 11	vieux	vieux	ADJ	_	Gender=Masc	0	root	_	AlignBegin=43556|AlignEnd=43712|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	AlignBegin=43712|AlignEnd=43712
 
@@ -362,7 +362,7 @@
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=45178|AlignEnd=45458
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45458|AlignEnd=45738
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=45738|AlignEnd=46018
-8	peu	peu	NOUN	_	Number=Sing	6	obj	_	AlignBegin=46018|AlignEnd=46298|Gender[lex]=Masc
+8	peu	peu	NOUN	_	_	6	obj	_	AlignBegin=46018|AlignEnd=46298|Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	AlignBegin=46298|AlignEnd=46579
 10	mal	mal	NOUN	_	Number=Sing	8	nmod	_	AlignBegin=46579|AlignEnd=46859|Gender[lex]=Masc
 11	à	à	ADP	_	_	12	mark	_	AlignBegin=46859|AlignEnd=46859
@@ -378,7 +378,7 @@
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=47288|AlignEnd=47436
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47436|AlignEnd=47585
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=47585|AlignEnd=47734
-6	peu	peu	NOUN	_	Number=Sing	4	obj	_	AlignBegin=47734|AlignEnd=47883|Gender[lex]=Masc
+6	peu	peu	NOUN	_	_	4	obj	_	AlignBegin=47734|AlignEnd=47883|Gender[lex]=Masc|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	8	case	_	AlignBegin=47883|AlignEnd=48031|SpaceAfter=No
 8	arthrose	arthrose	NOUN	_	_	6	nmod	_	AlignBegin=48031|AlignEnd=48180|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=48180|AlignEnd=48180
@@ -442,8 +442,8 @@
 1	enfin	enfin	ADV	_	ExtPos=INTJ	5	discourse	_	AlignBegin=54981|AlignEnd=55124|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=55124|AlignEnd=55124
 3	à	à	ADP	_	_	5	case	_	AlignBegin=55124|AlignEnd=55124
-4	chaque	chaque	DET	_	Number=Sing|PronType=Ind	5	det	_	AlignBegin=55124|AlignEnd=55267
-5	fois	fois	NOUN	_	Number=Sing	0	root	_	AlignBegin=55267|AlignEnd=55411|Gender[lex]=Fem
+4	chaque	chaque	DET	_	PronType=Ind	5	det	_	AlignBegin=55124|AlignEnd=55267|Number[lex]=Sing
+5	fois	fois	NOUN	_	_	0	root	_	AlignBegin=55267|AlignEnd=55411|Gender[lex]=Fem|Number[ctxt]=Sing
 6	que	que	SCONJ	_	_	8	mark	_	AlignBegin=55411|AlignEnd=55554
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=55554|AlignEnd=55697
 8	reviens	revenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	AlignBegin=55697|AlignEnd=55840
@@ -619,8 +619,8 @@
 # speaker = L1
 # text = la dernière fois, je lui ai donné une pomme à manger.
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=75831|AlignEnd=75951
-2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	AlignBegin=75951|AlignEnd=76072
-3	fois	fois	NOUN	_	Number=Sing	8	obl:mod	_	AlignBegin=76072|AlignEnd=76192|Gender[lex]=Fem|SpaceAfter=No
+2	dernière	dernier	ADJ	_	Gender=Fem	3	amod	_	AlignBegin=75951|AlignEnd=76072|Number[ctxt]=Sing
+3	fois	fois	NOUN	_	_	8	obl:mod	_	AlignBegin=76072|AlignEnd=76192|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=76192|AlignEnd=76192
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=76192|AlignEnd=76313
 6	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	8	iobj	_	AlignBegin=76313|AlignEnd=76433
@@ -801,8 +801,8 @@
 11	comme	comme	ADP	_	_	15	case	_	AlignBegin=96236|AlignEnd=96469
 12	à	à	ADP	_	_	15	case	_	AlignBegin=96469|AlignEnd=96469
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=96469|AlignEnd=96703
-14	petit	petit	ADJ	_	Gender=Masc	15	amod	_	AlignBegin=96703|AlignEnd=96936|Number[ctxt]=Sing
-15	humain	humain	NOUN	_	Number=Sing	5	obl:mod	_	AlignBegin=96936|AlignEnd=97169|Gender[lex]=Masc
+14	petit	petit	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	AlignBegin=96703|AlignEnd=96936
+15	humain	humain	NOUN	_	_	5	obl:mod	_	AlignBegin=96936|AlignEnd=97169|Gender[lex]=Masc|Number[ctxt]=Sing
 16	et	et	CCONJ	_	_	17	cc	_	AlignBegin=97169|AlignEnd=97403
 17	tout	tout	ADV	_	_	15	conj	_	AlignBegin=97403|AlignEnd=97636|SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	AlignBegin=97636|AlignEnd=97636
@@ -814,7 +814,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=97636|AlignEnd=97788|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	AlignBegin=97788|AlignEnd=97940
 3	trop	trop	ADV	_	_	4	advmod	_	AlignBegin=97940|AlignEnd=98092
-4	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=98092|AlignEnd=98244|SpaceAfter=No
+4	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=98092|AlignEnd=98244|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=98244|AlignEnd=98244
 
 # sent_id = ParisStories_2022_7_chienGourmand__46
@@ -893,7 +893,7 @@
 # text = et puis, il bouffe n'importe quoi.
 1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=110640|AlignEnd=110893|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=110893|AlignEnd=111147|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=111147|AlignEnd=111147
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=111147|AlignEnd=111147
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=111147|AlignEnd=111400
 5	bouffe	bouffer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=111400|AlignEnd=111653
 6	n'	ne	ADV	_	_	5	advmod	_	AlignBegin=111653|AlignEnd=111906|SpaceAfter=No
@@ -1123,7 +1123,7 @@
 # text = et puis, euh bon, il avait le droit que d'être dans son panier et tout.
 1	et	et	CCONJ	_	ExtPos=CCONJ	8	cc	_	AlignBegin=136660|AlignEnd=136983|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=136983|AlignEnd=137305|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	8	punct	_	AlignBegin=137305|AlignEnd=137305
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=137305|AlignEnd=137305
 4	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=137305|AlignEnd=137493
 5	bon	bon	INTJ	_	_	8	discourse	_	AlignBegin=137493|AlignEnd=137681|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=137681|AlignEnd=137681
@@ -1154,9 +1154,9 @@
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=139917|AlignEnd=140050
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=140050|AlignEnd=140183
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=140183|AlignEnd=140315
-10	peu	peu	NOUN	_	Number=Sing	12	obl:mod	_	AlignBegin=140315|AlignEnd=140448|Gender[lex]=Masc
+10	peu	peu	NOUN	_	_	12	obl:mod	_	AlignBegin=140315|AlignEnd=140448|Gender[lex]=Masc|Number[ctxt]=Sing
 11	plus	plus	ADV	_	_	12	advmod	_	AlignBegin=140448|AlignEnd=140580
-12	vieux	vieux	ADJ	_	_	15	advcl	_	AlignBegin=140580|AlignEnd=140713|SpaceAfter=No
+12	vieux	vieux	ADJ	_	_	15	advcl	_	AlignBegin=140580|AlignEnd=140713|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	AlignBegin=140713|AlignEnd=140713
 14	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	AlignBegin=141122|AlignEnd=141235
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=141235|AlignEnd=141347
@@ -1167,18 +1167,18 @@
 20	faire	faire	AUX	_	VerbForm=Inf	21	aux:caus	_	AlignBegin=141797|AlignEnd=141910|Subject=SubjRaising
 21	rentrer	rentrer	VERB	_	VerbForm=Inf	17	acl	_	AlignBegin=141910|AlignEnd=142022|Subject=ObjRaising
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=142022|AlignEnd=142135
-23	peu	peu	NOUN	_	Number=Sing	21	obl:mod	_	AlignBegin=142135|AlignEnd=142247|Gender[lex]=Masc
+23	peu	peu	NOUN	_	_	21	obl:mod	_	AlignBegin=142135|AlignEnd=142247|Gender[lex]=Masc|Number[ctxt]=Sing
 24	dans	dans	ADP	_	_	26	case	_	AlignBegin=142247|AlignEnd=142360
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	AlignBegin=142360|AlignEnd=142472
 26	maison	maison	NOUN	_	_	34	reparandum	_	AlignBegin=142472|AlignEnd=142585|Gender[lex]=Fem|Number[ctxt]=Sing
-27	tout	tout	ADJ	_	_	28	amod	_	AlignBegin=142585|AlignEnd=142713
+27	tout	tout	ADJ	_	_	28	amod	_	AlignBegin=142585|AlignEnd=142713|Number[ctxt]=Sing
 28	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	conj	_	AlignBegin=142713|AlignEnd=142841|SpaceAfter=No
 29	,	,	PUNCT	_	_	26	punct	_	AlignBegin=142841|AlignEnd=142841
 30	mais	mais	CCONJ	_	_	34	cc	_	AlignBegin=142841|AlignEnd=142969
 31	toujours	toujours	ADV	_	_	34	advmod	_	AlignBegin=143131|AlignEnd=143297
 32	sur	sur	ADP	_	_	34	case	_	AlignBegin=143297|AlignEnd=143463
 33	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	34	det	_	AlignBegin=143463|AlignEnd=143628
-34	tapis	tapis	NOUN	_	Number=Sing	21	obl:arg	_	AlignBegin=143628|AlignEnd=143794|Gender[lex]=Masc|SpaceAfter=No
+34	tapis	tapis	NOUN	_	_	21	obl:arg	_	AlignBegin=143628|AlignEnd=143794|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	15	punct	_	AlignBegin=143794|AlignEnd=143794
 
 # sent_id = ParisStories_2022_7_chienGourmand__67

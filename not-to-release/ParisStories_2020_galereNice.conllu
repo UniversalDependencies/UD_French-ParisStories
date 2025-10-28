@@ -8,7 +8,7 @@
 4	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	avec	avec	ADP	_	_	8	case	_	_
 6	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	_
-7	meilleure	meilleur	ADJ	_	_	8	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+7	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 8	amie	ami	NOUN	_	_	4	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	à	à	ADP	_	_	10	case	_	_
 10	Nice	Nice	PROPN	_	_	4	obl:mod	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -23,7 +23,7 @@
 4	pour	pour	ADP	_	_	5	mark	_	_
 5	passer	passer	VERB	_	VerbForm=Inf	3	advcl	_	Subject=NoRaising
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	concours	concours	NOUN	_	Number=Sing	5	obj	_	Gender[lex]=Masc
+7	concours	concours	NOUN	_	_	5	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	orthophonie	orthophonie	NOUN	_	_	7	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -66,7 +66,7 @@
 8	jours	jour	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 9	avant	avant	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	concours	concours	NOUN	_	Number=Sing	8	nmod	_	Gender[lex]=Masc
+11	concours	concours	NOUN	_	_	8	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	pour	pour	ADP	_	_	13	mark	_	_
 13	voir	voir	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
@@ -84,7 +84,7 @@
 2	dormait	dormir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	chez	chez	ADP	_	_	5	case	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	copine	copin	NOUN	_	Number=Sing	2	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
+5	copine	copin	NOUN	_	_	2	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_7
@@ -124,7 +124,7 @@
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	super	super	ADV	_	_	6	advmod	_	_
-6	beau	beau	ADJ	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	beau	beau	ADJ	_	Gender=Masc	4	xcomp	_	Number[ctxt]=Sing
 7	à	à	ADP	_	_	9	case	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	période	période	NOUN	_	_	6	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -168,7 +168,7 @@
 3	,	,	PUNCT	_	_	13	punct	_	_
 4	même	même	ADV	_	_	7	advmod	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	_
-6	meilleure	meilleur	ADJ	_	_	7	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+6	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	amie	ami	NOUN	_	_	13	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	donc	donc	ADV	_	_	10	advmod	_	_
@@ -269,7 +269,7 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	concours	concours	NOUN	_	Number=Sing	7	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+10	concours	concours	NOUN	_	_	7	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_19
@@ -278,7 +278,7 @@
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	concours	concours	NOUN	_	Number=Sing	2	obj	_	Gender[lex]=Masc
+4	concours	concours	NOUN	_	_	2	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 6	dure	durer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 7	toute	tout	ADJ	_	Gender=Fem	9	amod	_	Number[ctxt]=Sing
@@ -342,7 +342,7 @@
 14	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	_
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	Reported=Yes
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	temps	temps	NOUN	_	Number=Sing	15	obj	_	Gender[lex]=Masc
+17	temps	temps	NOUN	_	_	15	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -408,7 +408,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	vers	vers	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	centre-ville	centre-ville	NOUN	_	Number=Sing	8	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+16	centre-ville	centre-ville	NOUN	_	_	8	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_28
@@ -470,7 +470,7 @@
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	bus	bus	NOUN	_	Number=Sing	4	obj	_	Gender[lex]=Masc
+6	bus	bus	NOUN	_	_	4	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	censé	censé	ADJ	_	_	6	acl:relcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
@@ -513,7 +513,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	advmod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	bus	bus	NOUN	_	Number=Sing	5	nsubj	_	Gender[lex]=Masc
+4	bus	bus	NOUN	_	_	5	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	sur	sur	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -549,7 +549,7 @@
 20	jamais	jamais	ADV	_	PronType=Neg	19	advmod	_	_
 21	avec	avec	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	bus	bus	NOUN	_	Number=Sing	19	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+23	bus	bus	NOUN	_	_	19	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 24	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = ParisStories_2020_galereNice_37
@@ -560,7 +560,7 @@
 3	pour	pour	ADP	_	_	7	dep	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	bus	bus	NOUN	_	Number=Sing	7	nsubj	_	Gender[lex]=Masc
+6	bus	bus	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	forcément	forcément	ADV	_	_	7	advmod	_	_
 9	par	par	ADP	_	_	11	case	_	_
@@ -663,7 +663,7 @@
 # text = le bus il est même bloqué.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/9349b8258bffb088eba9edded77655d2b58200ec
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	bus	bus	NOUN	_	Number=Sing	6	dislocated	_	Gender[lex]=Masc
+2	bus	bus	NOUN	_	_	6	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	même	même	ADV	_	_	6	advmod	_	_

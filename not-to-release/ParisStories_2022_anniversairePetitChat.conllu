@@ -96,9 +96,9 @@
 # sent_id = ParisStories_2022_12_anniversairePetitChat__6
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2ff800ab8f9261eaee3d77272a44a911f8b955bf
 # speaker = L2
-# text = [mh.]
-1	[mh	[mh	INTJ	_	_	0	root	_	AlignBegin=12873|AlignEnd=13062|SpaceAfter=No
-2	.]	.]	PUNCT	_	_	1	punct	_	AlignBegin=13062|AlignEnd=13062
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=12873|AlignEnd=13062|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=13062|AlignEnd=13062
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__7
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2ff800ab8f9261eaee3d77272a44a911f8b955bf
@@ -311,7 +311,7 @@
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	AlignBegin=33309|AlignEnd=33488
 10	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=33488|AlignEnd=33666|Number[ctxt]=Sing|Tense[denom]=Past
 11	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=33666|AlignEnd=33845
-12	temps	temps	NOUN	_	Number=Sing	10	obj	_	AlignBegin=33845|AlignEnd=34023|Gender[lex]=Masc
+12	temps	temps	NOUN	_	_	10	obj	_	AlignBegin=33845|AlignEnd=34023|Gender[lex]=Masc|Number[ctxt]=Sing
 13	à	à	ADP	_	_	16	mark	_	AlignBegin=34023|AlignEnd=34023
 14	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	AlignBegin=34023|AlignEnd=34283
 15	refaire	refaire	AUX	_	VerbForm=Inf	16	aux:caus	_	AlignBegin=34283|AlignEnd=34544|Subject=SubjRaising
@@ -351,8 +351,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=38989|AlignEnd=38989
 5	et	et	CCONJ	_	ExtPos=CCONJ	16	cc	_	AlignBegin=38989|AlignEnd=39230|Idiom=Yes
 6	puis	puis	CCONJ	_	_	5	fixed	_	AlignBegin=39230|AlignEnd=39471|InIdiom=Yes|SpaceAfter=No
-7	,	,	PUNCT	_	_	16	punct	_	AlignBegin=39471|AlignEnd=39471
-8	petit	petit	ADJ	_	_	9	amod	_	AlignBegin=39471|AlignEnd=39713
+7	,	,	PUNCT	_	_	5	punct	_	AlignBegin=39471|AlignEnd=39471
+8	petit	petit	ADJ	_	_	9	amod	_	AlignBegin=39471|AlignEnd=39713|Number[ctxt]=Sing
 9	chat	chat	NOUN	_	_	16	dislocated	_	AlignBegin=39713|AlignEnd=39954|Gender[lex]=Masc|Number[ctxt]=Sing
 10	;	;	PUNCT	_	_	16	punct	_	AlignBegin=39954|AlignEnd=39954
 11	après	après	ADV	_	_	16	advmod	_	AlignBegin=39954|AlignEnd=40195|SpaceAfter=No
@@ -483,7 +483,7 @@
 5	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl:cleft	_	AlignBegin=51336|AlignEnd=51503|Filler=subj
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=51503|AlignEnd=51670
 7	plus	plus	ADV	_	_	8	advmod	_	AlignBegin=51670|AlignEnd=51838
-8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	AlignBegin=51838|AlignEnd=52005
+8	grande	grand	ADJ	_	Gender=Fem	9	amod	_	AlignBegin=51838|AlignEnd=52005|Number[ctxt]=Sing
 9	chambre	chambre	NOUN	_	_	5	obj	_	AlignBegin=52005|AlignEnd=52173|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=52173|AlignEnd=52173
 11	hein	hein	INTJ	_	_	5	discourse	_	AlignBegin=52173|AlignEnd=52340
@@ -526,7 +526,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	AlignBegin=57041|AlignEnd=57276
 22	chambre	chambre	NOUN	_	_	19	obl:arg	_	AlignBegin=57276|AlignEnd=57511|Gender[lex]=Fem|Number[ctxt]=Sing
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=57511|AlignEnd=57668
-24	temps	temps	NOUN	_	Number=Sing	19	obl:mod	_	AlignBegin=57668|AlignEnd=57826|Gender[lex]=Masc
+24	temps	temps	NOUN	_	_	19	obl:mod	_	AlignBegin=57668|AlignEnd=57826|Gender[lex]=Masc|Number[ctxt]=Sing
 25	qu'	que	SCONJ	_	_	28	mark	_	AlignBegin=57826|AlignEnd=57983|SpaceAfter=No
 26	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	AlignBegin=57983|AlignEnd=58140
 27	s'	soi	PRON	_	Person=3|PronType=Prs	28	obj	_	AlignBegin=58140|AlignEnd=58298|SpaceAfter=No
@@ -536,7 +536,7 @@
 31	comme	comme	SCONJ	_	_	34	mark	_	AlignBegin=58613|AlignEnd=58770
 32	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	AlignBegin=58770|AlignEnd=58927
 33	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	cop	_	AlignBegin=58927|AlignEnd=59085
-34	petit	petit	ADJ	_	_	28	advcl	_	AlignBegin=59085|AlignEnd=59242|SpaceAfter=No
+34	petit	petit	ADJ	_	_	28	advcl	_	AlignBegin=59085|AlignEnd=59242|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	15	punct	_	AlignBegin=59242|AlignEnd=59242
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__34
@@ -596,7 +596,7 @@
 8	jour	jour	NOUN	_	_	6	obl:mod	_	AlignBegin=64844|AlignEnd=65064|Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	12	case	_	AlignBegin=65064|AlignEnd=65284
 10	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	12	det	_	AlignBegin=65284|AlignEnd=65504
-11	vrai	vrai	ADJ	_	_	12	amod	_	AlignBegin=65504|AlignEnd=65725
+11	vrai	vrai	ADJ	_	Number=Sing	12	amod	_	AlignBegin=65504|AlignEnd=65725
 12	anniversaire	anniversaire	NOUN	_	_	8	nmod	_	AlignBegin=65725|AlignEnd=65945|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	AlignBegin=65945|AlignEnd=65945
 14	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=65945|AlignEnd=66323
@@ -630,7 +630,7 @@
 4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	AlignBegin=67903|AlignEnd=68080
 5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=68080|AlignEnd=68257
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=68257|AlignEnd=68433
-7	grande	grand	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	AlignBegin=68433|AlignEnd=68610
+7	grande	grand	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=68433|AlignEnd=68610|Number[ctxt]=Sing
 8	fête	fête	NOUN	_	_	5	obj	_	AlignBegin=68610|AlignEnd=68787|Gender[lex]=Fem|Number[ctxt]=Sing
 9	avec	avec	ADP	_	_	12	case	_	AlignBegin=68787|AlignEnd=68964
 10	tout	tout	ADJ	_	Gender=Masc	12	amod	_	AlignBegin=68964|AlignEnd=69140|Number[ctxt]=Sing
@@ -653,7 +653,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=72012|AlignEnd=72012
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=72012|AlignEnd=72272
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	AlignBegin=72272|AlignEnd=72532
-8	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=72532|AlignEnd=72792|SpaceAfter=No
+8	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=72532|AlignEnd=72792|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=72792|AlignEnd=72792
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__40
@@ -669,7 +669,7 @@
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=73554|AlignEnd=73744
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	AlignBegin=73744|AlignEnd=73934
 9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	AlignBegin=73934|AlignEnd=74125
-10	contente	content	ADJ	_	_	0	root	_	AlignBegin=74125|AlignEnd=74315
+10	contente	content	ADJ	_	_	0	root	_	AlignBegin=74125|AlignEnd=74315|Number[ctxt]=Sing
 11	qu'	que	SCONJ	_	_	15	mark	_	AlignBegin=74315|AlignEnd=74506|SpaceAfter=No
 12	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	nsubj	_	AlignBegin=74506|AlignEnd=74696
 13	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	15	obj	_	AlignBegin=74696|AlignEnd=74886|SpaceAfter=No
@@ -689,7 +689,7 @@
 3	gardait	garder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=75796|AlignEnd=75965
 4	dans	dans	ADP	_	_	6	case	_	AlignBegin=75965|AlignEnd=76134
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=76134|AlignEnd=76304
-6	bras	bras	NOUN	_	Number=Plur	3	obl:arg	_	AlignBegin=76304|AlignEnd=76473|Gender[lex]=Masc|SpaceAfter=No
+6	bras	bras	NOUN	_	_	3	obl:arg	_	AlignBegin=76304|AlignEnd=76473|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	AlignBegin=76473|AlignEnd=76473
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__42
@@ -708,7 +708,7 @@
 # text = et puis, euh, et puis après, bah, on l'a euh, il s'est habitué petit à petit à la maison et tout, franchement euh.
 1	et	et	CCONJ	_	ExtPos=CCONJ	14	cc	_	AlignBegin=77724|AlignEnd=78045|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=78045|AlignEnd=78365|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	14	punct	_	AlignBegin=78365|AlignEnd=78365
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=78365|AlignEnd=78365
 4	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=78365|AlignEnd=78686|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=78686|AlignEnd=78686
 6	et	et	CCONJ	_	ExtPos=CCONJ	14	cc	_	AlignBegin=78686|AlignEnd=78923|Idiom=Yes
@@ -726,9 +726,9 @@
 18	s'	soi	PRON	_	Person=3|PronType=Prs	20	obj	_	AlignBegin=80876|AlignEnd=81174|SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	AlignBegin=81174|AlignEnd=81472
 20	habitué	habituer	VERB	_	VerbForm=Part	0	root	_	AlignBegin=81472|AlignEnd=81770|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-21	petit	petit	ADJ	_	_	23	amod	_	AlignBegin=81770|AlignEnd=82068
+21	petit	petit	ADJ	_	_	23	amod	_	AlignBegin=81770|AlignEnd=82068|Number[ctxt]=Sing
 22	à	à	ADP	_	_	23	case	_	AlignBegin=82068|AlignEnd=82068
-23	petit	petit	ADJ	_	_	20	obl:mod	_	AlignBegin=82068|AlignEnd=82366
+23	petit	petit	ADJ	_	_	20	obl:mod	_	AlignBegin=82068|AlignEnd=82366|Number[ctxt]=Sing
 24	à	à	ADP	_	_	26	case	_	AlignBegin=82366|AlignEnd=82366
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	AlignBegin=82366|AlignEnd=82663
 26	maison	maison	NOUN	_	_	20	obl:arg	_	AlignBegin=82663|AlignEnd=82961|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -768,7 +768,7 @@
 # text = et puis, elles jouent avec.
 1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=84604|AlignEnd=84768|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=84768|AlignEnd=84933|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=84933|AlignEnd=84933
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=84933|AlignEnd=84933
 4	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=84933|AlignEnd=85097
 5	jouent	jouer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85097|AlignEnd=85261
 6	avec	avec	ADP	_	_	5	dep	_	AlignBegin=85261|AlignEnd=85425|SpaceAfter=No
@@ -830,7 +830,7 @@
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=90277|AlignEnd=90716
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=90716|AlignEnd=91155
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	AlignBegin=91155|AlignEnd=91594
-7	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=91594|AlignEnd=92034|SpaceAfter=No
+7	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=91594|AlignEnd=92034|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=92034|AlignEnd=92034
 9	euh	euh	INTJ	_	_	2	discourse	_	AlignBegin=92034|AlignEnd=92473|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=92473|AlignEnd=92473
@@ -850,7 +850,7 @@
 9	que	que	SCONJ	_	_	10	case	_	AlignBegin=93567|AlignEnd=93817
 10	chat	chat	NOUN	_	_	7	obj	_	AlignBegin=93817|AlignEnd=94068|Gender[lex]=Masc|Number[ctxt]=Sing
 11	des	un	DET	_	Definite=Ind|ExtPos=ADV|Number=Plur|PronType=Art	6	advmod	_	AlignBegin=94068|AlignEnd=94318|Idiom=Yes
-12	fois	fois	NOUN	_	Number=Plur	11	fixed	_	AlignBegin=94318|AlignEnd=94569|Gender[lex]=Fem|InIdiom=Yes|SpaceAfter=No
+12	fois	fois	NOUN	_	_	11	fixed	_	AlignBegin=94318|AlignEnd=94569|Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Plur|SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	AlignBegin=94569|AlignEnd=94569
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__52
@@ -874,12 +874,12 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=94924|AlignEnd=94924
 5	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	AlignBegin=94924|AlignEnd=95150|Idiom=Yes
 6	puis	puis	CCONJ	_	_	5	fixed	_	AlignBegin=95150|AlignEnd=95376|InIdiom=Yes|SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=95376|AlignEnd=95376
+7	,	,	PUNCT	_	_	5	punct	_	AlignBegin=95376|AlignEnd=95376
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=95376|AlignEnd=95603
 9	miaule	miauler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=95603|AlignEnd=95829
 10	tout	tout	ADV	_	_	12	advmod	_	AlignBegin=95829|AlignEnd=96056
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=96056|AlignEnd=96282
-12	temps	temps	NOUN	_	Number=Sing	9	obl:mod	_	AlignBegin=96282|AlignEnd=96508|Gender[lex]=Masc
+12	temps	temps	NOUN	_	_	9	obl:mod	_	AlignBegin=96282|AlignEnd=96508|Gender[lex]=Masc|Number[ctxt]=Sing
 13	en	en	ADP	_	_	14	case	_	AlignBegin=96508|AlignEnd=96735
 14	plus	plus	ADV	_	_	9	advmod	_	AlignBegin=96735|AlignEnd=96961|SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	AlignBegin=96961|AlignEnd=96961
@@ -924,7 +924,7 @@
 # text = et puis, comme il s'appelle Maho, on dirait qu'il dit tout le temps son prénom.
 1	et	et	CCONJ	_	ExtPos=CCONJ	11	cc	_	AlignBegin=99274|AlignEnd=99510|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=99510|AlignEnd=99746|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	11	punct	_	AlignBegin=99746|AlignEnd=99746
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=99746|AlignEnd=99746
 4	comme	comme	SCONJ	_	_	7	mark	_	AlignBegin=99746|AlignEnd=99982
 5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=99982|AlignEnd=100218
 6	s'	soi	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	AlignBegin=100218|AlignEnd=100455|SpaceAfter=No
@@ -938,7 +938,7 @@
 14	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	AlignBegin=101871|AlignEnd=102107
 15	tout	tout	ADV	_	_	17	advmod	_	AlignBegin=102107|AlignEnd=102344
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=102344|AlignEnd=102580
-17	temps	temps	NOUN	_	Number=Sing	14	obl:mod	_	AlignBegin=102580|AlignEnd=102816|Gender[lex]=Masc
+17	temps	temps	NOUN	_	_	14	obl:mod	_	AlignBegin=102580|AlignEnd=102816|Gender[lex]=Masc|Number[ctxt]=Sing
 18	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=102816|AlignEnd=103052
 19	prénom	prénom	NOUN	_	_	14	obj	_	AlignBegin=103052|AlignEnd=103288|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	11	punct	_	AlignBegin=103288|AlignEnd=103288
@@ -961,7 +961,7 @@
 5	franchement	franchement	ADV	_	_	8	advmod	_	AlignBegin=104155|AlignEnd=104444
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=104444|AlignEnd=104733
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=104733|AlignEnd=105023
-8	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=105023|AlignEnd=105312
+8	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=105023|AlignEnd=105312|Number[ctxt]=Sing
 9	comme	comme	ADP	_	_	14	reparandum	_	AlignBegin=105312|AlignEnd=105601
 10	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=105601|AlignEnd=105890|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=105890|AlignEnd=105890
@@ -979,13 +979,13 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=107193|AlignEnd=107193
 4	même	même	ADV	_	_	6	advmod	_	AlignBegin=107193|AlignEnd=107411
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=107411|AlignEnd=107629
-6	gens	gens	NOUN	_	Number=Plur	8	nsubj	_	AlignBegin=107629|AlignEnd=107847
+6	gens	gens	NOUN	_	_	8	nsubj	_	AlignBegin=107629|AlignEnd=107847|Number[ctxt]=Plur
 7	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	AlignBegin=107847|AlignEnd=108064
 8	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=108064|AlignEnd=108282
 9	qu'	que	SCONJ	_	_	12	mark	_	AlignBegin=108282|AlignEnd=108500|SpaceAfter=No
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=108500|AlignEnd=108718
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=108718|AlignEnd=108936
-12	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	8	ccomp	_	AlignBegin=108936|AlignEnd=109154|SpaceAfter=No
+12	mignon	mignon	ADJ	_	Gender=Masc	8	ccomp	_	AlignBegin=108936|AlignEnd=109154|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	AlignBegin=109154|AlignEnd=109154
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__61
@@ -1061,7 +1061,7 @@
 4	chat	chat	NOUN	_	_	0	root	_	AlignBegin=113674|AlignEnd=113870|Gender[lex]=Masc|Number[ctxt]=Sing
 5	en	en	ADP	_	_	7	case	_	AlignBegin=113870|AlignEnd=114066
 6	même	même	ADJ	_	_	7	amod	_	AlignBegin=114066|AlignEnd=114261|Gender[ctxt]=Masc|Number[ctxt]=Sing
-7	temps	temps	NOUN	_	Number=Sing	4	obl:mod	_	AlignBegin=114261|AlignEnd=114457|Gender[lex]=Masc|SpaceAfter=No
+7	temps	temps	NOUN	_	_	4	obl:mod	_	AlignBegin=114261|AlignEnd=114457|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	AlignBegin=114457|AlignEnd=114457
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__68

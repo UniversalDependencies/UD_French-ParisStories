@@ -35,7 +35,7 @@
 # text = et puis, je voulais jouer, faire un truc.
 1	et	et	CCONJ	_	ExtPos=CCONJ	5	cc	_	AlignBegin=3376|AlignEnd=3530|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	AlignBegin=3530|AlignEnd=3724|InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=3724|AlignEnd=3724
+3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=3724|AlignEnd=3724
 4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=3724|AlignEnd=3918
 5	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=3918|AlignEnd=4112
 6	jouer	jouer	VERB	_	VerbForm=Inf	5	xcomp	_	AlignBegin=4112|AlignEnd=4306|SpaceAfter=No|Subject=SubjRaising
@@ -124,7 +124,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	AlignBegin=11662|AlignEnd=11792|SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=11792|AlignEnd=11921
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=11921|AlignEnd=12050
-5	peu	peu	NOUN	_	Number=Sing	6	obl:mod	_	AlignBegin=12050|AlignEnd=12179|Gender[lex]=Masc
+5	peu	peu	NOUN	_	_	6	obl:mod	_	AlignBegin=12050|AlignEnd=12179|Gender[lex]=Masc|Number[ctxt]=Sing
 6	gore	gore	ADJ	_	_	0	root	_	AlignBegin=12179|AlignEnd=12309|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=12309|AlignEnd=12309
 
@@ -211,7 +211,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = hm, je me souviens pas du tout.
-1	hm	hm	ADJ	_	Gender=Masc|Number=Sing	5	discourse	_	AlignBegin=19380|AlignEnd=19534|SpaceAfter=No
+1	hm	hm	INTJ	_	_	5	discourse	_	AlignBegin=19380|AlignEnd=19534|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=19534|AlignEnd=19534
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=19534|AlignEnd=19689
 4	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	expl:pv	_	AlignBegin=19689|AlignEnd=19843
@@ -329,7 +329,7 @@
 18	partout	partout	ADV	_	_	17	advmod	_	AlignBegin=33405|AlignEnd=33674
 19	tout	tout	ADV	_	_	21	advmod	_	AlignBegin=33674|AlignEnd=33944
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=33944|AlignEnd=34213
-21	temps	temps	NOUN	_	Number=Sing	17	obl:mod	_	AlignBegin=34213|AlignEnd=34483|Gender[lex]=Masc|SpaceAfter=No
+21	temps	temps	NOUN	_	_	17	obl:mod	_	AlignBegin=34213|AlignEnd=34483|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=34483|AlignEnd=34483
 23	donc	donc	ADV	_	_	17	discourse	_	AlignBegin=34483|AlignEnd=34752|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=34752|AlignEnd=34752
@@ -410,8 +410,8 @@
 # text = et à chaque fois qu'elle, elle jouait ou qu'elle faisait des trucs comme moi, bah, ses parents, ils l'engueulaient.
 1	et	et	CCONJ	_	_	26	cc	_	AlignBegin=43493|AlignEnd=43653
 2	à	à	ADP	_	_	4	case	_	AlignBegin=43653|AlignEnd=43653
-3	chaque	chaque	DET	_	Number=Sing|PronType=Ind	4	det	_	AlignBegin=43653|AlignEnd=43813
-4	fois	fois	NOUN	_	Number=Sing	26	obl:mod	_	AlignBegin=43813|AlignEnd=43973|Gender[lex]=Fem
+3	chaque	chaque	DET	_	PronType=Ind	4	det	_	AlignBegin=43653|AlignEnd=43813|Number[lex]=Sing
+4	fois	fois	NOUN	_	_	26	obl:mod	_	AlignBegin=43813|AlignEnd=43973|Gender[lex]=Fem|Number[ctxt]=Sing
 5	qu'	que	SCONJ	_	_	9	mark	_	AlignBegin=43973|AlignEnd=44134|SpaceAfter=No
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	reparandum	_	AlignBegin=44134|AlignEnd=44294|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=44294|AlignEnd=44294
@@ -747,7 +747,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2f4949a97d334d5a958e2ba21c7f75072ca24c28
 # speaker = L2
 # text = hm, j'ai l'impression d'être plus avec les Z, hein.
-1	hm	hm	ADJ	_	Gender=Masc|Number=Sing	4	discourse	_	AlignBegin=74878|AlignEnd=75012|SpaceAfter=No
+1	hm	hm	INTJ	_	_	4	discourse	_	AlignBegin=74878|AlignEnd=75012|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=75012|AlignEnd=75012
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=75012|AlignEnd=75147|SpaceAfter=No
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=75147|AlignEnd=75281
@@ -1061,7 +1061,7 @@
 8	que	que	SCONJ	_	_	19	mark	_	AlignBegin=106790|AlignEnd=106997
 9	avec	avec	ADP	_	_	11	case	_	AlignBegin=106997|AlignEnd=107205
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	AlignBegin=107205|AlignEnd=107412
-11	gens	gens	NOUN	_	Number=Plur	19	obl:mod	_	AlignBegin=107412|AlignEnd=107619
+11	gens	gens	NOUN	_	_	19	obl:mod	_	AlignBegin=107412|AlignEnd=107619|Number[ctxt]=Plur
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	AlignBegin=107619|AlignEnd=107826
 13	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	AlignBegin=107826|AlignEnd=108034|SpaceAfter=No
 14	vingt-six	vingt-six	NUM	_	_	15	nummod	_	AlignBegin=108034|AlignEnd=108241|Number[lex]=Plur

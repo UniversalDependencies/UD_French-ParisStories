@@ -21,8 +21,8 @@
 16	Wendy	Wendy	PROPN	_	_	15	obj	_	Gender[lex]=Unknown
 17	pour	pour	ADP	_	_	20	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	première	premier	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
-20	fois	fois	NOUN	_	Number=Sing	15	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
+19	première	premier	ADJ	_	Gender=Fem	20	amod	_	Number[ctxt]=Sing
+20	fois	fois	NOUN	_	_	15	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 21	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_2
@@ -78,7 +78,7 @@
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
 11	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
 12	deux	deux	NUM	_	_	13	nummod	_	Number[lex]=Plur
-13	mois	mois	NOUN	_	Number=Plur	11	obj	_	Gender[lex]=Masc
+13	mois	mois	NOUN	_	_	11	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 14	que	que	SCONJ	_	_	16	mark	_	_
 15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
 16	travaillais	travailler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	advcl:cleft	_	Filler=mod
@@ -168,7 +168,7 @@
 21	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
 22	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	obj	_	_
 23	de	de	ADP	_	_	24	case	_	_
-24	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	nouveau	nouveau	ADJ	_	Gender=Masc	22	nmod	_	Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	43	punct	_	_
 26	parce	parce	ADV	_	ExtPos=SCONJ	43	dep:comp	_	Idiom=Yes
 27	que	que	SCONJ	_	_	26	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -252,7 +252,7 @@
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	même	même	ADJ	_	_	7	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+6	même	même	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	âge	âge	NOUN	_	_	4	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -368,7 +368,7 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	avec	avec	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	temps	temps	NOUN	_	Number=Sing	6	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+17	temps	temps	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_16
@@ -431,7 +431,7 @@
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 13	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
-14	premier	premier	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+14	premier	premier	ADJ	_	Gender=Masc	15	amod	_	Number[ctxt]=Sing
 15	travail	travail	NOUN	_	_	7	advcl	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -476,7 +476,7 @@
 2	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tout	tout	ADJ	_	Gender=Masc	5	amod	_	Number[ctxt]=Sing
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	temps	temps	NOUN	_	Number=Sing	2	obl:mod	_	Gender[lex]=Masc
+5	temps	temps	NOUN	_	_	2	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	toutes	tout	ADJ	_	Gender=Fem	8	amod	_	Number[ctxt]=Plur
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	deux	deux	NUM	_	_	2	obl:mod	_	Number[lex]=Plur|SpaceAfter=No
@@ -573,7 +573,7 @@
 3	parlez	parler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tout	tout	ADJ	_	Gender=Masc	6	amod	_	Number[ctxt]=Sing
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	temps	temps	NOUN	_	Number=Sing	3	obl:mod	_	Gender[lex]=Masc
+6	temps	temps	NOUN	_	_	3	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	ou	ou	CCONJ	_	_	3	conj	_	Scrap=Yes|SpaceAfter=No
 8	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -855,7 +855,7 @@
 12	gère	gérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	billeterie	billeterie	NOUN	_	Number=Sing	12	obj	_	Gender[lex]=Fem|SpaceAfter=No
+15	billeterie	billeterie	NOUN	_	_	12	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_nouvelleCollegue_37
@@ -874,6 +874,6 @@
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	vraiment	vraiment	ADV	_	_	12	advmod	_	_
 11	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	InIdiom=Yes
-12	mal	mal	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc|Idiom=Yes|SpaceAfter=No
+12	mal	mal	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 

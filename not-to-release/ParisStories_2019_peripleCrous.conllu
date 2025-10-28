@@ -40,7 +40,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/97a691e9d117176dc257878d62dfb9e198776eeb
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	cuistot	cuistot	NOUN	_	Number=Sing	6	nsubj	_	Gender[lex]=Masc
+3	cuistot	cuistot	NOUN	_	_	6	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	assez	assez	ADV	_	_	6	advmod	_	_
 6	drôle	drôle	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
@@ -179,7 +179,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	énorme	énorme	NOUN	_	Number=Sing	9	nmod	_	Gender[lex]=Masc
+8	énorme	énorme	NOUN	_	_	9	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	bâtiment	bâtiment	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	donc	donc	ADV	_	_	13	cc	_	_
@@ -348,7 +348,7 @@
 11	là	là	ADV	_	_	10	advmod	_	_
 12	où	où	ADV	_	_	11	advmod	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	gens	gens	NOUN	_	Number=Plur	15	nsubj	_	Gender[lex]=Masc
+14	gens	gens	NOUN	_	_	15	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 15	marchaient	marcher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	ccomp	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
 17	en	en	ADP	_	ExtPos=ADP	21	mark	_	Idiom=Yes
@@ -370,7 +370,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	et	et	CCONJ	_	ExtPos=CCONJ	14	cc	_	Idiom=Yes
 4	puis	puis	CCONJ	_	_	3	fixed	_	InIdiom=Yes|SpaceAfter=No
-5	,	,	PUNCT	_	_	14	punct	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -532,7 +532,7 @@
 5	escalier	escalier	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
-8	ascenceurs	ascenceur	NOUN	_	Number=Plur	5	conj	_	Gender[lex]=Masc|SpaceAfter=No
+8	ascenceurs	ascenceur	NOUN	_	_	5	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_29
@@ -629,7 +629,7 @@
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
 7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	Idiom=Yes
-8	peu	peu	NOUN	_	Number=Sing	7	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+8	peu	peu	NOUN	_	_	7	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 9	perdu	perdre	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
 10	,	,	PUNCT	_	_	22	punct	_	_
 11	mais	mais	CCONJ	_	_	22	cc	_	_
@@ -639,13 +639,13 @@
 15	y	y	PRON	_	Person=3|PronType=Prs	16	expl:comp	_	_
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	gars	gars	NOUN	_	Number=Sing	16	obj	_	Gender[lex]=Masc
+18	gars	gars	NOUN	_	_	16	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 21	juste	juste	ADV	_	_	22	advmod	_	_
 22	suivi	suivre	VERB	_	VerbForm=Part|Voice=Act	9	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	gars	gars	NOUN	_	Number=Sing	22	obj	_	Gender[lex]=Masc|SpaceAfter=No
+24	gars	gars	NOUN	_	_	22	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_36
@@ -701,7 +701,7 @@
 32	de	de	ADP	_	_	34	case	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	fonction	fonction	NOUN	_	_	31	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
-35	publique	public	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+35	publique	public	ADJ	_	_	34	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 36	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_38
@@ -824,7 +824,7 @@
 35	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	cop	_	_
 36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	petit	petit	ADJ	_	Gender=Masc	38	amod	_	Number[ctxt]=Sing
-38	kiffe	kiffe	NOUN	_	Number=Sing	25	advcl	_	Gender[lex]=Masc|SpaceAfter=No
+38	kiffe	kiffe	NOUN	_	_	25	advcl	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripleCrous_42
@@ -897,7 +897,7 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	demi-grève	demi-grève	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem|SpaceAfter=No
+6	demi-grève	demi-grève	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	donc	donc	ADV	_	_	11	cc	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
@@ -932,7 +932,7 @@
 13	là	là	ADV	_	_	16	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	gens	gens	NOUN	_	Number=Plur	5	conj	_	Gender[lex]=Masc
+16	gens	gens	NOUN	_	_	5	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 18	se	soi	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	_
 19	plaignent	plaindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
@@ -969,7 +969,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	couscous	couscous	NOUN	_	Number=Sing	16	obj	_	Gender[lex]=Masc
+19	couscous	couscous	NOUN	_	_	16	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 20	et	et	CCONJ	_	_	23	cc	_	_
 21	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	dislocated	_	_
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_

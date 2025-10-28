@@ -20,7 +20,7 @@
 16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	fois	fois	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
+19	fois	fois	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 20	où	où	PRON	_	PronType=Rel	22	reparandum	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	où	où	PRON	_	PronType=Rel	25	obl:mod	_	_
@@ -61,7 +61,7 @@
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	dans	dans	ADP	_	_	21	case	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+20	nouveau	nouveau	ADJ	_	Gender=Masc	21	amod	_	Number[ctxt]=Sing
 21	lycée	lycée	NOUN	_	_	8	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 22	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -292,7 +292,7 @@
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	après	après	ADV	_	_	5	advmod	_	_
 13	en	en	ADP	_	_	14	case	_	_
-14	cours	cours	NOUN	_	Number=Sing	5	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+14	cours	cours	NOUN	_	_	5	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	22	punct	_	_
 16	et	et	CCONJ	_	_	22	cc	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
@@ -311,7 +311,7 @@
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
 32	trois	trois	NUM	_	_	33	nummod	_	_
-33	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
+33	premiers	premier	ADJ	_	Gender=Masc	34	amod	_	Number[ctxt]=Plur
 34	jours	jour	NOUN	_	_	27	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 35	de	de	ADP	_	_	37	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -367,7 +367,7 @@
 5	déjà	déjà	ADV	_	_	4	advmod	_	_
 6	trop	trop	ADV	_	_	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	cours	cours	NOUN	_	Number=Plur	6	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+8	cours	cours	NOUN	_	_	6	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	donc	donc	ADV	_	_	14	cc	_	_
 11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
@@ -501,7 +501,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	wordform=du
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	temps	temps	NOUN	_	Number=Sing	8	nmod	_	Gender[lex]=Masc
+11	temps	temps	NOUN	_	_	8	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	tout	tout	ADJ	_	Gender=Masc	14	amod	_	Number[ctxt]=Sing
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	conj	_	SpaceAfter=No
@@ -641,7 +641,7 @@
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	Reported=Yes
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	Idiom=Yes
-9	peu	peu	NOUN	_	Number=Sing	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+9	peu	peu	NOUN	_	_	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	prénom	prénom	NOUN	_	_	5	ccomp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	de	de	ADP	_	_	13	case	_	_
@@ -672,7 +672,7 @@
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
-7	amies	amie	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
+7	amies	ami	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
 8	tout	tout	ADV	_	_	10	advmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	suite	suite	NOUN	_	_	7	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -714,7 +714,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.47db08un/d9654f1d82c0f77838097a6696be9fb96ed46120
 1	et	et	CCONJ	_	ExtPos=CCONJ	16	cc	_	Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	16	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	en	en	ADP	_	ExtPos=ADV	16	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	_	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
@@ -789,7 +789,7 @@
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	combien	combien	ADV	_	_	2	obj	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	temps	temps	NOUN	_	Number=Sing	3	dep	_	Gender[lex]=Masc
+5	temps	temps	NOUN	_	_	3	dep	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	déjà	déjà	ADV	_	_	2	advmod	_	SpaceAfter=No
 7	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -820,7 +820,7 @@
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 3	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	_	Idiom=Yes
-5	peu	peu	NOUN	_	Number=Sing	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+5	peu	peu	NOUN	_	_	4	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_40

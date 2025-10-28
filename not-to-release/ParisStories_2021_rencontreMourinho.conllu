@@ -72,7 +72,7 @@
 1	donc	donc	ADV	_	_	14	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	dislocated	_	_
+4	premier	premier	ADJ	_	Gender=Masc	14	dislocated	_	Number[ctxt]=Sing
 5	qui	qui	PRON	_	PronType=Rel	8	nsubj:pass	_	_
 6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
@@ -144,7 +144,7 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|Tense[denom]=Past
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	temps	temps	NOUN	_	Number=Sing	5	obj:lvc	_	Gender[lex]=Masc
+7	temps	temps	NOUN	_	_	5	obj:lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	pour	pour	ADP	_	_	11	case	_	_
 9	tout	tout	ADJ	_	Gender=Masc	11	amod	_	Number[ctxt]=Sing
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -249,7 +249,7 @@
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	autres	autre	NOUN	_	Number=Plur	12	obl:mod	_	SpaceAfter=No
+4	autres	autre	NOUN	_	_	12	obl:mod	_	Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -427,7 +427,7 @@
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	_
 17	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	Reported=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	madame	madame	NOUN	_	Number=Sing	17	vocative	_	Gender[lex]=Fem|SpaceAfter=No
+19	madame	madame	NOUN	_	_	17	vocative	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 20	?	?	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_25
@@ -664,7 +664,7 @@
 7	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	Polite=Yes
 8	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	cop	_	Reported=Yes
 9	sûre	sûr	ADJ	_	_	3	advcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
-10	madame	madame	NOUN	_	Number=Sing	9	vocative	_	Gender[lex]=Fem|SpaceAfter=No
+10	madame	madame	NOUN	_	_	9	vocative	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	_
@@ -709,12 +709,12 @@
 5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	autres	autre	NOUN	_	Number=Plur	14	dislocated	_	SpaceAfter=No
+8	autres	autre	NOUN	_	_	14	dislocated	_	Number[ctxt]=Plur|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 11	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	peu	peu	NOUN	_	Number=Sing	14	obl:mod	_	Gender[lex]=Masc
+13	peu	peu	NOUN	_	_	14	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 14	dégoutés	dégouter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|Tense[denom]=Past
 15	,	,	PUNCT	_	_	27	punct	_	_
 16	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	Idiom=Yes
@@ -733,7 +733,7 @@
 28	,	,	PUNCT	_	_	70	punct	_	_
 29	et	et	CCONJ	_	_	70	cc	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	temps	temps	NOUN	_	Number=Sing	70	obl:mod	_	Gender[lex]=Masc
+31	temps	temps	NOUN	_	_	70	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 32	de	de	ADP	_	_	33	mark	_	_
 33	faire	faire	VERB	_	VerbForm=Inf	31	acl	_	Subject=SubjRaising
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
@@ -743,7 +743,7 @@
 38	de	de	ADP	_	_	39	mark	_	_
 39	parler	parler	VERB	_	VerbForm=Inf	33	conj	_	Subject=SubjRaising
 40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	peu	peu	NOUN	_	Number=Sing	39	obl:mod	_	Gender[lex]=Masc
+41	peu	peu	NOUN	_	_	39	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 42	avec	avec	ADP	_	_	43	case	_	_
 43	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl:arg	_	_
 44	et	et	CCONJ	_	ExtPos=ADV	33	conj	_	Idiom=Yes
@@ -754,12 +754,12 @@
 49	bah	bah	INTJ	_	_	52	discourse	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	49	punct	_	_
 51	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
-52	autres	autre	NOUN	_	Number=Plur	70	dislocated	_	SpaceAfter=No
+52	autres	autre	NOUN	_	_	70	dislocated	_	Number[ctxt]=Plur|SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
 54	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	70	nsubj	_	_
 55	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	70	cop	_	_
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
-57	peu	peu	NOUN	_	Number=Sing	70	obl:mod	_	Gender[lex]=Masc
+57	peu	peu	NOUN	_	_	70	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 58	en	en	ADP	_	ExtPos=ADP	70	mark	_	Idiom=Yes
 59	mode	mode	NOUN	_	_	58	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 60	bah	bah	INTJ	_	_	65	discourse	_	_

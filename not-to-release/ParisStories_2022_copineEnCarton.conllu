@@ -54,7 +54,7 @@
 30	pl~	pl~	X	_	_	29	obj	_	AlignBegin=8260|AlignEnd=8562|SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	AlignBegin=8562|AlignEnd=8562
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	AlignBegin=8562|AlignEnd=8865
-33	peu	peu	NOUN	_	Number=Sing	34	obl:mod	_	AlignBegin=8865|AlignEnd=9167|Gender[lex]=Masc
+33	peu	peu	NOUN	_	_	34	obl:mod	_	AlignBegin=8865|AlignEnd=9167|Gender[lex]=Masc|Number[ctxt]=Sing
 34	résumé	résumer	VERB	_	VerbForm=Part	21	advcl	_	AlignBegin=9167|AlignEnd=9469|Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No|Tense[denom]=Past
 35	.	.	PUNCT	_	_	11	punct	_	AlignBegin=9469|AlignEnd=9469
 
@@ -154,7 +154,7 @@
 6	fumait	fumer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=23027|AlignEnd=23388
 7	énormément	énormément	ADV	_	_	6	obj	_	AlignBegin=23388|AlignEnd=23749
 8	de	de	ADP	_	_	9	case	_	AlignBegin=23749|AlignEnd=24109
-9	beuh	beuh	NOUN	_	Number=Sing	7	obl:arg	_	AlignBegin=24109|AlignEnd=24470|Gender[lex]=Fem|SpaceAfter=No
+9	beuh	beuh	NOUN	_	_	7	obl:arg	_	AlignBegin=24109|AlignEnd=24470|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=24470|AlignEnd=24470
 
 # sent_id = ParisStories_2022_11_copineEnCarton__10
@@ -165,7 +165,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=26388|AlignEnd=26388
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=26388|AlignEnd=26798
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	AlignBegin=26798|AlignEnd=27208|SpaceAfter=No
-5	maniaco-dépressif	maniaco-dépressif	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=27208|AlignEnd=27617|SpaceAfter=No
+5	maniaco-dépressif	maniaco-dépressif	ADJ	_	Gender=Masc	0	root	_	AlignBegin=27208|AlignEnd=27617|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=27617|AlignEnd=27617
 7	pervers	pervers	ADJ	_	Gender=Masc	5	conj	_	AlignBegin=27617|AlignEnd=28027|Number[ctxt]=Sing
 8	narcissique	narcissique	ADJ	_	_	7	amod	_	AlignBegin=28027|AlignEnd=28437|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -181,7 +181,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=29682|AlignEnd=29682
 5	pour	pour	ADP	_	_	8	case	_	AlignBegin=29682|AlignEnd=29968
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=29968|AlignEnd=30253
-7	première	premier	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	AlignBegin=30253|AlignEnd=30538
+7	première	premier	ADJ	_	Gender=Fem	8	amod	_	AlignBegin=30253|AlignEnd=30538|Number[ctxt]=Sing
 8	relation	relation	NOUN	_	_	12	nmod	_	AlignBegin=30538|AlignEnd=30824|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=30824|AlignEnd=30824
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=30824|AlignEnd=31109
@@ -337,7 +337,7 @@
 2	après	après	ADV	_	_	24	advmod	_	AlignBegin=48998|AlignEnd=49184|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=49184|AlignEnd=49184
 4	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	24	advmod	_	AlignBegin=49184|AlignEnd=49371|Idiom=Yes
-5	fois	fois	NOUN	_	Number=Sing	4	fixed	_	AlignBegin=49371|AlignEnd=49558|Gender[lex]=Fem|InIdiom=Yes
+5	fois	fois	NOUN	_	_	4	fixed	_	AlignBegin=49371|AlignEnd=49558|Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 6	qu'	que	SCONJ	_	_	10	mark	_	AlignBegin=49558|AlignEnd=49744|SpaceAfter=No
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=49744|AlignEnd=49931
 8	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	10	iobj	_	AlignBegin=49931|AlignEnd=50118|SpaceAfter=No
@@ -404,7 +404,7 @@
 10	fliquait	fliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	AlignBegin=56788|AlignEnd=56969
 11	tout	tout	ADV	_	_	13	advmod	_	AlignBegin=56969|AlignEnd=57150
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=57150|AlignEnd=57330
-13	temps	temps	NOUN	_	Number=Sing	10	obl:mod	_	AlignBegin=57330|AlignEnd=57511|Gender[lex]=Masc|SpaceAfter=No
+13	temps	temps	NOUN	_	_	10	obl:mod	_	AlignBegin=57330|AlignEnd=57511|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	AlignBegin=57511|AlignEnd=57511
 
 # sent_id = ParisStories_2022_11_copineEnCarton__23bis
@@ -595,7 +595,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	AlignBegin=77394|AlignEnd=77593|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=77593|AlignEnd=77793
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=77793|AlignEnd=77992
-4	gars	gars	NOUN	_	Number=Sing	0	root	_	AlignBegin=77992|AlignEnd=78191|Gender[lex]=Masc|SpaceAfter=No
+4	gars	gars	NOUN	_	_	0	root	_	AlignBegin=77992|AlignEnd=78191|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	AlignBegin=78191|AlignEnd=78191
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=78191|AlignEnd=78390
 7	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	8	obj	_	AlignBegin=78390|AlignEnd=78590
@@ -614,7 +614,7 @@
 5	quoi	quoi	PRON	_	PronType=Int	4	obj	_	AlignBegin=80043|AlignEnd=80230
 6	tout	tout	ADJ	_	Gender=Masc	8	amod	_	AlignBegin=80230|AlignEnd=80417|Number[ctxt]=Sing
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=80417|AlignEnd=80604
-8	temps	temps	NOUN	_	Number=Sing	2	obl:mod	_	AlignBegin=80604|AlignEnd=80791|Gender[lex]=Masc|SpaceAfter=No
+8	temps	temps	NOUN	_	_	2	obl:mod	_	AlignBegin=80604|AlignEnd=80791|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=80791|AlignEnd=80791
 
 # sent_id = ParisStories_2022_11_copineEnCarton__36
@@ -625,7 +625,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=80982|AlignEnd=80982
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=80982|AlignEnd=81174
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=81174|AlignEnd=81365
-5	jaloux	jaloux	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=81365|AlignEnd=81556
+5	jaloux	jaloux	ADJ	_	Gender=Masc	0	root	_	AlignBegin=81365|AlignEnd=81556|Number[ctxt]=Sing
 6	comme	comme	ADP	_	_	8	mark	_	AlignBegin=81556|AlignEnd=81748
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=81748|AlignEnd=81939
 8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	AlignBegin=81939|AlignEnd=82130
@@ -649,7 +649,7 @@
 # text = pour une première relation, c'était, c'était invivable.
 1	pour	pour	ADP	_	_	4	case	_	AlignBegin=83179|AlignEnd=83401
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=83401|AlignEnd=83623
-3	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	AlignBegin=83623|AlignEnd=83845
+3	première	premier	ADJ	_	Gender=Fem	4	amod	_	AlignBegin=83623|AlignEnd=83845|Number[ctxt]=Sing
 4	relation	relation	NOUN	_	_	7	obl:mod	_	AlignBegin=83845|AlignEnd=84066|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=84066|AlignEnd=84066
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=84066|AlignEnd=84288|SpaceAfter=No
@@ -727,7 +727,7 @@
 5	fliques	fliquer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=92507|AlignEnd=92665
 6	tout	tout	ADV	_	_	8	advmod	_	AlignBegin=92665|AlignEnd=92822
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=92822|AlignEnd=92980
-8	temps	temps	NOUN	_	Number=Sing	5	obl:mod	_	AlignBegin=92980|AlignEnd=93137|Gender[lex]=Masc|SpaceAfter=No
+8	temps	temps	NOUN	_	_	5	obl:mod	_	AlignBegin=92980|AlignEnd=93137|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=93137|AlignEnd=93137
 
 # sent_id = ParisStories_2022_11_copineEnCarton__42
@@ -790,7 +790,7 @@
 3	besoin	besoin	NOUN	_	_	2	obj:lvc	_	AlignBegin=97200|AlignEnd=97338|Gender[lex]=Masc|Number[ctxt]=Sing
 4	d'	de	ADP	_	_	6	case	_	AlignBegin=97338|AlignEnd=97475|SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=97475|AlignEnd=97613
-6	peu	peu	NOUN	_	Number=Sing	3	nmod	_	AlignBegin=97613|AlignEnd=97751|Gender[lex]=Masc
+6	peu	peu	NOUN	_	_	3	nmod	_	AlignBegin=97613|AlignEnd=97751|Gender[lex]=Masc|Number[ctxt]=Sing
 7	d'	de	ADP	_	_	8	case	_	AlignBegin=97751|AlignEnd=97888|SpaceAfter=No
 8	indé~	indé~	X	_	ExtPos=NOUN	11	reparandum	_	AlignBegin=97888|AlignEnd=98026|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	AlignBegin=98026|AlignEnd=98026
@@ -1032,7 +1032,7 @@
 3	besoin	besoin	NOUN	_	_	2	obj:lvc	_	AlignBegin=121070|AlignEnd=121318|Gender[lex]=Masc|Number[ctxt]=Sing
 4	d'	de	ADP	_	_	6	case	_	AlignBegin=121318|AlignEnd=121566|SpaceAfter=No
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=121566|AlignEnd=121814
-6	peu	peu	NOUN	_	Number=Sing	17	reparandum	_	AlignBegin=121814|AlignEnd=122062|Gender[lex]=Masc|SpaceAfter=No
+6	peu	peu	NOUN	_	_	17	reparandum	_	AlignBegin=121814|AlignEnd=122062|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=122062|AlignEnd=122062
 8	de	de	ADP	_	_	17	reparandum	_	AlignBegin=122062|AlignEnd=122310
 9	voilà	voilà	VERB	_	_	8	discourse	_	AlignBegin=122310|AlignEnd=122557|SpaceAfter=No

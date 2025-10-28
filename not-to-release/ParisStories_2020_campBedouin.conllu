@@ -59,7 +59,7 @@
 2	avion	avion	NOUN	_	_	5	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
-5	long	long	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	long	long	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_4
@@ -74,7 +74,7 @@
 7	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	Idiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc	8	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
-10	peu	peu	NOUN	_	Number=Sing	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+10	peu	peu	NOUN	_	_	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 11	de	de	ADP	_	_	12	case	_	_
 12	retard	retard	NOUN	_	_	8	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
@@ -185,7 +185,7 @@
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	SpaceAfter=No
 16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
 17	super	super	ADV	_	_	18	advmod	_	_
-18	beau	beau	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	_
+18	beau	beau	ADJ	_	Gender=Masc	7	conj	_	Number[ctxt]=Sing
 19	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	20	amod	_	Number[ctxt]=Sing
 20	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	dislocated	_	_
 21	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
@@ -201,7 +201,7 @@
 5	te	toi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
 6	raconter	raconter	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 7	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	9	advmod	_	Idiom=Yes
-8	peu	peu	NOUN	_	Number=Sing	7	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+8	peu	peu	NOUN	_	_	7	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 9	vite	vite	ADV	_	_	10	advmod	_	_
 10	fait	faire	VERB	_	Gender=Masc|VerbForm=Part	6	advcl	_	Number[ctxt]=Sing|Tense[denom]=Past
 11	en	en	ADP	_	_	12	case	_	_
@@ -225,7 +225,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/ff9aabc7a134b8f7e1593041baa9f99d473bb37a
 1	alors	alors	ADV	_	_	6	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	premier	premier	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+3	premier	premier	ADJ	_	Gender=Masc	4	amod	_	Number[ctxt]=Sing
 4	jour	jour	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	me	moi	PRON	_	Emph=No|ExtPos=VERB|Number=Sing|Person=1|PronType=Prs	0	root	_	Idiom=Yes
@@ -259,7 +259,7 @@
 4	passé	passer	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	devant	devant	ADP	_	_	8	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	grande	grand	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+7	grande	grand	ADJ	_	Gender=Fem	8	amod	_	Number[ctxt]=Sing
 8	mosquée	mosquée	NOUN	_	_	4	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	Jumeirah	Jumeirah	PROPN	_	_	8	nmod:appos	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
@@ -269,7 +269,7 @@
 14	super	super	ADV	_	_	15	advmod	_	_
 15	connu	connu	ADJ	_	_	4	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 16	super	super	ADV	_	_	17	advmod	_	_
-17	beau	beau	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+17	beau	beau	ADJ	_	Gender=Masc	15	conj	_	Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_13
@@ -280,7 +280,7 @@
 3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	dans	dans	ADP	_	_	6	case	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	zouk	zouk	NOUN	_	Number=Sing	3	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+6	zouk	zouk	NOUN	_	_	3	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	bah	bah	INTJ	_	_	11	discourse	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	_
@@ -326,7 +326,7 @@
 1	après	après	ADP	_	_	8	dep	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-4	aprèm	aprèm	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Masc
+4	aprèm	aprèm	NOUN	_	_	8	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
@@ -339,7 +339,7 @@
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
 15	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
 16	super	super	ADV	_	_	17	advmod	_	_
-17	beau	beau	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+17	beau	beau	ADJ	_	Gender=Masc	8	conj	_	Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_16
@@ -357,7 +357,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	désert	désert	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	en	en	ADP	_	_	13	case	_	_
-13	quatre-quatre	quatre-quatre	NOUN	_	Number=Sing	6	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+13	quatre-quatre	quatre-quatre	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_campBedouin_17
@@ -409,7 +409,7 @@
 9	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 10	bien	bien	ADV	_	_	9	advmod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	première	premier	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+12	première	premier	ADJ	_	Gender=Fem	13	amod	_	Number[ctxt]=Sing
 13	journée	journée	NOUN	_	_	9	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 14	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
@@ -429,7 +429,7 @@
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	spectacle	spectacle	NOUN	_	_	28	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	monsieur	monsieur	NOUN	_	Number=Sing	34	dislocated	_	Gender[lex]=Masc
+32	monsieur	monsieur	NOUN	_	_	34	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 33	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	crachait	cracher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	parataxis:parenth	_	_
 35	du	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -470,6 +470,6 @@
 11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	super	super	ADV	_	_	14	advmod	_	_
 13	super	super	ADV	_	_	12	conj	_	_
-14	froid	froid	ADJ	_	Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No
+14	froid	froid	ADJ	_	Gender=Masc	11	xcomp	_	Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	_
 

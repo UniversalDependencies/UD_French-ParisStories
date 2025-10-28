@@ -47,11 +47,11 @@
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 6	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	gens	gens	NOUN	_	Number=Plur	6	nmod	_	Gender[lex]=Masc
+8	gens	gens	NOUN	_	_	6	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
-12	même	même	ADJ	_	_	13	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+12	même	même	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	idée	idée	NOUN	_	_	10	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj	_	_
@@ -135,9 +135,9 @@
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 8	fait	faire	VERB	_	Gender=Masc|Person=3|VerbForm=Part	5	ccomp	_	Number[ctxt]=Sing
 9	vraiment	vraiment	ADV	_	_	10	advmod	_	_
-10	beau	beau	ADJ	_	Gender=Masc|Number=Sing	8	xcomp	_	_
+10	beau	beau	ADJ	_	Gender=Masc	8	xcomp	_	Number[ctxt]=Sing
 11	et	et	CCONJ	_	_	12	cc	_	_
-12	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+12	chaud	chaud	ADJ	_	Gender=Masc	10	conj	_	Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	donc	donc	ADV	_	_	17	cc	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -232,8 +232,8 @@
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	pour	pour	ADP	_	_	38	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-37	première	premier	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
-38	fois	fois	NOUN	_	Number=Sing	29	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
+37	première	premier	ADJ	_	Gender=Fem	38	amod	_	Number[ctxt]=Sing
+38	fois	fois	NOUN	_	_	29	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 39	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2020_poissonsNoel_9
@@ -374,7 +374,7 @@
 37	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	37	punct	_	_
 39	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	riz	riz	NOUN	_	Number=Sing	34	nmod	_	Gender[lex]=Masc
+40	riz	riz	NOUN	_	_	34	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 41	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
 42	haricots	haricot	NOUN	_	_	40	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 43	et	et	CCONJ	_	_	44	cc	_	_
@@ -411,7 +411,7 @@
 5	parce	parce	ADV	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
 6	que	que	SCONJ	_	_	5	fixed	_	InIdiom=Yes
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	gens	gens	NOUN	_	Number=Plur	9	nsubj	_	Gender[lex]=Masc
+8	gens	gens	NOUN	_	_	9	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 9	amènent	amener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 10	pratiquement	pratiquement	ADV	_	_	9	advmod	_	_
 11	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	_
@@ -433,7 +433,7 @@
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	même	même	ADV	_	_	10	advmod	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
-10	gens	gens	NOUN	_	Number=Plur	7	obj	_	Gender[lex]=Masc
+10	gens	gens	NOUN	_	_	7	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	fabriquent	fabriquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
@@ -505,7 +505,7 @@
 27	se	soi	PRON	_	ExtPos=VERB|Person=3|PronType=Prs|Reflex=Yes	20	conj	_	Idiom=Yes
 28	souhaite	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	fixed	_	InIdiom=Yes
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	bonne	bon	ADJ	_	_	31	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+30	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 31	année	année	NOUN	_	_	27	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 32	.	.	PUNCT	_	_	20	punct	_	_
 
@@ -518,7 +518,7 @@
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	gens	gens	NOUN	_	Number=Plur	3	obl:arg	_	Gender[lex]=Masc
+6	gens	gens	NOUN	_	_	3	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur
 7	que	que	PRON	_	PronType=Rel	9	obj	_	_
 8	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
@@ -528,7 +528,7 @@
 13	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	14	iobj	_	_
 14	souhaites	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-16	bonne	bon	ADJ	_	_	17	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+16	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 17	année	année	NOUN	_	_	14	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -546,7 +546,7 @@
 9	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	tes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	12	det	_	_
-12	bras	bras	NOUN	_	Number=Plur	9	obl:arg	_	Gender[lex]=Masc
+12	bras	bras	NOUN	_	_	9	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur
 13	si	si	SCONJ	_	_	16	mark	_	_
 14	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
 15	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_

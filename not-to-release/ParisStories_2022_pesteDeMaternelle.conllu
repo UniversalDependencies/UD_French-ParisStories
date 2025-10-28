@@ -33,7 +33,7 @@
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=6155|AlignEnd=6155
 15	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	18	det	_	AlignBegin=6155|AlignEnd=6505
 16	deux	deux	NUM	_	_	18	nummod	_	AlignBegin=6505|AlignEnd=6855
-17	meilleures	meilleur	ADJ	_	Number=Plur	18	amod	_	AlignBegin=6855|AlignEnd=7205|Gender[ctxt]=Fem
+17	meilleures	meilleur	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	AlignBegin=6855|AlignEnd=7205
 18	amies	amie	NOUN	_	_	0	root	_	AlignBegin=7205|AlignEnd=7555|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=7555|AlignEnd=7555
 20	XXX	XXX	X	_	ExtPos=PROPN	18	dep	_	AlignBegin=7555|AlignEnd=7978|Scrap=Yes
@@ -56,7 +56,7 @@
 6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	AlignBegin=10785|AlignEnd=11051
 7	tout	tout	ADV	_	_	9	advmod	_	AlignBegin=11051|AlignEnd=11316
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=11316|AlignEnd=11582
-9	temps	temps	NOUN	_	Number=Sing	10	obl:mod	_	AlignBegin=11582|AlignEnd=11848|Gender[lex]=Masc
+9	temps	temps	NOUN	_	_	10	obl:mod	_	AlignBegin=11582|AlignEnd=11848|Gender[lex]=Masc|Number[ctxt]=Sing
 10	là	là	ADV	_	_	0	root	_	AlignBegin=11848|AlignEnd=12114|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=12114|AlignEnd=12114
 
@@ -263,7 +263,7 @@
 # speaker = 0
 # text = des gens horribles qui étaient toujours là à faire mais gnagnagna.
 1	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	AlignBegin=41840|AlignEnd=42092
-2	gens	gens	NOUN	_	Number=Plur	0	root	_	AlignBegin=42092|AlignEnd=42344
+2	gens	gens	NOUN	_	_	0	root	_	AlignBegin=42092|AlignEnd=42344|Number[ctxt]=Plur
 3	horribles	horrible	ADJ	_	_	2	amod	_	AlignBegin=42344|AlignEnd=42596|Gender[ctxt]=Masc|Number[ctxt]=Plur
 4	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	AlignBegin=42596|AlignEnd=42848
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	AlignBegin=42848|AlignEnd=43100
@@ -611,7 +611,7 @@
 10	deux	deux	NUM	_	_	7	obl:mod	_	AlignBegin=89816|AlignEnd=90043
 11	en	en	ADP	_	_	13	case	_	AlignBegin=90043|AlignEnd=90271
 12	même	même	ADJ	_	_	13	amod	_	AlignBegin=90271|AlignEnd=90498|Gender[ctxt]=Masc|Number[ctxt]=Sing
-13	temps	temps	NOUN	_	Number=Sing	7	obl:mod	_	AlignBegin=90498|AlignEnd=90725|Gender[lex]=Masc|SpaceAfter=No
+13	temps	temps	NOUN	_	_	7	obl:mod	_	AlignBegin=90498|AlignEnd=90725|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=90725|AlignEnd=90725
 15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=90725|AlignEnd=90953
 16	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	AlignBegin=90953|AlignEnd=91180|SpaceAfter=No
@@ -767,7 +767,7 @@
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	AlignBegin=114037|AlignEnd=114305
 8	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=114305|AlignEnd=114574
 9	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=114574|AlignEnd=114843
-10	temps	temps	NOUN	_	Number=Sing	8	obj	_	AlignBegin=114843|AlignEnd=115112|Gender[lex]=Masc
+10	temps	temps	NOUN	_	_	8	obj	_	AlignBegin=114843|AlignEnd=115112|Gender[lex]=Masc|Number[ctxt]=Sing
 11	ensemble	ensemble	ADV	_	_	8	advmod	_	AlignBegin=115112|AlignEnd=115381|SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	AlignBegin=115381|AlignEnd=115381
 

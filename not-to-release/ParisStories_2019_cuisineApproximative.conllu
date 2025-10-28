@@ -130,7 +130,7 @@
 7	recette	recette	NOUN	_	_	5	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 8	pour	pour	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	fois	fois	NOUN	_	Number=Sing	5	obl:mod	_	Gender[lex]=Fem
+10	fois	fois	NOUN	_	_	5	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	InIdiom=Yes
@@ -161,7 +161,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	32	cc	_	_
 2	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	32	advmod	_	Idiom=Yes
-3	fois	fois	NOUN	_	Number=Sing	2	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+3	fois	fois	NOUN	_	_	2	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 4	que	que	SCONJ	_	_	11	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tout	tout	NOUN	_	_	11	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -187,12 +187,12 @@
 26	,	,	PUNCT	_	_	24	punct	_	_
 27	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
 28	bien	bien	ADV	_	_	29	advmod	_	_
-29	mélangés	mélanger	ADJ	_	Gender=Masc|Number=Plur	2	ccomp	_	SpaceAfter=No
+29	mélangés	mélanger	VERB	_	_	2	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	32	nsubj	_	_
 32	rajoutes	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 33	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	32	obj	_	Idiom=Yes
-34	peu	peu	NOUN	_	Number=Sing	33	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+34	peu	peu	NOUN	_	_	33	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 35	de	de	ADP	_	_	36	case	_	_
 36	sel	sel	NOUN	_	_	33	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 37	,	,	PUNCT	_	_	32	punct	_	_
@@ -322,7 +322,7 @@
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
 8	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|Tense[denom]=Past
 9	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	Idiom=Yes
-10	fois	fois	NOUN	_	Number=Sing	9	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+10	fois	fois	NOUN	_	_	9	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 11	ensemble	ensemble	ADV	_	_	8	advmod	_	_
 12	?	?	PUNCT	_	_	8	punct	_	_
 
@@ -457,7 +457,7 @@
 6	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
-9	fois	fois	NOUN	_	Number=Sing	8	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+9	fois	fois	NOUN	_	_	8	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 10	que	que	SCONJ	_	_	16	mark	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	boule	boule	NOUN	_	_	16	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -496,7 +496,7 @@
 24	fait	fait	NOUN	_	_	23	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	40	advmod	_	Idiom=Yes
-27	fois	fois	NOUN	_	Number=Sing	26	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+27	fois	fois	NOUN	_	_	26	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 28	que	que	SCONJ	_	_	35	mark	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	boule	boule	NOUN	_	_	35	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -579,7 +579,7 @@
 7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
 9	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	17	advmod	_	Idiom=Yes
-10	fois	fois	NOUN	_	Number=Sing	9	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+10	fois	fois	NOUN	_	_	9	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 11	que	que	SCONJ	_	_	14	mark	_	_
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj:pass	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
@@ -735,11 +735,11 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	feu	feu	NOUN	_	_	8	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
-13	fois	fois	NOUN	_	Number=Sing	12	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+13	fois	fois	NOUN	_	_	12	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 14	que	que	SCONJ	_	_	12	dep:comp	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	12	punct	_	_
 16	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
-17	fois	fois	NOUN	_	Number=Sing	16	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+17	fois	fois	NOUN	_	_	16	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 18	que	que	SCONJ	_	_	20	mark	_	_
 19	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
@@ -747,10 +747,10 @@
 22	XXX	XXX	X	_	_	24	discourse	_	_
 23	enfin	enfin	ADV	_	ExtPos=INTJ	24	discourse	_	_
 24	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
-25	fois	fois	NOUN	_	Number=Sing	24	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+25	fois	fois	NOUN	_	_	24	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 26	qu~	qu~	X	_	ExtPos=SCONJ	24	fixed	_	InIdiom=Yes
 27	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	Idiom=Yes
-28	fois	fois	NOUN	_	Number=Sing	27	fixed	_	Gender[lex]=Fem|InIdiom=Yes
+28	fois	fois	NOUN	_	_	27	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 29	que	que	SCONJ	_	_	33	mark	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	beurre	beurre	NOUN	_	_	33	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -789,7 +789,7 @@
 8	épice	épice	NOUN	_	_	3	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	que	que	SCONJ	_	_	11	case	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
-11	grand-mère	grand-mère	NOUN	_	Number=Sing	21	reparandum	_	Gender[lex]=Fem|SpaceAfter=No
+11	grand-mère	grand-mère	NOUN	_	_	21	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	que	que	SCONJ	_	_	15	case	_	_
 14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
@@ -831,9 +831,9 @@
 17	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	_
 18	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	super	super	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-21	coloc	coloc	NOUN	_	Number=Sing	18	obj	_	Gender[lex]=Fem
-22	picarde	picard	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+20	super	super	ADJ	_	_	21	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+21	coloc	coloc	NOUN	_	_	18	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+22	picarde	picard	ADJ	_	Gender=Fem	21	amod	_	Number[ctxt]=Sing
 23	comme	comme	ADP	_	_	24	case	_	_
 24	toi	toi	PRON	_	Emph=Yes|Number=Sing|Person=2|PronType=Prs	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_

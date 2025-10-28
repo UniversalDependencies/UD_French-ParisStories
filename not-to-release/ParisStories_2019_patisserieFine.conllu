@@ -8,7 +8,7 @@
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	fini	finir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	cours	cours	NOUN	_	Number=Plur	5	obj	_	Gender[lex]=Masc
+7	cours	cours	NOUN	_	_	5	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 8	à	à	ADP	_	_	10	case	_	_
 9	dix-neuf	dix-neuf	NUM	_	_	10	nummod	_	Number[lex]=Sing
 10	heures	heure	NOUN	_	_	5	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -22,7 +22,7 @@
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
 19	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	conj	_	Tense[denom]=Past
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	bus	bus	NOUN	_	Number=Sing	19	obj	_	Gender[lex]=Masc
+21	bus	bus	NOUN	_	_	19	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 22	pour	pour	ADP	_	_	23	mark	_	_
 23	pouvoir	pouvoir	VERB	_	VerbForm=Inf	19	advcl	_	Subject=NoRaising
 24	rentrer	rentrer	VERB	_	VerbForm=Inf	23	xcomp	_	Subject=SubjRaising
@@ -35,7 +35,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/61b04e77cad8421a64e2531daae8e46efb6e0f37
 1	alors	alors	ADV	_	_	5	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	bus	bus	NOUN	_	Number=Sing	5	nsubj	_	Gender[lex]=Masc
+3	bus	bus	NOUN	_	_	5	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 5	dépose	déposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	19	punct	_	_
@@ -54,7 +54,7 @@
 19	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	très	très	ADV	_	_	22	advmod	_	_
-22	bonne	bon	ADJ	_	_	23	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+22	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 23	odeur	odeur	NOUN	_	_	25	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	odeur	odeur	NOUN	_	_	19	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -332,7 +332,7 @@
 5	insisté	insister	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 6	encore	encore	ADV	_	_	8	advmod	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	fois	fois	NOUN	_	Number=Sing	5	obl:mod	_	Gender[lex]=Fem
+8	fois	fois	NOUN	_	_	5	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	pour	pour	ADP	_	_	12	mark	_	_
 10	que	que	SCONJ	_	_	12	mark	_	_
 11	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -490,27 +490,27 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 13	comme	comme	ADP	_	_	15	case	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
-15	nems	nem	NOUN	_	Number=Plur	5	ccomp	_	Gender[lex]=Masc
+15	nems	nem	NOUN	_	_	5	ccomp	_	Gender[lex]=Masc|Number[ctxt]=Plur
 16	mais	mais	CCONJ	_	_	22	cc	_	_
 17	pas	pas	ADV	_	Polarity=Neg	20	reparandum	_	_
 18	vraiment	vraiment	ADV	_	_	17	advmod	_	_
 19	euh	euh	INTJ	_	_	20	discourse	_	_
 20	pas	pas	ADV	_	Polarity=Neg	22	advmod	_	_
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
-22	nems	nem	NOUN	_	Number=Plur	15	conj	_	Gender[lex]=Masc
+22	nems	nem	NOUN	_	_	15	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 23	euh	euh	INTJ	_	_	29	discourse	_	_
 24	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	29	nsubj	_	SpaceAfter=No
 25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
 26	comme	comme	ADP	_	_	29	case	_	_
 27	euh	euh	INTJ	_	_	29	discourse	_	_
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	kebab	kebab	NOUN	_	Number=Sing	15	conj	_	Gender[lex]=Masc
+29	kebab	kebab	NOUN	_	_	15	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 30	mais	mais	CCONJ	_	_	35	cc	_	_
 31	sans	sans	ADP	_	_	35	mark	_	_
 32	vraiment	vraiment	ADV	_	_	35	advmod	_	_
 33	être	être	AUX	_	VerbForm=Inf	35	cop	_	Subject=NoRaising
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	kebab	kebab	NOUN	_	Number=Sing	29	conj	_	Gender[lex]=Masc
+35	kebab	kebab	NOUN	_	_	29	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 36	et	et	CCONJ	_	_	45	cc	_	_
 37	que	que	SCONJ	_	_	45	mark	_	_
 38	entre	entre	ADP	_	_	39	case	_	_
@@ -527,7 +527,7 @@
 49-50	des	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	51	case	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
-51	nems	nem	NOUN	_	Number=Plur	48	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+51	nems	nem	NOUN	_	_	48	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 52	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_23
@@ -575,7 +575,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	avocat	avocat	NOUN	_	_	20	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	champignon	champignon	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
+26	champignon	champignon	NOUN	_	Gender=Masc	20	conj	_	Number[ctxt]=Sing
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
 29	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
@@ -583,7 +583,7 @@
 31	entre	entre	ADP	_	_	32	case	_	_
 32	poulet	poulet	NOUN	_	_	30	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 33	ou	ou	CCONJ	_	_	34	cc	_	_
-34	merguez	merguez	NOUN	_	Number=Sing	32	conj	_	Gender[lex]=Fem|SpaceAfter=No
+34	merguez	merguez	NOUN	_	_	32	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 35	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_patisserieFine_25
@@ -722,7 +722,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
 3	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	monsieur	monsieur	NOUN	_	Number=Sing	7	vocative	_	Gender[lex]=Masc
+4	monsieur	monsieur	NOUN	_	_	7	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	Reported=Yes
 7	antillaise	antillais	NOUN	_	_	3	ccomp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -758,7 +758,7 @@
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
 5	réponds	répondre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	monsieur	monsieur	NOUN	_	Number=Sing	14	vocative	_	Gender[lex]=Masc
+6	monsieur	monsieur	NOUN	_	_	14	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	antillais	antillais	NOUN	_	_	14	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -817,7 +817,7 @@
 8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
 9	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
-11	sœur	sœur	NOUN	_	Number=Sing	9	obj	_	Gender[lex]=Fem
+11	sœur	sœur	NOUN	_	_	9	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 12	qui	qui	PRON	_	PronType=Rel	14	reparandum	_	_
 13	euh	euh	INTJ	_	_	14	discourse	_	_
 14	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_

@@ -15,7 +15,7 @@
 10	souvenir	souvenir	NOUN	_	_	18	reparandum	_	AlignBegin=2690|AlignEnd=3074|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=3074|AlignEnd=3074
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=3074|AlignEnd=3459
-13	premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	AlignBegin=3459|AlignEnd=3843
+13	premier	premier	ADJ	_	Gender=Masc	14	amod	_	AlignBegin=3459|AlignEnd=3843|Number[ctxt]=Sing
 14	souvenir	souvenir	NOUN	_	_	18	reparandum	_	AlignBegin=3843|AlignEnd=4227|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	AlignBegin=4227|AlignEnd=4227
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=4227|AlignEnd=4611
@@ -45,7 +45,7 @@
 # speaker = L1
 # text = ton premier souvenir de nous en fait.
 1	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=9839|AlignEnd=10059
-2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	AlignBegin=10059|AlignEnd=10280
+2	premier	premier	ADJ	_	Gender=Masc	3	amod	_	AlignBegin=10059|AlignEnd=10280|Number[ctxt]=Sing
 3	souvenir	souvenir	NOUN	_	_	0	root	_	AlignBegin=10280|AlignEnd=10500|Gender[lex]=Masc|Number[ctxt]=Sing
 4	de	de	ADP	_	_	5	case	_	AlignBegin=10500|AlignEnd=10721
 5	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nmod	_	AlignBegin=10721|AlignEnd=10941
@@ -58,7 +58,7 @@
 # speaker = L2
 # text = le premier souvenir de nous le plus clair que j'ai, euh, je pense que c'est en Algérie.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=11421|AlignEnd=11779
-2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	AlignBegin=11779|AlignEnd=12137
+2	premier	premier	ADJ	_	Gender=Masc	3	amod	_	AlignBegin=11779|AlignEnd=12137|Number[ctxt]=Sing
 3	souvenir	souvenir	NOUN	_	_	16	dislocated	_	AlignBegin=12137|AlignEnd=12494|Gender[lex]=Masc|Number[ctxt]=Sing
 4	de	de	ADP	_	_	5	case	_	AlignBegin=12494|AlignEnd=12852
 5	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	3	nmod	_	AlignBegin=12852|AlignEnd=13210
@@ -165,7 +165,7 @@
 5	Alger	Alger	PROPN	_	_	13	reparandum	_	AlignBegin=26316|AlignEnd=26680|Gender[lex]=Unknown
 6	sur	sur	ADP	_	_	9	case	_	AlignBegin=26680|AlignEnd=27045
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=27045|AlignEnd=27410
-8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	AlignBegin=27410|AlignEnd=27774
+8	grande	grand	ADJ	_	Gender=Fem	9	amod	_	AlignBegin=27410|AlignEnd=27774|Number[ctxt]=Sing
 9	place	place	NOUN	_	_	5	nmod	_	AlignBegin=27774|AlignEnd=28139|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	AlignBegin=28139|AlignEnd=28139
 11	avec	avec	ADP	_	_	13	case	_	AlignBegin=28139|AlignEnd=28434
@@ -243,7 +243,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/abd33896a2c7947e180460f5f0d0273978c8c7a8
 # speaker = L2
 # text = premier souvenir.
-1	premier	premier	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	AlignBegin=35386|AlignEnd=35554
+1	premier	premier	ADJ	_	Gender=Masc	2	amod	_	AlignBegin=35386|AlignEnd=35554|Number[ctxt]=Sing
 2	souvenir	souvenir	NOUN	_	_	0	root	_	AlignBegin=35554|AlignEnd=35722|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=35722|AlignEnd=35722
 
@@ -253,7 +253,7 @@
 # text = en même temps, Morgane, on se connaît depuis au moins vingt-deux ans maintenant.
 1	en	en	ADP	_	_	3	case	_	AlignBegin=35722|AlignEnd=35890
 2	même	même	ADJ	_	_	3	amod	_	AlignBegin=35890|AlignEnd=36058|Gender[ctxt]=Masc|Number[ctxt]=Sing
-3	temps	temps	NOUN	_	Number=Sing	9	obl:mod	_	AlignBegin=36058|AlignEnd=36227|Gender[lex]=Masc|SpaceAfter=No
+3	temps	temps	NOUN	_	_	9	obl:mod	_	AlignBegin=36058|AlignEnd=36227|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=36227|AlignEnd=36227
 5	Morgane	Morgane	PROPN	_	_	9	dislocated	_	AlignBegin=36227|AlignEnd=36395|Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36395|AlignEnd=36395
@@ -310,7 +310,7 @@
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=44695|AlignEnd=44695
 10	sur	sur	ADP	_	_	13	case	_	AlignBegin=44695|AlignEnd=45101
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	AlignBegin=45101|AlignEnd=45507
-12	grande	grand	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	AlignBegin=45507|AlignEnd=45913
+12	grande	grand	ADJ	_	Gender=Fem	13	amod	_	AlignBegin=45507|AlignEnd=45913|Number[ctxt]=Sing
 13	place	place	NOUN	_	_	6	obl:mod	_	AlignBegin=45913|AlignEnd=46320|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	AlignBegin=46320|AlignEnd=46320
 
@@ -320,7 +320,7 @@
 # text = il faisait chaud.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=46320|AlignEnd=46726
 2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=46726|AlignEnd=47132
-3	chaud	chaud	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	AlignBegin=47132|AlignEnd=47538|SpaceAfter=No
+3	chaud	chaud	ADJ	_	Gender=Masc	2	xcomp	_	AlignBegin=47132|AlignEnd=47538|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=47538|AlignEnd=47538
 
 # sent_id = ParisStories_2022_16_hamacTahiti__23
@@ -520,7 +520,7 @@
 # text = ouais, ok, que ce soit un souvenir construit, euh.
 1	ouais	ouais	INTJ	_	_	9	discourse	_	AlignBegin=86710|AlignEnd=87031|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=87031|AlignEnd=87031
-3	ok	ok	ADJ	_	Gender=Masc|Number=Sing	9	discourse	_	AlignBegin=87031|AlignEnd=87352|SpaceAfter=No
+3	ok	ok	ADJ	_	Gender=Masc	9	discourse	_	AlignBegin=87031|AlignEnd=87352|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=87352|AlignEnd=87352
 5	que	que	SCONJ	_	_	9	mark	_	AlignBegin=87352|AlignEnd=87673
 6	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	AlignBegin=87673|AlignEnd=87994
@@ -601,7 +601,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=104826|AlignEnd=104826
 7	en	en	ADP	_	_	9	case	_	AlignBegin=104826|AlignEnd=105045
 8	tous	tout	ADJ	_	Gender=Masc	9	amod	_	AlignBegin=105045|AlignEnd=105263|Number[ctxt]=Plur
-9	cas	cas	NOUN	_	Number=Plur	14	obl:mod	_	AlignBegin=105263|AlignEnd=105481|Gender[lex]=Masc|SpaceAfter=No
+9	cas	cas	NOUN	_	_	14	obl:mod	_	AlignBegin=105263|AlignEnd=105481|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=105481|AlignEnd=105481
 11	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	14	dislocated	_	AlignBegin=105481|AlignEnd=105700
 12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=105700|AlignEnd=105918|SpaceAfter=No
@@ -641,7 +641,7 @@
 5	sortir	sortir	VERB	_	VerbForm=Inf	3	xcomp	_	AlignBegin=109356|AlignEnd=109701|Subject=SubjRaising
 6	de	de	ADP	_	_	8	case	_	AlignBegin=109701|AlignEnd=110046
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	AlignBegin=110046|AlignEnd=110391
-8	putain	putain	ADJ	_	Gender=Masc|Number=Sing	10	nmod	_	AlignBegin=110391|AlignEnd=110737
+8	putain	putain	NOUN	_	_	10	nmod	_	AlignBegin=110391|AlignEnd=110737|Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	AlignBegin=110737|AlignEnd=111082
 10	hamac	hamac	NOUN	_	_	5	obj	_	AlignBegin=111082|AlignEnd=111427|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=111427|AlignEnd=111427

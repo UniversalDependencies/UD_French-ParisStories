@@ -21,7 +21,7 @@
 16	gîte	gîte	NOUN	_	_	20	reparandum	_	AlignBegin=3850|AlignEnd=4239|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=4239|AlignEnd=4239
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=4239|AlignEnd=4745
-19	grand	grand	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	AlignBegin=4745|AlignEnd=5250
+19	grand	grand	ADJ	_	Gender=Masc	20	amod	_	AlignBegin=4745|AlignEnd=5250|Number[ctxt]=Sing
 20	gîte	gîte	NOUN	_	_	14	obj	_	AlignBegin=5250|AlignEnd=5756|Gender[lex]=Masc|Number[ctxt]=Sing
 21	euh	euh	INTJ	_	_	24	discourse	_	AlignBegin=6234|AlignEnd=6615|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=6615|AlignEnd=6615
@@ -41,7 +41,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=8900|AlignEnd=9281
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	AlignBegin=9281|AlignEnd=9662|Gender[ctxt]=Fem|SpaceAfter=No
 4	idée	idée	NOUN	_	_	0	root	_	AlignBegin=9662|AlignEnd=10043|Gender[lex]=Fem|Number[ctxt]=Sing
-5	première	premier	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	AlignBegin=10043|AlignEnd=10424|SpaceAfter=No
+5	première	premier	ADJ	_	Gender=Fem	4	amod	_	AlignBegin=10043|AlignEnd=10424|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	AlignBegin=10424|AlignEnd=10424
 
 # sent_id = ParisStories_2022_5_gîteEnMontagne__3
@@ -154,7 +154,7 @@
 17	qu'	que	SCONJ	_	_	31	mark	_	AlignBegin=36520|AlignEnd=36800|SpaceAfter=No
 18	à	à	ADP	_	_	19	mark	_	AlignBegin=36800|AlignEnd=36800
 19	rester	rester	VERB	_	VerbForm=Inf	31	xcomp	_	AlignBegin=36800|AlignEnd=37080|Subject=SubjRaising
-20	enfermés	enfermer	ADJ	_	Gender=Masc|Number=Plur	19	xcomp	_	AlignBegin=37080|AlignEnd=37359
+20	enfermés	enfermer	VERB	_	_	19	ccomp	_	AlignBegin=37080|AlignEnd=37359|Gender[ctxt]=Masc|Number[ctxt]=Plur
 21	comme	comme	ADP	_	_	22	case	_	AlignBegin=37359|AlignEnd=37639
 22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	obl:mod	_	AlignBegin=37639|AlignEnd=37918
 23	pendant	pendant	ADP	_	_	27	reparandum	_	AlignBegin=37918|AlignEnd=38198|SpaceAfter=No
@@ -175,7 +175,7 @@
 38	euh	euh	INTJ	_	_	41	discourse	_	AlignBegin=42309|AlignEnd=42647|SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	AlignBegin=42647|AlignEnd=42647
 40	de	de	ADP	_	_	41	case	_	AlignBegin=42647|AlignEnd=42985
-41	temps	temps	NOUN	_	Number=Sing	37	nmod	_	AlignBegin=42985|AlignEnd=43323|Gender[lex]=Masc
+41	temps	temps	NOUN	_	_	37	nmod	_	AlignBegin=42985|AlignEnd=43323|Gender[lex]=Masc|Number[ctxt]=Sing
 42	et	et	CCONJ	_	_	44	cc	_	AlignBegin=43323|AlignEnd=43660
 43	d'	de	ADP	_	_	44	case	_	AlignBegin=43660|AlignEnd=43998|SpaceAfter=No
 44	espace	espace	NOUN	_	_	41	conj	_	AlignBegin=43998|AlignEnd=44336|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -303,7 +303,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=71019|AlignEnd=71019
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	AlignBegin=72016|AlignEnd=72272|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=72272|AlignEnd=72528
-7	beau	beau	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=72528|AlignEnd=72784|SpaceAfter=No
+7	beau	beau	ADJ	_	Gender=Masc	0	root	_	AlignBegin=72528|AlignEnd=72784|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=72784|AlignEnd=72784
 
 # sent_id = ParisStories_2022_5_gîteEnMontagne__16
@@ -319,7 +319,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	AlignBegin=74218|AlignEnd=74525|wordform=au
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	possible	possible	NOUN	_	Number=Sing	6	obl:mod	_	AlignBegin=74525|AlignEnd=74832|Gender[lex]=Masc|SpaceAfter=No
+9	possible	possible	NOUN	_	_	6	obl:mod	_	AlignBegin=74525|AlignEnd=74832|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=74832|AlignEnd=74832
 
 # sent_id = ParisStories_2022_5_gîteEnMontagne__17
@@ -419,7 +419,7 @@
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	AlignBegin=94160|AlignEnd=94328|SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	AlignBegin=94328|AlignEnd=94496
 10	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	AlignBegin=94496|AlignEnd=94664
-11	top	top	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=94664|AlignEnd=94831
+11	top	top	ADJ	_	_	0	root	_	AlignBegin=94664|AlignEnd=94831|Gender[ctxt]=Masc|Number[ctxt]=Sing
 12	pour	pour	ADP	_	_	15	case	_	AlignBegin=94831|AlignEnd=94999
 13	tout	tout	ADJ	_	Gender=Masc	15	amod	_	AlignBegin=94999|AlignEnd=95167|Number[ctxt]=Sing
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=95167|AlignEnd=95335
@@ -450,7 +450,7 @@
 3	par	par	ADP	_	_	4	case	_	AlignBegin=98010|AlignEnd=98267
 4	contre	contre	NOUN	_	_	7	obl:mod	_	AlignBegin=98267|AlignEnd=98525
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=98525|AlignEnd=98782
-6	bonne	bon	ADJ	_	_	7	amod	_	AlignBegin=98782|AlignEnd=99039|Gender[ctxt]=Fem|Number[ctxt]=Sing
+6	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	AlignBegin=98782|AlignEnd=99039
 7	aventure	aventure	NOUN	_	_	0	root	_	AlignBegin=99039|AlignEnd=99297|Gender[lex]=Fem|Number[ctxt]=Sing
 8	de	de	ADP	_	_	9	mark	_	AlignBegin=99297|AlignEnd=99554
 9	partir	partir	VERB	_	VerbForm=Inf	7	advcl	_	AlignBegin=99554|AlignEnd=99812|Subject=NoRaising
@@ -505,7 +505,7 @@
 15	idées	idée	NOUN	_	_	12	obj	_	AlignBegin=109394|AlignEnd=109635|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	AlignBegin=109635|AlignEnd=109635
 17	de	de	ADP	_	_	18	case	_	AlignBegin=110021|AlignEnd=110294
-18	repas	repas	NOUN	_	Number=Sing	15	nmod	_	AlignBegin=110294|AlignEnd=110567|Gender[lex]=Masc
+18	repas	repas	NOUN	_	_	15	nmod	_	AlignBegin=110294|AlignEnd=110567|Gender[lex]=Masc|Number[ctxt]=Sing
 19	de	de	ADP	_	_	20	case	_	AlignBegin=110567|AlignEnd=110839
 20	famille	famille	NOUN	_	_	18	nmod	_	AlignBegin=110839|AlignEnd=111112|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=111112|AlignEnd=111112
@@ -523,7 +523,7 @@
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=112009|AlignEnd=112165
 6	idées	idée	NOUN	_	_	4	obj	_	AlignBegin=112165|AlignEnd=112321|Gender[lex]=Fem|Number[ctxt]=Plur
 7	de	de	ADP	_	_	8	case	_	AlignBegin=112321|AlignEnd=112477
-8	repas	repas	NOUN	_	Number=Sing	6	nmod	_	AlignBegin=112477|AlignEnd=112633|Gender[lex]=Masc
+8	repas	repas	NOUN	_	_	6	nmod	_	AlignBegin=112477|AlignEnd=112633|Gender[lex]=Masc|Number[ctxt]=Sing
 9	de	de	ADP	_	_	10	case	_	AlignBegin=112633|AlignEnd=112789
 10	famille	famille	NOUN	_	_	8	nmod	_	AlignBegin=112789|AlignEnd=112945|Gender[lex]=Fem|Number[ctxt]=Sing
 11	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=112945|AlignEnd=113101|SpaceAfter=No
@@ -563,7 +563,7 @@
 15	d'	de	ADP	_	_	18	case	_	AlignBegin=117038|AlignEnd=117287|SpaceAfter=No
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	AlignBegin=117287|AlignEnd=117536
 17	petit	petit	ADJ	_	Gender=Masc	19	amod	_	AlignBegin=117536|AlignEnd=117785|Number[ctxt]=Sing
-18	peu	peu	NOUN	_	Number=Sing	19	obj	_	AlignBegin=117785|AlignEnd=118034|Gender[lex]=Masc
+18	peu	peu	NOUN	_	_	19	obj	_	AlignBegin=117785|AlignEnd=118034|Gender[lex]=Masc|Number[ctxt]=Sing
 19	exceptionnel	exceptionnel	ADJ	_	_	11	dep	_	AlignBegin=118034|AlignEnd=118283|Gender[ctxt]=Fem|Number[ctxt]=Sing
 20	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	AlignBegin=118283|AlignEnd=118532
 21	année	année	NOUN	_	_	9	obl:mod	_	AlignBegin=118532|AlignEnd=118781|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -586,7 +586,7 @@
 11	faire	faire	VERB	_	VerbForm=Inf	71	xcomp	_	AlignBegin=122264|AlignEnd=122542|Subject=SubjRaising
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=122542|AlignEnd=122819
 13	vrai	vrai	ADJ	_	_	14	amod	_	AlignBegin=122819|AlignEnd=123097|Gender[ctxt]=Masc|Number[ctxt]=Sing
-14	repas	repas	NOUN	_	Number=Sing	11	obj	_	AlignBegin=123097|AlignEnd=123375|Gender[lex]=Masc
+14	repas	repas	NOUN	_	_	11	obj	_	AlignBegin=123097|AlignEnd=123375|Gender[lex]=Masc|Number[ctxt]=Sing
 15	de	de	ADP	_	_	16	case	_	AlignBegin=123375|AlignEnd=123653
 16	Noël	Noël	PROPN	_	_	14	nmod	_	AlignBegin=123653|AlignEnd=123930|Gender[lex]=Unknown
 17	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=123930|AlignEnd=124208|SpaceAfter=No
@@ -596,7 +596,7 @@
 21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=125162|AlignEnd=125162
 22	comme	comme	ADP	_	_	24	case	_	AlignBegin=125162|AlignEnd=125557
 23	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	AlignBegin=125557|AlignEnd=125951
-24	grands-parents	grand-parent	NOUN	_	Number=Plur	48	reparandum	_	AlignBegin=125951|AlignEnd=126346|Gender[lex]=Masc
+24	grands-parents	grand-parent	NOUN	_	_	48	reparandum	_	AlignBegin=125951|AlignEnd=126346|Gender[lex]=Masc|Number[ctxt]=Plur
 25	avec	avec	ADP	_	_	29	case	_	AlignBegin=127002|AlignEnd=127457
 26	euh	euh	INTJ	_	_	29	discourse	_	AlignBegin=127457|AlignEnd=127912|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=127912|AlignEnd=127912
@@ -611,7 +611,7 @@
 35	,	,	PUNCT	_	_	34	punct	_	AlignBegin=130140|AlignEnd=130140
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	AlignBegin=130140|AlignEnd=130548
 37	dix	dix	NUM	_	_	38	nummod	_	AlignBegin=130548|AlignEnd=130955|Number[lex]=Plur
-38	repas	repas	NOUN	_	Number=Sing	43	reparandum	_	AlignBegin=130955|AlignEnd=131363|Gender[lex]=Masc|SpaceAfter=No
+38	repas	repas	NOUN	_	_	43	reparandum	_	AlignBegin=130955|AlignEnd=131363|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	AlignBegin=131363|AlignEnd=131363
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	reparandum	_	AlignBegin=131363|AlignEnd=131771
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	AlignBegin=132063|AlignEnd=132367
@@ -621,7 +621,7 @@
 45	,	,	PUNCT	_	_	44	punct	_	AlignBegin=133280|AlignEnd=133280
 46	pendant	pendant	ADP	_	_	48	case	_	AlignBegin=133280|AlignEnd=133584
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	AlignBegin=133584|AlignEnd=133888
-48	repas	repas	NOUN	_	Number=Sing	14	nmod	_	AlignBegin=133888|AlignEnd=134192|Gender[lex]=Masc
+48	repas	repas	NOUN	_	_	14	nmod	_	AlignBegin=133888|AlignEnd=134192|Gender[lex]=Masc|Number[ctxt]=Sing
 49	où	où	PRON	_	PronType=Rel	51	reparandum	_	AlignBegin=134192|AlignEnd=134496|SpaceAfter=No
 50	,	,	PUNCT	_	_	49	punct	_	AlignBegin=134496|AlignEnd=134496
 51	où	où	PRON	_	PronType=Rel	55	obl:mod	_	AlignBegin=135429|AlignEnd=135642

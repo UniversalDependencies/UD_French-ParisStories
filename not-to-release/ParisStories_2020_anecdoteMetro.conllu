@@ -71,7 +71,7 @@
 10	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	bus	bus	NOUN	_	Number=Sing	10	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+13	bus	bus	NOUN	_	_	10	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_7
@@ -107,7 +107,7 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	fac	fac	NOUN	_	_	17	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	en	en	ADP	_	_	22	case	_	_
-22	bus	bus	NOUN	_	Number=Sing	20	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+22	bus	bus	NOUN	_	_	20	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	ou	ou	CCONJ	_	_	25	cc	_	_
 25	aller	aller	VERB	_	VerbForm=Inf	17	conj	_	Subject=SubjRaising
@@ -179,13 +179,13 @@
 31-32	au	_	_	_	_	_	_	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	bus	bus	NOUN	_	Number=Sing	27	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+33	bus	bus	NOUN	_	_	27	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 34	,	,	PUNCT	_	_	39	punct	_	_
 35	euh	euh	INTJ	_	_	39	discourse	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	35	punct	_	_
 37	avec	avec	ADP	_	_	39	case	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	bus	bus	NOUN	_	Number=Sing	27	obl:mod	_	Gender[lex]=Masc
+39	bus	bus	NOUN	_	_	27	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 40	jusqu'	jusque	ADP	_	_	43	case	_	SpaceAfter=No
 41-42	au	_	_	_	_	_	_	_	_
 41	à	à	ADP	_	_	43	case	_	_
@@ -198,7 +198,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	bus	bus	NOUN	_	Number=Sing	5	dislocated	_	Gender[lex]=Masc
+3	bus	bus	NOUN	_	_	5	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 5	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
 6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
@@ -232,7 +232,7 @@
 9	en	en	ADP	_	ExtPos=ADV	16	advmod	_	Idiom=Yes
 10	fait	fait	NOUN	_	_	9	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	bus	bus	NOUN	_	Number=Sing	16	dislocated	_	Gender[lex]=Masc|SpaceAfter=No
+12	bus	bus	NOUN	_	_	16	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -319,7 +319,7 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
-11	gens	gens	NOUN	_	Number=Plur	9	obj	_	Gender[lex]=Masc
+11	gens	gens	NOUN	_	_	9	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	montaient	monter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
 14	etc	etc	ADV	_	_	13	conj	_	SpaceAfter=No
@@ -347,7 +347,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	genre	genre	NOUN	_	ExtPos=INTJ	6	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	en	en	ADP	_	ExtPos=ADV	0	root	_	Idiom=Yes
-7	fait	fait	NOUN	_	Number=Sing	6	fixed	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+7	fait	fait	NOUN	_	_	6	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
@@ -396,10 +396,10 @@
 21	y	y	PRON	_	Person=3|PronType=Prs	22	expl:comp	_	_
 22	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	dislocated	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
-24	gens	gens	NOUN	_	Number=Plur	22	obj	_	Gender[lex]=Masc|SpaceAfter=No
+24	gens	gens	NOUN	_	_	22	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	en	en	ADP	_	ExtPos=ADV	31	discourse	_	Idiom=Yes
-27	fait	fait	NOUN	_	Number=Sing	26	fixed	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+27	fait	fait	NOUN	_	_	26	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 30	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	aux:pass	_	_
@@ -430,7 +430,7 @@
 3	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
 5	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
-6	fait	fait	NOUN	_	Number=Sing	5	fixed	_	Gender[lex]=Masc|InIdiom=Yes|SpaceAfter=No
+6	fait	fait	NOUN	_	_	5	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	11	dislocated	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -464,14 +464,14 @@
 14	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
 15	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
 16	à	à	ADP	_	_	17	case	_	_
-17	coté	coté	NOUN	_	Number=Sing	15	obl:arg	_	Gender[lex]=Masc
+17	coté	coté	NOUN	_	_	15	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	porte	porte	NOUN	_	_	17	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	bus	bus	NOUN	_	Number=Sing	20	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+23	bus	bus	NOUN	_	_	20	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	15	punct	_	_
 25	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
 26	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	conj	_	_
@@ -641,7 +641,7 @@
 18	mais	mais	CCONJ	_	_	20	cc	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	coup	coup	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
-21	sec	sec	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+21	sec	sec	ADJ	_	Gender=Masc	20	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_anecdoteMetro_32
@@ -685,7 +685,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	laissé	laisser	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	bus	bus	NOUN	_	Number=Sing	6	nsubj	_	Gender[lex]=Masc
+5	bus	bus	NOUN	_	_	6	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 6	partir	partir	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -694,7 +694,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/c23dd378fea7354328183e843978217a75e48512
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	monsieur	monsieur	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
+3	monsieur	monsieur	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
 5	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
 6	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_

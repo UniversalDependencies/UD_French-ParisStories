@@ -61,7 +61,7 @@
 3	et	et	CCONJ	_	_	10	cc	_	AlignBegin=12433|AlignEnd=12771
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=12771|AlignEnd=13109
 5	semaine	semaine	NOUN	_	_	10	obl:mod	_	AlignBegin=13109|AlignEnd=13447|Gender[lex]=Fem|Number[ctxt]=Sing
-6	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	AlignBegin=13447|AlignEnd=13785|SpaceAfter=No
+6	dernière	dernier	ADJ	_	Gender=Fem	5	amod	_	AlignBegin=13447|AlignEnd=13785|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	AlignBegin=13785|AlignEnd=13785
 8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=13785|AlignEnd=14123|SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	AlignBegin=14123|AlignEnd=14461
@@ -96,7 +96,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=20986|AlignEnd=21645
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=21645|AlignEnd=22304
 3	super	super	ADV	_	_	4	advmod	_	AlignBegin=22304|AlignEnd=22962
-4	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=22962|AlignEnd=23621|SpaceAfter=No
+4	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=22962|AlignEnd=23621|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=23621|AlignEnd=23621
 6	franchement	franchement	ADV	_	_	4	advmod	_	AlignBegin=23621|AlignEnd=24280
 7	!	!	PUNCT	_	_	4	punct	_	AlignBegin=24280|AlignEnd=24280
@@ -227,7 +227,7 @@
 4	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	AlignBegin=44768|AlignEnd=45005|Tense[denom]=Past
 5	dans	dans	ADP	_	_	7	case	_	AlignBegin=45005|AlignEnd=45243
 6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=45243|AlignEnd=45480
-7	bras	bras	NOUN	_	Number=Plur	4	obl:mod	_	AlignBegin=45480|AlignEnd=45718|Gender[lex]=Masc|SpaceAfter=No
+7	bras	bras	NOUN	_	_	4	obl:mod	_	AlignBegin=45480|AlignEnd=45718|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=45718|AlignEnd=45718
 9	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	AlignBegin=45718|AlignEnd=45923|Idiom=Yes
 10	qu'	que	SCONJ	_	_	9	fixed	_	AlignBegin=45923|AlignEnd=46129|InIdiom=Yes|SpaceAfter=No
@@ -300,7 +300,7 @@
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=59893|AlignEnd=60313
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	AlignBegin=60313|AlignEnd=60734
 5	trop	trop	ADV	_	_	6	advmod	_	AlignBegin=60734|AlignEnd=61154
-6	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=61154|AlignEnd=61575|SpaceAfter=No
+6	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=61154|AlignEnd=61575|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=61575|AlignEnd=61575
 
 # sent_id = ParisStories_2022_3_petitDuCentre__16
@@ -329,7 +329,7 @@
 7	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=66136|AlignEnd=66541|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=66541|AlignEnd=66541
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=66541|AlignEnd=66945
-10	petit-déjeuner	petit-déjeuner	NOUN	_	Number=Sing	5	obj	_	AlignBegin=66945|AlignEnd=67350|Gender[lex]=Masc|SpaceAfter=No
+10	petit-déjeuner	petit-déjeuner	NOUN	_	_	5	obj	_	AlignBegin=66945|AlignEnd=67350|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	AlignBegin=67350|AlignEnd=67350
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	AlignBegin=67350|AlignEnd=67754|wordform=du
@@ -351,7 +351,7 @@
 4	passé	passer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	AlignBegin=70727|AlignEnd=71032|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 5	tout	tout	ADJ	_	Gender=Masc	7	amod	_	AlignBegin=71032|AlignEnd=71336|Number[ctxt]=Sing
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=71336|AlignEnd=71641
-7	temps	temps	NOUN	_	Number=Sing	4	obj	_	AlignBegin=71641|AlignEnd=71945|Gender[lex]=Masc
+7	temps	temps	NOUN	_	_	4	obj	_	AlignBegin=71641|AlignEnd=71945|Gender[lex]=Masc|Number[ctxt]=Sing
 8	ensemble	ensemble	ADV	_	_	4	advmod	_	AlignBegin=71945|AlignEnd=72250|SpaceAfter=No
 9	,	,	PUNCT	_	_	16	punct	_	AlignBegin=72250|AlignEnd=72250
 10	parce	parce	ADV	_	ExtPos=SCONJ	16	mark	_	AlignBegin=72250|AlignEnd=72520|Idiom=Yes
@@ -359,7 +359,7 @@
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=72790|AlignEnd=73060
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux:pass	_	AlignBegin=73060|AlignEnd=73330
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=73330|AlignEnd=73600
-15	peu	peu	NOUN	_	Number=Sing	16	obl:mod	_	AlignBegin=73600|AlignEnd=73869|Gender[lex]=Masc
+15	peu	peu	NOUN	_	_	16	obl:mod	_	AlignBegin=73600|AlignEnd=73869|Gender[lex]=Masc|Number[ctxt]=Sing
 16	perdu	perdre	VERB	_	VerbForm=Part|Voice=Pass	4	advcl	_	AlignBegin=73869|AlignEnd=74139|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
 17	par	par	ADP	_	_	18	case	_	AlignBegin=74139|AlignEnd=74409
 18	rapport	rapport	NOUN	_	_	16	obl:mod	_	AlignBegin=74409|AlignEnd=74679|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -391,12 +391,12 @@
 16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	expl:subj	_	AlignBegin=78059|AlignEnd=78320|SpaceAfter=No
 17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	AlignBegin=78320|AlignEnd=78582
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=78582|AlignEnd=78843
-19	première	premier	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	AlignBegin=78843|AlignEnd=79104
-20	fois	fois	NOUN	_	Number=Sing	8	ccomp	_	AlignBegin=79104|AlignEnd=79365|Gender[lex]=Fem
+19	première	premier	ADJ	_	Gender=Fem	20	amod	_	AlignBegin=78843|AlignEnd=79104|Number[ctxt]=Sing
+20	fois	fois	NOUN	_	_	8	ccomp	_	AlignBegin=79104|AlignEnd=79365|Gender[lex]=Fem|Number[ctxt]=Sing
 21	ou	ou	CCONJ	_	_	24	cc	_	AlignBegin=79365|AlignEnd=79627
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	AlignBegin=79627|AlignEnd=79888
 23	deuxième	deuxième	ADJ	_	_	24	amod	_	AlignBegin=79888|AlignEnd=80149|Gender[ctxt]=Fem|Number[ctxt]=Sing
-24	fois	fois	NOUN	_	Number=Sing	20	conj	_	AlignBegin=80149|AlignEnd=80410|Gender[lex]=Fem
+24	fois	fois	NOUN	_	_	20	conj	_	AlignBegin=80149|AlignEnd=80410|Gender[lex]=Fem|Number[ctxt]=Sing
 25	qu'	que	SCONJ	_	_	27	mark	_	AlignBegin=80410|AlignEnd=80672|SpaceAfter=No
 26	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	AlignBegin=80672|AlignEnd=80933
 27	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl	_	AlignBegin=80933|AlignEnd=81194
@@ -419,14 +419,14 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=85066|AlignEnd=85525
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85525|AlignEnd=85984
 3	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	AlignBegin=85984|AlignEnd=86443
-4	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	AlignBegin=86443|AlignEnd=86902
-5	cheveux	cheveu	NOUN	_	Number=Plur	2	obj	_	AlignBegin=86902|AlignEnd=87362|Gender[lex]=Masc
+4	beaux	beau	ADJ	_	Gender=Masc	5	amod	_	AlignBegin=86443|AlignEnd=86902|Number[ctxt]=Plur
+5	cheveux	cheveu	NOUN	_	_	2	obj	_	AlignBegin=86902|AlignEnd=87362|Gender[lex]=Masc|Number[ctxt]=Plur
 6	bouclés	bouclé	ADJ	_	_	5	amod	_	AlignBegin=87362|AlignEnd=87821|Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=87821|AlignEnd=87821
 8	de	un	DET	_	PronType=Art	10	det	_	AlignBegin=87821|AlignEnd=88280
 9	grands	grand	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	AlignBegin=88280|AlignEnd=88739
-10	yeux	yeux	NOUN	_	Number=Plur	5	conj	_	AlignBegin=88739|AlignEnd=89198|Gender[lex]=Masc
-11	marrons	marron	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	AlignBegin=89198|AlignEnd=89657|SpaceAfter=No
+10	yeux	œil	NOUN	_	Number=Plur	5	conj	_	AlignBegin=88739|AlignEnd=89198|Gender[lex]=Masc
+11	marrons	marron	ADJ	_	_	10	amod	_	AlignBegin=89198|AlignEnd=89657|Gender[ctxt]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=89657|AlignEnd=89657
 
 # sent_id = ParisStories_2022_3_petitDuCentre__21
@@ -562,7 +562,7 @@
 3	franchement	franchement	ADV	_	_	6	advmod	_	AlignBegin=115119|AlignEnd=115449|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=115449|AlignEnd=115449
 5	trop	trop	ADV	_	_	6	advmod	_	AlignBegin=115449|AlignEnd=115780
-6	mignon	mignon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=115780|AlignEnd=116110|SpaceAfter=No
+6	mignon	mignon	ADJ	_	Gender=Masc	0	root	_	AlignBegin=115780|AlignEnd=116110|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=116110|AlignEnd=116110
 
 # sent_id = ParisStories_2022_3_petitDuCentre__28

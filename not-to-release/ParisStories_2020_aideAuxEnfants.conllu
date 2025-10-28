@@ -25,7 +25,7 @@
 9	semaines	semaine	NOUN	_	_	7	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 10	par	par	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	biais	biais	NOUN	_	Number=Sing	7	obl:mod	_	Gender[lex]=Masc
+12	biais	biais	NOUN	_	_	7	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	colonie	colonie	NOUN	_	_	12	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -102,7 +102,7 @@
 10	enfants	enfant	NOUN	_	_	8	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	de	de	ADP	_	_	14	case	_	_
-13	jeunes	jeune	ADJ	_	Number=Plur	14	amod	_	Gender[ctxt]=Masc
+13	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
 14	adolescents	adolescent	NOUN	_	_	10	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
@@ -201,7 +201,7 @@
 7	classes	classe	NOUN	_	_	5	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	Idiom=Yes
 9	petit	petit	ADJ	_	Gender=Masc	8	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
-10	peu	peu	NOUN	_	Number=Sing	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes
+10	peu	peu	NOUN	_	_	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 11	plus	plus	ADV	_	_	12	advmod	_	_
 12	jolies	joli	ADJ	_	_	7	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur
 13	que	que	SCONJ	_	_	14	case	_	_
@@ -229,7 +229,7 @@
 12	,	,	PUNCT	_	_	21	punct	_	_
 13	dans	dans	ADP	_	_	16	case	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
-15	première	premier	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+15	première	premier	ADJ	_	Gender=Fem	16	amod	_	Number[ctxt]=Sing
 16	partie	partie	NOUN	_	_	21	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -242,7 +242,7 @@
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|Tense[denom]=Past
-27	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	28	det	_	_
+27	plusieurs	plusieurs	DET	_	PronType=Ind	28	det	_	Number[lex]=Plur
 28	activités	activité	NOUN	_	_	26	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 29	,	,	PUNCT	_	_	34	punct	_	_
 30	comme	comme	ADP	_	_	34	mark	_	_
@@ -266,7 +266,7 @@
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	temps	temps	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Masc
+7	temps	temps	NOUN	_	_	4	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	créent	créer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	eux-mêmes	eux-mêmes	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	obl:mod	_	_
@@ -360,7 +360,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	bœuf	bœuf	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
+4	bœuf	bœuf	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	malgache	malgache	ADJ	_	_	4	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -378,7 +378,7 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
 11	de	de	ADP	_	_	12	case	_	_
-12	riz	riz	NOUN	_	Number=Sing	10	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+12	riz	riz	NOUN	_	_	10	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	_
 14	parce	parce	ADV	_	ExtPos=SCONJ	18	mark	_	Idiom=Yes
 15	qu'	que	SCONJ	_	_	14	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -419,7 +419,7 @@
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	noix	noix	NOUN	_	Number=Plur	6	conj	_	Gender[lex]=Fem
+11	noix	noix	NOUN	_	_	6	conj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 12	de	de	ADP	_	_	13	case	_	_
 13	coco	coco	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -430,7 +430,7 @@
 1	ah	ah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	noix	noix	NOUN	_	Number=Plur	0	root	_	Gender[lex]=Fem
+4	noix	noix	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Plur
 5	de	de	ADP	_	_	6	case	_	_
 6	coco	coco	NOUN	_	_	4	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
