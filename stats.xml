@@ -6,137 +6,141 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>2776</sentences><tokens>42257</tokens><words>42789</words><fused>532</fused></total>
-    <train><sentences>1387</sentences><tokens>21939</tokens><words>22239</words><fused>300</fused></train>
+    <train><sentences>1387</sentences><tokens>21940</tokens><words>22240</words><fused>300</fused></train>
     <dev><sentences>692</sentences><tokens>10156</tokens><words>10274</words><fused>118</fused></dev>
-    <test><sentences>697</sentences><tokens>10162</tokens><words>10276</words><fused>114</fused></test>
+    <test><sentences>697</sentences><tokens>10161</tokens><words>10275</words><fused>114</fused></test>
   </size>
-  <lemmas unique="2410" /><!-- ,, ., le, être, euh, moi, de, avoir, lui, et, ce, un, que, on, à -->
-  <forms unique="3266" /><!-- ,, ., euh, et, de, le, on, est, je, c', il, à, que, en, a -->
+  <lemmas unique="2373" /><!-- ,, ., le, être, euh, moi, de, lui, avoir, et, un, ce, que, on, à -->
+  <forms unique="3261" /><!-- ,, ., euh, et, de, le, on, est, je, c', il, à, que, en, a -->
   <fusions unique="5" /><!-- du, au, des, aux, auxquelles -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">1215</tag><!-- tout, petit, premier, même, autre, bon, vrai, content, seul, beau -->
-    <tag name="ADP">3469</tag><!-- de, à, en, dans, pour, avec, sur, comme, par, pendant -->
-    <tag name="ADV">3525</tag><!-- pas, donc, parce, enfin, là, plus, vraiment, tout, très, même -->
-    <tag name="AUX">2104</tag><!-- être, avoir, faire, refaire -->
-    <tag name="CCONJ">1552</tag><!-- et, mais, puis, ou, ni, c'est-à-dire, soit, bon, comme, or -->
-    <tag name="DET">3468</tag><!-- le, un, son, ce, quelque, des, du, chaque, les, une -->
-    <tag name="INTJ">2313</tag><!-- euh, bah, ouais, bon, ah, quoi, hein, mh, ben, bref -->
-    <tag name="NOUN">4429</tag><!-- coup, fait, peu, genre, temps, fois, heure, an, truc, jour -->
-    <tag name="NUM">240</tag><!-- deux, trois, six, dix, mille, cinq, quatre, huit, quatorze, sept -->
-    <tag name="PRON">6437</tag><!-- moi, lui, ce, on, toi, ça, y, soi, qui, eux -->
-    <tag name="PROPN">420</tag><!-- Paris, CROUS, Z, Agen, Anglais, Ecosse, CP, sanga, Athis, France -->
-    <tag name="PUNCT">8189</tag><!-- ,, ., ?, !, …, .], :, ..., ", [vous -->
-    <tag name="SCONJ">946</tag><!-- que, quand, si, comme, puisque, parce, qu~, après, avant, lorsque -->
-    <tag name="VERB">4417</tag><!-- avoir, faire, être, aller, dire, voir, savoir, voilà, pouvoir, passer -->
-    <tag name="X">65</tag><!-- XXX, s~, d~, m~, pl~, _, b~, comple~, c~, c~… -->
+    <tag name="ADJ">1191</tag><!-- tout, petit, premier, même, autre, bon, vrai, content, mignon, seul -->
+    <tag name="ADP">3460</tag><!-- de, à, en, dans, pour, avec, sur, comme, par, pendant -->
+    <tag name="ADV">3450</tag><!-- pas, donc, parce, enfin, là, plus, vraiment, tout, très, même -->
+    <tag name="AUX">2276</tag><!-- être, avoir, faire, refaire -->
+    <tag name="CCONJ">1553</tag><!-- et, mais, puis, ou, ni, c'est-à-dire, sauf, soit, bon, comme -->
+    <tag name="DET">3467</tag><!-- le, un, son, ce, quelque, du, chaque, les, une, aucun -->
+    <tag name="INTJ">2392</tag><!-- euh, bah, ouais, oui, bon, ah, quoi, hein, mh, ben -->
+    <tag name="NOUN">4423</tag><!-- coup, fait, peu, genre, temps, fois, heure, jour, an, truc -->
+    <tag name="NUM">243</tag><!-- deux, trois, six, dix, cinq, mille, quatre, huit, quatorze, sept -->
+    <tag name="PRON">6429</tag><!-- moi, lui, ce, on, toi, ça, y, soi, qui, que -->
+    <tag name="PROPN">418</tag><!-- Paris, CROUS, Z, Agen, Anglais, Ecosse, CP, sanga, Athis, France -->
+    <tag name="PUNCT">8186</tag><!-- ,, ., ?, !, …, :, ..., ", !], ( -->
+    <tag name="SCONJ">943</tag><!-- que, quand, si, comme, puisque, parce, après, avant, lorsque -->
+    <tag name="VERB">4233</tag><!-- avoir, faire, aller, dire, voir, savoir, être, voilà, pouvoir, passer -->
+    <tag name="X">125</tag><!-- XXX, s~, d~, j~, re~, a~, euh~, i~, m~, pl~ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="49">
-    <feat name="Definite" value="Def" upos="DET">1933</feat><!-- le, la, les, l' -->
-    <feat name="Definite" value="Ind" upos="DET">890</feat><!-- un, une, des, du, d', de, le, les -->
-    <feat name="Emph" value="No" upos="PRON">2995</feat><!-- je, il, j', elle, tu, me, m', ils, l', lui -->
-    <feat name="Emph" value="Yes" upos="PRON">230</feat><!-- moi, lui, elle, toi, eux, soi, -moi, elles -->
-    <feat name="ExtPos" value="ADJ" upos="ADP">5</feat><!-- en, à -->
-    <feat name="ExtPos" value="ADP" upos="ADP,PRON">17</feat><!-- il, en, à -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,CCONJ,DET,INTJ,NOUN,SCONJ">300</feat><!-- en, un, quand, et, de, une, d', pas, à, par -->
+  <feats unique="53">
+    <feat name="Case" value="Acc" upos="PRON">364</feat><!-- l', nous, le, m', me, les, te, la, t', vous -->
+    <feat name="Case" value="Dat" upos="PRON">283</feat><!-- me, lui, m', nous, leur, te, t', vous -->
+    <feat name="Case" value="Nom" upos="PRON">3171</feat><!-- on, je, il, j', elle, tu, ils, vous, nous, elles -->
+    <feat name="Definite" value="Def" upos="DET">1934</feat><!-- le, la, les, l' -->
+    <feat name="Definite" value="Ind" upos="DET">895</feat><!-- un, une, des, du, d', de, le, les -->
+    <feat name="Emph" value="No" upos="PRON">3894</feat><!-- on, je, il, j', elle, tu, me, nous, m', ils -->
+    <feat name="Emph" value="Yes" upos="PRON">234</feat><!-- moi, lui, elle, toi, eux, soi, -moi, elle-même, elles, eux-mêmes -->
+    <feat name="ExtPos" value="ADJ" upos="ADP,X">8</feat><!-- en, à, ferm~, jus~, ty~ -->
+    <feat name="ExtPos" value="ADP" upos="ADP,PRON,VERB,X">33</feat><!-- vu, il, en, d~, à, de~ -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,CCONJ,DET,INTJ,NOUN,SCONJ,X">387</feat><!-- en, un, quand, et, de, une, à, d', non, pas -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ">41</feat><!-- et, c'est-à-dire -->
-    <feat name="ExtPos" value="DET" upos="ADP">20</feat><!-- de -->
-    <feat name="ExtPos" value="INTJ" upos="ADJ,ADV,INTJ,NOUN,VERB">403</feat><!-- enfin, genre, oui, voilà, non, dieu, machin, pardon, ~enfin, alors -->
-    <feat name="ExtPos" value="NOUN" upos="ADP,NOUN">7</feat><!-- drag, à, bac, road, tote -->
-    <feat name="ExtPos" value="PRON" upos="DET">2</feat><!-- quelque -->
-    <feat name="ExtPos" value="PROPN" upos="X">14</feat><!-- XXX -->
-    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,SCONJ,VERB">200</feat><!-- parce, alors, sauf, surtout, déjà, même, peut-être, vu -->
-    <feat name="ExtPos" value="VERB" upos="PRON,X">34</feat><!-- se, s', il, me, port, te, y -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">3407</feat><!-- la, elle, une, ma, fois, cette, maison, première, mère, heures -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">8521</feat><!-- le, on, c', il, un, ça, fait, coup, ce, tout -->
+    <feat name="ExtPos" value="DET" upos="ADP,X">21</feat><!-- de, du~ -->
+    <feat name="ExtPos" value="INTJ" upos="ADJ,ADV,INTJ,NOUN,VERB,X">352</feat><!-- enfin, genre, voilà, non, dieu, machin, pardon, ~enfin, alors, euh~ -->
+    <feat name="ExtPos" value="NOUN" upos="ADP,NOUN,X">21</feat><!-- drag, à, an~, bac, clip~, d~, fai~, frig~, fr~, hu~ -->
+    <feat name="ExtPos" value="PRON" upos="DET,X">10</feat><!-- j~, i~, quelque -->
+    <feat name="ExtPos" value="PROPN" upos="X">16</feat><!-- XXX, Céc~, Re~ -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,SCONJ,X">201</feat><!-- parce, alors, sauf, qu~, surtout, déjà, même, peut-être -->
+    <feat name="ExtPos" value="VERB" upos="PRON,X">56</feat><!-- se, s', il, me, s~, a~, re~, é~, confron~, con~ -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NUM,PRON,PROPN,VERB,X">1459</feat><!-- la, elle, une, ma, cette, première, petite, sa, toute, elles -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">5175</feat><!-- le, on, c', il, un, ça, ce, fait, tout, mon -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">50</feat><!-- serait, aurait, aurais, voudrais, dirait, irait, pourrait, aimerais, changerait, connaîtrais -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">31</feat><!-- vas, dis, allez, inquiète, sois, écoute, allume, attends, demande, faites -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">4336</feat><!-- est, a, était, ai, avait, suis, étais, sais, fait, avais -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">4336</feat><!-- est, a, était, ai, avait, suis, étais, sais, avais, fait -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">48</feat><!-- soit, fasse, ait, passe, cherche, choisisse, décolle, puisse, accompagnes, appelle -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2732</feat><!-- les, des, nous, ils, mes, tous, vous, sont, deux, ans -->
-    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">17277</feat><!-- le, on, est, je, c', il, a, la, était, un -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1436</feat><!-- les, des, nous, ils, mes, vous, sont, étaient, ses, nos -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,DET,NOUN,PRON,PROPN,VERB,X">12183</feat><!-- le, on, est, je, c', il, a, la, était, un -->
     <feat name="Number[psor]" value="Plur" upos="DET">79</feat><!-- nos, notre, leurs, leur, ses, vos -->
     <feat name="Number[psor]" value="Sing" upos="DET">387</feat><!-- mon, ma, mes, son, ses, sa, tes, ton, ta -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">2779</feat><!-- je, j', ai, me, moi, nous, suis, m', étais, sais -->
-    <feat name="Person" value="2" upos="AUX,PRON,VERB">647</feat><!-- tu, vous, as, te, t', vois, sais, vas, toi, fais -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">7003</feat><!-- on, est, c', il, a, était, ça, y, elle, avait -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">649</feat><!-- tu, vous, as, te, t', vois, sais, vas, toi, fais -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB,X">7001</feat><!-- on, est, c', il, a, était, ça, y, elle, avait -->
     <feat name="Person[psor]" value="1" upos="DET">321</feat><!-- mon, ma, mes, nos, notre -->
     <feat name="Person[psor]" value="2" upos="DET">24</feat><!-- tes, ton, ta, vos -->
     <feat name="Person[psor]" value="3" upos="DET">121</feat><!-- son, ses, sa, leurs, leur -->
-    <feat name="Polarity" value="Neg" upos="ADV">172</feat><!-- pas, n', ne, non, qu' -->
-    <feat name="Poss" value="Yes" upos="DET">465</feat><!-- mon, ma, mes, son, ses, nos, sa, notre, leurs, leur -->
-    <feat name="PronType" value="Art" upos="DET">2818</feat><!-- le, la, un, les, une, l', des, du, d', de -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">1203</feat><!-- c', ça, ce, cette, -ce, ces, cet, ceux, celui, celui-là -->
-    <feat name="PronType" value="Ind" upos="ADJ,DET,PRON">973</feat><!-- on, tout, tous, quelqu'un, quelque, un, chaque, quoi, quelques, une -->
-    <feat name="PronType" value="Int" upos="DET,PRON">32</feat><!-- quoi, qu', quelle -->
+    <feat name="Polarity" value="Neg" upos="ADV,SCONJ">500</feat><!-- pas, n', ne, que, non, plus, qu' -->
+    <feat name="Poss" value="Yes" upos="DET">466</feat><!-- mon, ma, mes, son, ses, nos, sa, notre, leurs, leur -->
+    <feat name="PronType" value="Art" upos="DET">2834</feat><!-- le, la, un, les, une, l', des, du, de, d' -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">1204</feat><!-- c', ça, ce, cette, -ce, ces, cet, ceux, celui, celui-là -->
+    <feat name="PronType" value="Ind" upos="ADJ,DET,PRON">970</feat><!-- on, tout, tous, quelque, quelqu'un, un, chaque, quelques, une, autre -->
+    <feat name="PronType" value="Int" upos="DET,PRON">44</feat><!-- quoi, qu', quelle -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">67</feat><!-- rien, jamais, personne, aucune, aucun, aucuns, nul -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">4412</feat><!-- je, il, j', y, elle, tu, me, moi, s', mon -->
-    <feat name="PronType" value="Rel" upos="ADV,PRON">409</feat><!-- qui, que, où, qu', dont, lesquelles, lequel, quoi -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">4415</feat><!-- je, il, j', y, elle, tu, me, moi, s', mon -->
+    <feat name="PronType" value="Rel" upos="ADV,PRON">409</feat><!-- qui, que, où, qu', quoi, dont, lesquelles, lequel -->
     <feat name="Reflex" value="Yes" upos="PRON">135</feat><!-- me, s', se, te, m', elle-même, eux-mêmes, lui-même, moi-même, t' -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">5</feat><!-- passerez, rappellerai, reverrai, sera, verras -->
-    <feat name="Tense" value="Imp" upos="AUX,VERB">1463</feat><!-- était, avait, étais, avais, faisait, étaient, allait, voulait, avaient, fallait -->
-    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">1137</feat><!-- fait, dit, été, eu, vu, passé, allée, mis, pris, allé -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">3023</feat><!-- est, a, ai, suis, sais, fait, dit, va, sont, as -->
-    <feat name="Typo" value="Yes" upos="PUNCT">1</feat><!-- . -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">4466</feat><!-- est, a, était, ai, avait, suis, étais, sais, avais, fait -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">781</feat><!-- faire, aller, être, dire, voir, avoir, parler, prendre, manger, rentrer -->
-    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">1168</feat><!-- fait, dit, été, eu, vu, passé, allée, mis, pris, allé -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">1462</feat><!-- était, avait, étais, avais, faisait, étaient, allait, voulait, avaient, fallait -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,X">43</feat><!-- été, fait, re~, dispro~, eu, fa~, specialisée, spécialisée -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">2998</feat><!-- est, a, ai, suis, sais, fait, dit, va, sont, as -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">4465</feat><!-- est, a, était, ai, avait, suis, étais, sais, avais, fait -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">783</feat><!-- faire, aller, être, dire, voir, avoir, parler, prendre, manger, rentrer -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB,X">1167</feat><!-- fait, dit, été, eu, vu, passé, allée, mis, pris, allé -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">633</feat><!-- fait, eu, dit, vu, pris, commencé, parlé, rencontré, mis, demandé -->
+    <feat name="Voice" value="Pass" upos="VERB">103</feat><!-- amélioré, dit, fait, rentrée, repartie, tiré, assise, confrontée, déguisé, mise -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="53">
-    <dep name="acl">138</dep>
-    <dep name="acl:relcl">309</dep>
-    <dep name="advcl">431</dep>
+    <dep name="acl">140</dep>
+    <dep name="acl:relcl">310</dep>
+    <dep name="advcl">429</dep>
     <dep name="advcl:cleft">40</dep>
     <dep name="advmod">2562</dep>
-    <dep name="amod">649</dep>
-    <dep name="appos">79</dep>
+    <dep name="amod">646</dep>
+    <dep name="appos">80</dep>
     <dep name="aux:caus">16</dep>
     <dep name="aux:pass">105</dep>
     <dep name="aux:tense">1012</dep>
-    <dep name="case">2677</dep>
+    <dep name="case">2599</dep>
     <dep name="cc">1450</dep>
-    <dep name="ccomp">530</dep>
+    <dep name="ccomp">485</dep>
     <dep name="compound">14</dep>
     <dep name="conj">772</dep>
-    <dep name="cop">809</dep>
-    <dep name="csubj">14</dep>
-    <dep name="dep">146</dep>
+    <dep name="cop">981</dep>
+    <dep name="csubj">16</dep>
+    <dep name="dep">147</dep>
     <dep name="dep:comp">27</dep>
-    <dep name="det">3214</dep>
-    <dep name="discourse">3245</dep>
-    <dep name="dislocated">363</dep>
-    <dep name="expl:comp">294</dep>
+    <dep name="det">3213</dep>
+    <dep name="discourse">3246</dep>
+    <dep name="dislocated">357</dep>
+    <dep name="expl:comp">298</dep>
     <dep name="expl:pass">23</dep>
-    <dep name="expl:pv">48</dep>
-    <dep name="expl:subj">311</dep>
-    <dep name="fixed">668</dep>
+    <dep name="expl:pv">49</dep>
+    <dep name="expl:subj">314</dep>
+    <dep name="fixed">756</dep>
     <dep name="flat">23</dep>
     <dep name="flat:name">31</dep>
-    <dep name="iobj">351</dep>
+    <dep name="iobj">356</dep>
     <dep name="iobj:agent">1</dep>
-    <dep name="mark">1226</dep>
-    <dep name="nmod">831</dep>
+    <dep name="mark">1233</dep>
+    <dep name="nmod">839</dep>
     <dep name="nmod:appos">4</dep>
-    <dep name="nsubj">3967</dep>
+    <dep name="nsubj">3944</dep>
     <dep name="nsubj:caus">4</dep>
-    <dep name="nsubj:outer">1</dep>
-    <dep name="nsubj:pass">42</dep>
-    <dep name="nummod">158</dep>
-    <dep name="obj">1806</dep>
+    <dep name="nsubj:outer">23</dep>
+    <dep name="nsubj:pass">41</dep>
+    <dep name="nummod">159</dep>
+    <dep name="obj">1780</dep>
     <dep name="obj:agent">3</dep>
     <dep name="obj:lvc">84</dep>
     <dep name="obl">11</dep>
     <dep name="obl:agent">2</dep>
-    <dep name="obl:arg">517</dep>
-    <dep name="obl:mod">1050</dep>
-    <dep name="parataxis">14</dep>
-    <dep name="parataxis:parenth">26</dep>
-    <dep name="punct">8189</dep>
-    <dep name="reparandum">1034</dep>
+    <dep name="obl:arg">508</dep>
+    <dep name="obl:mod">1057</dep>
+    <dep name="parataxis">18</dep>
+    <dep name="parataxis:parenth">27</dep>
+    <dep name="punct">8186</dep>
+    <dep name="reparandum">1036</dep>
     <dep name="root">2776</dep>
     <dep name="vocative">16</dep>
-    <dep name="xcomp">676</dep>
+    <dep name="xcomp">540</dep>
   </deps>
 </treebank>
