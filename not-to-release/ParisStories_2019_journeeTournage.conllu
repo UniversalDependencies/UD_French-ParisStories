@@ -11,7 +11,7 @@
 7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
 8	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	10	iobj	_	SpaceAfter=No
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-10	envoyé	envoyer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+10	envoyé	envoyer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mail	mail	NOUN	_	_	10	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	pour	pour	ADP	_	_	15	mark	_	_
@@ -23,7 +23,7 @@
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
 21	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	aux:pass	_	_
-22	prise	prendre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	15	ccomp	_	Number[ctxt]=Sing|Tense[denom]=Past
+22	prise	prendre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	15	ccomp	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 23	pour	pour	ADP	_	_	28	case	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
@@ -36,15 +36,15 @@
 32	euh	euh	INTJ	_	_	36	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	sur	sur	ADP	_	_	36	case	_	_
-35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 36	Promenade	promenade	PROPN	_	_	30	nmod	_	Gender[lex]=Unknown
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
-38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
+38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 39	Anglais	Anglais	PROPN	_	_	36	nmod	_	Gender[lex]=Unknown
 40	pendant	pendant	ADP	_	_	43	case	_	_
-41	toute	tout	ADJ	_	Gender=Fem	43	amod	_	Number[ctxt]=Sing
-42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+41	toute	tout	ADJ	_	Gender=Fem	43	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 43	journée	journée	NOUN	_	_	28	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 44	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -66,7 +66,7 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	vraiment	vraiment	ADV	_	_	16	advmod	_	_
 15	vraiment	vraiment	ADV	_	_	14	conj	_	_
-16	cool	cool	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
+16	cool	cool	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 17	parce	parce	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 18	que	que	SCONJ	_	_	17	fixed	_	InIdiom=Yes
 19	enfin	enfin	ADV	_	ExtPos=INTJ	26	discourse	_	SpaceAfter=No
@@ -76,20 +76,20 @@
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
 24	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	26	iobj	_	SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
-26	permis	permettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	16	advcl	_	Number[ctxt]=Sing|Tense[denom]=Past
+26	permis	permettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	16	advcl	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 27	de	de	ADP	_	_	28	mark	_	_
 28	découvrir	découvrir	VERB	_	VerbForm=Inf	26	xcomp	_	Subject=SubjRaising
 29	euh	euh	INTJ	_	_	31	discourse	_	_
-30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 31	monde	monde	NOUN	_	_	28	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 32-33	du	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
-33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 34	cinéma	cinéma	NOUN	_	_	31	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 35	,	,	PUNCT	_	_	39	punct	_	_
 36	comment	comment	ADV	_	_	39	advmod	_	_
 37	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	nsubj	_	_
-38	se	soi	PRON	_	Person=3|PronType=Prs	39	expl:comp	_	_
+38	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	39	expl:pv	_	_
 39	passait	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	45	punct	_	_
 41	euh	euh	INTJ	_	_	45	discourse	_	SpaceAfter=No
@@ -112,7 +112,7 @@
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 7	super	super	ADV	_	_	8	advmod	_	_
 8	bien	bien	ADV	_	_	9	advmod	_	_
-9	payé	payer	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+9	payé	payer	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # text = il y avait d'abord, euh, un jour, euh, enfin quelques jours avant le tournage, on devait aller, euh, dans le studio pour, euh, essayer le et notre costume euh avec la costumière, et euh, pour qu'ils regardent, euh, nos cheveux pour voir, euh, quelle coiffure ils pouvaient nous faire.
@@ -122,7 +122,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	reparandum	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
-5	abord	abord	NOUN	_	_	3	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+5	abord	abord	NOUN	_	_	3	obl:mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -135,7 +135,7 @@
 15	quelques	quelque	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	jours	jour	NOUN	_	_	22	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 17	avant	avant	ADP	_	_	19	case	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	tournage	tournage	NOUN	_	_	16	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	16	punct	_	_
 21	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	nsubj	_	_
@@ -145,20 +145,20 @@
 25	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
-28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 29	studio	studio	NOUN	_	_	23	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 30	pour	pour	ADP	_	_	34	mark	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	_
 34	essayer	essayer	VERB	_	VerbForm=Inf	23	advcl	_	Subject=NoRaising
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	reparandum	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
 36	et	et	CCONJ	_	_	37	cc	_	_
-37	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	38	det	_	_
+37	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 38	costume	costume	NOUN	_	_	34	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 39	euh	euh	INTJ	_	_	42	discourse	_	_
 40	avec	avec	ADP	_	_	42	case	_	_
-41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 42	costumière	costumier	NOUN	_	_	34	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 43	,	,	PUNCT	_	_	50	punct	_	_
 44	et	et	CCONJ	_	_	50	cc	_	_
@@ -171,7 +171,7 @@
 51	,	,	PUNCT	_	_	55	punct	_	_
 52	euh	euh	INTJ	_	_	55	discourse	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
-54	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	55	det	_	_
+54	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	55	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 55	cheveux	cheveu	NOUN	_	_	50	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 56	pour	pour	ADP	_	_	57	mark	_	_
 57	voir	voir	VERB	_	VerbForm=Inf	55	acl	_	SpaceAfter=No|Subject=SubjRaising
@@ -191,16 +191,16 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	garçons	garçon	NOUN	_	_	7	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
-6	se	soi	PRON	_	Person=3|PronType=Prs	7	expl:pass	_	_
+6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	expl:pass	_	_
 7	faisaient	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
 9	peu	peu	NOUN	_	_	8	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 10	raser	raser	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
 11	sur	sur	ADP	_	_	13	case	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	côtés	côté	NOUN	_	_	10	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 14	pour	pour	ADP	_	_	19	reparandum	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
@@ -208,7 +208,7 @@
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	pour	pour	ADP	_	_	19	mark	_	_
 19	avoir	avoir	VERB	_	VerbForm=Inf	10	advcl	_	Subject=NoRaising
-20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 21	coupe	coupe	NOUN	_	_	19	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
@@ -217,11 +217,11 @@
 26	peu	peu	NOUN	_	_	25	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
-28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
-29	années	année	NOUN	_	_	25	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Plur
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+29	années	année	NOUN	_	_	25	obl:arg	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 30	quarante	quarante	NUM	_	_	29	nmod	_	Number[lex]=Sing|SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
-32	tout	tout	ADJ	_	Gender=Masc	33	amod	_	Number[ctxt]=Sing
+32	tout	tout	ADJ	_	Gender=Masc	33	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 33	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	conj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -236,9 +236,9 @@
 6	déjà	déjà	ADV	_	_	7	discourse	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:pass	_	_
-9	payé	payer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+9	payé	payer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	quarante	quarante	NUM	_	_	11	nummod	_	Number[lex]=Plur
-11	euros	euro	NOUN	_	_	9	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+11	euros	euro	NOUN	_	_	9	obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	juste	juste	ADV	_	_	15	advmod	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
@@ -247,7 +247,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	nsubj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
-20	duré	durer	VERB	_	VerbForm=Part|Voice=Act	9	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+20	duré	durer	VERB	_	VerbForm=Part|Voice=Act	9	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 21	,	,	PUNCT	_	_	25	punct	_	_
 22	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
@@ -262,25 +262,25 @@
 2	ensuite	ensuite	ADV	_	_	10	advmod	_	_
 3	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	jour	jour	NOUN	_	_	10	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	tournage	tournage	NOUN	_	_	6	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 10	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	être	être	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	euh	euh	INTJ	_	_	15	discourse	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	six	six	NUM	_	_	15	nummod	_	Number[lex]=Sing
-15	heures	heure	NOUN	_	_	11	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
+15	heures	heure	NOUN	_	_	11	obl:mod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 16-17	du	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	matin	matin	NOUN	_	_	15	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 21	studio	studio	NOUN	_	_	11	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 22	donc	donc	ADV	_	_	24	discourse	_	_
 23	pour	pour	ADP	_	_	24	mark	_	_
@@ -288,16 +288,16 @@
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	_
-28	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	29	det	_	_
+28	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 29	tenue	tenir	NOUN	_	_	24	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 30	,	,	PUNCT	_	_	35	punct	_	_
 31	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
-33	se	soi	PRON	_	Person=3|PronType=Prs	35	expl:pass	_	_
+33	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	expl:pass	_	_
 34	faire	faire	AUX	_	VerbForm=Inf	35	aux:caus	_	Subject=NoRaising
 35	maquiller	maquiller	VERB	_	VerbForm=Inf	24	appos	_	SpaceAfter=No|Subject=NoRaising
 36	,	,	PUNCT	_	_	39	punct	_	_
-37	se	soi	PRON	_	Person=3|PronType=Prs	39	expl:pass	_	_
+37	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	39	expl:pass	_	_
 38	faire	faire	AUX	_	VerbForm=Inf	39	aux:caus	_	Subject=NoRaising
 39	coiffer	coiffer	VERB	_	VerbForm=Inf	35	appos	_	SpaceAfter=No|Subject=NoRaising
 40	.	.	PUNCT	_	_	10	punct	_	_
@@ -319,16 +319,16 @@
 12	jusqu'	jusque	ADV	_	_	15	advmod	_	SpaceAfter=No
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	lieu	lieu	NOUN	_	_	4	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 16	de	de	ADP	_	_	17	case	_	_
 17	tournage	tournage	NOUN	_	_	15	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	sur	sur	ADP	_	_	20	case	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	Promenade	promenade	PROPN	_	_	15	nmod	_	Gender[lex]=Unknown
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 23	Anglais	Anglais	PROPN	_	_	20	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -343,12 +343,12 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	tout	tout	ADJ	_	Gender=Masc	13	reparandum	_	Number[ctxt]=Sing|SpaceAfter=No
+9	tout	tout	ADJ	_	Gender=Masc	13	reparandum	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	toute	tout	ADJ	_	Gender=Fem	15	amod	_	Number[ctxt]=Sing
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	toute	tout	ADJ	_	Gender=Fem	15	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	Promenade	promenade	PROPN	_	_	23	nsubj	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
@@ -357,7 +357,7 @@
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	fermée	fermer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+23	fermée	fermer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 24	.	.	PUNCT	_	_	23	punct	_	_
 
 # text = et euh, ils avaient vraiment mis, euh, du mobilier des années quarante, euh, ils avaient, euh, enfin des parasols, des fauteuils tout ça.
@@ -369,7 +369,7 @@
 4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 5	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux:tense	_	_
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	_
-7	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	21	reparandum	_	SpaceAfter=No|Tense[denom]=Past
+7	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	21	reparandum	_	PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -377,8 +377,8 @@
 12	mobilier	mobilier	NOUN	_	_	7	xcomp	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	années	année	NOUN	_	_	12	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+15	années	année	NOUN	_	_	12	nmod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 16	quarante	quarante	NUM	_	_	15	nmod	_	Number[lex]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	7	punct	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	SpaceAfter=No
@@ -394,7 +394,7 @@
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
 30	fauteuils	fauteuil	NOUN	_	_	27	appos	_	Gender[lex]=Masc|Number[ctxt]=Plur
-31	tout	tout	ADJ	_	Gender=Masc	32	amod	_	Number[ctxt]=Sing
+31	tout	tout	ADJ	_	Gender=Masc	32	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 32	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	21	punct	_	_
 
@@ -406,8 +406,8 @@
 3	vraiment	vraiment	ADV	_	_	7	advmod	_	_
 4	directement	directement	ADV	_	_	7	advmod	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
-6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-7	ambiance	ambiance	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+7	ambiance	ambiance	NOUN	_	_	0	root	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 8	quoi	quoi	INTJ	_	_	7	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -417,8 +417,8 @@
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	donc	donc	ADV	_	_	11	cc	_	_
 3	pendant	pendant	ADP	_	_	6	case	_	_
-4	toute	tout	ADJ	_	Gender=Fem	6	amod	_	Number[ctxt]=Sing
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	toute	tout	ADJ	_	Gender=Fem	6	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	matinée	matinée	NOUN	_	_	11	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -429,7 +429,7 @@
 13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 14	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 15	traverser	traverser	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
-16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	route	route	NOUN	_	_	15	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -445,12 +445,12 @@
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	scène	scène	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9	où	où	ADV	_	_	8	advmod	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	deux	deux	NUM	_	_	13	nummod	_	Number[lex]=Plur
 13	petits	petit	NOUN	_	_	14	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 14	traversaient	traverser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	route	route	NOUN	_	_	14	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 17	et	et	CCONJ	_	_	21	cc	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -458,7 +458,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	allaient	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	_
 22	vers	vers	ADP	_	_	24	case	_	_
-23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	plage	plage	NOUN	_	_	21	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -477,7 +477,7 @@
 10	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	0	root	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	passantes	passante	NOUN	_	_	10	nmod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 14	avec	avec	ADP	_	_	22	reparandum	_	_
 15	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
@@ -486,15 +486,15 @@
 18	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	cop	_	_
 19	avec	avec	ADP	_	_	22	case	_	_
 20	deux	deux	NUM	_	_	22	nummod	_	Number[lex]=Plur
-21	autres	autre	ADJ	_	_	22	amod	_	Gender[ctxt]=Masc|Number[ctxt]=Plur
+21	autres	autre	ADJ	_	_	22	amod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 22	figurants	figurant	NOUN	_	_	10	advcl	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	nsubj	_	_
 25	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux:tense	_	_
-26	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	conj	_	Number[ctxt]=Sing|Tense[denom]=Past
+26	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	conj	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 27	connaissance	connaissance	NOUN	_	_	26	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
-29	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	30	amod	_	Number[ctxt]=Sing
+29	tout	tout	ADJ	_	Gender=Masc|PronType=Ind	30	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 30	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -509,21 +509,21 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	coup	coup	NOUN	_	_	12	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
-12	marrant	marrant	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|SpaceAfter=No
+12	marrant	marrant	ADJ	_	Gender=Masc	0	root	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	21	punct	_	_
 14	pendant	pendant	ADP	_	_	18	case	_	_
 15	vraiment	vraiment	ADV	_	_	16	advmod	_	_
-16	toute	tout	ADJ	_	Gender=Fem	18	amod	_	Number[ctxt]=Sing
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	toute	tout	ADJ	_	Gender=Fem	18	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	matinée	matinée	NOUN	_	_	21	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 19	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
-21	retourné	retourner	VERB	_	VerbForm=Part|Voice=Act	12	advcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-22	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+21	retourné	retourner	VERB	_	VerbForm=Part|Voice=Act	12	advcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+22	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 23	scène	scène	NOUN	_	_	21	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 24	,	,	PUNCT	_	_	28	punct	_	_
 25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
@@ -544,7 +544,7 @@
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	finalement	finalement	ADV	_	_	9	advmod	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	film	film	NOUN	_	_	9	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
 9	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -613,7 +613,7 @@
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	reparandum	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	petit	petit	ADJ	_	Gender=Masc	7	amod	_	Number[ctxt]=Sing
+6	petit	petit	ADJ	_	Gender=Masc	7	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7	buffet	buffet	NOUN	_	_	3	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -625,21 +625,21 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	et	et	CCONJ	_	_	15	cc	_	_
 5	ensuite	ensuite	ADV	_	_	15	advmod	_	_
-6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-7	après-midi	après-midi	NOUN	_	_	15	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+7	après-midi	après-midi	NOUN	_	_	15	obl:mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	autre	autre	ADJ	_	_	15	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	LiaisonAfter=Yes
+14	autre	autre	ADJ	_	_	15	amod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 15	scène	scène	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux:pass	_	_
-18	tournée	tourner	VERB	_	VerbForm=Part|Voice=Pass	15	acl:relcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+18	tournée	tourner	VERB	_	VerbForm=Part|Voice=Pass	15	acl:relcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	sur	sur	ADP	_	_	21	case	_	_
-20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 21	plage	plage	NOUN	_	_	18	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 22	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -656,21 +656,21 @@
 8	Patrick	Patrick	PROPN	_	_	0	root	_	Gender[lex]=Unknown
 9	Bruel	Bruel	PROPN	_	_	8	flat:name	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	autre	autre	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-13	actrice	actrice	NOUN	_	_	8	appos	_	Gender[lex]=Fem|Number[ctxt]=Sing
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	LiaisonAfter=Yes
+12	autre	autre	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|LiaisonPossibleBefore=Yes
+13	actrice	actrice	NOUN	_	_	8	appos	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 14	et	et	CCONJ	_	_	20	cc	_	_
 15	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	20	punct	_	_
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	_
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	trois	trois	NUM	_	_	20	nummod	_	Number[lex]=Plur
 20	fils	fils	NOUN	_	_	13	conj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	jouaient	jouer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
 23	dans	dans	ADP	_	_	25	case	_	_
-24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-25	eau	eau	NOUN	_	_	22	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+25	eau	eau	NOUN	_	_	22	obl:arg	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 26	.	.	PUNCT	_	_	8	punct	_	_
 
 # text = Et donc, nous on était en arrière-plan en fait,
@@ -683,7 +683,7 @@
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
 7	en	en	ADP	_	_	8	case	_	_
-8	arrière-plan	arrière-plan	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
+8	arrière-plan	arrière-plan	NOUN	_	_	0	root	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
 10	fait	fait	NOUN	_	_	9	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
@@ -694,11 +694,11 @@
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	sur	sur	ADP	_	_	5	case	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	Promenade	promenade	PROPN	_	_	0	root	_	Gender[lex]=Unknown
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	Anglais	Anglais	PROPN	_	_	5	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 
@@ -711,21 +711,21 @@
 4	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 5	tournaient	tourner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 6	sur	sur	ADP	_	_	8	case	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	plage	plage	NOUN	_	_	5	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	donc	donc	ADV	_	_	16	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	Idiom=Yes
-13	petit	petit	ADJ	_	Gender=Masc	12	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
+13	petit	petit	ADJ	_	Gender=Masc	12	fixed	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|Number[ctxt]=Sing
 14	peu	peu	NOUN	_	_	12	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 15	plus	plus	ADV	_	_	16	advmod	_	_
-16	bas	bas	ADJ	_	Gender=Masc	8	amod	_	Number[ctxt]=Sing|SpaceAfter=No
+16	bas	bas	ADJ	_	Gender=Masc	8	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	_
 18	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	21	dislocated	_	_
 19	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux:pass	_	_
-21	obligé	obliger	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+21	obligé	obliger	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 22	de	de	ADP	_	_	23	mark	_	_
 23	rester	rester	VERB	_	VerbForm=Inf	21	xcomp	_	Subject=SubjRaising
 24	derrière	derrière	ADP	_	_	23	dep	_	_
@@ -739,7 +739,7 @@
 32	y	y	PRON	_	Person=3|PronType=Prs	33	expl:comp	_	_
 33	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
 34	de	de	ADP	_	ExtPos=DET	36	det	_	Idiom=Yes
-35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	fixed	_	InIdiom=Yes
+35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 36	vie	vie	NOUN	_	_	33	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 37	derrière	derrière	ADP	_	_	33	dep	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	43	punct	_	_
@@ -747,7 +747,7 @@
 40	que	que	SCONJ	_	_	43	mark	_	_
 41	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	43	nsubj	_	_
 42	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
-43	naturel	naturel	ADJ	_	_	29	appos	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+43	naturel	naturel	ADJ	_	_	29	appos	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 44	,	,	PUNCT	_	_	47	punct	_	_
 45	quoi	quoi	INTJ	_	_	47	discourse	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	45	punct	_	_
@@ -764,7 +764,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	coup	coup	NOUN	_	_	16	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 9	là	là	ADV	_	_	16	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -773,7 +773,7 @@
 13	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	Idiom=Yes
 14	peu	peu	NOUN	_	_	13	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 15	plus	plus	ADV	_	_	16	advmod	_	_
-16	tranquille	tranquille	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+16	tranquille	tranquille	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 
 # text = j'étais assise sur une chaise pendant pendant tout l'après-midi et euh.
@@ -781,15 +781,15 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
-3	assise	asseoir	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	0	root	_	Number[ctxt]=Sing|Tense[denom]=Past
+3	assise	asseoir	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 4	sur	sur	ADP	_	_	6	case	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	chaise	chaise	NOUN	_	_	3	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 7	pendant	pendant	ADP	_	_	11	reparandum	_	_
 8	pendant	pendant	ADP	_	_	11	case	_	_
-9	tout	tout	ADJ	_	Gender=Masc	11	amod	_	Number[ctxt]=Sing
-10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Masc|SpaceAfter=No
-11	après-midi	après-midi	NOUN	_	_	3	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+9	tout	tout	ADJ	_	Gender=Masc	11	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+11	après-midi	après-midi	NOUN	_	_	3	obl:mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -805,9 +805,9 @@
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	comment	comment	ADV	_	_	10	advmod	_	_
-9	se	soi	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	_
+9	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 10	tournait	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	scène	scène	NOUN	_	_	10	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	4	punct	_	_
 
@@ -816,19 +816,19 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/ab034f56f11fa10a0be51db97571baf061145be8
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	voyais	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	toutes	tout	ADJ	_	Gender=Fem	5	amod	_	Number[ctxt]=Plur
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+3	toutes	tout	ADJ	_	Gender=Fem	5	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	caméras	caméra	NOUN	_	_	2	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	tous	tout	ADJ	_	Gender=Masc	9	amod	_	Number[ctxt]=Plur
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	ingénieurs	ingénieur	NOUN	_	_	5	appos	_	Gender[lex]=Masc|Number[ctxt]=Plur
+7	tous	tout	ADJ	_	Gender=Masc	9	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+9	ingénieurs	ingénieur	NOUN	_	_	5	appos	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 10	sons	son	NOUN	_	_	9	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	assistantes	assistante	NOUN	_	_	9	appos	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+15	assistantes	assistante	NOUN	_	_	9	appos	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # text = Y avait deux petits acteurs, euh, qui avaient chacun, euh, une assistante, euh, attitrée un peu comme leurs mamans qui venaient, euh, les, faire des jeux avec eux pendant pendant qu'ils attendaient leur scène, euh, les recoiffer, les remaquiller, tout ça.
@@ -837,8 +837,8 @@
 1	Y	y	PRON	_	Person=3|PronType=Prs	2	obl:mod	_	_
 2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	deux	deux	NUM	_	_	5	nummod	_	Number[lex]=Plur
-4	petits	petit	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
-5	acteurs	acteur	NOUN	_	_	2	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+4	petits	petit	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
+5	acteurs	acteur	NOUN	_	_	2	obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -848,16 +848,16 @@
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	assistante	assistante	NOUN	_	_	10	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	LiaisonAfter=Yes
+16	assistante	assistante	NOUN	_	_	10	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	attitrée	attitrer	VERB	_	VerbForm=Part	16	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+20	attitrée	attitrer	VERB	_	VerbForm=Part	16	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 21	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	25	advmod	_	Idiom=Yes
 22	peu	peu	NOUN	_	_	21	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 23	comme	comme	ADP	_	_	25	case	_	_
-24	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	_
+24	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 25	mamans	maman	NOUN	_	_	20	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
 26	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 27	venaient	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
@@ -876,7 +876,7 @@
 40	qu'	que	SCONJ	_	_	39	fixed	_	InIdiom=Yes|SpaceAfter=No
 41	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	_
 42	attendaient	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	ccomp	_	_
-43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	44	det	_	_
+43	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	44	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 44	scène	scène	NOUN	_	_	42	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 45	,	,	PUNCT	_	_	33	punct	_	_
 46	euh	euh	INTJ	_	_	49	discourse	_	SpaceAfter=No
@@ -887,7 +887,7 @@
 51	les	eux	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	52	obj	_	_
 52	remaquiller	remaquiller	VERB	_	VerbForm=Inf	49	conj	_	SpaceAfter=No|Subject=ObjRaising
 53	,	,	PUNCT	_	_	55	punct	_	_
-54	tout	tout	ADJ	_	Gender=Masc	55	amod	_	Number[ctxt]=Sing
+54	tout	tout	ADJ	_	Gender=Masc	55	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 55	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	49	conj	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -902,6 +902,6 @@
 6	donc	donc	ADV	_	_	9	advmod	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-9	cool	cool	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	cool	cool	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 

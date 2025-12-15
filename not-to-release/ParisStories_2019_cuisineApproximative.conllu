@@ -6,7 +6,7 @@
 2	comment	comment	ADV	_	_	4	advmod	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	gougères	gougère	NOUN	_	_	4	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 7	?	?	PUNCT	_	_	4	punct	_	_
 
@@ -15,7 +15,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	bah	bah	INTJ	_	_	9	discourse	_	_
 2	d'	de	ADP	_	ExtPos=ADV	9	advmod	_	Idiom=Yes|SpaceAfter=No
-3	abord	abord	NOUN	_	_	2	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+3	abord	abord	NOUN	_	_	2	fixed	_	Gender[lex]=Masc|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
@@ -26,11 +26,11 @@
 11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	des	un	DET	_	Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	des	un	DET	_	Number=Plur|PronType=Art	15	det	_	_
 15	recettes	recette	NOUN	_	_	11	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 16	très	très	ADV	_	_	18	advmod	_	_
 17	très	très	ADV	_	_	16	conj	_	_
-18	carrées	carré	ADJ	_	_	15	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur
+18	carrées	carré	ADJ	_	_	15	amod	_	Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 19	etc	etc	ADV	_	_	9	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -42,21 +42,21 @@
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	plus	plus	ADV	_	_	4	advmod	_	_
-6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-7	habitude	habitude	NOUN	_	_	4	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+7	habitude	habitude	NOUN	_	_	4	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 8	de	de	ADP	_	_	18	reparandum	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	de	de	ADP	_	_	13	mark	_	_
 11	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 12	trop	trop	ADV	_	_	13	advmod	_	_
 13	suivre	suivre	VERB	_	VerbForm=Inf	18	reparandum	_	Subject=SubjRaising
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	proportions	proportion	NOUN	_	_	13	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	de	de	ADP	_	_	18	mark	_	_
 18	regarder	regarder	VERB	_	VerbForm=Inf	7	acl	_	Subject=SubjRaising
 19	en	en	ADP	_	_	20	case	_	_
-20	gros	gros	ADJ	_	Gender=Masc	18	obl:mod	_	Number[ctxt]=Sing
+20	gros	gros	ADJ	_	Gender=Masc	18	obl:mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 21	et	et	CCONJ	_	ExtPos=ADV	18	conj	_	Idiom=Yes
 22	tout	tout	ADV	_	_	21	fixed	_	InIdiom=Yes|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
@@ -65,10 +65,10 @@
 26	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 27	fous	foutre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
 28	de	de	ADP	_	ExtPos=DET	30	det	_	Idiom=Yes
-29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	fixed	_	Gender[ctxt]=Fem|InIdiom=Yes|SpaceAfter=No
-30	eau	eau	NOUN	_	_	27	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	fixed	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|LiaisonAfter=Yes|SpaceAfter=No
+30	eau	eau	NOUN	_	_	27	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 31	dans	dans	ADP	_	_	33	case	_	_
-32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 33	casserole	casserole	NOUN	_	_	27	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
 35	et	et	CCONJ	_	_	37	cc	_	_
@@ -82,7 +82,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	4	expl:comp	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	aperçue	apercevoir	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+4	aperçue	apercevoir	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	que	que	SCONJ	_	_	8	mark	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
@@ -99,7 +99,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	en	en	ADP	_	_	3	case	_	_
-3	gros	gros	ADJ	_	Gender=Masc	11	obl:mod	_	Number[ctxt]=Sing
+3	gros	gros	ADJ	_	Gender=Masc	11	obl:mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 4	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	ensuite	ensuite	ADV	_	_	8	reparandum	_	SpaceAfter=No
@@ -108,11 +108,11 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 11	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	beurre	beurre	NOUN	_	_	17	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	genre	genre	NOUN	_	ExtPos=INTJ	17	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
-16	des	un	DET	_	Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	des	un	DET	_	Number=Plur|PronType=Art	17	det	_	_
 17	morceaux	morceau	NOUN	_	_	11	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
 18	de	de	ADP	_	_	19	case	_	_
 19	beurre	beurre	NOUN	_	_	17	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -125,22 +125,22 @@
 2	là	là	ADV	_	_	5	advmod	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	regardé	regarder	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	recette	recette	NOUN	_	_	5	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 8	pour	pour	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	fois	fois	NOUN	_	_	5	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	InIdiom=Yes
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 13	coup	coup	NOUN	_	_	11	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 14	quand	quand	SCONJ	_	_	19	mark	_	_
 15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 16	t'	toi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=2|PronType=Prs	19	iobj	_	SpaceAfter=No
 17	en	en	PRON	_	Person=3|PronType=Prs	19	obj	_	_
 18	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-19	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	advcl	_	Number[ctxt]=Sing|Tense[denom]=Past
+19	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	advcl	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 20	aujourd'hui	aujourd'hui	ADV	_	_	19	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -163,21 +163,21 @@
 2	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	32	advmod	_	Idiom=Yes
 3	fois	fois	NOUN	_	_	2	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 4	que	que	SCONJ	_	_	11	mark	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 6	tout	tout	NOUN	_	_	11	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	bien	bien	ADV	_	_	9	advmod	_	_
-9	fondu	fondu	ADJ	_	_	11	reparandum	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	fondu	fondu	ADJ	_	_	11	reparandum	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	bien	bien	ADV	_	_	29	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	ouais	ouais	INTJ	_	_	29	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	que	que	SCONJ	_	_	29	mark	_	_
-16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-17	eau	eau	NOUN	_	_	21	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+17	eau	eau	NOUN	_	_	21	nsubj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 18	et	et	CCONJ	_	_	20	cc	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	beurre	beurre	NOUN	_	_	17	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	reparandum	_	_
 22	bien	bien	ADV	_	_	21	advmod	_	SpaceAfter=No
@@ -199,18 +199,18 @@
 38	et	et	CCONJ	_	_	40	cc	_	_
 39	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	40	nsubj	_	_
 40	rajoutes	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	32	conj	_	_
-41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 42	farine	farine	NOUN	_	_	40	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	et	et	CCONJ	_	_	52	cc	_	_
-45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 46	farine	farine	NOUN	_	_	56	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 47	,	,	PUNCT	_	_	46	punct	_	_
 48	maintenant	maintenant	ADV	_	_	52	advmod	_	_
 49	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	52	nsubj	_	_
 50	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	52	obj	_	SpaceAfter=No
 51	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	52	aux:tense	_	_
-52	retenu	retenir	VERB	_	VerbForm=Part|Voice=Act	32	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+52	retenu	retenir	VERB	_	VerbForm=Part|Voice=Act	32	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 53	,	,	PUNCT	_	_	56	punct	_	_
 54	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	56	nsubj	_	SpaceAfter=No
 55	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
@@ -219,9 +219,9 @@
 58	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	expl:subj	_	_
 59	y	y	PRON	_	Person=3|PronType=Prs	60	expl:comp	_	_
 60	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	acl:relcl	_	_
-61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 62	plus	plus	ADV	_	_	63	advmod	_	_
-63	gros	gros	ADJ	_	Gender=Masc	64	amod	_	Number[ctxt]=Sing
+63	gros	gros	ADJ	_	Gender=Masc	64	amod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 64	format	format	NOUN	_	_	60	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 65	.	.	PUNCT	_	_	32	punct	_	_
 
@@ -242,8 +242,8 @@
 12	,	,	PUNCT	_	_	21	punct	_	_
 13	alors	alors	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 14	que	que	SCONJ	_	_	13	fixed	_	InIdiom=Yes
-15	tout	tout	ADJ	_	Gender=Masc	17	amod	_	Number[ctxt]=Sing
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	tout	tout	ADJ	_	Gender=Masc	17	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 17	reste	reste	NOUN	_	_	21	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	nsubj	_	SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
@@ -265,11 +265,11 @@
 4	et	et	CCONJ	_	_	9	cc	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	ExtPos=ADV	9	discourse	_	Idiom=Yes
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	InIdiom=Yes
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 7	coup	coup	NOUN	_	_	5	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
 8	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 9	rajoutes	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	farine	farine	NOUN	_	_	9	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	21	punct	_	_
 13	et	et	CCONJ	_	_	21	cc	_	_
@@ -291,7 +291,7 @@
 29	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 30	bien	bien	ADV	_	_	31	advmod	_	_
 31	garder	garder	VERB	_	VerbForm=Inf	29	xcomp	_	Subject=SubjRaising
-32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 33	feu	feu	NOUN	_	_	31	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 34	,	,	PUNCT	_	_	48	punct	_	_
 35	parce	parce	ADV	_	ExtPos=SCONJ	48	mark	_	Idiom=Yes
@@ -304,9 +304,9 @@
 42	en	en	ADP	_	ExtPos=ADV	48	discourse	_	Idiom=Yes
 43	fait	fait	NOUN	_	_	42	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 44	,	,	PUNCT	_	_	42	punct	_	_
-45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-46	eau	eau	NOUN	_	_	48	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-47	s'	soi	PRON	_	Person=3|PronType=Prs	48	expl:comp	_	SpaceAfter=No
+45	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+46	eau	eau	NOUN	_	_	48	nsubj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+47	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	48	expl:pv	_	SpaceAfter=No
 48	évapore	évaporer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -320,7 +320,7 @@
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	_
 6	en	en	PRON	_	Person=3|PronType=Prs	8	iobj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux:tense	_	_
-8	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|Tense[denom]=Past
+8	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 9	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	Idiom=Yes
 10	fois	fois	NOUN	_	_	9	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 11	ensemble	ensemble	ADV	_	_	8	advmod	_	_
@@ -337,9 +337,9 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-4	eau	eau	NOUN	_	_	6	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-5	s'	soi	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	SpaceAfter=No
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+4	eau	eau	NOUN	_	_	6	nsubj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+5	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	expl:pv	_	SpaceAfter=No
 6	évapore	évaporer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	donc	donc	ADV	_	_	10	advmod	_	_
@@ -352,23 +352,23 @@
 15	en	en	ADP	_	ExtPos=ADV	21	discourse	_	Idiom=Yes
 16	fait	fait	NOUN	_	_	15	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	15	punct	_	_
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	pâte	pâte	NOUN	_	_	21	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-20	se	soi	PRON	_	Person=3|PronType=Prs	21	expl:pass	_	_
+20	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	21	expl:pass	_	_
 21	détache	détacher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
-23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	bords	bord	NOUN	_	_	21	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur
 25	de	de	ADP	_	_	27	case	_	_
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 27	casserole	casserole	NOUN	_	_	24	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 28	parce	parce	ADV	_	ExtPos=SCONJ	33	mark	_	Idiom=Yes
 29	que	que	SCONJ	_	_	28	fixed	_	InIdiom=Yes
-30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-31	eau	eau	NOUN	_	_	33	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+31	eau	eau	NOUN	_	_	33	nsubj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
-33	évaporée	évaporer	VERB	_	VerbForm=Part|Voice=Pass	21	advcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+33	évaporée	évaporer	VERB	_	VerbForm=Part|Voice=Pass	21	advcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 34	,	,	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_14
@@ -377,13 +377,13 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	6	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 6	finis	finir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	avec	avec	ADP	_	_	10	case	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	vraie	vrai	ADJ	_	_	10	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+9	vraie	vrai	ADJ	_	_	10	amod	_	Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 10	boule	boule	NOUN	_	_	6	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 11	de	de	ADP	_	_	12	case	_	_
 12	pâte	pâte	NOUN	_	_	10	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -395,14 +395,14 @@
 1	et	et	CCONJ	_	_	19	cc	_	_
 2	là	là	ADV	_	_	19	advmod	_	_
 3	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	11	dislocated	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	question	question	NOUN	_	_	19	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing
 6	que	que	PRON	_	PronType=Rel	11	obj	_	_
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 8	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 10	toujours	toujours	ADV	_	_	11	advmod	_	_
-11	posée	poser	VERB	_	VerbForm=Part|Voice=Pass	5	acl:relcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+11	posée	poser	VERB	_	VerbForm=Part|Voice=Pass	5	acl:relcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj:outer	_	SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -411,14 +411,14 @@
 17	que	que	SCONJ	_	_	19	mark	_	_
 18	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
 19	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-21	épices	épice	NOUN	_	_	19	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+21	épices	épice	NOUN	_	_	19	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 22	,	,	PUNCT	_	_	31	punct	_	_
 23	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	pendant	pendant	ADP	_	_	31	mark	_	_
 26	que	que	SCONJ	_	_	31	mark	_	_
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 28	beurre	beurre	NOUN	_	_	31	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 30	en	en	ADP	_	_	31	case	_	_
@@ -432,15 +432,15 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	matières	matière	NOUN	_	_	8	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Plur
-5	grasses	gras	ADJ	_	Gender=Fem	4	amod	_	Number[ctxt]=Plur|SpaceAfter=No
+5	grasses	gras	ADJ	_	Gender=Fem	4	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
 8	capte	capter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	vachement	vachement	ADV	_	_	10	advmod	_	_
 10	bien	bien	ADV	_	_	8	advmod	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	saveurs	saveur	NOUN	_	_	8	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 13	et	et	CCONJ	_	ExtPos=ADV	12	conj	_	Idiom=Yes
 14	tout	tout	ADV	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -459,12 +459,12 @@
 8	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	7	advmod	_	Idiom=Yes
 9	fois	fois	NOUN	_	_	8	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 10	que	que	SCONJ	_	_	16	mark	_	_
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	boule	boule	NOUN	_	_	16	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 13	de	de	ADP	_	_	14	case	_	_
 14	pâte	pâte	NOUN	_	_	12	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	formée	former	VERB	_	VerbForm=Part|Voice=Pass	8	ccomp	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+16	formée	former	VERB	_	VerbForm=Part|Voice=Pass	8	ccomp	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_18
@@ -477,17 +477,17 @@
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 7	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	reparandum	_	_
-8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 9	quest~	quest~	X	_	ExtPos=NOUN|Gender=Fem|Number=Sing	7	obj	_	_
 10	bah	bah	INTJ	_	_	19	discourse	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	fromage	fromage	NOUN	_	_	19	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	justement	justement	ADV	_	_	19	advmod	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 17	aussi	aussi	ADV	_	_	19	advmod	_	_
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	question	question	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
 20	qu~	qu~	X	_	ExtPos=SCONJ	19	dep	_	_
 21	parce	parce	ADV	_	ExtPos=SCONJ	40	mark	_	Idiom=Yes
@@ -498,18 +498,18 @@
 26	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	40	advmod	_	Idiom=Yes
 27	fois	fois	NOUN	_	_	26	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 28	que	que	SCONJ	_	_	35	mark	_	_
-29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 30	boule	boule	NOUN	_	_	35	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 31	de	de	ADP	_	_	32	case	_	_
 32	pâte	pâte	NOUN	_	_	30	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
 34	ferm~	ferm~	X	_	ExtPos=ADJ	35	reparandum	_	_
-35	formée	formé	ADJ	_	_	26	ccomp	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+35	formée	formé	ADJ	_	_	26	ccomp	_	Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 36	,	,	PUNCT	_	_	26	punct	_	_
 37	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 38	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
 39	hyper	hyper	ADV	_	_	40	advmod	_	_
-40	difficile	difficile	ADJ	_	_	19	advcl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+40	difficile	difficile	ADJ	_	_	19	advcl	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 41	à	à	ADP	_	_	42	mark	_	_
 42	casser	casser	VERB	_	VerbForm=Inf	40	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 43	.	.	PUNCT	_	_	19	punct	_	_
@@ -521,8 +521,8 @@
 2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 3	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	rajouter	rajouter	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	œufs	œuf	NOUN	_	Number=Plur	4	obj	_	Gender[lex]=Masc|SpaceAfter=No
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+6	œufs	œuf	NOUN	_	Number=Plur	4	obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_20
@@ -533,12 +533,12 @@
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 4	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	être	être	AUX	_	VerbForm=Inf	7	cop	_	Subject=SubjRaising
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	galère	galère	NOUN	_	_	4	xcomp	_	Gender[lex]=Fem|Number[ctxt]=Sing
 8	pour	pour	ADP	_	_	9	mark	_	_
 9	mélanger	mélanger	VERB	_	VerbForm=Inf	7	acl	_	Subject=NoRaising
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	tout	tout	ADJ	_	Gender=Masc	12	amod	_	Number[ctxt]=Sing
+11	tout	tout	ADJ	_	Gender=Masc	12	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -548,16 +548,16 @@
 1	et	et	CCONJ	_	_	16	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	16	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	dep	_	Scrap=Yes|SpaceAfter=No
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	dep	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	bah	bah	INTJ	_	_	16	discourse	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 12	coup	coup	NOUN	_	_	16	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 13	souvent	souvent	ADV	_	_	16	advmod	_	_
 14	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	16	dislocated	_	_
@@ -573,8 +573,8 @@
 1	genre	genre	NOUN	_	ExtPos=INTJ	3	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	œufs	œuf	NOUN	_	Number=Plur	3	obj	_	Gender[lex]=Masc
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+5	œufs	œuf	NOUN	_	Number=Plur	3	obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes
 6	etc	etc	ADV	_	_	5	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	17	punct	_	_
 8	et	et	CCONJ	_	_	17	cc	_	_
@@ -583,12 +583,12 @@
 11	que	que	SCONJ	_	_	14	mark	_	_
 12	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj:pass	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-14	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	9	ccomp	_	Number[ctxt]=Sing|Tense[denom]=Past
+14	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	9	ccomp	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 15	là	là	ADV	_	_	14	advmod	_	_
 16	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	épices	épice	NOUN	_	_	17	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+19	épices	épice	NOUN	_	_	17	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_23
@@ -597,7 +597,7 @@
 1	là	là	ADV	_	_	3	advmod	_	_
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	reparandum	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	fr~	fr~	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	7	reparandum	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	fromage	fromage	NOUN	_	_	3	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -617,7 +617,7 @@
 21	enlève	enlever	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 24	feu	feu	NOUN	_	_	21	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 25	en	en	ADP	_	ExtPos=ADV	21	discourse	_	Idiom=Yes
 26	fait	fait	NOUN	_	_	25	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -627,10 +627,10 @@
 30	,	,	PUNCT	_	_	28	punct	_	_
 31	dès	dès	ADP	_	ExtPos=ADV	21	advmod	_	Idiom=Yes
 32	que	que	SCONJ	_	_	31	fixed	_	InIdiom=Yes
-33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 34	beurre	beurre	NOUN	_	_	36	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
-36	fondu	fondre	VERB	_	VerbForm=Part|Voice=Pass	31	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+36	fondu	fondre	VERB	_	VerbForm=Part|Voice=Pass	31	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 37	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_24
@@ -642,14 +642,14 @@
 4	quand	quand	SCONJ	_	_	6	mark	_	_
 5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 6	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 8	farine	farine	NOUN	_	_	6	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	final	final	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	nsubj	_	_
-13	se	soi	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	_
+13	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	expl:pass	_	_
 14	décolle	décoller	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -665,14 +665,14 @@
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	et	et	CCONJ	_	_	12	cc	_	_
 9	dans	dans	ADP	_	_	12	case	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-11	bonnes	bon	ADJ	_	Gender=Fem	12	amod	_	Number[ctxt]=Plur
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	bonnes	bon	ADJ	_	Gender=Fem	12	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 12	proportions	proportion	NOUN	_	_	6	conj	_	Gender[lex]=Fem|Number[ctxt]=Plur
 13	et	et	CCONJ	_	ExtPos=ADV	6	conj	_	Idiom=Yes
 14	tout	tout	ADV	_	_	13	fixed	_	InIdiom=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
-17	se	soi	PRON	_	Person=3|PronType=Prs	18	expl:pass	_	_
+17	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	expl:pass	_	_
 18	décolle	décoller	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	hyper	hyper	ADV	_	_	20	advmod	_	_
 20	vite	vite	ADV	_	_	18	advmod	_	SpaceAfter=No
@@ -684,14 +684,14 @@
 1	et	et	CCONJ	_	_	17	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	10	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	coup	coup	NOUN	_	_	17	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 11	après	après	ADV	_	_	14	reparandum	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
@@ -702,7 +702,7 @@
 17	retires	retirer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	feu	feu	NOUN	_	_	17	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -712,7 +712,7 @@
 1	oui	oui	INTJ	_	_	4	discourse	_	_
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	oublié	oublier	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+4	oublié	oublier	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
 6	que	que	PRON	_	PronType=Rel	5	nmod	_	_
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	obj	_	Scrap=Yes|SpaceAfter=No
@@ -724,7 +724,7 @@
 1	mais	mais	CCONJ	_	_	8	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	coup	coup	NOUN	_	_	8	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 5	après	après	ADV	_	_	8	advmod	_	_
 6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
@@ -732,7 +732,7 @@
 8	retires	retirer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	feu	feu	NOUN	_	_	8	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
 12	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	27	reparandum	_	Idiom=Yes
 13	fois	fois	NOUN	_	_	12	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
@@ -752,27 +752,27 @@
 27	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	Idiom=Yes
 28	fois	fois	NOUN	_	_	27	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
 29	que	que	SCONJ	_	_	33	mark	_	_
-30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 31	beurre	beurre	NOUN	_	_	33	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:tense	_	_
-33	fondu	fondre	VERB	_	VerbForm=Part|Voice=Act	27	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+33	fondu	fondre	VERB	_	VerbForm=Part|Voice=Act	27	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 34	et	et	CCONJ	_	_	41	cc	_	_
 35	que	que	SCONJ	_	_	41	mark	_	_
-36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	reparandum	_	_
-37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 38	farine	farine	NOUN	_	_	41	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 39	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux:tense	_	_
 40	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	aux:pass	_	_
-41	mise	mettre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	33	conj	_	Number[ctxt]=Sing|Tense[denom]=Past
+41	mise	mettre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	33	conj	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 42	et	et	CCONJ	_	_	48	cc	_	_
 43	que	que	SCONJ	_	_	48	mark	_	_
 44	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	48	nsubj	_	_
-45	s'	soi	PRON	_	Person=3|PronType=Prs	48	expl:pass	_	SpaceAfter=No
+45	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	48	expl:pass	_	SpaceAfter=No
 46	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux:pass	_	_
 47	bien	bien	ADV	_	_	48	advmod	_	_
-48	décollé	décoller	VERB	_	VerbForm=Part|Voice=Pass	33	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+48	décollé	décoller	VERB	_	VerbForm=Part|Voice=Pass	33	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 49	de	de	ADP	_	_	51	case	_	_
-50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+50	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 51	casserole	casserole	NOUN	_	_	48	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 52	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -781,32 +781,32 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	25	cc	_	_
 2	ensuite	ensuite	ADV	_	_	25	advmod	_	_
-3	épices	épice	NOUN	_	_	25	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+3	épices	épice	NOUN	_	_	25	dislocated	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
 6	souvent	souvent	ADV	_	_	8	advmod	_	_
-7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-8	épice	épice	NOUN	_	_	3	conj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+8	épice	épice	NOUN	_	_	3	conj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9	que	que	SCONJ	_	_	11	case	_	_
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 11	grand-mère	grand-mère	NOUN	_	_	21	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	que	que	SCONJ	_	_	15	case	_	_
-14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	_
+14	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	mère	mère	NOUN	_	_	21	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	que	que	SCONJ	_	_	21	mark	_	_
-18	toute	tout	ADJ	_	Gender=Fem|PronType=Ind	20	amod	_	Number[ctxt]=Sing
-19	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	_
+18	toute	tout	ADJ	_	Gender=Fem|PronType=Ind	20	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+19	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 20	famille	famille	NOUN	_	_	21	nsubj	_	Gender[lex]=Fem|Number[ctxt]=Sing
 21	met	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 25	muscade	muscade	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	bien	bien	ADV	_	_	28	advmod	_	_
-28	sûr	sûr	ADJ	_	_	25	advcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+28	sûr	sûr	ADJ	_	_	25	advcl	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 29	.	.	PUNCT	_	_	25	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_30
@@ -820,20 +820,20 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	rajoutes	rajouter	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	_
+9	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 10	fromage	fromage	NOUN	_	_	8	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	fromage	fromage	NOUN	_	_	10	appos	_	Gender[lex]=Masc|Number[ctxt]=Sing
-13	râpé	râper	VERB	_	VerbForm=Part	12	acl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+13	râpé	râper	VERB	_	VerbForm=Part	12	acl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	ou	ou	CCONJ	_	_	15	cc	_	_
 15	Neufchâtel	Neufchâtel	PROPN	_	_	12	conj	_	Gender[lex]=Unknown
 16	quand	quand	SCONJ	_	_	18	mark	_	_
 17	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	_
 18	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	super	super	ADJ	_	_	21	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Sing
+20	super	super	ADJ	_	_	21	amod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 21	coloc	coloc	NOUN	_	_	18	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-22	picarde	picard	ADJ	_	Gender=Fem	21	amod	_	Number[ctxt]=Sing
+22	picarde	picard	ADJ	_	Gender=Fem	21	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 23	comme	comme	ADP	_	_	24	case	_	_
 24	toi	toi	PRON	_	Emph=Yes|Number=Sing|Person=2|PronType=Prs	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
@@ -857,7 +857,7 @@
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	que	que	ADV	_	Polarity=Neg	7	advmod	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	Neufchâtel	Neufchâtel	PROPN	_	_	4	obj	_	Gender[lex]=Unknown|SpaceAfter=No
 8	…	…	PUNCT	_	_	4	punct	_	_
 
@@ -873,7 +873,7 @@
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
 8	mettre	mettre	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 9	de	de	ADP	_	ExtPos=DET	11	det	_	Idiom=Yes
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	fixed	_	InIdiom=Yes
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 11	muscade	muscade	NOUN	_	_	8	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
