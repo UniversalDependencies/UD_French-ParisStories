@@ -1,7 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_cuisineApproximative_1
 # text = donc comment je fais les gougères ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	comment	comment	ADV	_	_	4	advmod	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1
@@ -12,7 +11,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_2
 # text = bah d'abord, enfin je suis pas quelqu'un qui fait euh, des recettes très très carrées etc.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	bah	bah	INTJ	_	_	9	discourse	_	_
 2	d'	de	ADP	_	ExtPos=ADV	9	advmod	_	Idiom=Yes|SpaceAfter=No
 3	abord	abord	NOUN	_	_	2	fixed	_	Gender[lex]=Masc|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -36,7 +34,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_3
 # text = genre souvent j'ai plus l'habitude de, de pas trop suivre les proportions, de regarder en gros et tout, donc souvent je fous de l'eau dans la casserole, et souvent trop.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	genre	genre	NOUN	_	ExtPos=INTJ	4	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 2	souvent	souvent	ADV	_	_	4	advmod	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -78,7 +75,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_4
 # text = je me suis aperçue que c'était ça qui les empêchait de gonfler.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1
 2	me	moi	PRON	_	Emph=No|PronType=Prs	4	expl:comp	_	Number[lex]=Sing|Person[lex]=1
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -96,7 +92,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_5
 # text = et en gros euh, ensuite, ensuite, tu mets le beurre, genre des morceaux de beurre,
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	en	en	ADP	_	_	3	case	_	_
 3	gros	gros	ADJ	_	Gender=Masc	11	obl:mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
@@ -120,7 +115,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_6
 # text = et là j'ai regardé la recette pour une fois du coup quand je t'en ai fait aujourd'hui.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	advmod	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -146,7 +140,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_7
 # text = et c'est soixante-quinze grammes de beurre,
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -158,7 +151,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_8
 # text = et une fois que le tout est bien fondu, bien, ouais, que l'eau et le beurre est bien, est bien, sont bien mélangés, tu rajoutes un peu de sel, et tu rajoutes la farine, et la farine, maintenant je l'ai retenu, c'est ce qu'il y a le plus gros format.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	32	cc	_	_
 2	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	32	advmod	_	Idiom=Yes
 3	fois	fois	NOUN	_	_	2	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
@@ -227,7 +219,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_9
 # text = enfin c'était genre euh, cent cinquante grammes de farine, alors que tout le reste c'est soixante-quinze grammes ou euh, vingt-cinq centilitres.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	enfin	enfin	ADV	_	ExtPos=INTJ	9	discourse	_	_
 2	c'	ce	PRON	_	PronType=Dem	9	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
@@ -258,7 +249,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_10
 # text = et euh, et du coup tu rajoutes la farine, et ensuite, euh, tu, tu mélanges, et, il faut, il faut bien garder le feu, parce que comme ça, euh, en fait, l'eau s'évapore.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
@@ -312,7 +302,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_11
 # text = je sais plus, on en avait fait une fois ensemble ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	Number[lex]=Sing|Person[lex]=1
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	discourse	_	Person[ctxt]=1
 3	plus	plus	ADV	_	_	2	advmod	_	SpaceAfter=No
@@ -328,13 +317,11 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_12
 # text = non ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	non	non	ADV	_	ExtPos=INTJ|Polarity=Neg	0	root	_	_
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_cuisineApproximative_13
 # text = euh, l'eau s'évapore et donc ça permet que, euh, en fait, la pâte se détache des bords de la casserole parce que l'eau est évaporée,
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -373,7 +360,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_14
 # text = et du coup tu finis avec une vraie boule de pâte.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	6	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -391,7 +377,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_15
 # text = et là moi la question que je me suis toujours posée, c'est est-ce que tu mets les épices, euh, pendant que le beurre est en train de fondre,
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	19	cc	_	_
 2	là	là	ADV	_	_	19	advmod	_	_
 3	moi	moi	PRON	_	Emph=Yes|PronType=Prs	11	dislocated	_	Number[lex]=Sing|Person[lex]=1
@@ -429,7 +414,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_16
 # text = parce que les matières grasses, ça capte vachement bien les saveurs et tout.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	parce	parce	ADV	_	ExtPos=SCONJ	8	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -448,7 +432,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_17
 # text = ou est-ce que tu le fais une fois que la boule de pâte est formée ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	ou	ou	CCONJ	_	_	7	cc	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	PronType=Dem	7	expl:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -469,7 +452,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_18
 # text = et en fait, je me pose cette quest~ bah le fromage, justement c'est aussi la question qu~ parce qu'en fait, une fois que la boule de pâte est ferm~ formée, elle est hyper difficile à casser.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	_	2	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -516,7 +498,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_19
 # text = ensuite tu vas rajouter les œufs,
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	ensuite	ensuite	ADV	_	_	3	advmod	_	_
 2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=2
 3	vas	aller	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -527,7 +508,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_20
 # text = et là ça va être la galère pour mélanger et tout ça.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	advmod	_	_
 3	ça	ça	PRON	_	PronType=Dem	4	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -544,7 +524,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_21
 # text = et du coup euh, le, bah du coup souvent moi je rajoute tout après.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	16	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -569,7 +548,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_22
 # text = genre je mets les œufs etc, et une fois que tout est fait là je rajoute les épices.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	genre	genre	NOUN	_	ExtPos=INTJ	3	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
@@ -593,7 +571,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_23
 # text = là je rajoute le fr~, fromage et tout, et euh, non non non bah je je l'enlève du feu en fait, dès que, dès que le beurre est fondu.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	là	là	ADV	_	_	3	advmod	_	_
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1
 3	rajoute	rajouter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	reparandum	_	Person[ctxt]=1
@@ -635,7 +612,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_24
 # text = en fait, quand tu mets la farine au final ça se décolle.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	en	en	ADP	_	ExtPos=ADV	14	discourse	_	Idiom=Yes
 2	fait	fait	NOUN	_	_	1	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
@@ -655,7 +631,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_25
 # text = enfin si tu le fais bien, et dans les bonnes proportions et tout, ça se décolle hyper vite.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	enfin	enfin	ADV	_	ExtPos=INTJ	18	discourse	_	_
 2	si	si	SCONJ	_	_	5	mark	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=2
@@ -680,7 +655,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_26
 # text = et du coup, euh, du coup après, bah après tu le retires du feu.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	17	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -708,7 +682,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_27
 # text = oui j'ai oublié ce que tu…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	oui	oui	INTJ	_	_	4	discourse	_	_
 2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -720,7 +693,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_28
 # text = mais du coup après tu le retires du feu une fois que, une fois que c'est, XXX enfin une fois qu~ une fois que le beurre a fondu et que la la farine a été mise et que ça s'est bien décollé de la casserole.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	mais	mais	CCONJ	_	_	8	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -778,7 +750,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_29
 # text = et ensuite épices, et souvent l'épice que ma grand-mère, que ma mère, que toute ma famille met c'est la muscade, bien sûr.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	25	cc	_	_
 2	ensuite	ensuite	ADV	_	_	25	advmod	_	_
 3	épices	épice	NOUN	_	_	25	dislocated	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
@@ -811,7 +782,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_30
 # text = et ensuite tu rajoutes euh, tu rajoutes ton fromage, fromage râpé ou Neufchâtel quand tu as une super coloc picarde comme toi.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	ensuite	ensuite	ADV	_	_	4	advmod	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=2
@@ -840,7 +810,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_31
 # text = XXX et euh, et voilà.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	XXX	XXX	X	_	_	6	discourse	_	wordform=xxx
 2	et	et	CCONJ	_	_	6	cc	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -851,7 +820,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_32
 # text = mais souvent je trouve que le Neufchâtel…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	souvent	souvent	ADV	_	_	4	advmod	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1
@@ -863,7 +831,6 @@
 
 # sent_id = ParisStories_2019_cuisineApproximative_33
 # text = si tu mets du Neufchâtel faut pas mettre de la muscade.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/161acd44d78cab860706b76ff16515e5918b84a3
 1	si	si	SCONJ	_	_	3	mark	_	_
 2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=2
 3	mets	mettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	advcl	_	Person[ctxt]=2

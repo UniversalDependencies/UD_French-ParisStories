@@ -1,7 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # text = ouais alors en fait euh Rafi il a, il a rencontré une, une fille, euh à l'Île Maurice.
 # sent_id = ParisStories_2019_mauriceAventure_1
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	ouais	ouais	INTJ	_	_	8	discourse	_	_
 2	alors	alors	ADV	_	_	8	discourse	_	_
 3	en	en	ADP	_	ExtPos=ADV	8	discourse	_	Idiom=Yes
@@ -28,7 +27,6 @@
 
 # text = et euh et cette fille elle travaille dans un, dans un Parc d'aventure euh là-bas euh.
 # sent_id = ParisStories_2019_mauriceAventure_2
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	3	reparandum	_	_
 2	euh	euh	INTJ	_	_	7	discourse	_	_
 3	et	et	CCONJ	_	_	7	cc	_	_
@@ -51,7 +49,6 @@
 
 # text = c'est euh ça s'appelle Casela Aventures.
 # sent_id = ParisStories_2019_mauriceAventure_3
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	c'	ce	PRON	_	PronType=Dem	2	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
@@ -64,7 +61,6 @@
 
 # text = c'est un parc où il y a pf où il y a plein de, plein d'activités.
 # sent_id = ParisStories_2019_mauriceAventure_4
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -88,7 +84,6 @@
 
 # text = il y a des animaux.
 # sent_id = ParisStories_2019_mauriceAventure_5
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	Person[lex]=3
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -98,7 +93,6 @@
 
 # text = donc c'est un peu genre le mélange d'un zoo et et d'attractions.
 # sent_id = ParisStories_2019_mauriceAventure_6
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	8	advmod	_	_
 2	c'	ce	PRON	_	PronType=Dem	8	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -118,7 +112,6 @@
 
 # text = enfin il y a plein d'activités qui existent.
 # sent_id = ParisStories_2019_mauriceAventure_7
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	_
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	expl:subj	_	Person[lex]=3
 3	y	y	PRON	_	PronType=Prs	4	expl:comp	_	Person[lex]=3
@@ -132,7 +125,6 @@
 
 # text = il y a les tyroliennes.
 # sent_id = ParisStories_2019_mauriceAventure_8
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	Person[lex]=3
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -142,7 +134,6 @@
 
 # text = il y a, il y a le quad, le buggy.
 # sent_id = ParisStories_2019_mauriceAventure_9
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	Person[lex]=3
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No
@@ -159,7 +150,6 @@
 
 # text = il y a la marche avec les lions, marche avec les pumas.
 # sent_id = ParisStories_2019_mauriceAventure_10
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	Person[lex]=3
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -177,7 +167,6 @@
 
 # text = enfin c'est, c'est ouais c'est un un parc d'aventures super grand.
 # sent_id = ParisStories_2019_mauriceAventure_11
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	c'	ce	PRON	_	PronType=Dem	3	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
@@ -198,7 +187,6 @@
 
 # text = et donc en fait cet été elle nous a proposé de nous y emmener sur un de ses jours, sur un de ses jours de repos, pour euh bah pour qu'on puisse découvrir en fait son son univers avec elle euh.
 # sent_id = ParisStories_2019_mauriceAventure_12
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	donc	donc	ADV	_	_	10	cc	_	_
 3	en	en	ADP	_	ExtPos=ADV	10	discourse	_	Idiom=Yes
@@ -247,7 +235,6 @@
 
 # text = donc on avait choisi choisi un jour tous ensemble etc.
 # sent_id = ParisStories_2019_mauriceAventure_13
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
@@ -262,7 +249,6 @@
 
 # text = et donc on est parti euh là-bas.
 # sent_id = ParisStories_2019_mauriceAventure_14
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	donc	donc	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -274,7 +260,6 @@
 
 # text = donc euh on s'est levé très tôt un matin pour arriver à l'aube là-bas.
 # sent_id = ParisStories_2019_mauriceAventure_15
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	6	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -295,7 +280,6 @@
 
 # text = euh donc euh elle nous avait dit en fait euh que c'est l'endroit était très très vaste.
 # sent_id = ParisStories_2019_mauriceAventure_16
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	7	discourse	_	_
 2	donc	donc	ADV	_	_	7	advmod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
@@ -319,7 +303,6 @@
 
 # text = donc on pouvait pas euh tout faire dans la même journée.
 # sent_id = ParisStories_2019_mauriceAventure_17
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	3	advmod	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	pouvait	pouvoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -335,7 +318,6 @@
 
 # text = du coup fallait vraiment qu'on choisisse vraiment deux activités qu'on voulait faire.
 # sent_id = ParisStories_2019_mauriceAventure_18
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -356,7 +338,6 @@
 
 # text = et comme ça ça pourrait être bien.
 # sent_id = ParisStories_2019_mauriceAventure_19
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	comme	comme	ADP	_	_	3	case	_	_
 3	ça	ça	PRON	_	PronType=Dem	5	obl:mod	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -368,7 +349,6 @@
 
 # text = donc on a tous choisi euh de faire le quad tous ensemble.
 # sent_id = ParisStories_2019_mauriceAventure_20
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
@@ -385,7 +365,6 @@
 
 # text = comme ça on pouvait vraiment faire une activité vraiment tous ensemble etc.
 # sent_id = ParisStories_2019_mauriceAventure_21
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	comme	comme	ADP	_	_	2	case	_	_
 2	ça	ça	PRON	_	PronType=Dem	4	obl:mod	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -402,7 +381,6 @@
 
 # text = donc on a pris le quad.
 # sent_id = ParisStories_2019_mauriceAventure_22
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -413,7 +391,6 @@
 
 # text = on avait tous des quads doubles.
 # sent_id = ParisStories_2019_mauriceAventure_23
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
 3	tous	tous	PRON	_	Gender=Masc|PronType=Ind	5	nmod	_	Number[lex]=Plur|Person[lex]=3
@@ -424,7 +401,6 @@
 
 # text = et et Papi et Mamie avaient pris un buggy pour être avec nous.
 # sent_id = ParisStories_2019_mauriceAventure_24
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	2	reparandum	_	_
 2	et	et	CCONJ	_	_	7	cc	_	_
 3	Papi	Papi	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -442,7 +418,6 @@
 
 # text = et du coup on est parti pendant deux heures euh dans dans un domaine hyper vaste euh.
 # sent_id = ParisStories_2019_mauriceAventure_25
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	7	cc	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -466,7 +441,6 @@
 
 # text = on s'est s'est vraiment cru dans la savane euh.
 # sent_id = ParisStories_2019_mauriceAventure_26
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	3	dep:comp	_	Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	_
@@ -482,7 +456,6 @@
 
 # text = tu as plein d'animaux en liberté euh notamment les zèbres.
 # sent_id = ParisStories_2019_mauriceAventure_27
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	Number[lex]=Sing|Person[lex]=2
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plein	plein	ADV	_	_	5	advmod	_	_
@@ -498,7 +471,6 @@
 
 # text = enfin c'est incroyable.
 # sent_id = ParisStories_2019_mauriceAventure_28
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	ExtPos=INTJ	4	discourse	_	_
 2	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -507,7 +479,6 @@
 
 # text = et euh tu peux les toucher.
 # sent_id = ParisStories_2019_mauriceAventure_29
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=2
@@ -518,7 +489,6 @@
 
 # text = euh il y avait des autruches aussi c'était trop marrant euh.
 # sent_id = ParisStories_2019_mauriceAventure_30
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	expl:subj	_	Person[lex]=3
 3	y	y	PRON	_	PronType=Prs	4	expl:comp	_	Person[lex]=3
@@ -535,7 +505,6 @@
 
 # text = et euh tu as plein de paysages magnifiques.
 # sent_id = ParisStories_2019_mauriceAventure_31
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	4	discourse	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=2
@@ -548,7 +517,6 @@
 
 # text = à un moment donné on monte tout là-haut,
 # sent_id = ParisStories_2019_mauriceAventure_32
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	à	à	ADP	_	_	3	case	_	_
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	moment	moment	NOUN	_	_	6	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -561,7 +529,6 @@
 
 # text = on a une vue sur la mer.
 # sent_id = ParisStories_2019_mauriceAventure_33
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -573,7 +540,6 @@
 
 # text = enfin c'est c'est vraiment super joli.
 # sent_id = ParisStories_2019_mauriceAventure_34
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	c'	ce	PRON	_	PronType=Dem	3	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	reparandum	_	_
@@ -586,7 +552,6 @@
 
 # text = donc on a fini cette activité.
 # sent_id = ParisStories_2019_mauriceAventure_35
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -597,7 +562,6 @@
 
 # text = euh ensuite on a on a dejeuné tous ensemble.
 # sent_id = ParisStories_2019_mauriceAventure_36
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	ensuite	ensuite	ADV	_	_	4	advmod	_	_
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -611,7 +575,6 @@
 
 # text = euh on a été ah oui aussi on a nourri les girafes.
 # sent_id = ParisStories_2019_mauriceAventure_37
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -628,7 +591,6 @@
 
 # text = c'est une activité que tu peux faire,
 # sent_id = ParisStories_2019_mauriceAventure_38
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	LiaisonAfter=Yes
@@ -641,7 +603,6 @@
 
 # text = tu achètes des petits trucs et tu leur donnes.
 # sent_id = ParisStories_2019_mauriceAventure_39
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	Number[lex]=Sing|Person[lex]=2
 2	achètes	acheter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
@@ -655,7 +616,6 @@
 
 # text = enfin mais c'est vraiment marrant.
 # sent_id = ParisStories_2019_mauriceAventure_40
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	_
 2	mais	mais	CCONJ	_	_	6	discourse	_	_
 3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -666,7 +626,6 @@
 
 # text = et donc après on a mangé tous ensemble.
 # sent_id = ParisStories_2019_mauriceAventure_41
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	donc	donc	ADV	_	_	6	advmod	_	_
 3	après	après	ADV	_	_	6	advmod	_	_
@@ -679,7 +638,6 @@
 
 # text = et ensuite on est parti euh euh bah tous ensemble aussi mais il y a que la moitié qui ont fait euh euh la deuxième activité.
 # sent_id = ParisStories_2019_mauriceAventure_42
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	ensuite	ensuite	ADV	_	_	5	advmod	_	_
 3	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	5	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -710,7 +668,6 @@
 
 # text = c'était donc euh activité pont supspendu et tyrolienne.
 # sent_id = ParisStories_2019_mauriceAventure_43
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3	donc	donc	ADV	_	_	5	advmod	_	_
@@ -724,7 +681,6 @@
 
 # text = donc il y a la moitié qui ont le vertige.
 # sent_id = ParisStories_2019_mauriceAventure_44
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	expl:subj	_	Person[lex]=3
 3	y	y	PRON	_	PronType=Prs	4	expl:comp	_	Person[lex]=3
@@ -739,7 +695,6 @@
 
 # text = donc du coup bah on était pas très on était plus très nombreux à rester pour faire ça.
 # sent_id = ParisStories_2019_mauriceAventure_45
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	7	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
@@ -764,7 +719,6 @@
 
 # text = euh il y avait euh l'oncle d'Alex.
 # sent_id = ParisStories_2019_mauriceAventure_46
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	expl:subj	_	Person[lex]=3
 3	y	y	PRON	_	PronType=Prs	4	expl:comp	_	Person[lex]=3
@@ -778,7 +732,6 @@
 
 # text = il y avait les les deux cousines d'Alex.
 # sent_id = ParisStories_2019_mauriceAventure_47
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	Person[lex]=3
 3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -792,7 +745,6 @@
 
 # text = il y avait Bastien et Matthieu, les copains de des cousines.
 # sent_id = ParisStories_2019_mauriceAventure_48
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	expl:subj	_	Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	expl:comp	_	Person[lex]=3
 3	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
@@ -811,7 +763,6 @@
 
 # text = et je crois qu'il y avait moi.
 # sent_id = ParisStories_2019_mauriceAventure_49
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1
 3	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
@@ -824,7 +775,6 @@
 
 # text = et c'est tout.
 # sent_id = ParisStories_2019_mauriceAventure_50
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -833,7 +783,6 @@
 
 # text = ah non il y avait le père d'Alex aussi.
 # sent_id = ParisStories_2019_mauriceAventure_51
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	ah	ah	INTJ	_	_	5	discourse	_	_
 2	non	non	ADV	_	ExtPos=INTJ	5	discourse	_	_
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	expl:subj	_	Person[lex]=3
@@ -848,7 +797,6 @@
 
 # text = parce que lui il a le vertige, mais il s'est lancé un défi.
 # sent_id = ParisStories_2019_mauriceAventure_52
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	parce	parce	ADV	_	ExtPos=SCONJ	5	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	dislocated	_	Person[lex]=3
@@ -868,7 +816,6 @@
 
 # text = donc voilà et euh et donc en fait, on comme je disais, c'est un super grand endroit.
 # sent_id = ParisStories_2019_mauriceAventure_53
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	donc	donc	ADV	_	_	2	advmod	_	_
 2	voilà	voilà	VERB	_	ExtPos=INTJ	20	discourse	_	_
 3	et	et	CCONJ	_	_	5	reparandum	_	_
@@ -893,7 +840,6 @@
 
 # text = et euh du coup tu dois prendre des bus pour aller d'un endroit à un autre.
 # sent_id = ParisStories_2019_mauriceAventure_54
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	7	discourse	_	_
 3-4	du	_	_	_	_	_	_	_	_
@@ -917,7 +863,6 @@
 
 # text = enfin tu as des horaires précis de bus, des horaires précis d'activités.
 # sent_id = ParisStories_2019_mauriceAventure_55
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	ExtPos=INTJ	3	discourse	_	_
 2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=2
 3	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -936,7 +881,6 @@
 
 # text = enfin c'est un grand bordel.
 # sent_id = ParisStories_2019_mauriceAventure_56
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	enfin	enfin	ADV	_	_	6	advmod	_	_
 2	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -947,7 +891,6 @@
 
 # text = Il faut être bien organisé pour pour être là dedans sinon c'est compliqué.
 # sent_id = ParisStories_2019_mauriceAventure_57
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/f6558a04e2913b42aeb6d0e20e30e7ab53d21018
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	expl:subj	_	Person[lex]=3
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
 3	être	être	AUX	_	VerbForm=Inf	5	cop	_	Subject=SubjRaising

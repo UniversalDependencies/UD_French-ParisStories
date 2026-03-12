@@ -1,7 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2020_concoursInstagram_1
 # text = je t'ai envoyé le lien de, d'Insta, où je t'ai dit, euh, il y a un concours d'Amir sur la chanson Les rues de ma peine.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1
 2	t'	toi	PRON	_	Case=Dat|Emph=No|PronType=Prs	4	iobj	_	Number[lex]=Sing|Person[lex]=2|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -40,7 +39,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_2
 # text = c'est bien ça ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	c'	ce	PRON	_	PronType=Dem	4	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	bien	bien	ADV	_	_	4	advmod	_	_
@@ -49,7 +47,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_3
 # text = oui, c'est bien ça !
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	PronType=Dem	6	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -60,14 +57,12 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_4
 # text = et euh…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	0	root	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 3	…	…	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_5
 # text = j'avais dansé, en plus !
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux:tense	_	_
 3	dansé	danser	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -78,7 +73,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_6
 # text = et donc, du coup, de faire une vidéo, euh, bah, une vidéo sur les réseaux, euh, où la personne faisait un karaoké, parce que son clip c'était un truc de karaoké, je crois.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	donc	donc	ADV	_	_	9	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -128,7 +122,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_7
 # text = c'est ça, oui.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	c'	ce	PRON	_	PronType=Dem	3	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	ça	ça	PRON	_	PronType=Dem	0	root	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -138,7 +131,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_8
 # text = c'était de karaoké, c'était pas un truc.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	c'	ce	PRON	_	PronType=Dem	2	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -153,7 +145,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_9
 # text = oui, bon, c'était un karaoké.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bon	bon	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -166,7 +157,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_10
 # text = et, donc, du coup, il disait aux, à ses fans de, euh, bah, de, du coup, d'enregistrer une vidéo en train de danser un peu active et, du coup, je t'ai dit allez faut le faire, faut le faire, faut le faire.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	donc	donc	ADV	_	_	10	discourse	_	SpaceAfter=No
@@ -236,7 +226,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_11
 # text = sauf que tu voulais pas le mettre sur ton Insta.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	sauf	sauf	ADP	_	ExtPos=SCONJ	4	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=2
@@ -251,7 +240,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_12
 # text = bah, oui, évidemment parce que, moi, je mets toujours rien sur mon Insta.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	oui	oui	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -273,7 +261,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_13
 # text = je vois pas pourquoi maintenant ça changerait.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	nsubj	_	Number[lex]=Sing|Person[lex]=1
 2	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	_
@@ -285,7 +272,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_14
 # text = du coup, j'ai accepté de le mettre sur mon Insta.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -304,7 +290,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_15
 # text = et soi-disant, parce que j'ai de la chance aux concours.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	soi-disant	soi-disant	ADV	_	_	7	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
@@ -323,7 +308,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_16
 # text = tu m'as dit de participer.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=2
 2	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	4	iobj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 3	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
@@ -334,7 +318,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_17
 # text = du coup, je t'ai filmée.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -348,7 +331,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_18
 # text = on a filmé la vidéo au moins quinze fois.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
 3	filmé	filmer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -364,7 +346,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_19
 # text = devant le, la télé du salon.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	devant	devant	ADP	_	_	5	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -378,7 +359,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_20
 # text = et, au final, en fait, le gagnant, euh, le gagnant, c'était quoi dejà ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	20	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	20	punct	_	_
 3-4	au	_	_	_	_	_	_	_	_
@@ -405,7 +385,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_21
 # text = le gagnant ? comment ça, le gagnant ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	gagnant	gagnant	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	?	?	PUNCT	_	_	2	punct	_	_
@@ -418,7 +397,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_22
 # text = le gagnant du concours, il avait quoi ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	gagnant	gagnant	NOUN	_	_	8	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3-4	du	_	_	_	_	_	_	_	_
@@ -433,7 +411,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_23
 # text = bah, une place de concert.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -444,7 +421,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_24
 # text = oui, mais il passait aussi dans, il passait aussi dans le clip.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	5	cc	_	_
@@ -463,7 +439,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_25
 # text = oui dans le clip~.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	4	discourse	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -472,7 +447,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_26
 # text = donc, il passait dans…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	donc	donc	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
@@ -482,7 +456,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_27
 # text = mais le clip c'était pas la surprise, parce que tout le monde, euh, tous les participants passaient dans le clip.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	mais	mais	CCONJ	_	_	8	cc	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 3	clip	clip	NOUN	_	_	8	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
@@ -511,7 +484,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_28
 # text = non, mais ça, on savait pas au début.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	non	non	ADV	_	ExtPos=INTJ	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	mais	mais	CCONJ	_	_	7	cc	_	_
@@ -528,7 +500,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_29
 # text = oui, ça on sai~…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	PronType=Dem	5	obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -538,7 +509,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_30
 # text = donc, euh, il avait juste dit, euh, vous passerez dans le clip et plus une surprise.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	donc	donc	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
@@ -563,7 +533,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_31
 # text = oui, et plus une surprise.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	et	et	CCONJ	_	_	6	cc	_	_
@@ -574,7 +543,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_32
 # text = donc, voilà, en plus, il y avait trois gagnants.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	donc	donc	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	voilà	voilà	VERB	_	ExtPos=INTJ	1	discourse	_	SpaceAfter=No
@@ -591,7 +559,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_33
 # text = donc moi je pensais que c'était trois personnes qui passaient dans le clip.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	moi	moi	PRON	_	Emph=Yes|PronType=Prs	4	dislocated	_	Number[lex]=Sing|Person[lex]=1
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1
@@ -610,7 +577,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_34
 # text = c'est pas très clair son truc.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -622,7 +588,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_35
 # text = oui, voilà.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
@@ -630,7 +595,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_36
 # text = et, donc, du coup, euh, je t'ai dit, ben, on a une chance, bla-bla-bla.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	14	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	14	punct	_	_
 3	donc	donc	ADV	_	_	14	discourse	_	SpaceAfter=No
@@ -659,7 +623,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_37
 # text = et, donc, du coup, euh, quelques jours, je crois que c'était une semaine après ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	12	punct	_	_
 3	donc	donc	ADV	_	_	12	discourse	_	SpaceAfter=No
@@ -686,20 +649,17 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_38
 # text = après la…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	après	après	ADP	_	_	2	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	root	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_39
 # text = oui.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_40
 # text = non, non, non !
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	non	non	ADV	_	ExtPos=INTJ	1	conj	_	SpaceAfter=No
@@ -709,7 +669,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_41
 # text = pas une semaine après, hein.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	semaine	semaine	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -720,7 +679,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_42
 # text = mais non, mais le clip ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	mais	mais	CCONJ	_	_	2	cc	_	_
 2	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -731,14 +689,12 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_43
 # text = le clip ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 2	clip	clip	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
 3	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2020_concoursInstagram_44
 # text = non, ça a pris trois semaines.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	non	non	ADV	_	ExtPos=INTJ	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -750,7 +706,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_45
 # text = oui, trois semaines.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	oui	oui	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	trois	trois	NUM	_	_	4	nummod	_	Number[lex]=Plur
@@ -759,7 +714,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_46
 # text = ah, oui, trois semaines.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	ah	ah	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -770,7 +724,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_47
 # text = bah, trois semaines après, euh, et, bah, euh.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	trois	trois	NUM	_	_	4	nummod	_	Number[lex]=Plur
@@ -788,7 +741,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_48
 # text = et, bah, on a vu que tu étais dans le clip.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	bah	bah	INTJ	_	_	7	discourse	_	SpaceAfter=No
@@ -806,7 +758,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_49
 # text = sauf que le clip, enfin, je suis désolée, mais il faisait pas très professionnel, hein.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	sauf	sauf	ADP	_	ExtPos=SCONJ	14	mark	_	Idiom=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -830,7 +781,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_50
 # text = euh, il faisait pas professionnel ?
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
@@ -841,7 +791,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_51
 # text = bah, non.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	non	non	ADV	_	ExtPos=INTJ	0	root	_	SpaceAfter=No
@@ -849,7 +798,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_52
 # text = euh, je suis désolée.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1
@@ -859,7 +807,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_53
 # text = les images, elles étaient nettes, propres, euh.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 2	images	image	NOUN	_	_	6	dislocated	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -874,7 +821,6 @@
 
 # sent_id = ParisStories_2020_concoursInstagram_54
 # text = bah, heureusement que j'ai filmé avec l'Iphone mais parce que, euh~…
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/d2cbef35827c42f3c4a68d15ddb617365d09ab76
 1	bah	bah	INTJ	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	heureusement	heureusement	ADV	_	_	0	root	_	_
