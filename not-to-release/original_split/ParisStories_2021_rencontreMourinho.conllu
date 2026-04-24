@@ -1,20 +1,19 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2021_rencontreMourinho_1
 # text = et là, vers midi, midi et demi, les joueurs ont commencé à sortir.
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	là	là	ADV	_	_	14	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	vers	vers	ADP	_	_	7	case	_	_
-5	midi	midi	NOUN	_	_	7	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+5	midi	midi	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	midi	midi	NOUN	_	_	14	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	midi	midi	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	demi	demi	ADJ	_	_	7	conj	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+9	demi	demi	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-12	joueurs	joueur	NOUN	_	_	14	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+12	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-14	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+14	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 15	à	à	ADP	_	_	16	mark	_	_
 16	sortir	sortir	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 17	.	.	PUNCT	_	_	14	punct	_	_
@@ -22,22 +21,22 @@
 # sent_id = ParisStories_2021_rencontreMourinho_2
 # text = donc ils sont sortis avec leurs voitures.
 1	donc	donc	ADV	_	_	4	advmod	_	_
-2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	4	nsubj	_	Person[lex]=3
+2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	sortis	sortir	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	sortis	sortir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	avec	avec	ADP	_	_	7	case	_	_
 6	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	voitures	voiture	NOUN	_	_	4	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+7	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_3
 # text = ils sont sortis avec leurs voitures.
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	nsubj	_	Person[lex]=3
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	sortis	sortir	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	sortis	sortir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	avec	avec	ADP	_	_	6	case	_	_
 5	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	voitures	voiture	NOUN	_	_	3	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+6	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	3	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_4
@@ -45,20 +44,20 @@
 1	donc	donc	ADV	_	_	8	advmod	_	_
 2	direct	direct	ADV	_	_	8	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	8	nsubj	_	Person[lex]=3
+4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
-6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	Tense[denom]=Past
 7	super	super	ADV	_	_	8	advmod	_	_
 8	sympas	sympas	ADV	_	Number=Plur	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_5
 # text = ils se sont tous arrêtés.
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	5	nsubj	_	Person[lex]=3
-2	se	soi	PRON	_	PronType=Prs|Reflex=Yes	5	obj	_	Person[lex]=3
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
+2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	obj	_	Exponence[Person]=Inherent
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-4	tous	tous	PRON	_	Gender=Masc|PronType=Ind	5	obl:mod	_	Number[lex]=Plur|Person[lex]=3
-5	arrêtés	arrêter	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+4	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	5	obl:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+5	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_6
@@ -66,124 +65,124 @@
 1	donc	donc	ADV	_	_	14	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	premier	premier	ADJ	_	Gender=Masc	14	dislocated	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+4	premier	premier	ADJ	_	Gender=Masc|Number=Sing	14	dislocated:subj	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 5	qui	qui	PRON	_	PronType=Rel	8	nsubj:pass	_	_
-6	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	8	obj	_	Person[lex]=3|SpaceAfter=No
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
-8	arrêté	arrêter	VERB	_	VerbForm=Part	4	acl:relcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+8	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
-12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	nsubj	_	Person[lex]=3
+12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Exponence[Person]=Inherent
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-14	ouvert	ouvrir	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Plur|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+14	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	fenêtre	fenêtre	NOUN	_	_	14	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	fenêtre	fenêtre	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_7
 # text = il nous a signé un autographe.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
-2	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	4	iobj	_	Number[lex]=Plur|Person[lex]=1
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
+2	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	4	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	signé	signer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	signé	signer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	LiaisonAfter=Yes
-6	autographe	autographe	NOUN	_	_	4	obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+6	autographe	autographe	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_8
 # text = on a pu tous prendre une photo avec lui.
-1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-4	tous	tous	PRON	_	Gender=Masc|PronType=Ind	5	obl:mod	_	Number[lex]=Plur|Person[lex]=3
+3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	5	obl:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 5	prendre	prendre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	photo	photo	NOUN	_	_	5	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+7	photo	photo	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	avec	avec	ADP	_	_	9	case	_	_
-9	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	obl:mod	_	Person[lex]=3|SpaceAfter=No
+9	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:mod	_	Exponence[Person]=Inherent|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_9
 # text = on a commencé à discuter avec lui.
-1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	à	à	ADP	_	_	5	mark	_	_
 5	discuter	discuter	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 6	avec	avec	ADP	_	_	7	case	_	_
-7	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	obl:arg	_	Person[lex]=3|SpaceAfter=No
+7	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:arg	_	Exponence[Person]=Inherent|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_10
 # text = franchement, ils étaient super cool.
 1	franchement	franchement	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	nsubj	_	Person[lex]=3
+3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent
 4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	super	super	ADV	_	_	6	advmod	_	_
-6	cool	cool	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
+6	cool	cool	ADJ	_	Gender=Masc|Number=Plur	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_11
 # text = euh, ils ont pris le temps pour tout le monde, etc, ensuite, arrivent les autres joueurs.
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	5	nsubj	_	Person[lex]=3
+3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+5	pris	prendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	temps	temps	NOUN	_	_	5	obj:lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	5	obj:lvc	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	pour	pour	ADP	_	_	11	case	_	_
-9	tout	tout	ADJ	_	Gender=Masc	11	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	monde	monde	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	etc	etc	ADV	_	_	11	conj	_	SpaceAfter=No|wordform=et
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	ensuite	ensuite	ADV	_	_	17	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	arrivent	arriver	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	Number[ctxt]=Plur
+17	arrivent	arriver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	Exponence[Number]=Absent
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-19	autres	autre	ADJ	_	_	20	amod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
-20	joueurs	joueur	NOUN	_	_	17	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+19	autres	autre	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes
+20	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 21	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_12
 # text = vraiment tous, mais vraiment, ils se sont tous arrêtés, bon, à part un, où il a fait une petite blague.
 1	vraiment	vraiment	ADV	_	_	5	reparandum	_	_
-2	tous	tous	PRON	_	Gender=Masc|PronType=Ind	11	obl:mod	_	Number[lex]=Plur|Person[lex]=3|SpaceAfter=No
+2	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	11	obl:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mais	mais	CCONJ	_	_	5	cc	_	_
 5	vraiment	vraiment	ADV	_	_	2	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	11	nsubj	_	Person[lex]=3
-8	se	soi	PRON	_	PronType=Prs|Reflex=Yes	11	obj	_	Person[lex]=3
+7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	Exponence[Person]=Inherent
+8	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	obj	_	Exponence[Person]=Inherent
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
-10	tous	tous	PRON	_	Gender=Masc|PronType=Ind	11	obl:mod	_	Number[lex]=Plur|Person[lex]=3
-11	arrêtés	arrêter	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+10	tous	tous	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	11	obl:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+11	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	bon	bon	INTJ	_	_	11	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	à	à	ADP	_	ExtPos=ADP	17	case	_	Idiom=Yes
-16	part	part	NOUN	_	_	15	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
-17	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	obl:mod	_	Person[lex]=3|SpaceAfter=No
+16	part	part	NOUN	_	Gender=Fem|Number=Sing	15	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
+17	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	obl:mod	_	Exponence[Person]=Inherent|SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	où	où	ADV	_	PronType=Rel	22	advmod	_	_
-20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	22	nsubj	_	Person[lex]=3
+20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	Exponence[Person]=Inherent
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-22	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	17	acl:relcl	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+22	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	petite	petit	ADJ	_	Gender=Fem	25	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-25	blague	blague	NOUN	_	_	22	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+24	petite	petit	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
+25	blague	blague	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 26	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_13
 # text = il s'est arrêté.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
-2	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	4	obj	_	Person[lex]=3|SpaceAfter=No
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	arrêté	arrêter	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+4	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_14
@@ -192,40 +191,40 @@
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	wordform=au
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	final	final	NOUN	_	_	14	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	final	final	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	fin	fin	NOUN	_	_	14	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	fin	fin	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	nsubj	_	Person[lex]=3
-11	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	14	obj	_	Person[lex]=3|SpaceAfter=No
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Exponence[Person]=Inherent
+11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 13	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
-14	arrêté	arrêter	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+14	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_15
 # text = enfin, il s'est arrêté pour les pour les fans du début, donc pour nous.
 1	enfin	enfin	ADV	_	ExtPos=INTJ	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	nsubj	_	Person[lex]=3
-4	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	6	obj	_	Person[lex]=3|SpaceAfter=No
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent
+4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-6	arrêté	arrêter	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	arrêté	arrêter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 7	pour	pour	ADP	_	_	18	reparandum	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	dep	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
 9	pour	pour	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	fans	fan	NOUN	_	_	18	reparandum	_	Number[ctxt]=Plur
+11	fans	fan	NOUN	_	Number=Plur	18	reparandum	_	Exponence[Number]=Absent
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	wordform=du
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-14	début	début	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+14	début	début	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	donc	donc	ADV	_	_	18	cc	_	_
 17	pour	pour	ADP	_	_	18	case	_	_
-18	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	6	obl:mod	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
+18	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	6	obl:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_16
@@ -233,28 +232,28 @@
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-4	autres	autre	NOUN	_	_	12	obl:mod	_	LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
+4	autres	autre	NOUN	_	Number=Plur	12	obl:mod	_	Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	fin	fin	NOUN	_	_	12	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+8	fin	fin	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	nsubj	_	Person[lex]=3
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Exponence[Person]=Inherent
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	tracé	tracer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+12	tracé	tracer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	pointe	pointe	NOUN	_	_	12	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	pointe	pointe	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_17
 # text = et, il a pas voulu s'arrêter plus, quoi.
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	nsubj	_	Person[lex]=3
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
-6	voulu	vouloir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-7	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	8	obj	_	Person[lex]=3|SpaceAfter=No
+6	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+7	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 8	arrêter	arrêter	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
 9	plus	plus	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -265,62 +264,62 @@
 # text = ouais, c'était pas très cool, mais je pense, il devait avoir faim.
 1	ouais	ouais	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	c'	ce	PRON	_	PronType=Dem	7	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 6	très	très	ADV	_	_	7	advmod	_	_
-7	cool	cool	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+7	cool	cool	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	mais	mais	CCONJ	_	_	11	cc	_	_
-10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj	_	Number[lex]=Sing|Person[lex]=1
-11	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	conj	_	Person[ctxt]=1|SpaceAfter=No
+10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+11	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	Exponence[Person]=Absent|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	14	nsubj	_	Person[lex]=3
-14	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	11	dislocated	_	Number[ctxt]=Sing|Person[ctxt]=3
+13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Exponence[Person]=Inherent
+14	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	dislocated:obj	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 15	avoir	avoir	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
-16	faim	faim	NOUN	_	_	15	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+16	faim	faim	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_19
 # text = il devait être épuisé de l'entraînement, etc et donc là, arrive le moment où le joueur du Portugal, euh, Mourinho, où le joueur du Portugal, il arrive et tout.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	nsubj:pass	_	Person[lex]=3
-2	devait	devoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	Exponence[Person]=Inherent
+2	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 3	être	être	AUX	_	VerbForm=Inf	4	aux:pass	_	Subject=SubjRaising
-4	épuisé	épuiser	VERB	_	VerbForm=Part|Voice=Pass	2	xcomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	épuisé	épuiser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	de	de	ADP	_	_	7	case	_	_
-6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-7	entraînement	entraînement	NOUN	_	_	4	obl:arg	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+7	entraînement	entraînement	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	etc	etc	ADV	_	_	7	conj	_	wordform=et
 10	et	et	CCONJ	_	_	14	cc	_	_
 11	donc	donc	ADV	_	_	14	advmod	_	_
 12	là	là	ADV	_	_	14	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	arrive	arriver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	Number[ctxt]=Sing|Person[ctxt]=3
+14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	moment	moment	NOUN	_	_	14	nsubj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+16	moment	moment	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 17	où	où	ADV	_	PronType=Rel	28	reparandum	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-19	joueur	joueur	NOUN	_	_	30	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing
+19	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	30	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	wordform=du
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-22	Portugal	Portugal	PROPN	_	_	19	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
+22	Portugal	Portugal	PROPN	_	_	19	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	euh	euh	INTJ	_	_	26	discourse	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
-26	Mourinho	Mourinho	PROPN	_	_	19	appos	_	Gender[lex]=Unknown|SpaceAfter=No
+26	Mourinho	Mourinho	PROPN	_	_	19	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	19	punct	_	_
 28	où	où	ADV	_	PronType=Rel	36	advmod	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	joueur	joueur	NOUN	_	_	36	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
+30	joueur	joueur	NOUN	_	Gender=Masc|Number=Sing	36	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	wordform=du
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-33	Portugal	Portugal	PROPN	_	_	30	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
+33	Portugal	Portugal	PROPN	_	_	30	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
-35	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	36	nsubj	_	Person[lex]=3
-36	arrive	arriver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	Number[ctxt]=Sing|Person[ctxt]=3
+35	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	Exponence[Person]=Inherent
+36	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 37	et	et	CCONJ	_	ExtPos=ADV	36	conj	_	Idiom=Yes
 38	tout	tout	ADV	_	_	37	fixed	_	InIdiom=Yes|SpaceAfter=No
 39	.	.	PUNCT	_	_	2	punct	_	_
@@ -332,55 +331,55 @@
 3	et	et	CCONJ	_	_	19	cc	_	_
 4	donc	donc	ADV	_	_	19	discourse	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	mère	mère	NOUN	_	_	19	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+6	mère	mère	NOUN	_	Gender=Fem|Number=Sing	19	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	comme	comme	SCONJ	_	_	14	mark	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	bah	bah	INTJ	_	_	14	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+12	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-14	portugais	portugais	ADJ	_	Gender=Masc	19	advcl	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
+14	portugais	portugais	ADJ	_	Gender=Masc|Number=Sing	19	advcl	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison
 15	et	et	CCONJ	_	ExtPos=ADV	14	conj	_	Idiom=Yes
 16	tout	tout	ADV	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
-18	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	19	nsubj	_	Person[lex]=3
-19	commence	commencer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+18	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Exponence[Person]=Inherent
+19	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 20	à	à	ADP	_	_	22	mark	_	_
-21	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	22	iobj	_	Person[lex]=3
+21	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	22	iobj	_	Exponence[Person]=Inherent
 22	parler	parler	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=SubjRaising
-23	portugais	portugais	NOUN	_	_	22	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+23	portugais	portugais	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 24	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_21
 # text = et elle lui demande en portugais est -ce que tu veux m'épouser?
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
-3	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	4	iobj	_	Person[lex]=3
-4	demande	demander	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
+3	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	4	iobj	_	Exponence[Person]=Inherent
+4	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 5	en	en	ADP	_	_	6	case	_	_
-6	portugais	portugais	NOUN	_	_	4	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+6	portugais	portugais	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	Reported=Yes
-8	-ce	ce	PRON	_	PronType=Dem	11	expl:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|wordform=ce
+8	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	expl:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|wordform=ce
 9	que	que	SCONJ	_	_	11	mark	_	_
-10	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj	_	Number[lex]=Sing|Person[lex]=2
-11	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	ccomp	_	Person[ctxt]=2
-12	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	13	obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+10	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+11	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	ccomp	_	Exponence[Person]=Absent
+12	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	13	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 13	épouser	épouser	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 14	?	?	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_22
 # speaker = L2
 # text = elle a osé?
-1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	3	nsubj	_	Person[lex]=3
+1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	osé	oser	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+3	osé	oser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_23
 # text = la honte!
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-2	honte	honte	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+2	honte	honte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_24
@@ -388,42 +387,42 @@
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	là	là	ADV	_	_	9	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	9	dislocated	_	Person[lex]=3|SpaceAfter=No
+4	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	dislocated:subj	_	Exponence[Person]=Inherent|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	nsubj	_	Person[lex]=3
-7	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	9	obj	_	Person[lex]=3|SpaceAfter=No
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent
+7	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	9	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-9	regardée	regarder	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	en	en	ADP	_	ExtPos=ADP	17	mark	_	Idiom=Yes
-11	mode	mode	NOUN	_	_	10	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
+11	mode	mode	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 12	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	mais	mais	CCONJ	_	_	17	cc	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
-16	ça	ça	PRON	_	PronType=Dem	17	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 17	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	Reported=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	madame	madame	NOUN	_	_	17	vocative	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+19	madame	madame	NOUN	_	Gender=Fem|Number=Sing	17	vocative	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 20	?	?	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_25
 # text = vous êtes sûre?
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Plur|Person[lex]=2|Polite=Yes
+1	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Yes
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	sûre	sûr	ADJ	_	_	0	root	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+3	sûre	sûr	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_26
 # text = surtout qu'il y avait mon père à côté.
 1	surtout	surtout	ADV	_	_	0	root	_	_
 2	qu'	que	SCONJ	_	_	5	mark	_	SpaceAfter=No
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	expl:subj	_	Person[lex]=3
-4	y	y	PRON	_	PronType=Prs	5	expl:comp	_	Person[lex]=3
-5	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	1	dep	_	Number[ctxt]=Sing|Person[ctxt]=3
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	Exponence[Person]=Inherent
+4	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	Exponence[Person]=Inherent
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	dep	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	père	père	NOUN	_	_	5	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	père	père	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	à	à	ADP	_	_	9	case	_	_
-9	côté	côté	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_27
@@ -431,7 +430,7 @@
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	bref	bref	INTJ	_	_	5	discourse	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	c'	ce	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	vraiment	vraiment	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	…	…	PUNCT	_	_	5	punct	_	_
@@ -439,46 +438,46 @@
 # sent_id = ParisStories_2021_rencontreMourinho_28
 # speaker = L2
 # text = il a répondu quoi?
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	nsubj	_	Person[lex]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	répondu	répondre	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	répondu	répondre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	quoi	quoi	PRON	_	PronType=Int	3	obj	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_29
 # text = il a pas répondu.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
-4	répondu	répondre	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+4	répondu	répondre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_30
 # text = il l'a regardée.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
-2	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	4	obj	_	Person[lex]=3|SpaceAfter=No
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
+2	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	4	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	regardée	regarder	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+4	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_31
 # text = il était choqué.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	nsubj:pass	_	Person[lex]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	Exponence[Person]=Inherent
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
-3	choqué	choquer	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+3	choqué	choquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_32
 # text = après, il a dit non de la tête.
 1	après	après	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	Person[lex]=3
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	non	non	ADV	_	_	5	obj	_	Reported=Yes
 7	de	de	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-9	tête	tête	NOUN	_	_	5	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+9	tête	tête	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_33
@@ -486,23 +485,23 @@
 1	après	après	ADV	_	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	mère	mère	NOUN	_	_	8	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+4	mère	mère	NOUN	_	Gender=Fem|Number=Sing	8	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	nsubj	_	Person[lex]=3
+6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
-8	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+8	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 9	bon	bon	INTJ	_	_	13	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	c'	ce	PRON	_	PronType=Dem	13	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	Reported=Yes
-13	dommage	dommage	NOUN	_	_	8	ccomp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+13	dommage	dommage	NOUN	_	Gender=Masc|Number=Sing	8	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_34
 # text = mais, vous pouvez au moins signer mon téléphone, s'il vous plaît?
 1	mais	mais	CCONJ	_	_	4	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+3	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown
 4	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	wordform=au
@@ -510,12 +509,12 @@
 7	moins	moins	ADV	_	_	4	obl:mod	_	_
 8	signer	signer	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 9	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-10	téléphone	téléphone	NOUN	_	_	8	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+10	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	s'	si	SCONJ	_	_	15	mark	_	SpaceAfter=No
-13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	15	expl:subj	_	Person[lex]=3
-14	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	15	iobj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-15	plaît	plaire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	discourse	_	Person[ctxt]=3|SpaceAfter=No
+13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	Exponence[Person]=Inherent
+14	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	15	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown
+15	plaît	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	Exponence[Person]=Absent|SpaceAfter=No
 16	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_35
@@ -526,31 +525,31 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	wordform=du
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	coup	coup	NOUN	_	_	12	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	wordform=du
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-12	coup	coup	NOUN	_	_	14	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+12	coup	coup	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
-14	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	16	nsubj	_	Person[lex]=3
+14	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Exponence[Person]=Inherent
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
-16	donné	donner	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+16	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-18	téléphone	téléphone	NOUN	_	_	16	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+18	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_36
 # text = et lui il était là en mode, euh, mais, euh, vous voulez que je fasse quoi avec ça et tout.
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	5	dislocated	_	Person[lex]=3
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	nsubj	_	Person[lex]=3
+2	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated:subj	_	Exponence[Person]=Inherent
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 5	là	là	ADV	_	_	0	root	_	_
 6	en	en	ADP	_	ExtPos=ADP	16	mark	_	Idiom=Yes
-7	mode	mode	NOUN	_	_	6	fixed	_	InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+7	mode	mode	NOUN	_	Gender=Masc|Number=Sing	6	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	16	punct	_	_
 9	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -558,14 +557,14 @@
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	nsubj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+15	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Unknown
 16	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	Reported=Yes
 17	que	que	SCONJ	_	_	19	mark	_	_
-18	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	nsubj	_	Number[lex]=Sing|Person[lex]=1
-19	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	16	ccomp	_	Person[ctxt]=1
+18	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+19	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	ccomp	_	Exponence[Person]=Absent
 20	quoi	quoi	PRON	_	PronType=Int	19	obj	_	_
 21	avec	avec	ADP	_	_	22	case	_	_
-22	ça	ça	PRON	_	PronType=Dem	19	obl:mod	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 23	et	et	CCONJ	_	ExtPos=ADV	22	conj	_	Idiom=Yes
 24	tout	tout	ADV	_	_	23	fixed	_	InIdiom=Yes|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
@@ -575,8 +574,8 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	5	nsubj	_	Person[lex]=3
-5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3
+4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
+5	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 6	ah	ah	INTJ	_	_	10	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	bah	bah	INTJ	_	_	10	discourse	_	SpaceAfter=No
@@ -587,44 +586,44 @@
 # sent_id = ParisStories_2021_rencontreMourinho_38
 # text = et il a signé sur sa coque de téléphone et sur son téléphone aussi.
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	nsubj	_	Person[lex]=3
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Exponence[Person]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	signé	signer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	signé	signer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	sur	sur	ADP	_	_	7	case	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	coque	coque	NOUN	_	_	4	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+7	coque	coque	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	de	de	ADP	_	_	9	case	_	_
-9	téléphone	téléphone	NOUN	_	_	7	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+9	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	sur	sur	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-13	téléphone	téléphone	NOUN	_	_	7	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+13	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14	aussi	aussi	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_39
 # text = lui, euh, il comprenait pas.
-1	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	6	dislocated	_	Person[lex]=3|SpaceAfter=No
+1	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dislocated:subj	_	Exponence[Person]=Inherent|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	nsubj	_	Person[lex]=3
-6	comprenait	comprendre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent
+6	comprenait	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_40
 # text = il était là en mode mais vous êtes sûre madame, euh.
-1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	nsubj	_	Person[lex]=3
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 3	là	là	ADV	_	_	0	root	_	_
 4	en	en	ADP	_	ExtPos=ADP	9	mark	_	Idiom=Yes
-5	mode	mode	NOUN	_	_	4	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
+5	mode	mode	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 6	mais	mais	CCONJ	_	_	9	cc	_	_
-7	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	nsubj	_	Number[lex]=Plur|Person[lex]=2|Polite=Yes
+7	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|Polite=Yes
 8	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	cop	_	Reported=Yes
-9	sûre	sûr	ADJ	_	_	3	advcl	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-10	madame	madame	NOUN	_	_	9	vocative	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+9	sûre	sûr	ADJ	_	Gender=Fem|Number=Sing	3	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
+10	madame	madame	NOUN	_	Gender=Fem|Number=Sing	9	vocative	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	9	punct	_	_
@@ -635,11 +634,11 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	bref	bref	INTJ	_	_	9	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	c'	ce	PRON	_	PronType=Dem	9	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 7	vraiment	vraiment	ADV	_	_	9	advmod	_	_
 8	trop	trop	ADV	_	_	9	advmod	_	_
-9	drôle	drôle	ADJ	_	_	0	root	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+9	drôle	drôle	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_42
@@ -650,11 +649,11 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-7	-ce	ce	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|wordform=ce
+7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|wordform=ce
 8	qu'	que	SCONJ	_	_	11	dep:comp	_	SpaceAfter=No
-9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	Filler=obj
-11	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	advcl:cleft	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+11	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	advcl:cleft	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 12	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_rencontreMourinho_43
@@ -666,13 +665,13 @@
 5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-8	autres	autre	NOUN	_	_	14	dislocated	_	LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
+8	autres	autre	NOUN	_	Number=Plur	14	dislocated:subj	_	Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	14	nsubj	_	Person[lex]=3
+10	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	Exponence[Person]=Inherent
 11	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	peu	peu	NOUN	_	_	14	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
-14	dégoutés	dégouter	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+13	peu	peu	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+14	dégoutés	dégouter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 15	,	,	PUNCT	_	_	27	punct	_	_
 16	parce	parce	ADV	_	ExtPos=SCONJ	27	mark	_	Idiom=Yes
 17	que	que	SCONJ	_	_	16	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -680,29 +679,29 @@
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	wordform=du
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-21	coup	coup	NOUN	_	_	27	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+21	coup	coup	NOUN	_	Gender=Masc|Number=Sing	27	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	dislocated	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No
+23	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	27	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
-25	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	27	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+25	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 26	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
 27	cinq	cinq	NUM	_	_	14	advcl	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	70	punct	_	_
 29	et	et	CCONJ	_	_	70	cc	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-31	temps	temps	NOUN	_	_	70	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+31	temps	temps	NOUN	_	Gender=Masc|Number=Sing	70	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 32	de	de	ADP	_	_	33	mark	_	_
 33	faire	faire	VERB	_	VerbForm=Inf	31	acl	_	Subject=SubjRaising
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 35	cinq	cinq	NUM	_	_	36	nummod	_	_
-36	photos	photo	NOUN	_	_	33	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+36	photos	photo	NOUN	_	Gender=Fem|Number=Plur	33	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 37	,	,	PUNCT	_	_	39	punct	_	_
 38	de	de	ADP	_	_	39	mark	_	_
 39	parler	parler	VERB	_	VerbForm=Inf	33	conj	_	Subject=SubjRaising
 40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	peu	peu	NOUN	_	_	39	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+41	peu	peu	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 42	avec	avec	ADP	_	_	43	case	_	_
-43	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|PronType=Prs	39	obl:arg	_	Person[lex]=3
+43	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl:arg	_	Exponence[Person]=Inherent
 44	et	et	CCONJ	_	ExtPos=ADV	33	conj	_	Idiom=Yes
 45	tout	tout	ADV	_	_	44	fixed	_	InIdiom=Yes|SpaceAfter=No
 46	,	,	PUNCT	_	_	31	punct	_	_
@@ -711,25 +710,25 @@
 49	bah	bah	INTJ	_	_	52	discourse	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	49	punct	_	_
 51	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-52	autres	autre	NOUN	_	_	70	dislocated	_	LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
+52	autres	autre	NOUN	_	Number=Plur	70	dislocated:subj	_	Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
-54	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	70	nsubj	_	Person[lex]=3
+54	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	70	nsubj	_	Exponence[Person]=Inherent
 55	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	70	cop	_	_
 56	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
-57	peu	peu	NOUN	_	_	70	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+57	peu	peu	NOUN	_	Gender=Masc|Number=Sing	70	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 58	en	en	ADP	_	ExtPos=ADP	70	mark	_	Idiom=Yes
-59	mode	mode	NOUN	_	_	58	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
+59	mode	mode	NOUN	_	Gender=Masc|Number=Sing	58	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 60	bah	bah	INTJ	_	_	65	discourse	_	_
-61	c'	ce	PRON	_	PronType=Dem	65	expl:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+61	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	65	expl:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 62	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	cop	_	Reported=Yes
 63	quand	quand	ADV	_	_	65	advmod	_	_
 64	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	65	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-65	tour	tour	NOUN	_	_	70	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing
-66	c'	ce	PRON	_	PronType=Dem	70	expl:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+65	tour	tour	NOUN	_	Gender=Masc|Number=Sing	70	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+66	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	70	expl:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 67	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	cop	_	_
 68	quand	quand	ADV	_	_	70	advmod	_	_
 69	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	70	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-70	tour	tour	NOUN	_	_	27	conj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+70	tour	tour	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 71	etc	etc	ADV	_	_	70	conj	_	SpaceAfter=No|wordform=et
 72	.	.	PUNCT	_	_	70	punct	_	_
 

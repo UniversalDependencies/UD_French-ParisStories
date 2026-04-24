@@ -1,50 +1,49 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ParisStories_2019_peripitiesVoiture_1
 # text = alors euh j'ai décidé de raconter mes péripéties en voiture.
 1	alors	alors	ADV	_	_	5	discourse	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
-3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	décidé	décider	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	de	de	ADP	_	_	7	mark	_	_
 7	raconter	raconter	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 8	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-9	péripéties	péripétie	NOUN	_	_	7	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+9	péripéties	péripétie	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	en	en	ADP	_	_	11	case	_	_
-11	voiture	voiture	NOUN	_	_	9	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+11	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_2
 # text = donc euh j'ai fait la conduite accompagnée au lycée.
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
-3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+5	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	conduite	conduite	NOUN	_	_	5	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-8	accompagnée	accompagner	VERB	_	VerbForm=Part	7	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+7	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+8	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	lycée	lycée	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_3
-# text = donc avant ça il fallait que je passe le code et tout,
+# text = donc avant ça il fallait que je passe le code et tout.
 1	donc	donc	ADV	_	_	5	advmod	_	_
 2	avant	avant	SCONJ	_	_	3	case	_	_
-3	ça	ça	PRON	_	PronType=Dem	5	obl:mod	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	expl:subj	_	Person[lex]=3
-5	fallait	falloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	Exponence[Person]=Inherent
+5	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 6	que	que	SCONJ	_	_	8	mark	_	_
-7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	Number[lex]=Sing|Person[lex]=1
-8	passe	passer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	5	ccomp	_	Person[ctxt]=1
+7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	passe	passer	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	Exponence[Person]=Absent
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-10	code	code	NOUN	_	_	8	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+10	code	code	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 11	et	et	CCONJ	_	ExtPos=ADV	8	conj	_	Idiom=Yes
 12	tout	tout	ADV	_	_	11	fixed	_	InIdiom=Yes|SpaceAfter=No
-13	,	,	PUNCT	_	_	5	punct	_	_
+13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_4
 # text = et donc euh après j'ai, une fois que j'ai eu mon code, on m'a donné des leçons de conduite.
@@ -52,186 +51,186 @@
 2	donc	donc	ADV	_	_	6	cc	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	après	après	SCONJ	_	_	6	dep	_	_
-5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	reparandum	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	20	advmod	_	Idiom=Yes
-9	fois	fois	NOUN	_	_	8	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	8	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 10	que	que	SCONJ	_	_	13	mark	_	_
-11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-13	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	8	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+13	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	code	code	NOUN	_	_	13	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	code	code	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 16	,	,	PUNCT	_	_	8	punct	_	_
-17	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	20	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-18	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	20	iobj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+17	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+18	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	20	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
-20	donné	donner	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+20	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
-22	leçons	leçon	NOUN	_	_	20	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+22	leçons	leçon	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 23	de	de	ADP	_	_	24	case	_	_
-24	conduite	conduite	NOUN	_	_	22	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+24	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 25	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_5
-# text = après ces leçons de conduite euh, j'ai pu me lancer dans la conduite accompagnée avec ma mère,
+# text = après ces leçons de conduite euh, j'ai pu me lancer dans la conduite accompagnée avec ma mère.
 1	après	après	ADP	_	_	3	case	_	_
 2	ces	ce	DET	_	Number=Plur|PronType=Dem	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-3	leçons	leçon	NOUN	_	_	10	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur
+3	leçons	leçon	NOUN	_	Gender=Fem|Number=Plur	10	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 4	de	de	ADP	_	_	5	case	_	_
-5	conduite	conduite	NOUN	_	_	3	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+5	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+8	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-10	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-11	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	12	obj	_	Number[lex]=Sing|Person[lex]=1
+10	pu	pouvoir	VERB	_	Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+11	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	12	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 12	lancer	lancer	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 13	dans	dans	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	conduite	conduite	NOUN	_	_	12	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
-16	accompagnée	accompagner	VERB	_	VerbForm=Part	15	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+15	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+16	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	15	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	avec	avec	ADP	_	_	19	case	_	_
 18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-19	mère	mère	NOUN	_	_	12	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-20	,	,	PUNCT	_	_	10	punct	_	_
+19	mère	mère	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+20	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_6
 # text = et j'avais donc euh trois mille kilomètres à faire, je crois, je suis plus très sûr.
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
+2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 4	donc	donc	ADV	_	_	3	advmod	_	_
 5	euh	euh	INTJ	_	_	10	discourse	_	_
-6	trois	trois	NUM	_	_	8	nummod	_	Number[lex]=Plur
-7	mille	mille	NUM	_	Number=Plur	6	flat	_	_
-8	kilomètres	kilomètre	NOUN	_	_	10	obj	_	Gender[lex]=Masc|Number[ctxt]=Plur
+6	trois	trois	NUM	_	Number=Plur	8	nummod	_	Exponence[Number]=Inherent
+7	mille	mille	NUM	_	Number=Plur	6	flat	_	Exponence[Number]=Inherent
+8	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	à	à	ADP	_	_	10	mark	_	_
 10	faire	faire	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	19	punct	_	_
-12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	nsubj	_	Number[lex]=Sing|Person[lex]=1
-13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	19	reparandum	_	Person[ctxt]=1|SpaceAfter=No
+12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	reparandum	_	Exponence[Person]=Absent|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	nsubj	_	Number[lex]=Sing|Person[lex]=1
+15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 16	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
 17	plus	plus	ADV	_	_	19	advmod	_	_
 18	très	très	ADV	_	_	19	advmod	_	_
-19	sûr	sûr	ADJ	_	_	3	discourse	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+19	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	discourse	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_7
 # text = donc c'était sur un an je devais faire la conduite accompagnée.
 1	donc	donc	ADV	_	_	8	advmod	_	_
-2	c'	ce	PRON	_	PronType=Dem	3	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-3	était	être	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	8	advcl	_	Number[ctxt]=Sing|Person[ctxt]=3
+2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 4	sur	sur	ADP	_	_	6	case	_	_
-5	un	un	NUM	_	Gender=Masc	6	nummod	_	Number[lex]=Plur
-6	an	an	NOUN	_	_	3	obl:arg	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	nsubj	_	Number[lex]=Sing|Person[lex]=1
-8	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
+5	un	un	NUM	_	Gender=Masc|Number=Plur	6	nummod	_	Exponence[Number]=Inherent
+6	an	an	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 9	faire	faire	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	conduite	conduite	NOUN	_	_	9	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-12	accompagnée	accompagner	VERB	_	VerbForm=Part	11	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+11	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+12	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	11	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_8
-# text = euh ma mère elle m'a beaucoup aidée parce que c'est une bonne conductrice,
+# text = euh ma mère elle m'a beaucoup aidée parce que c'est une bonne conductrice.
 1	euh	euh	INTJ	_	_	8	discourse	_	_
 2	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-3	mère	mère	NOUN	_	_	8	dislocated	_	Gender[lex]=Fem|Number[ctxt]=Sing
-4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	nsubj	_	Person[lex]=3
-5	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	8	obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	mère	mère	NOUN	_	Gender=Fem|Number=Sing	8	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
+5	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	8	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	beaucoup	beaucoup	ADV	_	_	8	advmod	_	_
-8	aidée	aider	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+8	aidée	aider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 9	parce	parce	ADV	_	ExtPos=SCONJ	12	mark	_	Idiom=Yes
 10	que	que	SCONJ	_	_	9	fixed	_	InIdiom=Yes
-11	c'	ce	PRON	_	PronType=Dem	12	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	bonne	bon	ADJ	_	Gender=Fem	15	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-15	conductrice	conducteur	NOUN	_	_	12	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-16	,	,	PUNCT	_	_	8	punct	_	_
+14	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
+15	conductrice	conducteur	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_9
-# text = et euh j'ai fait vraiment beaucoup de choses, XXX de la ville, de la route,
+# text = et euh j'ai fait vraiment beaucoup de choses, XXX de la ville, de la route.
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
-3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+5	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	vraiment	vraiment	ADV	_	_	7	advmod	_	_
 7	beaucoup	beaucoup	ADV	_	_	5	obj	_	_
 8	de	de	ADP	_	_	11	case	_	_
-9	choses	chose	NOUN	_	_	11	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+9	choses	chose	NOUN	_	Gender=Fem|Number=Plur	11	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	XXX	XXX	X	_	_	7	nmod	_	wordform=XX
 12	de	de	ADP	_	ExtPos=DET	14	det	_	Idiom=Yes
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
-14	ville	ville	NOUN	_	_	9	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	ville	ville	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	de	de	ADP	_	ExtPos=DET	18	det	_	Idiom=Yes
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
-18	route	route	NOUN	_	_	14	appos	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-19	,	,	PUNCT	_	_	5	punct	_	_
+18	route	route	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_10
 # text = euh on a fait beaucoup de trajets, on est partie en vacances, on est allée chez mes tantes qui habitent euh sur Paris.
 1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	4	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+4	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 5	beaucoup	beaucoup	ADV	_	_	4	obj	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	trajets	trajet	NOUN	_	_	5	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+7	trajets	trajet	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	partie	partir	VERB	_	VerbForm=Part|Voice=Pass	4	appos	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+11	partie	partir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	appos	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	en	en	ADP	_	_	13	case	_	_
-13	vacances	vacance	NOUN	_	_	11	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+13	vacances	vacance	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
-15	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	17	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
+15	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	allée	aller	VERB	_	VerbForm=Part	11	conj	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+17	allée	aller	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 18	chez	chez	ADP	_	_	20	case	_	_
 19	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-20	tantes	tante	NOUN	_	_	17	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Plur
+20	tantes	tante	NOUN	_	Gender=Fem|Number=Plur	17	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
-22	habitent	habiter	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	Number[ctxt]=Plur
+22	habitent	habiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	Exponence[Number]=Absent
 23	euh	euh	INTJ	_	_	25	discourse	_	_
 24	sur	sur	ADP	_	_	25	case	_	_
-25	Paris	Paris	PROPN	_	_	22	obl:arg	_	Gender[lex]=Unknown|SpaceAfter=No
+25	Paris	Paris	PROPN	_	_	22	obl:arg	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_11
-# text = donc euh il fallait passer par le périph euh,
+# text = donc euh il fallait passer par le périph euh.
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	expl:subj	_	Person[lex]=3
-4	fallait	falloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	Exponence[Person]=Inherent
+4	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 5	passer	passer	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
 6	par	par	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	périph	périph	NOUN	_	_	5	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
+8	périph	périph	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	4	punct	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_12
 # text = XXX j'ai vraiment eu des bonnes expériences pour euh m'aider à apprendre à conduire, parce que on apprend avec l'expérience.
 1	XXX	XXX	X	_	_	5	discourse	_	wordform=xx
-2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	vraiment	vraiment	ADV	_	_	5	advmod	_	_
-5	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 7	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-8	expériences	expérience	NOUN	_	_	5	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+8	expériences	expérience	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 9	pour	pour	ADP	_	_	12	mark	_	_
 10	euh	euh	INTJ	_	_	12	discourse	_	_
-11	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	12	obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+11	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	12	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	aider	aider	VERB	_	VerbForm=Inf	8	acl	_	Subject=NoRaising
 13	à	à	ADP	_	_	14	mark	_	_
 14	apprendre	apprendre	VERB	_	VerbForm=Inf	12	ccomp	_	Subject=NoRaising
@@ -240,11 +239,11 @@
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	InIdiom=Yes
-20	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	21	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-21	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	advcl	_	Person[ctxt]=3
+20	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+21	apprend	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	Exponence[Person]=Absent
 22	avec	avec	ADP	_	_	24	case	_	_
-23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-24	expérience	expérience	NOUN	_	_	21	obl:arg	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+23	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+24	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_13
@@ -258,33 +257,33 @@
 1	euh	euh	INTJ	_	_	7	discourse	_	_
 2	par	par	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-4	suite	suite	NOUN	_	_	7	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+4	suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	euh	euh	INTJ	_	_	4	discourse	_	_
-6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	25	punct	_	_
 9	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	euh	euh	INTJ	_	_	25	discourse	_	_
 12	une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	25	advmod	_	Idiom=Yes
-13	fois	fois	NOUN	_	_	12	fixed	_	Gender[lex]=Fem|InIdiom=Yes|Number[ctxt]=Sing
+13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	12	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 14	que	que	SCONJ	_	_	18	mark	_	_
-15	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
-17	eu	avoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:tense	_	_
-18	fini	finir	VERB	_	VerbForm=Part|Voice=Act	12	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+17	eu	avoir	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:tense	_	Tense[denom]=Past
+18	fini	finir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-20	conduite	conduite	NOUN	_	_	18	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
-21	accompagnée	accompagner	VERB	_	VerbForm=Part	20	acl	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+20	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+21	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 22	,	,	PUNCT	_	_	12	punct	_	_
-23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	25	nsubj	_	Person[lex]=3
+23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	Exponence[Person]=Inherent
 24	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-25	fallu	falloir	VERB	_	VerbForm=Part|Voice=Act	7	appos	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+25	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	appos	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 26	que	que	SCONJ	_	_	28	mark	_	_
-27	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	28	nsubj	_	Number[lex]=Sing|Person[lex]=1
-28	passe	passer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	25	ccomp	_	Person[ctxt]=1
+27	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+28	passe	passer	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	ccomp	_	Exponence[Person]=Absent
 29	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	permis	permis	NOUN	_	_	28	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+30	permis	permis	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 31	donc	donc	ADV	_	_	25	advmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -292,152 +291,152 @@
 # text = mais avant ça euh ils m'ont redonné quelques heures de conduite, pour vérifier que j'avais pas perdu.
 1	mais	mais	CCONJ	_	_	8	cc	_	_
 2	avant	avant	ADP	_	_	3	case	_	_
-3	ça	ça	PRON	_	PronType=Dem	8	obl:mod	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
+3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	euh	euh	INTJ	_	_	3	discourse	_	_
-5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	8	nsubj	_	Person[lex]=3
-6	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	8	iobj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
+6	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	8	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
-8	redonné	redonner	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-9	quelques	quelques	DET	_	PronType=Ind	10	det	_	LiaisonAfter=Yes|Number[lex]=Plur
-10	heures	heure	NOUN	_	_	8	obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
+8	redonné	redonner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	quelques	quelques	DET	_	Number=Plur|PronType=Ind	10	det	_	Exponence[Number]=Inherent|LiaisonAfter=Yes
+10	heures	heure	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 11	de	de	ADP	_	_	12	case	_	_
-12	conduite	conduite	NOUN	_	_	10	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+12	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
 15	vérifier	vérifier	VERB	_	VerbForm=Inf	8	advcl	_	Subject=NoRaising
 16	que	que	SCONJ	_	_	20	mark	_	_
-17	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+17	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 18	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	aux:tense	_	_
 19	pas	pas	ADV	_	Polarity=Neg	20	advmod	_	_
-20	perdu	perdre	VERB	_	VerbForm=Part|Voice=Act	15	ccomp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+20	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 21	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_16
-# text = je me souviens même euh l'heure de conduite que j'ai eu la veille de passer mon permis,
-1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1
-2	me	moi	PRON	_	Emph=No|PronType=Prs	3	expl:comp	_	Number[lex]=Sing|Person[lex]=1
-3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1
+# text = je me souviens même euh l'heure de conduite que j'ai eu la veille de passer mon permis.
+1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	3	expl:comp	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+3	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 4	même	même	ADV	_	_	3	advmod	_	_
 5	euh	euh	INTJ	_	_	7	discourse	_	_
-6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-7	heure	heure	NOUN	_	_	3	obl:arg	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+7	heure	heure	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 8	de	de	ADP	_	_	9	case	_	_
-9	conduite	conduite	NOUN	_	_	7	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+9	conduite	conduite	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	que	que	PRON	_	PronType=Rel	13	obj	_	_
-11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-13	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	7	acl:relcl	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+13	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	veille	veille	NOUN	_	_	13	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
+15	veille	veille	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 16	de	de	ADP	_	_	17	mark	_	_
 17	passer	passer	VERB	_	VerbForm=Inf	15	acl	_	Subject=NoRaising
 18	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-19	permis	permis	NOUN	_	_	17	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-20	,	,	PUNCT	_	_	3	punct	_	_
+19	permis	permis	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_17
 # text = je me suis mise euh sur la voie de gauche, alors que je devais pas du tout me mettre sur cette voie.
-1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	nsubj	_	Number[lex]=Sing|Person[lex]=1
-2	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	4	obj	_	Number[lex]=Sing|Person[lex]=1
+1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	4	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
-4	mise	mettre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+4	mise	mettre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 5	euh	euh	INTJ	_	_	8	discourse	_	_
 6	sur	sur	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	voie	voie	NOUN	_	_	4	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing
+8	voie	voie	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	de	de	ADP	_	_	10	case	_	_
-10	gauche	gauche	ADJ	_	_	8	nmod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+10	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	8	nmod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	alors	alors	ADV	_	ExtPos=SCONJ	15	mark	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes
-14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	nsubj	_	Number[lex]=Sing|Person[lex]=1
-15	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	4	advcl	_	Person[ctxt]=1
+14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+15	devais	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	advcl	_	Exponence[Person]=Absent
 16	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	ExtPos=ADV	16	advmod	_	Idiom=Yes
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
-19	tout	tout	NOUN	_	_	17	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing
-20	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	21	obj	_	Number[lex]=Sing|Person[lex]=1
+19	tout	tout	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
+20	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	21	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 21	mettre	mettre	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=SubjRaising
 22	sur	sur	ADP	_	_	24	case	_	_
 23	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-24	voie	voie	NOUN	_	_	21	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+24	voie	voie	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_18
 # text = c'est parce que je pensais que le stop il s'étalait sur tout le long de la route, mais, en fait, pas du tout.
-1	c'	ce	PRON	_	PronType=Dem	6	nsubj:outer	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj:outer	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 3	parce	parce	ADV	_	ExtPos=SCONJ	6	mark	_	Idiom=Yes
 4	que	que	SCONJ	_	_	3	fixed	_	InIdiom=Yes
-5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	Number[lex]=Sing|Person[lex]=1
-6	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
+5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+6	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 7	que	que	SCONJ	_	_	12	mark	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-9	stop	stop	NOUN	_	_	12	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
-10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	nsubj	_	Person[lex]=3
-11	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	12	expl:pass	_	Person[lex]=3|SpaceAfter=No
-12	étalait	étaler	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	6	ccomp	_	Number[ctxt]=Sing|Person[ctxt]=3
+9	stop	stop	NOUN	_	Gender=Masc|Number=Sing	12	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Exponence[Person]=Inherent
+11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pass	_	Exponence[Person]=Inherent|SpaceAfter=No
+12	étalait	étaler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 13	sur	sur	ADP	_	_	16	case	_	_
-14	tout	tout	ADJ	_	Gender=Masc	16	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+14	tout	tout	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	long	long	ADJ	_	Gender=Masc	12	obl:arg	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+16	long	long	ADJ	_	Gender=Masc|Number=Sing	12	obl:arg	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-19	route	route	NOUN	_	_	16	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+19	route	route	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 20	,	,	PUNCT	_	_	26	punct	_	_
 21	mais	mais	CCONJ	_	_	26	cc	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	en	en	ADP	_	ExtPos=ADV	26	discourse	_	Idiom=Yes
-24	fait	fait	NOUN	_	_	23	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+24	fait	fait	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	pas	pas	ADV	_	Polarity=Neg	12	conj	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
-29	tout	tout	NOUN	_	_	27	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+29	tout	tout	NOUN	_	Gender=Masc|Number=Sing	27	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 30	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_19
 # text = donc euh coup de pression, le moniteur il était pas très content, et moi, vu que c'était la veille de mon permis, bah, je me suis donné un petit coup de pression, quoi.
 1	donc	donc	ADV	_	_	3	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	coup	coup	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 4	de	de	ADP	_	_	5	case	_	_
-5	pression	pression	NOUN	_	_	3	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+5	pression	pression	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 6	,	,	PUNCT	_	_	13	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	moniteur	moniteur	NOUN	_	_	13	dislocated	_	Gender[lex]=Masc|Number[ctxt]=Sing
-9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	13	nsubj	_	Person[lex]=3
+8	moniteur	moniteur	NOUN	_	Gender=Masc|Number=Sing	13	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Exponence[Person]=Inherent
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
 11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 12	très	très	ADV	_	_	13	advmod	_	_
-13	content	content	ADJ	_	Gender=Masc	3	conj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+13	content	content	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 14	,	,	PUNCT	_	_	33	punct	_	_
 15	et	et	CCONJ	_	_	33	cc	_	_
-16	moi	moi	PRON	_	Emph=Yes|PronType=Prs	33	dislocated	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+16	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	33	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	vu	voir	VERB	_	ExtPos=ADP	23	mark	_	_
+18	vu	voir	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	23	mark	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|Tense[denom]=Past
 19	que	que	SCONJ	_	_	23	mark	_	_
-20	c'	ce	PRON	_	PronType=Dem	23	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+20	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 21	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-23	veille	veille	NOUN	_	_	33	advcl	_	Gender[lex]=Fem|Number[ctxt]=Sing
+23	veille	veille	NOUN	_	Gender=Fem|Number=Sing	33	advcl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 24	de	de	ADP	_	_	26	case	_	_
 25	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-26	permis	permis	NOUN	_	_	23	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+26	permis	permis	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	bah	bah	INTJ	_	_	23	discourse	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	23	punct	_	_
-30	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	33	nsubj	_	Number[lex]=Sing|Person[lex]=1
-31	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	33	iobj	_	Number[lex]=Sing|Person[lex]=1
+30	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+31	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	33	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 32	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
-33	donné	donner	VERB	_	VerbForm=Part|Voice=Pass	3	conj	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+33	donné	donner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-35	petit	petit	ADJ	_	Gender=Masc	36	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-36	coup	coup	NOUN	_	_	33	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+35	petit	petit	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
+36	coup	coup	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 37	de	de	ADP	_	_	38	case	_	_
-38	pression	pression	NOUN	_	_	36	nmod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+38	pression	pression	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	quoi	quoi	INTJ	_	_	3	discourse	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	3	punct	_	_
@@ -447,7 +446,7 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	wordform=du
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-3	coup	coup	NOUN	_	_	7	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 4	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	donc	donc	ADV	_	_	7	discourse	_	_
@@ -457,42 +456,42 @@
 # sent_id = ParisStories_2019_peripitiesVoiture_21
 # text = le lendemain donc je passais mon permis.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-2	lendemain	lendemain	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+2	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 3	donc	donc	ADV	_	_	2	discourse	_	_
-4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1
-5	passais	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1
+4	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+5	passais	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	permis	permis	NOUN	_	_	5	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+7	permis	permis	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_22
-# text = j'ai eu très peur parce que euh le même jour de que mon permis j'avais un examen, un contrôle de l'espagnol,
-1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+# text = j'ai eu très peur parce que euh le même jour de que mon permis j'avais un examen, un contrôle de l'espagnol.
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	très	très	ADV	_	_	5	advmod	_	_
-5	peur	peur	NOUN	_	_	3	obj:lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing
+5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	obj:lvc	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	parce	parce	ADV	_	ExtPos=SCONJ	17	mark	_	Idiom=Yes
 7	que	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes
 8	euh	euh	INTJ	_	_	17	discourse	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-10	même	même	ADJ	_	_	11	amod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-11	jour	jour	NOUN	_	_	17	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+10	même	même	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
+11	jour	jour	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12	de	de	ADP	_	_	15	reparandum	_	_
 13	que	que	SCONJ	_	_	15	case	_	_
 14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	permis	permis	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
-16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-17	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	3	advcl	_	Person[ctxt]=1
+15	permis	permis	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+16	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+17	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	advcl	_	Exponence[Person]=Absent
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	LiaisonAfter=Yes
-19	examen	examen	NOUN	_	_	22	reparandum	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+19	examen	examen	NOUN	_	Gender=Masc|Number=Sing	22	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	contrôle	contrôle	NOUN	_	_	17	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+22	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 23	de	de	ADP	_	_	25	case	_	_
-24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-25	espagnol	espagnol	NOUN	_	_	22	nmod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-26	,	,	PUNCT	_	_	3	punct	_	_
+24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+25	espagnol	espagnol	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_23
 # text = et euh, du coup, bah, j'ai réussi à faire les deux.
@@ -502,30 +501,30 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	wordform=du
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	coup	coup	NOUN	_	_	12	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+6	coup	coup	NOUN	_	Gender=Masc|Number=Sing	12	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	bah	bah	INTJ	_	_	12	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+10	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 11	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	réussi	réussir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+12	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 13	à	à	ADP	_	_	14	mark	_	_
 14	faire	faire	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	deux	deux	NUM	_	_	14	obj	_	Number[lex]=Plur|SpaceAfter=No
+16	deux	deux	NUM	_	Number=Plur	14	obj	_	Exponence[Number]=Inherent|SpaceAfter=No
 17	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_24
 # text = le matin j'avais eu mon partiel d'espagnol.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-2	matin	matin	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
-3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+2	matin	matin	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
-5	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	partiel	partiel	NOUN	_	_	5	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+7	partiel	partiel	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
-9	espagnol	espagnol	ADJ	_	_	7	nmod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+9	espagnol	espagnol	ADJ	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_25
@@ -533,13 +532,13 @@
 1	et	et	CCONJ	_	_	27	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	en	en	ADP	_	ExtPos=ADV	27	discourse	_	Idiom=Yes
-4	fait	fait	NOUN	_	_	3	fixed	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	27	discourse	_	_
-7	vu	voir	VERB	_	ExtPos=ADP	10	mark	_	_
+7	vu	voir	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part	10	mark	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|Tense[denom]=Past
 8	que	que	SCONJ	_	_	10	mark	_	_
-9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-10	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	27	advcl	_	Person[ctxt]=1
+9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+10	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	advcl	_	Exponence[Person]=Absent
 11	sur	sur	ADP	_	_	19	reparandum	_	_
 12	euh	euh	INTJ	_	_	15	discourse	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -548,25 +547,25 @@
 16	,	,	PUNCT	_	_	11	punct	_	_
 17	dans	dans	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-19	sud	sud	NOUN	_	_	10	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
+19	sud	sud	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20	de	de	ADP	_	_	21	case	_	_
-21	Seine	Seine	PROPN	_	_	19	nmod	_	Gender[lex]=Unknown
+21	Seine	Seine	PROPN	_	_	19	nmod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
-23	Marne	Marne	PROPN	_	_	21	conj	_	Gender[lex]=Unknown|SpaceAfter=No
+23	Marne	Marne	PROPN	_	_	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	10	punct	_	_
-25	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+25	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 26	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
-27	dû	devoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-28	me	moi	PRON	_	Emph=No|PronType=Prs	29	expl:comp	_	Number[lex]=Sing|Person[lex]=1
+27	dû	devoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+28	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	29	expl:comp	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 29	déplacer	déplacer	VERB	_	VerbForm=Inf	27	xcomp	_	Subject=SubjRaising
 30	sur	sur	ADP	_	_	31	case	_	_
-31	Paris	Paris	PROPN	_	_	29	obl:mod	_	Gender[lex]=Unknown
+31	Paris	Paris	PROPN	_	_	29	obl:mod	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-33	matin	matin	NOUN	_	_	29	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+33	matin	matin	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	prendre	prendre	VERB	_	VerbForm=Inf	29	conj	_	Subject=SubjRaising
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-37	train	train	NOUN	_	_	35	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+37	train	train	NOUN	_	Gender=Masc|Number=Sing	35	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 38	et	et	CCONJ	_	ExtPos=ADV	37	conj	_	Idiom=Yes
 39	tout	tout	ADV	_	_	38	fixed	_	InIdiom=Yes|SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
@@ -574,38 +573,38 @@
 42	remonter	remonter	VERB	_	VerbForm=Inf	29	conj	_	Subject=SubjRaising
 43	après	après	ADP	_	_	45	case	_	_
 44	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	45	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-45	partiel	partiel	NOUN	_	_	42	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+45	partiel	partiel	NOUN	_	Gender=Masc|Number=Sing	42	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 46	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_26
 # text = donc ça s'est fait.
 1	donc	donc	ADV	_	_	5	advmod	_	_
-2	ça	ça	PRON	_	PronType=Dem	5	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-3	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	5	expl:pass	_	Person[lex]=3|SpaceAfter=No
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+3	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	expl:pass	_	Exponence[Person]=Inherent|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	fait	faire	VERB	_	Gender=Masc|VerbForm=Part	0	root	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+5	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_27
 # text = j'ai eu de la chance que c'était... ça tombait pas au même moment.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	de	de	ADP	_	ExtPos=DET	6	det	_	Idiom=Yes
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
-6	chance	chance	NOUN	_	_	3	obj	_	Gender[lex]=Fem|Number[ctxt]=Sing
+6	chance	chance	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 7	que	que	PRON	_	PronType=Rel	12	reparandum	_	_
-8	c'	ce	PRON	_	PronType=Dem	7	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	SpaceAfter=No
 10	...	...	PUNCT	_	_	7	punct	_	_
-11	ça	ça	PRON	_	PronType=Dem	12	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-12	tombait	tomber	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	Number[ctxt]=Sing|Person[ctxt]=3
+11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+12	tombait	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	acl:relcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	17	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	même	même	ADJ	_	_	17	amod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-17	moment	moment	NOUN	_	_	12	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+16	même	même	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
+17	moment	moment	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_28
@@ -613,18 +612,18 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-3	coup	coup	NOUN	_	_	6	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
-4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	6	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-6	repris	reprendre	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Gender|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-8	train	train	NOUN	_	_	6	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+8	train	train	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	redescendre	redescendre	VERB	_	VerbForm=Inf	6	advcl	_	Subject=NoRaising
 11	là	là	ADV	_	_	10	advmod	_	_
 12	où	où	ADV	_	PronType=Rel	11	advmod	_	_
-13	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-14	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	ccomp	_	Person[ctxt]=1|SpaceAfter=No
+13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+14	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	Exponence[Person]=Absent|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_29
@@ -634,59 +633,59 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_30
-# text = après euh l'après-midi du coup je me suis rendue euh à mon lieu de rendez-vous pour mon permis,
+# text = après euh l'après-midi du coup je me suis rendue euh à mon lieu de rendez-vous pour mon permis.
 1	après	après	ADV	_	_	11	advmod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-4	après-midi	après-midi	NOUN	_	_	11	obl:mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+4	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	coup	coup	NOUN	_	_	11	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing
-8	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	nsubj	_	Number[lex]=Sing|Person[lex]=1
-9	me	moi	PRON	_	Emph=No|PronType=Prs	11	expl:comp	_	Number[lex]=Sing|Person[lex]=1
+7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	11	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+9	me	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	11	expl:comp	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 10	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
-11	rendue	rendre	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+11	rendue	rendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	euh	euh	INTJ	_	_	15	discourse	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-15	lieu	lieu	NOUN	_	_	11	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Sing
+15	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 16	de	de	ADP	_	_	17	case	_	_
-17	rendez-vous	rendez-vous	NOUN	_	_	15	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+17	rendez-vous	rendez-vous	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 18	pour	pour	ADP	_	_	20	case	_	_
 19	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-20	permis	permis	NOUN	_	_	11	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-21	,	,	PUNCT	_	_	11	punct	_	_
+20	permis	permis	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_31
 # text = j'étais accompagnée de ma mère.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux:pass	_	_
-3	accompagnée	accompagner	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	de	de	ADP	_	_	6	case	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	mère	mère	NOUN	_	_	3	obl:arg	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+6	mère	mère	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_32
 # text = j'ai pu… du coup, dans la voiture elle m'a beaucoup aidée à réviser, à travailler… euh parce que quand on passe le permis il y a des questions en plus euh, théoriques, en plus de la pratique.
-1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	16	reparandum	_	Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+3	pu	pouvoir	VERB	_	Number=Sing|VerbForm=Part|Voice=Act	16	reparandum	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 4	…	…	PUNCT	_	_	3	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-7	coup	coup	NOUN	_	_	13	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+7	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-11	voiture	voiture	NOUN	_	_	16	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
-12	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	16	nsubj	_	Person[lex]=3
-13	m'	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	16	obj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+11	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+12	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Exponence[Person]=Inherent
+13	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	16	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
 15	beaucoup	beaucoup	ADV	_	_	16	advmod	_	_
-16	aidée	aider	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+16	aidée	aider	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	à	à	ADP	_	_	18	mark	_	_
 18	réviser	réviser	VERB	_	VerbForm=Inf	16	xcomp	_	SpaceAfter=No|Subject=ObjRaising
 19	,	,	PUNCT	_	_	21	punct	_	_
@@ -697,26 +696,26 @@
 24	parce	parce	ADV	_	ExtPos=SCONJ	33	mark	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes
 26	quand	quand	SCONJ	_	_	28	mark	_	_
-27	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	28	nsubj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-28	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	advcl	_	Number[ctxt]=Sing|Person[ctxt]=3
+27	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	28	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+28	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	permis	permis	NOUN	_	_	28	obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
-31	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	33	expl:subj	_	Person[lex]=3
-32	y	y	PRON	_	PronType=Prs	33	expl:comp	_	Person[lex]=3
+30	permis	permis	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+31	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	expl:subj	_	Exponence[Person]=Inherent
+32	y	y	PRON	_	Person=3|PronType=Prs	33	expl:comp	_	Exponence[Person]=Inherent
 33	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 34	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	35	det	_	_
-35	questions	question	NOUN	_	_	33	obj	_	Gender[lex]=Fem|Number[ctxt]=Plur
+35	questions	question	NOUN	_	Gender=Fem|Number=Plur	33	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 36	en	en	ADP	_	_	37	case	_	_
 37	plus	plus	ADV	_	_	43	reparandum	_	_
 38	euh	euh	INTJ	_	_	40	discourse	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	38	punct	_	_
-40	théoriques	théorique	ADJ	_	_	43	reparandum	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
+40	théoriques	théorique	ADJ	_	Gender=Fem|Number=Plur	43	reparandum	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 41	,	,	PUNCT	_	_	40	punct	_	_
 42	en	en	ADP	_	_	43	case	_	_
 43	plus	plus	ADV	_	_	35	advmod	_	_
 44	de	de	ADP	_	_	46	case	_	_
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-46	pratique	pratique	NOUN	_	_	43	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+46	pratique	pratique	NOUN	_	Gender=Fem|Number=Sing	43	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 47	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = ParisStories_2019_peripitiesVoiture_33
@@ -724,36 +723,36 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-3	coup	coup	NOUN	_	_	7	discourse	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	7	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	nsubj	_	Number[lex]=Sing|Person[lex]=1
-6	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	7	obj	_	Person[lex]=3
+5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+6	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	7	obj	_	Exponence[Person]=Inherent
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	reparandum	_	_
 8	XXX	XXX	X	_	_	7	dep	_	Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	enfin	enfin	ADV	_	ExtPos=INTJ	14	discourse	_	SpaceAfter=No|wordform=fin
 11	,	,	PUNCT	_	_	10	punct	_	_
-12	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	nsubj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+12	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-14	essayé	essayer	VERB	_	VerbForm=Part|Voice=Act	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+14	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 15	de	de	ADP	_	_	17	mark	_	_
-16	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	17	obj	_	Person[lex]=3
+16	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	17	obj	_	Exponence[Person]=Inherent
 17	voir	voir	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
 18	pour	pour	ADP	_	_	20	mark	_	_
-19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	20	obj	_	Person[lex]=3
+19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	20	obj	_	Exponence[Person]=Inherent
 20	retenir	retenir	VERB	_	VerbForm=Inf	17	advcl	_	Subject=NoRaising
 21	par	par	ADP	_	_	22	case	_	_
-22	cœur	cœur	NOUN	_	_	20	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
+22	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 23	parce	parce	ADV	_	ExtPos=SCONJ	30	mark	_	Idiom=Yes
 24	que	que	SCONJ	_	_	23	fixed	_	InIdiom=Yes
-25	c'	ce	PRON	_	PronType=Dem	26	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+25	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 26	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	reparandum	_	_
-27	c'	ce	PRON	_	PronType=Dem	30	nsubj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+27	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 29	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	30	det	_	_
-30	points	point	NOUN	_	_	14	advcl	_	Gender[lex]=Masc|Number[ctxt]=Plur
+30	points	point	NOUN	_	Gender=Masc|Number=Plur	14	advcl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 31	de	de	ADP	_	_	32	mark	_	_
-32	gagnés	gagner	VERB	_	VerbForm=Part	30	acl	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+32	gagnés	gagner	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	30	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	quoi	quoi	INTJ	_	_	7	discourse	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	34	punct	_	_
