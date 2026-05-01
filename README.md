@@ -6,13 +6,13 @@ It contains monologues and dialogues from speakers living in the Parisian region
 
 # Introduction
 
-For an assignment, students had to record a friend or a relative sharing an anecdote about a given theme (meaningful encounters, vacations, interesting stories..).
+For an assignment, students had to record a friend or a relative sharing an anecdote about a given theme (meaningful encounters, vacations, interesting stories…).
 The corpus was created for the study of contemporary spoken French and to train a syntactic parser for spoken French.
 All data has been morpho-syntactically annotated following the SUD (Surface Syntactic Universal Dependencies) guidelines.
 
-See SUD Guidelines : https://surfacesyntacticud.github.io/guidelines/u/
+See SUD Guidelines: https://surfacesyntacticud.github.io/guidelines/u/
 
-The Treebank can be found here : http://match.grew.fr/?corpus=SUD_French-ParisStories@latest
+The Treebank can be found here: http://match.grew.fr/?corpus=SUD_French-ParisStories@latest
 
 The recordings can be downloaded via the url given in the '# sound_url' metadata.
 
@@ -135,6 +135,10 @@ Conversion and handling of data validation : Bruno Guillaume
 Direction of data collection : Cédric Gendrot, Kim Gerdes, Marine Courtin
 
 We would like to thank all the students who participated in this project.
+
+The final discussions on the guidelines for spoken treebanks were supported by the COST Action CA21167 —Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)).
+Resource maintenance has been supported by [Autogramm](https://autogramm.github.io/en/), ANR (Agence Nationale de la Recherche), Projet-ANR-21-CE38-0017 (2021-2026).
+
 
 
 ## References
