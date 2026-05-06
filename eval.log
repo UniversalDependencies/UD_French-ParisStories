@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_French-ParisStories:
-commit aa1ea6ecb1a61d583aed8d6db4bb0d631662f31e
-Merge: 8a7a19b aefa038
+commit 613f33a35a84f339400530ec0be46282c9e570a4
+Merge: c549ab6 ae46490
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fr_parisstories'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 18625 out of 42789 total words have one or more features.
+Features: 23608 out of 42789 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -31,13 +31,13 @@ Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-ParisStories/fr_parisstories-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.111111111111111) * (score{features}=0.4) = 0.0444444444444444
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
 (weight=0.37037037037037) * (score{size}=0.543777378975546) = 0.201399029250202
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
 (weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
-(TOTAL score=0.572689927992081) * (availability=1) * (validity=1) = 0.572689927992081
+(TOTAL score=0.617134372436526) * (availability=1) * (validity=1) = 0.617134372436526
 STARS = 3
-UD_French-ParisStories	0.572689927992081	3
+UD_French-ParisStories	0.617134372436526	3
