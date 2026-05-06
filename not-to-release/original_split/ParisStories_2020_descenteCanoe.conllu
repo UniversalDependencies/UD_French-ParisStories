@@ -1,0 +1,846 @@
+# sent_id = ParisStories_2020_descenteCanoe_1
+# text = alors, euh, c'était il y a à peu près huit, dix ans.
+1	alors	alors	ADV	_	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	il	lui	PRON	_	Case=Nom|Emph=No|ExtPos=ADP|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	case	_	Exponence[Person]=Inherent|Idiom=Yes
+8	y	y	PRON	_	Person=3|PronType=Prs	7	fixed	_	Exponence[Person]=Inherent|InIdiom=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	fixed	_	InIdiom=Yes
+10	à	à	ADP	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
+11	peu	peu	ADV	_	_	10	fixed	_	InIdiom=Yes
+12	près	près	ADV	_	_	10	fixed	_	InIdiom=Yes
+13	huit	huit	NUM	_	Number=Plur	15	reparandum	_	Exponence[Number]=Inherent|SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	dix	dix	NUM	_	Number=Plur	16	nummod	_	Exponence[Number]=Inherent
+16	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_2
+# text = et, j'étais avec mes parents et une de mes copines qui s'appelait Juliette.
+1	et	et	CCONJ	_	_	4	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+4	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	avec	avec	ADP	_	_	7	case	_	_
+6	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	parents	parent	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+8	et	et	CCONJ	_	_	9	cc	_	_
+9	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	conj	_	Exponence[Person]=Inherent
+10	de	de	ADP	_	_	12	case	_	_
+11	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+12	copines	copine	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+13	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
+14	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
+15	appelait	appeler	VERB	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+16	Juliette	Juliette	PROPN	_	_	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_3
+# text = on l'avait emmenée.
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	4	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
+3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
+4	emmenée	emmener	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_4
+# text = et, on avait décidé de faire cette journée là, la descente de l'Ardèche.
+1	et	et	CCONJ	_	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:tense	_	_
+5	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	de	de	ADP	_	_	7	mark	_	_
+7	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	journée	journée	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	là	là	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	descente	descente	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+14	de	de	ADP	_	_	16	case	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+16	Ardèche	Ardèche	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_5
+# text = et, du coup, euh, la veille, on avait réservé des canoës.
+1	et	et	CCONJ	_	_	14	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	14	punct	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	14	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	veille	veille	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+13	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux:tense	_	_
+14	réservé	réserver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
+16	canoës	canoë	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_6
+# text = il y avait soit les horaires, du coup, euh, deux heures, quatre heures ou huit heures.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	Exponence[Person]=Inherent
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	Exponence[Person]=Inherent
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+4	soit	être	CCONJ	_	_	6	cc	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+6	horaires	horaire	NOUN	_	Gender=Masc|Number=Plur	15	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	coup	coup	NOUN	_	Gender=Masc|Number=Sing	15	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	deux	deux	NUM	_	Number=Plur	15	nummod	_	Exponence[Number]=Inherent
+15	heures	heure	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	quatre	quatre	NUM	_	Number=Plur	18	nummod	_	Exponence[Number]=Inherent
+18	heures	heure	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+19	ou	ou	CCONJ	_	_	21	cc	_	_
+20	huit	huit	NUM	_	Number=Plur	21	nummod	_	Exponence[Number]=Inherent
+21	heures	heure	NOUN	_	Gender=Fem|Number=Plur	15	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_7
+# text = et mon père, il voulait absolument faire huit heures.
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	père	père	NOUN	_	Gender=Masc|Number=Sing	6	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Exponence[Person]=Inherent
+6	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+7	absolument	absolument	ADV	_	_	6	advmod	_	_
+8	faire	faire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
+9	huit	huit	NUM	_	Number=Plur	10	nummod	_	Exponence[Number]=Inherent
+10	heures	heure	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_8
+# text = et, euh, on était dégoûté, avec ma mère.
+1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	dégoûté	dégoûter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	avec	avec	ADP	_	_	11	case	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	mère	mère	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_9
+# text = on voulait pas du tout le faire.
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+3	pas	pas	ADV	_	Polarity=Neg	2	advmod	_	_
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	ExtPos=ADV	3	advmod	_	Idiom=Yes
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
+6	tout	tout	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
+7	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	Exponence[Person]=Inherent
+8	faire	faire	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_10
+# text = on était là, non mais c'est pas possible, ça va pas le faire.
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+3	là	là	ADV	_	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	_
+5	non	non	ADV	_	ExtPos=INTJ	10	discourse	_	_
+6	mais	mais	CCONJ	_	_	10	cc	_	_
+7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	Reported=Yes
+9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
+10	possible	possible	ADJ	_	Gender=Masc|Number=Sing	3	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+13	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
+15	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Exponence[Person]=Inherent
+16	faire	faire	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_11
+# text = et au final, bon bah on s'est lancé.
+1	et	et	CCONJ	_	_	11	cc	_	_
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	4	case	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	final	final	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	bon	bon	INTJ	_	_	11	discourse	_	_
+7	bah	bah	INTJ	_	_	11	discourse	_	_
+8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+9	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_12
+# text = on s'était dit, euh, ouais non, ça va pas durer trop trop longtemps, euh, ça devrait aller.
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	iobj	_	Exponence[Person]=Inherent|SpaceAfter=No
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+5	,	,	PUNCT	_	_	12	punct	_	_
+6	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ouais	ouais	INTJ	_	_	12	discourse	_	_
+9	non	non	ADV	_	ExtPos=INTJ	12	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	Reported=Yes
+13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
+14	durer	durer	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
+15	trop	trop	ADV	_	_	17	advmod	_	_
+16	trop	trop	ADV	_	_	15	conj	_	_
+17	longtemps	longtemps	ADV	_	_	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+22	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+23	aller	aller	VERB	_	VerbForm=Inf	22	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_13
+# text = et en fait, bah non, pas du tout, que dalle.
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
+3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	bah	bah	INTJ	_	_	6	discourse	_	_
+6	non	non	ADV	_	ExtPos=INTJ	13	reparandum	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	pas	pas	ADV	_	Polarity=Neg	13	reparandum	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	ExtPos=ADV	8	advmod	_	Idiom=Yes
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
+11	tout	tout	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	_
+13	que	que	ADV	_	ExtPos=ADV|Polarity=Neg	0	root	_	Idiom=Yes
+14	dalle	dalle	NOUN	_	Gender=Fem	13	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes|SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_14
+# text = donc le lendemain matin, donc on était prêt.
+1	donc	donc	ADV	_	_	3	advmod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	matin	matin	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	donc	donc	ADV	_	_	9	advmod	_	_
+7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	prêt	prêt	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_15
+# text = on avait nos canoës, on est rentré dedans.
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+3	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	canoës	canoë	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	rentré	rentrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	dedans	dedans	ADV	_	_	8	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_16
+# text = euh, on a ramé, on a ramé.
+1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	ramé	ramer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	ramé	ramer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_17
+# text = et, en fait, j'étais en binôme avec, euh, justement mon amie et mes parents, ils étaient tous les deux ensemble.
+1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	7	punct	_	_
+3	en	en	ADP	_	ExtPos=ADV	7	discourse	_	Idiom=Yes
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+7	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
+8	en	en	ADP	_	_	9	case	_	_
+9	binôme	binôme	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	avec	avec	ADP	_	_	16	case	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	justement	justement	ADV	_	_	16	advmod	_	_
+15	mon	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+16	amie	ami	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+17	et	et	CCONJ	_	_	25	cc	_	_
+18	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+19	parents	parent	NOUN	_	Gender=Masc|Number=Plur	25	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	Exponence[Person]=Inherent
+22	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
+23	tous	tout	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+25	deux	deux	NUM	_	Number=Plur	7	conj	_	Exponence[Number]=Inherent
+26	ensemble	ensemble	ADV	_	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_18
+# text = et, euh, il y a un moment où avec mon amie, on s'est échoué sur, euh, sur, euh, le rivage.
+1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	Exponence[Person]=Inherent
+6	y	y	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	Exponence[Person]=Inherent
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	moment	moment	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+10	où	où	ADV	_	PronType=Rel	18	advmod	_	_
+11	avec	avec	ADP	_	_	13	case	_	_
+12	mon	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	13	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+13	amie	ami	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+16	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	18	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+18	échoué	échouer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+19	sur	sur	ADP	_	_	28	reparandum	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	sur	sur	ADP	_	_	28	case	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	euh	euh	INTJ	_	_	28	discourse	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+28	rivage	rivage	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+29	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_19
+# text = et on était bloqué par les cailloux.
+1	et	et	CCONJ	_	_	4	cc	_	_
+2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	par	par	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	cailloux	caillou	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_20
+# text = et, bah, je savais qu'il y en avait une de nous deux qui devait s'y coller, en fait, pour le pousser.
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	bah	bah	INTJ	_	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+6	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
+7	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	Exponence[Person]=Inherent
+9	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	Exponence[Person]=Inherent
+10	en	en	PRON	_	Person=3|PronType=Prs	11	iobj	_	Exponence[Person]=Inherent
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+12	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	11	obj	_	Exponence[Person]=Inherent
+13	de	de	ADP	_	_	14	case	_	_
+14	nous	nous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=1|PronType=Prs	12	nmod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+15	deux	deux	NUM	_	Number=Plur	14	nmod	_	Exponence[Number]=Inherent
+16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
+17	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+18	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
+19	y	y	PRON	_	Person=3|PronType=Prs	20	iobj	_	Exponence[Person]=Inherent
+20	coller	coller	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	en	en	ADP	_	ExtPos=ADV	27	discourse	_	Idiom=Yes
+23	fait	fait	NOUN	_	Gender=Masc|Number=Sing	22	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	pour	pour	ADP	_	_	27	mark	_	_
+26	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	Exponence[Person]=Inherent
+27	pousser	pousser	VERB	_	VerbForm=Inf	17	advcl	_	SpaceAfter=No|Subject=NoRaising
+28	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_21
+# text = du coup, euh, moi c'était mort, je voulais pas le faire, parce que je savais qu'il allait partir sans moi.
+1-2	du	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	10	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	10	dislocated:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+10	mort	mourir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+13	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	conj	_	Exponence[Person]=Absent
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
+15	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Exponence[Person]=Inherent
+16	faire	faire	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	parce	parce	ADV	_	ExtPos=SCONJ	21	mark	_	Idiom=Yes
+19	que	que	SCONJ	_	_	18	fixed	_	InIdiom=Yes
+20	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+21	savais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	advcl	_	Exponence[Person]=Absent
+22	qu'	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
+23	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	Exponence[Person]=Inherent
+24	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	ccomp	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+25	partir	partir	VERB	_	VerbForm=Inf	24	xcomp	_	Subject=SubjRaising
+26	sans	sans	ADP	_	_	27	case	_	_
+27	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	25	obl:mod	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_22
+# text = et, du coup, euh, bah Juliette l'a fait.
+1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	13	punct	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	13	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	bah	bah	INTJ	_	_	13	discourse	_	_
+10	Juliette	Juliette	PROPN	_	_	13	nsubj	_	_
+11	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	13	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_23
+# text = elle est sortie, elle a poussé le canoë.
+1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	sortie	sortir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Exponence[Person]=Inherent
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
+7	poussé	pousser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	canoë	canoë	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_24
+# text = sauf que, bah effectivement, il est parti sans elle.
+1	sauf	sauf	ADP	_	ExtPos=SCONJ	9	mark	_	Idiom=Yes
+2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	bah	bah	INTJ	_	_	9	discourse	_	_
+5	effectivement	effectivement	ADV	_	_	9	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	parti	partir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+10	sans	sans	ADP	_	_	11	case	_	_
+11	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl:mod	_	Exponence[Person]=Inherent|SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_25
+# text = donc du coup, elle a dû courir après.
+1	donc	donc	ADV	_	_	8	advmod	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	dû	devoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	courir	courir	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
+10	après	après	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_26
+# text = et elle arrêtait pas d'hurler.
+1	et	et	CCONJ	_	_	3	cc	_	_
+2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
+3	arrêtait	arrêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
+5	d'	de	ADP	_	_	6	mark	_	SpaceAfter=No
+6	hurler	hurler	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_27
+# text = moi, j'étais morte de rire.
+1	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	5	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+4	étais	être	AUX	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	morte	mourir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+6	de	de	ADP	_	_	7	mark	_	_
+7	rire	rire	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_28
+# text = et au final, il y avait une cascade, juste à côté en plus.
+1	et	et	CCONJ	_	_	8	cc	_	_
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	4	case	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	final	final	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	Exponence[Person]=Inherent
+7	y	y	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	Exponence[Person]=Inherent
+8	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cascade	cascade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	juste	juste	ADV	_	_	14	advmod	_	_
+13	à	à	ADP	_	_	14	case	_	_
+14	côté	côté	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+15	en	en	ADP	_	_	16	case	_	_
+16	plus	plus	ADV	_	_	8	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_29
+# text = et, elle a pris la rapide.
+1	et	et	CCONJ	_	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
+4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+5	pris	prendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	rapide	rapide	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_30
+# text = et, euh, elle était en train d'hurler.
+1	et	et	CCONJ	_	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	train	train	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No
+10	hurler	hurler	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_31
+# text = elle a fait la cascade toute seule, donc bon, voilà.
+1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+5	cascade	cascade	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+6	toute	tout	ADV	_	_	7	advmod	_	_
+7	seule	seul	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	donc	donc	ADV	_	_	3	discourse	_	_
+10	bon	bon	INTJ	_	_	9	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	voilà	voilà	VERB	_	ExtPos=INTJ	3	discourse	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_32
+# text = ensuite, euh après, il s'est passé quoi ?
+1	ensuite	ensuite	ADV	_	_	4	reparandum	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	euh	euh	INTJ	_	_	4	discourse	_	_
+4	après	après	ADV	_	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent
+7	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+10	quoi	quoi	PRON	_	PronType=Int	9	obj	_	_
+11	?	?	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_33
+# text = il y avait, euh, je crois que c'était en début d'après-midi.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	Exponence[Person]=Inherent
+2	y	y	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	Exponence[Person]=Inherent
+3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	reparandum	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	début	début	NOUN	_	Gender=Masc|Number=Sing	8	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
+15	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_34
+# text = et, euh, en fait, tu vois, il y avait plein de rapides.
+1	et	et	CCONJ	_	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	13	punct	_	_
+5	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes
+6	fait	fait	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+9	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	discourse	_	Exponence[Person]=Absent|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	Exponence[Person]=Inherent
+12	y	y	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	Exponence[Person]=Inherent
+13	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+14	plein	plein	ADV	_	_	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	rapides	rapide	NOUN	_	Gender=Masc|Number=Plur	14	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_35
+# text = et il y en avait une, particulièrement, qui était mais vraiment, euh, terrible terrible.
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	Exponence[Person]=Inherent
+3	y	y	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	Exponence[Person]=Inherent
+4	en	en	PRON	_	Person=3|PronType=Prs	6	nmod	_	Exponence[Person]=Inherent
+5	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+6	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	5	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	particulièrement	particulièrement	ADV	_	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+12	mais	mais	CCONJ	_	_	17	cc	_	_
+13	vraiment	vraiment	ADV	_	_	17	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	13	punct	_	_
+17	terrible	terrible	ADJ	_	Gender=Fem|Number=Sing	6	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
+18	terrible	terrible	ADJ	_	Gender=Fem|Number=Sing	17	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_36
+# text = euh, en fait, nous on n'est pas tombée avec, euh, mon amie.
+1	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	11	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
+11	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+12	avec	avec	ADP	_	_	17	case	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	mon	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	17	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+17	amie	ami	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_37
+# text = par contre mes parents, ils se sont carrément fait éjecter du du canoë.
+1	par	par	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
+2	contre	contre	NOUN	_	Gender=Masc	1	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
+3	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+4	parents	parent	NOUN	_	Gender=Masc|Number=Plur	11	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	Exponence[Person]=Inherent
+7	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	expl:pass	_	Exponence[Person]=Inherent
+8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+9	carrément	carrément	ADV	_	_	11	advmod	_	_
+10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	Tense[denom]=Past
+11	éjecter	éjecter	VERB	_	VerbForm=Inf	0	root	_	Subject=SubjRaising
+12-13	du	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	16	reparandum	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	dep	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
+14-15	du	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+16	canoë	canoë	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_38
+# text = et mon père s'était, euh, il était vraiment loin de la barque.
+1	et	et	CCONJ	_	_	5	cc	_	_
+2	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	père	père	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	dep:comp	_	Exponence[Person]=Inherent|Scrap=Yes|SpaceAfter=No
+5	était	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	reparandum	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Exponence[Person]=Inherent
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	vraiment	vraiment	ADV	_	_	12	advmod	_	_
+12	loin	loin	ADV	_	_	0	root	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	barque	barque	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+16	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_39
+# text = et à chaque fois, pour essayer de rejoindre ma mère, il devait, euh, entre guillemets, euh, marcher sur les cailloux.
+1	et	et	CCONJ	_	_	14	cc	_	_
+2	à	à	ADP	_	_	4	case	_	_
+3	chaque	chaque	DET	_	Number=Sing|PronType=Ind	4	det	_	Exponence[Number]=Inherent
+4	fois	fois	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	pour	pour	ADP	_	_	7	mark	_	_
+7	essayer	essayer	VERB	_	VerbForm=Inf	14	advcl	_	Subject=NoRaising
+8	de	de	ADP	_	_	9	mark	_	_
+9	rejoindre	rejoindre	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	mère	mère	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Exponence[Person]=Inherent
+14	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	euh	euh	INTJ	_	_	19	discourse	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	entre	entre	ADP	_	_	19	case	_	_
+19	guillemets	guillemet	NOUN	_	Gender=Masc|Number=Plur	14	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	euh	euh	INTJ	_	_	23	discourse	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	marcher	marcher	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
+24	sur	sur	ADP	_	_	26	case	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+26	cailloux	caillou	NOUN	_	Gender=Masc|Number=Plur	23	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_40
+# text = sauf que ça glissait énormément parce qu'il y avait de la mousse dessus.
+1	sauf	sauf	ADP	_	ExtPos=SCONJ	4	mark	_	Idiom=Yes
+2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
+3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+4	glissait	glisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+5	énormément	énormément	ADV	_	_	4	advmod	_	_
+6	parce	parce	ADV	_	ExtPos=SCONJ	10	mark	_	Idiom=Yes
+7	qu'	que	SCONJ	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	Exponence[Person]=Inherent
+9	y	y	PRON	_	Person=3|PronType=Prs	10	expl:comp	_	Exponence[Person]=Inherent
+10	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+11	de	de	ADP	_	ExtPos=DET	13	det	_	Idiom=Yes
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	fixed	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
+13	mousse	mousse	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+14	dessus	dessus	ADV	_	_	10	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_41
+# text = du coup, à chaque fois, sa tête elle, euh, sortait de l'eau puis elle remontait, puis elle ressortait, enfin bref.
+1-2	du	_	_	_	_	_	_	_	_
+1	de	de	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	15	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	à	à	ADP	_	_	7	case	_	_
+6	chaque	chaque	DET	_	Number=Sing|PronType=Ind	7	det	_	Exponence[Number]=Inherent
+7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+10	tête	tête	NOUN	_	Gender=Fem|Number=Sing	15	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+11	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Exponence[Person]=Inherent|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	sortait	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+16	de	de	ADP	_	_	18	case	_	_
+17	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+18	eau	eau	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+19	puis	puis	ADV	_	_	21	cc	_	_
+20	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Exponence[Person]=Inherent
+21	remontait	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	puis	puis	ADV	_	_	25	cc	_	_
+24	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	Exponence[Person]=Inherent
+25	ressortait	ressortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	conj	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	_
+28	bref	bref	INTJ	_	_	25	discourse	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_42
+# text = ensuite, euh, qu'est-ce qu'il y avait, euh ?
+1	ensuite	ensuite	ADV	_	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	expl:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	qu'	que	PRON	_	PronType=Rel	11	obj	_	SpaceAfter=No
+9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl:subj	_	Exponence[Person]=Inherent
+10	y	y	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	Exponence[Person]=Inherent
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl:cleft	_	Exponence[Number]=Absent|Exponence[Person]=Absent|Filler=obj|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	euh	euh	INTJ	_	_	11	discourse	_	_
+14	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_43
+# text = on a échangé de de binôme, je me suis retrouvée avec ma mère.
+1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	échangé	échanger	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	de	de	ADP	_	_	6	reparandum	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	binôme	binôme	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+9	me	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	11	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+10	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	retrouvée	retrouver	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+12	avec	avec	ADP	_	_	14	case	_	_
+13	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+14	mère	mère	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ParisStories_2020_descenteCanoe_44
+# text = et, euh, on s'est échoué, euh, sur, euh, un rocher un peu particulier qui était, euh, le caillou des nudistes.
+1	et	et	CCONJ	_	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	échoué	échouer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	sur	sur	ADP	_	_	17	case	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	rocher	rocher	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+18	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	20	advmod	_	Idiom=Yes
+19	peu	peu	NOUN	_	Gender=Masc|Number=Sing	18	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
+20	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
+21	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
+22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	euh	euh	INTJ	_	_	27	discourse	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+27	caillou	caillou	NOUN	_	Gender=Masc|Number=Sing	17	acl:relcl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+28-29	des	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+30	nudistes	nudiste	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	_
+
