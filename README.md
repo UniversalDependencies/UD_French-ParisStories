@@ -148,6 +148,8 @@ An article about the annotation of spoken French will soon be released (Kahane e
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Restore basic (non-layered) featues (see https://github.com/UniversalDependencies/UD_French-GSD/blob/master/README.md for details)
 * 2024-05-15 v2.14
   * Fix a few inconsistent annotation of idioms
   * See [SUD commit logs](https://github.com/surfacesyntacticud/SUD_French-ParisStories/commits/master/) for more details
@@ -168,7 +170,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Gerdes, Kim; Kahane, Sylvain; Mahamdi, Menel
+Contributors: Gerdes, Kim; Kahane, Sylvain; Mahamdi, Menel; Guillaume, Bruno
 Contributing: elsewhere
 Contact: gerdes@lisn.fr
 ===============================================================================
