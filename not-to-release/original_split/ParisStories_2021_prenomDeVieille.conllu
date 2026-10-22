@@ -2,7 +2,7 @@
 # text = donc, euh, ce que je voulais te raconter c'est, le, euh, la fois où, où j'ai rencontré ma meilleure copine actuelle, qui s'appelle Cynthia.
 1	donc	donc	ADV	_	_	19	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	que	que	PRON	_	PronType=Rel	10	obj	_	_
@@ -15,7 +15,7 @@
 13	,	,	PUNCT	_	_	19	punct	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
+16	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 19	fois	fois	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -24,7 +24,7 @@
 22	où	où	ADV	_	PronType=Rel	25	advmod	_	_
 23	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 24	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-25	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	19	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+25	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 26	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 27	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison
 28	copine	copine	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -42,25 +42,25 @@
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	en	en	ADP	_	_	5	case	_	_
-5	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	8	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+5	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
 7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-8	entrais	entrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
+8	entrais	entrer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	conj:reform	_	Exponence[Person]=Absent
 9	en	en	ADP	_	_	10	case	_	_
 10	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-11	,	,	PUNCT	_	_	21	punct	_	_
-12	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	16	case	_	wordform=au
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	21	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
 18	dans	dans	ADP	_	_	21	case	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-21	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-22	.	.	PUNCT	_	_	8	punct	_	_
+21	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	16	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_3
 # text = et j'étais avec ma maman, on était dans la salle d'attente, euh, du secrétariat, on attendait de, notre tour, pour, euh, pour s'inscrire, pour, euh, rendre les papiers.
@@ -69,21 +69,21 @@
 3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
 4	avec	avec	ADP	_	_	6	case	_	_
 5	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	maman	maman	NOUN	_	Gender=Fem|Number=Sing	12	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+6	maman	maman	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-12	salle	salle	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+12	salle	salle	NOUN	_	Gender=Fem|Number=Sing	6	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	attente	attente	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
-16	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
+16	euh	euh	INTJ	_	_	20	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18-19	du	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	wordform=du
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	secrétariat	secrétariat	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 21	,	,	PUNCT	_	_	12	punct	_	_
 22	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -92,23 +92,23 @@
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 27	tour	tour	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-28	,	,	PUNCT	_	_	41	punct	_	_
-29	pour	pour	ADP	_	_	41	reparandum	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	35	punct	_	_
+29	pour	pour	ADP	_	_	35	reparandum	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	euh	euh	INTJ	_	_	35	discourse	_	SpaceAfter=No
+31	euh	euh	INTJ	_	_	35	discourse:filler	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	pour	pour	ADP	_	_	35	mark	_	_
 34	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
-35	inscrire	inscrire	VERB	_	VerbForm=Inf	41	reparandum	_	SpaceAfter=No|Subject=NoRaising
-36	,	,	PUNCT	_	_	35	punct	_	_
+35	inscrire	inscrire	VERB	_	VerbForm=Inf	27	acl	_	SpaceAfter=No|Subject=NoRaising
+36	,	,	PUNCT	_	_	41	punct	_	_
 37	pour	pour	ADP	_	_	41	mark	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
-39	euh	euh	INTJ	_	_	41	discourse	_	SpaceAfter=No
+39	euh	euh	INTJ	_	_	41	discourse:filler	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
-41	rendre	rendre	VERB	_	VerbForm=Inf	27	acl	_	Subject=NoRaising
+41	rendre	rendre	VERB	_	VerbForm=Inf	35	conj:reform	_	Subject=NoRaising
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 43	papiers	papier	NOUN	_	Gender=Masc|Number=Plur	41	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-44	.	.	PUNCT	_	_	12	punct	_	_
+44	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_4
 # text = et, dans cette même salle d'attente, il y avait donc, euh, cette fille, Cynthia, avec sa mère et son petit frère.
@@ -126,7 +126,7 @@
 12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 13	donc	donc	ADV	_	_	12	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+15	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	fille	fille	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
@@ -156,7 +156,7 @@
 10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 11	frère	frère	NOUN	_	Gender=Masc|Number=Sing	19	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Exponence[Person]=Inherent
 16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
@@ -189,19 +189,19 @@
 3	n'	ne	ADV	_	_	4	advmod	_	SpaceAfter=No
 4	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-6	bébés	bébé	NOUN	_	Gender=Masc|Number=Plur	11	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+6	bébés	bébé	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 9	pleurent	pleurer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	Exponence[Number]=Absent|SpaceAfter=No
-10	,	,	PUNCT	_	_	6	punct	_	_
-11	entendre	entendre	VERB	_	VerbForm=Inf	4	xcomp	_	Subject=SubjRaising
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	entendre	entendre	VERB	_	VerbForm=Inf	6	conj:reform	_	Subject=SubjRaising
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 13	bébés	bébé	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14	pleurer	pleurer	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No|Subject=ObjRaising
 15	,	,	PUNCT	_	_	25	punct	_	_
-16	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
+16	euh	euh	INTJ	_	_	25	discourse:filler	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	euh	euh	INTJ	_	_	25	discourse	_	SpaceAfter=No
+18	euh	euh	INTJ	_	_	25	discourse:filler	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	que	que	SCONJ	_	_	25	mark	_	_
 21	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
@@ -210,7 +210,7 @@
 24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 25	avion	avion	NOUN	_	Gender=Masc|Number=Sing	11	advcl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 26	,	,	PUNCT	_	_	31	punct	_	_
-27	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
+27	euh	euh	INTJ	_	_	31	discourse:filler	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	dans	dans	ADP	_	_	31	case	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	HasSpokenGender=OnlySingExceptWithLiaison
@@ -218,8 +218,8 @@
 32	d'	de	ADP	_	_	33	case	_	SpaceAfter=No
 33	attente	attente	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 34-35	du	_	_	_	_	_	_	_	_
-34	de	de	ADP	_	_	36	case	_	wordform=du
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+34	de	de	ADP	_	_	36	case	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 37	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -228,23 +228,23 @@
 # speaker = L2
 # text = hum ouais.
 1	hum	hum	INTJ	_	_	2	discourse	_	wordform=mh
-2	ouais	ouais	INTJ	_	_	0	root	_	Backchannel=ParisStories_2021_prenomDeVieille_8::2|SpaceAfter=No
+2	ouais	ouais	INTJ	_	_	0	root	_	Backchannel=ParisStories_2021_prenomDeVieille_8::4|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_10
 # speaker = L2
 # text = je suis d'accord.
-1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
-2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
-4	accord	accord	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	d'	de	ADP	_	ExtPos=ADJ	0	root	_	Idiom=Yes|SpaceAfter=No
+4	accord	accord	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|LiaisonPossibleBefore=Yes|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_11
 # text = et, euh, j'attendais, donc, mon tour.
 1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
-3	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	attendais	attendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent|SpaceAfter=No
@@ -259,22 +259,22 @@
 # text = on est passé.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	passé	passer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+3	passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_13
 # macrosyntax = euh, je suis allée tout de suite, euh, après en cours, et, en fait, je me souviens que j'avais raté, euh, les trois premiers jours de la rentrée parce que j'avais pas, j'avais pas trouvé de lycée, j'avais déménagé [ ouais ] et [ ouais ] il fallait m'affecter au lycée du quartier.
 # text = euh, je suis allée tout de suite, euh, après en cours, et, en fait, je me souviens que j'avais raté, euh, les trois premiers jours de la rentrée parce que j'avais pas, j'avais pas trouvé de lycée, j'avais déménagé et il fallait m'affecter au lycée du quartier.
-1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	allée	aller	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 6	tout	tout	ADV	_	_	8	advmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	suite	suite	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+10	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	après	après	ADV	_	_	5	advmod	_	_
 13	en	en	ADP	_	_	14	case	_	_
@@ -291,9 +291,9 @@
 24	que	que	SCONJ	_	_	27	mark	_	_
 25	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 26	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	27	aux:tense	_	_
-27	raté	rater	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	22	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+27	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 28	,	,	PUNCT	_	_	34	punct	_	_
-29	euh	euh	INTJ	_	_	34	discourse	_	SpaceAfter=No
+29	euh	euh	INTJ	_	_	34	discourse:filler	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 32	trois	trois	NUM	_	_	33	nummod	_	_
@@ -305,31 +305,31 @@
 38	parce	parce	ADV	_	ExtPos=SCONJ	47	mark	_	Idiom=Yes
 39	que	que	SCONJ	_	_	38	fixed	_	InIdiom=Yes
 40	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-41	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	47	reparandum	_	Exponence[Person]=Absent
+41	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	47	reparandum	_	Exponence[Person]=Absent
 42	pas	pas	ADV	_	Polarity=Neg	41	advmod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	41	punct	_	_
 44	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	47	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 45	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	47	aux:tense	_	_
 46	pas	pas	ADV	_	Polarity=Neg	47	advmod	_	_
-47	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	27	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+47	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	27	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 48	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	49	det	_	_
 49	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	47	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 50	,	,	PUNCT	_	_	53	punct	_	_
 51	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	53	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 52	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	53	aux:tense	_	_
-53	déménagé	déménager	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	47	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+53	déménagé	déménager	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	47	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 54	et	et	CCONJ	_	_	56	cc	_	_
 55	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	expl:subj	_	Exponence[Person]=Inherent
 56	fallait	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	47	conj	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 57	m'	moi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=1|PronType=Prs	58	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 58	affecter	affecter	VERB	_	VerbForm=Inf	56	ccomp	_	Subject=NoRaising
 59-60	au	_	_	_	_	_	_	_	_
-59	à	à	ADP	_	_	61	case	_	wordform=au
-60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+59	à	à	ADP	_	_	61	case	_	_
+60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
 61	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	58	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 62-63	du	_	_	_	_	_	_	_	_
-62	de	de	ADP	_	_	64	case	_	wordform=du
-63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+62	de	de	ADP	_	_	64	case	_	_
+63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 65	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -337,17 +337,17 @@
 # speaker = L2
 # macrosyntax = euh, je suis allée tout de suite, euh, après en cours, et, en fait, je me souviens que j'avais raté, euh, les trois premiers jours de la rentrée parce que j'avais pas, j'avais pas trouvé de lycée, j'avais déménagé [ ouais ] et [ ouais ] il fallait m'affecter au lycée du quartier.
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	3	reparandum	_	Backchannel=ParisStories_2021_prenomDeVieille_13::52|SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	ouais	ouais	INTJ	_	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	_
+1	ouais	ouais	INTJ	_	_	0	root	_	Backchannel=ParisStories_2021_prenomDeVieille_13::52|SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	ouais	ouais	INTJ	_	_	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_14
 # text = donc j'avais raté déjà trop de cours, donc j'y suis allée, tout de suite après.
 1	donc	donc	ADV	_	_	4	advmod	_	_
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 3	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
-4	raté	rater	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 5	déjà	déjà	ADV	_	_	4	advmod	_	_
 6	trop	trop	ADV	_	_	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
@@ -357,7 +357,7 @@
 11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	y	y	PRON	_	Person=3|PronType=Prs	14	obj	_	Exponence[Person]=Inherent
 13	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
-14	allée	aller	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+14	allée	aller	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	tout	tout	ADV	_	_	18	advmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
@@ -373,7 +373,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 5	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_15bis
@@ -389,7 +389,7 @@
 
 # sent_id = ParisStories_2021_prenomDeVieille_16
 # text = ah, tu es, tu t'appelles comment?
-1	ah	ah	INTJ	_	_	4	discourse	_	SpaceAfter=No
+1	ah	ah	INTJ	_	_	8	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	reparandum	_	SpaceAfter=No
@@ -417,7 +417,7 @@
 # text = et, euh, donc, voilà, je me suis fait des amis, tout de suite.
 1	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	12	punct	_	_
-3	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	donc	donc	ADV	_	_	12	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
@@ -426,7 +426,7 @@
 9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj:pass	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 10	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	12	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-12	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+12	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	LiaisonAfter=Yes
 14	amis	ami	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
@@ -438,15 +438,15 @@
 # sent_id = ParisStories_2021_prenomDeVieille_20
 # text = et euh la journée se passe, ça se passe très bien.
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	euh	euh	INTJ	_	_	6	discourse	_	_
+2	euh	euh	INTJ	_	_	6	discourse:filler	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	journée	journée	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	expl:pv	_	Exponence[Person]=Inherent
-6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
+6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 9	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	Exponence[Person]=Inherent
-10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:reform	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 11	très	très	ADV	_	_	12	advmod	_	_
 12	bien	bien	ADV	_	_	10	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	_	_
@@ -467,15 +467,15 @@
 # text = donc, euh, j'avais mon emploi du temps et tout ça.
 1	donc	donc	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
 7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 8	emploi	emploi	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	wordform=du
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+9	de	de	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	tout	tout	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
@@ -492,7 +492,7 @@
 
 # sent_id = ParisStories_2021_prenomDeVieille_24
 # text = et devant la salle, je me souviens, on avait physique et devant la salle, je vois cette fille, que j'avais vue hier.
-1	et	et	CCONJ	_	_	19	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	devant	devant	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 4	salle	salle	NOUN	_	Gender=Fem|Number=Sing	16	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
@@ -502,9 +502,9 @@
 8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	discourse	_	Exponence[Person]=Absent|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	parataxis:parenth	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+11	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	parataxis:parenth	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 12	physique	physique	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-13	et	et	CCONJ	_	_	16	cc	_	_
+13	et	et	CCONJ	_	_	19	cc	_	_
 14	devant	devant	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	salle	salle	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
@@ -517,7 +517,7 @@
 23	que	que	PRON	_	PronType=Rel	26	obj	_	_
 24	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 25	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	aux:tense	_	_
-26	vue	voir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	21	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+26	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 27	hier	hier	ADV	_	_	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -527,11 +527,11 @@
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 3	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	5	iobj	_	Exponence[Person]=Inherent
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+5	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 6	,	,	PUNCT	_	_	9	punct	_	_
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	wordform=du
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+7	de	de	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	coup	coup	NOUN	_	Gender=Masc|Number=Sing	5	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	_
 11	si	si	SCONJ	_	_	15	mark	_	_
@@ -543,7 +543,7 @@
 17	que	que	PRON	_	PronType=Rel	20	obj	_	_
 18	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 19	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	aux:tense	_	Filler=obj
-20	vue	voir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	15	advcl:cleft	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+20	vue	voir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	advcl:cleft	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 21	,	,	PUNCT	_	_	26	punct	_	_
 22	si	si	SCONJ	_	_	26	mark	_	_
 23	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
@@ -563,10 +563,10 @@
 37	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	Exponence[Person]=Inherent
 38	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	40	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 39	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux:tense	_	_
-40	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	conj	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+40	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 41	que	que	SCONJ	_	_	42	case	_	_
-42	oui	oui	INTJ	_	_	40	obj	_	Reported=Yes|SpaceAfter=No
-43	.	.	PUNCT	_	_	42	punct	_	_
+42	oui	oui	INTJ	_	_	40	obj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	40	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_26
 # text = et de là on a fait connaissance.
@@ -585,7 +585,7 @@
 2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent
 3	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 6	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent
 8	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
@@ -597,7 +597,7 @@
 14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 15	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	17	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-17	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+17	regardée	regarder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_28
@@ -606,13 +606,13 @@
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 3	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	5	iobj	_	Exponence[Person]=Inherent
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	Reported=Yes
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	Idiom=Yes
 9	peu	peu	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+11	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Reported=Yes
 12	de	de	ADP	_	_	13	case	_	_
 13	vieille	vieux	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 14	!	!	PUNCT	_	_	11	punct	_	_
@@ -620,15 +620,15 @@
 # sent_id = ParisStories_2021_prenomDeVieille_29
 # text = du coup, elle s'est vraiment vexée.
 1-2	du	_	_	_	_	_	_	_	_
-1	de	de	ADP	_	_	3	case	_	wordform=du
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+1	de	de	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	coup	coup	NOUN	_	Gender=Masc|Number=Sing	9	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Exponence[Person]=Inherent
 6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 8	vraiment	vraiment	ADV	_	_	9	advmod	_	_
-9	vexée	vexer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+9	vexée	vexer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_30
@@ -638,7 +638,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
-6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	Tense[denom]=Past
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	Status[Tense]=Denom
 7	amies	ami	ADJ	_	Gender=Masc|Number=Plur	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison
 8	tout	tout	ADV	_	_	10	advmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -649,7 +649,7 @@
 # text = elle, euh, restait avec une autre fille.
 1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Exponence[Person]=Inherent|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 6	avec	avec	ADP	_	_	9	case	_	_
@@ -682,7 +682,7 @@
 4	en	en	ADP	_	ExtPos=ADV	16	discourse	_	Idiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+7	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	finalement	finalement	ADV	_	_	16	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -691,7 +691,7 @@
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	nsubj:pass	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 14	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+16	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 17	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = ParisStories_2021_prenomDeVieille_34
@@ -700,7 +700,7 @@
 2	puis	puis	CCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 6	amie	amie	NOUN	_	Gender=Masc|Number=Sing	5	xcomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	même	même	ADV	_	ExtPos=SCONJ	11	mark	_	Idiom=Yes
@@ -726,7 +726,7 @@
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 10	toujours	toujours	ADV	_	_	14	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+12	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	copines	copine	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
@@ -767,7 +767,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	deux	deux	NUM	_	Number=Sing	2	obl:mod	_	Exponence[Number]=Inherent
+4	deux	deux	NUM	_	ExtPos=PROPN|Number=Sing	2	obl:mod	_	Exponence[Number]=Inherent
 5	mille	mille	NUM	_	_	4	flat	_	_
 6	douze	douze	NUM	_	Number=Plur	4	flat	_	Exponence[Number]=Inherent|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -784,7 +784,7 @@
 # sent_id = ParisStories_2021_prenomDeVieille_40
 # text = et euh, comme quoi, en fait, la rencontre ne détermine pas la façon dont l'amitié va se passer et, euh, et la relation que tu vas avoir avec une personne, en fait.
 1	et	et	CCONJ	_	_	13	cc	_	_
-2	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
+2	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	comme	comme	ADP	_	_	5	case	_	_
 5	quoi	quoi	PRON	_	PronType=Ind	13	obl:mod	_	SpaceAfter=No
@@ -807,7 +807,7 @@
 22	passer	passer	VERB	_	VerbForm=Inf	20	xcomp	_	Subject=SubjRaising
 23	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	29	punct	_	_
-25	euh	euh	INTJ	_	_	29	discourse	_	SpaceAfter=No
+25	euh	euh	INTJ	_	_	29	discourse:filler	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison
