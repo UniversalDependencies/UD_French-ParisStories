@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_French-ParisStories:
-commit 613f33a35a84f339400530ec0be46282c9e570a4
-Merge: c549ab6 ae46490
+commit 2c8f57b9ea2d79126be710233a67a45a8393a769
+Merge: dec76f7 7f7a1d9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fr_parisstories'
 Language code (from CoNLL-U file name) = 'fr'
 Found the following data files: fr_parisstories-ud-dev.conllu, fr_parisstories-ud-test.conllu, fr_parisstories-ud-train.conllu
-Size: counted 42789 of 42789 words (nodes).
-Size: min(0, log((N/1000)**2)) = 7.51256212041879.
+Size: counted 42775 of 42775 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.51190763955651.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 23608 out of 42789 total words have one or more features.
+Features: 23650 out of 42775 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -34,10 +34,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.543777378975546) = 0.201399029250202
+(weight=0.37037037037037) * (score{size}=0.543730006071046) = 0.201381483730017
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
 (weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
-(TOTAL score=0.617134372436526) * (availability=1) * (validity=1) = 0.617134372436526
+(TOTAL score=0.617116826916341) * (availability=1) * (validity=1) = 0.617116826916341
 STARS = 3
-UD_French-ParisStories	0.617134372436526	3
+UD_French-ParisStories	0.617116826916341	3
