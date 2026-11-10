@@ -10,7 +10,7 @@ For an assignment, students had to record a friend or a relative sharing an anec
 The corpus was created for the study of contemporary spoken French and to train a syntactic parser for spoken French.
 All data has been morpho-syntactically annotated following the SUD (Surface Syntactic Universal Dependencies) guidelines.
 
-See SUD Guidelines: https://surfacesyntacticud.github.io/guidelines/u/
+See SUD Guidelines: https://docs.surfacesyntacticud.org/guidelines/universal/
 
 The Treebank can be found here: http://match.grew.fr/?corpus=SUD_French-ParisStories@latest
 
@@ -66,7 +66,7 @@ Topics : first encounters, funny/unusual stories
 
 ## Development
 
-The corpus is maintained [here](https://github.com/surfacesyntacticud/SUD_French-ParisStories) in the [SUD](https://surfacesyntacticud.github.io/) framework and automatically converter into UD using the [Grew](https://grew.fr) software with the conversions rules described [here](https://github.com/surfacesyntacticud/tools/tree/master/converter).
+The corpus is maintained [here](https://github.com/surfacesyntacticud/SUD_French-ParisStories) in the [SUD](https://surfacesyntacticud.org/) framework and automatically converter into UD using the [Grew](https://grew.fr) software with the conversions rules described [here](https://github.com/surfacesyntacticud/conversions).
 
 ## Data Split
 
@@ -148,6 +148,8 @@ An article about the annotation of spoken French will soon be released (Kahane e
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Restore basic (non-layered) featues (see https://github.com/UniversalDependencies/UD_French-GSD/blob/master/README.md for details)
 * 2024-05-15 v2.14
   * Fix a few inconsistent annotation of idioms
   * See [SUD commit logs](https://github.com/surfacesyntacticud/SUD_French-ParisStories/commits/master/) for more details
@@ -168,7 +170,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Gerdes, Kim; Kahane, Sylvain; Mahamdi, Menel
+Contributors: Gerdes, Kim; Kahane, Sylvain; Mahamdi, Menel; Guillaume, Bruno
 Contributing: elsewhere
 Contact: gerdes@lisn.fr
 ===============================================================================

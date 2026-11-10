@@ -36,7 +36,7 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	assez	assez	ADV	_	_	7	advmod	_	_
-7	compliqué	compliquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|SpaceAfter=No|Tense[denom]=Past
+7	compliqué	compliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|SpaceAfter=No|Status[Tense]=Denom
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_4
@@ -44,7 +44,7 @@
 1	donc	donc	ADV	_	_	7	advmod	_	_
 2	en	en	ADP	_	ExtPos=ADV	1	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes
-4	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
+4	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 7	passais	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
@@ -56,7 +56,7 @@
 13	temps	temps	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -97,7 +97,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=3|PronType=Prs	4	obj	_	Exponence[Person]=Inherent
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-4	faits	faire	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+4	faits	faire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 5	en	en	ADP	_	_	6	case	_	_
 6	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
@@ -141,7 +141,7 @@
 9	mettais	mettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	advcl:cleft	_	Exponence[Person]=Absent|Filler=mod
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	dressage	dressage	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -171,7 +171,7 @@
 # text = j'ai appris à connaître.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	appris	apprendre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+3	appris	apprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 4	à	à	ADP	_	_	5	mark	_	_
 5	connaître	connaître	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 6	.	.	PUNCT	_	_	3	punct	_	_
@@ -182,12 +182,12 @@
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
-5	super	super	ADJ	_	Gender=Masc|Number=Sing	9	reparandum	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+5	super	super	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-9	génial	génial	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
+9	génial	génial	ADJ	_	Gender=Masc|Number=Sing	5	conj:reform	_	Exponence[Gender]=Absent|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_17
 # text = j'ai j'ai redécouvert mon cheval.
@@ -195,7 +195,7 @@
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	reparandum	_	_
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-5	redécouvert	redécouvrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+5	redécouvert	redécouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -205,13 +205,13 @@
 1	donc	donc	ADV	_	_	9	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 7	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	Exponence[Person]=Inherent|SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-9	qualifié	qualifier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	qualifié	qualifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 10	assez	assez	ADV	_	_	11	advmod	_	_
 11	facilement	facilement	ADV	_	_	9	advmod	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
@@ -243,7 +243,7 @@
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-5	imposée	imposer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	4	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+5	imposée	imposer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Status[Tense]=Denom
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_21
@@ -257,11 +257,11 @@
 7	que	que	PRON	_	PronType=Rel	10	obj	_	_
 8	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 9	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-10	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 11	tout	tout	ADV	_	_	14	advmod	_	_
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	long	long	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Exponence[Gender]=Absent|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -283,7 +283,7 @@
 11	bout	bout	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	doigts	doigt	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -320,7 +320,7 @@
 4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 5	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	Exponence[Person]=Inherent
 6	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	costumé	costumer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+7	costumé	costumer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 8	à	à	ADP	_	_	9	case	_	_
 9	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
@@ -328,23 +328,23 @@
 # sent_id = ParisStories_2019_concoursEquitation_26
 # text = et euh, j'ai décidé de faire Pirates des Caraïbes.
 1	et	et	CCONJ	_	_	6	cc	_	_
-2	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-6	décidé	décider	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	décidé	décider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 7	de	de	ADP	_	_	8	mark	_	_
 8	faire	faire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
-9	Pirates	pirate	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
+9	Pirates	pirate	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	InTitle=Yes
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	InTitle=Yes
 12	Caraïbes	Caraïbes	PROPN	_	Gender=Fem|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent|InTitle=Yes|SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_27
 # text = parce que déjà les, les musiques, enfin c'est…
-1	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	11	mark	_	Idiom=Yes|SingleSpeaker=Yes
 2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes
 3	déjà	déjà	ADV	_	_	11	discourse	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -354,7 +354,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	enfin	enfin	ADV	_	ExtPos=INTJ	7	discourse	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=mod::ParisStories_2019_concoursEquitation_26::6|SpaceAfter=No
 12	…	…	PUNCT	_	_	11	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_28
@@ -388,16 +388,16 @@
 1	donc	donc	ADV	_	_	7	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 5	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-7	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+7	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 8	sur	sur	ADP	_	_	9	case	_	_
-9	Pirates	pirate	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
+9	Pirates	pirate	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	7	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|Title=Yes
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	InTitle=Yes
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	InTitle=Yes
 12	Caraïbes	Caraïbes	PROPN	_	Gender=Fem|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent|InTitle=Yes|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -405,7 +405,7 @@
 # text = il a fallu que je fasse les montages musicaux.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Exponence[Person]=Inherent
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
-3	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 4	que	que	SCONJ	_	_	6	mark	_	_
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	Exponence[Person]=Absent
@@ -416,17 +416,17 @@
 
 # sent_id = ParisStories_2019_concoursEquitation_33
 # text = parce qu'on a pas le droit d'avoir, euh, de prendre une musique et de la laisser, euh, pendant que tu fais ta truc, ta, ta reprise, c'est interdit !
-1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	Idiom=Yes
+1	parce	parce	ADV	_	ExtPos=SCONJ	4	mark	_	Idiom=Yes|SingleSpeaker=Yes
 2	qu'	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=mod::ParisStories_2019_concoursEquitation_32::3
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 7	droit	droit	NOUN	_	Gender=Masc|Number=Sing	4	obj:lvc	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 8	d'	de	ADP	_	_	9	mark	_	SpaceAfter=No
 9	avoir	avoir	VERB	_	VerbForm=Inf	14	reparandum	_	SpaceAfter=No|Subject=SubjRaising
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
+11	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	de	de	ADP	_	_	14	mark	_	_
 14	prendre	prendre	VERB	_	VerbForm=Inf	7	acl	_	Subject=SubjRaising
@@ -437,7 +437,7 @@
 19	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	Exponence[Person]=Inherent
 20	laisser	laisser	VERB	_	VerbForm=Inf	14	conj	_	SpaceAfter=No|Subject=SubjRaising
 21	,	,	PUNCT	_	_	24	punct	_	_
-22	euh	euh	INTJ	_	_	24	discourse	_	SpaceAfter=No
+22	euh	euh	INTJ	_	_	24	discourse:filler	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	pendant	pendant	ADP	_	ExtPos=ADV	20	advmod	_	Idiom=Yes
 25	que	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes
@@ -463,7 +463,7 @@
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 5	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
-6	calé	caler	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+6	calé	caler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 7	en	en	ADP	_	_	8	case	_	_
 8	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 9	de	de	ADP	_	_	11	case	_	_
@@ -497,7 +497,7 @@
 4	que	que	SCONJ	_	_	7	mark	_	_
 5	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 6	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
-7	déguisé	déguiser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+7	déguisé	déguiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 8	toi	toi	PRON	_	Emph=Yes|Number=Sing|Person=2|PronType=Prs	7	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -506,7 +506,7 @@
 13	que	que	SCONJ	_	_	16	mark	_	_
 14	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 15	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-16	déguisé	déguiser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+16	déguisé	déguiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 18	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -516,7 +516,7 @@
 1	donc	donc	ADV	_	_	8	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Exponence[Person]=Inherent
@@ -529,87 +529,84 @@
 13	trouver	trouver	VERB	_	VerbForm=Inf	12	ccomp	_	Subject=NoRaising
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 15	costume	costume	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-16	adapté	adapter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+16	adapté	adapter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 17-18	au	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_37
-# text = c'est à dire que, te déguiser en pirate c'est bien, mais quand il faut que tu accompagnes, enfin, pour que tu mettes ton cheval avec ça, ça c'est assez compliqué.
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	à	à	ADP	_	_	4	mark	_	_
-4	dire	dire	VERB	_	VerbForm=Inf	0	root	_	Subject=NoRaising
-5	que	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	12	punct	_	_
-7	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	8	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
-8	déguiser	déguiser	VERB	_	VerbForm=Inf	12	dislocated:subj	_	Subject=NoRaising
-9	en	en	ADP	_	_	10	case	_	_
-10	pirate	pirate	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
-13	bien	bien	ADV	_	_	12	advmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	38	punct	_	_
-15	mais	mais	CCONJ	_	_	38	cc	_	_
-16	quand	quand	SCONJ	_	_	18	mark	_	_
-17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	expl:subj	_	Exponence[Person]=Inherent
-18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	Exponence[Person]=Absent
-19	que	que	SCONJ	_	_	21	mark	_	_
-20	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
-21	accompagnes	accompagner	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	ccomp	_	Exponence[Person]=Absent|SpaceAfter=No
-22	,	,	PUNCT	_	_	25	punct	_	_
-23	enfin	enfin	ADV	_	ExtPos=INTJ	25	discourse	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
-25	pour	pour	ADP	_	ExtPos=ADV	21	advmod	_	Idiom=Yes
-26	que	que	SCONJ	_	_	25	fixed	_	InIdiom=Yes
-27	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	28	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
-28	mettes	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	ccomp	_	Exponence[Person]=Absent
-29	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison
-30	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	Exponence[Gender]=Inherent
-31	avec	avec	ADP	_	_	32	case	_	_
-32	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-33	,	,	PUNCT	_	_	18	punct	_	_
-34	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
-35	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
-37	assez	assez	ADV	_	_	38	advmod	_	_
-38	compliqué	compliquer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|SpaceAfter=No|Tense[denom]=Past
-39	.	.	PUNCT	_	_	4	punct	_	_
+# text = c'est-à-dire que, te déguiser en pirate c'est bien, mais quand il faut que tu accompagnes, enfin, pour que tu mettes ton cheval avec ça, ça c'est assez compliqué.
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes
+2	que	que	SCONJ	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	te	toi	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=2|PronType=Prs	5	obj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+5	déguiser	déguiser	VERB	_	VerbForm=Inf	9	dislocated:subj	_	Subject=NoRaising
+6	en	en	ADP	_	_	7	case	_	_
+7	pirate	pirate	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	bien	bien	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	mais	mais	CCONJ	_	_	35	cc	_	_
+13	quand	quand	SCONJ	_	_	15	mark	_	_
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl:subj	_	Exponence[Person]=Inherent
+15	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	Exponence[Person]=Absent
+16	que	que	SCONJ	_	_	18	mark	_	_
+17	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+18	accompagnes	accompagner	VERB	_	Mood=Sub|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	ccomp	_	Exponence[Person]=Absent|SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	enfin	enfin	ADV	_	ExtPos=INTJ	22	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	pour	pour	ADP	_	ExtPos=ADV	18	advmod	_	Idiom=Yes
+23	que	que	SCONJ	_	_	22	fixed	_	InIdiom=Yes
+24	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+25	mettes	mettre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	ccomp	_	Exponence[Person]=Absent
+26	ton	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+27	cheval	cheval	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	Exponence[Gender]=Inherent
+28	avec	avec	ADP	_	_	29	case	_	_
+29	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	27	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+30	,	,	PUNCT	_	_	15	punct	_	_
+31	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	dislocated:subj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+32	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
+33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	assez	assez	ADV	_	_	35	advmod	_	_
+35	compliqué	compliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|SpaceAfter=No|Status[Tense]=Denom
+36	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_38
 # text = donc moi en fait, moi je crois ce que j'avais fait, j'avait acheté un, il y avait un genre de, c'est un chapeau en mousse de pirate qu'on lui a collé sur la tête.
-1	donc	donc	ADV	_	_	8	advmod	_	_
+1	donc	donc	ADV	_	_	17	advmod	_	_
 2	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	6	reparandum	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
-3	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes
+3	en	en	ADP	_	ExtPos=ADV	17	discourse	_	Idiom=Yes
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	8	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
+6	moi	moi	PRON	_	Emph=Yes|Number=Sing|Person=1|PronType=Prs	17	dislocated:subj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent
-8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Exponence[Person]=Absent
-9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
+8	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	discourse	_	Exponence[Person]=Absent
+9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	dislocated	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 10	que	que	PRON	_	PronType=Rel	13	obj	_	_
 11	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 12	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	aux:tense	_	_
-13	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	30	reparandum	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
-14	,	,	PUNCT	_	_	13	punct	_	_
+13	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl:relcl	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|SpaceAfter=No|Status[Tense]=Denom
+14	,	,	PUNCT	_	_	9	punct	_	_
 15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 16	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux:tense	_	_
-17	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	30	reparandum	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-18	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
-19	,	,	PUNCT	_	_	17	punct	_	_
+17	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
+18	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	reparandum	_	Exponence[Person]=Inherent|SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
 20	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	expl:subj	_	Exponence[Person]=Inherent
 21	y	y	PRON	_	Person=3|PronType=Prs	22	expl:comp	_	Exponence[Person]=Inherent
-22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	reparandum	_	Exponence[Number]=Absent|Exponence[Person]=Absent
+22	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	_	Exponence[Number]=Absent|Exponence[Person]=Absent|Graft=Yes
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	genre	genre	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-25	de	de	ADP	_	_	24	dep	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	22	punct	_	_
+25	de	de	ADP	_	_	30	mark	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
 27	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	nsubj	_	Exponence[Gender]=Inherent|Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
-28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	Graft=Yes
 29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	9	acl:relcl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+30	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	24	acl	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 31	en	en	ADP	_	_	32	case	_	_
 32	mousse	mousse	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 33	de	de	ADP	_	_	34	case	_	_
@@ -618,27 +615,27 @@
 36	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	39	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 37	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	39	iobj	_	Exponence[Person]=Inherent
 38	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:tense	_	_
-39	collé	coller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	30	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+39	collé	coller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	30	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 40	sur	sur	ADP	_	_	42	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 42	tête	tête	NOUN	_	Gender=Fem|Number=Sing	39	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-43	.	.	PUNCT	_	_	8	punct	_	_
+43	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_39
 # text = on lui avait fait plein, plein, plein, plein, plein de petites nattes avec des perles au bout.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	4	iobj	_	Exponence[Person]=Inherent
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
-4	fait	faire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Tense[denom]=Past
-5	plein	plein	ADV	_	_	13	reparandum	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
-7	plein	plein	ADV	_	_	13	reparandum	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	plein	plein	ADV	_	_	13	reparandum	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	_
-11	plein	plein	ADV	_	_	13	reparandum	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	plein	plein	ADV	_	_	4	obj	_	_
+4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=Yes|Status[Tense]=Denom
+5	plein	plein	ADV	_	_	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	plein	plein	ADV	_	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	plein	plein	ADV	_	_	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	plein	plein	ADV	_	_	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	plein	plein	ADV	_	_	5	conj	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	petites	petit	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 16	nattes	natte	NOUN	_	Gender=Fem|Number=Plur	13	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -647,7 +644,7 @@
 19	perles	perle	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	22	case	_	_
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	bout	bout	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -655,7 +652,7 @@
 # text = j'avais mis un collier de chasse.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux:tense	_	_
-3	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	PastPartHasSpokenGender=Yes|Tense[denom]=Past
+3	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	PastPartHasSpokenGender=Yes|Status[Tense]=Denom
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	collier	collier	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	de	de	ADP	_	_	7	case	_	_
@@ -688,11 +685,11 @@
 2	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	9	obj	_	Exponence[Person]=Inherent|SpaceAfter=No
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:tense	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+5	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	re~	re~	X	_	ExtPos=VERB|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	reparandum	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	recouvert	recouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 10	de	de	ADP	_	_	11	case	_	_
 11	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 12	doré	doré	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
@@ -702,7 +699,7 @@
 # text = on avait collé des petites perles pour que ça fasse un peu, euh, coffre précieux.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	nsubj	_	Exponence[Gender]=Absent|Exponence[Number]=Inherent|Exponence[Person]=Inherent
 2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:tense	_	_
-3	collé	coller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	collé	coller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 5	petites	petit	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
 6	perles	perle	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -713,7 +710,7 @@
 11	un	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	16	advmod	_	Idiom=Yes
 12	peu	peu	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|InIdiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
-14	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+14	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	coffre	coffre	NOUN	_	Gender=Masc|Number=Sing	10	xcomp	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 17	précieux	précieux	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|SpaceAfter=No
@@ -732,7 +729,7 @@
 9	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	de	de	ADP	_	_	11	case	_	_
 11	monnaie	monnaie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-12	accrochées	accrocher	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	9	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|SpaceAfter=No|Tense[denom]=Past
+12	accrochées	accrocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|SpaceAfter=No|Status[Tense]=Denom
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_45
@@ -765,25 +762,25 @@
 5	y	y	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	Exponence[Person]=Inherent
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	Exponence[Number]=Absent|Exponence[Person]=Absent
 7	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	6	obj	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison
-8	de	de	ADP	_	_	26	case	_	_
+8	de	de	ADP	_	_	10	case	_	_
 9	petits	petit	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-10	ornements	ornement	NOUN	_	Gender=Masc|Number=Plur	26	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
+10	ornements	ornement	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|LiaisonPossibleBefore=Yes
 11	de	de	ADP	_	_	12	case	_	_
 12	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-13	,	,	PUNCT	_	_	10	punct	_	_
-14	euh	euh	INTJ	_	_	17	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
-17	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	26	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
+17	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	10	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
-20	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	26	reparandum	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+20	trucs	truc	NOUN	_	Gender=Masc|Number=Plur	17	conj:reform	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
-22	brillent	briller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	Exponence[Number]=Absent|SpaceAfter=No
-23	,	,	PUNCT	_	_	20	punct	_	_
+22	brillent	briller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	Exponence[Number]=Absent|SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	_
 25	petits	petit	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-26	brillants	brillant	ADJ	_	Gender=Masc|Number=Plur	7	obl:arg	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
+26	brillants	brillant	ADJ	_	Gender=Masc|Number=Plur	20	conj:reform	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 27	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = ParisStories_2019_concoursEquitation_47
@@ -804,7 +801,7 @@
 # text = j'avais acheté un costume de pirate pour le haut.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 2	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux:tense	_	_
-3	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	costume	costume	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 6	de	de	ADP	_	_	7	case	_	_
@@ -823,7 +820,7 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	haut	haut	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
+8	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	dentelé	dentelé	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
@@ -844,7 +841,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Exponence[Number]=Absent|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
+11	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	blazer	blazer	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 14	coupé	coupé	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison
@@ -861,11 +858,11 @@
 6	que	que	PRON	_	PronType=Rel	10	xcomp	_	_
 7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Exponence[Number]=Inherent|Exponence[Person]=Inherent|SpaceAfter=No
 8	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux:tense	_	_
-9	dû	devoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl:relcl	_	Exponence[Gender]=Absent|Exponence[Number]=Absent|PastPartHasSpokenGender=NotInThisDialect|Status[Tense]=Denom
 10	greffer	greffer	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
 11	sur	sur	ADP	_	_	16	case	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
-13	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
+13	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison
 16	bombe	bombe	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
@@ -876,7 +873,7 @@
 1	donc	donc	ADV	_	_	12	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	1	discourse	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	bah	bah	INTJ	_	_	1	discourse	_	SpaceAfter=No
